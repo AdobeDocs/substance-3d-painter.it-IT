@@ -13,7 +13,7 @@ ht-degree: 3%
 
 La **modalità cottura** consente di accedere a tutti gli strumenti e i parametri necessari per creare dolci di alta qualità.
 
-Per accedere alla **modalità cottura**, fate clic sul pulsante (al forno) Croissant in alto a destra nella finestra della vista. In alternativa, utilizzate [la scelta rapida da tastiera ](../interface/settings/shortcuts.md)**F8** o selezionate **Modalità > Mappe trama di cottura**
+Per accedere alla **modalità cottura**, fate clic sul pulsante (al forno) Croissant in alto a destra nella finestra della vista. In alternativa, utilizzate [la scelta rapida da tastiera &#x200B;](../interface/settings/shortcuts.md)**F8** o selezionate **Modalità > Mappe trama di cottura**
 
 ![](../assets/baking/mode_select_buttons.png)
 

@@ -96,7 +96,7 @@ Esempio di sintassi:
 
 Per impostazione predefinita, l’input dell’immagine di un grafico a Substance non ha alcuna spaziatura interna, e l’area esterna all’Isola UV viene solitamente riempita con un colore uniforme per motivi legati alle prestazioni. L&#39;impostazione di riempimento può essere utilizzata per richiedere invece una dilatazione infinita, che può essere utilizzata per i filtri per evitare, ad esempio, la creazione di giunture.
 
-Esempio di sintassi: **p****adding=extend**
+Esempio di sintassi: **p**&#x200B;**adding=extend**
 
 ## Disabilitare un output per impostazione predefinita
 

@@ -74,8 +74,8 @@ Per ripristinare il valore predefinito di una scelta rapida, è sufficiente fare
 | **Seleziona strumento Clona (origine relativa)** | 6 | 6 |  |
 | **Seleziona strumento Clona (origine assoluta)** | Ctrl+6 | ⌘+6 |  |
 | **Mappe Trama In Bake** | Ctrl+Maiusc+B | ⌘+Maiusc+B | Aprite la finestra delle impostazioni di cottura al forno. |
-| **Aumenta dimensione strumento** | **&amp;rbrack;** | **&amp;rbrack;** | Aumentate le dimensioni del pennello per lo strumento di pittura. |
-| **Diminuisci dimensione strumento** | **&amp;lbrack;** | **&amp;lbrack;** | Diminuite le dimensioni del pennello per lo strumento di pittura. |
+| **Aumenta dimensione strumento** | **&rbrack;** | **&rbrack;** | Aumentate le dimensioni del pennello per lo strumento di pittura. |
+| **Diminuisci dimensione strumento** | **&lbrack;** | **&lbrack;** | Diminuite le dimensioni del pennello per lo strumento di pittura. |
 | **Strumento Inverti scala di grigi** | X | X | Se lo strumento di pittura si trova su una maschera, invertite il valore corrente della scala di grigi. |
 | **Selezionare il materiale del tratto** | P | P | Attiva lo strumento Selettore materiale. |
 | **Mouse pigro** | D | D | Attivate il comportamento pigro del mouse sullo strumento corrente. |
