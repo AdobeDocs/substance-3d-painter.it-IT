@@ -22,7 +22,7 @@ ht-degree: 0%
 
 All&#39;avvio dell&#39;applicazione potrebbe essere visualizzato il seguente messaggio di errore:
 
->> 
+&#x200B;>> 
 
 Impossibile avviare l&#39;applicazione perché non è stato possibile inizializzare alcun plug-in della piattaforma Qt. La reinstallazione dell&#39;applicazione potrebbe risolvere il problema.
 

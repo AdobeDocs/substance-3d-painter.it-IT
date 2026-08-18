@@ -244,7 +244,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 * [Auto-Cage] Caricamento infinito quando il percorso del file di tipo High Poly non è valido
 * [Linux][Windows] Il selettore colore a volte può essere completamente nero o non apparire
 * [Strumento Riempimento poligonale] Lo strumento non funziona con file non PBR
-* [[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
+* &lbrack;[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
 * [USD] Le istanze dello shader non vengono tutte rilevate correttamente
 * [Substance] Viene preso in considerazione solo il primo utilizzo di un nodo di input/output
 * [Shader] L’Occlusione Ambiente viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione

@@ -27,7 +27,7 @@ Questa pagina raggruppa le informazioni sui modi per recuperare il percorso di i
 ### Creative Cloud desktop
 
 1. Apri l&#39;editor del Registro di sistema di Windows (**regedit**).
-1. Accedi alla chiave del Registro di sistema: ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Percorsi\**
+1. Accedi alla chiave del Registro di sistema: **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Percorsi\**
 1. Apri la sottochiave **Adobe Substance 3D Painter.exe**
 1. Il valore della chiave contiene il percorso del file eseguibile dell&#39;applicazione in cui è installato
 

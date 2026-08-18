@@ -12,7 +12,7 @@ Automatizza la generazione del documento markdown dei problemi noti per Substanc
 
 I problemi derivano dall&#39;epic Jira `SBSFOUR-6267`. Lo script recupera tutti i problemi, filtra tutto ciò che è già stato risolto nella versione di destinazione e genera un file di markdown formattato pronto per il commit.
 
----
+&#x200B;---
 
 ## Avvio rapido
 
@@ -25,12 +25,13 @@ Questi passaggi presuppongono che la configurazione singola seguente sia già st
    ```
    python fetch_known_issues.py
    ```
+
 4. Controllare il riepilogo dell&#39;output: riporta quanti problemi sono stati recuperati e quanti esclusi
 5. Copia `known-issues.md` generato in `help/release-notes/known-issues.md`
 
 > In caso di problemi mancanti o imprevisti, esaminare `raw_issues.json` per verificare esattamente cosa ha restituito Jira prima di applicare il filtro.
 
----
+&#x200B;---
 
 ## Configurazione singola
 
@@ -64,7 +65,7 @@ OUTPUT_FILE=known-issues.md
 
 `TARGET_VERSION` è la versione di Substance 3D Painter per la quale stai generando la pagina dei problemi noti. Controlla quali problemi risolti sono esclusi. Vedere [Logica di filtro](#filtering-logic) di seguito.
 
----
+&#x200B;---
 
 ## Struttura del repository
 
@@ -78,7 +79,7 @@ OUTPUT_FILE=known-issues.md
 └── known-issues.md            # Generated output from last run — gitignored
 ```
 
----
+&#x200B;---
 
 ## Riferimento Jira
 
@@ -90,7 +91,7 @@ OUTPUT_FILE=known-issues.md
 
 Tutti i problemi noti devono essere collegati a questo epic per essere visualizzati nel documento generato. Se un problema deve essere aggiunto o rimosso dalla pagina, aggiorna l’epica in Jira anziché modificare manualmente il markdown.
 
----
+&#x200B;---
 
 ## Funzionamento dello script
 
@@ -153,7 +154,7 @@ Lo script genera `known-issues.md` con:
 - Righe vuote tra gruppi di categorie
 - Una sezione `## Stability` alla fine per problemi di arresto anomalo
 
----
+&#x200B;---
 
 ## Logica filtro
 
@@ -165,7 +166,7 @@ Lo script genera `known-issues.md` con:
 | `Fixed` | Sì | Correggi versione ≤ destinazione | No (già spedito) |
 | `Fixed` | Sì | Correggi versione > destinazione | Sì (la correzione è in una versione futura) |
 
----
+&#x200B;---
 
 ## Formato di output
 
@@ -194,7 +195,7 @@ This page lists all the active known issues present in v12.0.3 of Substance 3D P
 
 **Nota di formattazione:** i tag di categoria utilizzano il ritorno a capo singolo — `` `[Category]` `` — non il doppio ritorno a capo. Il documento legacy gestito manualmente conteneva errori di doppio segno di spunta indietro; lo script produce sempre il formato corretto.
 
----
+&#x200B;---
 
 ## Risoluzione dei problemi
 
