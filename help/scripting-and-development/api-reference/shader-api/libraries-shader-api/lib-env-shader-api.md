@@ -1,0 +1,128 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+breadcrumb-title: ''
+description: Accedete alla pagina di riferimento per API shader Lib Env in modo che Substance 3D Painter possa lavorare con le mappe dell’ambiente e l’illuminazione negli ombreggiatori personalizzati.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib Env - API shader
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 0%
+
+---
+
+
+# Lib Env - API shader
+
+## lib-env.glsl
+
+**Funzioni pubbliche:** *envSampleLOD* *envIrradiance*
+
+Necessario per le costanti matematiche
+
+```
+import lib-defines.glsl
+```
+
+
+Parametri forniti dal motore
+
+```
+//: param auto texture_environment 
+
+uniform sampler2D environment_texture; 
+
+//: param auto environment_rotation 
+
+uniform float environment_rotation; 
+
+//: param auto environment_exposure 
+
+uniform float environment_exposure; 
+
+//: param auto environment_irrad_mat_red 
+
+uniform mat4 irrad_mat_red; 
+
+//: param auto environment_irrad_mat_green 
+
+uniform mat4 irrad_mat_green; 
+
+//: param auto environment_irrad_mat_blue 
+
+uniform mat4 irrad_mat_blue;
+```
+
+
+Helper che consente di campionare l&#39;ambiente. Si tiene conto della rotazione. La mappa dell&#39;ambiente è una mappa panoramica dell&#39;invidiabile dietro la scena, ecco perché c&#39;è un calcolo aggiuntivo dal vettore dir.
+
+```
+vec3 envSampleLOD(vec3 dir, float lod) 
+
+{ 
+
+  // WORKAROUND: Intel GLSL compiler for HD5000 is bugged on OSX: 
+
+  // https://bugs.chromium.org/p/chromium/issues/detail?id=308366 
+
+  // It is necessary to replace atan(y, -x) by atan(y, -1.0 * x) to force 
+
+  // the second parameter to be interpreted as a float 
+
+  vec2 pos = M_INV_PI * vec2(atan(-dir.z, -1.0 * dir.x), 2.0 * asin(dir.y)); 
+
+  pos = 0.5 * pos + vec2(0.5); 
+
+  pos.x += environment_rotation; 
+
+  return textureLod(environment_texture, pos, lod).rgb * environment_exposure; 
+
+}
+```
+
+
+Restituire l&#39;irradianza per una determinata direzione. Il calcolo si basa sulla proiezione sferica delle armoniche dell&#39;ambiente.
+
+```
+vec3 envIrradiance(vec3 dir) 
+
+{ 
+
+  float rot = environment_rotation * M_2PI; 
+
+  float crot = cos(rot); 
+
+  float srot = sin(rot); 
+
+  vec4 shDir = vec4(dir.xzy, 1.0); 
+
+  shDir = vec4( 
+
+    shDir.x * crot - shDir.y * srot, 
+
+    shDir.x * srot + shDir.y * crot, 
+
+    shDir.z, 
+
+    1.0); 
+
+  return max(vec3(0.0), vec3( 
+
+      dot(shDir, irrad_mat_red * shDir), 
+
+      dot(shDir, irrad_mat_green * shDir), 
+
+      dot(shDir, irrad_mat_blue * shDir) 
+
+    )) * environment_exposure; 
+
+} 
+
+ 
+```
