@@ -190,7 +190,7 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 
 (Pubblicato il 25 settembre 2018)
 
-****Corretto:****
+**&#x200B;**&#x200B;Corretto:**&#x200B;**
 
 * [Vista 2D] La vista 2D è interrotta con alcune trame durante la creazione di un nuovo progetto
 * [Arresto anomalo] Il passaggio dalla proiezione Proiezione UV a quella triplanare causa un arresto anomalo

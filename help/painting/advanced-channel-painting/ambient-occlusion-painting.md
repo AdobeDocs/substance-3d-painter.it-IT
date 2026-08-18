@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Il canale di occlusione ambientale consente di colorare i dettagli nelle ombre ambientali di un oggetto. Può essere utilizzato per aggiungere dettagli AO provenienti da Materiali, o semplicemente correggere manualmente gli errori di cottura quando necessario.
 
->> 
+&#x200B;>> 
 
 Nella computergrafica, l’occlusione ambientale è una tecnica di ombreggiatura e rendering utilizzata per calcolare l’esposizione di ciascun punto di una scena all’illuminazione ambientale. L&#39;interno di un tubo è tipicamente più occluso (e quindi più scuro) rispetto alle superfici esterne esposte, e più si va all&#39;interno del tubo, più occlusa (e più scura) diventa l&#39;illuminazione. L’occlusione ambiente può essere vista come un valore di accessibilità calcolato per ciascun punto della superficie.\
 Fonte: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

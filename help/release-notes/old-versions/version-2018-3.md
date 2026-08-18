@@ -269,7 +269,7 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 * [Import][glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
 * [Import][glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
 * [Esporta][USD] L’opacità non funziona in Arkit
-* [Export][USDz export si blocca in alcuni casi
+* [Export]&lbrack;USDz export si blocca in alcuni casi
 * [Export][USD] L’esportazione in USD senza salvare causa l’arresto anomalo
 * [Esporta][USD] Modalità di suddivisione errata per le texture, modalità di suddivisione per trame e tipi di output per gli ombreggiatori
 * [Esporta][USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria
