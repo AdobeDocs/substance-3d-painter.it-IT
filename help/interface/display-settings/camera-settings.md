@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/camera-settings.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/display-settings/camera-settings.html"
 breadcrumb-title: ''
 description: Scoprite come configurare le impostazioni della fotocamera in Substance 3D Painter per controllare il comportamento e la proiezione della fotocamera nella finestra della vista.
 helpx_creative_field: ""

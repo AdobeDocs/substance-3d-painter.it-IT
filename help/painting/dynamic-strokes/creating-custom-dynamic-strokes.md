@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
 breadcrumb-title: ''
 description: Scoprite come creare tratti dinamici personalizzati in Substance 3D Painter per progettare comportamenti ed effetti unici per il tratto del pennello.
 helpx_creative_field: ""

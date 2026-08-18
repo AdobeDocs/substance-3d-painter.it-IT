@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ''
 description: Scoprite come creare effetti di filtro specifici per i canali in modo che Substance 3D Painter elabori i singoli canali delle texture.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare stratificazione dinamica dei materiali in Substance 3D Painter per fondere e combinare materiali con maschere procedurali.
 helpx_creative_field: ""

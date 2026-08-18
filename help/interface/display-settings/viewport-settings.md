@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/viewport-settings.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/display-settings/viewport-settings.html"
 breadcrumb-title: ''
 description: Scopri come configurare le impostazioni della finestra della vista in Substance 3D Painter per personalizzare le opzioni di visualizzazione e la qualità del rendering.
 helpx_creative_field: ""

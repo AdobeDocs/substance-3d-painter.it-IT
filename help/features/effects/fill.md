@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare l’effetto Riempimento in Substance 3D Painter per riempire i livelli con colori uniformi, texture o materiali.
 helpx_creative_field: ""

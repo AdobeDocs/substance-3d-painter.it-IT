@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/history.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/history.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare il pannello Cronologia in Substance 3D Painter per visualizzare e navigare nella cronologia delle modifiche.
 helpx_creative_field: ""

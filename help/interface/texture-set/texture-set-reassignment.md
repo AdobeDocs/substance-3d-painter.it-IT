@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Scoprite come riassegnare i set di texture in Substance 3D Painter per riorganizzare le assegnazioni di trama e la mappatura delle texture.
 helpx_creative_field: ""

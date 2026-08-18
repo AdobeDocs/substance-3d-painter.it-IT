@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
 description: Scoprite come usare l’effetto Livelli in Substance 3D Painter per regolare la luminosità, il contrasto e la gamma tonale delle texture.
 helpx_creative_field: ""

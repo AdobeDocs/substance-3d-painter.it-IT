@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/environment-settings.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/display-settings/environment-settings.html"
 breadcrumb-title: ''
 description: Scopri come configurare le impostazioni dell’ambiente in Substance 3D Painter per controllare l’illuminazione e lo sfondo per l’anteprima del materiale.
 helpx_creative_field: ""

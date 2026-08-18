@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/log.html'
+helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Informazioni su come accedere e utilizzare la finestra di registro in Substance 3D Painter per visualizzare i messaggi dell'applicazione e le informazioni di debug.
 helpx_creative_field: ''

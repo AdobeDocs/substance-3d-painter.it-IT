@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare il modulo di rendering di raggi in Substance 3D Painter per creare anteprime e rendering di materiale fotorealistici.
 helpx_creative_field: ""
