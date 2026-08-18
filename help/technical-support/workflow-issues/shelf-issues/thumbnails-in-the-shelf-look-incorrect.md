@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
 description: Scopri come correggere la visualizzazione errata delle miniature nello scaffale di Substance 3D Painter per garantire anteprime accurate delle risorse.
 helpx_creative_field: ""

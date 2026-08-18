@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
 breadcrumb-title: ''
 description: Usate la simmetria a specchio in Substance 3D Painter per disegnare simmetricamente lungo un asse e creare texture bilanciate.
 helpx_creative_field: ""

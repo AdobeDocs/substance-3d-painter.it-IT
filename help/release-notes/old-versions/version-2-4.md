@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-4.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2-4.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Per creare query avanzate, vedere la parte dedicata della documentazione: [Query
 
 Con la rielaborazione dello scaffale è stata **migliorata anche la finestra di importazione delle risorse**. La finestra è ora più coerente e può essere **chiamata in tre modi diversi**: tramite il menu File, tramite il pulsante nella finestra dello scaffale o come prima trascinando una risorsa nella finestra dello scaffale. La nuova finestra consente di **impostare rapidamente l&#39;utilizzo** per **più risorse** contemporaneamente, il che significa che non è più necessario trascinare e rilasciare le risorse nella posizione corretta. È stata inoltre aggiunta la possibilità di **specificare un percorso personalizzato** per creare sottocartelle per sfruttare la nuova visualizzazione della struttura.
 
-Per ulteriori informazioni, vedere la parte dedicata della documentazione: [Aggiunta di risorse tramite la finestra di importazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Per ulteriori informazioni, vedere la parte dedicata della documentazione: [Aggiunta di risorse tramite la finestra di importazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### Nuovi predefiniti particelle
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
 breadcrumb-title: ''
 description: Scoprite le best practice per la configurazione di trame e UV in Substance 3D Painter per ottimizzare le prestazioni e la qualità delle texture.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
 description: Scoprite come correggere gli arresti anomali del driver GPU durante i calcoli lunghi in Substance 3D Painter per evitare errori di timeout TDR.
 helpx_creative_field: ""

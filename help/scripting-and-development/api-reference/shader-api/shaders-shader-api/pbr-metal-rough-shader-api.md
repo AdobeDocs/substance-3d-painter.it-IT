@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
 breadcrumb-title: ''
 description: Accedi alla pagina di riferimento PBR Metal Rough API shader per Substance 3D Painter per creare materiali basati fisicamente.
 helpx_creative_field: ""

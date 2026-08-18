@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
 breadcrumb-title: ''
 description: Esaminate il registro delle modifiche di Substance 3D Painter API shader per tenere traccia di aggiornamenti, nuove funzioni e modifiche nel tempo.
 helpx_creative_field: ""

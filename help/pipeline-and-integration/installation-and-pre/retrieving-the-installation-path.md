@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Scopri come recuperare il percorso di installazione per Substance 3D Painter per scopi di scripting e integrazione della pipeline.
 helpx_creative_field: ""

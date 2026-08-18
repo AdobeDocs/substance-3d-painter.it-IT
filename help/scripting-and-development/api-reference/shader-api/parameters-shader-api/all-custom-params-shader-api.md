@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
 description: Accedete al riferimento di API shader Tutti i parametri personalizzati (All Custom Params) per Substance 3D Painter per definire e controllare i parametri dello shader personalizzati.
 helpx_creative_field: ""

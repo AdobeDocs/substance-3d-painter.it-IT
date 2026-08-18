@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento delle API shader Lib Sampler per Substance 3D Painter per campionare trame e dati nello sviluppo di shader personalizzati.
 helpx_creative_field: ""

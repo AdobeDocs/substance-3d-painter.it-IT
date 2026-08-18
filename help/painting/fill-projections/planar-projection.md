@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/planar-projection.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/planar-projection.html"
 breadcrumb-title: ''
 description: Utilizzate la proiezione planare in Substance 3D Painter per proiettare le texture da un piano piatto e applicarle in modo semplice.
 helpx_creative_field: ""

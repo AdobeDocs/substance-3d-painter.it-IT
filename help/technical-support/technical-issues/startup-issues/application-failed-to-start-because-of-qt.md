@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
 breadcrumb-title: ''
 description: Scoprite come correggere gli errori di avvio di Substance 3D Painter causati da problemi del framework Qt per un corretto avvio dell'applicazione.
 helpx_creative_field: ""

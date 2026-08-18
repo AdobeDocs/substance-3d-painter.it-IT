@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
 breadcrumb-title: ''
 description: Informazioni sulla compatibilità dei parametri dei pennelli di Photoshop in Substance 3D Painter durante l’importazione dei predefiniti dei pennelli ABR.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Quando si osserva all’interno del file ABR, Substance 3D Painter recupera solo
 
 ## Parametri
 
-Per ulteriori informazioni sulle funzionalità di questi parametri, consultare la [documentazione ufficiale di Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) .
+Per ulteriori informazioni sulle funzionalità di questi parametri, consultare la [documentazione ufficiale di Photoshop](https://helpx.adobe.com/it/photoshop/using/creating-modifying-brushes.html) .
 
 Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferimento alla legenda per conoscere lo stato di ogni parametro descritto di seguito:
 

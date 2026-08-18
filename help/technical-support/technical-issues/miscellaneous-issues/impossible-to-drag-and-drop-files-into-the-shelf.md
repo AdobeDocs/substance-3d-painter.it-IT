@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
 breadcrumb-title: ''
 description: Scopri come risolvere i problemi di trascinamento quando si aggiungono file allo scaffale in Substance 3D Painter per una gestione efficiente delle risorse.
 helpx_creative_field: ""

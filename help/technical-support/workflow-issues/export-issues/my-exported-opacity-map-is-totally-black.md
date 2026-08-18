@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
 breadcrumb-title: ''
 description: Scopri come correggere le mappe di opacità esportate che appaiono completamente nere in Substance 3D Painter per una corretta esportazione della trasparenza.
 helpx_creative_field: ""

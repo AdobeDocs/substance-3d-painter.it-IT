@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Usa la proiezione dell’alterazione in Substance 3D Painter per proiettare texture con effetti distorsione per una pittura creativa.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
 breadcrumb-title: ''
 description: Scoprite come correggere l'aspetto della trama rosa nella finestra della vista di Substance 3D Painter per ripristinare il rendering corretto del materiale.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ La trama può apparire **rosa** all&#39;interno della finestra della vista perch
 Ecco come risolvere il problema:
 
 * Per **shader predefiniti**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../../../interface/shader-settings/updating-a-shader.md).
-* Per **shader personalizzato**: esamina il messaggio di errore nella finestra del registro e la pagina [API shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Per **shader personalizzato**: esamina il messaggio di errore nella finestra del registro e la pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

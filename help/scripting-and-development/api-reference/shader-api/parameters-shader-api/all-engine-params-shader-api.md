@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
 breadcrumb-title: ''
 description: Per controllare i parametri dello shader a livello di motore, accedere al riferimento di API shader Tutti i param motore (All Engine Params) in Substance 3D Painter.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Scopri le best practice per la gestione dei livelli in Substance 3D Painter per ottimizzare le prestazioni e gestire i progetti organizzati.
 helpx_creative_field: ""
