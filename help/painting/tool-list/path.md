@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/path.html"
 breadcrumb-title: ''
 description: Usate lo strumento Tracciato in Substance 3D Painter per creare e modificare i tracciati per una pittura e un posizionamento precisi della traccia.
 helpx_creative_field: ""

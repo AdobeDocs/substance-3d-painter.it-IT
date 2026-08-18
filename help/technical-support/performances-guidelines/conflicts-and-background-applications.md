@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/conflicts-and-background-applications.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/performances-guidelines/conflicts-and-background-applications.html"
 breadcrumb-title: ''
 description: Scopri come identificare e risolvere i conflitti con le applicazioni in background in Substance 3D Painter per prestazioni ottimali.
 helpx_creative_field: ""

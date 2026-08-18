@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare il mouse pigro in Substance 3D Painter per creare pennellate fluide e uniformi con risposta ritardata del cursore.
 helpx_creative_field: ""

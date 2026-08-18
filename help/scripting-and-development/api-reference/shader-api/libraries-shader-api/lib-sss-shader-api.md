@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
 breadcrumb-title: ''
 description: Per Substance 3D Painter, accedi alla pagina di riferimento per API shader Lib SSS per creare effetti di dispersione sotto la superficie in ombreggiatori personalizzati.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/paint.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare l’effetto Disegno in Substance 3D Painter per applicare tratti pennello ed effetti di pittura delle texture ai livelli.
 helpx_creative_field: ""

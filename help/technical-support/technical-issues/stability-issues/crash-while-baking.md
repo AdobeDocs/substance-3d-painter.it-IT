@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: Scoprite come correggere gli arresti anomali di Substance 3D Painter durante le operazioni di cottura al forno per flussi di lavoro affidabili di cottura delle texture.
 helpx_creative_field: ""

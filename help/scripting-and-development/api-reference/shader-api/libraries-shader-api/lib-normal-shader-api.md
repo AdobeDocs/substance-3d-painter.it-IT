@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento Lib Normal API shader in modo che Substance 3D Painter possa lavorare con le mappe normali e le normali di superficie negli ombreggiatori personalizzati.
 helpx_creative_field: ""

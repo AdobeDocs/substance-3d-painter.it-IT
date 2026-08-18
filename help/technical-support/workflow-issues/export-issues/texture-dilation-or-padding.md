@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
 description: Scoprite come usare la dilatazione e la spaziatura interna delle texture in Substance 3D Painter per evitare artefatti dei bordi nelle texture esportate.
 helpx_creative_field: ""

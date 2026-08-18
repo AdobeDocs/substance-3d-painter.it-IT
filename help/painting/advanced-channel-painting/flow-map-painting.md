@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
 breadcrumb-title: ''
 description: Scoprite come colorare le mappe di flusso in Substance 3D Painter per controllare la direzione del flusso del materiale e gli effetti anisotropi.
 helpx_creative_field: ""

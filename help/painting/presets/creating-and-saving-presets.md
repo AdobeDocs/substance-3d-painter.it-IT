@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: Scoprite come creare e salvare i pennelli predefiniti in Substance 3D Painter per creare una libreria riutilizzabile di strumenti di pittura personalizzati.
 helpx_creative_field: ""

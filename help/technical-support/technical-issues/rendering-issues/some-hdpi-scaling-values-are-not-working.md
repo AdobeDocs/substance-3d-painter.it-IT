@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.html"
 breadcrumb-title: ''
 description: Scoprite come correggere i problemi relativi al valore di ridimensionamento HDPI in Substance 3D Painter per un corretto supporto dello schermo ad alta risoluzione.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare la scheda della libreria secondaria in Substance 3D Painter per organizzare e accedere alle librerie di risorse nidificate.
 helpx_creative_field: ""

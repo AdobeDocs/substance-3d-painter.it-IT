@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
 description: Scoprite come creare nuovi livelli in Substance 3D Painter per creare texture complesse con più livelli di pittura.
 helpx_creative_field: ""

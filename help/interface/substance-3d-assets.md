@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/substance-3d-assets.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/substance-3d-assets.html"
 breadcrumb-title: ''
 description: Scopri come accedere a e utilizzare Substance 3D Assets in Substance 3D Painter per sfogliare e importare modelli e materiali 3D.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la gestione colore di Adobe e ICC in Substance 3D Painter per flussi di lavoro di colore coerenti.
 helpx_creative_field: ""

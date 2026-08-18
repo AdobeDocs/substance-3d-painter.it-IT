@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare le proiezioni di riempimento in Substance 3D Painter per applicare texture utilizzando vari metodi di proiezione per una pittura efficiente.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare il menu Modifica in Substance 3D Painter per accedere alle operazioni di annullamento, ripetizione e modifica.
 helpx_creative_field: ""

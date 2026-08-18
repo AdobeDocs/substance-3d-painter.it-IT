@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: Usate lo strumento barra multifunzione in Substance 3D Painter per creare tratti di pittura a nastro lungo i tracciati per la pittura di texture decorativa.
 helpx_creative_field: ""

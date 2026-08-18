@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare l’effetto di post-elaborazione riflesso in Substance 3D Painter per aggiungere effetti di bagliore e bagliore dell’obiettivo alle aree luminose.
 helpx_creative_field: ""

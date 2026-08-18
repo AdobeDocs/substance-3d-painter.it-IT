@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
 breadcrumb-title: ''
 description: Scopri come correggere le finestre di visualizzazione e le texture sfocate in Substance 3D Painter per garantire una qualità visiva nitida e chiara.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Le finestre delle viste possono apparire sfocate per motivi diversi.
 
 Per impostazione predefinita, Substance 3D Painter riduce la risoluzione del viewport sullo schermo High-DPI/Retina per migliorare le prestazioni.
 
-Questo comportamento può essere modificato nelle [impostazioni principali](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) modificando il parametro **Ridimensionamento finestra vista**.
+Questo comportamento può essere modificato nelle [impostazioni principali](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/general-71008262.html) modificando il parametro **Ridimensionamento finestra vista**.
 
 ## Filtro Texture
 
