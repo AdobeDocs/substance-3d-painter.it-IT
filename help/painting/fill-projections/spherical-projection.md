@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/spherical-projection.html"
 breadcrumb-title: ''
 description: Usate proiezione sferica in Substance 3D Painter per proiettare le texture da una sfera per disporre le texture attorno agli oggetti.
 helpx_creative_field: ""
