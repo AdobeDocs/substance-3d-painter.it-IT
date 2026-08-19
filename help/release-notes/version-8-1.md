@@ -196,10 +196,10 @@ Ora le trame vengono tagliate in Isole UV separate utilizzando un metodo che si 
 * [Gestione colore] Consente di inserire valori di colore lineari nel Selettore colore con la modalità Legacy
 * [Gestione colore] Consente di specificare il profilo colore utilizzato per la selezione del colore al di fuori dell&#39;interfaccia utente
 * [Gestione colore] Ricordare l&#39;ultimo valore di visualizzazione scelto nella finestra della vista
-* [Gestione colore][Substance] Fate funzionare correttamente i generatori/filtri con la Gestione colore
-* [Gestione colore][Substance] Aggiungi nuove parole chiave di esclusione dello spazio colore $working e $standardsrgb
-* [Dimensioni fisiche][Engine] Estrai informazioni dimensioni fisiche dalla trama
-* Calcolo Dimensioni fisiche [Dimensioni fisiche][Engine]
+* [Gestione colore]&#x200B;[Substance] Fate funzionare correttamente i generatori/filtri con la Gestione colore
+* [Gestione colore]&#x200B;[Substance] Aggiungi nuove parole chiave di esclusione dello spazio colore $working e $standardsrgb
+* [Dimensioni fisiche]&#x200B;[Engine] Estrai informazioni dimensioni fisiche dalla trama
+* Calcolo Dimensioni fisiche [Dimensioni fisiche]&#x200B;[Engine]
 * [Dimensioni fisiche] Esporre le opzioni per utilizzare dimensioni fisiche nell&#39;interfaccia utente
 * [Dimensioni fisiche] Aggiungere gli helper visivi nella finestra della vista
 * [Baking] Aggiungere Height
@@ -235,13 +235,13 @@ Ora le trame vengono tagliate in Isole UV separate utilizzando un metodo che si 
 
 * [glTF] Impossibile aprire glTF con carattere speciale
 * [Engine] Artefatti con anisotropia e SVT disattivati
-* [MacOS][M1] I materiali avanzati non vengono visualizzati correttamente
+* [MacOS]&#x200B;[M1] I materiali avanzati non vengono visualizzati correttamente
 * [Elaborazione trama] Impossibile importare trame da Modeler
 * [UI] Barra di scorrimento orizzontale nella nuova finestra del progetto con la Gestione colore attivata
 * [Gestione colore] Valore dello spazio di lavoro mancante nel selettore colore con alcune configurazioni OCIO
 * [Gestione colore] L’anteprima del pennello nella finestra della vista non è sottoposta alla gestione del colore
 * [SpaceMouse] Il pivot non viene aggiornato immediatamente con la modifica dello stato attivo e a volte fuori dal modello
-* [Export][USD] I file USD esportati hanno una struttura errata
+* [Export]&#x200B;[USD] I file USD esportati hanno una struttura errata
 * [USD] Problema di Occlusione ambientale durante l’esportazione
 * [Content] Aggiorna la trama della miniatura in modo che corrisponda al progetto di esempio Preview Sphere
 

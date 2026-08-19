@@ -247,21 +247,21 @@ Riepilogo: <b>Versione principale che introduce il supporto per SVG e trasparenz
 <b>Aggiunto:</b>
 
 * [SVG] Consenti l’importazione di file vettoriali (SVG)
-* [SVG][UI] Aggiungi il supporto per le proprietà specifiche dei SVG
+* [SVG]&#x200B;[UI] Aggiungi il supporto per le proprietà specifiche dei SVG
 * [SVG] Aggiungete un’opzione per mantenere facilmente le proporzioni originali dell’immagine
 * [SVG] Consenti l&#39;utilizzo automatico del canale alfa di SVG con trasparenza
 * [Interoperabilità] Consente di inviare una trama con texture ad After Effects (Ae 24.1 beta)
 * [Interoperabilità] Aggiungere impostazioni per Invia a After Effects
-* [QoL][Assets][UI] Importa automaticamente risorsa durante il trascinamento nello slot dell&#39;interfaccia utente
+* [QoL]&#x200B;[Assets]&#x200B;[UI] Importa automaticamente risorsa durante il trascinamento nello slot dell&#39;interfaccia utente
 * [QoL] Consente di trascinare e rilasciare risorse esterne nella pila di livelli
-* [QoL][Serie di livelli] Trascina le texture dal pannello Risorse alla serie di livelli
-* [QoL][Viewport] Consente di trascinare e rilasciare il generatore, filtri sulla trama
-* [QoL][Finestra vista] Consente di rilasciare risorse esterne sulla trama
-* [QoL][Proiezione] Aggiungi un nuovo set UV alla modalità di proiezione del set UV
+* [QoL]&#x200B;[Serie di livelli] Trascina le texture dal pannello Risorse alla serie di livelli
+* [QoL]&#x200B;[Viewport] Consente di trascinare e rilasciare il generatore, filtri sulla trama
+* [QoL]&#x200B;[Finestra vista] Consente di rilasciare risorse esterne sulla trama
+* [QoL]&#x200B;[Proiezione] Aggiungi un nuovo set UV alla modalità di proiezione del set UV
 * [QoL] Trascinate le maschere avanzate come nuovi livelli nella finestra della vista e nella pila di livelli
 * [QoL] Aggiungi selettore per i generatori con più output quando utilizzati nella maschera
 * [QoL] Consente di trascinare e rilasciare immagini a canale singolo su un effetto di riempimento
-* [QoL][Serie di livelli] Utilizzate i modificatori CTRL/ALT con il trascinamento per specificare dove/come creare effetti/livello
+* [QoL]&#x200B;[Serie di livelli] Utilizzate i modificatori CTRL/ALT con il trascinamento per specificare dove/come creare effetti/livello
 * [Tracciato] Attiva/disattiva la visibilità dei tracciati singolarmente nel pannello Tracciato
 * [Tracciato] Consenti l&#39;utilizzo di manipolatori di trasformazione per i punti di tracciato
 * [Path] Consente di controllare manualmente le tangenti per vertice
@@ -281,7 +281,7 @@ Riepilogo: <b>Versione principale che introduce il supporto per SVG e trasparenz
 * [Prestazioni] Applicate la compressione senza perdita di dati alle immagini a 16 bit per ridurre l’ingombro del progetto
 * [Python] Consenti di manipolare la videocamera predefinita nella vista 3D
 * [Python] Esporta la possibilità di esportare trama tramite scripting
-* [Content][Samples] Aggiungi un nuovo progetto di esempio &quot;French Restaurant Table&quot;
+* [Content]&#x200B;[Samples] Aggiungi un nuovo progetto di esempio &quot;French Restaurant Table&quot;
 * [Content] Aggiorna Substance logo alpha alla nuova versione
 * [Contenuto] Aggiungi tre filtri di materiale focalizzati sui SVG (Adesivo personalizzato, Spruzzo personalizzato e Grafica su materiale)
 
@@ -296,18 +296,18 @@ Riepilogo: <b>Versione principale che introduce il supporto per SVG e trasparenz
 * [UI] In alcuni casi la freccia contestuale della barra degli strumenti non viene visualizzata
 * [Substance] Il pulsante affiancato per i valori booleani non è supportato
 * [Level] Etichetta del canale errata quando utilizzata nella maschera
-* [Export][glTF] i file glTF/GLB esportati da Painter non dispongono di un&#39;unità di dimensioni fisiche
+* [Export]&#x200B;[glTF] i file glTF/GLB esportati da Painter non dispongono di un&#39;unità di dimensioni fisiche
 * [Content] L’intensità del filtro Sfocatura è bloccata su 16
 * [Content] L&#39;input dell&#39;immagine &quot;colore di destinazione&quot; del filtro Corrispondenza colori non è visibile
 
 <b>Problemi noti:</b>
 
 * [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Crash][Linux] con Linux Wayland su AMD quando si trascina e si rilascia una risorsa nello stack di livelli
-* [Arresto anomalo][Mac] Modifica del valore di filtro anisotropo nel sistema operativo Monterey
+* [Crash]&#x200B;[Linux] con Linux Wayland su AMD quando si trascina e si rilascia una risorsa nello stack di livelli
+* [Arresto anomalo]&#x200B;[Mac] Modifica del valore di filtro anisotropo nel sistema operativo Monterey
 * [Arresto anomalo] Esr utilizzato come input dell’immagine
 * [Arresto anomalo] Utilizzo di una mappa dell&#39;ambiente a 16 K
 * [Annullamento automatico] Problema di interfaccia utente per il controllo della densità del testo
-* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sullo schermo hd
+* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sullo schermo hd
 * [Python] Arresto anomalo durante l’esportazione di USD attivato da TextureStateEvent
 * [QoL] Se si trascina una risorsa Alpha in modalità decalcomania, viene creata una Proiezione UV nella maschera

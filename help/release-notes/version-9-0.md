@@ -167,9 +167,9 @@ Riepilogo: <b>Versione principale con Pittura lungo il percorso che consente cur
 * [Tratti dinamici] Aggiungi proprietà distanza per tratti dinamici
 * [Tratti dinamici] Aggiungere dimensioni e proprietà di spaziatura ai tratti dinamici
 * [Tratti dinamici] Aggiungi proprietà inizio/metà/fine per tratti dinamici
-* [Python][USD] Esporre i parametri di configurazione del progetto per il formato USD
-* [Python][USD] Esporre i parametri di creazione del progetto per il formato USD
-* [Esporta][USD] Aggiungi le informazioni sul percorso del progetto nel file USD esportato
+* [Python]&#x200B;[USD] Esporre i parametri di configurazione del progetto per il formato USD
+* [Python]&#x200B;[USD] Esporre i parametri di creazione del progetto per il formato USD
+* [Esporta]&#x200B;[USD] Aggiungi le informazioni sul percorso del progetto nel file USD esportato
 * [GLTF] Aggiorna le texture nella libreria durante il ricaricamento di un file GLTF
 * [Shader] Riduci gli artefatti di giuntura per Isole UV con orientamento diverso
 * [Engine] Aggiornamento alla versione 9.0 del motore di Substance
