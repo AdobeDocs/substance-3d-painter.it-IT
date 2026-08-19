@@ -299,7 +299,7 @@ Riepilogo: **Bugfix con aggiornamento a Iray 2019.3**
 * [Tablet] Rilevamento errato durante lo spostamento dei cursori
 * [Shortcuts] Impossibile impostare qualsiasi scelta rapida con &quot;Ctrl+Alt+MouseClick&quot;
 * [Shelf] Impossibile visualizzare la descrizione comando della risorsa quando si utilizza una tavoletta a penna
-* [Vista 2D][Esporta] Il predefinito Vista 2D non tiene conto delle informazioni normali
+* [Vista 2D]&#x200B;[Esporta] Il predefinito Vista 2D non tiene conto delle informazioni normali
 * Si verifica un blocco con quando si disegna in allineamento UV con determinati pennelli
 * Colorare sotto un filtro crea un artefatto sul tratto in corso
 * [Finestra vista] Cache delle texture errata nella finestra della vista dopo la reimportazione di una trama
@@ -380,28 +380,28 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Srotolamento UV] Srotolamento UV automatico nella Substance Painter quando non sono presenti UV o UV parziali
 * [Srotolamento UV] Un&#39;impostazione globale per attivarla e disattivarla
 * [Annullamento del wrapping UV] Versione riportata nel file di log
-* [Annullamento UV][UI] Indica l&#39;avanzamento dello srotolamento UV
+* [Annullamento UV]&#x200B;[UI] Indica l&#39;avanzamento dello srotolamento UV
 * [UI] Nuove impostazioni nella barra degli strumenti contestuale per selezionare l&#39;anteprima del pennello: anteprima completa, contorno del pennello e mirino
 * [Tool] Nuovo metodo di fusione avanzato nella sezione alfa: Schiarisci (Massimo) oltre a Normale
 * [Serie di livelli] Opzione di correzione gamma per livello per canale alfa o maschera (menu di scelta rapida)
-* [Layer Stack][UI] Aggiungi icona &quot;i&quot; quando un livello alfa è corretto dal gamma
-* [Tablet][Strumento] Esporre la pressione minima per le dimensioni e il flusso
-* [Tablet][UI] Nuova impostazione nella barra degli strumenti contestuale per selezionare la pressione della curva: lineare, intuitivo, intuitivo
-* [Tablet][UX] Aggiungi Ctrl+Alt+clic per scorrere
+* [Layer Stack]&#x200B;[UI] Aggiungi icona &quot;i&quot; quando un livello alfa è corretto dal gamma
+* [Tablet]&#x200B;[Strumento] Esporre la pressione minima per le dimensioni e il flusso
+* [Tablet]&#x200B;[UI] Nuova impostazione nella barra degli strumenti contestuale per selezionare la pressione della curva: lineare, intuitivo, intuitivo
+* [Tablet]&#x200B;[UX] Aggiungi Ctrl+Alt+clic per scorrere
 * Importare pennelli predefiniti di Photoshop (formato ABR)
 * [ABR] Supporta i parametri Shape
 * [ABR] Supporta i parametri della dinamica delle forme
 * [ABR] Parametri di trasferimento del supporto
 * [ABR] Supporta i parametri di dispersione
-* [ABR][Tratti dinamici] Supporta rotondità e capovolgimento
-* [ABR][Shelf] Esporre la struttura di cartelle dei pennelli nell&#39;Editor filtri
-* [ABR][Ripiano] Aggiungere l’icona di Photoshop nelle miniature
-* [ABR][Shelf] Aggiungi un elenco di parametri non supportati nella miniatura dettagliata ABR
-* [Strumento][Tratti dinamici] Nuova impostazione del tratto dinamico per controllare il numero di inizializzazione casuale da generare
-* [Tool][UI] Aggiungi nuove impostazioni di distribuzione e asse per la variazione di dispersione
+* [ABR]&#x200B;[Tratti dinamici] Supporta rotondità e capovolgimento
+* [ABR]&#x200B;[Shelf] Esporre la struttura di cartelle dei pennelli nell&#39;Editor filtri
+* [ABR]&#x200B;[Ripiano] Aggiungere l’icona di Photoshop nelle miniature
+* [ABR]&#x200B;[Shelf] Aggiungi un elenco di parametri non supportati nella miniatura dettagliata ABR
+* [Strumento]&#x200B;[Tratti dinamici] Nuova impostazione del tratto dinamico per controllare il numero di inizializzazione casuale da generare
+* [Tool]&#x200B;[UI] Aggiungi nuove impostazioni di distribuzione e asse per la variazione di dispersione
 * [Scelta rapida] Aggiungi Ctrl+Maiusc+B per aprire la finestra Baking
-* [UI][Menu] Aggiungi voce nel menu &quot;Modifica&quot; per aprire la finestra Baking
-* [UI][Impostazioni] Miglioramento dell’allineamento dell’elenco delle scelte rapide
+* [UI]&#x200B;[Menu] Aggiungi voce nel menu &quot;Modifica&quot; per aprire la finestra Baking
+* [UI]&#x200B;[Impostazioni] Miglioramento dell’allineamento dell’elenco delle scelte rapide
 * [UI] Sostituire le icone dei controlli pressione (dimensioni e flusso) con i pulsanti di attivazione/disattivazione
 * [Riquadro di visualizzazione] Consente di mettere a fuoco separatamente il riquadro di visualizzazione 2D e 3D
 * Aggiornamento a QT 5.12.5
@@ -432,9 +432,9 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Tablet] In rari casi, le scelte rapide per modificare i pennelli a penna comportano prestazioni ridotte
 * [Tablet] Ritardo quando si disegna su un livello specifico
 * In rari casi, quando si cambia finestra, possono verificarsi texture sfocate
-* [UI][Substance] Gli input dell’immagine non vengono sempre visualizzati
+* [UI]&#x200B;[Substance] Gli input dell’immagine non vengono sempre visualizzati
 * L’opzione Pulisci non rimuove dal ripiano i predefiniti importati in un progetto
-* [Strumento][Tratto dinamico] Problema di prestazioni durante l&#39;ottimizzazione del conteggio dei cicli del timbro
+* [Strumento]&#x200B;[Tratto dinamico] Problema di prestazioni durante l&#39;ottimizzazione del conteggio dei cicli del timbro
 * In rari casi, problemi di aggiornamento durante l’uso della modalità finestra vista 3D/2D
 * Colorare un tratto molto lungo può portare a un blocco
 * [Tool] Problema di prestazioni quando si disegna con tratti dinamici specifici

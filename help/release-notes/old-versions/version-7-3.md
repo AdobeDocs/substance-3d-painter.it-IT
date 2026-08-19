@@ -129,18 +129,18 @@ Riepilogo: **Versione principale. Contiene una nuova proiezione di alterazione 3
 
 **Aggiunto:**
 
-* [Proiezione][Altera] Esporre l’alterazione 3D come nuova modalità di proiezione
-* [Proiezione][Altera] Consente la modalità decalcomania per Alpha, texture e procedurali con trascinamento nella finestra della vista
-* [Proiezione][Altera] Usa proiezione alterazione con scelta rapida decalcomania (ALT)
-* [Proiezione][Altera][Barra degli strumenti] Trasforma l’alterazione nel suo insieme o per vertici
-* [Proiezione][Altera][Barra degli strumenti] Aggiungi punti della griglia con opzioni Dividi alterazione a croce, in orizzontale o verticale
-* [Proiezione][Altera][Barra degli strumenti] Menu dedicato per le azioni di ripristino
-* Opzione [Proiezione][Altera][Barra degli strumenti] per regolare automaticamente le tangenti quando si spostano i punti
-* [Proiezione][Altera][Barra degli strumenti] Menu dedicato per l&#39;edizione della griglia (dimensioni, reimpostazione, colore e dimensione della maniglia)
-* [Proiezione][Altera] Nuova scelta rapida da tastiera per cambiare la modalità edizione alterazione vertici interi (MAIUSC+V)
-* [Proiezione][Altera] Fare clic + Ctrl per passare dallo strumento superficie ad altri strumenti
-* [Proiezione][Cilindrica] Esposizione della modalità di proiezione cilindrica
-* [Proiezione][Barra degli strumenti] Impostazioni manipolatore gruppo (dimensioni, passaggi griglia, passaggi angolo)
+* [Proiezione]&#x200B;[Altera] Esporre l’alterazione 3D come nuova modalità di proiezione
+* [Proiezione]&#x200B;[Altera] Consente la modalità decalcomania per Alpha, texture e procedurali con trascinamento nella finestra della vista
+* [Proiezione]&#x200B;[Altera] Usa proiezione alterazione con scelta rapida decalcomania (ALT)
+* [Proiezione]&#x200B;[Altera]&#x200B;[Barra degli strumenti] Trasforma l’alterazione nel suo insieme o per vertici
+* [Proiezione]&#x200B;[Altera]&#x200B;[Barra degli strumenti] Aggiungi punti della griglia con opzioni Dividi alterazione a croce, in orizzontale o verticale
+* [Proiezione]&#x200B;[Altera]&#x200B;[Barra degli strumenti] Menu dedicato per le azioni di ripristino
+* Opzione [Proiezione]&#x200B;[Altera]&#x200B;[Barra degli strumenti] per regolare automaticamente le tangenti quando si spostano i punti
+* [Proiezione]&#x200B;[Altera]&#x200B;[Barra degli strumenti] Menu dedicato per l&#39;edizione della griglia (dimensioni, reimpostazione, colore e dimensione della maniglia)
+* [Proiezione]&#x200B;[Altera] Nuova scelta rapida da tastiera per cambiare la modalità edizione alterazione vertici interi (MAIUSC+V)
+* [Proiezione]&#x200B;[Altera] Fare clic + Ctrl per passare dallo strumento superficie ad altri strumenti
+* [Proiezione]&#x200B;[Cilindrica] Esposizione della modalità di proiezione cilindrica
+* [Proiezione]&#x200B;[Barra degli strumenti] Impostazioni manipolatore gruppo (dimensioni, passaggi griglia, passaggi angolo)
 * [Selettore colore] Nuova interfaccia utente del selettore colore
 * [Selettore colore] Usare i valori sRGB nei widget del selettore colore
 * [Selettore colore] Consente di salvare ed eliminare i campioni di colore
@@ -151,9 +151,9 @@ Riepilogo: **Versione principale. Contiene una nuova proiezione di alterazione 3
 * [Selettore colore] Premendo Esc si chiude la finestra del selettore colore
 * Miglioramento delle prestazioni per l’interazione dell’interfaccia utente e durante la pittura
 * [Engine] Aggiornamento alla nuova versione del motore di Substance (8.3.0)
-* [Scripting][Python] Consente di ricaricare la trama del progetto corrente
-* [Scripting][Python] Consente di aggiornare le risorse nei progetti
-* [Scripting][Python] Consenti di impostare ed eseguire query sulla risoluzione dei riquadri UV
+* [Scripting]&#x200B;[Python] Consente di ricaricare la trama del progetto corrente
+* [Scripting]&#x200B;[Python] Consente di aggiornare le risorse nei progetti
+* [Scripting]&#x200B;[Python] Consenti di impostare ed eseguire query sulla risoluzione dei riquadri UV
 * [Interoperabilità] Non disponibile per le edizioni Steam e Substance
 * [Interoperabilità] Ricezione di più risorse da Bridge
 
@@ -168,9 +168,9 @@ Riepilogo: **Versione principale. Contiene una nuova proiezione di alterazione 3
 
 **Problemi noti:**
 
-* [Proiezione][Altera] L’opzione Dividi rimane selezionata al termine della divisione
-* [Proiezione][Altera] L’opzione Capovolgi non funziona quando la trasformazione è impostata sullo spazio mondo
-* [Proiezione][Altera] Linee di artefatto tra le patch in alcuni rari casi
-* [Proiezione][UV] Il punto pivot viene reimpostato quando si capovolge la proiezione
+* [Proiezione]&#x200B;[Altera] L’opzione Dividi rimane selezionata al termine della divisione
+* [Proiezione]&#x200B;[Altera] L’opzione Capovolgi non funziona quando la trasformazione è impostata sullo spazio mondo
+* [Proiezione]&#x200B;[Altera] Linee di artefatto tra le patch in alcuni rari casi
+* [Proiezione]&#x200B;[UV] Il punto pivot viene reimpostato quando si capovolge la proiezione
 * [Mac M1] I materiali avanzati non vengono visualizzati correttamente
-* [M1][Regressione] Livelli di materiale non funzionanti
+* [M1]&#x200B;[Regressione] Livelli di materiale non funzionanti

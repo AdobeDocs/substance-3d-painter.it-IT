@@ -190,7 +190,7 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 
 (Pubblicato il 25 settembre 2018)
 
-****Corretto:****
+**&#x200B;**&#x200B;Corretto:**&#x200B;**
 
 * [Vista 2D] La vista 2D è interrotta con alcune trame durante la creazione di un nuovo progetto
 * [Arresto anomalo] Il passaggio dalla proiezione Proiezione UV a quella triplanare causa un arresto anomalo
@@ -210,8 +210,8 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 **Aggiunto:**
 
 * Riepilogo: correzione rapida con aggiornamento dei contenuti, nuove funzionalità di scripting e possibilità di disattivare l&#39;aggiornamento automatico
-* [Content][Shelf] Aggiungi un predefinito Ripiano incarnato
-* [Content][shelf] Conversione di 19 normali cutanee in materiali per la dispersione sottosuperficiale
+* [Content]&#x200B;[Shelf] Aggiungi un predefinito Ripiano incarnato
+* [Content]&#x200B;[shelf] Conversione di 19 normali cutanee in materiali per la dispersione sottosuperficiale
 * [Scripting] Crea un modello di progetto da un progetto aperto
 * [Scripting] Ottenere/impostare le impostazioni di esportazione di un progetto aperto
 * [Updates] Consente di disattivare la finestra a comparsa Aggiornamento automatico da impostazioni e variabile di ambiente
@@ -223,11 +223,11 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 * [Display] Alcune mappe vengono visualizzate in modalità lineare anziché sRGB
 * [Finestre di visualizzazione] Lo stato attivo della trama non funziona correttamente
 * [2D View] Progetto con fotocamera rotta ha sparito UVs Gusci
-* [SSS][Tooltip] nel registro vengono visualizzate le descrizioni degli strumenti per la dispersione delle superfici
+* [SSS]&#x200B;[Tooltip] nel registro vengono visualizzate le descrizioni degli strumenti per la dispersione delle superfici
 * Alcuni progetti non possono essere aperti in 2018.2 e il messaggio di errore non può salvare un pacchetto substance null
 * [Maschera] Il colore dello strumento di pittura può bloccarsi in alcuni casi quando si lavora su una maschera
 * [Materiale] Mappe non visualizzate in situazioni specifiche
-* [Proj][Strumenti] Manipolatore attivo con un generatore
+* [Proj]&#x200B;[Strumenti] Manipolatore attivo con un generatore
 * [Substance] Gruppi di parametri Substance mancanti
 * [Scripting] Nome software errato nella documentazione
 * [UDIM] Nessuna informazione nel registro sui gusci UV su più riquadri UV
@@ -257,50 +257,50 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 **Aggiunto:**
 
 * Riepilogo: Versione estate, Supporto per la dispersione sotto la superficie, miglioramenti a livello di proiezione e riempimento, importazione e selezione della fotocamera, supporto di Alembic/glTF, trascinamento sulla mappa ID, supporto migliorato del formato di Substance e nuovi contenuti
-* [SSS][Viewport][Iray] Dispersione sottosuperficie generica
+* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Dispersione sottosuperficie generica
 * [SSS] Sincronizza i parametri di dispersione MDL e subsuperficiale
 * [SSS] È stato aggiunto un nuovo canale in scala di grigi denominato &quot;Scattering&quot;
-* [SSS][Impostazioni shader] Parametro del tipo di dispersione per la dispersione del sottosuolo (incarnato o traslucido)
-* [SSS][Impostazioni shader] Parametro della scala di dispersione per la dispersione sotto la superficie
-* [SSS][Impostazioni shader] Parametro colore di dispersione per dispersione sottosuperficie
-* [SSS][Impostazioni schermo] Conteggio dei campioni di dispersione per la dispersione sotto la superficie
-* [Shader][Iray] Integrazione di MDL di dispersione sottosuperficiale per Iray
+* [SSS]&#x200B;[Impostazioni shader] Parametro del tipo di dispersione per la dispersione del sottosuolo (incarnato o traslucido)
+* [SSS]&#x200B;[Impostazioni shader] Parametro della scala di dispersione per la dispersione sotto la superficie
+* [SSS]&#x200B;[Impostazioni shader] Parametro colore di dispersione per dispersione sottosuperficie
+* [SSS]&#x200B;[Impostazioni schermo] Conteggio dei campioni di dispersione per la dispersione sotto la superficie
+* [Shader]&#x200B;[Iray] Integrazione di MDL di dispersione sottosuperficiale per Iray
 * [Shader] Aggiornamento di Shader tramite il programma di aggiornamento delle risorse
 * [Shader] Aggiornamento dell&#39;API del log delle modifiche e della documentazione
-* [Proprietà utensile][Proj] Nuovi parametri per la proiezione triplanare
-* [Finestra vista][Proj] Controlla le proprietà del livello di riempimento nella vista 3D direttamente con i manipolatori (proiezione triplanare)
-* [Shortcuts][Proj] Nuove scelte rapide Q, W, E, R, T per manipolatori di proiezione triplanari
-* [Finestra vista][Proj] Controlla le proprietà del livello di riempimento nella vista 2D direttamente con i manipolatori (Proiezione UV)
-* [Shortcuts][Proj] Nuova scelta rapida Q per i manipolatori di Proiezione UV
-* [Barra degli strumenti contestuale][Proj] Controlla i manipolatori di proiezione triplanari
-* [Barra degli strumenti contestuale][Proj] Manipolatori Proiezione UV di controllo
+* [Proprietà utensile]&#x200B;[Proj] Nuovi parametri per la proiezione triplanare
+* [Finestra vista]&#x200B;[Proj] Controlla le proprietà del livello di riempimento nella vista 3D direttamente con i manipolatori (proiezione triplanare)
+* [Shortcuts]&#x200B;[Proj] Nuove scelte rapide Q, W, E, R, T per manipolatori di proiezione triplanari
+* [Finestra vista]&#x200B;[Proj] Controlla le proprietà del livello di riempimento nella vista 2D direttamente con i manipolatori (Proiezione UV)
+* [Shortcuts]&#x200B;[Proj] Nuova scelta rapida Q per i manipolatori di Proiezione UV
+* [Barra degli strumenti contestuale]&#x200B;[Proj] Controlla i manipolatori di proiezione triplanari
+* [Barra degli strumenti contestuale]&#x200B;[Proj] Manipolatori Proiezione UV di controllo
 * [Proprietà strumento] Disattiva l&#39;affiancamento della texture con lo strumento proiezione e stencil
 * [Stencil] Utilizzare immagini non quadrate con lo strumento di proiezione/stencil
 * [Stencil] Consenti il controllo della modalità di suddivisione in porzioni nella finestra Proprietà
 * [Stencil] Lo zoom non è centrato su uno stencil non affiancato
 * [Fotocamere] Importa fotocamere da Maya, Max, Blender, Modo, DAE
-* [Fotocamere][Finestra vista] Selezionare e controllare le videocamere importate nella finestra della vista
-* [Fotocamere][Iray] Seleziona e controlla le videocamere importate in Iray
-* [Fotocamere][UI][Nuovo progetto][Configurazione progetto] &quot;Importa fotocamere&quot; è selezionato per impostazione predefinita
-* [Videocamere][Scelte rapide] Aggiungete le scelte rapide &quot;&lt;&quot; e &quot;>&quot; per passare da una videocamera all’altra
-* [Fotocamere][Finestra vista] Aggiungi fotogramma nella finestra della vista
-* [Fotocamere][Impostazioni finestra di visualizzazione] Controllo dell&#39;opacità dei fotogrammi
-* [Fotocamere][Impostazioni fotocamera] lunghezza focale massima a 500 mm
-* [Fotocamere][Impostazioni videocamera] Rapporto di esposizione
-* [Fotocamere][Impostazioni fotocamera] Aggiungi un&#39;opzione di blocco
-* [Fotocamere][Impostazioni fotocamera] Aggiungi un&#39;opzione di ripristino
-* [Cameras][Impostazioni fotocamera] Aggiungi attributo distanza focale
+* [Fotocamere]&#x200B;[Finestra vista] Selezionare e controllare le videocamere importate nella finestra della vista
+* [Fotocamere]&#x200B;[Iray] Seleziona e controlla le videocamere importate in Iray
+* [Fotocamere]&#x200B;[UI]&#x200B;[Nuovo progetto]&#x200B;[Configurazione progetto] &quot;Importa fotocamere&quot; è selezionato per impostazione predefinita
+* [Videocamere]&#x200B;[Scelte rapide] Aggiungete le scelte rapide &quot;&lt;&quot; e &quot;>&quot; per passare da una videocamera all’altra
+* [Fotocamere]&#x200B;[Finestra vista] Aggiungi fotogramma nella finestra della vista
+* [Fotocamere]&#x200B;[Impostazioni finestra di visualizzazione] Controllo dell&#39;opacità dei fotogrammi
+* [Fotocamere]&#x200B;[Impostazioni fotocamera] lunghezza focale massima a 500 mm
+* [Fotocamere]&#x200B;[Impostazioni videocamera] Rapporto di esposizione
+* [Fotocamere]&#x200B;[Impostazioni fotocamera] Aggiungi un&#39;opzione di blocco
+* [Fotocamere]&#x200B;[Impostazioni fotocamera] Aggiungi un&#39;opzione di ripristino
+* [Cameras]&#x200B;[Impostazioni fotocamera] Aggiungi attributo distanza focale
 * [glTF] Importazione di un file glTF
 * [glTF] Importa mappa occlusione ambiente
 * [Alembic] Importa fotogramma Alembic 1 con geometria statica
 * [Ripiano] Trascina i materiali direttamente sulla trama utilizzando mappe ID con un modificatore (CTRL/Comando)
 * [Pila di livelli] Creazione automatica di maschere ID con trascinamento di materiali sulla trama con mappe ID
 * [Pila di livelli] Scorrimento automatico dei livelli con trascinamento sulla pila di livelli
-* [UI][Proprietà strumento] Predefinito di Esposizione Substance
-* [UI][Menu?] Miglioramento del menu?
-* [UI][Nuovo progetto][Configurazione progetto] Riorganizzazione della finestra
-* [UI][Nuovo progetto][Configurazione progetto] Sostituisci il termine &quot;Trama&quot; con &quot;File&quot;
-* [UI][Substance] Visualizza gli attributi della Substance nell&#39;interfaccia utente
+* [UI]&#x200B;[Proprietà strumento] Predefinito di Esposizione Substance
+* [UI]&#x200B;[Menu?] Miglioramento del menu?
+* [UI]&#x200B;[Nuovo progetto]&#x200B;[Configurazione progetto] Riorganizzazione della finestra
+* [UI]&#x200B;[Nuovo progetto]&#x200B;[Configurazione progetto] Sostituisci il termine &quot;Trama&quot; con &quot;File&quot;
+* [UI]&#x200B;[Substance] Visualizza gli attributi della Substance nell&#39;interfaccia utente
 * [Scelte rapide] &quot;F4&quot; alterna la vista 2D e 3D
 * [Scelte rapide] Nuove scelte rapide per Attiva/Disattiva stencil &quot;N&quot; e maschera rapida &quot;U&quot;
 * [Integrazione Substance] Considera le istruzioni &#39;visible if&#39; nei parametri di Substance
@@ -309,10 +309,10 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 * [Content] Aggiungi un campione con la dispersione sottosuperficiale attivata - JadeToad
 * [Content] Aggiungi un nuovo modello di progetto PBR con la dispersione sottosuperficie attivata
 * [Content] Predefiniti di esportazione aggiornati per aggiungere un nuovo canale di diffusione
-* [Content][Shelf] Aggiunto supporto per la dispersione sottosuperficiale per: pbr-metal-rough, pbr-metal-rough-alpha-test, pbr-coated, pbr-spec-gloss
-* [Content][Shelf] Canale di dispersione aggiunto a 5 materiali intelligenti (marmi e pelli)
-* [Content][Shelf] 1 nuovo materiale giada
-* [Content][Shelf] 1 nuovo materiale cera
+* [Content]&#x200B;[Shelf] Aggiunto supporto per la dispersione sottosuperficiale per: pbr-metal-rough, pbr-metal-rough-alpha-test, pbr-coated, pbr-spec-gloss
+* [Content]&#x200B;[Shelf] Canale di dispersione aggiunto a 5 materiali intelligenti (marmi e pelli)
+* [Content]&#x200B;[Shelf] 1 nuovo materiale giada
+* [Content]&#x200B;[Shelf] 1 nuovo materiale cera
 
 **Corretto:**
 

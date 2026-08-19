@@ -266,15 +266,15 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 
 * La trama a volte scompare dalla finestra della vista 3D (premete F per reimpostare la videocamera)
 * [glTF] Aggiorna Substance Painter caricatore Sketchfab con i nuovi tipi di licenza Sketchfab
-* [Import][glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
-* [Import][glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
-* [Esporta][USD] L’opacità non funziona in Arkit
-* [Export][USDz export si blocca in alcuni casi
-* [Export][USD] L’esportazione in USD senza salvare causa l’arresto anomalo
-* [Esporta][USD] Modalità di suddivisione errata per le texture, modalità di suddivisione per trame e tipi di output per gli ombreggiatori
-* [Esporta][USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria
+* [Import]&#x200B;[glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
+* [Import]&#x200B;[glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
+* [Esporta]&#x200B;[USD] L’opacità non funziona in Arkit
+* [Export]&lbrack;USDz export si blocca in alcuni casi
+* [Export]&#x200B;[USD] L’esportazione in USD senza salvare causa l’arresto anomalo
+* [Esporta]&#x200B;[USD] Modalità di suddivisione errata per le texture, modalità di suddivisione per trame e tipi di output per gli ombreggiatori
+* [Esporta]&#x200B;[USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria
 * [Istanza] Arresto anomalo quando si tenta di eliminare un livello di istanza interrotto
-* [Regressione][Esporta] Alcune mappe non vengono esportate nella profondità di bit scelta
+* [Regressione]&#x200B;[Esporta] Alcune mappe non vengono esportate nella profondità di bit scelta
 * [Linux] Problema con la libreria libtbb.so.2
 
 **Problemi noti:**
@@ -324,7 +324,7 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 **Aggiunto:**
 
 * Riepilogo: hotfix
-* [Simmetria][Finestra vista] La simmetria nella vista 2D è tornata ed ora presenta un&#39;anteprima del pennello clone fissa
+* [Simmetria]&#x200B;[Finestra vista] La simmetria nella vista 2D è tornata ed ora presenta un&#39;anteprima del pennello clone fissa
 
 **Corretto:**
 
@@ -347,25 +347,25 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 <b><b>Aggiunto:</b></b>
 
 * Riepilogo: aggiornamenti della finestra della vista, corretta esportazione della vista 2D, nuovi helper dell&#39;interfaccia utente, uno strumento di simmetria migliorato, nuovi contenuti e un enorme miglioramento delle prestazioni
-* [Anti-alias][Finestra vista] Nuova anti-alias temporale di filtro per la finestra della vista 3D (tramite Impostazioni schermo)
+* [Anti-alias]&#x200B;[Finestra vista] Nuova anti-alias temporale di filtro per la finestra della vista 3D (tramite Impostazioni schermo)
 * [Esporta] Esporta il contenuto della finestra della vista 2D come texture singola
-* [Export][Dithering] Esporta dithering all’esportazione
+* [Export]&#x200B;[Dithering] Esporta dithering all’esportazione
 * [Serie di livelli] Colori su livelli e cartelle
 * [Serie di livelli] Attivazione e disattivazione rapida di più livelli ed effetti
 * [Serie di livelli] Navigazione più semplice per i metodi di fusione con i tasti Su e Scorrimento del mouse
-* [Proj][UI] Manipolatore di rotazione aggiuntivo su tutti e tre gli assi per triplanare
-* [Proj][Scelte rapide] - e + per modificare le dimensioni del manipolatore Proiezione UV
+* [Proj]&#x200B;[UI] Manipolatore di rotazione aggiuntivo su tutti e tre gli assi per triplanare
+* [Proj]&#x200B;[Scelte rapide] - e + per modificare le dimensioni del manipolatore Proiezione UV
 * [Shader] Controlla i parametri dei livelli rivestiti con canali nello shader rivestito in PBR
 * [Substance] Esporre nuovi input di texture basati su mesh per filtri e generatori
-* [Symmetry][Viewport][UI] Controlla lo scostamento della simmetria con i manipolatori
-* [Symmetry][barra degli strumenti contestuale][UI] Nuovo pannello di simmetria con opzioni
+* [Symmetry]&#x200B;[Viewport]&#x200B;[UI] Controlla lo scostamento della simmetria con i manipolatori
+* [Symmetry]&#x200B;[barra degli strumenti contestuale]&#x200B;[UI] Nuovo pannello di simmetria con opzioni
 * [Symmetry] Nuova modalità di intersezione delle linee di simmetria
 * [Simmetria] Nuovo cursore clone simmetria
-* [Simmetria][Scelte rapide] Q per nascondere e -, + per modificare le dimensioni e spostare per agganciare
+* [Simmetria]&#x200B;[Scelte rapide] Q per nascondere e -, + per modificare le dimensioni e spostare per agganciare
 * [Log] Migliora i messaggi di errore quando non è possibile esportare le texture
 * [Scripting] Consente di modificare o aggiornare le risorse in Impostazioni di visualizzazione
 * [Scripting] Consente di creare o rimuovere i canali nei set di texture
-* [Content][Shaders] Aggiungi il supporto per l&#39;anisotropia con uno shader dedicato (pbr-metal-rough-anisotropia-angle)
+* [Content]&#x200B;[Shaders] Aggiungi il supporto per l&#39;anisotropia con uno shader dedicato (pbr-metal-rough-anisotropia-angle)
 * [Contenuto] Aggiornamento della sfera di anteprima con anisotropia e angolo modificato
 * [Content] Shutline matFx aggiornato
 * [Content] Nuova creazione di texture.Scansione del volto senza interruzioni in XYZ
@@ -374,16 +374,16 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 * [Content] Mappa del nuovo ambiente: studio automobilistico neutro
 * [Content] Nuovo modello di progetto: PBR - angolo di Anisotropia rugosità metallica (con canali di anisotropia)
 * [Content] Nuovo modello di progetto: PBR - rugosità metallica patinata
-* [SVT][Engine]: Texture virtuali sparse (SVT)
-* [SVT][Preferenze][UI] Opzione di accelerazione del supporto hardware SVT
-* [SVT][Registro] Ulteriori informazioni sulla funzionalità di creazione di texture virtuali sparse (ad esempio, disco di dimensioni)
-* [SVT][UI] Finestra del messaggio all&#39;avvio se le dimensioni del disco sono troppo basse per la cache
-* [SVT][Preferenze][UI] Substance Painter posizione cache globale
+* [SVT]&#x200B;[Engine]: Texture virtuali sparse (SVT)
+* [SVT]&#x200B;[Preferenze]&#x200B;[UI] Opzione di accelerazione del supporto hardware SVT
+* [SVT]&#x200B;[Registro] Ulteriori informazioni sulla funzionalità di creazione di texture virtuali sparse (ad esempio, disco di dimensioni)
+* [SVT]&#x200B;[UI] Finestra del messaggio all&#39;avvio se le dimensioni del disco sono troppo basse per la cache
+* [SVT]&#x200B;[Preferenze]&#x200B;[UI] Substance Painter posizione cache globale
 * [SVT] Nuova variabile di ambiente per specificare il percorso della cache della Substance Painter
 * [SVT] Nuova variabile di ambiente per attivare l&#39;accelerazione del supporto hardware SVT
 * [SVT] Rileva supporto sparse per hardware
-* [SVT][Hardware Sparse] Aumento della versione minima del driver per la GPU Nvidia
-* [SVT][Shader][Viewport][UI] Avvisa l&#39;utente se all&#39;apertura del progetto sono presenti artefatti con texture virtuale sparsa
+* [SVT]&#x200B;[Hardware Sparse] Aumento della versione minima del driver per la GPU Nvidia
+* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Avvisa l&#39;utente se all&#39;apertura del progetto sono presenti artefatti con texture virtuale sparsa
 
 <b><b>Corretto:</b>\
 </b>
@@ -391,7 +391,7 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 * [Selettore colore] Viene visualizzato il cursore di disegno quando si tenta di selezionare un colore
 * L’arresto anomalo quando si selezionano o deselezionano i livelli in un ordine specifico può causare l’arresto anomalo
 * Arresto anomalo quando si incolla come istanza un livello con una maschera
-* [Canale utente][Regressione] Arresto anomalo durante la ridenominazione del canale utente
+* [Canale utente]&#x200B;[Regressione] Arresto anomalo durante la ridenominazione del canale utente
 * [Canale utente] Anteprima pennello grigio
 * [Alembic] Una sola texture impostata da diversi materiali dopo l’importazione
 * [Engine] La texture esportata è diversa dalla finestra della vista per i timbri a pennello
@@ -401,7 +401,7 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 * I collegamenti delle mappe trama non vengono aggiornati correttamente quando si ridefiniscono o si creano istanze dei livelli
 * [Substance] UserData ColorSpace non funziona su Baked Mesh Normal richiesto come input
 * Associazione MDL non corrispondente quando si utilizzano più istanze di shader
-* [Simmetria][Livello riempimento] Piano di simmetria e relativo manipolatore attivo nel livello di riempimento
+* [Simmetria]&#x200B;[Livello riempimento] Piano di simmetria e relativo manipolatore attivo nel livello di riempimento
 * [Viewport] Il punto pivot per la traduzione non viene sempre aggiornato dopo aver fatto clic su
 * [UI] Icone fisse e rimozione dei segnaposto per i monitor HDPI
 

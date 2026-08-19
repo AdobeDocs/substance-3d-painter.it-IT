@@ -173,9 +173,9 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 
 **Aggiunto:**
 
-* [SpaceMouse][Windows] Supporto di 3Dconnection SpaceMouse nel riquadro di visualizzazione 3D per la navigazione
-* [SpaceMouse][Windows] Scelte rapide/tasti di base per i modelli Pro ed Enterprise di SpaceMouse nella finestra della vista 3D
-* [SpaceMouse][Windows] Icona del centro di rotazione dedicato nella finestra della vista 3D
+* [SpaceMouse]&#x200B;[Windows] Supporto di 3Dconnection SpaceMouse nel riquadro di visualizzazione 3D per la navigazione
+* [SpaceMouse]&#x200B;[Windows] Scelte rapide/tasti di base per i modelli Pro ed Enterprise di SpaceMouse nella finestra della vista 3D
+* [SpaceMouse]&#x200B;[Windows] Icona del centro di rotazione dedicato nella finestra della vista 3D
 * [Gestione colore] Utilizzare i ruoli dalla configurazione OCIO per modificare le impostazioni predefinite
 * [Gestione colore] Gestione colore gestisce la finestra delle proprietà per i widget colore
 * [Gestione colore] Gestione colore gestisce la finestra delle proprietà per l’anteprima del materiale
@@ -193,7 +193,7 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Disattiva il selettore colore Visualizza il menu a discesa per i canali dati
 * [Ottimizzazione] La griglia di alterazione ricalcola solo le porzioni UV coperte
 * [Esportazione] Consente di esportare i progetti di porzioni UV per Sketchfab, USD e glTF
-* [Scripting][Python] Consente di modificare la funzione di mappatura tonale
+* [Scripting]&#x200B;[Python] Consente di modificare la funzione di mappatura tonale
 
 **Corretto:**
 
@@ -209,9 +209,9 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Lo strumento Riempimento poligonale visualizza il colore errato
 * [Gestione colore] Il tonemapper ACES viene applicato ai canali in modalità Solo
 * [Gestione colore] L’illuminazione della sfera di anteprima dello strumento non è gestita dal colore
-* [Gestione colore][Esporta] Le mappe convertite applicano una conversione errata
-* [Scripting][Python][Gestione colore] I progetti creati con la variabile di ambiente template e OCIO sono in modalità Legacy
-* [Scripting][Python] Impossibile utilizzare la funzione di valutazione JavaScript all&#39;avvio
+* [Gestione colore]&#x200B;[Esporta] Le mappe convertite applicano una conversione errata
+* [Scripting]&#x200B;[Python]&#x200B;[Gestione colore] I progetti creati con la variabile di ambiente template e OCIO sono in modalità Legacy
+* [Scripting]&#x200B;[Python] Impossibile utilizzare la funzione di valutazione JavaScript all&#39;avvio
 * [Offerta Adobe 3D] Impossibile avviare Painter quando si utilizzano impostazioni internazionali con lingue non supportate per impostazione predefinita
 
 **Problemi noti:**
@@ -232,15 +232,15 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Per impostazione predefinita, espandi la sezione Gestione colore quando OCIO è selezionato nelle finestre Nuovo progetto e Impostazioni progetto
 * [Gestione colore] Aggiungere il tonemapper ACES in modalità legacy
 * [Gestione colore] Regolare le impostazioni di configurazione predefinite
-* [Gestione colore][Esporta] Riempi $colorSpace nei nomi dei file per i canali dati
+* [Gestione colore]&#x200B;[Esporta] Riempi $colorSpace nei nomi dei file per i canali dati
 * [Esporta] Esporta progetto porzione UV in Stager
 * [Interoperabilità] Non disponibile per le edizioni Steam e Substance
 * [Interoperabilità] Consente di inviare un progetto UV Tile a Stager
 
 **Corretto:**
 
-* [MacOS][Arresto anomalo] Painter non inizia con Catalina
-* [Gestione colore][Arresto anomalo] Arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
+* [MacOS]&#x200B;[Arresto anomalo] Painter non inizia con Catalina
+* [Gestione colore]&#x200B;[Arresto anomalo] Arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
 * [Gestione colore] Le risorse utilizzate come scala di grigio nello spazio colore della maschera visualizzano il nuovo menu
 * [Gestione colore] Il canale utente è più scuro nella finestra della vista in modalità legacy + visualizzazione solo
 * [Gestione colore] La mappa Env è sempre lineare quando utilizzata in iRay
@@ -272,18 +272,18 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Estrai il nome dello spazio colore dal nome del file bitmap importato
 * [Gestione colore] Consente di ignorare lo spazio colore con uno spazio colore dalla configurazione nella finestra Proprietà
 * [Gestione colore] Aggiungere opzioni di gestione del colore nelle impostazioni del set di texture
-* [Gestione colore][Finestra vista] Consente di gestire separatamente i colori delle viste 2D e 3D
+* [Gestione colore]&#x200B;[Finestra vista] Consente di gestire separatamente i colori delle viste 2D e 3D
 * [Gestione colore] Caricare e convertire la mappa dell&#39;ambiente nello spazio colore di lavoro
 * [Gestione colore] Regola il selettore colore e l&#39;editor con lo spazio colore corrente
 * [Gestione colore] Consente di selezionare lo spazio colore di trasformazione della visualizzazione nella finestra della vista con un nuovo menu a discesa
 * [Gestione colore] Applicare la trasformazione della visualizzazione con i risultati del rendering dei raggi
 * [Gestione colore] Esportare texture con diversi spazi colore
-* [Gestione colore][Python] Applicazione delle impostazioni di gestione del colore dalla variabile di ambiente (OCIO) ai nuovi progetti
+* [Gestione colore]&#x200B;[Python] Applicazione delle impostazioni di gestione del colore dalla variabile di ambiente (OCIO) ai nuovi progetti
 * [Finestra vista] Consente di disancorare la finestra della vista 2D o 3D
 * [Annullamento automatico] Nuova opzione per evitare isole allungate
 * [Scripting Python] Chiama funzioni JavaScript dall’API Python
 * [Finestra Nuovo progetto] Rende comprimibile la sezione delle mappe importate
-* [Proiezione][Altera] Consenti di nascondere le normali come opzione nelle impostazioni di Altera
+* [Proiezione]&#x200B;[Altera] Consenti di nascondere le normali come opzione nelle impostazioni di Altera
 * [Content] 11 nuove mappe grungi
 * [Content] 8 nuovi strumenti predefiniti (cerniera, cavo di serraggio, scintillio)
 * [Contenuto] 8 nuovi materiali (cicatrice, tasca, ...)
@@ -292,10 +292,10 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 **Problemi noti:**
 
 * [Mac M1] I materiali avanzati non vengono visualizzati correttamente
-* [Gestione colore][Arresto anomalo] Arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
+* [Gestione colore]&#x200B;[Arresto anomalo] Arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
 * [Gestione colore] Il selettore colore non seleziona il valore corretto per il canale dati in modalità legacy
-* [Gestione colore][Iray] Il salvataggio del rendering in EXR o TIFF durante l’attivazione della Gestione colore nella finestra della vista consente di salvare sempre in modalità lineare
+* [Gestione colore]&#x200B;[Iray] Il salvataggio del rendering in EXR o TIFF durante l’attivazione della Gestione colore nella finestra della vista consente di salvare sempre in modalità lineare
 * [Gestione colore] Le risorse utilizzate come scala di grigio nella maschera visualizzano il menu Spazio colore errato
-* [Color Management][Iray] La mappa Env è sempre lineare se utilizzata in Iray
-* [Gestione colore][Esporta] Le mappe convertite non vengono esportate come canali di gestione del colore
-* [Gestione colore][Esporta] L&#39;esportazione ignora se il canale utente è sottoposto alla gestione del colore o meno in modalità legacy
+* [Color Management]&#x200B;[Iray] La mappa Env è sempre lineare se utilizzata in Iray
+* [Gestione colore]&#x200B;[Esporta] Le mappe convertite non vengono esportate come canali di gestione del colore
+* [Gestione colore]&#x200B;[Esporta] L&#39;esportazione ignora se il canale utente è sottoposto alla gestione del colore o meno in modalità legacy
