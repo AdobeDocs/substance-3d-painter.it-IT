@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Esamina tutte le modifiche e gli aggiornamenti nelle versioni di Substance 3D Painter per tenere traccia dell’evoluzione delle funzioni e dei miglioramenti nel tempo.
 helpx_creative_field: ''
@@ -123,7 +123,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 * [Auto-Cage] Caricamento infinito quando il percorso del file di tipo High Poly non è valido
 * [Linux][Windows] Il selettore colore a volte può essere completamente nero o non apparire
 * [Strumento Riempimento poligonale] Lo strumento non funziona con file non PBR
-* &lbrack;[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
+* [[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
 * [USD] Le istanze dello shader non vengono tutte rilevate correttamente
 * [Substance] Viene preso in considerazione solo il primo utilizzo di un nodo di input/output
 * [Shader] L’Occlusione Ambiente viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
@@ -2785,7 +2785,7 @@ Riepilogo: **bugfix**
 * [Import][glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
 * [Import][glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
 * [Esporta][USD] L’opacità non funziona in Arkit
-* [Export]&lbrack;USDz export si blocca in alcuni casi
+* [Export][USDz export si blocca in alcuni casi
 * [Export][USD] L’esportazione in USD senza salvare causa l’arresto anomalo
 * [Esporta][USD] Modalità di suddivisione errata per le texture, modalità di suddivisione per trame e tipi di output per gli ombreggiatori
 * [Esporta][USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria
