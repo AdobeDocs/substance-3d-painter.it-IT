@@ -1,11 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
 description: Scoprite come utilizzare la finestra della vista in Substance 3D Painter per visualizzare i modelli e le texture 3D durante il processo di pittura.
 helpx_description: Painter > Interface > Viewport
 title: Riquadro di visualizzazione
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ Il layout predefinito posiziona la vista 3D a sinistra e la vista 2D a destra. N
     <th><em>Descrizione</em></th>
   </tr>
   <tr>
-    <td><strong>Modalità finestra di visualizzazione</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>Modalità viewport</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>Queste impostazioni controllano il layout della finestra della vista:<br><ul><li><strong>3D/2D</strong> (impostazione predefinita): consente di visualizzare entrambe le viste 3D e 2D nella finestra della vista</li><li><strong>Solo 3D</strong>: ingrandisci la vista 3D e nascondi la vista 2D.</li><li><strong>Solo 2D</strong>: ingrandite la vista 2D e nascondete la vista 3D.</li><li><strong>Scambia 3D/2D</strong>: scambia l’ordine di visualizzazione delle visualizzazioni. Se la vista 3D era a sinistra, si troverà a destra dopo aver scelto questa azione.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modalità prospettica</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>Modalità prospettiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>Queste impostazioni controllano l’aspetto della trama 3D nella vista 3D:<br><ul><li><strong>Vista prospettica</strong> (impostazione predefinita): visualizza la trama 3D come se fosse vista dall’occhio umano o da una videocamera.</li><li><strong>Vista ortogonale</strong>: visualizza la trama 3D in quanto ogni direzione misura la stessa lunghezza.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modalità di rotazione fotocamera</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>Modalità di rotazione fotocamera</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>Queste impostazioni determinano il numero di assi di rotazione della finestra della vista.<br><ul><li><strong>Rotazione libera</strong>: la fotocamera ruota sugli assi X, Y e Z.</li><li><strong>Rotazione vincolata</strong> (impostazione predefinita): la videocamera ruota solo sugli assi X e Y (senza rotazione).</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modalità rendering</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td><strong>Modalità di rendering</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>Passa alla <a href="../../features/iray-renderer/iray-renderer.md">modalità rendering</a>.</td>
   </tr>
 </table>
