@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2018.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -269,7 +269,7 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 * [Import][glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
 * [Import][glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
 * [Esporta][USD] L’opacità non funziona in Arkit
-* [Export]&lbrack;USDz export si blocca in alcuni casi
+* [Export][USDz export si blocca in alcuni casi
 * [Export][USD] L’esportazione in USD senza salvare causa l’arresto anomalo
 * [Esporta][USD] Modalità di suddivisione errata per le texture, modalità di suddivisione per trame e tipi di output per gli ombreggiatori
 * [Esporta][USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria

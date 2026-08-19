@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2019.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Ora puoi utilizzare i tuoi pennelli di Photoshop in Substance Painter. Esportand
 
 Se non avete file ABR da importare, potete trovarne molti online:
 
-* [Predefiniti pennello di Kyle su Adobe](https://www.adobe.com/it/products/photoshop/brushes.html)
+* [Predefiniti pennello di Kyle su Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Pennelli predefiniti in ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Predefiniti pennello su DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Pennelli predefiniti nel pennello cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +115,7 @@ Oltre al supporto dei predefiniti per i pennelli di Photoshop, sono stati apport
 La Substance Painter ora scompone automaticamente le trame con coordinate UV mancanti. In questo modo è possibile importare qualsiasi tipo di geometria e iniziare immediatamente a colorare. Il nostro sistema di srotolamento UV genererà un&#39;Isola UV per sottorete, pur continuando a seguire l&#39;assegnazione del materiale per creare set di texture. Questa funzione è attualmente in versione beta e si svilupperà nelle versioni future. Lo srotolamento automatico verrà applicato solo ai progetti che **non utilizzano il flusso di lavoro UDIM**.
 
 * **Annullamento automatico del wrapping UV**\
-  Per impostazione predefinita, la Substance Painter ora genera automaticamente le coordinate UV per le trame mancanti. Questo vale sia per la creazione del progetto che per la reimportazione della trama. Tuttavia, è possibile disabilitare questo comportamento accedendo alle [impostazioni principali](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e disabilitando **Abilita lo srotolamento automatico degli UV** in **Opzioni di importazione**.
+  Per impostazione predefinita, la Substance Painter ora genera automaticamente le coordinate UV per le trame mancanti. Questo vale sia per la creazione del progetto che per la reimportazione della trama. Tuttavia, è possibile disabilitare questo comportamento accedendo alle [impostazioni principali](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e disabilitando **Abilita lo srotolamento automatico degli UV** in **Opzioni di importazione**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Annullamento del wrapping della barra di avanzamento UV**\
@@ -215,7 +215,7 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
 * **Nuovi pennelli predefiniti**
 
   * **102 predefiniti pennello di Photoshop**\
-    Con l’introduzione del supporto dei pennelli di Photoshop, è stato incluso un nuovo set di predefiniti per mostrarlo. Questi predefiniti sono stati selezionati dai pacchetti di Kyle T. Webster disponibili sul [sito Web di Adobe](https://www.adobe.com/it/products/photoshop/brushes.html).
+    Con l’introduzione del supporto dei pennelli di Photoshop, è stato incluso un nuovo set di predefiniti per mostrarlo. Questi predefiniti sono stati selezionati dai pacchetti di Kyle T. Webster disponibili sul [sito Web di Adobe](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 nuovi pennelli predefiniti**\

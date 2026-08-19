@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2018.2 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -190,7 +190,7 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 
 (Pubblicato il 25 settembre 2018)
 
-**&#x200B;**&#x200B;Corretto:**&#x200B;**
+****Corretto:****
 
 * [Vista 2D] La vista 2D è interrotta con alcune trame durante la creazione di un nuovo progetto
 * [Arresto anomalo] Il passaggio dalla proiezione Proiezione UV a quella triplanare causa un arresto anomalo
