@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Data di pubblicazione: *28 settembre 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Uno dei nuovi moduli di esportazione inclusi in questa versione è il supporto per Adobe Standard Material, da utilizzare con Adobe Dimension (in precedenza, Adobe Project Felix). È possibile esportare la trama della scena e le sue texture per importarla nel Project Felix con un solo clic. Per accedervi, è sufficiente scegliere &quot;**Adobe Standard Material**&quot; nella finestra Esporta texture. Per ulteriori informazioni, vedere: [http://www.adobe.com/it/products/dimension.html](https://www.adobe.com/it/products/dimension.html)
+Uno dei nuovi moduli di esportazione inclusi in questa versione è il supporto per Adobe Standard Material, da utilizzare con Adobe Dimension (in precedenza, Adobe Project Felix). È possibile esportare la trama della scena e le sue texture per importarla nel Project Felix con un solo clic. Per accedervi, è sufficiente scegliere &quot;**Adobe Standard Material**&quot; nella finestra Esporta texture. Per ulteriori informazioni, vedere: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Puoi anche consultare il post del blog su questo argomento: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +55,7 @@ Se viene creato un backup ma il progetto non è stato salvato (ovvero Untilted),
 
 ![](../../assets/gradient-rust.jpg)
 
-Il **filtro sfumatura** è stato completamente rinnovato. Agire in modo molto più simile al nodo **mappa sfumatura** disponibile nel **Substance Designer**. Ora supporta fino a **10 colori diversi**, con la possibilità di specificare **dove si trova il colore all&#39;interno** della sfumatura **&#x200B;**, aprendo molte nuove porte. Ciò consente di creare più&#x200B;**pattern di colore avanzati**, ma anche **mappe di altezza rimasterizzate**&#x200B;e di creare **nuove forme**.
+Il **filtro sfumatura** è stato completamente rinnovato. Agire in modo molto più simile al nodo **mappa sfumatura** disponibile nel **Substance Designer**. Ora supporta fino a **10 colori diversi**, con la possibilità di specificare **dove si trova il colore all&#39;interno** della sfumatura ****, aprendo molte nuove porte. Ciò consente di creare più&#x200B;**pattern di colore avanzati**, ma anche **mappe di altezza rimasterizzate**e di creare **nuove forme**.
 
 Il cursore principale (quantità di colore) definisce il numero di colori totali utilizzati per creare la sfumatura. Il pulsante appena sotto definisce il metodo di fusione del colore (sRGB o lineare). Questo è importante se desiderate ottenere una fusione corretta tra i colori. Ad esempio, la fusione di un rosso puro e di un verde puro dovrebbe dare un bel giallo nel mezzo. Questo non è il caso se il pulsante è disattivato (darà invece un marrone scuro). Quando si modifica il height o qualsiasi altro canale in scala di grigio, questo pulsante deve essere disattivato per evitare la conversione di gamma.
 
