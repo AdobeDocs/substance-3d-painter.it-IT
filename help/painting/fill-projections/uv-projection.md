@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/uv-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ''
 description: Utilizzate Proiezione UV in Substance 3D Painter per proiettare texture in base alle coordinate UV per un posizionamento preciso della texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proiezione UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
@@ -28,7 +28,7 @@ La Proiezione UV del riempimento è una proiezione 2D che funziona solo nello sp
 
 | *Impostazione* | *Descrizione* |
 | --- | --- |
-| **Filtraggio** | Controlla il modo in cui la texture o il materiale verranno filtrati. Queste impostazioni possono influire sull’aspetto della texture quando viene ripetuta più volte. Con valori di ridimensionamento elevati, l’utilizzo di un metodo di filtraggio diverso da quello predefinito può produrre risultati migliori. Impostazioni attualmente disponibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilineare | HQ </strong>: (impostazione predefinita) Filtro bilineare avanzato che tenta di migliorare la qualità della texture quando i valori di affiancatura sono elevati.</li><li data-preserve-html="true"><strong>Bilineare | Nitidezza </strong>: filtro bilineare semplice che ammorbidisce leggermente la texture ma tenta di preservare i dettagli.</li><li data-preserve-html="true"><strong>Più vicino a </strong>: nessun filtro utile se il filtro bilineare produce un risultato sfocato e interrompe i dettagli più fini. Può introdurre l’alias nella texture.</li></ul> |
+| **Filtraggio** | Controlla il modo in cui la texture o il materiale verranno filtrati. Queste impostazioni possono influire sull’aspetto della texture quando viene ripetuta più volte. Con valori di ridimensionamento elevati, l’utilizzo di un metodo di filtraggio diverso da quello predefinito può produrre risultati migliori. Impostazioni attualmente disponibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Sede centrale </strong> bilineare `\|`: (impostazione predefinita) Filtro bilineare avanzato che tenta di migliorare la qualità della texture quando i valori di suddivisione in porzioni sono elevati.</li><li data-preserve-html="true"><strong>Bilineare `\|` Nitido </strong>: filtro bilineare semplice che ammorbidisce leggermente la texture ma tenta di mantenere i dettagli.</li><li data-preserve-html="true"><strong>Più vicino a </strong>: nessun filtro utile se il filtro bilineare produce un risultato sfocato e interrompe i dettagli più fini. Può introdurre l’alias nella texture.</li></ul> |
 | **Involucro UV** | Controlla la modalità di ripetizione del Materiale/Immagine proiettata all&#39;interno della forma di proiezione. I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nessuno</strong>: la proiezione non viene ripetuta.</li><li data-preserve-html="true"><strong>Ripetizione orizzontale</strong>: ripetizione solo orizzontale.</li><li data-preserve-html="true"><strong>Ripeti verticalmente</strong>: ripeti solo verticalmente.</li><li data-preserve-html="true"><strong>Ripetizione</strong> (impostazione predefinita): la ripetizione avviene sia in orizzontale che in verticale.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### Trasformazione UV

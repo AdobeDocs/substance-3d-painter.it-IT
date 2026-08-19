@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/spherical-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
 breadcrumb-title: ''
 description: Usate proiezione sferica in Substance 3D Painter per proiettare le texture da una sfera per disporre le texture attorno agli oggetti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proiezione sferica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 7e24e45387178db5efa813e64e4b86ac2ae2e5aa
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 2%
@@ -28,7 +28,7 @@ La Proiezione sferica di riempimento consente di proiettare immagini e pattern a
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **Filtraggio** | Controlla il modo in cui la texture o il materiale verranno filtrati. Questa impostazione può influire sull’aspetto della texture quando viene ripetuta più volte. Con valori di ridimensionamento elevati, l’utilizzo di un filtro diverso da quello predefinito può produrre risultati migliori. Impostazioni correnti disponibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilineare | HQ</strong> (impostazione predefinita): filtro bilineare avanzato che tenta di migliorare la qualità della texture quando i valori di suddivisione in porzioni sono elevati.</li><li data-preserve-html="true"><strong>Bilineare | Nitidezza</strong>: filtro bilineare semplice che ammorbidisce leggermente la texture, ma tenta di mantenere i dettagli.</li><li data-preserve-html="true"><strong>Più vicino</strong>: nessun filtro utile se il filtro bilineare produce un risultato sfocato e interrompe i dettagli più fini. Può introdurre l’alias nella texture.</li></ul> |
+| **Filtraggio** | Controlla il modo in cui la texture o il materiale verranno filtrati. Questa impostazione può influire sull’aspetto della texture quando viene ripetuta più volte. Con valori di ridimensionamento elevati, l’utilizzo di un filtro diverso da quello predefinito può produrre risultati migliori. Impostazioni correnti disponibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Sede centrale `\|` bilineare</strong> (impostazione predefinita): filtro bilineare avanzato che tenta di migliorare la qualità della texture quando i valori di suddivisione in porzioni sono elevati.</li><li data-preserve-html="true"><strong>Bilineare `\|` Nitido</strong>: filtro bilineare semplice che ammorbidisce leggermente la texture, ma tenta di mantenere i dettagli.</li><li data-preserve-html="true"><strong>Più vicino</strong>: nessun filtro utile se il filtro bilineare produce un risultato sfocato e interrompe i dettagli più fini. Può introdurre l’alias nella texture.</li></ul> |
 | **Involucro UV** | Controllate la modalità di ripetizione della texture all’interno della proiezione. I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nessuno</strong>: la texture non viene ripetuta. Tutto ciò che si trova al di fuori della texture è nero/trasparente.</li><li data-preserve-html="true"><strong>Ripetizione orizzontale</strong>: la texture si ripete solo orizzontalmente.</li><li data-preserve-html="true"><strong>Ripeti verticalmente</strong>: la texture si ripete solo verticalmente.</li><li data-preserve-html="true"><strong>Ripetizione</strong> (impostazione predefinita): la texture si ripete su entrambi gli assi.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-repeat.jpg" width="500px"/></div> |
 | **Ritaglio forma** | Definite se la texture proiettata deve essere visibile all&#39;esterno dell&#39;area di proiezione. I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Progetto ritagliato in forma</strong>: la proiezione è limitata all&#39;interno dell&#39;area di proiezione.</li><li data-preserve-html="true"><strong>La proiezione si estende oltre la forma</strong> (impostazione predefinita): la proiezione continua oltre l&#39;area di proiezione.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-shape-crop.jpg" width="500px"/></div> |
 
