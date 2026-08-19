@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/viewport.html'
 description: Scoprite come utilizzare la finestra della vista in Substance 3D Painter per visualizzare i modelli e le texture 3D durante il processo di pittura.
 helpx_description: Painter > Interface > Viewport
 title: Riquadro di visualizzazione
