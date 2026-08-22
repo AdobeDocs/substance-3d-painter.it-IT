@@ -24,7 +24,7 @@ Di seguito è riportato un elenco di Modelli di output aggiuntivi forniti per im
 
 >[!NOTE]
 >
-> È possibile che siano supportati anche altri software non elencati in questa pagina, ad esempio **ottano**. Per ulteriori informazioni, consulta [ecosistema e plug-in](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+> È possibile che siano supportati anche altri software non elencati in questa pagina, ad esempio **ottano**. Per ulteriori informazioni, consulta [ecosistema e plug-in](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home).
 
 | *Predefinito* | *Descrizione* |
 | --- | --- |
