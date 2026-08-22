@@ -19,6 +19,6 @@ Il **pannello del registro di cottura** mostra l&#39;output tecnico relativo all
 
 >[!TIP]
 >
-> Le informazioni su come abbinare le risorse in base al nome sono disponibili nella [documentazione Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> Le informazioni su come abbinare le risorse in base al nome sono disponibili nella [documentazione Bakers](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)

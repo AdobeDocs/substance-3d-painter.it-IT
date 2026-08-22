@@ -37,4 +37,4 @@ Per una rapida panoramica della modalità Baking, guardate il nostro tutorial vi
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla cottura in generale, consultate la [documentazione sulla cottura in forno](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dedicata.
+> Per ulteriori informazioni sulla cottura in generale, consultate la [documentazione sulla cottura in forno](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home) dedicata.
