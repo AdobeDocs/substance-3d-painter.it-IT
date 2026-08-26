@@ -2,9 +2,9 @@
 title: Versione 12.1
 description: Note sulla versione 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,24 @@ Guarda il nostro ultimo tutorial su Youtube:
 
 ## Note sulla versione
 
+### 12.1.3
+
+Data di pubblicazione: **2026/08/25**
+
+Riepilogo: **Versione secondaria**
+
+**Aggiunto:**
+
+* Aggiornamento del motore di Substance alla versione 9.4.6v
+
+**Corretto:**
+
+* [Il selettore scala di grigi] rimane aperto dopo aver modificato lo strumento
+* [Inclina al forno] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
+* [L&#39;interazione dello strumento di proiezione] nella finestra della vista è bloccata dallo strumento di proiezione
+* [Traccia dinamica] Parametri di traccia dinamica mancanti nelle proprietà del pennello
+* L’esportazione in rete non funziona più
+
 ### 12.1.2
 
 Data di pubblicazione: **2026/08/03**
@@ -218,7 +236,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 * [OpenPBR] Esportare materiali e texture di OpenPBR tramite USD
 * [OpenPBR] Aggiornare la finestra Esporta texture per visualizzare la convenzione di denominazione dell&#39;OpenPBR
 * [OpenPBR] Aggiungi documentazione sulle modifiche all’OpenPBR di supporto
-* [OpenPBR]&#x200B;[Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
+* [OpenPBR][Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
 * Diversi miglioramenti minori delle esportazioni in USD
 * [UI] Aggiungete un avviso nella finestra della vista quando tentate di colorare su un altro set di texture
 * [Appiattisci] Consenti di appiattire tutti i livelli istanziati tra set di texture
@@ -237,14 +255,14 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 
 <b>Risolto</b>:
 
-* [Arresto anomalo]&#x200B;[Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
+* [Arresto anomalo][Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
 * [Arresto anomalo] Quando si cuoce la curvatura dalla mappa senza spazio mondo normale
-* [Arresto anomalo]&#x200B;[Baking] Il baking con una gabbia personalizzata abilitata ma nessun file selezionato si arresta in modo anomalo
+* [Arresto anomalo][Baking] Il baking con una gabbia personalizzata abilitata ma nessun file selezionato si arresta in modo anomalo
 * [Arresto anomalo] Annullamento della cottura automatica
 * [Auto-Cage] Caricamento infinito quando il percorso del file di tipo High Poly non è valido
-* [Linux]&#x200B;[Windows] Il selettore colore a volte può essere completamente nero o non apparire
+* [Linux][Windows] Il selettore colore a volte può essere completamente nero o non apparire
 * [Strumento Riempimento poligonale] Lo strumento non funziona con file non PBR
-* &lbrack;[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
+* [[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
 * [USD] Le istanze dello shader non vengono tutte rilevate correttamente
 * [Substance] Viene preso in considerazione solo il primo utilizzo di un nodo di input/output
 * [Shader] L’Occlusione Ambiente viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
