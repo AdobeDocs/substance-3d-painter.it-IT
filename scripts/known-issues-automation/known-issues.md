@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemi noti
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99ba6e8d891dab9cebbf6035a6850bab331e7472
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 # Problemi noti
 
-Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.0 di Substance 3D Painter:
-
-* `[Engine]` Errore durante l&#39;utilizzo di Smart Materials se il set di texture non include la porzione 1001
-* `[Engine]` Colorazione con lo strumento Clona in canali normali non corretta
-* La maschera Geometria `[Engine]` mostra artefatti ai bordi UV con livelli istanziati
-* La modalità &quot;Vicina spazio 3D&quot; del riempimento UV `[Engine]` non funziona correttamente su triangoli sottili
-* Il risultato del punto di ancoraggio `[Engine]` non viene visualizzato tra una maschera e un canale di colore
+Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.3 di Substance 3D Painter:
 
 * `[Baking]` AO errato su cubi semplici
 * L&#39;interpretazione del suffisso `[Baking]` corrispondente per nome è errata
 * Le cuciture Uv di `[Baking]` non vengono visualizzate dopo la reimportazione di mes
 * `[Baking]` artefatti di tipo griglia con alcune impostazioni
+* `[Baking]` Occlusione ambiente Ignora backface per nome trama non funziona
+* `[Baking]` `[AMD]` Dispositivo perso durante la cottura al forno con trame poly alte e pesanti
 
 * `[Substance]` Diversi errori ortografici nelle risorse
 * `[Substance]` condizione di spazio vuoto interrotto per visibilità
 * Il caricamento di `[Substance]` predefiniti per alcuni materiali richiede troppo tempo
 * `[Substance]`: impossibile importare la risorsa con utilizzi misti
+
+* `[Engine]` Errore durante l&#39;utilizzo di Smart Materials se il set di texture non include la porzione 1001
+* `[Engine]` Colorazione con lo strumento Clona in canali normali non corretta
+* La maschera Geometria `[Engine]` mostra artefatti ai bordi UV con livelli istanziati
 
 * `[Color Management]` Associazioni incompatibili con il generatore non utilizzate nella maschera
 * L&#39;output del filtro `[Color Management]` non viene considerato correttamente
@@ -50,6 +50,9 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.0
 
 * `[Scripting]` `[Javascript]` Errore di battitura &quot;disabilitato&quot; durante la specifica del parametro di dithering nelle funzioni di esportazione
 * `[Scripting]` `[Python]` Vari errori di battitura nel modulo substance_painter.project
+
+* `[USD]` Assegnazione usda errata in alcuni casi
+* `[USD]` La geometria USD esportata è scivolata lungo i bordi UV
 
 * Il progetto `[Single Channel View]` salvato nella visualizzazione a colori di base sembra più scuro dopo l&#39;aggiornamento della versione di Painter
 * Il progetto `[Single Channel View]` salvato nella visualizzazione a colori di base sembra più scuro dopo l&#39;aggiornamento della versione di Painter
@@ -91,15 +94,10 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.0
 * La selezione della geometria `[Mask]` è ancora attiva dopo il passaggio alla modalità di cottura in forno
 * `[Sonoma]` icone non visualizzate nei menu
 * La fusione di `[Path]` Height di più percorsi può causare artefatti
-* `[USD]` Assegnazione usda errata in alcuni casi
 * `[Polygon Fill]` La modifica dello spazio colore di base non aggiorna il selettore colore
-* `[Paint Skew]` lo strumento selezionato in inclinazione colore rimane selezionato dopo il passaggio alla modalità Pittura
-* Il selettore `[Color Picker]` rimane aperto dopo la modifica dello strumento
 * `[UV Padding]` artefatti durante l&#39;upscaling della texture da 4k a 8k all&#39;esportazione
-* Le impostazioni di `[Baking Common Settings]` Cage Distance non aggiornano la visualizzazione di cage wireframe e shader
-* `[Send to Photoshop]` non riesce a esportare la maschera di livello
-* `[Skew Baking]` La correzione dell&#39;inclinazione si interrompe quando si disegna e si annulla
-* L&#39;interazione del riquadro di visualizzazione `[Projection Tool]` è bloccata dallo strumento di proiezione
+* `[Performances]` utilizzo VRAM di Painter hogs
+* `[Generator]` L&#39;impostazione di &quot;usa texture&quot; su false non disattiva l&#39;utilizzo dell&#39;input della texture
 * Le risorse non quadrate vengono dilatate quando vengono utilizzate negli slot del canale del pennello
 * Impossibile decodificare la sostanza
 * Gli UV non perfettamente sovrapposti possono creare artefatti
@@ -118,7 +116,8 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.0
 * Le modifiche dei parametri del pennello dalla barra degli strumenti contestuale non vengono visualizzate nella cronologia
 * Impossibile rinominare o eliminare i predefiniti di esportazione se li hai già eliminati e ricreati in questa sessione
 * La mappatura dei canali in alcuni casi non funziona per l’anteprima dello strumento di proiezione
-* L’apertura e il salvataggio di alcuni progetti può richiedere più tempo del solito
+* Il riquadro di visualizzazione si blocca durante il salvataggio durante la modifica della proiezione 3D
+* La risoluzione dei livelli del materiale è troppo bassa
 
 ## Stabilità
 
@@ -130,7 +129,3 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.0
 * `[Crash]` Ripristino della modalità di disegno dopo la perdita del dispositivo durante la cottura al forno
 * `[Crash]` Esci da Painter dopo aver annullato l’esportazione delle mappe
 * `[Crash]` Esportazione della trama con alcuni simboli speciali nel nome della fotocamera
-* `[Crash]` L&#39;eliminazione di un canale in modalità di visualizzazione Maschera causa un arresto anomalo
-* `[Crash]` Alcune Substance possono causare un arresto anomalo durante il rendering
-* `[Crash]` reimporta trama in modalità cottura al forno
-* `[Crash]` Il ricaricamento di più trame può causare un arresto anomalo

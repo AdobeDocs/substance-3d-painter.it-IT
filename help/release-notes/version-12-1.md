@@ -2,9 +2,9 @@
 title: Versione 12.1
 description: Note sulla versione 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Guarda il nostro ultimo tutorial su Youtube:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Note sulla versione
+
+### 12.1.3
+
+Data di pubblicazione: **2026/08/25**
+
+Riepilogo: **Versione secondaria**
+
+**Aggiunto:**
+
+* Aggiornamento del motore di Substance alla versione 9.4.6v
+
+**Corretto:**
+
+* [Il selettore scala di grigi] rimane aperto dopo aver modificato lo strumento
+* [Inclina al forno] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
+* [L&#39;interazione dello strumento di proiezione] nella finestra della vista è bloccata dallo strumento di proiezione
+* [Traccia dinamica] Parametri di traccia dinamica mancanti nelle proprietà del pennello
+* L’esportazione in rete non funziona più
 
 ### 12.1.2
 

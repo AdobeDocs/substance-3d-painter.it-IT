@@ -11,9 +11,9 @@ title: Tutte le modifiche
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33992'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,24 @@ Questa pagina contiene le note sulla versione per tutte le versioni precedenti d
 > Per visualizzare i problemi noti che possono influire su Painter, consulta la [pagina dedicata alla documentazione](known-issues.md).
 
 ## Versione 12
+
+### 12.1.3
+
+Data di pubblicazione: **2026/08/26**
+
+Riepilogo: **Versione secondaria**
+
+**Aggiunto:**
+
+* Aggiornamento del motore di Substance alla versione 9.4.6
+
+**Corretto:**
+
+* [Il selettore scala di grigi] rimane aperto dopo aver modificato lo strumento
+* [Inclina al forno] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
+* [L&#39;interazione dello strumento di proiezione] nella finestra della vista è bloccata dallo strumento di proiezione
+* [Traccia dinamica] Parametri di traccia dinamica mancanti nelle proprietà del pennello
+* L’esportazione in rete non funziona più
 
 ### 12.1.2
 
