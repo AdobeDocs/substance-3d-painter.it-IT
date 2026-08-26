@@ -236,7 +236,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 * [OpenPBR] Esportare materiali e texture di OpenPBR tramite USD
 * [OpenPBR] Aggiornare la finestra Esporta texture per visualizzare la convenzione di denominazione dell&#39;OpenPBR
 * [OpenPBR] Aggiungi documentazione sulle modifiche all’OpenPBR di supporto
-* [OpenPBR][Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
+* [OpenPBR]&#x200B;[Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
 * Diversi miglioramenti minori delle esportazioni in USD
 * [UI] Aggiungete un avviso nella finestra della vista quando tentate di colorare su un altro set di texture
 * [Appiattisci] Consenti di appiattire tutti i livelli istanziati tra set di texture
@@ -255,14 +255,14 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 
 <b>Risolto</b>:
 
-* [Arresto anomalo][Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
+* [Arresto anomalo]&#x200B;[Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
 * [Arresto anomalo] Quando si cuoce la curvatura dalla mappa senza spazio mondo normale
-* [Arresto anomalo][Baking] Il baking con una gabbia personalizzata abilitata ma nessun file selezionato si arresta in modo anomalo
+* [Arresto anomalo]&#x200B;[Baking] Il baking con una gabbia personalizzata abilitata ma nessun file selezionato si arresta in modo anomalo
 * [Arresto anomalo] Annullamento della cottura automatica
 * [Auto-Cage] Caricamento infinito quando il percorso del file di tipo High Poly non è valido
-* [Linux][Windows] Il selettore colore a volte può essere completamente nero o non apparire
+* [Linux]&#x200B;[Windows] Il selettore colore a volte può essere completamente nero o non apparire
 * [Strumento Riempimento poligonale] Lo strumento non funziona con file non PBR
-* [[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
+* &lbrack;[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
 * [USD] Le istanze dello shader non vengono tutte rilevate correttamente
 * [Substance] Viene preso in considerazione solo il primo utilizzo di un nodo di input/output
 * [Shader] L’Occlusione Ambiente viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
