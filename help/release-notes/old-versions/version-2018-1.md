@@ -144,7 +144,7 @@ In questa versione sono stati inoltre aggiunti nuovi contenuti:
   La direzione può essere definita con due posizioni 3D, che possono essere selezionate direttamente sulla mappa posizione.\
   Esempio:
 
-1. 
+1. &#x200B;
    1. Crea il generatore di maschere **3D linear gradient** in uno dei tuoi livelli
    1. Imposta la visualizzazione della finestra della vista su &quot;**Posizione**&quot; (tramite il menu a discesa della finestra della vista o utilizzando la chiave &quot;**B**&quot;)
    1. Fai clic sul parametro &quot;**Inizio posizione 3D**&quot; per aprire la finestra a comparsa **Selettore colore**
@@ -253,7 +253,7 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 * [Driver] Aggiornamento dei requisiti minimi dei driver
 * [3Dview] Normali non generate correttamente sulle trame UDIM senza informazioni sulle normali
 * [Intel] Arresto anomalo con Substance Painter 2018.1.0
-* [Intel][Viewport] Problema con la spaziatura interna (artefatti neri)
+* [Intel]&#x200B;[Viewport] Problema con la spaziatura interna (artefatti neri)
 
 **Problemi noti:**
 

@@ -226,16 +226,16 @@ Riepilogo: <b>Versione principale, edizione della Pila livelli con API Python, l
 <b>Aggiunto</b>:
 
 * [Illustrator] Utilizzare i file Illustrator con le tavole da disegno in Painter
-* [Illustrator][SVG] Aggiungere anteprime nella selezione dell’ambito
+* [Illustrator]&#x200B;[SVG] Aggiungere anteprime nella selezione dell’ambito
 * [Substance 3D Assets] Sfoglia, seleziona e scarica Risorse 3D direttamente in Painter
-* [Substance 3D Assets][UI] Nuovo pannello
+* [Substance 3D Assets]&#x200B;[UI] Nuovo pannello
 * [Substance 3D Assets] Supporto di mappe e materiali ambientali
 * [Substance 3D Assets] Consenti di ricaricare, navigare e aprire la cartella della posizione nel nuovo pannello di Substance 3D Assets
 * [Substance 3D Assets] Aggiunta di un gestore di download
 * [Risorsa testo] Consenti l&#39;utilizzo di font incorporabili
 * [Risorsa testo] Consenti il rendering di un font o testo su una trama
 * [Risorsa di testo] Visualizza i font dell&#39;utente e di altri tracciati condivisi nel pannello Risorse con una nuova categoria
-* [Text Resource][Properties] Aggiungi il supporto per le proprietà avanzate dei font
+* [Text Resource]&#x200B;[Properties] Aggiungi il supporto per le proprietà avanzate dei font
 * [Risorsa di testo] Consenti di cercare/visualizzare i font nei mini-scaffali
 * [Risorsa testo] Aggiungi messaggio di errore/finestra di dialogo durante l’importazione di un font incompatibile
 * Varie
@@ -298,9 +298,9 @@ Riepilogo: <b>Versione principale, edizione della Pila livelli con API Python, l
 <b>Problemi noti</b>:
 
 * [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Crash][Linux][AMD] Trascinamento di risorse nello stack di livelli sul sistema operativo Wayland
-* [Regressione][UI] Il menu di scelta rapida è troppo piccolo per gli schermi HD
-* [Crash][Python] Esportazione USD attivata da TextureStateEvent
+* [Crash]&#x200B;[Linux]&#x200B;[AMD] Trascinamento di risorse nello stack di livelli sul sistema operativo Wayland
+* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo per gli schermi HD
+* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
 * [Salva] Il file di progetto Spp viene perso quando &quot;Salva con nome&quot; non riesce
 * [MacOS Intel] Arresto anomalo durante l’importazione di alcuni predefiniti
 * [Illustrator] Impossibile importare file Ai dopo l&#39;arresto del server senza riavviare Painter

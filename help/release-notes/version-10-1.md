@@ -156,7 +156,7 @@ Riepilogo: <b>Versione principale, nuovo contenuto: maschera area di riempimento
 * [VFX Platform 2024] Aggiornamento a Python 3.11
 * [Piattaforma VFX 2024] Aggiornamento all&#39;OpenEXR 3.2
 * [VFX Platform 2024] [USD] Aggiornamento OpenSubdiv 3.6.0
-* [VFX Platform 2024][Color Management] Aggiornamento a OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[Color Management] Aggiornamento a OCIO 2.3.2
 * [Linux] Migrazione a Linux RedHat
 * [Linux] Aggiorna la versione min del driver Nvidia a 535.171.04
 * [Import] Aggiungi un&#39;opzione per capovolgere la mappa normale durante l&#39;importazione di una trama GLTF
@@ -170,10 +170,10 @@ Riepilogo: <b>Versione principale, nuovo contenuto: maschera area di riempimento
 <b>Risolto</b>:
 
 * [Illustrator] Arresto anomalo durante l&#39;esportazione di un riquadro UV con grafica .ai in casi specifici
-* [Tratti dinamici][Tracciato] Casuale per tratto non funziona su un tracciato
-* [UI][Proprietà] Il blocco è attivato quando la suddivisione in porzioni è non uniforme
+* [Tratti dinamici]&#x200B;[Tracciato] Casuale per tratto non funziona su un tracciato
+* [UI]&#x200B;[Proprietà] Il blocco è attivato quando la suddivisione in porzioni è non uniforme
 * &#x200B;Il file TXT di debug viene creato quando si fa doppio clic su un progetto Painter
-* [USD][Esporta] Alcune texture potrebbero essere mancanti
+* [USD]&#x200B;[Esporta] Alcune texture potrebbero essere mancanti
 * [ASM] La dispersione del canale del colore ignora l&#39;effetto metallizzato
 * [Contenuto] Il filtro Sfocatura non funziona nello spazio colore &quot;di lavoro&quot;
 * [Contenuto] Il filtro Regolazione Height modifica anche il canale alfa del livello
@@ -181,9 +181,9 @@ Riepilogo: <b>Versione principale, nuovo contenuto: maschera area di riempimento
 <b>Problemi noti</b>:
 
 * [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Win][Arresto anomalo] [ACE] Non utilizza lo spazio colore ICE sRGB per la trasformazione dello schermo
-* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Crash][Python] Esportazione USD attivata da TextureStateEvent
+* [Win]&#x200B;[Arresto anomalo] [ACE] Non utilizza lo spazio colore ICE sRGB per la trasformazione dello schermo
+* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
 * [MacOS Intel] Arresto anomalo durante l’importazione di alcuni predefiniti
 * [Arresto anomalo] Riposiziona risorsa e salva progetto
 * [Engine] Colorare con lo strumento Clona in canali normali si sposta i colori in modo errato

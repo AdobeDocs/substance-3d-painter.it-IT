@@ -27,7 +27,7 @@ Per ulteriori informazioni, consulta la [documentazione Apple](https://support.a
 Per attivarla:
 
 1. Chiudi Substance 3D Painter se è già in esecuzione.
-1. Seleziona Substance 3D Painter nel Finder; si trova nella cartella **Applicazioni****.**
+1. Seleziona Substance 3D Painter nel Finder; si trova nella cartella **Applicazioni**&#x200B;**.**
 1. Premi **Comando-I** oppure fai clic con il pulsante destro del mouse sull&#39;applicazione **Substance 3D Painter** e scegli **Ottieni informazioni**.
 1. Nella nuova finestra, attiva l&#39;impostazione **Preferisci GPU esterna**.
 1. Riavviate Substance 3D Painter.

@@ -280,7 +280,7 @@ Riepilogo: **Correzione rapida con 2 nuove funzioni**
 * Arresto anomalo di [TextureSet] quando si fa clic tra le maschere
 * Lo Spostamento [SVT] non viene visualizzato correttamente e in alcuni casi sfarfalla
 * [Alembic] Arresto anomalo con trama che utilizza le normali dei punti invece delle normali dei vertici
-* [Alembic][Log] Segnala un errore nel log se il file Alembic non è supportato durante l&#39;importazione
+* [Alembic]&#x200B;[Log] Segnala un errore nel log se il file Alembic non è supportato durante l&#39;importazione
 
 ### 2019.1.2
 
@@ -303,9 +303,9 @@ Riepilogo: **HotFix**
 **Corretto:**
 
 * [Substance] Visibile se non viene preso in considerazione per le immagini di input
-* [SVT][Engine] La modifica della risoluzione del set di texture in alcuni casi causa un arresto anomalo
+* [SVT]&#x200B;[Engine] La modifica della risoluzione del set di texture in alcuni casi causa un arresto anomalo
 * [Engine] In alcuni casi vengono visualizzate texture di nero casuale
-* [Serie di livelli][UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
+* [Serie di livelli]&#x200B;[UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
 * [Serie di livelli] L’opacità non ha effetto sull’effetto Disegno con metodo di fusione Attraversa
 * [Serie di livelli] L’input del filtro Da Height a normale non si aggiorna correttamente con il tratto del pennello gomma
 * [LayersStack] Arresto anomalo quando si annulla la rilascio di una maschera avanzata
@@ -334,38 +334,38 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 * [Tratto dinamico] Tieni conto del parametro $time
 * [Tratto dinamico] Genera un nuovo parametro $randomseed per tratto e per timbro
 * [Tratto dinamico] Avvia un indice di tratto dinamico da un numero casuale
-* [Tratto dinamico][Scaffale] Aiuta a trovare una risorsa tratto dinamico con una nuova icona dedicata
+* [Tratto dinamico]&#x200B;[Scaffale] Aiuta a trovare una risorsa tratto dinamico con una nuova icona dedicata
 * Spostamento e tassellatura nella finestra della vista in tempo reale
 * Spostamento e tassellatura in Iray
-* [Impostazioni shader][UI] Nuova scheda per il controllo dello spostamento e della tassellatura
+* [Impostazioni shader]&#x200B;[UI] Nuova scheda per il controllo dello spostamento e della tassellatura
 * [Pila livelli] Nuovo effetto Confronta maschera: genera una maschera confrontando due canali
-* [Pila livelli][UI] Nuova voce nel menu di scelta rapida &quot;Aggiungi maschera con combinazione di height&quot; per inserire un effetto CompareMask
+* [Pila livelli]&#x200B;[UI] Nuova voce nel menu di scelta rapida &quot;Aggiungi maschera con combinazione di height&quot; per inserire un effetto CompareMask
 * [Simmetria] Nuova modalità simmetria: pittura radiale
 * [Simmetria impostazioni] Espandere entrambe le sezioni &quot;Impostazioni&quot; e &quot;Schermo&quot;
-* [Simmetria impostazioni][UI] Anteprima per pittura radiale
+* [Simmetria impostazioni]&#x200B;[UI] Anteprima per pittura radiale
 * Esporre due nuove modalità di proiezione: piana e sferica
 * [Proj] Nuova modalità di ritaglio forma per tutte le proiezioni
 * [Proj] Modalità Planari con nuovo manipolatore: strumento Superficie
-* [Proj][Scelta rapida da tastiera] Maiusc Scelta rapida da tastiera+W per strumento superficie
+* [Proj]&#x200B;[Scelta rapida da tastiera] Maiusc Scelta rapida da tastiera+W per strumento superficie
 * [Proj] Maschera di proiezione planare con taglio a sfoltimento profondità e sfondo
 * [Manipolatore] Miglioramento del manipolatore di rotazione su tutti e tre gli assi per il triplanare
-* [Tool][UX] Se si fa clic su un canale tenendo premuto il tasto Alt, tale canale viene attivato o disattivato
+* [Tool]&#x200B;[UX] Se si fa clic su un canale tenendo premuto il tasto Alt, tale canale viene attivato o disattivato
 * [Engine] Aggiornamento alla versione più recente di Substance Engine
 * [Set di texture] Selezione multipla e modifica della risoluzione
 * [Set di texture] Attivazione e disattivazione rapida dei set di texture
 * [Set di texture] Combina solo e tutte le opzioni in un nuovo menu
-* [Set di texture][Layer stack] Icona Nuova per attivazione e disattivazione
-* [Layer stack][UX] Inserisci effetti sopra quelli già selezionati
-* [Serie di livelli][UI] Rielaborare lo stile di selezione della visualizzazione della serie di livelli
+* [Set di texture]&#x200B;[Layer stack] Icona Nuova per attivazione e disattivazione
+* [Layer stack]&#x200B;[UX] Inserisci effetti sopra quelli già selezionati
+* [Serie di livelli]&#x200B;[UI] Rielaborare lo stile di selezione della visualizzazione della serie di livelli
 * [Serie di livelli] Per impostazione predefinita, il metodo di fusione per i livelli istanziati è ora impostato sul metodo Attraversa
 * Opzione [Esporta] per attivare e disattivare il dithering
 * [Plugin] Supporta il modificatore di precisione per i cursori (SHIFT)
-* [Plugin][UI] Nuova icona per il salvataggio automatico
+* [Plugin]&#x200B;[UI] Nuova icona per il salvataggio automatico
 * [Scripting] Elenca il contenuto di una cartella
 * [Scripting] Consente l’eliminazione dei file
 * [Scripting] Leggi tutte le informazioni sullo stack, incluse le risorse utilizzate
-* [Contenuto][Tratto dinamico] Nuovi strumenti e pennelli predefiniti
-* [Contenuto][Tratto dinamico] Due nuove sfumature procedurali: Tonalità sfumatura e Generatore sfumatura
+* [Contenuto]&#x200B;[Tratto dinamico] Nuovi strumenti e pennelli predefiniti
+* [Contenuto]&#x200B;[Tratto dinamico] Due nuove sfumature procedurali: Tonalità sfumatura e Generatore sfumatura
 * [Contenuto] 11 nuovi filtri: MatFx Peeling Paint, MatFx Water Drops e altro ancora
 * [Content] 7 nuovi generatori: Cucitrice automatica, Colore casuale UV, Densità texel UV e altro ancora
 * [Contenuto] 93 nuove alfa: nuovi testi, frecce e varie altre forme
@@ -388,4 +388,4 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 **Problemi noti:**
 
 * Facendo doppio clic sul nome del set di texture, questo viene selezionato prima di passare alla modalità di ridenominazione
-* [Pila livelli][UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
+* [Pila livelli]&#x200B;[UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente

@@ -13,7 +13,7 @@ ht-degree: 3%
 
 La **modalità di Esegue i baking** consente di accedere a tutti gli strumenti e i parametri necessari per la creazione di esegue i baking di alta qualità.
 
-Per accedere alla **modalità di Esegue i baking**, fare clic sul pulsante Croissant (eseguito i baking) in alto a destra nella finestra della vista. In alternativa, utilizzate [la scelta rapida da tastiera da tastiera ](../interface/settings/shortcuts.md)**F8** o selezionate **Modalità > Esegue i baking mappe trama**
+Per accedere alla **modalità di Esegue i baking**, fare clic sul pulsante Croissant (eseguito i baking) in alto a destra nella finestra della vista. In alternativa, utilizzate [la scelta rapida da tastiera da tastiera &#x200B;](../interface/settings/shortcuts.md)**F8** o selezionate **Modalità > Esegue i baking mappe trama**
 
 ![](../assets/baking/mode_select_buttons.png)
 

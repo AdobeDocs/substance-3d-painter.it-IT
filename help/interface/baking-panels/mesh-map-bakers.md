@@ -72,7 +72,7 @@ In alternativa, se desiderate copiare le impostazioni per una singola mappa tram
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*Nell&#39;esempio precedente, ogni set di texture inizia con impostazioni diverse per AO. Senza impostare la mappa della trama AO da sincronizzare, utilizziamo **Applicare le impostazioni di occlusione ambientale a più set di texture...**in modo da poter iniziare a modificare le impostazioni AO per il nuovo set di texture dalla stessa linea di base.*
+*Nell&#39;esempio precedente, ogni set di texture inizia con impostazioni diverse per AO. Senza impostare la mappa della trama AO da sincronizzare, utilizziamo **Applicare le impostazioni di occlusione ambientale a più set di texture...**&#x200B;in modo da poter iniziare a modificare le impostazioni AO per il nuovo set di texture dalla stessa linea di base.*
 
 ### Gestire lo stato di controllo per le mappe trama
 
@@ -90,10 +90,10 @@ L&#39;opzione Controlla stato determina se una determinata mappa viene inclusa q
 
 ![](../../assets/baking/invert-checked.gif)
 
-*Nell&#39;esempio precedente, utilizziamo **Inverti mappe trama verificate**per cambiare rapidamente la selezione e quindi eseguire il baking delle mappe trama che non sono ancora state elaborate.*
+*Nell&#39;esempio precedente, utilizziamo **Inverti mappe trama verificate**&#x200B;per cambiare rapidamente la selezione e quindi eseguire il baking delle mappe trama che non sono ancora state elaborate.*
 
 Quando lavorate con più set di texture, potete anche copiare lo stato selezionato delle mappe in altri set di texture selezionando **Applica selezionato a più set di texture...** oppure copiare lo stato selezionato in tutti i set di texture con **Applica selezionato a tutti i set di texture**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*Nell&#39;esempio precedente, non è stato ancora eseguito i baking il Height, la normali incurvate o l&#39;opacità nel set di texture **Material.001**. Abbiamo già selezionato queste mappe trama nel set di texture **Materiale**, quindi utilizziamo **Applica controllato a più set di texture...**e selezioniamo **Materiale.001**per copiare lo stato selezionato. Quindi eseguiamo i baking le mappe. Si noti che la visualizzazione passa in sequenza attraverso le mappe di trama due volte quanto le mappe vengono eseguite i baking: questo perché vengono eseguite i baking per entrambi i set di texture.*
+*Nell&#39;esempio precedente, non è stato ancora eseguito i baking il Height, la normali incurvate o l&#39;opacità nel set di texture **Material.001**. Abbiamo già selezionato queste mappe trama nel set di texture **Materiale**, quindi utilizziamo **Applica controllato a più set di texture...**&#x200B;e selezioniamo **Materiale.001**&#x200B;per copiare lo stato selezionato. Quindi eseguiamo i baking le mappe. Si noti che la visualizzazione passa in sequenza attraverso le mappe di trama due volte quanto le mappe vengono eseguite i baking: questo perché vengono eseguite i baking per entrambi i set di texture.*

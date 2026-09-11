@@ -207,42 +207,42 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 **Aggiunto:**
 
 * [Librerie] Nuovo pannello Risorse per sostituire lo scaffale
-* [Libraries][UI] Nuovo layout del pannello Risorse
-* [Libraries][UI] Modifica l&#39;orientamento e l&#39;interfaccia utente predefiniti del pannello Risorse
-* [Libraries][UI] Introduce un&#39;opzione di visualizzazione elenco alla libreria
-* [Libraries][UI] Nuovo percorso di navigazione nel pannello Risorse
-* [Libraries][UI] Seleziona &quot;Tutte le librerie&quot; quando selezioni una ricerca salvata
-* [Libraries][UI] Seleziona &quot;Tutte le librerie&quot; quando tutte le cartelle sono deselezionate
-* [Libraries][UI] Nuovo tag per i pennelli particelle
-* [Libraries][UI] Sostituito &quot;shelf&quot; da &quot;Tutte le librerie&quot; in tutta l&#39;app
-* [Libraries][UI] Consente di nascondere le cartelle vuote
-* [Libraries][UI] La libreria utente predefinita dovrebbe essere visibile anche se vuota
-* [Libraries][UI] Nuovo metodo di filtraggio tramite le icone del tipo di risorsa
+* [Libraries]&#x200B;[UI] Nuovo layout del pannello Risorse
+* [Libraries]&#x200B;[UI] Modifica l&#39;orientamento e l&#39;interfaccia utente predefiniti del pannello Risorse
+* [Libraries]&#x200B;[UI] Introduce un&#39;opzione di visualizzazione elenco alla libreria
+* [Libraries]&#x200B;[UI] Nuovo percorso di navigazione nel pannello Risorse
+* [Libraries]&#x200B;[UI] Seleziona &quot;Tutte le librerie&quot; quando selezioni una ricerca salvata
+* [Libraries]&#x200B;[UI] Seleziona &quot;Tutte le librerie&quot; quando tutte le cartelle sono deselezionate
+* [Libraries]&#x200B;[UI] Nuovo tag per i pennelli particelle
+* [Libraries]&#x200B;[UI] Sostituito &quot;shelf&quot; da &quot;Tutte le librerie&quot; in tutta l&#39;app
+* [Libraries]&#x200B;[UI] Consente di nascondere le cartelle vuote
+* [Libraries]&#x200B;[UI] La libreria utente predefinita dovrebbe essere visibile anche se vuota
+* [Libraries]&#x200B;[UI] Nuovo metodo di filtraggio tramite le icone del tipo di risorsa
 * [Libraries] Scelta rapida &quot;CTRL&quot; per selezionare più tipi di risorse
 * [Libraries] Nuova variabile di ambiente per controllare il budget della memoria di anteprima delle risorse
-* [Libraries][Content] Mappe del nuovo ambiente
-* [Libraries][Content][UI] spostamento di rendering sui materiali predefiniti
-* [Libraries][Contenuto] Impostate lo shader Adobe Standard Material (ASM) come predefinito per la generazione delle anteprime
-* [Libraries][Content][ASM] Nuovi modelli di progetto per il nuovo shader ASM
-* [Libraries][Thumbnail] Utilizza la nuova mappa dell&#39;ambiente Studio 6
-* [Libraries][Thumbnail] Leggi la miniatura nella risorsa invece di generarla
-* [Libraries][Thumbnail] Aggiungi spostamento alla generazione di miniature
+* [Libraries]&#x200B;[Content] Mappe del nuovo ambiente
+* [Libraries]&#x200B;[Content]&#x200B;[UI] spostamento di rendering sui materiali predefiniti
+* [Libraries]&#x200B;[Contenuto] Impostate lo shader Adobe Standard Material (ASM) come predefinito per la generazione delle anteprime
+* [Libraries]&#x200B;[Content]&#x200B;[ASM] Nuovi modelli di progetto per il nuovo shader ASM
+* [Libraries]&#x200B;[Thumbnail] Utilizza la nuova mappa dell&#39;ambiente Studio 6
+* [Libraries]&#x200B;[Thumbnail] Leggi la miniatura nella risorsa invece di generarla
+* [Libraries]&#x200B;[Thumbnail] Aggiungi spostamento alla generazione di miniature
 * [Impostazioni set di texture]
-* [Texture Set Settings][UI] Esporta il nuovo height al metodo di conversione normale
-* [Impostazioni set di texture][UI] Rielaborazione dell&#39;organizzazione dell&#39;interfaccia utente dei canali
+* [Texture Set Settings]&#x200B;[UI] Esporta il nuovo height al metodo di conversione normale
+* [Impostazioni set di texture]&#x200B;[UI] Rielaborazione dell&#39;organizzazione dell&#39;interfaccia utente dei canali
 * [Impostazioni set texture] Limite canali utente aumentato a 16 canali
-* [Texture Set Settings][UI] Indica quali canali sono compatibili con lo shader attualmente selezionato
-* [Shader][ASM] Nuovo shader materiale standard Adobe
-* [Shader][ASM] Aggiunto il supporto per Anisotropia, Cancella rivestimento, Dispersione sottosuperficie, Specular edge color e Brillantezza
-* [Shader][ASM] Modifica i valori di colore dei canali predefiniti
-* [Shader][ASM][Esporta] Modello di esportazione aggiornato da Adobe Dimension a Adobe Substance 3D Stager
-* [Shader][ASM] Etichette e descrizioni comandi aggiunte per i parametri shader e MDL
-* [Shader][ASM] Rendete visibile il colore della Dispersione nella vista 2D anche se SSS non è supportato
-* [Shader][ASM][Iray] Supporta lo shader ASM in Iray con la nuova MDL
-* [Shader][ASM][Iray] Scattering sottosuperficie aggiornato in lucido e patinato delle specifiche PBR legacy
-* [Shader][ASM][Content] Ha modificato il tipo SSS predefinito per i campioni
-* [Shader][ASM] Documentazione aggiunta per l&#39;API ASM
-* [Shader][ASM] Ottimizzate gli shader per ignorare i canali non utilizzati
+* [Texture Set Settings]&#x200B;[UI] Indica quali canali sono compatibili con lo shader attualmente selezionato
+* [Shader]&#x200B;[ASM] Nuovo shader materiale standard Adobe
+* [Shader]&#x200B;[ASM] Aggiunto il supporto per Anisotropia, Cancella rivestimento, Dispersione sottosuperficie, Specular edge color e Brillantezza
+* [Shader]&#x200B;[ASM] Modifica i valori di colore dei canali predefiniti
+* [Shader]&#x200B;[ASM]&#x200B;[Esporta] Modello di esportazione aggiornato da Adobe Dimension a Adobe Substance 3D Stager
+* [Shader]&#x200B;[ASM] Etichette e descrizioni comandi aggiunte per i parametri shader e MDL
+* [Shader]&#x200B;[ASM] Rendete visibile il colore della Dispersione nella vista 2D anche se SSS non è supportato
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Supporta lo shader ASM in Iray con la nuova MDL
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Scattering sottosuperficie aggiornato in lucido e patinato delle specifiche PBR legacy
+* [Shader]&#x200B;[ASM]&#x200B;[Content] Ha modificato il tipo SSS predefinito per i campioni
+* [Shader]&#x200B;[ASM] Documentazione aggiunta per l&#39;API ASM
+* [Shader]&#x200B;[ASM] Ottimizzate gli shader per ignorare i canali non utilizzati
 * [Shader] Esporre i nuovi canali del set di texture
 * [Shader] Dispersione sottosuperficie migliorata
 * [Shader] Nuovi parametri dello shader nascosti per alcuni shader
@@ -259,41 +259,41 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 * [UI] Aggiornamento complessivo dell’interfaccia utente
 * [UI] Rielaborazione del menu Aiuto
 * [UI] Sostituisci l&#39;icona Inverti
-* [UI][Plugin] Icona Sostituisci per il collegamento dcc del plug-in
-* [UI][AMD] Aggiorna la versione minima richiesta e il messaggio a comparsa
+* [UI]&#x200B;[Plugin] Icona Sostituisci per il collegamento dcc del plug-in
+* [UI]&#x200B;[AMD] Aggiorna la versione minima richiesta e il messaggio a comparsa
 * [Serie di livelli] Crea un nuovo livello all’interno della cartella vuota selezionata
 * Aggiornamento della documentazione Python
 * Branding
-* [Branding][UI] Nome dell’applicazione aggiornato in Adobe Substance 3D Painter
-* [Branding][UI] Versione autonoma aggiornata a &quot;Substance edition&quot;
-* [Branding][UI] Nome eseguibile dell&#39;applicazione aggiornato, percorso di installazione, pacchetto e icone
-* [Branding][UI] Libreria e percorso predefiniti rinominati
-* [Branding][UI] Aggiornamento della finestra Informazioni su
-* [Branding][UI] Schermata introduttiva aggiornata
-* [Branding][UI] Rimosso il numero di versione basato sull&#39;anno
+* [Branding]&#x200B;[UI] Nome dell’applicazione aggiornato in Adobe Substance 3D Painter
+* [Branding]&#x200B;[UI] Versione autonoma aggiornata a &quot;Substance edition&quot;
+* [Branding]&#x200B;[UI] Nome eseguibile dell&#39;applicazione aggiornato, percorso di installazione, pacchetto e icone
+* [Branding]&#x200B;[UI] Libreria e percorso predefiniti rinominati
+* [Branding]&#x200B;[UI] Aggiornamento della finestra Informazioni su
+* [Branding]&#x200B;[UI] Schermata introduttiva aggiornata
+* [Branding]&#x200B;[UI] Rimosso il numero di versione basato sull&#39;anno
 * [Localizzazione] Nuove traduzioni in tedesco, francese e cinese semplificato
 * [Interoperabilità] Non disponibile per le edizioni Steam e Substance
 * [Interoperabilità] Interoperabilità con l&#39;ecosistema Adobe: Designer, Sampler, Stager e Bridge
-* [Interoperabilità][UI] Ricevi e aggiorna la risorsa da Designer
-* [Interoperabilità][UI] Ricevi risorsa da Sampler
-* [Interoperabilità][UI] Invia risorsa a Stager
-* [Interoperabilità][UI] Mostra in Adobe Bridge
-* [Interoperabilità][UI] Consente di accedere rapidamente alle risorse 3D di Adobe
+* [Interoperabilità]&#x200B;[UI] Ricevi e aggiorna la risorsa da Designer
+* [Interoperabilità]&#x200B;[UI] Ricevi risorsa da Sampler
+* [Interoperabilità]&#x200B;[UI] Invia risorsa a Stager
+* [Interoperabilità]&#x200B;[UI] Mostra in Adobe Bridge
+* [Interoperabilità]&#x200B;[UI] Consente di accedere rapidamente alle risorse 3D di Adobe
 * [Interoperabilità] Nuovi tag di utilizzo di sbsar
 * [Interoperabilità] Gestire i tipi di risorse ricevute
 * [Interoperabilità] Le risorse ricevute da Adobe Substance 3D Designer o Adobe Substance 3D Sampler vengono archiviate nella libreria predefinita scelta dall&#39;utente
-* [Interoperabilità][UI] Nuova icona nella barra degli strumenti a sinistra da inviare a Stager o Photoshop
+* [Interoperabilità]&#x200B;[UI] Nuova icona nella barra degli strumenti a sinistra da inviare a Stager o Photoshop
 
 **Corretto:**
 
 * [Tablet] Prestazioni ridotte quando si esegue il disegno a pressione
 * [Tablet] Problema con i tablet con controlli del cursore
 * [Arresto anomalo] Mancata corrispondenza del nome tra l’elenco Set di texture e il modulo di esportazione
-* [Arresto anomalo][Librerie] Fai doppio clic su una libreria secondaria
+* [Arresto anomalo]&#x200B;[Librerie] Fai doppio clic su una libreria secondaria
 * [Libraries] Problema durante la ricerca per indicizzazione delle directory della libreria
 * [Libraries] La riga di comando Forza generazione anteprima non funziona come previsto
-* [Libraries][Contenuto] Il filtro Baked Light Environment è nero per impostazione predefinita
-* [Linux][MacOS][Esporta mesh] Impossibile importare glTF creato su Linux/MacOS
+* [Libraries]&#x200B;[Contenuto] Il filtro Baked Light Environment è nero per impostazione predefinita
+* [Linux]&#x200B;[MacOS]&#x200B;[Esporta mesh] Impossibile importare glTF creato su Linux/MacOS
 * [Linux] Il trascinamento di un file nel pannello Risorse può causare un arresto anomalo
 * [Auto-Unwrap] L’opzione Auto-Unwrap è disponibile anche se una trama non è stata selezionata per il ricaricamento
 * [Particelle] Comportamento errato delle particelle con gravità
@@ -305,7 +305,7 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 * [Iray] La mappa normale non viene considerata nei nuovi progetti durante il rendering
 * [Salva] Salva problemi su unità condivise
 * [Baking] Se si esegue il rebaking di una trama con parametri modificati, viene visualizzato un avviso
-* [Baking][Regressione] Risultato errato quando il rettangolo di selezione globale di High Poly Meshes non include l&#39;origine della scena
+* [Baking]&#x200B;[Regressione] Risultato errato quando il rettangolo di selezione globale di High Poly Meshes non include l&#39;origine della scena
 * [Python] Le librerie utente personalizzate non sono considerate
 
 **Problemi noti:**

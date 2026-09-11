@@ -208,10 +208,10 @@ Riepilogo: **Versione principale con nuova modalità di cottura, nuova importazi
 * [USD] Importa mesh con skin USD in un fotogramma specifico
 
   Quando crei un nuovo progetto con un file di trama USD che contiene animazioni, è possibile selezionare il fotogramma utilizzando un cursore che riflette la sequenza temporale incorporata. Il fotogramma può essere modificatore tramite Configurazione progetto.
-* [USD][Esporta] Aggiungi un’opzione per esportare i file USD
+* [USD]&#x200B;[Esporta] Aggiungi un’opzione per esportare i file USD
 
   Nuova casella di controllo Esporta USD aggiunta alla finestra Esporta texture. Quando è selezionato, consente di esportare file USD e mappe texture utilizzando qualsiasi modello.
-* [USD][Esporta] Aggiungi il formato di file USD all’esportazione con trama
+* [USD]&#x200B;[Esporta] Aggiungi il formato di file USD all’esportazione con trama
 * [USD] Rinomina il predefinito di esportazione &quot;Rugosità metallo USD PBR&quot; esistente per renderlo più esplicito
 
   Il modello di esportazione USD precedentemente noto come &quot;Rugosità metallo USD PBR&quot; è ancora accessibile tramite Esporta texture > Modello di output > USDz (Apple AR).
@@ -224,13 +224,13 @@ Riepilogo: **Versione principale con nuova modalità di cottura, nuova importazi
 * [Dimensioni fisiche] Esposizione dimensioni fisiche per Proiezione UV
 
   Il ridimensionamento delle dimensioni fisiche è ora disponibile per le Proiezioni UV: consente di ridimensionare automaticamente un materiale in base alla dimensioni fisiche di una trama. Può essere selezionata da Scala > Dimensioni fisiche nel livello di riempimento o nella finestra Proprietà effetti.
-* [Scripting][Python] Consenti di eseguire query sulla versione dell’applicazione
-* [Scripting][JavaScript] Aggiorna l’API in base ai nuovi parametri di baking
-* [Scripting][Python] Modulo Baking: modificare i parametri di baking
-* [Scripting][Python] Modulo Baking: avvia/annulla baking
-* [Scripting][Python] Modulo Baking: selezionare il metodo di curvatura
-* [Scripting][Python] Modulo Baking: selezione di panettieri/piastrelle uv
-* [Scripting][Python] Modulo Baking: sincronizzare le impostazioni baker su tutti i set di texture
+* [Scripting]&#x200B;[Python] Consenti di eseguire query sulla versione dell’applicazione
+* [Scripting]&#x200B;[JavaScript] Aggiorna l’API in base ai nuovi parametri di baking
+* [Scripting]&#x200B;[Python] Modulo Baking: modificare i parametri di baking
+* [Scripting]&#x200B;[Python] Modulo Baking: avvia/annulla baking
+* [Scripting]&#x200B;[Python] Modulo Baking: selezionare il metodo di curvatura
+* [Scripting]&#x200B;[Python] Modulo Baking: selezione di panettieri/piastrelle uv
+* [Scripting]&#x200B;[Python] Modulo Baking: sincronizzare le impostazioni baker su tutti i set di texture
 * [SVT] Abilitazione del supporto hardware di tipo sparse sulle GPU AMD
 
   L’accelerazione hardware per il sistema Sparse Virtual Textures può ora essere abilitata con le GPU AMD. Questa impostazione viene attivata automaticamente nelle preferenze generali.
@@ -249,10 +249,10 @@ Riepilogo: **Versione principale con nuova modalità di cottura, nuova importazi
 **Corretto:**
 
 * [Arresto anomalo] Modifica dei canali su un filtro con uno stack specifico
-* [Mac][M1] Arresto anomalo durante la creazione di un livello di riempimento e l&#39;uscita dal gruppo di livelli
+* [Mac]&#x200B;[M1] Arresto anomalo durante la creazione di un livello di riempimento e l&#39;uscita dal gruppo di livelli
 
   Questo problema può essere risolto eseguendo l’aggiornamento a Mac OS 13 (Ventura).
-* [Scripting][Python] Arresto anomalo quando si utilizza ui.add\_dock\_widget() con tipo errato
+* [Scripting]&#x200B;[Python] Arresto anomalo quando si utilizza ui.add\_dock\_widget() con tipo errato
 * [Baking] Messaggio di errore incompleto nel registro quando un baking non riesce
 * [Baking] La memoria non viene liberata al termine della cottura
 * [Engine] La cache delle texture non si aggiorna quando si modifica la visibilità degli effetti

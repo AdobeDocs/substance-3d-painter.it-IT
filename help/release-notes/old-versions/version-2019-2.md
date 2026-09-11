@@ -180,7 +180,7 @@ Riepilogo: **Bugfix**
 **Corretto:**
 
 * [Plugin] L&#39;origine del plug-in non funziona
-* [MacOS][Shader] Mac OS 10.14.5 e AMD: la creazione di livelli di materiale non funziona come previsto
+* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 e AMD: la creazione di livelli di materiale non funziona come previsto
 
 **Problemi noti:**
 
@@ -205,7 +205,7 @@ Riepilogo: **Bugfix**
 
 **Corretto:**
 
-* [Mac][USD] Impossibile aprire i file USDZ esportati da MacOS
+* [Mac]&#x200B;[USD] Impossibile aprire i file USDZ esportati da MacOS
 * [Set di texture] Impossibile isolare un set di texture con il modificatore ALT
 * [Shelf] I predefiniti, i Materiali avanzati e le Maschere avanzate vengono sempre modificati quando si esce dall’applicazione
 * [Serie di livelli] Impossibile selezionare l’effetto dopo aver eliminato un altro effetto
@@ -229,13 +229,13 @@ Riepilogo: **Versione principale con aggiornamenti dei baker in termini di prest
 
 * [Baker] È stato aggiunto il supporto per Raytracing GPU con DXR e OptiX (Occlusione ambientale, Thickness)
 * [Baker] Ottimizzazioni e accelerazioni per il Raytracing della CPU
-* [Bakers][Vis mode][UI] Nuova modalità di visualizzazione baking nella finestra della vista
-* [Bakers][Preferenze][UI] Nuova opzione baking per abilitare-disabilitare Raytracing GPU
-* [Baker][UI] Rielaborazione della finestra di dialogo barra di avanzamento
+* [Bakers]&#x200B;[Vis mode]&#x200B;[UI] Nuova modalità di visualizzazione baking nella finestra della vista
+* [Bakers]&#x200B;[Preferenze]&#x200B;[UI] Nuova opzione baking per abilitare-disabilitare Raytracing GPU
+* [Baker]&#x200B;[UI] Rielaborazione della finestra di dialogo barra di avanzamento
 * [Bakers] Miglioramento dei messaggi di avviso e di errore
 * [Panettieri] Consenti una cancellazione più reattiva del processo di cottura al forno
 * [Baker] Riapri la finestra di esegue i baking dopo aver fatto clic su Annulla
-* [Proj][UX] Miglioramento dell&#39;usabilità del manipolatore di rotazione
+* [Proj]&#x200B;[UX] Miglioramento dell&#39;usabilità del manipolatore di rotazione
 * [Settings] Opzione per migliorare le prestazioni riducendo la risoluzione del viewport per schermi HDPI
 * [Scripting] Modificare la risoluzione del set di texture
 * [Scripting] Ottieni set di texture selezionato

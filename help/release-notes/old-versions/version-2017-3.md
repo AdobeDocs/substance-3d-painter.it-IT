@@ -55,7 +55,7 @@ Se viene creato un backup ma il progetto non è stato salvato (ovvero Untilted),
 
 ![](../../assets/gradient-rust.jpg)
 
-Il **filtro sfumatura** è stato completamente rinnovato. Agire in modo molto più simile al nodo **mappa sfumatura** disponibile nel **Substance Designer**. Ora supporta fino a **10 colori diversi**, con la possibilità di specificare **dove si trova il colore all&#39;interno** della sfumatura ****, aprendo molte nuove porte. Ciò consente di creare più&#x200B;**pattern di colore avanzati**, ma anche **mappe di altezza rimasterizzate**e di creare **nuove forme**.
+Il **filtro sfumatura** è stato completamente rinnovato. Agire in modo molto più simile al nodo **mappa sfumatura** disponibile nel **Substance Designer**. Ora supporta fino a **10 colori diversi**, con la possibilità di specificare **dove si trova il colore all&#39;interno** della sfumatura **&#x200B;**, aprendo molte nuove porte. Ciò consente di creare più&#x200B;**pattern di colore avanzati**, ma anche **mappe di altezza rimasterizzate**&#x200B;e di creare **nuove forme**.
 
 Il cursore principale (quantità di colore) definisce il numero di colori totali utilizzati per creare la sfumatura. Il pulsante appena sotto definisce il metodo di fusione del colore (sRGB o lineare). Questo è importante se desiderate ottenere una fusione corretta tra i colori. Ad esempio, la fusione di un rosso puro e di un verde puro dovrebbe dare un bel giallo nel mezzo. Questo non è il caso se il pulsante è disattivato (darà invece un marrone scuro). Quando si modifica il height o qualsiasi altro canale in scala di grigio, questo pulsante deve essere disattivato per evitare la conversione di gamma.
 
@@ -130,7 +130,7 @@ Questa versione di Substance Painter include anche un nuovo e forte migliorament
 * Arresto anomalo quando si eliminano più scaffali secondari
 * Arresto anomalo quando si passa da un livello a qualcos&#39;altro durante il calcolo di un motore
 * [Mac] Arresto anomalo sulla GPU Intel durante il calcolo del motore
-* [Mac][Finestra vista] Prestazioni errate quando è attivato il dithering
+* [Mac]&#x200B;[Finestra vista] Prestazioni errate quando è attivato il dithering
 * [Mac] MacOS 10.13 viene riconosciuto come &quot;Versione sconosciuta&quot; nel file di registro
 * [Baker] Eseguire i baking con una gabbia non funziona più
 * [Livelli] Ctrl + C scelta rapida da tastiera (azione copia) non funziona più

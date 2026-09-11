@@ -48,7 +48,7 @@ L’ultima esercitazione spiega il processo di esportazione con il nuovo plug-in
 
 **Aggiunto:**
 
-* [Plugin][Photoshop] Consente di specificare quale materiale/stack/canale esportare
+* [Plugin]&#x200B;[Photoshop] Consente di specificare quale materiale/stack/canale esportare
 * [Scripting] I nomi delle funzioni presentano alcune incongruenze
 
 **Risolto:**

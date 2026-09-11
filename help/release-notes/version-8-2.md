@@ -303,7 +303,7 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
 * Arresto anomalo quando si utilizza exr 16k
 * [Arresto anomalo] Ctrl Z Dopo l’eliminazione di un’istanza shader
 * [Iray] IoR è bloccato su 1 per alcuni shader
-* [Win][Eseguita i baking] Alcuni poli alti non vengono caricati
+* [Win]&#x200B;[Eseguita i baking] Alcuni poli alti non vengono caricati
 * [Gestione colore] Nome dello spazio colore non corretto nell&#39;interfaccia utente con filtri
 * [Python] Gli oggetti risorsa restituiti dalla funzione di importazione non hanno un tipo
 

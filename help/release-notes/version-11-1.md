@@ -241,7 +241,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 * [Barra multifunzione] Aggiungi metodi di fusione per l&#39;alfa e alcuni canali quando si sovrappongono automaticamente
 * Riempi simmetria
 * [Riempimento] Aggiungi il supporto per simmetria su livelli di riempimento ed effetti
-* [Fill][UI] Mostra le impostazioni della simmetria nella finestra delle proprietà per il livello di riempimento e gli effetti
+* [Fill]&#x200B;[UI] Mostra le impostazioni della simmetria nella finestra delle proprietà per il livello di riempimento e gli effetti
 * [Fill] Rielaborare l&#39;interfaccia utente delle impostazioni della simmetria sia nel menu della finestra della vista che nella finestra delle proprietà
 * [Riempimento] Riorientare correttamente la texture normale durante la proiezione in modalità di alterazione
 * Dimensioni fisiche spostamento
@@ -256,7 +256,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 * [Substance] Esporre la sostituzione della risoluzione per le risorse Substance in Strumenti e riempimenti
 * [Esporta] Aggiorna il predefinito di esportazione delle mappe trama per esportare le texture in scala di grigio
 * Python
-* [Eseguita i baking][Python] Indica nel registro delle modifiche interrotte dopo l&#39;aggiornamento dei baker
+* [Eseguita i baking]&#x200B;[Python] Indica nel registro delle modifiche interrotte dopo l&#39;aggiornamento dei baker
 * [Python] Esporre le impostazioni della simmetria di riempimento in Python
 * Contenuto e nuovo contenuto
 * [Content] Aggiungi 75 nuovi strumenti predefiniti per lo strumento Barra multifunzione
@@ -281,12 +281,12 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 * [Barra multifunzione] Problema di prestazioni con i riquadri UV
 * [Barra multifunzione] In alcuni casi, il percorso può sovrapporsi in modo imprevisto dopo un angolo
 * [Barra multifunzione] Le tangenti creano un ciclo indesiderato quando il punto viene spostato vicino alle estremità del tracciato
-* [Arresto anomalo][Barra multifunzione] La creazione di testi molto lunghi nella barra multifunzione può causare l&#39;arresto anomalo
+* [Arresto anomalo]&#x200B;[Barra multifunzione] La creazione di testi molto lunghi nella barra multifunzione può causare l&#39;arresto anomalo
 * [Strumento] L’anteprima del materiale non funziona quando si utilizza la proiezione in una maschera
 * [Baking] L’impostazione AO &quot;Occlusione autonoma&quot; viene ignorata con diversi set di texture e &quot;corrispondenza per nome&quot; abilitato
 * [Baking] AO con normale presenta artefatti ai bordi a causa della mancanza di riempimento
 * [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Crash][Python] Esportazione USD attivata da TextureStateEvent
+* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
 * [Engine] Colorare con lo strumento Clona in canali normali si sposta i colori in modo errato
 * [Python] Il widget Ghost viene eliminato se lo script è ancora in funzione

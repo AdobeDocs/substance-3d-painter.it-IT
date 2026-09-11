@@ -47,7 +47,7 @@ Fai clic sul pulsante per aprire il ripiano e seleziona il filtro desiderato; qu
 
 ## Trascinare un filtro dallo scaffale
 
-Questo metodo è destinato solo ai filtri che devono essere applicati all’intero gruppo di livelli. Verranno impostati automaticamente tutti i metodi di fusione di canale [](../../interface/layer-stack/blending-modes.md). Non funziona per applicare filtri a una maschera.
+Questo metodo è destinato solo ai filtri che devono essere applicati all’intero gruppo di livelli. Verranno impostati automaticamente tutti i metodi di fusione di canale [&#128279;](../../interface/layer-stack/blending-modes.md). Non funziona per applicare filtri a una maschera.
 
 ### 1 - Aprire l’area Filtri dello scaffale
 
