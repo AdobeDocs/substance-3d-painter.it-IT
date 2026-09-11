@@ -57,7 +57,7 @@ Per configurare il comportamento di salvataggio automatico, fai clic sul menu **
 > Il timer di salvataggio automatico verrà sospeso se:
 > 
 > * Il motore sta facendo un calcolo
-> * Esportazione delle texture in corso
+> * Esportazione della texture in corso
 > * Finestra di configurazione aperta
 > * Salvataggio del progetto in corso
 

@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_border_distance.png" alt=""/><br><strong>Entrata:</strong> mesh, uv, distanza</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore della distanza del bordo UV crea una maschera in scala di grigio sui bordi delle Isole UV, per aggiungere facilmente vari effetti che seguono i bordi degli UV.<br><br>Il generatore della distanza del bordo UV produce una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare una maschera che evidenzi le aree vicino ai bordi UV.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore della distanza del bordo UV crea una maschera in scala di grigio sui bordi delle Isole UV, che consente di aggiungere facilmente vari effetti che seguono i bordi degli UV.<br><br>Il generatore della distanza del bordo UV produce una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare una maschera che evidenzi le aree vicino ai bordi UV.</td>
   </tr>
 </table>
 

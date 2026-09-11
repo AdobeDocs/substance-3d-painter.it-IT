@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
-description: Scoprite le tecniche avanzate di pittura dei canali in Substance 3D Painter per dipingere direttamente su canali di texture specifici per un controllo preciso.
+description: Scoprite le tecniche avanzate di pittura dei canali in Substance 3D Painter per pittura direttamente su specifici canali delle texture per un controllo preciso.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Advanced channel painting
 helpx_experience_level: ""
@@ -26,5 +26,5 @@ Canali correnti disponibili:
 
 * [Occlusione ambientale pittura](ambient-occlusion-painting.md)
 * [Pittura mappa di flusso](flow-map-painting.md)
-* [Pittura mappa height](height-map-painting.md)
-* [Pittura mappa normale](normal-map-painting.md)
+* [Pittura mappa altezza](height-map-painting.md)
+* [Mappa normale pittura](normal-map-painting.md)

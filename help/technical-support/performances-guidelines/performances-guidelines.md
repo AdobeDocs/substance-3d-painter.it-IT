@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Linee guida sulle prestazioni
 
-Substance 3D Painter può essere molto impegnativo a seconda delle esigenze del progetto (ad esempio, quando si lavora con risoluzioni di texture molto elevate o trame con conteggio molto elevato). Ognuno degli articoli seguenti offre suggerimenti e consigli per garantire un’esperienza ottimale:
+Substance 3D Painter può essere molto impegnativo a seconda delle esigenze del progetto (ad esempio, quando si lavora con risoluzioni texture molto alte o trame con conteggio multiplo molto alto). Ognuno degli articoli seguenti offre suggerimenti e consigli per garantire un’esperienza ottimale:
 
 * [Gestione dei livelli](layer-management.md)
 * [Configurazione Trama e UV](mesh-and-uv-setup.md)

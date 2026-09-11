@@ -33,7 +33,7 @@ Data di pubblicazione: *2 agosto 2018*
 **La dispersione sottosuperficiale** è ora supportata nella finestra della vista **in tempo reale** e con il **modulo di rendering Iray**.\
 La dispersione sotto la superficie è un meccanismo di luce quando penetra un oggetto o una superficie. Invece di essere riflessa, come con le superfici metalliche, una parte della luce viene assorbita dal materiale e poi **dispersa all&#39;interno**. Molti materiali nella vita reale hanno dispersione sottosuperficiale come pelle o cera.
 
-L’implementazione dell’effetto Subsurface di Adobe è molto simile a quella delle implementazioni in tempo reale di altri motori di gioco e di altri moduli di rendering offline. Semplificare l’authoring di texture a dispersione da utilizzare in altre applicazioni.
+L’implementazione dell’effetto Subsurface di Adobe è molto simile a quella delle implementazioni in tempo reale di altri motori di gioco e di altri moduli di rendering offline. Semplificazione della creazione di texture di dispersione da utilizzare in altre applicazioni.
 
 ![](../../assets/comparison-1.jpg){width="650px"}
 
@@ -44,7 +44,7 @@ Per aggiungere la dispersione dei sottofondi in un progetto, effettuate le segue
 
 1. Passate alla finestra **Impostazioni schermo** e **attivate** l&#39;impostazione **Dispersione sottosuperficie**.
 1. Aggiungi un canale &quot;**Dispersione**&quot; nel set di texture corrente
-1. Usate un livello di riempimento o **colorate di bianco** nel nuovo canale per **rivelare** l&#39;effetto della superficie inferiore nella finestra della vista.
+1. Usa un livello di riempimento o **una pittura in bianco** nel nuovo canale per **rivelare** l&#39;effetto della superficie inferiore nella finestra della vista.
 
 Una procedura più dettagliata è disponibile nella [documentazione sulla dispersione sottosuperficie](../../features/subsurface-scattering/subsurface-scattering.md).
 
@@ -53,7 +53,7 @@ Una procedura più dettagliata è disponibile nella [documentazione sulla disper
 > Per supportare la dispersione dei sottofondi nella finestra della vista in tempo reale, gli **shader** nei progetti devono essere **aggiornati**.\
 > Per gli shader personalizzati, consultare la documentazione disponibile nel **menu della guida** per sapere cosa è cambiato nell&#39;**API shader**.
 
-### Manipolatori per i livelli di riempimento
+### Manipolatori per livelli di riempimento
 
 ![](../../assets/changelog-manipulator.png)
 
@@ -61,20 +61,20 @@ I controlli dei livelli di riempimento sono stati migliorati per offrire manipol
 
 Quando si utilizza la **Proiezione UV**, nella **vista 2D** verrà visualizzato un manipolatore:
 
-* Facendo clic **all&#39;esterno**, il manipolatore **lo ruoterà**.
+* Facendo clic su **fuori**, il manipolatore **lo ruoterà**.
 * Facendo clic sul **quadrato** alle **cornici**, verrà **ridimensionato**.
 * Facendo clic su **all&#39;interno**, il manipolatore **tradurrà**.
-* Usa **CTRL** per modificare più angoli in **simmetria**.
+* Utilizza **CTRL** per modificare più angoli nella **simmetria**.
 * Usate **MAIUSC** per **vincolare** una trasformazione (traslazione, rotazione o scala).\
   ![](../../assets/manipulator-uv.gif)
 
-Quando si utilizza la **proiezione triplanare**, nella **vista 3D** verrà visualizzato un manipolatore:
+Quando si utilizza la **proiezione tripla Planare**, nella **vista 3D** verrà visualizzato un manipolatore:
 
 * Il cubo tratteggiato rappresenta la proiezione globale
-* Utilizza la scelta rapida da tastiera **W**, **E** o **R** per passare dalla modalità **Traduci**, **Ruota** e **Scala**.
-* Utilizza la scelta rapida da tastiera **T** per passare dall&#39;orientamento locale a quello globale per il manipolatore.
+* Utilizza la scelta rapida da tastiera da tastiera **W**, **E** o **R** per passare dalla modalità **Traduci**, **Ruota** e **Scala**.
+* Utilizza la scelta rapida da tastiera da tastiera **T** per passare dall&#39;orientamento locale a quello globale per il manipolatore.
 * Utilizzate **MAIUSC** per **vincolare** la trasformazione.
-* La proiezione del cubo triplanare può essere modificata anche nelle proprietà avanzate del livello di riempimento:\
+* La proiezione del cubo trivalente può essere modificata anche nelle proprietà avanzate del livello di riempimento:\
   ![](../../assets/fill-properties-triplanar.png)\
   ![](../../assets/manipulator-3d-optim.gif)
 
@@ -97,8 +97,8 @@ La modalità di fatturazione può essere impostata come segue:
 
 * **Nessuna porzione** (impostazione predefinita)
 * **Verticale in porzioni**
-* **Porzione verticale**
-* **Inclinazione orizzontale e verticale** (vecchio comportamento)
+* **Affiancamento verticale**
+* **Affiancamento H e V** (comportamento precedente)
 
 Questo nuovo parametro può essere salvato in uno strumento o in un pennello predefinito, per facilitarne la condivisione con contenuti personalizzati.
 
@@ -118,7 +118,7 @@ Per ulteriori informazioni, consultare la [documentazione sulla gestione della f
 
 Per **importare le fotocamere** in un progetto:
 
-1. Esporta la trama per il progetto con fotocamere nello stesso file (con un formato supportato come FBX, Alembic o glTF)
+1. Esporta la trama per il progetto con le fotocamere nello stesso file (con un formato supportato come FBX, Alembic o glTF)
 1. Selezionare le impostazioni &quot;Importa fotocamere&quot; nella [finestra nuovo progetto](../../getting-started/project-creation.md) (o nella [configurazione progetto](../../interface/project-configuration.md)).\
    ![](../../assets/new-project-cameras.png)
 1. Passare alla fotocamera desiderata con il menu a discesa nella finestra della vista o utilizzando le impostazioni in [Impostazioni schermo](../../interface/display-settings/camera-settings.md).\
@@ -129,18 +129,18 @@ Le impostazioni della fotocamera nella finestra Impostazioni schermo sono state 
 
 ![](../../assets/camera-properties-2.png)
 
-Si prende in considerazione anche il telaio della fotocamera (e il suo cancello), rendendo possibile visualizzare e dipingere attraverso un punto di vista molto specifico. Il frame e il gate vengono visualizzati nel riquadro di visualizzazione 3D e la relativa opacità può essere controllata in **Impostazioni riquadro di visualizzazione** dalla finestra [Impostazioni schermo](../../interface/display-settings/camera-settings.md):
+Si prende in considerazione anche il fotogramma della fotocamera (e il suo cancello), rendendo possibile la visualizzazione e la pittura attraverso un punto di vista molto specifico. Il fotogramma e il gate vengono visualizzati nel riquadro di visualizzazione 3D e la relativa opacità può essere controllata nelle **Impostazioni del riquadro di visualizzazione** dalla finestra [Impostazioni schermo](../../interface/display-settings/camera-settings.md):
 
 ![](../../assets/camera-gate.png)
 
-### Miglioramenti del comportamento dello stack di livelli
+### Pila livelli miglioramenti comportamento
 
-* **Trascinare e rilasciare materiali e materiali avanzati sulla mappa ID:**\
+* **Trascina materiali e Materiali avanzati sulla mappa ID:**\
   È stato migliorato il trascinamento del contenuto dallo scaffale alla finestra della vista. Premendo **CTRL** durante il trascinamento di un materiale, è ora possibile scegliere il colore ID da utilizzare come maschera.\
-  Una maschera nera con un effetto di selezione colore verrà aggiunta al nuovo livello creato nella pila di livelli. Se lo stesso materiale viene trascinato su un altro colore ID, il livello esistente viene aggiornato e i colori ID vengono combinati.\
+  Una maschera nera con un effetto di selezione colore verrà aggiunta al nuovo livello creato nella Pila livelli. Se lo stesso materiale viene trascinato su un altro colore ID, il livello esistente viene aggiornato e i colori ID vengono combinati.\
   ![](../../assets/id-drop.gif)
 * **Trascinamento dello scorrimento dello stack di livelli:**\
-  Il trascinamento dei livelli attorno al gruppo di livelli ora presenta una piccola finestra.\
+  Trascinare i livelli intorno alla Pila livelli ora ha una piccola finestra.\
   Quando una risorsa o un livello viene trascinato vicino ai bordi della finestra del gruppo di livelli, inizierà automaticamente a scorrere il relativo contenuto.\
   ![](../../assets/layer-drag.gif)
 
@@ -150,13 +150,13 @@ Si prende in considerazione anche il telaio della fotocamera (e il suo cancello)
 
 Ora sono supportati nuovi formati di file per l’importazione di trame e la creazione di nuovi progetti:
 
-* **glTF**: questo formato era già disponibile durante l&#39;esportazione delle texture e può essere utilizzato durante l&#39;importazione. Se un file glTF contiene texture, queste verranno importate e inserite nello stack di livelli (per il flusso di lavoro metallizzato/rugosità).
+* **glTF**: questo formato era già disponibile durante l&#39;esportazione di texture e può essere utilizzato durante l&#39;importazione. Se un file glTF contiene texture, queste verranno importate e inserite nella Pila livelli (per il flusso di lavoro metallizzato/rugosità).
 * **Alembic**: questo formato è ampiamente utilizzato nel settore VFX / Animazione per trasferire le trame.
 
 >[!NOTE]
 >
 > Substance Painter non consente di controllare in quale fotogramma dell’animazione importare al momento.\
-> Ciò significa che quando si esporta un file Alembic, il frame di riferimento da utilizzare per la pittura sulla risorsa deve essere già impostato.
+> Ciò significa che quando si esporta un file Alembic, il fotogramma di riferimento da utilizzare per la pittura sulla risorsa deve essere già impostato.
 
 ### Miglioramenti dell’integrazione Substance
 

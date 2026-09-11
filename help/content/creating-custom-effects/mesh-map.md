@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare le mappe trama negli effetti personalizzati in modo che Substance 3D Painter possa accedere alle informazioni sulle texture basate sulla geometria.
+description: Scoprite come utilizzare le mappe trama negli effetti personalizzati in modo che Substance 3D Painter possa accedere alle informazioni sulla texture basata sulla geometria.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > Mesh Map
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Mappa trama
 
-Per collegare automaticamente le mappe trama (texture al forno) quando un effetto viene aggiunto su un livello, è necessario seguire una convenzione di denominazione specifica.
+Per collegare automaticamente le mappe trama (texture eseguite i baking) quando un effetto viene aggiunto su un livello, è necessario seguire una convenzione di denominazione specifica.
 
 >[!NOTE]
 >
@@ -38,5 +38,5 @@ Di seguito è riportata la convenzione di denominazione per ogni mappa mesh:
 | *Posizione* | **posizione** | **posizione** |
 | *Thickness* | **thickness** | **thickness** |
 | *Height* | **heightBase** | **height\_base** |
-| *Normali piegati* | **bentNormalsBase** | **piegato\_normali\_base** |
+| *Normali incurvate* | **bentNormalsBase** | **piegato\_normali\_base** |
 | *Opacità* | **opacityBase** | **opacità\_base** |

@@ -30,7 +30,7 @@ La posizione della linea retta viene calcolata dalla finestra della vista, il ch
 
 ## Abilitazione della linea retta
 
-Basta premere &quot;Maiusc&quot; sulla tastiera quando è selezionato uno strumento di pittura per visualizzare le linee punteggiate che indicano il tracciato che lo strumento di pittura seguirà. Quando si preme &quot;Maiusc&quot;, facendo clic in un punto qualsiasi si disegna la linea.
+Basta premere &quot;Maiusc&quot; sulla tastiera quando è selezionato uno strumento di pittura per visualizzare le linee punteggiate che indicano il tracciato che lo strumento pittura seguirà. Quando si preme &quot;Maiusc&quot;, facendo clic in un punto qualsiasi si disegna la linea.
 
 ![](../assets/straight-line-optim.gif){width="400px"}
 

@@ -7,7 +7,7 @@ helpx_description: Painter > Baking > How to bake mesh maps
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Come eseguire il baking delle mappe trama
+title: Come eseguire i baking le mappe trama
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,40 +18,40 @@ ht-degree: 0%
 ---
 
 
-# Come eseguire il baking delle mappe trama
+# Come eseguire i baking le mappe trama
 
-La modalità di cottura dedicata di Substance 3D Painter semplifica la creazione di mappe mesh che possono potenziare straordinari materiali intelligenti e altri strumenti. Continuate a leggere o guardate il video riportato di seguito per scoprire come iniziare a cuocere con Substance 3D Painter.
+La modalità di esegue i baking dedicata di Substance 3D Painter semplifica la esegue i baking di mappe trama che possono alimentare materiali avanzati straordinari e altri strumenti. Continua a leggere o guarda il video seguente per scoprire come iniziare a eseguire i baking con Substance 3D Painter.
 
-## 1 - Passare alla modalità di cottura al forno
+## 1 - Passare alla modalità di esegue i baking
 
-Per impostazione predefinita, Painter viene avviato in modalità Disegno durante la creazione o l’apertura di un progetto. Per eseguire il baking delle mappe mesh, è necessario passare alla modalità Baking. Per passare alla modalità Baking, utilizzate una delle seguenti opzioni:
+Per impostazione predefinita, Painter viene avviato in modalità Disegno durante la creazione o l’apertura di un progetto. Per poter eseguire i baking le mappe trama, è necessario passare alla modalità di Esegue i baking. Per passare alla modalità di Esegue i baking, utilizzate una delle seguenti opzioni:
 
-* Utilizza il <b>pulsante Modalità cottura</b> (<b>icona Croissant</b>) nella barra degli strumenti contestuale in alto a destra nella finestra della vista
+* Utilizza il <b>pulsante della modalità di Esegue i baking</b> (<b>icona Croissant</b>) nella barra degli strumenti contestuale in alto a destra nella finestra della vista
 
   ![](../assets/croissant-icon.png)
 
   >[!NOTE]
   >
-  > A volte il <b>pulsante della modalità cottura</b> può essere nascosto dietro altri pannelli, a seconda del layout dell&#39;area di lavoro.
-* Usa il menu Metodo e seleziona <b>Crea mappe mesh.\
+  > A volte il <b>pulsante della modalità di Esegue i baking</b> può essere nascosto dietro altri pannelli, a seconda del layout dell&#39;area di lavoro.
+* Usa il menu Metodo e seleziona <b>Esegue i baking mappe trama.\
   </b>
-* Utilizza la scelta rapida da tastiera <b>F8</b>.
+* Utilizza la scelta rapida da tastiera della tastiera <b>F8</b>.
 
-### 2 - Selezionare set di texture e porzioni UV
+### 2 - Selezionare set di texture e Porzioni UV
 
-All&#39;interno dell&#39;<b>elenco Set di texture</b>, utilizzate la casella di controllo accanto a ogni set di texture (e al numero di porzioni UV, se presente) per selezionare le parti da cuocere:
+All&#39;interno dell&#39;<b>elenco Set di texture</b>, utilizzate la casella di controllo accanto a ogni set di texture (e al numero di Porzione UV, se presente) per selezionare le parti da eseguire i baking:
 
 ![](../assets/texture-set-list-baking-selection.png)
 
-### 3 - Seleziona panettieri
+### 3 - Seleziona baker
 
-Nella finestra Pannelli mappe trama, utilizzate le caselle di controllo per selezionare le mappe che desiderate stampare:
+All&#39;interno della finestra Baker mappe trama, utilizzare le caselle di controllo per selezionare le mappe che si desidera eseguire i baking:
 
 ![](../assets/mesh-map-bakers-selection.png)
 
 ### 4 - Modificare le impostazioni comuni
 
-Nel pannello Pannelli mappa trama, fate clic sulle impostazioni comuni per modificare le impostazioni come la risoluzione della mappa con baking, la larghezza di dilatazione e i parametri poli alti, che sono condivisi su tutte le mappe:
+Nel pannello baker mappe trama, fate clic sulle impostazioni comuni per modificare le impostazioni quali risoluzione mappa con baking, larghezza dilatazione e alti parametri poli, condivise su tutte le mappe:
 
 ![](../assets/common-settings.png)
 
@@ -61,7 +61,7 @@ Nelle impostazioni comuni, potete definire quali file usare come trame ad alta d
 * Automatico (sperimentale): Painter analizza la trama e genera automaticamente una gabbia, cercando di mantenere la gabbia vicina alla superficie senza creare intersezioni per risultati ottimali.
 * File personalizzato: importa un file creato per utilizzarlo come gabbia. I file importati devono avere lo stesso numero di vertici della trama di base per funzionare correttamente.
 
-Se non si sta cuocendo da una trama ad alto poli, selezionare la casella di controllo <b>Usa trama a basso poli come trama ad alto poli</b>.
+Se non ti esegue i baking da una trama di poli elevato, attiva la casella di controllo <b>Usa trama di poli bassa come trama di poli alta</b>.
 
 ### 5 - Regolare la gabbia
 
@@ -73,16 +73,16 @@ Sono disponibili diverse opzioni per regolare la gabbia in base al metodo utiliz
 >
 > Quando la gabbia interseca la geometria del modello, vengono visualizzati dei punti rossi. Una gabbia intersecante generalmente porta ad artefatti e problemi nell&#39;area intersecante.
 
-### 6 - Avviare la cottura al forno
+### 6 - Avviare la esegue i baking
 
-Nella parte inferiore della finestra della vista, fare clic sul pulsante Bake per avviare il processo di cottura al forno.
+Nella parte inferiore della finestra della vista fare clic sul pulsante Esegue i baking per avviare la esegue i baking.
 
 ![](../assets/bake-button.png)
 
-### 7 - Inspect the Baking Log per gli errori
+### 7 - Inspect per la Esegue i baking degli errori
 
-Una volta terminato il processo di cottura, potete controllare se sono stati segnalati errori nella finestra Registro cottura.
+Una volta completata la esegue i baking, puoi controllare se sono stati segnalati errori nella finestra Registro Esegue i baking.
 
-Se presenti, utilizzare la freccia accanto al messaggio di errore per visualizzare le relative impostazioni del fornaio:
+Se presenti, utilizzare la freccia accanto al messaggio di errore per visualizzare le relative impostazioni di baker:
 
 ![](../assets/bake-failed.png)

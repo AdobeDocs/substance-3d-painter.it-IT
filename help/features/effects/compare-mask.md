@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects/compare-mask.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare l’effetto Confronta maschera in Substance 3D Painter per creare maschere basate su operazioni di confronto delle texture.
+description: Scoprite come utilizzare l’effetto Maschera di confronto in Substance 3D Painter per creare maschere basate sulle operazioni di confronto delle texture.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Compare Mask
 helpx_experience_level: ""
@@ -36,5 +36,5 @@ Di seguito sono riportate le impostazioni disponibili per questo effetto:
 
 >[!NOTE]
 >
-> È possibile fare clic con il pulsante destro del mouse su un livello e scegliere la scelta rapida &quot;**Aggiungi maschera con combinazione di height**&quot; per aggiungere rapidamente questo nuovo effetto a un livello. Questa scelta rapida cambierà anche il canale di Height **metodo di fusione** in &quot;**Normale**&quot; anziché il valore predefinito &quot;**Scherma lineare (Aggiungi)**&quot;.\
+> È possibile fare clic con il pulsante destro del mouse su un livello e scegliere la scelta rapida da tastiera &quot;**Aggiungi maschera con combinazione di height**&quot; per aggiungere rapidamente questo nuovo effetto a un livello. Questa scelta rapida da tastiera cambierà anche il canale di Height **metodo di fusione** in &quot;**Normale**&quot; invece del valore predefinito &quot;**Scherma lineare (Aggiungi)**&quot;.\
 > ![](../../assets/compare-shortcut.png)

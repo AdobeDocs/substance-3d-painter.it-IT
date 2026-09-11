@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare la mascheratura e gli effetti nel gruppo di livelli di Substance 3D Painter per controllare la visibilità dei livelli e applicare gli effetti di livello.
+description: Scoprite come utilizzare la mascheratura e gli effetti in Substance 3D Painter Pila livelli per controllare la visibilità dei livelli e applicare gli effetti di livello.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Layer stack > Masking and effects
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## Mascheratura
 
-I livelli possono essere mascherati per visualizzare/applicare il loro contenuto solo su parti specifiche della texture. La maschera funziona come un parametro di intensità sul contenuto del livello. Una maschera su un livello è sempre in scala di grigio, indipendentemente dal contenuto usato per colorare su di essa (pertanto qualsiasi colore verrà convertito in un valore di scala di grigio prima di essere colorato).
+I livelli possono essere mascherati per visualizzare/applicare il loro contenuto solo su parti specifiche della texture. La maschera funziona come un parametro di intensità sul contenuto del livello. Una maschera su un livello è sempre in scala di grigio, indipendentemente dal contenuto utilizzato per la pittura (pertanto qualsiasi colore verrà convertito in un valore di scala di grigio prima di essere dipinto).
 
 È possibile aggiungere una maschera utilizzando il menu di scelta rapida o il pulsante dedicato:
 
@@ -56,8 +56,8 @@ Per ulteriori informazioni, [vedere la pagina dedicata](../../features/effects/e
 
 ## Maschere avanzate
 
-Le maschere avanzate consentono di salvare una maschera e il suo effetto di riutilizzarle facilmente su altri livelli o progetti. Per creare una maschera avanzata, fate clic con il pulsante destro del mouse su una maschera e scegliete &quot;**Crea maschera avanzata**&quot;.\
-Quando trascini una maschera avanzata su un livello, se non esiste già viene creata una maschera nera; in caso contrario, l’elenco degli effetti viene unito a quello esistente. È possibile sovrascrivere completamente l&#39;elenco degli effetti tenendo premuto &quot;**CTRL**&quot; quando si rilascia la maschera avanzata.
+La maschera avanzata è un modo per salvare una maschera e il suo effetto per riutilizzarla facilmente su altri livelli o progetti. Per creare una maschera avanzata, è sufficiente fare clic con il pulsante destro del mouse su una maschera e scegliere &quot;**Crea maschera avanzata**&quot;.\
+Quando trascini una maschera avanzata su un livello, viene creata una maschera nera se non esiste già. In caso contrario, l’elenco degli effetti viene unito a quello esistente. È possibile sovrascrivere completamente l&#39;elenco degli effetti tenendo premuto &quot;**CTRL**&quot; quando si rilascia la maschera avanzata.
 
 ![](../../assets/smart-mask-new-optimized.gif)
 

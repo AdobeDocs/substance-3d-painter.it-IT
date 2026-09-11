@@ -51,7 +51,7 @@ Di seguito è riportato un elenco di hardware e sistemi supportati dall&#39;appl
 
 ## Raccomandazioni generali
 
-Per ottenere buone prestazioni quando si utilizza il flusso di lavoro UV Tile consigliamo di utilizzare:
+Per ottenere buone prestazioni durante l’utilizzo del flusso di lavoro Porzione UV consigliamo di utilizzare:
 
 * 32 GB di RAM
 * GPU con 8 GB di VRAM
@@ -107,7 +107,7 @@ Per un elenco dettagliato dei problemi relativi ai driver GPU per costruttore, c
 
 ## Raytracing GPU per la cottura al forno
 
-Per attivare Raytracing GPU tramite Optix o DXR, è necessario installare i driver minimi sopra consigliati.
+Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i driver minimi sopra consigliati.
 
 <b>DXR</b> richiede anche la seguente configurazione minima:
 

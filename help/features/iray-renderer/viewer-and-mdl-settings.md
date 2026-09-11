@@ -25,14 +25,14 @@ ht-degree: 0%
 ## Ambiente
 
 Analogamente alla normale finestra della vista, la mappa ambiente utilizzata in Iray controllerà l&#39;illuminazione.\
-Per modificare la mappa dell’ambiente, fai clic sul pulsante o trascina una texture HDR al suo interno.
+La mappa dell&#39;ambiente può essere modificata facendo clic sul pulsante o trascinando una texture HDR al suo interno.
 
-* **Esposizione ambiente**: controlla il livello di esposizione della mappa ambiente HDR.
+* **Esposizione ambiente**: controlla il livello di esposizione della mappa dell&#39;ambiente HDR.
 * **Rotazione ambiente**: per spostare la texture dell&#39;ambiente e ruotare la luce attorno alla scena.
 
 >[!NOTE]
 >
-> Poiché Iray è un modulo di rendering basato su impostazioni fisiche, la texture ambiente definirà notevolmente l’illuminazione e l’aspetto della scena.
+> Poiché Iray è un modulo di rendering basato su impostazioni fisiche, la texture ambiente definisce notevolmente l’illuminazione e l’aspetto della scena.
 
 ## Cupola
 
@@ -41,7 +41,7 @@ Sono disponibili 3 tipi di cupola, da utilizzare a seconda della scena:
 
 ![](../../assets/dome-type.png)
 
-* **Sfera infinita**: l&#39;ambiente è proiettato in background su una sfera per simulare l&#39;orizzonte, sempre lontano dalla scena
+* **Sfera infinita**: l&#39;ambiente è il progetto in background su una sfera per simulare l&#39;orizzonte, sempre lontano dalla scena
 * **Sfera**: l&#39;ambiente è proiettato su una sfera regolare, che può essere ridimensionata
 * **Sfera con suolo**: simile alla forma precedente, questa ha anche un controllo per appiattire la parte inferiore della sfera per simulare un pavimento.
 
@@ -55,8 +55,8 @@ Sono disponibili impostazioni aggiuntive:
 | *Impostazione* | *Descrizione* |
 | --- | --- |
 | **Raggio** | Dimensioni della sfera (se non infinite) |
-| **Scala texture** | Indica quanto verrà estesa la texture per il tipo **Sphere con ground**. |
-| **Cancella colore** | Se questa opzione è attivata, sostituisci l’immagine di sfondo della mappa ambiente con un colore uniforme. Questo influirà sull’illuminazione. |
+| **Texture scala** | Indica quanto verrà allungamento la texture per il tipo **Sphere con ground**. |
+| **Cancella colore** | Se questa opzione è attivata, sostituire l&#39;immagine di sfondo della mappa ambiente con un colore uniforme. Questo influirà sull’illuminazione. |
 
 ### Impostazioni del terreno
 
@@ -75,7 +75,7 @@ Per impostazione predefinita, il valore è impostato per correggere la parte inf
 
 Iray utilizza MDL per definire i materiali utilizzati per il rendering di un oggetto. Per ulteriori informazioni, consulta la [pagina Nvidia ufficiale del formato](http://www.nvidia.com/object/material-definition-language.html) .
 
-Per impostazione predefinita, in Substance 3D Painter un file MDL è associato a uno shader GLSL e consente di passare dalla normale finestra della vista a Iray senza dover configurare nulla.\
+Per impostazione predefinita, in Substance 3D Painter un file MDL è associato a uno shader GLSL e consente di passare dalla finestra normale a quella di Iray senza dover configurare nulla.\
 I parametri della MDL vengono quindi visualizzati nella parte inferiore delle impostazioni del visualizzatore. Di seguito sono riportati i parametri del file MDL predefinito (compatibile con lo shader metallizzato/rugosità PBR).
 
 >[!NOTE]

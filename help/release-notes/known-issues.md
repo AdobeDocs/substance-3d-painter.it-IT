@@ -81,7 +81,7 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.3
 * Il nome `[Texture Set]` può essere vuoto
 * `[Layer stack]` Copia nella maschera passa alla modalità materiale
 * `[UI]` Errore di battitura nelle impostazioni del creatore pennelli
-* `[Texture Set Settings]` Nome istanza dello shader errato dopo una ridenominazione
+* `[Texture Set Settings]` Nome istanza shader errato dopo una ridenominazione
 * Il metodo di fusione Colore e Saturazione di `[Blending]` cambia anche la luminosità
 * `[Librairies]` La larghezza delle ricerche salvate e le finestre di filtro in base al percorso non vengono salvate se modificate
 * `[Geometry mask]` Problema durante la reimportazione della trama e del livello istanza
@@ -91,14 +91,14 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.3
 * Il menu di scelta rapida di `[Regression]` `[UI]` è troppo piccolo sullo schermo hd
 * `[Resources]` Mappe mesh importate ignorate dall&#39;aggiornamento automatico
 * L&#39;anteprima dello spazio per il mixaggio dei colori `[User Channels]` non è corretta
-* La selezione della geometria `[Mask]` è ancora attiva dopo il passaggio alla modalità di cottura in forno
+* La selezione della geometria `[Mask]` è ancora attiva dopo il passaggio alla modalità di esegue i baking
 * `[Sonoma]` icone non visualizzate nei menu
 * La fusione di `[Path]` Height di più percorsi può causare artefatti
-* `[Polygon Fill]` La modifica dello spazio colore di base non aggiorna il selettore colore
-* `[UV Padding]` artefatti durante l&#39;upscaling della texture da 4k a 8k all&#39;esportazione
-* `[Performances]` utilizzo VRAM di Painter hogs
+* `[Polygon Fill]` La modifica dello spazio colore del colore di base non aggiorna il selettore colore
+* `[UV Padding]` artefatti durante l&#39;aumento di texture da 4k a 8k all&#39;esportazione
+* `[Performances]` Painter nasconde l&#39;utilizzo dell&#39;VRAM
 * `[Generator]` L&#39;impostazione di &quot;usa texture&quot; su false non disattiva l&#39;utilizzo dell&#39;input della texture
-* Le risorse non quadrate vengono dilatate quando vengono utilizzate negli slot del canale del pennello
+* Le risorse non quadrate vengono allungamento quando vengono utilizzate negli slot del canale del pennello
 * Impossibile decodificare la sostanza
 * Gli UV non perfettamente sovrapposti possono creare artefatti
 * Normali mesh non valide con alcuni fbx

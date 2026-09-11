@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare e gestire i pennelli predefiniti in Substance 3D Painter per semplificare il flusso di lavoro di pittura delle texture.
+description: Scoprite come utilizzare e gestire i pennelli predefiniti in Substance 3D Painter per semplificare il flusso di lavoro di pittura texture.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets
 helpx_experience_level: ""

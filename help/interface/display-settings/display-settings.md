@@ -33,8 +33,8 @@ La modalità di visualizzazione consente di controllare l&#39;aspetto della fine
 | Sezione | Descrizione |
 | --- | --- |
 | **Illuminazione** | Visualizza il modello 3D nella finestra della vista con l’illuminazione completa, comprese le ombre se attivate. |
-| **Canale singolo** | Chiamata anche modalità Solo. Visualizzate la trama nella finestra della vista solo con un canale o una texture specifica senza illuminazione. |
-| **Mappe trama** | Visualizzate la trama nella finestra della vista solo con una texture cotta specifica senza illuminazione. |
+| **Canale singolo** | Chiamata anche modalità Solo. Visualizzare la trama nella finestra della vista solo con un canale o una texture specifici senza illuminazione. |
+| **Mappe trama** | Visualizzate la trama nella finestra della vista solo con una texture eseguita i baking specifica senza illuminazione. |
 
 >[!NOTE]
 >

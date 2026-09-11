@@ -171,7 +171,7 @@ vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS)
 ```
 
 
-Aggiornare le coordinate della texture di input con offset parallasse
+Aggiorna le coordinate della texture di input con offset parallasse
 
 ```
 void applyParallaxOffset(inout V2F inputs, vec3 viewTS) 

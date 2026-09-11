@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # La mappa di opacità esportata è completamente nera
 
-Quando create un nuovo progetto, il colore predefinito viene dallo shader e non dalle texture. Di conseguenza, quando esportate tutte le parti che non avete colorato, saranno nere con un valore alfa impostato su 0 (poiché su queste parti non esistono dati).
+Quando create un nuovo progetto, il colore predefinito viene dallo shader e non dalle texture. Di conseguenza, quando si esportano tutte le parti che non sono state pitture, queste diventeranno nere con un valore alfa impostato su 0 (poiché su queste parti non esistono dati).
 
-Il modo più semplice per risolvere questo problema è mettere un livello di riempimento nella parte inferiore della pila di livelli: riempirà tutti gli UV con un colore predefinito, che è identico al colore predefinito dello shader.
+Il modo più semplice per correggere questo problema è mettere un livello di riempimento nella parte inferiore della Pila livelli: riempirà tutti gli UV con un colore predefinito, che è identico al colore predefinito dello shader.

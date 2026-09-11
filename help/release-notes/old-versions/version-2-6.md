@@ -47,7 +47,7 @@ Il **plug-in** è disponibile in GitHub. Non esitare ad aiutarti se riscontri po
 
 ![](../../assets/texture-set-rename-description.png)
 
-Ora è possibile modificare il nome di un set di texture direttamente all’interno della Substance Painter. La ridenominazione di un set di texture influisce sul nome delle texture esportate sul disco (a seconda del predefinito di esportazione utilizzato).\
+Ora è possibile modificare il nome di un set di texture direttamente all’interno della Substance Painter. La ridenominazione di un set di texture influisce sul nome della texture esportata sul disco (a seconda del predefinito di esportazione utilizzato).\
 Per rinominare un set di texture, fate doppio clic sul nome per modificarlo oppure usate il pulsante destro del mouse per aprire il menu di scelta rapida. È inoltre possibile aggiungere descrizioni personalizzate per fornire ulteriori informazioni sulle funzioni dei set di texture. Questo può essere molto utile quando si lavora su un [progetto UDIM](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilizzare il pulsante &quot;**impostazioni**&quot; per configurare la modalità di visualizzazione delle descrizioni nell&#39;elenco.
 
 ![](../../assets/reasign-texture-set.png)
@@ -149,5 +149,5 @@ Le nuove funzioni principali sono descritte nell’ultima esercitazione video:
 * [Shelf] MatFX Ruggine Weathering non funziona correttamente
 * [Shelf] Per impostazione predefinita, il filtro HSL è attivato sui canali errati
 * [Shelf] Per impostazione predefinita, l’opzione Nitidezza è abilitata nel canale Height/Normale
-* [Esporta] I predefiniti di esportazione Vray non utilizzano una mappa normale OpenGL
+* [Esportazione] I predefiniti di esportazione Vray non utilizzano una mappa normale OpenGL
 * [Tool] Problemi di imprecisione con lo strumento Clona/Sfumino per creare artefatti

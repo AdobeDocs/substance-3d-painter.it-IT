@@ -18,13 +18,13 @@ A partire da ZBrush 2026.2.0 (l&#39;aggiornamento Maxon One di aprile 2026) e Su
 
 ![Immagine promozionale che mostra una risorsa sottoposta a rendering durante la sovrapposizione dalla stessa risorsa in Zbrush e in Painter.](../../assets/zbrush_promotional.png)
 
-Con il plug-in Substance Bridge, non è necessario sottoporsi al lungo processo di esportazione di file separati di tipo low-poly e high-poly, importazione in Painter, configurazione ed esecuzione di torte.
+Con il plug-in Substance Bridge, non è necessario sottoporsi al lungo processo di esportazione di file separati di tipo low-poly e high-poly, di importazione in Painter e di configurazione ed esecuzione dei esegue i baking.
 
 Per iniziare a utilizzare il bridge da Zbrush a Painter:
 
 1. Assicurati che sia installata almeno la versione 2026.2.0 di ZBrush.
 1. Abilita il plug-in in Painter verificando che **Python > zbrush_painter_plugin** sia selezionato.
-1. Da ZBrush, **Invia a Painter** è disponibile in **Texture > Substance ponte**
+1. Da ZBrush, **Invia a Painter** è disponibile in **Texture > Substance Bridge**
 
 ![Immagine del plug-in Substance Bridge in ZBrush](../../assets/zbrush_painterSendTo.png)
 
@@ -39,14 +39,14 @@ Puoi configurare le seguenti impostazioni per la creazione automatica dei proget
 | Tutto | Invia ogni SubTool indipendentemente dalla visibilità. Che l&#39;occhio sia acceso o spento, tutto viene mandato. |
 | Visibile | Invia solo gli strumenti secondari con l&#39;icona occhio attivata nell&#39;elenco Strumenti secondari. |
 | Attivo | Invia solo lo strumento secondario selezionato. |
-| Invia poliPaint | Converte PolyPaint in una mappa texture e la applica come livello di riempimento in Substance, dove è possibile colorare e fondersi con essa. |
+| Invia poliPaint | Converte PolyPaint in una mappa texture e lo applica come livello di riempimento in Substance, dove è possibile applicare pitture su di esso e fonderlo con esso. |
 | Normali uniformi | Smussa le normali tangenti durante l&#39;esportazione in modo che le trame sfaccettate appaiano uniformi nella Substance, in base a come vengono renderizzate dai motori di gioco. Disattivate questa opzione per visualizzare la sfaccettatura effettiva della geometria. |
-| Mappe di esecuzione automatica | Esegue automaticamente gli algoritmi di cottura di Substance dopo l&#39;arrivo del modello, generando mappe normali, occlusione ambientale, curvatura e altre mappe di dettaglio dal confronto tra mesh alta e bassa. |
-| Forza scorrimento automatico UV | Attiva l&#39;algoritmo di srotolamento UV di Substance su ogni SubTool che arriva. Se il modello presenta già UV soddisfacenti, disattivateli perché vengono sovrascritti. |
-| Livello di suddivisioni | Controlla quali livelli di suddivisioni vengono inviati. Corrente invia solo il livello visualizzato. Bassa e Alta invia i livelli più bassi e più alti per la cottura al forno ed è l’opzione consigliata per la maggior parte dei flussi di lavoro. |
+| Esegue i baking automaticamente le mappe | Esegue automaticamente gli algoritmi di esegue i baking di Substance dopo l&#39;arrivo del modello, generando mappe normali, occlusioni ambientali, curvature e altre mappe di dettaglio dal confronto tra mesh alta e bassa. |
+| Forza Srotolamento automatico UV | Attiva l&#39;algoritmo di srotolamento UV di Substance su ogni SubTool che arriva. Se il modello presenta già UV soddisfacenti, disattivateli perché vengono sovrascritti. |
+| Livello di suddivisioni | Controlla quali livelli di suddivisioni vengono inviati. Corrente invia solo il livello visualizzato. Bassa e Alta invia i livelli più basso e più alto per la esegue i baking ed è l’opzione consigliata per la maggior parte dei flussi di lavoro. |
 | Set di texture | Controlla la divisione dello spazio UV nella Substance: Per SubTool (un set di texture per SubTool) o Per PolyGroup (un set di texture per PolyGroup all&#39;interno di ogni SubTool). |
 
-Quando Painter riceve il modello, se è abilitata l&#39;opzione Auto-bake, viene avviato il baking. La suddivisione più bassa del modello è quella importata come trama a basso poli, mentre la suddivisione più alta è usata come trama a alto poli per cuocere i dettagli. ZBrush è in grado di gestire un numero molto più elevato di poligoni rispetto a Painter, quindi assicurati che la trama poly bassa abbia dimensioni di lavoro ottimali (questo dipenderà dalla macchina, ma meno di 1 milione è meglio).
+Quando Painter riceve il modello, se esegue i baking automaticamente è abilitato, viene avviata la esegue i baking. La suddivisione più bassa del modello è quella importata come trama a basso poli, mentre la suddivisione più alta viene utilizzata come trama a alto poli per eseguire i baking i dettagli. ZBrush è in grado di gestire un numero molto più elevato di poligoni rispetto a Painter, quindi assicurati che la trama poly bassa abbia dimensioni di lavoro ottimali (questo dipenderà dalla macchina, ma meno di 1 milione è meglio).
 
 Gli insiemi di texture di Painter rappresentano assegnazioni di materiale. Un set di texture equivale a uno spazio UV.
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare gli input basati su trama negli effetti personalizzati per Substance 3D Painter per creare effetti di texture sensibili alla geometria.
+description: Scoprite come utilizzare gli input basati su trama negli effetti personalizzati per Substance 3D Painter per creare effetti di texture con riconoscimento della geometria.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > Mesh Based Input
 helpx_experience_level: ""
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Input basato su trama
 
-Gli input basati su trama sono texture fornite dal motore di Substance 3D Painter estratte dalla trama all’interno del progetto corrente. Queste texture possono essere utilizzate per creare effetti avanzati basati sulla topologia della trama.
+L’input basato su trama è una texture fornita dal motore di Substance 3D Painter estratta dalla trama all’interno del progetto corrente. Queste texture possono essere utilizzate per creare effetti avanzati basati sulla topologia della trama.
 
 >[!NOTE]
 >
-> Queste informazioni sulla trama si basano sulla topologia stessa e non tengono conto della mappa della trama (texture cotte).
+> Queste informazioni sulle trame si basano sulla topologia stessa e non tengono conto della mappa delle trame (texture eseguite i baking).
 > 
-> L&#39;input fornito dal motore è una texture a virgola mobile di 32 bit che verrà ridimensionata/bloccata al valore dell&#39;input nel grafico della Substance.
+> L&#39;input fornito dal motore è una texture a virgola mobile da 32 bit che verrà ridimensionata/bloccata al valore dell&#39;input nel grafico della Substance.
 
 | Informazioni trama | Identificatore | Utilizzo | Descrizione |
 | --- | --- | --- | --- |

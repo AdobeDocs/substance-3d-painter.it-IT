@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
-description: Utilizza lo strumento Pennello artistico di Substance 3D Painter per disegnare le texture direttamente sui modelli 3D con impostazioni del pennello personalizzabili.
+description: Usa lo strumento Pennello Pittura di Substance 3D Painter per pittura la texture direttamente sui modelli 3D con le impostazioni del pennello personalizzabili.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Paint brush
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Pennello artistico
+title: Pittura pennello
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
@@ -18,11 +18,11 @@ ht-degree: 1%
 ---
 
 
-# Pennello artistico
+# Pittura pennello
 
-Lo strumento pittura è lo strumento predefinito di Substance 3D Painter per applicare colori e proprietà del materiale su una trama 3D. Contiene parametri specifici che possono essere modificati tramite [Proprietà](../../interface/properties.md).
+Lo strumento Pittura è lo strumento predefinito di Substance 3D Painter per applicare colori e proprietà del materiale su una trama 3D. Contiene parametri specifici che possono essere modificati tramite [Proprietà](../../interface/properties.md).
 
-Lo strumento Disegno simula i tratti di pennello in base a vari comportamenti e impostazioni per dare la sensazione di dipingere sulla trama 3D.
+Lo strumento Pittura simula i tratti di pennello in base a vari comportamenti e impostazioni per dare la sensazione di dipingere sulla trama 3D.
 
 ## Barra degli strumenti
 
@@ -49,7 +49,7 @@ Nella parte superiore delle [Proprietà](../../interface/properties.md) si trova
 | *Nome* | *Descrizione* |
 | --- | --- |
 | **Anteprima pennello** | L’anteprima del pennello mostra come si comporterà il pennello in base ai parametri del pennello. È possibile fare clic nell’anteprima per disegnare un tratto personalizzato.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-preview-param.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/brush-preview-draw.gif"/></div>  </td> </tr> </table>   **Nota:** l&#39;anteprima del pennello non supporta la pressione della penna. |
-| **Anteprima materiale** | L’anteprima del materiale mostra le proprietà del materiale attualmente utilizzato per dipingere. È possibile fare clic nell’anteprima per ruotare l’illuminazione e vedere meglio come si comporterà il materiale prima di dipingere.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/material-preview-lighting.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/material-preview-properties-optim.gif"/></div>  </td> </tr> </table> |
+| **Anteprima materiale** | L’anteprima del materiale mostra le proprietà del materiale attualmente utilizzato per la pittura. È possibile fare clic nell’anteprima per ruotare l’illuminazione e vedere meglio come si comporterà il materiale prima di dipingere.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/material-preview-lighting.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/material-preview-properties-optim.gif"/></div>  </td> </tr> </table> |
 
 ## Pennello
 
@@ -71,7 +71,7 @@ I parametri Pennello definiscono l’aspetto del tratto del pennello quando vien
 | **Opacità tratto** | Opacità globale massima di un tratto pennello. A differenza del parametro Flusso, l’opacità del tratto non può essere controllata mediante Pressione penna perché viene applicata alla fine del processo di disegno del tratto.Differenza tra opacità di flusso e di traccia:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> A sinistra di </strong>: flusso al 50%, opacità traccia al 100%</li><li data-preserve-html="true"><strong> Destra </strong>: flusso al 100%, opacità traccia al 50%</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-combined.gif" width="500px"/></div> **Nota:** è possibile continuare un tratto precedente come nell&#39;animazione precedente premendo la scelta rapida &quot;A&quot;. |
 | **Spaziatura** | Distanza tra i singoli timbri di un tratto del pennello. I valori piccoli consentono di creare linee continue, ma sono più ampi da calcolare poiché disegnano più timbri in totale. Valori alti permettono di creare uno spazio tra il timbro che può essere più adatto a motivi specifici (come Unghie su legno). |
 | **Angolo** | Orientamento dei timbri all’interno del tratto del pennello. Utile per ruotare l&#39;Alpha se non è allineato correttamente. Può essere combinato con il percorso Segui. |
-| **Segui percorso** | Orienta i timbri all’interno del tratto del pennello in modo da seguire la direzione del disegno. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **Nota:** per calcolare la direzione del tratto, Substance 3D Painter confronta il timbro precedente con quello corrente. Per questo motivo, quando è abilitata l&#39;opzione Segui tracciato, un singolo clic disegnato non produce alcun risultato. Per colorare un tratto di pennello con questa funzione attivata sono necessari almeno due timbri. |
+| **Segui percorso** | Orienta i timbri all’interno del tratto del pennello in modo da seguire la direzione del disegno. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **Nota:** per calcolare la direzione del tratto, Substance 3D Painter confronta il timbro precedente con quello corrente. Per questo motivo, quando è abilitata l&#39;opzione Segui tracciato, un singolo clic disegnato non produce alcun risultato. Per la pittura di un tratto pennello con questa funzione attivata sono necessari almeno due timbri. |
 | **Variazione dimensioni** | Applica un valore di dimensione casuale per timbro all’interno del tratto del pennello. Un valore pari a 0 indica assenza di casualità, un valore pari a 1 indica casualità completa. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r7-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-size-3.png"/></div> |
 | **Variazione flusso** | Applica un valore di flusso casuale per timbro all’interno del tratto del pennello. Un valore pari a 0 indica assenza di casualità, un valore pari a 1 indica casualità completa. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **Variazione angolo** | Applica un angolo di rotazione aggiuntivo casuale per timbro all’interno del tratto del pennello. Un valore pari a 0 indica assenza di casualità, un valore pari a 1 indica casualità completa. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
@@ -98,7 +98,7 @@ Le proprietà Fisica consentono di controllare le particelle che vengono proiett
 
 Per impostazione predefinita, le proprietà Fisica non sono disponibili, ma possono essere attivate in due modi:
 
-* Impostando lo strumento su &quot;Fisico&quot; nelle [Barre degli strumenti](../../interface/toolbars.md) (o tramite la scelta rapida da tastiera).
+* Impostando lo strumento su &quot;Fisico&quot; nelle [Barre degli strumenti](../../interface/toolbars.md) (o tramite la scelta rapida da tastiera della tastiera).
 * Facendo clic su un predefinito Pennello particella nella finestra [Risorse](../../interface/assets/assets.md).
 
 ## Stencil
@@ -120,13 +120,13 @@ Lo Stencil è una maschera aggiuntiva in scala di grigio per il tratto del penne
 | **Ruota stencil** | Per ruotare lo stencil, premere il tasto **S** e fare clic e trascinare con il pulsante **Mouse sinistro**. Inoltre, premendo il tasto **Maiusc** è possibile allineare la rotazione ogni **90 gradi**. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-rotate.gif" width="350px"/></div> |
 | **Ridimensiona stencil** | Per ridimensionare lo stencil, premere il tasto **S** e fare clic e trascinare con il pulsante **Mouse destro**. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-resize.gif" width="350px"/></div> |
 
-L’impostazione della modalità di suddivisione in porzioni controlla il modo in cui la maschera Stencil viene ripetuta nella finestra della vista (questa impostazione influisce anche sulla texture):
+L’impostazione Modalità Affiancamento controlla la modalità di ripetizione della maschera Stencil nella finestra della vista (questa impostazione influisce anche sulla texture):
 
 | *Modalità Porzione* | *Descrizione* |
 | --- | --- |
-| **Nessuna porzione (impostazione predefinita)** | La maschera Stencil non viene ripetuta. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-notiling.png" width="350px"/></div> |
+| **Nessun Affiancamento (impostazione predefinita)** | La maschera Stencil non viene ripetuta. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-notiling.png" width="350px"/></div> |
 | **Verticale in porzioni** | Ripetere la maschera Stencil solo sull&#39;asse orizzontale. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |
-| **Porzione verticale** | Ripetere la maschera Stencil solo sull&#39;asse verticale. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-vertical.png" width="350px"/></div> |
+| **Affiancamento verticale** | Ripetere la maschera Stencil solo sull&#39;asse verticale. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-vertical.png" width="350px"/></div> |
 | **Inclinazione orizzontale e verticale** | Ripetere la maschera Stencil sull&#39;asse orizzontale e verticale. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-both.png" width="350px"/></div> |
 
 ## Materiale

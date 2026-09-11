@@ -37,7 +37,7 @@ Data di pubblicazione: *17 settembre 2024*
 In questa versione sono stati aggiunti diversi nuovi filtri per ampliare notevolmente il processo di creazione delle texture:
 
 * <b>Nuovo materiale per decalcomanie per ricami</b>\
-  All&#39;interno della sezione dei materiali della finestra Risorse puoi trovare un nuovo materiale per decalcomanie per ricami. Trascinalo ovunque sulla trama, inserisci una risorsa (come una texture o anche un font) e potrai creare facilmente nuovi dettagli dell&#39;infrastruttura.
+  All&#39;interno della sezione dei materiali della finestra Risorse puoi trovare un nuovo materiale per decalcomanie per ricami. Trascinalo in qualsiasi punto della trama, inserisci una risorsa (come una texture o un font) e potrai creare facilmente nuovi dettagli dell&#39;infrastruttura.
 
   ![](../assets/v101_filter_embroidery.jpg)
 * <b>Nuovo filtro maschera/colore area di riempimento</b>\
@@ -68,8 +68,8 @@ In questa versione sono stati aggiunti diversi nuovi filtri per ampliare notevol
   Il filtro Smoothstep consente inoltre di definire un livello o un contrasto per migliorare le informazioni in scala di grigi. Questo filtro applica al risultato anche una curva esponenziale, rendendo possibile la conversione di sfumature lineari in curve uniformi.
 
   ![](../assets/v101_filter_smoothstep.jpg)
-* <b>Filtri Trasformazione e Specularità migliorati</b>\
-  Il filtro di trasformazione è stato aggiornato per supportare il ridimensionamento non uniforme, il capovolgimento in orizzontale o verticale e l’utilizzo dei parametri è più semplice. Il filtro a specchio è stato inoltre aggiornato con parametri più semplici.
+* <b>Filtri Trasforma e specularità migliorati</b>\
+  Il filtro di Trasforma è stato aggiornato per supportare il ridimensionamento non uniforme, il capovolgimento in orizzontale o verticale e l’utilizzo dei parametri è più semplice. Il filtro a specchio è stato inoltre aggiornato con parametri più semplici.
 
   ![](../assets/v101_filter_transform.jpg)
 * <b>Icone migliorate</b>\
@@ -82,19 +82,19 @@ In questa versione sono stati aggiunti diversi nuovi filtri per ampliare notevol
   * Il filtro di regolazione del height agiva sull’alfa di un livello, rendendone difficile l’utilizzo in alcuni casi.
   * Il filtro sfocatura non utilizzava uno spazio cromatico lineare nella modalità di gestione colore Legacy, creando colori errati durante la fusione/miscelazione del suo input.
 
-### Aggiornamento del supporto per USD e VFX Platform
+### Aggiornamento del supporto delle piattaforme USD e VFX
 
 ![](../assets/v101_banner_usd.jpg)
 
 In questa versione di Painter molti componenti di terze parti sono stati migliorati e aggiornati:
 
 * <b>Esportare texture con Adobe Standard Material in USD\
-  </b>Quando si esportano texture da Painter in un file USD, ora si otterranno le proprietà dei materiali Adobe Standard. Questo rende i file USD pronti per essere utilizzati nell&#39;applicazione che supporta anche quelle proprietà.
+  </b>Quando si esportano texture da Painter in un file USD, ora si ottengono le proprietà di Adobe Standard Material con tali file. Questo rende i file USD pronti per essere utilizzati nell&#39;applicazione che supporta anche quelle proprietà.
 * <b>Importare texture da file USD</b>\
-  Quando si importa un file USD, la sua texture viene ora importata anche nel progetto creato, semplificando il passaggio da un’applicazione all’altra. Se il file USD utilizza il materiale Adobe Standard, verranno configurate anche le impostazioni dello shader, in modo che il risultato nella finestra della vista corrisponda all&#39;altra applicazione di origine.
+  Quando si importa un file USD, la sua texture viene ora importata anche nel progetto creato, semplificando il passaggio da un’applicazione all’altra. Se il file USD utilizza l&#39;Adobe Standard Material, verranno configurate anche le impostazioni di shader, in modo che il risultato nella finestra della vista corrisponda all&#39;altra applicazione di origine.
 * <b>Modifiche Gltf\
-  </b>In seguito all&#39;aggiornamento di USD, è stato necessario modificare il comportamento del formato GLTF per garantire la parità. Quando si importa un file gltf, Painter presume che la mappa normale sia in formato OpenGL.\
-  Alcuni file gltf possono utilizzare il formato DirectX. È stata quindi aggiunta una nuova impostazione nella finestra del nuovo progetto per tenerne conto (si noti che il formato normale può anche essere sostituito dalla pila di livelli).
+  </b>In seguito all&#39;aggiornamento dell&#39;USD, è stato necessario modificare il comportamento del formato GLTF per garantire la parità. Quando si importa un file gltf, Painter presume che la mappa normale sia in formato OpenGL.\
+  Alcuni file gltf possono utilizzare il formato DirectX. È stata quindi aggiunta una nuova impostazione nella finestra del nuovo progetto per tenerne conto (si noti che anche il formato normale può essere sostituito dalla Pila livelli).
 
   ![](../assets/v101_import_gltf.png)
 * <b>Dipendenze aggiornate</b>\
@@ -104,7 +104,7 @@ In questa versione di Painter molti componenti di terze parti sono stati miglior
   * Substance Engine 9.1.3
   * OpenEXR 3.2
   * Python 3.11
-  * OCIO 2.3.2
+  * OCIO 2.3.2.
   * OpenSubdiv 3.6.0
 * <b>Supporto Linux aggiornato\
   </b>Questa nuova versione di Painter ora supporta come minimo Red Hat Enterprise Linux (RHEL) versione 8.6, ma deve essere compatibile anche con la versione 9.x.
@@ -119,10 +119,10 @@ Alcune aree dell&#39;applicazione hanno ricevuto alcuni miglioramenti delle pres
   </b>Il progetto che ha utilizzato molti tratti di pennello ora dovrebbe essere più veloce da aprire in Painter. Anche il tempo risparmiato da questi progetti dovrebbe essere leggermente migliorato.\
   In alcuni dei nostri progetti di prova abbiamo osservato una riduzione del tempo di caricamento da 50 a soli 6 secondi all’apertura di un progetto. È stato inoltre migliorato il consumo di memoria durante l’apertura di vecchi progetti e la loro conversione alla versione più recente.
 * <b>Prestazioni di tasselation migliorate\
-  </b>Ora viene utilizzata un&#39;ottimizzazione automatica quando la tassellatura è abilitata nelle impostazioni dello shader. I triangoli più piccoli di un pixel sullo schermo non verranno più tassellati, con conseguente riduzione dei triangoli da disegnare e tempi di rendering più rapidi.\
+  </b>Ora viene utilizzata un&#39;ottimizzazione automatica quando il tasselation è abilitato nelle impostazioni dello Shader. I triangoli più piccoli di un pixel sullo schermo non verranno più tassellati, con conseguente riduzione dei triangoli da disegnare e tempi di rendering più rapidi.\
   Questa modifica non produce differenze visive e non influisce sul processo di esportazione della trama.
 * <b>Le miniature semplificate sono ora quelle predefinite</b>\
-  Nella versione 6.2 abbiamo introdotto le miniature semplificate per i progetti con riquadri UV per migliorare le prestazioni, ma i progetti regolari potevano ancora utilizzare il vecchio metodo di calcolo delle miniature dei livelli. Questo comportamento è stato controllato tramite un’impostazione dell’applicazione.\
+  Nella versione 6.2 abbiamo introdotto le miniature semplificate per i progetti di Porzione UV per migliorare le prestazioni, ma i progetti regolari potevano ancora utilizzare il vecchio modo di elaborare le miniature dei livelli. Questo comportamento è stato controllato tramite un’impostazione dell’applicazione.\
   Per impostazione predefinita, questa impostazione ora consente di impostare le miniature ottimizzate in modo da migliorare le prestazioni di tutti i progetti. Se necessario, può essere ripristinato nelle preferenze principali.
 
   ![](../assets/v101_perf_icons.png)
@@ -141,7 +141,7 @@ Alcune aree dell&#39;applicazione hanno ricevuto alcuni miglioramenti delle pres
 
 Data di pubblicazione: <b>2024/09/17</b>
 
-Riepilogo: <b>Versione principale, nuovo contenuto: filtro area di riempimento/colore, filtro decalcomania ricamo e sei filtri Substance generici, importa USD con proprietà materiale e shader, miglioramento delle prestazioni, conforme alla piattaforma VFX 2024 e migrazione a Linux RedHat</b>
+Riepilogo: <b>Versione principale, nuovo contenuto: maschera area di riempimento/filtro colore, filtro decalcomania ricamo e sei filtri Substance generici, importazione di USD con proprietà di materiale e shader, miglioramento delle prestazioni, conformità alla piattaforma VFX 2024 e migrazione a Linux RedHat</b>
 
 <b>Aggiunto</b>:
 
@@ -149,8 +149,8 @@ Riepilogo: <b>Versione principale, nuovo contenuto: filtro area di riempimento/c
 * [Content] Aggiungi nuovo filtro Ricamo decalcomania
 * [Content] Aggiungi 6 nuovi filtri Substance generici (FXAA, pixelate, highpass, posterize, smoothstep, threshold)
 * [USD] Esporta il livello USD con un materiale ASM definito
-* [USD] Importa USD con proprietà del materiale e dello shader
-* [Prestazioni] Abilita miniature stack di livelli ottimizzate per impostazione predefinita
+* [USD] Importare USD con proprietà del materiale e dello shader
+* [Prestazioni] Abilita le miniature di Pila livelli ottimizzate per impostazione predefinita
 * [Prestazioni] Riduzione del tempo di apertura dei file di progetto e del consumo di memoria (decodifica dei dati)
 * Conforme alla piattaforma VFX 2024
 * [VFX Platform 2024] Aggiornamento a Python 3.11

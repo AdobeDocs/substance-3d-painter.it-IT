@@ -22,9 +22,9 @@ ht-degree: 4%
 
 ![](../../assets/banner-cm-doc.jpg)
 
-La gestione del colore riguarda la gestione e la conversione dei colori. Dall’importazione delle risorse alla visualizzazione dei colori sullo schermo fino all’esportazione delle texture. La calibrazione del colore è importante per garantire lo stesso aspetto in tutte le applicazioni.
+La gestione del colore riguarda la gestione e la conversione dei colori. Dall’importazione delle risorse alla visualizzazione dei colori sullo schermo fino all’esportazione della texture. La calibrazione del colore è importante per garantire lo stesso aspetto in tutte le applicazioni.
 
-Nell&#39;applicazione la gestione del colore viene gestita tramite l&#39;integrazione di [OpenColorIO](https://opencolorio.org/) (OCIO in breve) versione 2. OCIO è lo standard per la conversione e la visualizzazione dei colori nelle pellicole e nelle animazioni. Per abilitare la gestione del colore, è sufficiente creare un nuovo progetto o aprirne uno esistente e attivare le impostazioni dedicate.
+Nell&#39;applicazione la gestione del colore viene gestita tramite l&#39;integrazione di [OpenColorIO](https://opencolorio.org/) (OCIO in breve) versione 2. OCIO è lo standard per la conversione e la visualizzazione dei colori nei film e nelle animazioni. Per abilitare la gestione del colore, è sufficiente creare un nuovo progetto o aprirne uno esistente e attivare le impostazioni dedicate.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Nell&#39;applicazione la gestione del colore viene gestita tramite l&#39;integra
 
 Impostazioni di gestione colore:
 
-* [Gestione del colore con Adobe - ICC](color-management-with-adobe-ace-icc.md)
+* [Gestione del colore con Adobe ACE - ICC](color-management-with-adobe-ace-icc.md)
 * [Gestione del colore con OpenColorIO](color-management-with-opencolorio.md)
 
 ## Vocabolario
@@ -44,11 +44,11 @@ Può essere utile conoscere alcuni termini tecnici relativi alla gestione del co
 | Parola chiave | Descrizione |
 | --- | --- |
 | **Spazio colore** | Sistema di coordinate in cui sono definiti i colori. |
-| **Spazio di lavoro** | Spazio colore utilizzato all’interno dell’applicazione per fondere texture, colori, ecc. |
-| **Trasformazione visualizzazione** | Trasformazione visualizzazione converte i colori lineari dallo spazio di lavoro allo spazio colore del monitor per visualizzare i colori percettivamente (visibili agli occhi dell’uomo). Le trasformazioni di visualizzazione spesso includono una passata di mappatura tonale per comprimere i colori e adattarli all’intervallo limitato di valori consentiti dallo schermo. |
-| **Configurazione** | Un file di configurazione OCIO. Definisce lo spazio di lavoro, un elenco di spazi colore e un elenco di trasformazioni di visualizzazione. |
-| **ACE** | ACES è l’acronimo di Academy Color Encoding System ed è lo standard in molte applicazioni per lo scambio di file di immagini digitali. Per impostazione predefinita, nell’applicazione sono incluse due versioni di questo standard. |
-| **Mappatura tonalità** | È il processo di mappatura dei valori di colore da HDR (high dynamic range) a LDR (low dynamic range). Questo processo consente la visualizzazione approssimativa di un’ampia gamma di colori. |
+| **Spazio di lavoro** | Lo spazio colore utilizzato all’interno dell’applicazione per fondere texture, pittura, ecc. |
+| **Trasforma di visualizzazione** | Il Trasforma di visualizzazione converte i colori lineari dallo spazio di lavoro allo spazio colore del monitor per visualizzare i colori percettivamente (visibili agli occhi dell’uomo). I Trasforma di visualizzazione includono spesso una passata di mappatura tonale per comprimere i colori in modo da adattarli all’intervallo limitato di valori consentiti dallo schermo. |
+| **Configurazione** | Un file di configurazione OCIO. Definisce lo spazio di lavoro, un elenco di spazi colore e un elenco di Trasforma di visualizzazione. |
+| **ACE** | L&#39;ACE è un Academy Color Encoding System e in molte applicazioni è lo standard per lo scambio di file di immagini digitali. Per impostazione predefinita, nell’applicazione sono incluse due versioni di questo standard. |
+| **Mappatura tonalità** | È il processo di mappatura dei valori cromatici da HDR (high dynamic range) a LDR (basso intervallo dinamico). Questo processo consente la visualizzazione approssimativa di un’ampia gamma di colori. |
 
 ## Elenco dei canali con gestione del colore
 
@@ -58,12 +58,12 @@ All’interno dell’applicazione, i canali con gestione del colore o meno (dati
 | --- | --- |
 | **occlusione ambiente** | No |
 | **Angolo di anistotropia** | No |
-| **Livello di Anisotropia** | No |
+| **Livello di anisotropia** | No |
 | **Colore di base** | **Sì** |
 | **Maschera di fusione** | No |
 | **Colore pelo** | **Sì** |
-| **Pelo normale** | No |
-| **Opacità pelo** | No |
+| **Normale dei rivestimenti** | No |
+| **Opacità del rivestimento** | No |
 | **Rugosità pelo** | No |
 | **specular level** | No |
 | **Diffusione** | **Sì** |
@@ -99,11 +99,11 @@ Per ulteriori informazioni, consulta il selettore colore [pagina della documenta
 
 ## Controlli del riquadro di visualizzazione
 
-Entrambe le viste 2D e 3D sono sottoposte alla gestione del colore e nella parte superiore della finestra della vista sono disponibili impostazioni dedicate che consentono di controllare la trasformazione della visualizzazione da utilizzare:
+Entrambe le viste 2D e 3D sono sottoposte alla gestione del colore e nella parte superiore della finestra della vista sono disponibili impostazioni dedicate per controllare il Trasforma di visualizzazione da utilizzare:
 
 ![](../../assets/viewport-cm.png)
 
-* **Pulsante sinistro**: attiva/disattiva la trasformazione della visualizzazione della finestra della vista. Se è disattivata, la finestra della vista visualizzerà i colori come raw/passthrough. Questo pulsante è attivato per impostazione predefinita.
+* **Pulsante sinistro**: attiva/disattiva il Trasforma di visualizzazione della finestra della vista. Se è disattivata, la finestra della vista visualizzerà i colori come raw/passthrough. Questo pulsante è attivato per impostazione predefinita.
 * **Menu a discesa a destra**: specificate quale trasformazione di visualizzazione utilizzare per convertire i colori in modo da visualizzarli sullo schermo. Il valore predefinito è basato sulla configurazione OCIO. Questa impostazione non viene salvata con il progetto perché può essere dipendente dal monitoraggio.
 
 >[!NOTE]
@@ -114,7 +114,7 @@ Entrambe le viste 2D e 3D sono sottoposte alla gestione del colore e nella parte
 
 Le impostazioni di esportazione principali dipendono dalla configurazione del progetto (vedi sopra).
 
-Nella finestra [esporta texture](../../export/export.md) è presente una parola chiave che può essere utilizzata per aggiungere ai nomi di file lo spazio colore utilizzato per texture: **$colorSpace**.
+Nella finestra [esporta texture](../../export/export.md) è presente una parola chiave che può essere utilizzata per aggiungere ai nomi dei file lo spazio colore utilizzato per ogni texture: **$colorSpace**.
 
 <table>
 <tr style="border: 0;">

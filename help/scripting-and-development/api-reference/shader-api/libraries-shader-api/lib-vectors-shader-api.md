@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-Cornice locale del vertice nello spazio mondo
+Fotogramma locale del vertice nello spazio mondo
 
 ```
 struct LocalVectors { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-Calcola fotogramma locale da trama e height di documenti e normali
+Calcola il fotogramma locale dalla trama e dal height di documenti e dalle normali
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

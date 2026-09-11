@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/3d-view.jpg){width="370px"}
 
-La vista 3D mostra il modello 3D in condizioni di illuminazione che consentono di esaminare come viene definito il materiale della superficie. È anche possibile colorare direttamente sul modello 3D.
+Il vista 3D mostra il modello 3D in condizioni di illuminazione che consentono di esaminare come viene definito il materiale della superficie. In questo modo è anche possibile eseguire la pittura diretta sul modello 3D.
 
 ## Profilo
 
@@ -34,7 +34,7 @@ Nella parte superiore sinistra della finestra della vista potrebbe essere visual
 
 Se il file modello 3D utilizzato per creare il progetto o importare la trama dispone di fotocamere definite, queste possono essere importate nel progetto e utilizzate per modificare la posizione e l’orientamento della videocamera. Questo menu a discesa consente di passare da una videocamera all’altra disponibile nel progetto. Se non è disponibile alcuna videocamera diversa da quella predefinita, il menu a discesa non viene visualizzato.
 
-È possibile passare rapidamente da una videocamera all&#39;altra utilizzando la [scelta rapida da tastiera](../settings/shortcuts.md) dedicata. Per ulteriori informazioni, vedere la pagina [Gestione fotocamera](camera-management.md).
+È possibile passare rapidamente da una fotocamera all&#39;altra utilizzando la [scelta rapida da tastiera della tastiera](../settings/shortcuts.md) dedicata. Per ulteriori informazioni, vedere la pagina [Gestione fotocamera](camera-management.md).
 
 ## Modalità di visualizzazione
 
@@ -42,7 +42,7 @@ Se il file modello 3D utilizzato per creare il progetto o importare la trama dis
 
 Per impostazione predefinita, la modalità di visualizzazione della finestra della vista è impostata su Materiale per mostrare l&#39;illuminazione dell&#39;ambiente. Il menu a discesa consente di passare alla modalità di visualizzazione Solo, che isola i canali e le mappe mesh singolarmente.
 
-Questa illuminazione può essere controllata tramite [Impostazioni schermo](../display-settings/display-settings.md) e altre impostazioni di rendering. L&#39;orientamento della luce può essere modificato anche con l&#39;aiuto della [scelta rapida da tastiera](../settings/shortcuts.md).
+Questa illuminazione può essere controllata tramite [Impostazioni schermo](../display-settings/display-settings.md) e altre impostazioni di rendering. L&#39;orientamento dell&#39;illuminazione può essere modificato anche con l&#39;aiuto di [scelte rapide da tastiera da tastiera](../settings/shortcuts.md).
 
 ## Asse
 

@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
 breadcrumb-title: ''
-description: Scoprite come correggere i problemi di scelta rapida ALT su Linux in Substance 3D Painter per una corretta navigazione da tastiera.
+description: Scoprite come correggere i problemi di scelta rapida da tastiera della tastiera ALT su Linux in Substance 3D Painter per una corretta navigazione della tastiera.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Impossibile utilizzare la scelta rapida da tastiera ALT su Linux
+title: Impossibile utilizzare la scelta rapida da tastiera della tastiera ALT su Linux
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Impossibile utilizzare la scelta rapida da tastiera ALT su Linux
+# Impossibile utilizzare la scelta rapida da tastiera della tastiera ALT su Linux
 
 Se si esegue una distribuzione Linux (**Ubuntu** o **CentOS**) che utilizza **Gnome** come interfaccia utente, è possibile disabilitare il comportamento predefinito del tasto **ALT** per poter navigare nella finestra della vista.
 

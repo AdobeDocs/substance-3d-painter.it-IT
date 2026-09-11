@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
-description: Utilizza lo strumento Riempimento poligonale di Substance 3D Painter per riempire i poligoni selezionati con il colore, per una pittura efficace delle texture.
+description: Utilizza lo strumento Riempimento poligono di Substance 3D Painter per riempire i poligoni selezionati con pittura per una pittura a texture efficiente.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Polygon fill
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Riempimento poligono
 
-Lo strumento **Riempimento poligonale** (![](../../assets/image2018-6-12-18-15-12.png)) consente di disegnare rapidamente le maschere trasformando i poligoni selezionati in una maschera pixel. Potrebbe sembrare uno strumento di selezione 3D di altre applicazioni 3DCC, ma in realtà è uno strumento di riempimento che genera dati pixel. Ciò significa che è possibile selezionare e deselezionare i colori utilizzando il bianco o il nero.
+Lo strumento **Riempimento poligonale** (![](../../assets/image2018-6-12-18-15-12.png)) consente di disegnare rapidamente le maschere trasformando i poligoni selezionati in una maschera pixel. Potrebbe sembrare uno strumento di selezione 3D di altre applicazioni 3DCC, ma in realtà è uno strumento di riempimento che genera dati pixel. Ciò significa che si selezionano e si deselezionano i lavori utilizzandoli per pittura bianco o nero.
 
-Lo strumento Riempimento poligonale funziona su [Livelli disegno,](../../interface/layer-stack/layer-stack.md) ma è limitato solo al colore di base e non è destinato a questo scopo. [Utilizzalo solo per le maschere](../../interface/layer-stack/masking-and-effects.md).
+Lo strumento Riempimento poligonale funziona su [Livelli di pittura,](../../interface/layer-stack/layer-stack.md) ma è limitato solo al colore di base e non è destinato a questo scopo. [Utilizzalo solo per le maschere](../../interface/layer-stack/masking-and-effects.md).
 
 Sono disponibili 4 modalità di selezione:
 

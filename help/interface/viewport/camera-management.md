@@ -24,13 +24,13 @@ Le videocamere create in Maya, Max, Blender, Modo e DAE possono essere importate
 
 >[!NOTE]
 >
-> Le fotocamere ortografiche e le proporzioni di visualizzazione non sono correttamente supportate in formato ABC (Alembic).
+> Le fotocamere e le proporzioni di visualizzazione Ortografiche non sono supportate correttamente nel formato ABC (Alembic).
 
 ## Importare le fotocamere in Substance 3D Painter
 
 Le fotocamere devono essere incluse nel file mesh, in formato FBX o ABC (Alembic).
 
-Vengono importati il nome, i parametri di trasformazione, il FOV e le proporzioni (se presenti).
+Vengono importati il nome, i parametri di Trasforma, il FOV e le proporzioni (se presenti).
 
 Nella finestra Nuovo progetto, seleziona il file mesh che include le fotocamere e verifica che la casella di controllo **Importa fotocamere** sia selezionata. Se attivi **Reimporta trama** nella finestra di configurazione **Modifica > Progetto**, puoi anche attivare **Importazione di fotocamere** se le hai mancate durante la creazione iniziale del progetto.
 
@@ -79,7 +79,7 @@ Il campo visivo o FOV è espresso in gradi.
 
 La Lunghezza focale è espressa in mm.
 
-In modalità Finestra vista (OpenGL), la distanza focale e l’apertura sono disattivate. Per attivarli, devono essere attivati gli effetti di post-produzione e il valore DOF.
+In modalità Finestra vista (OpenGL), la distanza focale e l’apertura sono disattivate. Per attivarli, è necessario attivare gli Effetti post e il DOF.
 
 ### Rapporto di visualizzazione
 
@@ -97,7 +97,7 @@ Se le proporzioni di visualizzazione sono presenti nel file mesh, vengono visual
 
 ![](../../assets/image2018-7-26-15-54-58.png)
 
-Potete anche regolare l&#39;opacità dell&#39;area esterna all&#39;inquadratura con **Opacità maschera cancello**.
+Potete anche regolare l&#39;opacità dell&#39;area esterna al fotogramma con **Opacità maschera cancello**.
 
 <table>
   <tr style="border: 0;">

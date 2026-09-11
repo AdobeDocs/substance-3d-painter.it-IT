@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Versione 7.2
 
-**Substance 3D Painter 7.2** offre nuove funzionalità di rendering con il flusso di lavoro Adobe Standard Material, nuovi modi per condividere contenuti tra [applicazioni Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) e una finestra Risorse revisionata.
+**Substance 3D Painter 7.2** offre nuove funzionalità di rendering con il flusso di lavoro di Adobe Standard Material, nuovi modi per condividere contenuti tra [applicazioni Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) e una finestra Risorse revisionata.
 
 Data di pubblicazione: *23 giugno 2021*
 
@@ -64,14 +64,14 @@ La vecchia finestra Scaffale è stata migliorata e rinominata come finestra Riso
 * **Aumentare il budget di memoria per l&#39;anteprima per caricare più miniature**\
   Per impostazione predefinita, viene allocata una quantità limitata di memoria alla visualizzazione delle miniature per risparmiare sulle prestazioni. Tuttavia, una libreria con molte risorse può comportare il caricamento e lo scaricamento costante di miniature, il che rende difficile la navigazione e la ricerca di risorse. È ora disponibile una nuova [variabile di ambiente](../../pipeline-and-integration/configuration/environment-variables.md) per sostituire il valore di budget predefinito.
 
-### Nuovo flusso di lavoro Adobe Standard Material
+### Nuovo flusso di lavoro di Adobe Standard Material
 
 ![](../../assets/banner-asm.jpg)
 
-È stato aggiunto un nuovo shader, denominato **Adobe Standard Material** (ASM), che supporta contemporaneamente diverse funzioni e consente di creare materiali più complessi e accurati all&#39;interno di un unico set di texture. Con questo nuovo shader abbiamo anche colto l&#39;opportunità di aggiungere nuovi canali per rendere più facile anche la creazione di materiali.
+È stato aggiunto un nuovo shader, denominato **Adobe Standard Material** (ASM), che supporta contemporaneamente diverse funzioni che consentono di creare materiali più complessi e accurati all&#39;interno di un unico set di texture. Con questo nuovo shader abbiamo anche colto l&#39;opportunità di aggiungere nuovi canali per rendere più facile anche la creazione di materiali.
 
-* **Nuovo shader di materiali Adobe Standard**\
-  Il nuovo shader ASM è uno shader che raggruppa diverse funzionalità e rappresenta un&#39;evoluzione del rendering PBR. Esso sostiene al tempo stesso:
+* **Nuovo shader Adobe Standard Material**\
+  Il nuovo shader ASM è uno shader che raggruppa diverse funzionalità e un&#39;evoluzione del rendering PBR. Esso sostiene al tempo stesso:
   * **Anisotropia**
   * **Cappotto trasparente**
   * **Brillantezza**
@@ -99,8 +99,8 @@ La vecchia finestra Scaffale è stata migliorata e rinominata come finestra Riso
   ![](../../assets/channel-list-grouping.png)
 
 * **Nuove funzionalità di API shader con if visibile e ricompilazione**\
-  Con lo sviluppo dello shader ASM sono state apportate alcune modifiche all&#39;API, con due caratteristiche degne di nota:
-  * **Visibile se**: i parametri dello shader possono essere visualizzati o nascosti in base alla condizione, rendendo più facile la lettura dell&#39;interfaccia utente dello shader.
+  Con lo sviluppo dello shader ASM sono state apportate alcune modifiche all&#39;API con due caratteristiche degne di nota:
+  * **Visibile se**: i parametri di shader possono essere visualizzati o nascosti in base alla condizione per semplificare la lettura dell&#39;interfaccia utente di shader.
   * **Ricompilazione**: dichiarando i parametri in un modo specifico, è ora possibile disabilitare parte di uno shader e ricompilarla per ottimizzarla quando il parametro cambia. Ciò consente di eliminare le funzionalità inutilizzate.
 
 ### Nuovo scambio di ecosistemi Substance 3D
@@ -137,9 +137,9 @@ In questa versione sono stati aggiunti nuovi contenuti:
 * **Nuovi modelli di progetto per ASM (Adobe Stand Material)**\
   Per semplificare l&#39;utilizzo del nuovo shader ASM, sono stati creati nuovi modelli di progetto per velocizzare la creazione del progetto:
   * ASM - Rugosità metallica PBR
-  * ASM - Angolo di Anisotropia rugosità metallica PBR
-  * ASM - Rugosità metallica rivestita in PBR
-  * ASM - Rugosità metallica PBR SSS
+  * ASM - ANGOLO DI ANISOTROPIA RUGOSITÀ METALLICA PBR
+  * ASM - Rivestimento Rugosità metallica PBR
+  * ASM - RUGOSITÀ METALLICA PBR SSS
   * ASM - Rugosità metallica lucida PBR
 
 * **Mappe nuovo ambiente**\
@@ -157,16 +157,16 @@ In questa versione sono stati aggiunti nuovi contenuti:
 
 ![](../../assets/banner-uv.jpg)
 
-È stato aggiunto un nuovo aggiornamento dello srotolamento UV automatico che porta il supporto dei riquadri UV e il controllo aggiuntivo sulla generazione UV:
+È stato aggiunto un nuovo aggiornamento dello srotolamento UV automatico che offre il supporto delle Porzioni UV e un controllo aggiuntivo sulla generazione UV:
 
-* **Quantità porzione UV**\
-  Quando si generano UV, è ora possibile specificare il numero massimo di porzioni UV che si desidera creare. Ciò consente di utilizzare la generazione UV anche con il flusso di lavoro delle porzioni UV.
+* **Importo Porzione UV**\
+  Quando si generano UV, è ora possibile specificare il numero massimo di Porzioni UV che si desidera creare. Ciò consente di utilizzare la generazione UV anche con il flusso di lavoro della Porzione UV.
 
 * **Isola UV orientamento**\
-  È stato aggiunto un nuovo parametro per aggiungere un vincolo all&#39;orientamento dell&#39;Isola UV quando viene imballato. Questo permette di rendere le Isole UV un po&#39; più allineate permettendo di strutturare alcuni oggetti più facilmente (ad esempio: una porta in legno per allineare il motivo in legno).
+  È stato aggiunto un nuovo parametro per aggiungere un vincolo all&#39;orientamento dell&#39;Isola UV quando viene imballato. Questo permette di fare Isole UV che un po &#39;più allineate permettendo di texture alcuni oggetti più facilmente (ad esempio: una porta in legno per allineare il disegno in legno).
 
 * **Prestazioni impacchettamenti migliorate**\
-  Anche la funzione di impacchettamento è stata migliorata per offrire buone prestazioni con il nuovo supporto per le porzioni UV.
+  Anche la funzione di impacchettamento è stata migliorata per offrire buone prestazioni con il supporto della nuova Porzione UV.
 
 ### Miglioramenti generali
 
@@ -181,7 +181,7 @@ Questa nuova versione aggiunge diversi miglioramenti a livello di qualità della
   Colorare su un livello con molti tratti di pennello esistenti ora dovrebbe essere molto più veloce e non dovrebbe più portare a rallentamenti.
 
 * **Colorazione più veloce dopo l’apertura di un progetto**\
-  È ora immediato disegnare su un livello nella parte superiore della pila di livelli subito dopo l’apertura di un progetto. Il calcolo della cache del motore è stato posticipato a un momento successivo, rendendo la riedizione dei vecchi progetti un po&#39; più veloce in questo contesto.
+  Dipingere su un livello nella parte superiore della Pila livelli subito dopo l’apertura di un progetto è ora immediato. Il calcolo della cache del motore è stato posticipato a un momento successivo, rendendo la riedizione dei vecchi progetti un po&#39; più veloce in questo contesto.
 
 * **Metodo Sharp normal**\
   Nelle impostazioni del set di texture è disponibile un nuovo parametro del metodo Height a normale che consente di controllare il modo in cui il canale del Height viene convertito in una mappa normale. Questo nuovo parametro è utile per migliorare la qualità delle superfici con molti dettagli variabili, come i materiali di tessuto.

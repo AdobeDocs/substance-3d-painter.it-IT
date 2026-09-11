@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/shader-settings.html"
 breadcrumb-title: ''
-description: Scopri come configurare le impostazioni dello shader in Substance 3D Painter per personalizzare il rendering del materiale e l’aspetto visivo.
+description: Scopri come configurare le impostazioni di shader in Substance 3D Painter per personalizzare il rendering dei materiali e l’aspetto visivo.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Shader settings
 helpx_experience_level: ""
@@ -22,40 +22,40 @@ ht-degree: 5%
 
 ![](../../assets/shader-settings.png)
 
-La finestra **Impostazioni shader** consente di controllare i parametri shader (e Iray mdl) e i parametri di spostamento della geometria.
+La finestra **Impostazioni ombreggiatura** consente di controllare i parametri di shader (e Iray mdl) e i parametri di spostamento della geometria.
 
 Uno shader è una funzione che definisce l&#39;aspetto di un oggetto quando interagisce con luci e ombre nelle finestre delle viste. In questa applicazione gli shader vengono utilizzati per sapere come leggere i canali del set di texture ed eseguire il rendering della trama 3D nelle finestre delle viste.
 
-## Annulla sovrapposizione e file shader
+## Annulla sovrapposizione e shader del file
 
 ![](../../assets/shader-undo.png)
 
-Questa sezione della finestra Impostazioni shader controlla i parametri principali durante la manipolazione degli shader.\
-Lo stack Annulla/Ripeti per lo shader è indipendente dalla [Cronologia](https://substance3d.adobe.com/display/DRAFTPAINTER/History) principale per non creare conflitti durante il disegno.
+Questa sezione della finestra Impostazioni Shader controlla i parametri principali durante la manipolazione degli shader.\
+Lo stack Annulla/Ripeti per lo shader è indipendente dalla [Cronologia](https://substance3d.adobe.com/display/DRAFTPAINTER/History) principale per non creare conflitti durante la pittura.
 
-Se il file shader è contrassegnato come &quot;Obsoleto&quot;, si consiglia di aggiornarlo quando possibile. Vedere: [Aggiornamento di uno shader](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
+Se il file di shader è contrassegnato come &quot;Obsoleto&quot;, si consiglia di aggiornarlo quando possibile. Vedere: [Aggiornamento di uno Shader](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
 
 | *Impostazione* | *Descrizione* |
 | --- | --- |
-| **Annulla** | Annullare o ripristinare una modifica del file shader o qualsiasi modifica dei parametri shader |
+| **Annulla** | Annullare o ripristinare una modifica del file di shader o di qualsiasi modifica dei parametri di shader |
 | **Ripeti** | Applicate nuovamente una modifica annullata tramite Annulla. |
-| **File shader** | Pulsante che mostra il file shader corrente utilizzato. Fate clic sul pulsante per aprire un ripiano e scegliete uno shader diverso. |
-| **Nome istanza** | Nome dell&#39;istanza dello shader. |
-| **Ripristina impostazioni predefinite** | Ripristinate tutti i parametri dello shader ai valori predefiniti (così come sono nel file dello shader). |
+| **File di Shader** | Pulsante che mostra il file di shader utilizzato. Fare clic sul pulsante per aprire un ripiano e scegliere uno shader diverso. |
+| **Nome istanza** | Nome dell&#39;istanza shader. |
+| **Ripristina impostazioni predefinite** | Ripristinate tutti i parametri degli shader ai valori predefiniti (così come sono nel file degli shader). |
 
-### Istanza dello shader
+### Istanza shader
 
-Un&#39;istanza di shader è uno shader basato su un file shader originale ma con parametri personalizzati. Un’istanza dello shader può essere condivisa tra più set di texture, e un set di texture può avere un’istanza dello shader univoca.
+Un&#39;Istanza shader è uno shader basato su un file di shader originale ma con parametri personalizzati. Un’Istanza shader può essere condivisa tra più set di texture e un set di texture può avere un’Istanza shader univoca.
 
 **Ad esempio:** un progetto può utilizzare uno shader di base, mentre un set di texture utilizza uno shader personalizzato per supportare l&#39;opacità.
 
-Per creare e gestire le istanze dello shader, vedere la finestra [Elenco set di texture](../texture-set/texture-set-list.md).
+Per creare e gestire le Istanze shader, vedere la finestra [Elenco set di texture](../texture-set/texture-set-list.md).
 
-## Parametri shader
+## Parametri Shader
 
 ![](../../assets/shader-parameters-1.png)
 
-I parametri dello shader dipendono dal file dello shader caricato.
+I parametri di Shader dipendono dal file di shader caricato.
 
 ## Spostamento e tassellatura
 
@@ -66,7 +66,7 @@ Lo Spostamento e la tassellatura sono due funzionalità che possono essere utili
 * **Spostamento**: spingere o spostare la geometria in base a un canale di input.
 * **Tasselazione**: suddividere la geometria per densificarla. Una maggiore densità significa che la spaziatura tra i poligoni è più corta, il che fornisce dettagli più fini.
 
-Nello scaffale è disponibile un filtro denominato &quot;**Da Height a normale**&quot; che può essere utilizzato per ottenere la mappa normale finale (nel caso in cui la conversione nativa non sia sufficientemente forte).
+Un filtro denominato &quot;**Height alla norma**&quot; è disponibile nello scaffale e può essere utilizzato per ottenere la mappa normale finale (nel caso in cui la conversione nativa non sia sufficientemente forte).
 
 ### Spostamento
 

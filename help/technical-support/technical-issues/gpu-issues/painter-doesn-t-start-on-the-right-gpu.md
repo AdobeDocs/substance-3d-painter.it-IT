@@ -75,7 +75,7 @@ In alcuni computer, ad esempio i laptop, l&#39;applicazione può essere eseguita
 
 ### Disattiva &quot;Preferenze GPU non predefinite&quot;
 
-Quando esegui Painter da un collegamento sul desktop o tramite Steam, assicurati che l&#39;impostazione <b>PrefersNonDefaultGPU</b> all&#39;interno del file <b>\*.desktop</b> sia impostata su <b>false</b>.
+Quando si esegue Painter da una scelta rapida da tastiera desktop o tramite Steam, assicurarsi che l&#39;impostazione <b>PrefersNonDefaultGPU</b> all&#39;interno del file <b>\*.desktop</b> sia impostata su <b>false</b>.
 
 Questa impostazione può essere fuorviante e portare all’utilizzo/imposizione della GPU integrata al posto di quella discreta e più potente. Per ulteriori informazioni [vedere questa discussione](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
 

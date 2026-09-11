@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
-description: Scopri come correggere gli arresti anomali di Substance 3D Painter durante l’apertura o il salvataggio dei file per una gestione affidabile del progetto.
+description: Scopri come correggere gli arresti anomali di Substance 3D Painter all’apertura o al salvataggio dei file per una gestione affidabile del progetto.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Arresto anomalo all’apertura o al salvataggio di un file
+title: Arresto anomalo di apertura o salvataggio di un file
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Arresto anomalo all’apertura o al salvataggio di un file
+# Arresto anomalo di apertura o salvataggio di un file
 
-Ci sono alcuni motivi per cui Substance 3D Painter si arresta in modo anomalo all&#39;apertura di una finestra di dialogo dei file. In questa pagina vengono raggruppati i motivi e le soluzioni a questo problema.
+Ci sono alcuni motivi per cui Substance 3D Painter dovrebbe arresto anomalo su Windows quando si apre una finestra di dialogo di file. In questa pagina vengono raggruppati i motivi e le soluzioni a questo problema.
 
 ## Conflitti software
 

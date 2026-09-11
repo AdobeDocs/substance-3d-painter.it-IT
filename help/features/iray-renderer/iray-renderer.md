@@ -58,7 +58,7 @@ Iray utilizza un insieme specifico di parametri ma anche proprietà comuni condi
 
 ## Impostazioni di visualizzazione
 
-Le impostazioni di visualizzazione consentono di controllare le impostazioni della videocamera e degli effetti di post-produzione.\
+Le impostazioni dello schermo consentono di controllare le impostazioni della fotocamera e degli effetti post.\
 Sono identici al normale rendering della finestra della vista, per cui possono essere sincronizzati ed evitare differenze di illuminazione indesiderate.
 
 Per ulteriori informazioni, consultate la pagina dedicata: [Impostazioni di visualizzazione](../../interface/display-settings/display-settings.md)

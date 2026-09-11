@@ -15,14 +15,14 @@ ht-degree: 9%
 
 ![](../../assets/v12_post_grain.jpg)
 
-Aggiunge all’immagine un pattern di disturbo della grana pellicola, simulando la texture organica di una pellicola fotografica analogica.
+Aggiunge all’immagine un pattern di disturbo della grana pellicola, simulando la texture organica della pellicola fotografica analogica.
 
 | <b>Parametro</b> | <b>Descrizione</b> |
 | --- | --- |
 |  |  |
 | --- | --- |
 | <b>Importo</b> | Controlla la visibilità e l’intensità della granulosità. Più alti sono i valori, maggiore sarà il disturbo visibile. |
-| <b>Raggio</b> | Imposta la dimensione delle singole particelle di granulosità in pixel. I valori più bassi creano una granulosità più fine e sottile, mentre i valori più alti generano una texture più grossolana e visibile. |
+| <b>Raggio</b> | Imposta la dimensione delle singole particelle di granulosità in pixel. Con valori più bassi si ottiene una granulosità più fine e più sottile, mentre con valori più alti si ottiene una texture più grossolana e visibile. |
 | <b>Tipo</b> | Consente di selezionare il disturbo monocromatico o colorato. |
 
 >[!NOTE]

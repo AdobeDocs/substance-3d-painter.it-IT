@@ -40,7 +40,7 @@ uniform sampler2D texture_blue_noise;
 ```
 
 
-Risoluzione texture con disturbo blu
+Risoluzione texture disturbo blu
 
 ```
 const ivec2 texture_blue_noise_size = ivec2(256);

@@ -30,7 +30,7 @@ Data di pubblicazione: *21 luglio 2016*
 
 ![](../../assets/dynamic-material-blending-materials-preview.jpg)
 
-Con questa nuova versione viene aggiunto un nuovo **flusso di lavoro** denominato **Livellamento dei materiali**. I flussi di lavoro tradizionali per la creazione di texture si basano sulla creazione di texture ad **alta risoluzione** per **mantenere i dettagli**, ma questo risulta **scomodo** per le esigenze specifiche. Un approccio più interessante consiste invece nel **creare materiale di lavorazione di piccole dimensioni** e **ripeterli all&#39;interno di uno shader**. Consente di mantenere una certa qualità e la possibilità di **ingrandire molto vicino** all&#39;oggetto utilizzando questo shader **senza perdere dettagli**. L&#39;unico problema è che per visualizzare in anteprima il risultato finale era in precedenza obbligatorio andare al motore di gioco/renderer che visualizza lo shader finale. Ciò non è più vero poiché in questa nuova versione è ora possibile utilizzare uno shader simile all&#39;interno di Substance Painter, che consente di **visualizzare il risultato finale e dipingere allo stesso tempo**.
+Con questa nuova versione viene aggiunto un nuovo **flusso di lavoro** denominato **Livellamento dei materiali**. I flussi di lavoro tradizionali per la creazione di texture si basano sulla creazione di texture ad **alta risoluzione** per **mantenere i dettagli**, ma questo **risulta scomodo** per i casi d&#39;uso. Un approccio più interessante consiste invece nella **creazione di un piccolo materiale di lavorazione** e nella **ripetizione all&#39;interno di uno shader**. Consente di mantenere una certa qualità e la possibilità di **ingrandire molto vicino** all&#39;oggetto utilizzando questo shader **senza perdere dettagli**. L&#39;unico problema è che per visualizzare in anteprima il risultato finale era in precedenza obbligatorio andare al motore di gioco/renderer che visualizzano lo shader finale. Ciò non è più vero in quanto in questa nuova versione è ora possibile utilizzare uno shader simile all&#39;interno della Substance Painter, che consente di **visualizzare contemporaneamente il risultato finale e la pittura**.
 
 È stato aggiunto un **nuovo progetto di esempio** denominato &quot;**FireHydrant**&quot; per presentare il nuovo flusso di lavoro.
 
@@ -38,10 +38,10 @@ Con questa nuova versione viene aggiunto un nuovo **flusso di lavoro** denominat
 
 Questo nuovo flusso di lavoro consente due metodi di lavoro:
 
-* I materiali sono definiti nello shader, puoi solo colorare le maschere per fonderle
+* I materiali sono definiti nello shader, puoi solo pittura le maschere per fonderle
 * Materiali e maschere possono essere dipinti insieme
 
-In ogni caso, è possibile definire una nuova pila di livelli ogni volta che offre maggiore libertà durante la creazione delle maschere e dei materiali. La gestione dei livelli è molto più semplice in questo modo e ogni pila può avere un proprio insieme di canali specifici che possono essere fusi nello shader finale.\
+In ogni caso, è possibile definire ogni volta una nuova Pila livelli che offre maggiore libertà durante la creazione delle maschere e dei materiali. La gestione dei livelli è molto più semplice in questo modo e ogni pila può avere un proprio insieme di canali specifici che possono essere fusi nello shader finale.\
 Abbiamo anche uno shader speciale per Unity 5 e Unreal Engine 4 disponibile su Share :
 
 * [Unità 5](https://share.allegorithmic.com/libraries/2126)

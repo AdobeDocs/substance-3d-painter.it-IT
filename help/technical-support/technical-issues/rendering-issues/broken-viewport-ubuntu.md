@@ -27,6 +27,6 @@ Ciò è dovuto al fatto che Painter non inizia con la GPU appropriata assegnata.
 Esistono alcune soluzioni:
 
 1. Esegui Steam da un Terminale. Questo forzerà un contesto diverso e dovrebbe far funzionare Steam e Painter sulla GPU giusta.
-1. Modifica la scelta rapida Vapore per disabilitare l&#39;impostazione <b>Esegui utilizzando una scheda grafica dedicata</b>. Quindi esegui Steam come al solito.
+1. Modifica la scelta rapida da tastiera Steam per disabilitare l&#39;impostazione <b>Esegui utilizzando una scheda grafica dedicata</b>. Quindi esegui Steam come al solito.
 
 Per ulteriori informazioni, vedere [questo problema github](https://github.com/ValveSoftware/steam-for-linux/issues/9940).

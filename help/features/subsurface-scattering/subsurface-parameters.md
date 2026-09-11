@@ -29,11 +29,11 @@ Per esempi di materiali basati su questi parametri, vedere: [Tipo di materiale s
 
 ![](../../assets/shader-parameters.png)
 
-Disponibile nella finestra [Impostazioni shader](../../interface/shader-settings/shader-settings.md).
+Disponibile nella finestra [Impostazioni Shader](../../interface/shader-settings/shader-settings.md).
 
 | *Impostazione* | *Descrizione* |
 | --- | --- |
-| **Abilita** | Attivate o disattivate l&#39;effetto Dispersione sottosuperficie su questa istanza shader/mdl.  Può essere utilizzato per disattivare l&#39;effetto SSS su materiale che non ne ha bisogno. |
+| **Abilita** | Attivate o disattivate l&#39;effetto Dispersione sottosuperficie su questa istanza di shader/mdl.  Può essere utilizzato per disattivare l&#39;effetto SSS su materiale che non ne ha bisogno. |
 | **Tipo di dispersione** | Definisce il comportamento dell&#39;assorbimento di luce nel materiale:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Traslucido</strong>: adatto per materiali generici come giada o marmo in cui la luce può penetrare profondamente in un oggetto.</li><li data-preserve-html="true"><strong> Incarnato</strong>: adatto per la pelle organica, in cui la luce viene assorbita rapidamente e dispersione solo vicino alla superficie.</li><li data-preserve-html="true"><strong>Red Shift/Rayleigh</strong>: più accurato dell’impostazione della pelle per simulare la pelle superficiale di esseri umani o creature.</li></ul> |
 | **Scala** | Controlla il raggio/la profondità dell&#39;assorbimento luminoso nel materiale. Questo comportamento del parametro cambia a seconda della dimensione della trama nella scena.Confronto tra una scala di 0,0, 0,2 e 1,0 su una testa di dimensioni umane:   <div><img data-preserve-html="true" src="../../assets/scale-sss.jpg" width="650"/></div> |
 | **Colore** | Il colore della luce quando viene assorbita dal materiale.Confronto tra tre colori:   <div><img data-preserve-html="true" src="../../assets/color-sss.jpg" width="650"/></div> |

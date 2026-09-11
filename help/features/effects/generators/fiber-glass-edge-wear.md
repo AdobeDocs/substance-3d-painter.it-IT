@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_fiber_glass_edge_wear.webp" alt=""/><br><strong>In:</strong> maschera, generatore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Edge Wear in fibra di vetro aggiunge un'usura realistica dei bordi in fibra di vetro e dettagli di sfilacciamento basati su mappe curvatura cotte e Occlusione ambientale. Facoltativamente, è anche possibile utilizzare le mappe Micro Height e Micro Normal per ulteriori dettagli.<br><br>Il generatore di Edge Wear in fibra di vetro genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere per aggiungere dettagli di usura dei bordi in fibra di vetro a un livello.<br><br>Per l'input dell'immagine sono necessarie mappe normali di posizione, curvatura, occlusione ambientale e spazio globale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Edge Wear in fibra di vetro aggiunge un'usura realistica dei bordi in fibra di vetro e dettagli di sfilacciamento basati su mappe di curvatura e Occlusione ambientale eseguite i baking. Facoltativamente, per ulteriori dettagli è possibile utilizzare anche Micro Height e Micro Mappa normale.<br><br>Il generatore di Edge Wear in fibra di vetro genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere per aggiungere dettagli di usura dei bordi in fibra di vetro a un livello.<br><br>Sono necessarie mappe Eseguite i baking di posizione, curvatura, occlusione ambientale e spazio globale come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -23,11 +23,11 @@ ht-degree: 1%
 | Nome di input | Descrizione |
 | --- | --- |
 | **grunge personalizzata** in scala di grigi | Usate una texture personalizzata o un punto di ancoraggio. |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| **Occlusione ambiente** Scala di grigi | Utilizzate la mappa di Occlusione ambiente cotta. |
-| Colore **Spazio globale normale** | Utilizzate la mappa standard di World Space. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| **Occlusione ambientale** Scala di grigi | Usa la mappa di Occlusione ambientale eseguita i baking. |
+| Colore **Spazio globale normale** | Utilizzare la mappa eseguita i baking World Space Normals. |
 | Colore **Posizione** | Utilizzate la mappa di posizione al forno. |
-| Colore **Micro-Normale** | Usate una texture normale personalizzata o un punto di ancoraggio. |
+| Colore **Micro-Normale** | Utilizzate una texture normale personalizzata o un punto di ancoraggio. |
 | Colore **Micro Height** | Usate una texture personalizzata o un punto di ancoraggio. |
 
 ## Parametri
@@ -39,7 +39,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Impostate il valore di partenza utilizzato per generare la texture del dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
+    <td>Impostate il valore di inizializzazione utilizzato per generare la texture di dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>
@@ -55,11 +55,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Usa triplanare</strong></td>
-    <td>Quando l’opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché dipendere solo dagli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando l'opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto fusione triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
   <tr>
     <td><strong>Quantità grungi</strong></td>
@@ -74,8 +74,8 @@ ht-degree: 1%
     <td>Regola la morbidezza dell'effetto usura bordi.</td>
   </tr>
   <tr>
-    <td><strong>Mascheratura Occlusione ambientale</strong></td>
-    <td>Regola l'influenza della mappa di occlusione ambiente sul risultato.</td>
+    <td><strong>Mascheratura Occlusioni ambientali</strong></td>
+    <td>Regola l’influenza della mappa di occlusione ambientale sul risultato.</td>
   </tr>
   <tr>
     <td><strong>Spessore curvatura</strong></td>
@@ -92,11 +92,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa di Micro Height personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una mappa personalizzata dell'altezza della micro.</td>
   </tr>
   <tr>
     <td><strong>Micro Normale</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa Micro Normal personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una Micro Mappa normale personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Tipo curvatura</strong></td>
@@ -112,10 +112,10 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Raggio AO</strong></td>
-    <td>Regola il raggio (intervallo) dell'Occlusione Ambiente nei micro dettagli.</td>
+    <td>Regolate il raggio (intervallo) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
   <tr>
     <td><strong>PROFONDITÀ AO</strong></td>
-    <td>Regola la profondità (intensità) dell'Occlusione ambiente nei micro dettagli.</td>
+    <td>Regolate la profondità (intensità) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
 </table>

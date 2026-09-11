@@ -29,7 +29,7 @@ Nella finestra <b>Schermata introduttiva</b>, è possibile accedere alle seguent
 * [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter?filter=all&page=1&sort=latest_replies)
 * [Risorse della community](https://helpx.adobe.com/substance-3d-community-assets/home.html)
 
-In caso contrario, iniziate a utilizzare le nozioni di base per la creazione di progetti e le esportazioni di texture:
+In caso contrario, inizia con le nozioni di base per la creazione di progetti ed esportazioni di texture:
 
 * [Creazione del progetto](project-creation.md)
 * [Esporta](../export/export.md)

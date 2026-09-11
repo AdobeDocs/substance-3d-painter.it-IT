@@ -1,6 +1,6 @@
 ---
 title: Conversione in scala di grigi
-description: Scopri come utilizzare il generatore di conversione della scala di grigi di Substance 3D Painter.
+description: Scopri come utilizzare il generatore di Conversioni in scala di grigi di Substance 3D Painter.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '229'
@@ -14,7 +14,7 @@ ht-degree: 5%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_grayscale_conversion.png" alt=""/><br><strong>Ingresso:</strong> generatore, scala di grigi, colore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di conversione della scala di grigi converte una texture o una mappa in valori di scala di grigi.<br><br>Il generatore di conversione della scala di grigi genera una texture monocromatica (bianco e nero). Di conseguenza, è utile per generare maschere da una mappa di input a colori completa.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Conversioni in scala di grigi converte una texture o una mappa in valori in scala di grigio.<br><br>Il generatore di Conversioni in scala di grigi emette una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere da una mappa di input a colori completa.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| Colore **Origine** | Usate una texture di colore personale o un punto di ancoraggio. |
+| Colore **Origine** | Usate una texture di colori personale o un punto di ancoraggio. |
 
 ## Parametri
 
@@ -49,7 +49,7 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Piastrella</strong></td>
-    <td>Consente di impostare la suddivisione in porzioni dell’immagine sorgente convertita.</td>
+    <td>Imposta l’Affiancamento dell’immagine sorgente convertita.</td>
   </tr>
   <tr>
     <td><strong>Rotazione</strong></td>

@@ -22,7 +22,7 @@ ht-degree: 9%
 
 ![](../../assets/banner_filled_path.jpg)
 
-Lo strumento tracciato pieno è un tipo di strumento tracciato che consente di creare forme sulla superficie del modello 3D riempite con un colore uniforme.
+Lo strumento tracciato pieno è un tipo di strumento tracciato che consente di creare forme sulla superficie del modello 3D riempito con un colore uniforme.
 
 ![](../../assets/filled_path_across_gaps.png)
 

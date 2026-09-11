@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_editor_dark.png" alt=""/><strong>In:</strong> maschera, generatore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore dell’editor maschere è un generatore di maschere multifunzione che consente di combinare texture, Occlusione ambientale, curvatura, spazio normale, sfumatura, Thickness e micro dettagli in un’unica maschera.<br>Il generatore di generatori di maschere è molto flessibile, ma a causa della sua complessità, può influire sulle prestazioni più della maggior parte dei generatori.<br><br>Il generatore dell'editor maschere genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere basate sulle varie mappe con baking. <br><br>Per l'input dell'immagine sono necessarie mappe di posizione, thickness, curvatura, occlusione ambientale e spazio globale normale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore dell'Editor maschera è un generatore di maschere multifunzione che consente di combinare Texture, Occlusione ambientale, Curvatura, Spazio globale normale, Sfumatura, Thickness e Micro dettagli in un'unica maschera.<br>Il generatore di generatori di maschere è molto flessibile, ma a causa della sua complessità, può influire sulle prestazioni più della maggior parte dei generatori.<br><br>Il generatore dell'editor maschere genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere basate sulle varie mappe con baking. <br><br>Sono necessarie mappe Eseguite i baking di posizione, thickness, curvatura, occlusione ambientale e spazio globale normali come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -23,13 +23,13 @@ ht-degree: 3%
 | Nome di input | Descrizione |
 | --- | --- |
 | Colore **Texture** | Usate una texture personalizzata o un punto di ancoraggio. |
-| Colore **Texture (secondaria)** | Usate una texture personalizzata o un punto di ancoraggio. |
-| Colore **Normali spazio globale** | Utilizzate la mappa standard di World Space. |
+| Colore **Texture (secondario)** | Usate una texture personalizzata o un punto di ancoraggio. |
+| Colore **Normali spazio globale** | Utilizzare la mappa eseguita i baking World Space Normals. |
 | Colore **Sfumatura posizione** | Utilizzate la mappa di posizione al forno. |
-| **Thickness** in scala di grigi | Usa la mappa del Thickness cotto. |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| **Occlusione ambiente** Scala di grigi | Utilizzate la mappa di Occlusione ambiente cotta. |
-| Colore **Micro-Normale** | Usate una texture normale personalizzata o un punto di ancoraggio. |
+| **Thickness** in scala di grigi | Utilizzate la mappa di spessore eseguita i baking. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| **Occlusione ambientale** Scala di grigi | Usa la mappa di Occlusione ambientale eseguita i baking. |
+| Colore **Micro-Normale** | Utilizzate una texture normale personalizzata o un punto di ancoraggio. |
 | Colore **Micro Height** | Usate una texture personalizzata o un punto di ancoraggio. |
 
 ## Parametri
@@ -40,9 +40,9 @@ ht-degree: 3%
 | **Sfocatura globale** | Sfoca la maschera finale in modo uniforme dopo aver combinato tutti i livelli. |
 | **Saldo globale** | Regola il bilanciamento della maschera finale dopo che tutti i livelli sono stati combinati in bianco o nero, come avviene per la regolazione della luminosità. |
 | **Contrasto globale** | Regola il contrasto della maschera finale dopo aver combinato tutti i livelli. |
-| **Opacità texture** | Regolate la visibilità della texture personalizzata. |
-| **Opacità Texture 2** | Regolate la visibilità della seconda texture personalizzata. |
-| **Opacità Occlusione ambiente** | Regola la visibilità dei dettagli di occlusione dell&#39;ambiente. |
+| **Texture opacità** | Regola la visibilità della texture personalizzata. |
+| **Opacità Texture 2** | Regola la visibilità della seconda texture personalizzata. |
+| **Opacità Occlusione ambientale** | Regola la visibilità dei dettagli di occlusione ambientale. |
 | **Opacità curvatura** | Regolate la visibilità dei dettagli di curvatura. |
 | **Opacità normale spazio globale** | Regola la visibilità dei dettagli normali dello spazio mondo. |
 | **Opacità sfumatura posizione** | Regola la visibilità dei dettagli della posizione. |
@@ -61,7 +61,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversione in scala di grigi</strong></td>
-    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di conversione <a href="grayscale-conversion.md">scala di grigi fornisce ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
+    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di <a href="grayscale-conversion.md">Conversioni in scala di grigi contiene ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
   </tr>
   <tr>
     <td><strong>Metodo fusione</strong></td>
@@ -73,7 +73,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Contrasto</strong></td>
-    <td>Regolate il contrasto/decadimento della texture personalizzata.</td>
+    <td>Regola il contrasto/decadimento della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Luminosità</strong></td>
@@ -81,19 +81,19 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Triplanare</strong></td>
-    <td>Quando l’opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché dipendere solo dagli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando l'opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
   <tr>
-    <td><strong>Affiancatura non quadrata</strong></td>
-    <td>Attiva o disattiva l'affiancatura non quadrata.</td>
+    <td><strong>Affiancamento non quadrato</strong></td>
+    <td>Attiva o disattiva Affiancamento non quadrato.</td>
   </tr>
 </table>
 
-### Texture 2
+### TEXTURE 2
 
 <table>
   <tr>
@@ -102,11 +102,11 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>
-    <td>Invertite la texture secondaria personalizzata.</td>
+    <td>Invertire la texture secondaria personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Conversione in scala di grigi</strong></td>
-    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di conversione <a href="grayscale-conversion.md">scala di grigi fornisce ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
+    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di <a href="grayscale-conversion.md">Conversioni in scala di grigi contiene ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
   </tr>
   <tr>
     <td><strong>Metodo fusione</strong></td>
@@ -118,7 +118,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Contrasto</strong></td>
-    <td>Regolate il contrasto/decadimento della texture personalizzata.</td>
+    <td>Regola il contrasto/decadimento della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Luminosità</strong></td>
@@ -126,15 +126,15 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Triplanare</strong></td>
-    <td>Quando l’opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché dipendere solo dagli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando l'opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
   <tr>
-    <td><strong>Affiancatura non quadrata</strong></td>
-    <td>Attiva o disattiva l'affiancatura non quadrata.</td>
+    <td><strong>Affiancamento non quadrato</strong></td>
+    <td>Attiva o disattiva Affiancamento non quadrato.</td>
   </tr>
 </table>
 
@@ -142,11 +142,11 @@ ht-degree: 3%
 
 | Nome parametro | Descrizione |
 | --- | --- |
-| **Inverti** | Inverti i livelli Occlusione ambiente e Dettagli micro. |
+| **Inverti** | Invertite i livelli Occlusione ambientale e Dettagli micro. |
 | **Metodo fusione** | Seleziona il [metodo di fusione](../../../interface/layer-stack/blending-modes.md) da utilizzare per il livello corrente. |
-| **Sfocatura** | Regolate l&#39;Occlusione ambiente e la morbidezza dei dettagli micro. |
-| **Saldo** | Regola il bilanciamento dell&#39;Occlusione ambiente e dei micro dettagli, spostando il punto medio verso il bianco o il nero come un controllo della luminosità. |
-| **Contrasto** | Regola il contrasto/decadimento dell&#39;Occlusione ambiente e i micro dettagli. |
+| **Sfocatura** | Regolate l’Occlusione ambientale e la morbidezza dei dettagli micro. |
+| **Saldo** | Regola il bilanciamento dell’Occlusione ambientale e dei micro dettagli, spostando il punto medio verso il bianco o il nero come un controllo della luminosità. |
+| **Contrasto** | Regola il contrasto/decadimento dell’Occlusione ambientale e i micro dettagli. |
 
 ### Curvatura
 
@@ -296,11 +296,11 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa di Micro Height personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una mappa personalizzata dell'altezza della micro.</td>
   </tr>
   <tr>
     <td><strong>Micro Normale</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa Micro Normal personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una Micro Mappa normale personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Tipo curvatura</strong></td>
@@ -316,10 +316,10 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Raggio AO</strong></td>
-    <td>Regola il raggio (intervallo) dell'Occlusione Ambiente nei micro dettagli.</td>
+    <td>Regolate il raggio (intervallo) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
   <tr>
     <td><strong>PROFONDITÀ AO</strong></td>
-    <td>Regola la profondità (intensità) dell'Occlusione ambiente nei micro dettagli.</td>
+    <td>Regolate la profondità (intensità) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
 </table>

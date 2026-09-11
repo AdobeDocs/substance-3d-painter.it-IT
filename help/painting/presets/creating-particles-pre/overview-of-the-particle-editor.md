@@ -176,15 +176,15 @@ L&#39;ordine dell&#39;evolutore può essere molto importante.
 
 Ad esempio, potreste voler sempre avere i vostri ultimi 2 evolutori per essere l&#39;Evolutore di proiezione e poi lo Script Evolver che campiona gli UV e i Normali con le pCoord generate dall&#39;Evolutore di proiezione.
 
-Tenete presente che l’ordine degli evolutori è letteralmente l’ordine di esecuzione all’interno di un fotogramma e che Substance 3D Painter raccoglierà i valori dei campi particella e la fine di ogni fotogramma.
+Tenete presente che l&#39;ordine degli evolutori è letteralmente l&#39;ordine di esecuzione all&#39;interno di un fotogramma e che Substance 3D Painter raccoglierà i valori dei campi particella e la fine di ogni fotogramma.
 
 #### Come campionare la mappa normale della trama
 
-Substance 3D Painter sostituirà tutti i campionatori texture denominati &quot;NormalMap&quot; con la mappa normale della trama (se importata).
+Substance 3D Painter sostituirà tutti i campionatori Texture denominati &quot;NormalMap&quot; con la mappa normale della trama (se importata).
 
-Questa è l’unica texture che puoi avere per ora, tutte le altre texture non saranno accessibili da Substance 3D Painter.
+Questa è l&#39;unica texture che puoi avere per ora, tutte le altre texture non saranno accessibili da Substance 3D Painter.
 
-Una volta aggiunto Texture Sampler denominato &quot;NormalMap&quot;, potete campionarlo in uno script:
+Una volta aggiunto il Sampler Texture &quot;NormalMap&quot;, è possibile campionarlo in uno script:
 
 <http://www.popcornfx.com/wiki/index.php/CParticleSamplerTexture>
 
@@ -255,7 +255,7 @@ VelocityField = Turb.sample(Position \* TurbScale) \* TurbPower;
 
 #### Come utilizzare correttamente il dt, il delta time
 
-Il tempo delta è il tempo di simulazione in secondi tra gli aggiornamenti di ciascun fotogramma. Nell&#39;editor il tempo delta viene aggiornato in base al tempo reale trascorso. In Substance 3D Painter il tempo delta è stato corretto e ogni aggiornamento viene avviato non appena terminato l’ultimo.
+Il tempo delta è il tempo di simulazione in secondi tra gli aggiornamenti di ogni fotogramma. Nell&#39;editor il tempo delta viene aggiornato in base al tempo reale trascorso. In Substance 3D Painter il tempo delta è stato corretto e ogni aggiornamento viene avviato non appena terminato l’ultimo.
 
 Un gioco in esecuzione a 60 FPS avrà un tempo delta di 1/60= 0,016 secondi, quindi prova a far funzionare i pennelli intorno a 0,016 di tempo delta.
 
@@ -272,7 +272,7 @@ PopcornFX è una sorta di grande sistema di discrezionalità, quindi più grande
 
 Se il tempo delta è grande, anche il movimento delle particelle tra i fotogrammi è grande. Così, in Substance 3D Painter piccole macchie potrebbero apparire invece di linee rette.
 
-Ciò accade perché Substance 3D Painter disegnerà un punto di tratto per ogni particella alla fine di ogni fotogramma e non disegnerà linee per ogni particella tra l’ultimo fotogramma e quello corrente.
+Ciò accade perché Substance 3D Painter disegnerà un punto di tratto per ogni particella alla fine di ogni fotogramma e non disegnerà linee per ogni particella tra l’ultimo e il fotogramma corrente.
 
 * Tempo delta ridotto &lt; 0,016 s
 * Precisione PRO
@@ -305,7 +305,7 @@ Nella directory di installazione di Substance 3D Painter è disponibile il file 
 
 #### Come inizializzare correttamente i campi particella
 
-Per ottenere le coordinate UV e Normale valide dal primo fotogramma, aggiungete questo elemento allo script del generatore:
+Per ottenere i valori validi per pCoords UV e Normal dal primo fotogramma, aggiungi questo elemento allo script per la generazione:
 
 <b>  
 </b>

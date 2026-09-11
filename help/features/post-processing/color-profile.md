@@ -64,11 +64,11 @@ Substance 3D Painter sposterà la finestra della vista sul rendering **Lineare**
 
 ### Metodo 1: modifica della LUT identità
 
-La modifica della LUT dell&#39;identità può essere eseguita in un software che supporta <b>32bit mobili</b> texture, ad esempio <b>Substance 3D Designer</b>. Scarica il LUT dell’identità come punto di partenza per creare un nuovo profilo:
+La modifica della LUT dell&#39;identità può essere eseguita in un software che supporta <b>32 bit mobili</b> texture, ad esempio <b>Substance 3D Designer</b>. Scarica il LUT dell’identità come punto di partenza per creare un nuovo profilo:
 
 [Scarica colore\_profilo\_linear.exr](https://github.com/AdobeDocs/painter-python-api/raw/refs/heads/main/static/misc/color_profile_linear.exr)
 
-### Metodo 2: utilizzo di OpenColor IO per generare una texture LUT
+### Metodo 2: utilizzo di OpenColor IO per generare una Texture LUT
 
 Installa gli strumenti **OpenColor IO**. Scarica quindi la configurazione OCIO di esempio, disponibile qui: <http://opencolorio.org/downloads.html>\
 Eseguire quindi il programma **ociolutimage** con gli argomenti seguenti:
@@ -82,6 +82,6 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 ### Importazione di un nuovo profilo colore
 
-È sufficiente aprire la finestra di importazione (o trascinare e rilasciare il LUT nello scaffale). Quando importate la texture LUT in Substance 3D Painter, assicuratevi di assegnare il **utilizzo** &quot; **colorlut** &quot; alla nuova risorsa. In caso contrario, la risorsa non sarà visibile correttamente nello scaffale.
+È sufficiente aprire la finestra di importazione (o trascinare e rilasciare il LUT nello scaffale). Durante l&#39;importazione della texture LUT in Substance 3D Painter, assicurati di assegnare il **utilizzo** &quot; **colorlut** &quot; alla nuova risorsa. In caso contrario, la risorsa non sarà visibile correttamente nello scaffale.
 
 Per ulteriori informazioni, vedere la documentazione sull&#39;importazione di nuove risorse: [Aggiunta di risorse tramite la finestra di importazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

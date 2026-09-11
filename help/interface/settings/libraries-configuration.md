@@ -33,7 +33,7 @@ Per impostazione predefinita, sono predefiniti due percorsi:
 | **le tue\_risorse** | Questo percorso si trova nella cartella Documenti del profilo utente corrente. In questo modo, risorse come i predefiniti vengono creati per impostazione predefinita all’interno dell’applicazione (nelle versioni precedenti il nome era &quot;shelf&quot;). |
 | **starter\_assets** | Questo percorso si trova all&#39;interno della cartella di installazione dell&#39;applicazione. Contiene le risorse predefinite. (denominata &quot;allegorithmic&quot; o &quot;substance&quot; nelle versioni precedenti.) |
 
-Il pulsante di scelta **predefinito** consente di definire il percorso in cui verranno salvati i nuovi contenuti, ad esempio i predefiniti Pennello, i predefiniti Materiale o i Materiali avanzati.
+Il pulsante di scelta **predefinito** consente di definire il percorso in cui verranno salvati i nuovi contenuti, ad esempio i predefiniti pennello, i predefiniti materiale o i Materiali avanzati.
 
 ## Aggiunta di un nuovo tracciato
 

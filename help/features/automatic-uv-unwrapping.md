@@ -21,13 +21,13 @@ ht-degree: 0%
 # Srotolamento UV automatico
 
 ![](../assets/auto-unwrap-update-810.jpg)\
-Lo srotolamento UV automatico consente di generare automaticamente Isole UV durante l’importazione di un modello 3D. Può essere usato per dipingere su modelli 3D che non hanno UV esistenti.
+Lo srotolamento UV automatico consente di generare automaticamente Isole UV durante l’importazione di un modello 3D. Può essere utilizzato per la pittura su modelli 3D che non hanno UV esistenti.
 
 ## Attivazione dello srotolamento UV automatico
 
 ![](../assets/uv-new-project.png)
 
-Quando crei un nuovo progetto o reimporti una trama in un progetto esistente, assicurati che l’opzione &quot;Scorrimento automatico&quot; sia selezionata. Se è disattivata, il processo verrà ignorato e gli UV con trama rimarranno invariati.
+Quando crei un nuovo progetto o reimporti una trama in un progetto esistente, assicurati che l’impostazione &quot;Srotolamento automatico&quot; sia selezionata. Se è disattivata, il processo verrà ignorato e gli UV con trama rimarranno invariati.
 
 ## Impostazioni di srotolamento UV
 
@@ -44,9 +44,9 @@ Quando importate una trama e usate il processo di apertura, sono disponibili le 
 | **Personalizzazione del layout** | **Dimensioni margine** | Definisce la spaziatura tra le Isole UV. Questa impostazione applica una percentuale generale indipendente dalla risoluzione.Valori possibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Nessun margine </strong>: 0%</li><li data-preserve-html="true"><strong> piccolo </strong> (impostazione predefinita): 0,2%</li><li data-preserve-html="true"><strong> Medio </strong>: 0,5%</li><li data-preserve-html="true"><strong> grande </strong>: 1%</li></ul> |
 |  | **Isola UV orientamento** | Controllare l’orientamento delle Isole UV durante l’impacchettamento.Valori possibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Non vincolato</strong> (impostazione predefinita): nessun vincolo applicato per calcolare l&#39;orientamento.</li><li data-preserve-html="true"><strong>Allinea alla trama 3D</strong>: imposta l’orientamento dell’Isola UV verso la direzione della trama</li></ul> |
 |  |  |  |
-| **Riquadri UV** | **Numero massimo di porzioni UV** | Se il flusso di lavoro Porzioni UV è attivato, queste impostazioni determinano il numero massimo di porzioni da produrre per la distribuzione nelle Isole UV. |
+| **Porzioni UV** | **Numero massimo di Porzioni UV** | Se il flusso di lavoro Porzione UV è attivato, queste impostazioni determinano il numero massimo di porzioni da produrre per la distribuzione nelle Isole UV. |
 |  |  |  |
-| **Ottimizzazione** | **Evitare Isole UV allungate** | Se questa opzione è attivata, le Isole UV considerate troppo lunghe verranno divise per migliorare l’utilizzo dello spazio della texture.Esempio di prima (in alto) e dopo (in basso): <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../assets/uv-before-after.jpg" width="400px"/></div> |
+| **Ottimizzazione** | **Evitare Isole UV allungate** | Se questa opzione è attivata, le Isole UV verranno suddivise in base al tempo considerato, in modo da migliorare l’utilizzo dello spazio della texture.Esempio di prima (in alto) e dopo (in basso): <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../assets/uv-before-after.jpg" width="400px"/></div> |
 
 ## Limitazioni note
 

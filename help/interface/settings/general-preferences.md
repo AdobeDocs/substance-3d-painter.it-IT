@@ -37,14 +37,14 @@ In questa pagina vengono illustrate le impostazioni principali dell&#39;applicaz
 | **Visualizza solo il materiale selezionato durante il disegno** | Se questa opzione è attivata, nella vista 3D viene visualizzato solo il set di texture attualmente selezionato quando si disegna (nascondendo temporaneamente gli altri set di texture).  **Nota:** si consiglia di mantenere disattivata questa impostazione poiché una modifica rapida della visibilità nella finestra della vista può influire sulle prestazioni delle [texture virtuali sparse](../../features/sparse-virtual-textures.md). |
 | **Ridimensionamento del riquadro di visualizzazione** | Consente di ridurre la risoluzione del viewport per schermi HDPI/Retina al fine di migliorare le prestazioni.Valore possibile:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nessuno</strong>: nessun ridimensionamento, viewport è renderizzato alla risoluzione nativa dello schermo.</li><li data-preserve-html="true"><strong>Automatico</strong>: divide la risoluzione dello schermo per due (solo su schermi HDPI).</li></ul> |
 
-## Opzioni stack di livelli
+## Opzioni Pila livelli
 
 ![](../../assets/settings-layerstack.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **Scala UV predefinita per i materiali** | Definisce il valore predefinito di affiancatura/ripetizione per i livelli di riempimento e l’effetto di riempimento nella pila di livelli quando applicate i materiali. |
-| **Usare miniature semplificate** | Se questa opzione è attivata, lo stack di livelli visualizzerà solo icone anziché miniature. L’uso delle icone migliora le prestazioni. Questa impostazione non si applica ai progetti che utilizzano il flusso di lavoro per porzioni UV, in quanto visualizzeranno sempre le icone. |
+| **Scala UV predefinita per i materiali** | Definisce il valore predefinito di Affiancamento/ripetizione per i livelli di riempimento e l’effetto di riempimento nella Pila livelli quando si applicano i materiali. |
+| **Usare miniature semplificate** | Se questa opzione è attivata, nella Pila livelli verranno visualizzate solo le icone anziché le miniature. L’uso delle icone migliora le prestazioni. Questa impostazione non si applica ai progetti che utilizzano il flusso di lavoro Porzione UV, in quanto verranno sempre visualizzate le icone. |
 
 ## Opzioni videocamera
 
@@ -56,15 +56,15 @@ In questa pagina vengono illustrate le impostazioni principali dell&#39;applicaz
 | **Velocità zoom** | Moltiplicatore della velocità di zoom predefinita della videocamera nelle finestre.La direzione inversa consente di invertire la direzione dello zoom in base al movimento del mouse. |
 | **Velocità ruota** | Moltiplicatore per la velocità di zoom della rotellina del mouse.La direzione inversa consente di invertire la direzione dello zoom in base al movimento della ruota. |
 
-## Opzioni di cottura
+## Opzioni di esegue i baking
 
 ![](../../assets/settings-baking.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **Salvare i file di scena pre-elaborati** | Se questa opzione è attivata, le trame a elevato poli pre-elaborate utilizzate dai fornai verranno salvate sul disco per essere riutilizzate in futuro. Questa impostazione consente di eseguire nuovamente la cottura in forno più rapidamente. |
-| **Abilita processo di baking dell&#39;anteprima dal vivo** | Se questa opzione è attivata, nella finestra della vista 3D e 2D viene visualizzata la texture del fornaio corrente calcolata sulla trama. |
-| **Abilita Raytracing GPU** | Se questa opzione è attivata, i Baker proveranno a utilizzare la GPU per eseguire il ray tracing anziché la CPU. In generale, questa funzione consente ai panettieri di offrire prestazioni più rapide.Questa opzione può essere attivata solo su hardware compatibile. Per ulteriori dettagli, vedere [Requisiti di sistema](../../getting-started/system-requirements.md). |
+| **Salvare i file di scena pre-elaborati** | Se questa opzione è attivata, le trame High-Poly pre-elaborate utilizzate dai baker verranno salvate sul disco per essere riutilizzate in futuro. Questa impostazione consente di eseguire i baking di nuovo in modo più rapido. |
+| **Abilita processo di esegue i baking anteprima dal vivo** | Se questa opzione è attivata, nella finestra delle viste 3D e 2D verrà visualizzata la texture di baker corrente calcolata sulla trama. |
+| **Abilita Raytracing GPU** | Se questa opzione è attivata, i Baker tenteranno di utilizzare la GPU per eseguire il raytracing anziché la CPU. In generale, questa funzione consente ai baker di ottenere prestazioni più rapide.Questa opzione può essere attivata solo su hardware compatibile. Per ulteriori dettagli, vedere [Requisiti di sistema](../../getting-started/system-requirements.md). |
 
 ## Opzioni di anteprima
 
@@ -84,13 +84,13 @@ In questa pagina vengono illustrate le impostazioni principali dell&#39;applicaz
 | --- | --- |
 | **Directory cache** | Definisce la posizione in cui vengono scritti i file temporanei. Questo include la cache [Sparse Virtual Textures](../../features/sparse-virtual-textures.md). Questa impostazione può essere sostituita da [variabili di ambiente](../../pipeline-and-integration/configuration/environment-variables.md). |
 
-## Texture virtuali sparse
+## Texture virtuale sparsa
 
 ![](../../assets/settings-sparse.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **Accelerazione supporto hardware** | Se questa opzione è attivata, l’applicazione proverà a utilizzare le texture sparse con la GPU. Per ulteriori informazioni, vedere la pagina [Texture virtuali sparse](../../features/sparse-virtual-textures.md). Questa impostazione può essere sostituita da [variabili di ambiente](../../pipeline-and-integration/configuration/environment-variables.md). |
+| **Accelerazione supporto hardware** | Se questa opzione è attivata, l’applicazione proverà a utilizzare la texture sparsa con la GPU. Per ulteriori informazioni, vedere la pagina [Texture virtuali sparse](../../features/sparse-virtual-textures.md). Questa impostazione può essere sostituita da [variabili di ambiente](../../pipeline-and-integration/configuration/environment-variables.md). |
 
 ## Hardware Iray
 

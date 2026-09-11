@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Le facce della trama scompaiono guardandole da dietro
 
-Per impostazione predefinita, le trame nella finestra della vista potrebbero non visualizzare il retro dei poligoni della trama (superficie posteriore). Questo perché vengono eliminati dallo shader corrente.
+Per impostazione predefinita, le trame nella finestra della vista potrebbero non visualizzare il retro dei poligoni della trama (superficie posteriore). Questo perché sono soppressi dallo shader attuale.
 
-Per visualizzare il retro delle facce, è sufficiente modificare lo shader corrente in **pbr-metal-rough-alpha-test** nelle [impostazioni shader](../../../interface/shader-settings/shader-settings.md).
+Per visualizzare il retro delle facce, è sufficiente modificare lo shader corrente in **pbr-metal-rough-alpha-test** nelle [impostazioni Shader](../../../interface/shader-settings/shader-settings.md).

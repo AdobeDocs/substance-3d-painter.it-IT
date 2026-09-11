@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versione 12.0
 
-<b>Substance 3D Painter 12.0</b> offre la conversione della texture direttamente nella pila di livelli, una nuova modalità automatica per la proiezione dell’alterazione, un set rinnovato di effetti di post-elaborazione e un flusso di lavoro migliorato per la creazione e le impostazioni del progetto.
+<b>Substance 3D Painter 12.0</b> offre la conversione della texture direttamente nella Pila livelli, una nuova modalità automatica per la proiezione dell&#39;alterazione, un set rinnovato di effetti di post-elaborazione e un flusso di lavoro migliorato per la creazione del progetto e le impostazioni.
 
 Data di pubblicazione: <b>9 marzo 2026</b>
 
@@ -27,18 +27,18 @@ Data di pubblicazione: <b>9 marzo 2026</b>
 
 ![](../assets/v12_banner_flatten.jpg)
 
-Una nuova azione <b>Appiattisci</b> è ora disponibile nel menu di scelta rapida del pulsante destro del mouse dello stack di livelli. È possibile unire rapidamente più livelli raggruppandoli (<b>Ctrl/Cmd + G</b>) e creando una copia con unico livello (<b>Ctrl/Cmd + M</b>). Il gruppo di origine viene disattivato automaticamente, lasciando la scelta di eliminarlo o in alternativa salvarlo come <b>materiale avanzato</b> per la modifica successiva.
+Una nuova azione <b>Appiattisci</b> è ora disponibile nel menu di scelta rapida della Pila livelli, accessibile facendo clic con il pulsante destro del mouse. È possibile unire rapidamente più livelli raggruppandoli (<b>Ctrl/Cmd + G</b>) e creando una copia con unico livello (<b>Ctrl/Cmd + M</b>). Il gruppo di origine viene disattivato automaticamente, lasciando la scelta di eliminarlo o in alternativa salvarlo come <b>Materiale avanzato</b> per modificarlo in un secondo momento.
 
-Gli elementi con unico livello dello stack di livelli possono anche essere esportati direttamente su disco per iterazioni rapide in altre applicazioni. Gruppi, livelli o maschere possono essere esportati singolarmente o in batch dal menu di scelta rapida del gruppo di livelli.
+Gli elementi con unico livello della Pila livelli possono anche essere esportati direttamente su disco per iterazioni rapide in altre applicazioni. Gruppi, livelli o maschere possono essere esportati singolarmente o in batch dal menu di scelta rapida della Pila livelli.
 
-* <b>Appiattisci le texture direttamente nello stack di livelli</b>\
+* <b>Appiattisci texture direttamente nella Pila livelli</b>\
   È possibile convertire qualsiasi gruppo premendo <b>Ctrl/Cmd + M</b> o selezionando la voce <b>Appiattisci gruppo</b> nel menu di scelta rapida. In questo modo viene generata una copia unita del contenuto selezionato, mentre viene automaticamente disattivato il gruppo di origine, mantenendo intatti i livelli originali fino a quando non viene presa la decisione di rimuoverli o ripristinarli.
 
   ![](../assets/v12_flatten_menu.jpg)
-* <b>Appiattire ed esportare le texture sul disco</b>\
-  Un’azione di esportazione dedicata nel menu di scelta rapida esegue il salvataggio del risultato appiattito di un livello, di una maschera o di un gruppo e lo salva direttamente su disco. Questo è utile per trasferire il contenuto cotto in altre applicazioni senza passare per la pipeline di esportazione completa delle texture.
+* <b>Convertire ed esportare le texture sul disco</b>\
+  Un’azione di esportazione dedicata, disponibile nel menu di scelta rapida, esegue i baking il risultato di un livello, di una maschera o di un gruppo che viene convertito e salvato direttamente su disco. Questa funzione è utile per trasferire i contenuti eseguiti i baking ad altre applicazioni, senza dover ricorrere all&#39;intera pipeline di esportazione delle texture.
 * <b>Operazioni batch</b>\
-  È possibile selezionare più livelli, gruppi o maschere contemporaneamente e appiattirli o esportarli singolarmente con una singola operazione, in modo da elaborare porzioni estese di un gruppo di livelli in un unico passaggio.
+  È possibile selezionare più livelli, gruppi o maschere contemporaneamente e appiattirli o esportarli singolarmente con una singola operazione, in modo da elaborare porzioni ampie di una Pila livelli in un unico passaggio.
 
   ![](../assets/v12_flatten_batch.jpg)
 
@@ -90,10 +90,10 @@ Di seguito è riportato un esempio di ciò che è possibile ottenere con i nuovi
   * <b>Luce</b>: crea striature di luce intorno alle sorgenti luminose.
   * <b>Riflesso lente</b>: simula i riflessi ottici dell&#39;obiettivo quando una luce intensa illumina la fotocamera.
   * <b>Aberrazione laterale</b>: simula le smarginature cromatiche ai bordi dell&#39;immagine causate dalle imperfezioni dell&#39;obiettivo.
-  * <b>Vignettatura</b>: scurisce gli angoli e i bordi dell’inquadratura per attirare l’attenzione verso il centro.
+  * <b>Vignettatura</b>: scurisce gli angoli e i bordi del fotogramma per attirare l’attenzione verso il centro.
   * <b>Contrasta</b>: aumenta il contrasto dei bordi per rendere l’immagine renderizzata più nitida.
-  * <b>Grana pellicola</b>: sovrappone un leggero disturbo per riprodurre la texture di una pellicola analogica.
-  * <b>Mappatura toni</b>: mappa i valori di luminanza HDR in un intervallo visualizzabile per un aspetto più cinematografico.
+  * <b>Grana pellicola</b>: sovrappone un leggero disturbo per riprodurre la texture della pellicola analogica.
+  * <b>Mappatura toni</b>: mappa i valori di luminanza dell&#39;HDR in un intervallo visualizzabile per un aspetto più cinematografico.
   * <b>Correzione colore</b>: regola il contrasto, la saturazione, la luminosità e la temperatura per perfezionare il bilanciamento del colore complessivo.
 
 >[!NOTE]
@@ -120,14 +120,14 @@ La finestra del nuovo progetto e la finestra di dialogo delle impostazioni del p
 ### 12.0.0
 
 Data di pubblicazione: <b>2026/03/09</b>\
-Riepilogo: <b>Versione principale. Questa versione contiene le funzioni per la conversione dei livelli, l&#39;alterazione della geometria, i nuovi effetti di postproduzione, i miglioramenti apportati alla nuova finestra del progetto e altri miglioramenti.</b>
+Riepilogo: <b>Versione principale. Questa versione contiene le funzioni che appiattiscono i livelli, altera la geometria, nuovi effetti post, miglioramenti alla nuova finestra del progetto e altri miglioramenti.</b>
 
 <b>Aggiunto</b>:
 
-* [Appiattisci livelli] Appiattisci i livelli all’interno del gruppo di livelli
+* [Appiattisci livelli] Appiattisci i livelli all’interno della Pila livelli
 * [Unico livello] Esportare su disco i livelli uniti
 * [Altera a geometria] Aggiunge una nuova funzionalità di alterazione automatica alle proiezioni di alterazione
-* [Post-effetti] Sostituisci i post-effetti con l’aggiunta di nuovi
+* [Post-effetti] Sostituire gli effetti post con altri nuovi
 * [Post-effects] Aggiornare la mappatura toni
 * [Post-effetti] Aggiungi nuovo utilizzo per le risorse Post-effetti
 * [Content]&#x200B;[Post-effects] Integra le risorse predefinite per i post-effetti nella libreria

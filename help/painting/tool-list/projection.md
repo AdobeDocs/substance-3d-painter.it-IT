@@ -22,9 +22,9 @@ ht-degree: 1%
 
 ![](../../assets/image2015-3-19-17-56-54.png){width="50px"}
 
-La proiezione è uno strumento che consente di colorare un materiale proiettandolo nello spazio dello schermo/finestra di visualizzazione. Condivide controlli simili allo stencil.
+La proiezione è uno strumento che consente di pittura un materiale proiettandolo nello spazio dello schermo/finestra. Condivide controlli simili allo stencil.
 
-È possibile modificare la trasformazione della proiezione premendo il **collegamento S**:
+È possibile modificare la trasformazione della proiezione premendo la **scelta rapida da tastiera S**:
 
 * Usa **S + clic sinistro del mouse** per ruotare lo stencil.
 * Utilizzare **S + clic sinistro del mouse + MAIUSC** per allineare/vincolare alla rotazione dello stencil.
@@ -51,5 +51,5 @@ La proiezione è uno strumento che consente di colorare un materiale proiettando
 </tr>
 </table>
 
-* **Proiezione**: strumento di disegno basato sulla proiezione dello spazio dello schermo. Questo strumento consente di visualizzare e ripetere un pattern nella finestra della vista.
-* **Proiezione fisica**: strumento di pittura della proiezione con proprietà fisiche basate su predefiniti di particelle.
+* **Proiezione**: strumento Pittura basato sulla proiezione dello spazio dello schermo. Questo strumento consente di visualizzare e ripetere un pattern nella finestra della vista.
+* **Proiezione fisica**: strumento pittura di proiezione con proprietà fisiche basate su predefiniti di particelle.

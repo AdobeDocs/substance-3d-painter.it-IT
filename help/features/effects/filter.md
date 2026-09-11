@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare gli effetti di filtro in Substance 3D Painter per applicare filtri di elaborazione delle immagini e regolazioni delle texture.
+description: Scoprite come utilizzare gli effetti di filtro in Substance 3D Painter per applicare i filtri di elaborazione delle immagini e le regolazioni delle texture.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Filter
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Filtro
 
-Gli effetti di filtro sono sostanze che trasformano il contenuto di un livello o di una maschera.
+Gli effetti di filtro sono sostanze che Trasforma il contenuto di un livello o di una maschera.
 
 ## Come si applica un filtro?
 
@@ -61,7 +61,7 @@ Seleziona il filtro da usare nello scaffale. Trascinalo nel gruppo di livelli, p
 
 ![](../../assets/filter-dragdrop.gif)
 
-Nell’esempio precedente, il filtro rilasciato dispone già di un metodo di fusione pass-through. Questo vale per tutti i canali del documento.
+Nell’esempio precedente, il filtro rilasciato presenta già il metodo Fusione Passthrough. Questo vale per tutti i canali del documento.
 
 ## Aggiunta di nuovi tipi di filtri
 

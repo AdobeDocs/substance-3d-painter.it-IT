@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 10.0
 
-<b>Substance 3D Painter 10.0</b> offre il supporto per i file Illustrator (.ai), integra i font, importa i font tramite le risorse di testo, aggiunge funzionalità di stack di livelli nell&#39;API Python e offre diversi miglioramenti a livello di qualità della Substance 3D Assets.
+<b>Substance 3D Painter 10.0</b> offre il supporto dei file Illustrator (.ai), integra i font tramite le risorse di testo, aggiunge le funzionalità Pila livelli nell&#39;API Python e offre diversi miglioramenti a livello di qualità della Substance 3D Assets.
 
 Data di pubblicazione: *16 maggio 2024*
 
@@ -30,7 +30,7 @@ Data di pubblicazione: *16 maggio 2024*
 
 ![](../assets/v10_banner_text-1.jpg)
 
-Questa nuova versione introduce la <b>risorsa Testo</b> che consente di caricare file di font per scrivere testo in contesti diversi (pennello, proiezione riempimento, Substance input immagine, ecc.) per migliorare le texture.
+Questa nuova versione introduce la <b>risorsa Testo</b> che consente di caricare file di font per scrivere testo in contesti diversi (pennello, proiezione riempimento, Substance input immagine, ecc.) per abbellire le tue texture.
 
 * <b>Sfoglia i tuoi font nella finestra Risorse</b>\
   I font sono ora elencati nella finestra Risorse sotto il proprio filtro. Vengono raccolti da posizioni diverse sul sistema operativo (e anche dalle librerie).
@@ -108,13 +108,13 @@ In seguito al supporto per i file <b>.svg</b>, questa nuova versione aggiunge an
 >
 > Il dock del Substance 3D Assets non è disponibile nella versione Steam.
 
-### Nuovo modulo stack di livelli nell’API Python
+### Nuovo modulo Pila livelli nell’API Python
 
 ![](../assets/v10_banner_python-1.jpg)
 
-In questa versione viene aggiunto il nuovo modulo stack di livelli all’API Python. Questa API consente di controllare la pila di livelli di un progetto, aprendo la porta alla creazione di plug-in avanzati per la pila di livelli e strumenti personalizzati.
+Con questa versione viene aggiunto il nuovo modulo Pila livelli all’API Python. Questa API consente di controllare la pila di livelli di un progetto, aprendo la porta alla creazione di plug-in avanzati per la pila di livelli e strumenti personalizzati.
 
-* <b>Nuova API dello stack di livelli</b>\
+* <b>Nuova API Pila livelli</b>\
   Il nuovo modulo <b>layerstack</b> consente di controllare la pila di livelli di un progetto in molti modi. È possibile:
 
   * Eseguire una query e impostare la selezione di livelli ed effetti.
@@ -127,7 +127,7 @@ In questa versione viene aggiunto il nuovo modulo stack di livelli all’API Pyt
 * <b>Gestione colore di base</b>\
   Con l’esposizione della pila di livelli dovevamo introdurre il concetto di gestione del colore nella nostra API. È stato aggiunto un nuovo modulo <b>gestione dei colori</b> per creare, modificare i colori e scegliere lo spazio colore delle bitmap. (Questa parte dell’API non è ancora completa e verrà espansa nelle versioni future).
 * <b>Query sulle informazioni sui predefiniti di esportazione</b>\
-  I predefiniti di esportazione ora sono disponibili nell’API, e consentono di richiedere l’elenco dei predefiniti (sia predefiniti che personalizzati). Il loro contenuto può anche essere recuperato in un formato simile all’API di esportazione delle texture esistente.
+  I predefiniti di esportazione ora sono disponibili nell’API, e consentono di richiedere l’elenco dei predefiniti (sia predefiniti che personalizzati). Il loro contenuto può anche essere recuperato in un formato simile al nostro attuale API di esportazione della texture.
 * <b>Nuove possibilità in futuro.\
   </b> Questa nuova parte dell&#39;API consente di eseguire molte nuove operazioni, ad esempio salvare e ripristinare una selezione di livelli o modificare il valore casuale di tutte le risorse di un progetto:
 
@@ -139,13 +139,13 @@ In questa versione viene aggiunto il nuovo modulo stack di livelli all’API Pyt
 
 >[!NOTE]
 >
-> Esempi di plug-in stack di livelli sono disponibili anche nella [documentazione online](https://adobedocs.github.io/painter-python-api/).
+> Esempi di plug-in Pila livelli sono disponibili anche nella [documentazione online](https://adobedocs.github.io/painter-python-api/).
 
-### Pittura mappa normale migliorata
+### Mappa normale migliorata
 
 ![](../assets/v10_banner_flow-1.jpg)
 
-In questa versione è stato rielaborato il normale flusso di lavoro di pittura delle mappe. Abbiamo notevolmente cambiato il modo in cui accumuliamo e fondiamo i normali timbri a pennello. Queste modifiche sono state apportate per risolvere problemi relativi alla colorazione delle mappe di flusso.
+In questa versione è stato rielaborato il flusso di lavoro di pittura di mappa normale. Abbiamo notevolmente cambiato il modo in cui accumuliamo e fondiamo i normali timbri a pennello. Queste modifiche sono state apportate per risolvere problemi relativi alla colorazione delle mappe di flusso.
 
 * <b>Problema di accumulo risolto</b>\
   Dipingere su un’area del canale normale non saturerà né mormorderà e creerà fori o artefatti. Inoltre, non è più necessario cambiare il canale normale in RGB32F.
@@ -156,7 +156,7 @@ In questa versione è stato rielaborato il normale flusso di lavoro di pittura d
 
   ![](../assets/v10_normal_stroke_undo.gif)
 * <b>Trasparenza su zero alfa</b>\
-  I timbri a pennello creati con una texture con un valore alfa pari a zero ora disegnano come trasparenti. L’esempio seguente mostra un timbro pennello (a sinistra) e una proiezione piana (a destra).
+  I timbri a pennello creati con una texture con un valore alfa pari a zero ora disegnano come trasparenti. L’esempio seguente mostra un timbro pennello (a sinistra) e una proiezione planare (a destra).
 
   ![](../assets/v10_normal_alpha.jpg)
 
@@ -164,14 +164,14 @@ In questa versione è stato rielaborato il normale flusso di lavoro di pittura d
 >
 > Per ulteriori informazioni sulla colorazione della mappa di flusso, vedere la [pagina della documentazione](../painting/advanced-channel-painting/flow-map-painting.md).
 
-### Manipolatori di trasformazione migliorati
+### Manipolatori di Trasforma migliorati
 
 ![](../assets/v10_banner_transform_v2-1.jpg)
 
-Sono stati apportati diversi miglioramenti per migliorare l’utilizzo dei manipolatori di trasformazione.
+Sono stati apportati diversi miglioramenti per migliorare l’utilizzo dei manipolatori di Trasforma.
 
 * <b>Modalità Precisione con CTRL</b>\
-  Premendo il controllo mentre si trascina su un manipolatore si entra ora in una nuova modalità di precisione che consente operazioni più meticolose. Questa modifica è applicabile ai manipolatori di traslazione, rotazione e scala.\
+  Premendo il controllo durante il trascinamento su un manipolatore ora si entra in una nuova modalità di precisione che consente operazioni più meticolose. Questa modifica è applicabile ai manipolatori di traslazione, rotazione e scala.\
   Di seguito è riportato un esempio prima e dopo aver premuto CTRL durante il trascinamento:
 
   ![](../assets/v10_ctrl_precise_mode.gif)
@@ -180,8 +180,8 @@ Sono stati apportati diversi miglioramenti per migliorare l’utilizzo dei manip
   Un&#39;altra modifica consiste nel ridurre il valore fino a quando il valore 0 non diventerà più negativo. In questo modo si evita di dover ridurre una proiezione e capovolgerla accidentalmente.
 
   ![](../assets/v10_translate_new.gif)
-* <b>Rotazione manipolatore superficie migliorata</b>\
-  Il manipolatore decalcomanie superficie ora è molto più stabile quando si trascina attorno a una superficie. Non aumenta la sua rotazione quando si eseguono traduzioni avanti e indietro.\
+* <b>Rotazione migliorata del manipolatore di superfici</b>\
+  Il manipolatore decalcomanie superficie ora è molto più stabile quando si trascina intorno a una superficie. Non aumenta la sua rotazione quando si eseguono traduzioni avanti e indietro.\
   Ecco il <b>vecchio</b> comportamento rispetto a <b>nuovo</b>:
 
   ![](../assets/v10_decal_old.gif)
@@ -201,7 +201,7 @@ Sono stati aggiunti alcuni altri miglioramenti, in particolare:
 * <b>Corretti problemi di banding/qualità in alcuni filtri</b>\
   Diversi filtri erano bloccati su una precisione di 8 bit invece di 16 bit, causando bande/artefatti quando venivano utilizzati (come la scansione dell’istogramma o la sfocatura direzionale). Questo problema è stato risolto.
 * <b>Spazio colore nell&#39;output SBSAR</b>\
-  Quando il flusso di lavoro per la gestione del colore delle versioni precedenti o OCIO è attivato, l’esportazione SBSAR ora fa riferimento ai nomi degli spazi colore utilizzati nel progetto nei rispettivi output.
+  Quando il flusso di lavoro per la gestione dei colori legacy o OCIO è abilitato, l’esportazione SBSAR ora fa riferimento ai nomi degli spazi colore utilizzati nel progetto nei rispettivi output.
 * <b>Individuazione più rapida delle risorse</b>\
   Con l&#39;introduzione della <b>risorsa di testo</b> è stata aggiunta una nuova cache per velocizzare la ricerca per indicizzazione delle risorse sul disco al prossimo avvio. Ciò è particolarmente evidente quando le risorse sono installate su un disco rigido o quando una libreria ha gigabyte di risorse. Questa nuova cache può essere disabilitata con una riga di comando. Per ulteriori informazioni, vedere la [pagina della documentazione](../pipeline-and-integration/configuration/command-lines.md) dedicata.
 
@@ -221,7 +221,7 @@ Riferimento alla grafica utilizzata nei supporti qui sopra:
 ### 10.0.0
 
 Data di pubblicazione: <b>2024/05/16</b>\
-Riepilogo: <b>Versione principale, edizione dello stack di livelli con API Python, lettura dei file nativi di Illustrator, integrazione di risorse 3D e nuova risorsa di testo</b>
+Riepilogo: <b>Versione principale, edizione della Pila livelli con API Python, lettura dei file nativi di Illustrator, integrazione di risorse 3D e nuova risorsa di testo</b>
 
 <b>Aggiunto</b>:
 

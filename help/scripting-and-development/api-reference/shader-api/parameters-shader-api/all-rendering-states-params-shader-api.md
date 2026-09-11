@@ -75,9 +75,9 @@ Metodo fusione moltiplicativo:
 ```
 
 
-## Località di campionamento shader
+## Località di campionamento Shader
 
-Per impostazione predefinita, i canali del documento vengono campionati utilizzando le coordinate della texture non trasformate per ottimizzare il rendering durante il disegno.
+Per impostazione predefinita, i canali del documento vengono campionati utilizzando le coordinate delle texture non trasformate per ottimizzare il rendering durante il disegno.
 
 Se vengono visualizzati elementi, impostare lo stato *non locale* su *on*.
 

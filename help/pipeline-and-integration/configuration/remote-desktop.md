@@ -22,7 +22,7 @@ ht-degree: 0%
 
 In questa pagina vengono descritte soluzioni e alternative per consentire l&#39;esecuzione di Substance 3D Painter tramite Desktop remoto su Windows.
 
-Per impostazione predefinita, in Windows RDP viene eseguito in un contesto OpenGL inesistente o troppo basso, il che rende l’applicazione incapace di funzionare correttamente o in caso di arresto anomalo. Substance 3D Painter richiede un contesto OpenGL 3.3. Di seguito sono riportate le soluzioni per attenuare il problema, ma non vi sono garanzie che funzioneranno poiché il problema iniziale dipende da Windows e da alcuni driver GPU.
+Per impostazione predefinita, in Windows RDP viene eseguito in un contesto OpenGL inesistente o troppo basso, il che rende l’applicazione incapace di funzionare correttamente o di arresto anomalo. Substance 3D Painter richiede un contesto OpenGL 3.3. Di seguito sono riportate le soluzioni per attenuare il problema, ma non vi sono garanzie che funzioneranno poiché il problema iniziale dipende da Windows e da alcuni driver GPU.
 
 >[!NOTE]
 >

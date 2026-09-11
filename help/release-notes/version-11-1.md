@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Versione 11.1
 
-<b>Substance 3D Painter 11.1 </b>offre il nuovo strumento Percorso dei nastri con contenuti dedicati, simmetria sui livelli di riempimento e sugli effetti, dimensioni fisiche per lo spostamento e supporto dell&#39;API grafica Vulkan.
+<b>Substance 3D Painter 11.1 </b>offre il nuovo strumento Percorso dei nastri con contenuti dedicati, simmetria su livelli di riempimento ed effetti, dimensioni fisiche per lo spostamento e supporto dell&#39;API grafica Vulkan.
 
 Data di pubblicazione: <b>18 novembre 2025</b>
 
 >[!NOTE]
 >
-> Con questa versione di Painter, l’API grafica passa da OpenGL a Vulkan. Questa modifica può influire sulle GPU supportate dall’applicazione, in particolare per il baking con ray tracing basato su GPU.
+> Con questa versione di Painter, l’API grafica passa da OpenGL a Vulkan. Questa modifica può influire sulle GPU supportate dall’applicazione, in particolare per eseguire i baking con raytracing basato su GPU.
 > 
 > Per ulteriori informazioni, consulta la [pagina dei requisiti di sistema](../getting-started/system-requirements.md).
 
@@ -36,7 +36,7 @@ Data di pubblicazione: <b>18 novembre 2025</b>
 
 ![](../assets/banner_ribbon.jpg)
 
-Il <b>Percorso dei nastri</b> è un nuovo strumento della famiglia degli strumenti tracciato. Una barra multifunzione trasforma e ripete una texture lungo un tracciato senza tagli, con un controllo aggiuntivo per l’inizio e la fine e opzioni per angoli acuti.
+Il <b>Percorso dei nastri</b> è un nuovo strumento della famiglia degli strumenti tracciato. Una barra multifunzione Trasforma e ripete una texture lungo un tracciato senza tagli, con un controllo aggiuntivo per l’inizio e la fine e opzioni per angoli acuti.
 
 Questo nuovo strumento apre le porte a nuovi comportamenti, come ad esempio inserire il testo lungo i tracciati, posizionare una sfumatura perfetta lungo un tracciato e creare facilmente i propri ritagli avanzati per contornare una trama.\
 In breve, il nastro è uno strumento più pulito per un disegno più preciso con i tracciati.
@@ -48,23 +48,23 @@ In breve, il nastro è uno strumento più pulito per un disegno più preciso con
 
   ![](../assets/ribbon_path_type.png)
 * <b>La barra multifunzione è un percorso continuo che funziona su tutti i tipi di superfici</b>\
-  La barra multifunzione è uno strumento che consente di ripetere o estendere una texture lungo un tracciato. Funziona su qualsiasi tipo di superficie e geometria, anche quando le parti mesh non sono collegate.
+  È uno strumento che consente di ripetere o allungamento una texture lungo un tracciato. Funziona su qualsiasi tipo di superficie e geometria, anche quando le parti mesh non sono collegate.
 
   ![](../assets/ribbon_robot_1.jpg)
 * <b>Creazione di pattern e sfumature ripetuti</b>\
   Questo nuovo strumento consente di ripetere le immagini in vari modi senza giunture o tagli, in modo da ottenere sfumature e pattern nitidi.
 
   ![](../assets/ribbon_repeat_demo.png)
-* <b>Allunga le immagini con inizio e fine personalizzati</b>\
-  L&#39;impostazione <b>allunga tra gli scostamenti</b> consente di isolare parti di un&#39;immagine per utilizzarle come sezioni iniziali e finali su un tracciato, mentre la sezione centrale è allungata lungo il resto del tracciato. Questa funzione è utile per utilizzare rapidamente bitmap semplici e posizionarle lungo un tracciato senza distorsioni, come le frecce.
+* <b>Allungamento immagini con inizio e fine personalizzati</b>\
+  L&#39;impostazione <b>allungamento tra scostamenti</b> consente di isolare parti di un&#39;immagine per utilizzarle come sezioni iniziali e finali su un tracciato, mentre la sezione centrale viene allungamento lungo il resto del tracciato. Questa funzione è utile per utilizzare rapidamente bitmap semplici e posizionarle lungo un tracciato senza distorsioni, come le frecce.
 
   ![](../assets/ribbon_stretch_guides_path.png)
 * <b>Tipi di angolo diversi disponibili</b>\
   Quando si interrompono le tangenti per creare angoli, sono disponibili diverse forme a seconda delle esigenze, dall&#39;interruzione classica alla rotazione uniforme.
 
   ![](../assets/ribbon_corners_small.jpg)
-* <b>Controlli di dilatazione e affiancamento</b>\
-  Le immagini possono essere ripetute o dilatate facilmente lungo un Percorso dei nastri, sia in modo automatico che manuale.
+* <b>Controlli di Allungamento e Affiancamento</b>\
+  Le immagini possono essere ripetute o allungamento facilmente lungo un Percorso dei nastri, in modo automatico o manuale.
 
   ![](../assets/ribbon_tiling_mode.gif)
 * <b>Testo lungo il percorso</b>\
@@ -80,8 +80,8 @@ In breve, il nastro è uno strumento più pulito per un disegno più preciso con
   Per rendere questa funzionalità facilmente accessibile, sono disponibili anche due nuovi strumenti predefiniti denominati <b>Scala di grigio nastro personalizzata</b> e <b>Materiale nastro personalizzato</b>.
 
   ![](../assets/ribbon_custom_preset.gif)
-* <b>Compatibile con la simmetria</b>\
-  Come altri tipi di strumenti, il Percorso dei nastri è compatibile anche con la feature di simmetria.
+* <b>Compatibile con simmetrie</b>\
+  Come altri tipi di strumenti, il Percorso dei nastri è compatibile anche con la funzione simmetria.
 
   ![](../assets/ribbon_gradient_symmetry.jpg)
 * <b>Metodi di fusione in caso di sovrapposizione</b>\
@@ -133,10 +133,10 @@ Questa versione include 75 nuovi strumenti predefiniti che sfruttano le nuove fu
   * <b>Grungi</b>: 3 tipi di crepe per simulare danni su vari tipi di superfici.
   * <b>Superficie rigida</b>: motivi di presa, pannelli e linee di chiusura che descrivono in dettaglio, nastri e saldatura da utilizzare o oggetti meccanici.
   * <b>Biologico</b>: bende, pulite e sporche, da avvolgere intorno alla pelle e ad altre superfici.
-  * <b>Disegno</b>: predefiniti sfumature e guazzi basati su pennello.
-  * <b>Testo</b>: predefiniti rapidi per impostare il testo lungo un tracciato con la barra multifunzione con diverse modalità di allineamento e dilatazione.
+  * <b>Pittura</b>: predefiniti sfumature e guazzi basati su pennello.
+  * <b>Testo</b>: predefiniti rapidi per impostare il testo lungo un tracciato con la barra multifunzione con diverse modalità di allineamento e allungamento.
 * <b>Nuova parola chiave dello strumento per la ricerca nella finestra Risorse</b>\
-  Ora è possibile digitare &quot;nastro&quot;, &quot;colore&quot;, &quot;tracciato&quot; o anche &quot;sfumino&quot; nella finestra <b>Risorse</b> e trovare i predefiniti che corrisponderanno allo strumento corrispondente.
+  Ora è possibile digitare &quot;barra multifunzione&quot;, &quot;pittura&quot;, &quot;percorso&quot; o anche &quot;sfumino&quot; nella finestra <b>Risorse</b> e trovare i predefiniti che corrispondono allo strumento corrispondente.
 
   ![](../assets/ribbon_assets_search.png)
 
@@ -146,7 +146,7 @@ Questa versione include 75 nuovi strumenti predefiniti che sfruttano le nuove fu
 
 I livelli di riempimento e gli effetti ora supportano la simmetria con le rispettive modalità di proiezione 3D. Può essere attivata tramite il menu simmetria nella barra degli strumenti contestuale o tramite la sezione simmetria appena aggiunta nella finestra <b>Proprietà</b>.
 
-* <b>Simmetria nei livelli di riempimento </b>\
+* <b>Simmetria sui livelli di riempimento </b>\
   Quando si utilizzano le modalità di proiezione basate su 3D negli effetti e nei livelli di riempimento, è ora possibile attivare la simmetria. Sono disponibili simmetria sia speculare che radiale.
 
   ![](../assets/symmetry_fill.jpg)
@@ -157,11 +157,11 @@ I livelli di riempimento e gli effetti ora supportano la simmetria con le rispet
 
   ![](../assets/symmetry_properties.png)
 * <b>Capovolgere la risorsa di input per testi e loghi</b>\
-  Anche il livello di riempimento e la simmetria degli effetti beneficiano di una nuova opzione che consente di riflettere le immagini di input o gli assi X/Y. In questo modo, ad esempio, è possibile creare un testo speculare, ma renderlo comunque leggibile su entrambi i lati.
+  Anche il livello di riempimento e la simmetria degli effetti dispongono di nuove opzioni rispetto a quelle che consentono di capovolgere le immagini di input o gli assi X/Y. In questo modo, ad esempio, è possibile creare un testo speculare, ma renderlo comunque leggibile su entrambi i lati.
 
   ![](../assets/mirror_symmetry_flip.gif)
 * <b>Interfaccia delle impostazioni di simmetria migliorata</b>\
-  L&#39;interfaccia delle impostazioni di simmetria è stata rielaborata per renderla più facile da leggere e più rapida da usare. Ad esempio, i cursori degli assi hanno una propria linea, per maggiore precisione. Il display radiale è stato anche ridimensionato per occupare meno spazio.
+  L&#39;interfaccia delle impostazioni della simmetria è stata rielaborata per semplificarne la lettura e velocizzarne l&#39;uso. Ad esempio, i cursori degli assi hanno una propria linea, per maggiore precisione. Il display radiale è stato anche ridimensionato per occupare meno spazio.
 
   ![](../assets/symmetry_radial.png)
 
@@ -174,7 +174,7 @@ Per ulteriori informazioni sulla <b>simmetria</b>, vedere la [pagina dedicata al
 Lo Spostamento può ora essere definito con una specifica unità. Questa modifica semplifica l&#39;allineamento e la corrispondenza della geometria spostata tra altre applicazioni.
 
 * <b>Nuova opzione per unità di scala nelle impostazioni di spostamento</b>\
-  Nella finestra <b>Impostazioni shader</b>, quando si regola l&#39;intensità dello spostamento, sono disponibili nuove impostazioni dell&#39;unità di scala. Questa impostazione offre le seguenti opzioni:
+  Nella finestra <b>Impostazioni Shader</b>, quando si regola l&#39;intensità dello spostamento, sono disponibili nuove impostazioni dell&#39;unità di scala. Questa impostazione offre le seguenti opzioni:
 
   * <b>Normalizzato</b>: impostazione predefinita, corrisponde al comportamento precedente di Painter. Questa dimensione si basa sul rettangolo di selezione della trama all’interno del progetto corrente.
   * <b>Scena</b>: utilizza le unità memorizzate nel file mesh come punto di riferimento.
@@ -189,10 +189,10 @@ Lo Spostamento può ora essere definito con una specifica unità. Questa modific
 In continuazione del lavoro iniziato nella versione precedente, che è passata da OpenGL a Metal su Mac OS, questa nuova versione ora utilizza <b>Vulkan</b> su piattaforme Windows e Linux.
 
 * <b>L&#39;API grafica Vulkan è ora utilizzata al posto di OpenGL in Windows e Linux</b>\
-  Painter ora utilizza l’API grafica Vulkan per il rendering nella finestra della vista e per l’elaborazione delle texture. Questo switch dovrebbe migliorare le prestazioni generali dell&#39;applicazione. Inoltre, renderà più facile l&#39;integrazione di nuove funzionalità in futuro.
+  Painter ora utilizza l’API grafica Vulkan per il rendering nella finestra della vista e per l’elaborazione della texture. Questo switch dovrebbe migliorare le prestazioni generali dell&#39;applicazione. Inoltre, renderà più facile l&#39;integrazione di nuove funzionalità in futuro.
 * <b>Raytracing GPU per la cottura al forno tramite Vulkan</b>\
-  DRX (DirectX Tracing) e Optix sono stati sostituiti in favore del raytracing tramite l&#39;API grafica Vulkan nei nostri forni. Questa modifica significa che il ray tracing basato su GPU è ora disponibile sulle GPU AMD e sul sistema operativo Linux.\
-  Il passaggio a Vulkan migliora anche i tempi di rendering della cottura al forno, specialmente ad alta risoluzione.
+  DRX (DirectX Tracing) e Optix sono stati sostituiti in favore del raytracing tramite l&#39;API grafica Vulkan nei nostri forni. Questa modifica significa che il raytracing basato su GPU è ora disponibile sulle GPU AMD e sul sistema operativo Linux.\
+  Il passaggio a Vulkan migliora anche i tempi di rendering eseguiti i baking, specialmente ad alte risoluzioni.
 
 ### Varie
 
@@ -212,7 +212,7 @@ In questa versione sono state aggiunte funzioni e miglioramenti aggiuntivi:
 
   ![](../assets/resolution.png)
 * <b>Miglioramenti delle prestazioni per singolo grande triangolo</b>\
-  Fino ad ora, Painter lottava con trame poly molto basse o con triangoli molto grandi e/o lunghi. Non è più così. Lavorare con singole trame quadrate, ad esempio per creare texture in porzioni, non dovrebbe più essere un problema.
+  Fino ad ora, Painter lottava con trame poly molto basse o con triangoli molto grandi e/o lunghi. Non è più così. Lavorare con singole trame quadrate, ad esempio per creare texture Affiancamenti, non dovrebbe essere più un problema.
 * <b>Forma pennello predefinita migliorata</b>\
   La forma predefinita del pennello è stata aggiornata con nuove impostazioni per controllarne dimensioni e rotondità, tenendo conto del comportamento durezza.
 
@@ -227,7 +227,7 @@ Di seguito è riportato l’ultimo tutorial della nuova funzione:
 ### 11.1.0
 
 Data di pubblicazione: <b>2025/11/18</b>\
-Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuovo strumento barra multifunzione con nuovi contenuti dedicati, supporto di simmetria per i livelli di riempimento, parametri di dimensioni fisiche per lo spostamento, prestazioni migliorate tramite i forni aggiornati, supporto completo di Vulkan per Windows e Linux e altri miglioramenti.</b>
+Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuovo strumento Barra multifunzione con nuovi contenuti dedicati, supporto simmetria per livelli di riempimento, parametro dimensioni fisiche per lo spostamento, prestazioni migliorate tramite i baker aggiornati, supporto Vulkan completo per Windows e Linux e altri miglioramenti.</b>
 
 <b>Aggiunto</b>:
 
@@ -237,39 +237,39 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 * [Barra multifunzione] Consente di modificare l&#39;opacità della barra multifunzione per vertice sul tracciato
 * [Barra multifunzione] Consente di modificare le dimensioni della barra multifunzione per vertice sul tracciato
 * [Barra multifunzione] Rimuovi inizio/fine definiti in una Substance quando i percorsi vengono chiusi
-* [Barra multifunzione] Rimuovi anteprima tracciato/materiale nella finestra delle proprietà per gli strumenti tracciato Disegno/Gomma/Sfumino
+* [Barra multifunzione] Rimuovi anteprima tracciato/materiale nella finestra delle proprietà per gli strumenti tracciato Pittura/Gomma/Sfumino
 * [Barra multifunzione] Aggiungi metodi di fusione per l&#39;alfa e alcuni canali quando si sovrappongono automaticamente
-* Simmetria riempimento
-* [Riempimento] Aggiungi il supporto per la simmetria su livelli di riempimento ed effetti
-* [Fill]&#x200B;[UI] Mostra le impostazioni di simmetria nella finestra delle proprietà per il livello di riempimento e gli effetti
-* [Fill] Rielaborare l&#39;interfaccia utente delle impostazioni di simmetria sia nel menu della finestra della vista che nella finestra delle proprietà
-* [Riempimento] Riorientare correttamente le texture normali durante la proiezione in modalità di alterazione
+* Riempi simmetria
+* [Riempimento] Aggiungi il supporto per simmetria su livelli di riempimento ed effetti
+* [Fill]&#x200B;[UI] Mostra le impostazioni della simmetria nella finestra delle proprietà per il livello di riempimento e gli effetti
+* [Fill] Rielaborare l&#39;interfaccia utente delle impostazioni della simmetria sia nel menu della finestra della vista che nella finestra delle proprietà
+* [Riempimento] Riorientare correttamente la texture normale durante la proiezione in modalità di alterazione
 * Dimensioni fisiche spostamento
 * [Spostamento] Usa dimensioni fisiche come unità di spostamento
 * Miglioramento delle prestazioni
 * [Prestazioni] Migliorare il rendering dei tratti di pennello piccoli su triangoli grandi
-* [Prestazioni] Miglioramento del tempo di compilazione dello shader
+* [Prestazioni] Miglioramento dei tempi di compilazione degli Shader
 * [Prestazioni] Supporto Vulkan completo per Windows e Linux
-* [Prestazioni] Pannelli aggiornati con rendering GPU più veloce e supporto del ray tracing AMD
+* [Prestazioni] baker aggiornati con rendering GPU più veloce e supporto di AMD raytracing
 * [UI] Riorganizza le proprietà degli strumenti in gruppi e comprimi alcuni per impostazione predefinita
 * [Engine] Aggiorna Substance Engine alla versione 9.2.5
 * [Substance] Esporre la sostituzione della risoluzione per le risorse Substance in Strumenti e riempimenti
 * [Esporta] Aggiorna il predefinito di esportazione delle mappe trama per esportare le texture in scala di grigio
 * Python
-* [Baking]&#x200B;[Python] Indicare in changelog le modifiche di interruzione dopo l&#39;aggiornamento di bakers
-* [Python] Esposizione delle impostazioni di simmetria riempimento in Python
+* [Eseguita i baking]&#x200B;[Python] Indica nel registro delle modifiche interrotte dopo l&#39;aggiornamento dei baker
+* [Python] Esporre le impostazioni della simmetria di riempimento in Python
 * Contenuto e nuovo contenuto
 * [Content] Aggiungi 75 nuovi strumenti predefiniti per lo strumento Barra multifunzione
 * [Contenuto] Aggiorna la risorsa di creazione sfumature per renderla compatibile con la barra multifunzione
 
 <b>Risolto</b>:
 
-* [Arresto anomalo] Il caricamento di un altro progetto mentre l’aggancio del percorso è abilitato può causare l’arresto anomalo
-* [Arresto anomalo] Se si fa clic con il pulsante destro del mouse nel pannello Tracciato con le informazioni di un’altra sessione negli Appunti si può verificare un arresto anomalo
+* [Arresto anomalo] Il caricamento di un altro progetto mentre l&#39;aggancio del percorso è abilitato può arresto anomalo
+* [Arresto anomalo] Puoi eseguire l’arresto anomalo facendo clic con il pulsante destro del mouse nel pannello Tracciato con le informazioni di un’altra sessione negli Appunti
 * [UI] L’interfaccia scorre verso l’alto nelle proprietà dello strumento quando si crea un tracciato
 * [UI] Il cursore del mouse scompare quando la visualizzazione del riquadro di visualizzazione del percorso è nascosta
 * [Tracciato] Copiare/incollare diverse proprietà dello strumento nel pannello Tracciato causa proprietà instabili
-* I predefiniti dello strumento [Strumento] Gomma e Sfumino non aggiornano sempre la selezione del canale
+* I predefiniti dello strumento Gomma e Sfumino non aggiornano sempre la selezione del canale
 * [Tool] Il valore Dipinto è grigio ma l’interfaccia utente viene visualizzata in bianco dopo il caricamento del predefinito dello strumento colorato nella maschera
 * [Strumento] Il predefinito creato dalla maschera mantiene i valori dei canali caricati da un altro predefinito
 * [Substance] L&#39;override dello spazio colore normale definito nel grafico non viene considerato

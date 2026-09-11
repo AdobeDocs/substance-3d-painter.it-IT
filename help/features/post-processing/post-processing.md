@@ -28,7 +28,7 @@ I post-effetti possono essere attivati in qualsiasi progetto tramite la finestra
 
 >[!NOTE]
 >
-> Questi effetti post non vengono applicati alla vista 2D per praticità. Solo la vista 3D mostra il risultato dell’immagine con gli effetti.
+> Questi effetti post non vengono applicati al Vista 2D per praticità. Solo la vista 3D mostra il risultato dell’immagine con gli effetti.
 
 Nelle pagine seguenti sono descritti i vari effetti di post-elaborazione attualmente supportati:
 
@@ -43,4 +43,4 @@ Nelle pagine seguenti sono descritti i vari effetti di post-elaborazione attualm
 * [Mappatura toni](tone-mapping.md)
 * [Correzione colore](color-correction.md)
 
-La tabella delle texture di ricerca può essere utilizzata anche per perfezionare il risultato finale dell’immagine. Per ulteriori informazioni, consulta la documentazione del [profilo colore](color-profile.md).
+La tabella texture di ricerca può essere utilizzata anche per perfezionare il risultato finale dell’immagine. Per ulteriori informazioni, consulta la documentazione del [profilo colore](color-profile.md).

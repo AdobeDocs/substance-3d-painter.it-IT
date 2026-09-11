@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-**associamo** il canale del documento **colore di base** all&#39;uniforme **colore di base\_tex**.
+**Associamo** il canale del documento **colore di base** alla nostra uniforme **colore di base\_tex**.
 
 ```
 //: param auto channel_basecolor 

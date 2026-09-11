@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
 breadcrumb-title: ''
-description: Scoprite come correggere gli arresti anomali di Substance 3D Painter durante le operazioni di esportazione per flussi di lavoro di esportazione affidabili delle texture.
+description: Scopri come correggere gli arresti anomali di Substance 3D Painter durante le operazioni di esportazione per flussi di lavoro di esportazione texture affidabili.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ Alcuni casi specifici possono causare arresti anomali di Substance 3D Painter du
 
 Il rilevamento e ripristino del timeout (TDR) è un meccanismo di sicurezza di Microsoft Windows che impedisce alla GPU di bloccare il sistema con un calcolo infinito. Questo meccanismo è purtroppo troppo restrittivo per impostazione predefinita per Substance 3D Painter.
 
-Per ulteriori informazioni, consulta: [Arresto anomalo dei driver GPU con calcoli lunghi (arresto anomalo TDR)](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Per ulteriori informazioni, consulta: [arresto anomalo di driver GPU con calcoli lunghi (arresto anomalo TDR)](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Memoria virtuale insufficiente
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni, vedere: [Arresto anomalo con memoria virtuale insuff
 
 ## Spazio su disco insufficiente
 
-A partire dall&#39;introduzione del Substance 3D Painter Sparse Virtual Textures (SVT) è possibile eseguire lo streaming sul disco di alcune cache per bilanciare le prestazioni. Se lo spazio disponibile sul disco non è sufficiente, potrebbe verificarsi un arresto anomalo a causa dell&#39;impossibilità dell&#39;applicazione di trasferire e scrivere la cache.
+A partire dall&#39;introduzione del Substance 3D Painter Sparse Virtual Textures (SVT) è possibile eseguire lo streaming sul disco di alcune cache per bilanciare le prestazioni. Se lo spazio disponibile sul disco non è sufficiente, potrebbe verificarsi un arresto anomalo perché l&#39;applicazione non è stata in grado di trasferire e scrivere la cache.
 
 Il percorso della cache può essere spostato dalla cartella dei file temporanei di sistema predefinita. Per ulteriori informazioni, vedere: [Texture virtuali sparse](../../../features/sparse-virtual-textures.md).
 

@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ![](../../../assets/white-flash-svt-optim.gif){width="300px"}
 
-Con i vecchi progetti, lo spostamento all’interno della videocamera nella finestra della vista può mostrare brevemente flash bianchi creati da texture bianche/vuote. Questo perché il sistema [Sparse Virtual Textures](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT) si basa su specifiche configurazioni dello shader non utilizzate dagli shader meno recenti.
+Con i vecchi progetti, lo spostamento all’interno della videocamera nella finestra della vista può mostrare brevemente flash bianchi generati da texture bianca/vuota. Questo perché il sistema [Sparse Virtual Textures](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT) si basa su specifiche configurazioni dello shader non utilizzate dagli shader meno recenti.
 
-Per eliminare il flash bianco è sufficiente **aggiornare** lo **project shader**:
+Per eliminare il flash bianco è sufficiente **aggiornare** lo **shader del progetto**:
 
 * Per **shader predefiniti**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../../../interface/shader-settings/updating-a-shader.md).
 * Per **shader personalizzati**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

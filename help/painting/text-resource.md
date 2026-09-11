@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare le risorse di testo in Substance 3D Painter per aggiungere testo e composizione tipografica ai flussi di lavoro di pittura delle texture.
+description: Scoprite come utilizzare le risorse di testo in Substance 3D Painter per aggiungere testo e composizione tipografica ai flussi di lavoro di pittura texture.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -69,7 +69,7 @@ Una risorsa di testo ha i seguenti parametri di base:
 | <b>Parametro</b> | <b>Descrizione</b> |
 | --- | --- |
 | <b>Testo</b> | Testo da sottoporre a rendering.  **Nota:** il campo di testo nell&#39;interfaccia utilizza un carattere generico con un&#39;ampia gamma di caratteri che potrebbe creare discrepanza tra il testo digitato nel campo e il carattere selezionato che può essere riprodotto nella texture. |
-| <b>Dimensione font</b> | Specificate la modalità utilizzata per calcolare la dimensione del font. Le modalità disponibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automatico</b>: la dimensione viene calcolata automaticamente dal contenuto del testo e si adatta alla texture.</li> <li data-preserve-html="true"><b>Personalizzato</b>: la dimensione può essere controllata manualmente tramite l&#39;impostazione dedicata.</li> </ul> |
+| <b>Dimensione font</b> | Specificate la modalità utilizzata per calcolare la dimensione del font. Le modalità disponibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automatico</b>: la dimensione viene calcolata automaticamente in base al contenuto del testo e si adatta alla texture.</li> <li data-preserve-html="true"><b>Personalizzato</b>: la dimensione può essere controllata manualmente tramite l&#39;impostazione dedicata.</li> </ul> |
 | <b>Allineamento</b> | Controlla l&#39;allineamento verticale e orizzontale. Usate i pulsanti per scegliere la modalità da usare. |
 | <b>Colore</b> | Colore del testo di cui è stato eseguito il rendering. Questa impostazione può essere in scala di grigio se la risorsa di testo viene utilizzata in una maschera o in un canale in scala di grigio. |
 
@@ -84,4 +84,4 @@ Sono disponibili anche parametri più avanzati:
 | <b>Scostamento</b> | Offset orizzontale e verticale del testo. Normalizzato in base alla dimensione del font. |
 | <b>Riempimento sfondo</b> | Colore dello sfondo dietro il testo. |
 | <b>Opacità sfondo</b> | Quanta parte del colore di sfondo è visibile. |
-| <b>Risoluzione</b> | Specificate la modalità utilizzata per calcolare le dimensioni della texture utilizzata per eseguire il rendering del testo. Le modalità disponibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automatico</b>: la risoluzione viene calcolata automaticamente.</li> <li data-preserve-html="true"><b>Personalizzato</b>: la risoluzione può essere definita manualmente tramite l&#39;impostazione dedicata.</li> </ul> |
+| <b>Risoluzione</b> | Specificate la modalità utilizzata per calcolare le dimensioni della texture utilizzata per il rendering del testo. Le modalità disponibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automatico</b>: la risoluzione viene calcolata automaticamente.</li> <li data-preserve-html="true"><b>Personalizzato</b>: la risoluzione può essere definita manualmente tramite l&#39;impostazione dedicata.</li> </ul> |

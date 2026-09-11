@@ -50,7 +50,7 @@ Torna all&#39;editor, apri la trama (fai doppio clic su di essa) e fai clic su &
 
 Duplicheremo i sistemi di particelle esistenti e li adatteremo per tenere correttamente conto della nuova trama.
 
-Fate clic con il pulsante destro del mouse sul sistema di particelle &quot;\_Emitter&quot; (nella cartella &quot;Particelle&quot;), quindi selezionate &quot;Clona&quot; (o &quot;Duplica&quot;) per creare il vostro emettitore.
+Fate clic con il pulsante destro del mouse sul sistema di particelle &quot;\_Emitter&quot; (nella cartella &quot;Particelle&quot;), quindi selezionate &quot;Clona /Clone&quot; (o &quot;Duplica&quot;) per creare il vostro emettitore.
 
 Apritelo e, nella finestra &quot;Vista albero particelle&quot; (in basso a sinistra), selezionate &quot; **Livello\_Modello**&quot; che dovrebbe trovarsi in: &quot;Proprietà editor => Sfondo => Livelli 3D&quot;.
 
@@ -75,7 +75,7 @@ Operazione completata. Ora, se selezioni la vista 3D (del tuo emettitore o ricev
 
 Aprite il ricevitore e nella finestra &quot;Vista albero particelle&quot; selezionate &quot; CParticleEvolver\_Script &quot; (il primo dedicato a voi :)) che dovrebbe trovarsi in : &quot;Particle Effect => Layer\_1 => State\_0&quot;.
 
-Nella finestra &quot;Editor nodo specializzato&quot;, nella funzione, aggiungere &quot;Life = 0.5;&quot; per modificare la durata delle particelle. Quindi usa la scelta rapida &quot;Ctrl+s&quot; per salvare lo script. Dovresti essere in grado di notare la differenza nella vista 3D.
+Nella finestra &quot;Editor nodo specializzato&quot;, nella funzione, aggiungere &quot;Life = 0.5;&quot; per modificare la durata delle particelle. Quindi usa la scelta rapida da tastiera &quot;Ctrl+s&quot; per salvare lo script. Dovresti essere in grado di notare la differenza nella vista 3D.
 
 Per ulteriori informazioni sul suo funzionamento, visita il seguente collegamento:
 

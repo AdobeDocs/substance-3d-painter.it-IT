@@ -27,7 +27,7 @@ Questa sezione delle **Impostazioni schermo** controlla il comportamento della v
 | *Impostazione* | *Descrizione* |
 | --- | --- |
 | **Campo di visualizzazione** | Consente di controllare il campo di visualizzazione della videocamera (in gradi) |
-| **Distanza focale** | Definisce la distanza alla quale si trova il punto focale.  Questo punto viene utilizzato dall’effetto Profondità campo. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/focus-distance-optim.gif"/></div> **Nota:** la distanza focale può essere impostata automaticamente facendo clic su un punto della trama con la scelta rapida **CTRL + pulsante centrale del mouse** |
+| **Distanza focale** | Definisce la distanza alla quale si trova il punto focale.  Questo punto viene utilizzato dall’effetto Profondità campo. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/focus-distance-optim.gif"/></div> **Nota:** la distanza focale può essere impostata automaticamente facendo clic su un punto della trama con il **tasto CTRL + pulsante centrale del mouse scelta rapida da tastiera** |
 | **Apertura** | Definisce l’ampiezza della Profondità di Campo. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dof-aperture-optim.gif"/></div> **Nota:** se Iray controlla questo parametro, modificandolo verrà riattivato un calcolo. |
 
 ## Effetti post
@@ -41,11 +41,11 @@ Per ulteriori informazioni, consulta la [pagina post-effetto](../../features/pos
 ![](../../assets/taa.png)
 
 Se abilitato, l&#39;**Anti-alias temporale** (**TAA**) rimuoverà i bordi scalettati nella finestra della vista.\
-**Il TAA** funziona accumulando informazioni su più fotogrammi di rendering. Questo significa che l&#39;effetto è disabilitato fino a quando la videocamera non smette di muoversi o non viene eseguita un&#39;altra operazione.
+**Il TAA** funziona accumulando informazioni in più fotogrammi di rendering. Questo significa che l&#39;effetto è disattivato fino a quando la videocamera non si blocca o non viene eseguita un&#39;altra operazione.
 
 | *Impostazione* | *Descrizione* |
 | --- | --- |
-| **Accumulazioni** | Definisce quanti fotogrammi verranno accumulati per ridurre l’effetto di aliasing.<ul data-preserve-html="true"> <li data-preserve-html="true">16: valore consigliato per la maggior parte dei casi</li> <li data-preserve-html="true">64: utile per eliminare i valori di contrasto elevato (come l’Alpha Test shader e dithering combinati)</li> </ul>  **Nota:** questa impostazione non ha alcun impatto sulle prestazioni; tuttavia, un valore elevato potrebbe richiedere più tempo per produrre risultati soddisfacenti. |
+| **Accumulazioni** | Definisce quanti fotogrammi verranno accumulati per ridurre l’effetto di aliasing.<ul data-preserve-html="true"> <li data-preserve-html="true">16: valore consigliato per la maggior parte dei casi</li> <li data-preserve-html="true">64: utile per eliminare valori di contrasto elevati (come shader di prova e dithering Alpha combinati)</li> </ul>  **Nota:** questa impostazione non ha alcun impatto sulle prestazioni; tuttavia, un valore elevato potrebbe richiedere più tempo per produrre risultati soddisfacenti. |
 
 ![](../../assets/temporal-anti-aliasing.gif){width="500px"}
 
@@ -69,4 +69,4 @@ Per ulteriori informazioni, vedere la [pagina Profilo colore](../../features/pos
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **Funzione** | Consente di specificare la funzione utilizzata per adattare i valori di colore che superano le capacità di visualizzazione del monitor (modifica dei valori HDR in un intervallo LDR).I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Lineare</strong> (impostazione predefinita): nessuna trasformazione. I valori superiori a 1,0 sono bloccati.</li><li data-preserve-html="true"><strong>ACE</strong>: utilizzate la curva di mappatura dei toni cinematografici di ACES.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/linear-vs-aces.jpg" width="450px"/></div> **Nota:** alcuni motori di gioco e software di rendering utilizzano la mappatura toni ACES. L’attivazione di questa funzione consente di far corrispondere i colori tra le applicazioni ed evitare differenze. |
+| **Funzione** | Consente di specificare la funzione utilizzata per adattare i valori di colore che superano le capacità di visualizzazione del monitor (modifica dei valori HDR in un intervallo LDR).I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Lineare</strong> (impostazione predefinita): nessuna trasformazione. I valori superiori a 1,0 sono bloccati.</li><li data-preserve-html="true"><strong>ACE</strong>: utilizzate la curva di mappatura dei toni cinematografici dell’ACE.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/linear-vs-aces.jpg" width="450px"/></div> **Nota:** alcuni motori di gioco e software di rendering utilizzano la mappatura dei toni ACE. L’attivazione di questa funzione consente di far corrispondere i colori tra le applicazioni ed evitare differenze. |

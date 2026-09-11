@@ -60,7 +60,7 @@ Le impostazioni di Traccia dinamica sono disponibili solo con gli strumenti e i 
 | **Gomma** | <ul data-preserve-html="true"><li data-preserve-html="true">Alfa</li><li data-preserve-html="true">Materiale</li></ul> |
 | **Proiezione** | <ul data-preserve-html="true"><li data-preserve-html="true">Alfa</li></ul> |
 | **Sfumino** | <ul data-preserve-html="true"><li data-preserve-html="true">Alfa</li></ul> |
-| **Clona** | <ul data-preserve-html="true"><li data-preserve-html="true">Alfa</li></ul> |
+| **Clona /Clone** | <ul data-preserve-html="true"><li data-preserve-html="true">Alfa</li></ul> |
 
 >[!NOTE]
 >

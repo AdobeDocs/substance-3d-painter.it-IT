@@ -46,7 +46,7 @@ In Windows, questa finestra viene visualizzata se Substance 3D Painter rileva ch
 
 ## Perché il driver GPU si arresta in modo anomalo?
 
-Per evitare che il rendering o il calcolo della GPU possano **bloccare il sistema**, il sistema operativo Windows **annulla il driver della GPU** ogni volta che il rendering richiede più di qualche secondo. Quando il driver viene interrotto, l&#39;applicazione che lo utilizza si arresta in modo automatico. Non è possibile sapere quanto tempo può durare un’operazione di rendering o un calcolo (dipende dalla GPU, dai driver, dal sistema operativo, dalle dimensioni della trama, dalla dimensione della texture, ecc.), pertanto non è possibile stabilire un limite alla quantità di lavoro che il computer deve elaborare ed evitare l’arresto anomalo a livello dell’applicazione.
+Per evitare che il rendering o il calcolo della GPU possano **bloccare il sistema**, il sistema operativo Windows **annulla il driver della GPU** ogni volta che il rendering richiede più di qualche secondo. Quando il driver viene terminato, l&#39;applicazione che lo utilizza si arresto anomalo automaticamente. Non è possibile sapere quanto tempo può durare un’operazione di rendering o un calcolo (dipende dalla GPU, dai driver, dal sistema operativo, dalle dimensioni della trama, dalla dimensione della texture, ecc.), pertanto non è possibile stabilire un limite alla quantità di dati che il computer deve elaborare ed evitare l’arresto anomalo dal livello dell’applicazione.
 
 In Windows è presente una **chiave** chiave **del Registro di sistema** che specifica il tempo di attesa del sistema operativo prima di uccidere il driver della GPU. L’applicazione non è autorizzata a modificare direttamente questa impostazione; questa procedura deve essere eseguita manualmente (vedi di seguito).
 
@@ -143,7 +143,7 @@ Il riquadro destro dovrebbe ora essere simile al seguente:
 
 TdrValue viene considerato solo all&#39;avvio del computer, pertanto per forzare un aggiornamento è necessario riavviare il computer.
 
-Se l’applicazione si blocca ancora durante un calcolo lungo, prova ad esempio ad aumentare il ritardo (in secondi) da 60 a 120.
+Se l’applicazione continua ad essere in arresto anomalo durante un calcolo lungo, prova ad esempio ad aumentare il ritardo (in secondi) da 60 a 120.
 
 ## Ripristina valori predefiniti TDR
 

@@ -20,65 +20,65 @@ ht-degree: 0%
 
 # Versione 8.3
 
-**Substance 3D Painter 8.3** introduce una nuovissima modalità di cottura al forno, l&#39;importazione di file USD e il supporto per la dimensioni fisiche in modalità di Proiezione UV.
+**Substance 3D Painter 8.3** introduce una nuovissima modalità di esegue i baking, l&#39;importazione di file USD e il supporto per la dimensioni fisiche in modalità Proiezione UV.
 
 Data di pubblicazione: *10 gennaio 2023*
 
 ## Caratteristica principale
 
-### Nuova modalità di cottura al forno
+### Nuova modalità di esegue i baking
 
 ![](../assets/banner-baking_1.jpg)
 
-La vecchia finestra di cottura è stata sostituita da una modalità dedicata con diverse nuove funzioni, in particolare con la visualizzazione del viewport come la visualizzazione della gabbia e gli errori di abbinamento.
+La vecchia finestra di esegue i baking è stata sostituita da una modalità dedicata con diverse nuove funzioni, in particolare con la visualizzazione della finestra della vista come la visualizzazione della gabbia e gli errori corrispondenti.
 
 * **Accesso e passaggio da una modalità all&#39;altra**\
-  Il baking è ora una modalità nuova e separata in aggiunta alle modalità di pittura e rendering già esistenti dell’applicazione. Per passare alla modalità cottura al forno, è sufficiente utilizzare l&#39;icona a forma di piccolo cornetto nella barra degli strumenti contestuale. Il passaggio da una modalità all’altra può essere eseguito in altro modo: utilizzando il menu della modalità o le scelte rapide da tastiera. Per tornare a un&#39;altra modalità, è sufficiente utilizzare l&#39;icona dedicata della modalità. Inoltre, è possibile utilizzare il pulsante **Mappe con intonaco** all&#39;interno delle [impostazioni del set di texture](../interface/texture-set/texture-set-settings.md) per passare alla nuova modalità.
+  Eseguire i baking è ora una modalità nuova e separata, che si aggiunge alle modalità di disegno e rendering dell’applicazione già esistenti. Per passare alla modalità di esegue i baking, è sufficiente utilizzare l’icona a forma di piccolo cornetto nella barra degli strumenti contestuale. Il passaggio da una modalità all’altra può essere eseguito in altro modo: utilizzando il menu della modalità o le scelte rapide da tastiera. Per tornare a un&#39;altra modalità, è sufficiente utilizzare l&#39;icona dedicata della modalità. Inoltre, è possibile utilizzare il pulsante **Esegue i baking mappe trama** all&#39;interno delle [impostazioni del set di texture](../interface/texture-set/texture-set-settings.md) per passare alla nuova modalità.
 
   ![](../assets/baking-mode-switch-menu.png)
 
   ![](../assets/baking-mode-switch-icon.png)
 
 * **Nuova interfaccia della modalità**\
-  La tradizionale finestra di cottura è stata trasformata in una modalità con docks dedicati, in particolare:
+  La tradizionale finestra di esegue i baking è stata Trasforma in una modalità con docks dedicati, in particolare:
 
-  * È possibile utilizzare **l&#39;elenco di set di texture** per definire le parti del progetto da produrre.
-  * **Mesh Map Bakers** consente di scegliere tra le impostazioni comuni di cottura al forno e quelle comuni. È inoltre possibile specificare quale processo di panificazione verrà avviato.
-  * **Impostazioni mappa trama** è il punto in cui si trovano tutte le impostazioni comuni e di fornaio e può essere modificato, a seconda della selezione effettuata nelle due finestre precedenti.
-  * **Registro cottura** raggruppa informazioni diverse sul processo di cottura, in particolare messaggi di errore.
-  * **Visualizzazione cottura**: questo pannello si trova nella finestra della vista e controlla diverse opzioni relative alla visualizzazione delle trame poly bassa e alta.
+  * **È possibile utilizzare l&#39;elenco di set di texture** per definire le parti del progetto che verranno eseguite i baking.
+  * **I Baker di mappe trama** consentono di scegliere tra le impostazioni di esegue i baking comuni e le impostazioni di baker. È inoltre possibile specificare il processo di baker da avviare.
+  * **Impostazioni mappa trama** contiene tutte le impostazioni comuni e del baker e può essere modificato in base alla selezione effettuata nelle due finestre precedenti.
+  * **Il registro di Esegue i baking** raggruppa informazioni diverse sul processo di esegue i baking, in particolare messaggi di errore.
+  * **visualizzazione Eseguita i baking**: questo pannello si trova nella finestra della vista e controlla diverse opzioni relative alla visualizzazione delle trame poly bassa e alta.
 
   ![](../assets/baking-mode-overview.jpg){width="500px"}
 
-* **Avviare e annullare il processo di cottura direttamente dalla finestra della vista**\
-  Il pulsante per avviare o annullare il processo di cottura al forno si trova ora nella parte inferiore della finestra della vista. Potete anche usare una piccola freccia per specificare la modalità di cottura in forno: in base alla selezione dell’elenco Set di texture o utilizzando l’insieme di texture attualmente attivo.
+* **Avviare e annullare il processo di esegue i baking direttamente dalla finestra della vista**\
+  Il pulsante che consente di avviare o annullare la esegue i baking si trova ora nella parte inferiore della finestra della vista. Potete anche usare una piccola freccia per specificare la modalità di esegue i baking: in base alla selezione dell’elenco Set di texture o utilizzando l’insieme di texture attualmente attivo.
 
   ![](../assets/baking-button.png)
 
   ![](../assets/baking-button-cancel.png)
 
 * **Visualizza trama ad alto poly nella finestra della vista**\
-  Quando si specifica una trama ad alto poli nelle impostazioni di cottura al forno, questa viene caricata anche nella finestra della vista (a meno che l’impostazione di visualizzazione dedicata non sia disattivata). Ciò consente di verificare se la geometria della trama poly bassa e alta corrispondono correttamente.
+  Quando si specifica una trama High-Poly nelle impostazioni di esegue i baking, questa viene caricata anche nella finestra della vista (a meno che l’impostazione di visualizzazione dedicata non sia disattivata). Ciò consente di verificare se la geometria della trama poly bassa e alta corrispondono correttamente.
 
   ![](../assets/low-vs-high.jpg){width="400px"}
 
 * **Visualizza mesh gabbia nella finestra della vista con aree mancanti come errore**\
-  La trama della gabbia può essere visualizzata anche nella finestra della vista. Quando non si utilizza un file mesh dedicato, viene visualizzata una gabbia implicita che reagisce al parametro Distanza frontale massima. Quando si regola la dimensione della gabbia, qualsiasi parte della trama ad alto poli che si trova al di fuori della gabbia sarà mostrata come rossa per impostazione predefinita, consentendo di trovare facilmente parte della trama che sarà saltata dal processo di cottura.
+  La trama della gabbia può essere visualizzata anche nella finestra della vista. Quando non si utilizza un file mesh dedicato, viene visualizzata una gabbia implicita che reagisce al parametro Distanza frontale massima. Quando si regola la dimensione della gabbia, qualsiasi parte della trama ad alto poli che si trova al di fuori della gabbia sarà mostrata come rossa per impostazione predefinita, consentendo di trovare facilmente parte della trama che non sarà eseguita i baking.
 
   ![](../assets/cage-distance.gif)
 
 * **Controllare la rete durante il caricamento e la cottura**\
-  Caricando trame e baking non si blocca più l&#39;applicazione, il che significa che è possibile interagire con la finestra della vista durante tali operazioni. Questo può essere utile per analizzare la cottura in corso, identificare i problemi in anticipo e annullare la cottura, contribuendo a risparmiare tempo alla fine. Allo stesso modo, il set di texture più visibile nella finestra della vista verrà ora preparato per primo, per consentire di verificare in anticipo i risultati su aree specifiche.
+  Caricando trame e eseguendo i baking non si blocca più l&#39;applicazione, il che significa che è possibile interagire con la finestra della vista durante tali operazioni. Ciò può essere utile per analizzare il eseguo i baking in corso, identificare tempestivamente i problemi e annullare il eseguo i baking, contribuendo a risparmiare tempo alla fine. Allo stesso modo, il set di texture più visibile nella finestra della vista verrà ora preparato per primo, per consentire di verificare in anticipo i risultati su aree specifiche.
 
   ![](../assets/interaction-while-baking.gif)
 
 * **Impostazioni neutre del materiale e del viewport**\
-  Per mettere a fuoco i risultati della cottura al forno e cercare eventuali problemi, la modalità di cottura al forno non visualizza texture dipinte, ma utilizza un materiale neutro. Le impostazioni di questo materiale neutro possono essere regolate nel pannello di visualizzazione Baking all&#39;interno della finestra della vista.
+  Per mettere a fuoco i risultati della cottura al forno e cercare eventuali problemi, la modalità di cottura al forno non visualizza texture dipinte, ma utilizza un materiale neutro. Le impostazioni di questo materiale neutro possono essere regolate nel pannello di visualizzazione Eseguito i baking all&#39;interno della finestra della vista.
 
   ![](../assets/neutral-material-demo.gif)
 
 * **Visualizzazione di bordi rigidi con cuciture UV mancanti**\
-  Una fonte di artefatti durante la cottura è la presenza di bordi netti che non hanno cuciture UV. Questo può portare a linee visibili e interrompere lo smoothness di ombreggiatura. A questo scopo, sono state aggiunte delle impostazioni di visualizzazione per evidenziarle sia nella vista 3D che nella vista 2D, dato che possono essere ignorate con facilità.
+  Una fonte di artefatti quando si esegue i baking è la presenza di bordi netti che non hanno giunture UV. Questo può portare a linee visibili e interrompere lo smoothness di ombreggiatura. A questo scopo, sono state aggiunte delle impostazioni di visualizzazione per evidenziarle sia in 3D che in Vista 2D, dato che possono essere ignorate con facilità.
 
   ![](../assets/hard-edge-missing-seams.png){width="450px"}
 
@@ -92,7 +92,7 @@ La vecchia finestra di cottura è stata sostituita da una modalità dedicata con
   ![](../assets/sync-ao-settings.png){width="400px"}
 
 * **Corrispondenza per controllo nomi**\
-  La scheda **Corrispondenza per nome** nel **Registro cottura** può aiutare a trovare gli errori nel processo di corrispondenza prima della cottura, rendendo più facile notare trame che non corrispondono. Le trame corrispondenti vengono raggruppate insieme, mentre le altre vengono isolate e visualizzate in rosso.
+  La scheda **Corrispondenza per nome** nel **Registro di Esegue i baking** può aiutare a trovare gli errori nel processo di corrispondenza prima di eseguire i baking, rendendo più facile notare trame che non corrispondono. Le trame corrispondenti vengono raggruppate insieme, mentre le altre vengono isolate e visualizzate in rosso.
 
   ![](../assets/matching-by-name-log.png){width="450px"}
 
@@ -104,9 +104,9 @@ La vecchia finestra di cottura è stata sostituita da una modalità dedicata con
 
 ![](../assets/banner-usd.jpg)
 
-Questa nuova versione aggiunge il supporto del formato di file [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html). Ora è possibile avviare un progetto Painter, esportando trame e trame con il formato USD, per un flusso di lavoro più coerente tra le applicazioni.
+Questa nuova versione aggiunge il supporto del formato di file [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html). Ora è possibile avviare un progetto Painter, esportando trame e texture utilizzando un formato USD, che garantisce un flusso di lavoro più coerente tra le applicazioni.
 
-* **Importa file USD con varianti, skin e in un frame specifico**\
+* **Importa il file USD con varianti, skin e in un fotogramma specifico**\
   Un formato di file USD può essere utilizzato quando si crea un progetto o si reimporta una trama all’interno di un progetto. I file USD possono spesso essere scene complesse, pertanto un selettore ambito e variante è disponibile anche per importare solo un sottoinsieme del file.
 
   ![](../assets/usd-import-settings.png){width="400px"}
@@ -114,8 +114,8 @@ Questa nuova versione aggiunge il supporto del formato di file [Universal Scene 
   ![](../assets/usd-scope-variants.png){width="400px"}
 
 * **Esporta USD come nuovo file o collegato all&#39;USD originale utilizzato nel progetto**\
-  Quando la texture è pronta, potete utilizzare la finestra **File > Esporta texture** per esportare il file USD insieme ai file di texture. È sufficiente abilitare l&#39;impostazione **Esporta risorsa USD**. Questo genererà diversi file USD che possono essere facilmente integrati in una pipeline in seguito. Se avete utilizzato un file non USD o un file USD senza UV, oltre alle mappe di texture e al file di materiale USD verrà esportato un nuovo file di geometria USD.\
-  È inoltre possibile utilizzare la trama **File > Esporta** per esportare la geometria del progetto come file USD.
+  Quando la texture è pronta, potete utilizzare la finestra **File > Esporta texture** per esportare il file USD insieme ai file di texture. È sufficiente abilitare l&#39;impostazione **Esporta risorsa USD**. In questo modo verranno generati diversi file USD che potranno essere facilmente integrati in una pipeline successiva. Se avete utilizzato un file non USD o un file USD senza UV, verrà esportato un nuovo file di geometria USD oltre a mappe texture e file materiale USD.\
+  È inoltre possibile utilizzare **File > Esporta trama** per esportare la geometria del progetto come file USD.
 
   ![](../assets/usd-export-textures.png)
 
@@ -128,7 +128,7 @@ Questa nuova versione aggiunge il supporto del formato di file [Universal Scene 
 Il supporto dei materiali delle Substance con dimensioni fisiche incorporata è stato esteso alle proiezioni basate sui raggi UV.
 
 * **Dimensioni fisiche in modalità UV**\
-  Ora è possibile impostare il metodo Scala su Dimensioni fisiche invece di Divisione in porzioni nel livello di riempimento e gli effetti di riempimento utilizzando il metodo Proiezione UV. La dimensione dell&#39;UV viene calcolata automaticamente in base alla dimensione media dei triangoli dallo srotolamento UV.
+  Ora è possibile impostare il metodo Scala su Dimensioni fisiche invece di Affiancamento nel livello di riempimento e negli effetti di riempimento utilizzando il metodo Proiezione UV. La dimensione dell&#39;UV viene calcolata automaticamente in base alla dimensione media dei triangoli dallo srotolamento UV.
 
   ![](../assets/physicalsize-uvmode.png){width="400px"}
 
@@ -142,7 +142,7 @@ Con questa versione è stata aumentata la versione minima supportata di Painter 
 
 ## Tutorial
 
-Per scoprire e scoprire il nuovo metodo di cottura al forno, seguite il nostro tutorial più recente:
+Per scoprire e scoprire la nuova modalità di Esegue i baking, seguite il nostro tutorial più recente:
 
 ## Note sulla versione
 
@@ -153,11 +153,11 @@ Riepilogo: **Versione principale con nuova modalità di cottura, nuova importazi
 
 * [Modalità cottura] Nuova modalità di cottura dedicata al processo di cottura al forno
 * [Modalità cottura] Imposta la scelta rapida per passare alla modalità di cottura su F8
-* [Modalità cottura] Aggiungere i pulsanti Avvia e Annulla cottura nella finestra della vista
+* [Modalità di Esegue i baking] Pulsante Aggiungi inizio e Annulla esegue i baking nella finestra della vista
 * [Modalità cottura] Aggiungete la selezione di cottura al forno nell&#39;elenco Set di texture
-* [Modalità cottura] Aggiungere una nuova finestra Pannelli mappa trama per selezionare panettieri
+* [Modalità di Esegue i baking] Aggiungere una nuova finestra Baker mappa trama per selezionare i baker
 * [Modalità cottura] Aggiungere una nuova finestra Impostazioni mappa trama per modificare le impostazioni di cottura
-* [Modalità cottura] Aggiungere una nuova finestra Registro cottura per seguire il processo di cottura
+* [Modalità di Esegue i baking] Aggiungere una nuova finestra Log di Esegue i baking per seguire la procedura di esegue i baking
 * [Modalità cottura] Aggiungere parametri di cottura e annullare le azioni alla finestra della cronologia
 * [Modalità cottura] Aggiungere breadcrumbs in Impostazioni mappa trama
 * [Modalità cottura] Aggiungere miniature di mappe trama nella finestra Pannelli mappe trama

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/generators.html"
 breadcrumb-title: ''
-description: Scopri come creare effetti di generazione per Substance 3D Painter per generare automaticamente texture e pattern procedurali.
+description: Scoprite come creare effetti di generazione per Substance 3D Painter per generare automaticamente texture e pattern procedurali.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > Generators
 helpx_experience_level: ""

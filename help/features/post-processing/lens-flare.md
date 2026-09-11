@@ -30,4 +30,4 @@ Simula gli artefatti ottici prodotti quando le sorgenti di luce interagiscono co
 | <b>smoothness Occlusione</b> | Controlla la graduale dissolvenza del riflesso dell’obiettivo. Valori più alti creano transizioni più morbide. |
 | <b>Fantasmi univoci</b> | Definisce la variazione delle forme dei bagliori. Valori più alti possono influire in modo significativo sulle prestazioni. |
 | <b>Scala posizione fantasma</b> | Controlla la diffusione e le dimensioni degli aloni dei riflessi. |
-| <b>Texture apertura</b> | Definisce la forma dell&#39;apertura dell&#39;obiettivo utilizzata per generare il motivo del bagliore. La texture controlla le forme diffrazione e fantasma. |
+| <b>texture apertura</b> | Definisce la forma dell&#39;apertura dell&#39;obiettivo utilizzata per generare il motivo del bagliore. La texture controlla le forme diffrazione e fantasma. |

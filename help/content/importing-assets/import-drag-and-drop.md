@@ -40,7 +40,7 @@ Per importare e applicare direttamente un materiale nel progetto, è sufficiente
 
 ![GUID che mostra il trascinamento di una risorsa nella finestra della vista](../../assets/import_dragdrop_material_svg.gif)
 
-### Importazione nel gruppo di livelli
+### Importazione nella Pila livelli
 
 Trascinando e rilasciando una risorsa nel livello, verranno creati dei livelli (o effetti). Se non si tratta di un filtro o di un materiale per Substance, è possibile che venga visualizzato un menu in cui viene chiesto in quale canale inserire la risorsa.
 
@@ -66,7 +66,7 @@ Regola o aggiungi audio al progetto.
 </tr>
 </table>
 
-![GUID che mostra il trascinamento di una risorsa nella pila di livelli](../../assets/import_dragdrop_layerstack.gif)
+![GUID che mostra il trascinamento di una risorsa nella Pila livelli](../../assets/import_dragdrop_layerstack.gif)
 
 ![](../../assets/120-0-comparison.png)
 

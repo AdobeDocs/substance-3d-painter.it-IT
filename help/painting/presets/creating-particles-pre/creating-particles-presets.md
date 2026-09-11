@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ''
-description: Scoprite come creare predefiniti di pennello particelle in Substance 3D Painter per aggiungere effetti dinamici di pittura delle texture al flusso di lavoro.
+description: Scoprite come creare predefiniti di pennello particella in Substance 3D Painter per aggiungere effetti di pittura dinamica della texture al flusso di lavoro.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating particles presets
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Creazione di predefiniti di particelle
 
-Il sistema di particelle che consente di colorare le particelle utilizza **PopcornFX** che si basa su **.pkfx** file per definire i comportamenti.
+Il sistema di particelle che consente di pittura delle particelle utilizza **PopcornFX** che si basa su **.pkfx** file per definire i comportamenti.
 
 I pennelli particelle sono composti da due parti: **emittente** e **ricevitore**, che vengono salvati insieme all&#39;interno del predefinito. L’applicazione carica l’emettitore e sovrascrive gli eventi di collisione per emettere il ricevitore quando viene colorato.
 

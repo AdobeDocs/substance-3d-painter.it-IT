@@ -26,7 +26,7 @@ Il mouse pigro è uno scostamento di distanza tra il cursore del mouse e il dise
 
 Può essere attivata tramite la [barra degli strumenti contestuale](../interface/toolbars.md). Semplifica la pittura con linee continue e pulite.
 
-## Attivazione di Lazy Mouse
+## Abilitazione del Mouse lento
 
 Per attivare o disattivare il mouse pigro, fare clic sul pulsante disponibile nella barra degli strumenti contestuale:
 
@@ -36,9 +36,9 @@ Una volta abilitata questa opzione, dovrebbe essere visibile un cerchio grigio a
 
 ![](../assets/lazy-mouse-radius.png)
 
-## Raggio del mouse pigro
+## Raggio Mouse lento
 
-Nella barra degli strumenti contestuale è possibile modificare la distanza Pigro del mouse. La distanza definisce un raggio entro il quale i timbri del pennello verranno dipinti rispetto alla posizione di pittura originale. Più piccola è la distanza, più presto i francobolli saranno dipinti che consente rapidi giri ma riducono l&#39;arrotondamento della linea dipinta.
+Nella barra degli strumenti contestuale è possibile modificare la distanza del Mouse lento. La distanza definisce un raggio entro il quale i timbri del pennello verranno dipinti dalla posizione originale della pittura. Più piccola è la distanza, più presto i francobolli saranno dipinti che consente rapidi giri ma riducono l&#39;arrotondamento della linea dipinta.
 
 * Grande distanza :
 

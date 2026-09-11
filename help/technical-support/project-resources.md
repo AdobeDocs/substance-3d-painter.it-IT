@@ -23,7 +23,7 @@ ht-degree: 0%
 La gestione delle risorse del progetto può contribuire a gettare buone basi per le prestazioni del progetto in Painter.
 
 +++Riduci mappa con baking
-A volte non tutte le mappe con baking devono avere risoluzioni 2k o 4k. Non esitate a infornare un lotto a 2k, quindi ribaltatelo a una risoluzione inferiore per vedere se c&#39;è una differenza visiva.
+A volte non tutte le mappe con baking devono avere risoluzioni 2k o 4k. Non esitate a eseguire i baking un batch a 2k, quindi ripetete l&#39;operazione a una risoluzione inferiore per vedere se c&#39;è una differenza visiva.
 
 +++
 
@@ -35,7 +35,7 @@ Anche il formato è importante: EXR, HDR e persino PNG sono molto più pesanti d
 +++
 
 +++Regolare le impostazioni dello shader
-La qualità dello Specular su Ultra fornisce risultati più precisi, ma l&#39;impostazione è costosa. Più effetti sono attivati contemporaneamente nello shader, più pesante è il calcolo. Quando possibile, dividete i materiali complessi in un altro insieme di texture con uno shader separato. Se è abilitato lo spostamento, prestare attenzione al parametro di tassellatura.
+La qualità dello Specular su Ultra fornisce risultati più precisi, ma l&#39;impostazione è costosa. Più effetti sono attivati contemporaneamente nello shader, più pesante è il calcolo. Se possibile, dividete i materiali complessi in un altro insieme di texture con uno shader separato. Se è abilitato lo spostamento, prestare attenzione al parametro di tassellatura.
 
 +++
 

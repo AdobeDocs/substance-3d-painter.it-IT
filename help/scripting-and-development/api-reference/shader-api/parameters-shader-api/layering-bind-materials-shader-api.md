@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Materiali di rilegatura livelli - API shader
 
-## Livelli di materiale: associa i materiali come parametri dello shader
+## Livelli di materiale: associa i materiali come parametri di shader
 
 Un materiale è definito da un identificatore univoco &#39;id&#39;. Parametri aggiuntivi:
 

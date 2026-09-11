@@ -137,7 +137,7 @@ vec3 normalFade(vec3 normal,float attenuation)
 ```
 
 
-Decomprimere un normale con canale alfa
+Decomprimere una confezione normale con canale alfa
 
 ```
 vec3 normalUnpack(vec4 normal_alpha, float y_coeff) 
@@ -172,7 +172,7 @@ vec3 normalUnpack(vec4 normal_alpha, float y_coeff)
 ```
 
 
-Decomprimere un normale con canale alfa, nessuna inversione Y
+Disimballare una confezione normale con canale alfa, senza inversione Y
 
 ```
 vec3 normalUnpack(vec4 normal_alpha) 
@@ -319,7 +319,7 @@ vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 n
 ```
 
 
-Helper per calcolare la normale dello spazio globale dalla normale dello spazio tangente fornita dagli helper getTSNormal e dalla cornice locale della mesh.
+Helper per calcolare la normale dello spazio globale dalla normale dello spazio tangente fornita dagli helper getTSNormal e dal fotogramma locale della mesh.
 
 ```
 vec3 computeWSNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

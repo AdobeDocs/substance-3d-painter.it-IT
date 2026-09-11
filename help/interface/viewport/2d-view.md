@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/viewport/2d-view.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare la vista 2D in Substance 3D Painter per visualizzare e modificare le texture nello spazio UV per una pittura precisa delle texture.
+description: Scoprite come utilizzare la Vista 2D in Substance 3D Painter per visualizzare e modificare la texture nello spazio UV per una texture precisa.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Viewport > 2D view
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/2d-view.jpg){width="450px"}
 
-La vista 2D mostra le Isole UV della trama del [set di texture](../texture-set/texture-set.md) attualmente selezionato. Consente di visualizzare le texture della pila di livelli ma anche di dipingere sulle Isole UV della trama.
+Il vista 2D visualizza le Isole UV della trama dal [set di texture](../texture-set/texture-set.md) attualmente selezionato. Consente di vedere le texture dalla Pila livelli ma anche le pitture sulle Isole UV della trama.
 
 ## Modalità di visualizzazione
 
@@ -34,9 +34,9 @@ In alto a destra nella finestra della vista si trova il menu a discesa della mod
 
 ![](../../assets/2d-axis.png)
 
-In basso a destra nella finestra della vista si trova **Informazioni asse**, che indica la direzione degli assi bidimensionali. Nel caso in cui la vista 2D gli assi sono U e V.
+In basso a destra nella finestra della vista si trova **Informazioni asse**, che indica la direzione degli assi bidimensionali. Nel caso in cui i Vista 2D siano U e V.
 
-## Informazioni sulle porzioni UV
+## Porzione UV informazioni
 
 ![](../../assets/2d-view-button.png)
 
@@ -44,9 +44,9 @@ Accanto alla **Modalità di visualizzazione** è disponibile il pulsante **Infor
 
 ## Flusso di lavoro progetto
 
-A seconda del flusso di lavoro definito durante la creazione di un progetto, la vista 2D può essere visualizzata e comportarsi in modo diverso:
+A seconda del flusso di lavoro definito durante la creazione di un progetto, il Vista 2D può avere un aspetto e comportarsi in modo diverso:
 
 | *Flusso di lavoro progetto* | *Comportamenti* |
 | --- | --- |
 | **Progetto regolare** | Con il progetto normale, è possibile colorare solo l&#39;UV con l&#39;intervallo UV [0-1]. Tutto ciò che si trova al di fuori di questo intervallo sarà visibile, ma non sarà interattivo.In questo esempio è possibile colorare solo le Isole UV a sinistra (con lo sfondo grigio chiaro dietro). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-view-range-regular.jpg" width="500px"/></div> |
-| **Progetto porzione UV** | Con il progetto Piastrella UV, ogni intervallo UV è un nuovo set di texture, che può essere dipinto su. Viene visualizzata la vista 2D e una griglia per vedere meglio come sono organizzate le singole porzioni. A ogni riquadro verrà assegnato un numero UDIM. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-view-range-uvtiles.jpg" width="500px"/></div> |
+| **Porzione UV progetto** | Con il progetto Porzione UV, ogni intervallo UV è un nuovo set di texture, che può essere dipinto su. Viene visualizzata anche una griglia per vedere meglio come sono organizzate le singole porzioni. A ogni riquadro verrà assegnato un numero UDIM. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-view-range-uvtiles.jpg" width="500px"/></div> |

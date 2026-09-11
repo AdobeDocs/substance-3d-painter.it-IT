@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 2.3
 
-**Substance Painter 2.3** migliora l&#39;API di scripting per rilasciare il suo primo plug-in ufficiale: un&#39;esportazione Photoshop con lo stack completo dei livelli disponibile.
+**Substance Painter 2.3** migliora l&#39;API di scripting per rilasciare il suo primo plug-in ufficiale: un&#39;esportazione Photoshop con la Pila livelli completa disponibile.
 
 Data di pubblicazione: *15 settembre 2016*
 
@@ -30,7 +30,7 @@ Data di pubblicazione: *15 settembre 2016*
 
 ![](../../assets/ps-230.jpg)
 
-Con questa versione, ci siamo concentrati sull&#39;aggiunta di nuove possibilità nell&#39;API di scripting per implementare **un modulo di esportazione avanzato per Photoshop**. Per accedere a questa nuova esportazione, fai semplicemente clic sull&#39;icona di Photoshop disponibile nella barra degli strumenti principale (se il plug-in è attivato, che viene visualizzata per impostazione predefinita). Il plug-in consente di esportare l’intera pila di livelli disponibile in un set di texture e creare una struttura simile all’interno di un file PSD. Per poter generare il file PSD, questa funzionalità **richiede l&#39;installazione di Photoshop** nel computer.
+Con questa versione, ci siamo concentrati sull&#39;aggiunta di nuove possibilità nell&#39;API di scripting per implementare **un&#39;esportazione avanzata per Photoshop**. Per accedere a questa nuova esportazione, fai semplicemente clic sull&#39;icona di Photoshop disponibile nella barra degli strumenti principale (se il plug-in è attivato, che viene visualizzata per impostazione predefinita). Il plug-in consente di esportare l’intera Pila livelli disponibile in un set di texture e di creare una struttura simile all’interno di un file PSD. Per poter generare il file PSD, questa funzionalità **richiede l&#39;installazione di Photoshop** nel computer.
 
 Alcune opzioni sono disponibili tramite il pulsante di configurazione del menu del plug-in:
 
@@ -93,22 +93,22 @@ L’ultima esercitazione spiega il processo di esportazione con il nuovo plug-in
 **Risolto:**
 
 * Arresto anomalo con alcuni vecchi progetti all’apertura
-* Arresto anomalo con cache dei canali delle texture danneggiata
-* Arresto anomalo durante la fusione di più di 4 materiali con il flusso di lavoro Livelli di materiale
+* Arresto anomalo con cache canali texture danneggiata
+* Arresto anomalo quando si fondono più di 4 materiali con il flusso di lavoro Livelli di materiale
 * [UI] Le scelte rapide degli strumenti non funzionano se la barra degli strumenti è nascosta
 * [UI] La barra degli strumenti Iray è etichettata &quot;Senza titolo&quot; nel menu Visualizza
 * [UI] Le barre degli strumenti plug-in sono denominate &quot;Untilted&quot; nel menu Visualizza
-* [Baker] Premendo Invio durante la modifica di un&#39;impostazione bake viene avviato il processo bake
+* [Baker] Premendo Invio durante la modifica di un&#39;impostazione di esegue i baking si avvia la esegue i baking
 * [Baker] Intervalli errati per alcuni parametri
-* [Import] Impossibile importare mesh OBJ a causa di numeri molto grandi
-* [Import] Alcuni file OBJ vengono importati con troppi sottooggetti
+* [Importa] Impossibile importare mesh OBJ a causa di numeri molto grandi
+* [Importa] Alcuni file OBJ vengono importati con troppi sottooggetti
 * Lo sfondo del canale [Esporta] viene riempito di nero al posto del colore predefinito al momento dell’esportazione
 * [Strumento] Le particelle non funzionano correttamente se il valore FOV è troppo basso
 * [Strumento] Il colore di anteprima del pennello non è corretto con le maschere nei sottoinsiemi
-* [Finestra vista] Quando il pennello entra in aree vuote nella vista 2D, diventa gigantesco
-* [Riquadro di visualizzazione] Anteprima pennello vuoto quando si colorano texture normali
+* [Finestra vista] Quando il pennello entra in aree vuote nel Vista 2D diventa gigantesco
+* [Riquadro di visualizzazione] Anteprima pennello vuoto quando si disegna texture normale
 * [Scripting] Documentazione errata: &quot;ao&quot; elencato invece di &quot;ambientocclusion&quot;
 * [Scripting] Il processo avviato con subprocess() viene interrotto alla chiusura di Painter
-* [Shelf] Il filtro per l&#39;illuminazione al forno utilizza un input AO errato
+* [Shelf] Il filtro di illuminazione Eseguito i baking utilizza un input AO errato
 * [MacOS] Progetto rimosso dell&#39;idrante (incompatibile)
 * Il progetto predefinito viene aperto quando si carica un file \*.spt (anziché \*.spp)

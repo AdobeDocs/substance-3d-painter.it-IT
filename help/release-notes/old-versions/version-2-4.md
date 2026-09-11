@@ -91,8 +91,8 @@ Le nuove funzioni e l’utilizzo dello scaffale sono descritti nell’ultima ese
 * Arresto anomalo durante l’assegnazione di una risorsa errata al mini scaffale
 * [Shelf] Pulisci e salva rimuovi tag e metadati per le risorse nel progetto
 * [Shelf] l’importazione di un predefinito ne mostra le risorse nello shelf
-* [Esporta] La mappa normale generata dal canale del height ha un’intensità bassa
-* [Esporta] Normale da trama non è sempre presente nella mappa normale finale
+* La Mappa normale [Esporta] generata dal canale del height ha un’intensità bassa
+* [Esporta] Normale da trama non sempre presente nella mappa normale finale
 * [Esportazione] Talvolta può verificarsi una dilatazione con trasparenza senza alcuna trasparenza
 * [Scripting] &quot;alg.plugin\_root\_directory&quot; può restituire un percorso di rete troncato
 * Il pulsante [TextureSet] Lock (Blocca texture) è attivato quando si riaprono progetti non quadrati

@@ -123,7 +123,7 @@ Di seguito sono riportate le impostazioni di Windows Ink e la configurazione con
 | **Fai clic una volta** | Consigliato: **Niente** |
 | **Doppio clic** | Consigliato: **Niente** |
 | **Tenere premuto (supportato solo su alcune penne)** | Consigliato: **Niente** |
-| **Consenti alle app di ignorare il comportamento del pulsante di scelta rapida** | Consigliato: **Abilitato** |
+| **Consenti alle app di ignorare il comportamento del pulsante scelta rapida da tastiera** | Consigliato: **Abilitato** |
 | **Se disponibile, mostra l&#39;area di lavoro inchiostri dopo la rimozione della penna dall&#39;archivio** | Consigliato: **Disabilitato** |
 
 ## Come accedere alle impostazioni Penna e Tocco

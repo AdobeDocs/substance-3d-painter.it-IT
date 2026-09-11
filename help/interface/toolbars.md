@@ -28,7 +28,7 @@ Di seguito sono elencate tutte le barre degli strumenti disponibili.
 
 ![](../assets/tool-toolbar.png){width="450px"}
 
-La barra degli strumenti **Strumenti** è disponibile per impostazione predefinita nella parte superiore sinistra dell&#39;interfaccia principale. Elenca tutti gli [strumenti di pittura](../painting/painting.md) che possono essere utilizzati per applicare texture alla trama 3D del progetto attualmente aperto. Questi strumenti sono accessibili solo quando è selezionato un livello di disegno.
+La barra degli strumenti **Strumenti** è disponibile per impostazione predefinita nella parte superiore sinistra dell&#39;interfaccia principale. Elenca tutti gli [strumenti di pittura](../painting/painting.md) che possono essere utilizzati per texture la trama 3D del progetto attualmente aperto. Questi strumenti sono accessibili solo quando è selezionato un livello di pittura.
 
 Alcuni strumenti dispongono di una seconda modalità denominata &quot;Fisico&quot; che consente di colorare le particelle. È possibile accedere alla pittura con particelle anche facendo clic sui predefiniti Pennello particelle nella finestra [Risorse](assets/assets.md).
 

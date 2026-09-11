@@ -26,7 +26,7 @@ Quando viene creata un’istanza di livello, viene utilizzato il livello origina
 
 >[!WARNING]
 >
-> Qualsiasi azione di disegno (tratti pennello, riempimento poligonale, ecc.) funzionerà solo sul set di texture in cui si trova il livello sorgente. Gli altri set di texture che presentano un’istanza di questo livello elimineranno semplicemente le azioni di disegno.
+> Qualsiasi azione pittura (tratti pennello, riempimento poligonale, ecc.) funzionerà solo sul set di texture in cui si trova il livello sorgente. Gli altri set di texture che presentano un’istanza di questo livello eliminano semplicemente le azioni pittura.
 
 ## Creazione di un’istanza di livello
 
@@ -84,7 +84,7 @@ Per creare un’istanza su più set di texture:
 ## Passaggio da un’istanza all’origine
 
 Poiché un&#39;istanza può essere aggiornata **solo** **modificando l&#39;origine** (per motivi tecnici), è obbligatorio selezionare il livello di origine per modificarne le proprietà.\
-A tale scopo, fai clic sul **pulsante delle proprietà dell’istanza** sul livello nel gruppo di livelli.
+A tale scopo, fai clic sul **pulsante delle proprietà dell’istanza** sul livello nella Pila livelli.
 
 ![](../../assets/instance-properties-optim.gif)
 

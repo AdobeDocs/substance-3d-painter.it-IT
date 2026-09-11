@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
-description: Accedete alla pagina di riferimento API shader Alpha libreria affinché Substance 3D Painter possa lavorare con i canali alfa e la trasparenza negli ombreggiatori personalizzati.
+description: Accedete alla pagina di riferimento relativa all’API shader di Alpha libreria in modo che Substance 3D Painter possa lavorare con i canali alfa e la trasparenza negli ombreggiatori personalizzati.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API
 helpx_experience_level: ""
@@ -78,7 +78,7 @@ uniform bool alpha_dither;
 ```
 
 
-Emulazione test alfa: scartare il frammento corrente se l&#39;opacità è inferiore a una soglia definita dall&#39;utente. Deve essere chiamato richiami di campionamento delle texture AFTER: può rompere i derivati
+Emulazione test alfa: scartare il frammento corrente se l&#39;opacità è inferiore a una soglia definita dall&#39;utente. Dovrebbe essere chiamato dopo texture campionamenti chiamate: può rompere derivati
 
 ```
 void alphaKill(float alpha) 

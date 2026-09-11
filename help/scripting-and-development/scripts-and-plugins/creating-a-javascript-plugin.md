@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Questa guida dettagliata descrive come creare un plug-in semplice che consente di esportare la maschera del livello attualmente selezionato in un progetto.
 
-L’obiettivo del plug-in in questa guida è esportare tutti i canali del set di texture corrente all’interno di un progetto come singole texture.
+L’obiettivo del plug-in in questa guida è esportare tutti i canali del set di texture corrente all’interno di un progetto come texture individuale.
 
 ## 1 - Passare alla cartella dei plug-in
 
@@ -36,7 +36,7 @@ Per accedere alla cartella **plugin**, accedi a:
 
 Il nome di un plug-in si basa sul nome della cartella principale.
 
-Per questo esempio, è sufficiente creare una nuova cartella denominata **export-textures** all&#39;interno della cartella dei plug-in.
+Per questo esempio, è sufficiente creare una nuova cartella denominata **export-texture** all&#39;interno della cartella dei plug-in.
 
 ### 3 - Creazione dei file del plug-in
 

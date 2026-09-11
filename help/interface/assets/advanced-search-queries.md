@@ -40,7 +40,7 @@ La query con percorso consente di rifinire una query basata su un percorso. Nel 
 Utilizzo: definizione di risorsa e utilizzo in Substance 3D Painter. Alcuni possono essere definiti dal tipo di file della risorsa.\
 Ad esempio:
 
-* **pbr.glsl**: file shader che può essere utilizzato solo come shader e nient&#39;altro.
+* **pbr.glsl**: file di shader, utilizzabile solo come shader e nient&#39;altro.
 * **effetto.sbsar**: un file substance: può essere un generatore, un filtro o anche un materiale, pertanto se il suo utilizzo non è impostato nel grafico originale (in Designer), dovrà essere indicato dall&#39;utente in Painter al momento dell&#39;importazione.
 
 ## Testo

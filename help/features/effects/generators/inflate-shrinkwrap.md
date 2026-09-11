@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_inflate_shrinkwrap.webp" alt=""/><br><strong>Ingresso:</strong> ritiro, gonfiaggio, generatore, casuale</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore Gonfiamento Ritaglia aggiunge rughe che simulano l'effetto di un materiale sottile che si estende sulla superficie della trama.<br><br>Il generatore Gonfiamento a capo automatico genera una texture monocromatica (bianco e nero). Di conseguenza, è utile per generare maschere che creano l’effetto contorno stretto. Tuttavia, può anche essere posizionato direttamente su un livello di riempimento per aggiungere rughe ai canali height e normale.<br><br>È necessaria una mappa di curvatura al forno come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore Gonfiamento Ritaglia aggiunge rughe che simulano l'effetto di un materiale sottile allungamento sulla superficie della trama.<br><br>Il generatore di ritorno a capo automatico Gonfiamento genera una texture monocromatica (bianco e nero). Di conseguenza, è utile per generare maschere che creano l’effetto contorno stretto. Tuttavia, può anche essere posizionato direttamente su un livello di riempimento per aggiungere rughe ai canali height e normale.<br><br>È necessaria una mappa di curvatura eseguita i baking come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
 
 ## Parametri
 
@@ -37,7 +37,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Impostate il valore di partenza utilizzato per generare la texture del dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
+    <td>Impostate il valore di inizializzazione utilizzato per generare la texture di dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Gonfiamento o ritiro</strong></td>

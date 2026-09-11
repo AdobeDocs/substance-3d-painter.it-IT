@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ![](../../assets/fill-properties.png)
 
-Gli effetti livello di riempimento e riempimento proiettano una texture direttamente sulla trama in base a una modalità specifica. Questo tipo di livello/effetto evita di colorare manualmente le texture sul modello 3D. Le impostazioni della proiezione possono essere modificate mediante la finestra Proprietà.
+I livelli di riempimento e gli effetti di riempimento proiettano una texture direttamente sulla trama in base a una modalità specifica. Questo tipo di livello/effetto evita di pittura manualmente le texture sul modello 3D. Le impostazioni della proiezione possono essere modificate mediante la finestra Proprietà.
 
 Le proprietà sono suddivise in due categorie: **Proprietà di riempimento** e **Materiale**.
 
@@ -32,7 +32,7 @@ Le proprietà di riempimento controllano il modo in cui il materiale viene appli
 
 Le attuali modalità di proiezione disponibili sono:
 
-* [Riempimento (come per porzione UV)](fill-match-per-uv-tile.md)
+* [Riempimento (corrispondenza per Porzione UV)](fill-match-per-uv-tile.md)
 * [Proiezione UV](uv-projection.md)
 * [Proiezione triplanare](tri-planar-projection.md)
 * [Proiezione planare](planar-projection.md)
@@ -44,4 +44,4 @@ Le attuali modalità di proiezione disponibili sono:
 
 ![](../../assets/properties-mat.png)
 
-I controlli Materiale/Scala di grigi sono identici agli altri strumenti. Per ulteriori informazioni, consultate la [documentazione dello strumento di pittura](../tool-list/paint-brush.md).
+I controlli Materiale/Scala di grigi sono identici agli altri strumenti. Per ulteriori dettagli, consulta la [documentazione dello strumento di Pittura](../tool-list/paint-brush.md).

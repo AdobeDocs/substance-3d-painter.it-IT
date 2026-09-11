@@ -22,18 +22,18 @@ ht-degree: 2%
 
 ![](../assets/banner-baking.jpg)
 
-Il baking si riferisce all&#39;azione di **trasferimento di informazioni basate sulla trama nelle texture**. Queste informazioni vengono quindi lette dagli shader e/o dai filtri Substance per creare effetti avanzati. Ad esempio, materiali avanzati e maschere intelligenti si basano sulla curvatura al forno e sulle mappe normali, insieme ad altre informazioni al forno.
+Il baking si riferisce all&#39;azione di **trasferimento di informazioni basate sulla trama nelle texture**. Queste informazioni vengono quindi lette dagli shader e/o dai filtri Substance per creare effetti avanzati. Ad esempio, Materiali avanzati e Maschere avanzate si basano su curvatura e mappa normale eseguite i baking, insieme ad altre informazioni eseguite i baking.
 
-In Painter la cottura viene effettuata in modalità Baking dedicata. È possibile accedere a questa modalità tramite l&#39;icona dedicata (piccolo cornetto nella barra degli strumenti contestuale), utilizzando il [menu modalità](../interface/main-menu/mode-menu.md) o la [scelta rapida da tastiera](../interface/settings/shortcuts.md).
+In Painter la esegue i baking viene effettuata tramite la modalità di Esegue i baking dedicata. È possibile accedere a questa modalità tramite l&#39;icona dedicata (piccolo cornetto nella barra degli strumenti contestuale), utilizzando il [menu di modalità](../interface/main-menu/mode-menu.md) o con la [scelta rapida da tastiera da tastiera](../interface/settings/shortcuts.md).
 
 Per ulteriori informazioni sul processo di cottura al forno in Painter, consultate le pagine seguenti:
 
-* [Interfaccia modalità cottura](baking-interface.md)
-* [Come eseguire il baking delle mappe trama](how-to-bake-mesh-maps.md)
-* [Impostazioni di visualizzazione Baking](baking-visualization-settings.md)
+* [Interfaccia della modalità di esegue i baking](baking-interface.md)
+* [Come eseguire i baking le mappe trama](how-to-bake-mesh-maps.md)
+* [Eseguire i baking le impostazioni di visualizzazione](baking-visualization-settings.md)
 * [Correzione dell&#39;inclinazione](skew-correction.md)
 
-Per una rapida panoramica della modalità Baking, guardate il nostro tutorial video:
+Per una rapida panoramica della modalità di Esegue i baking, guardate il nostro tutorial video:
 
 >[!NOTE]
 >

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare gli effetti in Substance 3D Painter per applicare filtri, generatori e regolazioni ai livelli di texture.
+description: Scoprite come utilizzare gli effetti in Substance 3D Painter per applicare filtri, generatori e regolazioni ai livelli texture.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects
 helpx_experience_level: ""
@@ -25,7 +25,7 @@ ht-degree: 4%
 Gli effetti sono un set di varie **azioni** che possono essere applicate ai **contenuti** o **alla maschera** di un **livello** nello stack dei livelli di Substance 3D Painter.\
 Consentono una serie infinita di cambiamenti, da semplici variazioni di colore a complesse creazioni di maschere. Per impostazione predefinita, vengono forniti più effetti con Substance 3D Painter, ma puoi anche crearne di nuovi in Substance 3D Designer.
 
-Gli effetti possono essere aggiunti alla pila con **un clic destro** su qualsiasi livello o maschera oppure facendo clic sul **pulsante dedicato nella parte superiore** della finestra della pila di livelli.\
+Gli effetti possono essere aggiunti alla pila con **un clic destro** su qualsiasi livello o maschera oppure facendo clic sul **pulsante dedicato in alto** nella finestra della Pila livelli.\
 La maggior parte degli effetti ha un metodo di fusione e opacità, come i livelli normali e può essere riordinata, consentendoti di creare una pila completa di effetti per creare, ad esempio, una maschera complessa.
 
 >[!NOTE]

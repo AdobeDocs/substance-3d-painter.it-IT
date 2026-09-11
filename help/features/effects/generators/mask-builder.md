@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_builder_dark.png" alt=""/><strong>In:</strong> maschera, generatore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Generatore maschera è una versione precedente del generatore di Editor maschera. È un generatore di maschere multifunzione che consente di combinare Grunge, AO, Curvatura, Sfumatura, Spazio globale normale, Scratches, Dispersione e Micro dettagli in un'unica maschera.<br><br>Il generatore di generatori di maschere è molto flessibile, ma a causa della sua complessità, può influire sulle prestazioni più della maggior parte dei generatori.<br><br>Il generatore del generatore di generatori di maschere genera una texture monocromatica (bianco e nero). Di conseguenza, è utile per generare maschere basate sulle varie mappe con baking. <br><br>Per l'input dell'immagine sono necessarie mappe normali di posizione, curvatura, occlusione ambientale e spazio globale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Generatore maschera è una versione precedente del generatore di Editor maschera. È un generatore di maschere multifunzione che consente di combinare Grunge, AO, Curvatura, Sfumatura, Spazio normale, Scratches, Dispersione e Micro Dettagli in un'unica maschera.<br><br>Il generatore di generatori di maschere è molto flessibile, ma a causa della sua complessità, può influire sulle prestazioni più della maggior parte dei generatori.<br><br>Il generatore del generatore di generatori di maschere genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere basate sulle varie mappe con baking. <br><br>Sono necessarie mappe Eseguite i baking di posizione, curvatura, occlusione ambientale e spazio globale come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| **Spazio globale normale** colore | Utilizzate la mappa standard di World Space. |
+| **Spazio globale normale** colore | Utilizzare la mappa eseguita i baking World Space Normals. |
 | **grunge personalizzata 1** in scala di grigi | Usate una texture personalizzata o un punto di ancoraggio. |
 | **grunge personalizzata 2** in scala di grigi | Usate una texture personalizzata o un punto di ancoraggio. |
 | **Input Dispersione** Scala di grigi | Usate una texture personalizzata o un punto di ancoraggio. |
 | Colore **Posizione** | Utilizzate la mappa di posizione al forno. |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| **Occlusione ambiente** Scala di grigi | Utilizzate la mappa di Occlusione ambiente cotta. |
-| Colore **Micro-Normale** | Usate una texture normale personalizzata o un punto di ancoraggio. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| **Occlusione ambientale** Scala di grigi | Usa la mappa di Occlusione ambientale eseguita i baking. |
+| Colore **Micro-Normale** | Utilizzate una texture normale personalizzata o un punto di ancoraggio. |
 | Colore **Micro Height** | Usate una texture personalizzata o un punto di ancoraggio. |
 
 ## Parametri
@@ -57,11 +57,11 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>Usa triplanare</strong></td>
-    <td>Quando l’opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché dipendere solo dagli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando l'opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto fusione triplanare</strong></td>
-    <td>Regola la fluidità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. Regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. Regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
   <tr>
     <td><strong>Grunge</strong></td>
@@ -69,7 +69,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>AO</strong></td>
-    <td>Regola l’impatto delle impostazioni AO (Occlusione ambiente) sul risultato finale della maschera.</td>
+    <td>Regolate l’impatto delle impostazioni AO (Occlusione ambientale) sul risultato finale della maschera.</td>
   </tr>
   <tr>
     <td><strong>Curvatura</strong></td>
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 | Nome parametro | Descrizione |
 | --- | --- |
-| **Scala** | Regolate le dimensioni della texture della grunge. |
+| **Scala** | Regolate le dimensioni della texture di grunge. |
 | **Usa Grunge personalizzata** | Attivare o disattivare l&#39;utilizzo di una mappa Grunge personalizzata. È solo la visibilità della Grunge personalizzata 1. Per controllare la visibilità della Grunge personalizzata 2, regolate il cursore Grunge personalizzata secondaria. |
 | **Grunge personalizzata secondaria** | Regolate la visibilità della texture Grunge personalizzata 2. |
 | **Inverti** | Invertite le mappe delle grungi. |
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 ### Sfumatura
 
-La posizione della sfumatura si basa sulla mappa Posizione che può essere creata con la scala Scena completa o Per materiale. Se il materiale viene visualizzato solo in una piccola area della scena, ma la mappa di posizione viene creata con una scala di normalizzazione completa della scena, potrebbe essere difficile regolare l’Intervallo sfumatura per ottenere il risultato desiderato.
+La posizione della sfumatura si basa sulla mappa Posizione che può essere eseguita i baking con la scala Scena completa o Con la scala di normalizzazione Per materiale. Se il materiale viene visualizzato solo in una piccola area della scena, ma la mappa di posizione viene creata con una scala di normalizzazione completa della scena, potrebbe essere difficile regolare l’Intervallo sfumatura per ottenere il risultato desiderato.
 
 | Nome parametro | Descrizione |
 | --- | --- |
@@ -174,11 +174,11 @@ I valori **anteriore**, **posteriore**, **sinistro** e **destro** potrebbero non
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa di Micro Height personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una mappa personalizzata dell'altezza della micro.</td>
   </tr>
   <tr>
     <td><strong>Micro Normale</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa Micro Normal personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una Micro Mappa normale personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Tipo curvatura</strong></td>
@@ -194,7 +194,7 @@ I valori **anteriore**, **posteriore**, **sinistro** e **destro** potrebbero non
   </tr>
   <tr>
     <td><strong>Raggio AO</strong></td>
-    <td>Regola il raggio (intervallo) dell'Occlusione Ambiente nei micro dettagli.</td>
+    <td>Regolate il raggio (intervallo) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
   <tr>
     <td><strong>PROFONDITÀ AO</strong></td>

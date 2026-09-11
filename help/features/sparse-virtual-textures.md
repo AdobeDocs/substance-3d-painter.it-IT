@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ![](../assets/svt-header.jpg)
 
-A partire dalla versione **2018.3** Substance 3D Painter utilizza **Texture virtuali sparse** ( **SVT** ) nella finestra della vista in tempo reale per gestire un&#39;ampia quantità di texture. Questa tecnologia consente lo streaming in entrata e in uscita delle texture necessarie solo da un determinato punto di vista al fine di mantenere un impatto specifico sulla memoria GPU. Migliora le prestazioni sui progetti con una grande quantità di set di texture (o UDIM).
+A partire dalla versione **2018.3** Substance 3D Painter utilizza **Texture virtuali sparse** ( **SVT** ) nella relativa finestra della vista in tempo reale per gestire grandi quantità di texture. Questa tecnologia consente lo streaming in/out di texture che sono necessarie solo da un determinato punto di vista al fine di mantenere un impatto specifico sulla memoria GPU. Migliora le prestazioni sui progetti con una grande quantità di set di texture (o UDIM).
 
 ## Piattaforme supportate
 
 ![](../assets/sparse-settings.png)
 
-Le texture sparse si basano su una configurazione hardware specifica per essere completamente performanti. Se la configurazione corrente non la supporta correttamente, Substance 3D Painter **eseguirà il fallback** a un&#39;implementazione software (meno precisa e meno efficiente).
+Le texture sparse si basano su una configurazione hardware specifica per garantire prestazioni ottimali. Se la configurazione corrente non la supporta correttamente, Substance 3D Painter **eseguirà il fallback** a un&#39;implementazione software (meno precisa e meno efficiente).
 
 È possibile forzare Substance 3D Painter a utilizzare il fallback software invece dell&#39;accelerazione hardware selezionando [Impostazioni](../interface/settings/settings.md).
 
@@ -45,13 +45,13 @@ Di seguito è riportata la configurazione che supporta le texture virtuali spars
 
 ## Perché Substance 3D Painter utilizza Texture virtuali sparse?
 
-Substance 3D Painter utilizza il suo motore principale per calcolare le texture che vengono quindi visualizzate nelle finestre delle viste. Ciò significa che il motore e la finestra della vista devono condividere la memoria GPU (VRam) per elaborare e visualizzare queste texture. Più **set di texture** (o porzioni UV) contiene un progetto, maggiore sarà la quantità di memoria necessaria per la finestra della vista. Se la finestra della vista richiede troppa memoria sulla GPU, il motore principale non dispone di spazio sufficiente per calcolare le texture e dovrà svuotare le texture nella memoria di sistema (Ram). Ciò si tradurrà in prestazioni mediocri e calcoli lenti.
+Substance 3D Painter utilizza il suo motore principale per il calcolo delle texture che vengono quindi visualizzate nelle finestre delle viste. Ciò significa che il motore e la finestra della vista devono condividere la memoria GPU (VRam) per elaborare e visualizzare queste texture. Più **set di texture** (o Porzione UV) contiene un progetto, maggiore sarà la quantità di memoria necessaria per la finestra della vista. Se la finestra della vista occupa troppa memoria nella GPU, il motore principale non dispone di spazio sufficiente per il calcolo della texture e dovrà svuotare la texture nella memoria di sistema (Ram). Ciò si tradurrà in prestazioni mediocri e calcoli lenti.
 
 L&#39;obiettivo del SVT è quello di calcolare quanto può utilizzare il viewport sulla memoria GPU, lasciando il maggior spazio possibile al motore principale per effettuare i calcoli. Il vantaggio del sistema è che sblocca anche la possibilità di caricare progetti molto più grandi in Substance 3D Painter pur continuando a funzionare normalmente.
 
-## Come funzionano le texture sparse?
+## Come funziona la Texture sparsa?
 
-Le texture virtuali sparse sono un tipo di texture che non sono complete. Ciò significa che l’applicazione carica solo parti delle texture in memoria. Viene caricato solo ciò che è necessario e il resto viene inserito nella memoria di sistema o sul disco (cache). Se necessario, le texture vengono recuperate dalla cache e reinserite nella finestra della vista. Per velocizzare i trasferimenti, il sistema utilizza **mipmap** e passa rapidamente da una risoluzione all&#39;altra della texture. Per questo motivo, se si passa rapidamente alla finestra della vista, all’inizio vengono visualizzate delle texture sfocate che in seguito aumentano di qualità dopo pochi secondi.
+Le texture virtuali sparse sono un tipo di texture non completa. Ciò significa che l’applicazione carica solo parti di texture in memoria. Viene caricato solo ciò che è necessario e il resto viene inserito nella memoria di sistema o sul disco (cache). Se necessario, le texture vengono recuperate dalla cache e reinserite nella finestra della vista. Per velocizzare i trasferimenti, il sistema utilizza **mipmap** e passa rapidamente da una risoluzione all&#39;altra della texture. Per questo motivo, se si passa rapidamente alla finestra della vista, all&#39;inizio si possono verificare texture sfocate, che aumentano di qualità dopo pochi secondi.
 
 Per ulteriori informazioni tecniche, vedere: [Texture virtuali sparse](https://silverspaceship.com/src/svt/) .
 
@@ -64,12 +64,12 @@ Per impostazione predefinita, la posizione di questa cache si trova nella cartel
 
 ## Compatibilità con Shader
 
-Per sfruttare appieno l’SVT, gli Ombreggiatori devono richiedere e leggere le texture dal sistema Sparse. Pertanto le funzioni precedenti basate sulle **coordinate di texture vec2** e **campionatori** sono state dichiarate obsolete. Vengono ora fornite le funzioni di supporto per utilizzare le texture sparse.
+Per sfruttare appieno la SVT, gli Ombreggiatori devono richiedere e leggere texture dal sistema Sparse. Pertanto le funzioni precedenti basate sulle **coordinate di texture vec2** e **campionatori** sono state dichiarate obsolete. Vengono ora fornite le funzioni di supporto per utilizzare le texture sparse.
 
 Per aggiornare gli shader:
 
 * Per **Substance 3D Painter shader predefinito**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../interface/shader-settings/updating-a-shader.md).
-* Per **Shader personalizzato**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Per **shader personalizzato**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

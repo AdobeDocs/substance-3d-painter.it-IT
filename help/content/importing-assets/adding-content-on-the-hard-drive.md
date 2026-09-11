@@ -22,7 +22,7 @@ ht-degree: 2%
 
 È possibile aggiungere risorse alle librerie inserendo nuovi contenuti direttamente sul disco rigido nella posizione corretta.
 
-Per impostazione predefinita, viene fornita una cartella predefinita per le risorse utente in cui è possibile aggiungere il nuovo contenuto tramite l’interfaccia dell’applicazione o rilasciandolo manualmente nel seguente percorso. Questa libreria predefinita viene utilizzata anche durante la creazione di nuovi predefiniti come pennelli, strumenti, materiali intelligenti e così via. Per ulteriori informazioni, consultate la documentazione [Predefiniti](../../painting/presets/presets.md).
+Per impostazione predefinita, viene fornita una cartella predefinita per le risorse utente in cui è possibile aggiungere il nuovo contenuto tramite l’interfaccia dell’applicazione o rilasciandolo manualmente nel seguente percorso. Questa libreria predefinita viene utilizzata anche per la creazione di nuovi predefiniti quali pennelli, strumenti, materiali avanzati e così via. Per ulteriori informazioni, consultate la documentazione [Predefiniti](../../painting/presets/presets.md).
 
 ## Dove mettere le risorse?
 
@@ -44,7 +44,7 @@ Puoi importare diversi tipi di file nella libreria Substance 3D Painter. Inserir
 | **SBSAR** | Materiale di Substance | risorse / Materiali |
 | **SBSAR** | Filtri | risorse/Effetti |
 | **SBSAR** | Generatori | risorse / Generatori |
-| **PNG, TGA, JPEG e così via** | Texture o Alpha | risorse/texture **o** Scaffale/Alpha |
+| **PNG, TGA, JPEG e così via** | TEXTURE o ALPHA | risorse/Texture **o** Scaffale/Alpha |
 | **HDR, EXR** | Ambiente o Lut colori | risorse/ambienti **o** Shelf/Colorlut |
 | **GLSL** | Shader | risorse/Shader |
 | **SPPR** | Pennello predefinito | risorse / Predefiniti / Pennello |

@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_world_space_normals.png" alt=""/><br><strong>Ingresso:</strong> maschera, generatore, scala di grigi, fusione</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore Normale spazio mondo utilizza la mappa normale dello spazio mondo cotta per colorare il modello o applicare effetti in base alla direzione verso cui ogni superficie è rivolta nello spazio 3D. Ad esempio, dall’alto verso il basso.<br><br>Il generatore World Space Normals genera una texture monocromatica (bianco e nero). Di conseguenza, è utile generare le maschere per applicare vari effetti come dirt, dust, neve o ruggine in base alle direzioni del volto.<br><br>Per l'input dell'immagine sono necessarie mappe normali della posizione e dello spazio globale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore World Space Normal utilizza la mappa normale eseguita i baking world-space per colorare il modello o applicare effetti in base alla direzione verso cui ogni superficie è rivolta nello spazio 3D. Ad esempio, dall’alto verso il basso.<br><br>Il generatore World Space Normals genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile generare le maschere per applicare vari effetti come dirt, dust, neve o ruggine in base alle direzioni del volto.<br><br>Per l'input dell'immagine sono necessarie mappe normali di posizione Eseguita i baking e di spazio mondo. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -23,8 +23,8 @@ ht-degree: 4%
 | Nome di input | Descrizione |
 | --- | --- |
 | Colore **Texture** | Usate una texture personalizzata o un punto di ancoraggio. |
-| Colore **Normali spazio globale** | Utilizzate la mappa standard di World Space. |
-| Colore **Sfumatura posizione** | Utilizzate la mappa di posizione al forno. |
+| Colore **Normali spazio globale** | Utilizzare la mappa eseguita i baking World Space Normals. |
+| Colore **Sfumatura posizione** | Usa la mappa Posizione eseguita i baking. |
 
 ## Parametri
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 | **Sfocatura globale** | Ammorbidite la maschera finale in modo uniforme dopo aver combinato tutti gli effetti. |
 | **Saldo globale** | Dopo aver combinato tutti gli effetti con il bianco o il nero, spostate il bilanciamento della maschera finale, ad esempio regolando la luminosità. |
 | **Contrasto globale** | Dopo aver combinato tutti gli effetti, regolate il contrasto della maschera finale. |
-| **Usa texture** | Attivate o disattivate l’utilizzo di una mappa texture personalizzata. |
+| **Usa Texture** | Attivate o disattivate l’utilizzo di una mappa texture personalizzata. |
 
 ### Mappa spazio mondiale
 
@@ -79,15 +79,15 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Opacità texture</strong></td>
-    <td>Regolate la visibilità della texture personalizzata.</td>
+    <td>Regola la visibilità della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>
-    <td>Invertite solo la texture personalizzata.</td>
+    <td>Inverti solo la texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Conversione in scala di grigi</strong></td>
-    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di conversione <a href="grayscale-conversion.md">scala di grigi fornisce ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
+    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di <a href="grayscale-conversion.md">Conversioni in scala di grigi contiene ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
   </tr>
   <tr>
     <td><strong>Metodo fusione</strong></td>
@@ -99,7 +99,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Contrasto</strong></td>
-    <td>Regolate il contrasto/decadimento della texture personalizzata.</td>
+    <td>Regola il contrasto/decadimento della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Luminosità</strong></td>
@@ -107,10 +107,10 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Triplanare</strong></td>
-    <td>Quando Triplanare è attivato, la texture viene proiettata da tre direzioni (assi X, Y, Z) invece di fare affidamento solo sugli UV.<br><ul><li>Senza triplanare, la texture segue il layout UV.</li><li>Con triplanare, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando Triplanare è attivato, la texture viene proiettata da tre direzioni (assi X, Y, Z) invece di basarsi solo sugli UV.<br><ul><li>Senza triplanare, la texture segue il layout UV.</li><li>Con triplanare, la texture viene proiettata da più angoli e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
 </table>

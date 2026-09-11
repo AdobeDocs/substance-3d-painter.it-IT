@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Punto di ancoraggio
 
-Un punto di ancoraggio è un modo per esporre qualsiasi risorsa o elemento nella pila di livelli e farvi riferimento in aree diverse della pila di livelli per scopi diversi e con un diverso set di regolazioni. Aprono un&#39;intera nuova serie di possibilità, consentendoti di collegare efficacemente livelli o maschere e avere un singolo punto di ancoraggio che influisce su più aspetti del tuo progetto, trasformando Substance 3D Painter in un&#39;esperienza davvero non lineare.
+Un punto di ancoraggio è un modo per esporre qualsiasi risorsa o elemento nella Pila livelli e farvi riferimento in aree diverse della Pila livelli per scopi diversi e con un diverso set di regolazioni. Aprono un&#39;intera nuova serie di possibilità, consentendoti di collegare efficacemente livelli o maschere e avere un singolo punto di ancoraggio che influisce su più aspetti del tuo progetto, Trasforma Substance 3D Painter in un&#39;esperienza davvero non lineare.
 
 >[!NOTE]
 >
-> È possibile fare riferimento a un punto di ancoraggio solo se è stata creata la stessa texture. Non è possibile creare collegamenti tra un ancoraggio e i suoi riferimenti tra gli insiemi di texture.
+> È stato creato un punto di ancoraggio a cui è possibile fare riferimento solo all&#39;interno della stessa texture. Non è possibile creare collegamenti tra un ancoraggio e i suoi riferimenti tra gli insiemi di texture.
 
 ## Aggiungere un punto di ancoraggio
 
@@ -40,7 +40,7 @@ I punti di ancoraggio possono essere utilizzati come riferimento nelle seguenti 
 
 * Livello di riempimento
 * Effetto di riempimento
-* Inserimento di un filtro sostanza (Effetto, Procedurale, Generatore)
+* Inserimento di un filtro sostanza (Effetto, Procedurali, Generatore)
 
 ![](../../assets/anchor-point-resource.png)
 

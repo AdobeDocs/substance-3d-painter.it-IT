@@ -65,7 +65,7 @@ Abbiamo aggiunto anche molti nuovi **strumenti predefiniti** con cui giocare:
 
 ![](../../assets/displacement-demo.gif)
 
-Substance Painter ora supporta **Spostamento** e **tesselazione trama** sia nella finestra della vista in tempo reale che in Iray. Entrambi possono essere controllati nella finestra **Impostazioni shader** sotto i parametri dello shader.
+Substance Painter ora supporta **Spostamento** e **tesselazione trama** sia nella finestra della vista in tempo reale che in Iray. Entrambi possono essere controllati nella finestra **Impostazioni Shader** sotto i parametri di shader.
 
 ![](../../assets/disp-settings-1.png)
 
@@ -78,7 +78,7 @@ Substance Painter ora supporta **Spostamento** e **tesselazione trama** sia nell
 * **Conteggio suddivisioni**: (Modalità uniforme) Da 1 a 32. Un valore elevato genera più poligoni, che forniscono maggiori dettagli ma possono introdurre problemi di prestazioni.
 * **Lunghezza Massima**: (Lunghezza Bordo Modalità) 1 / Valore. Ogni bordo del poligono viene diviso fino a quando ogni segmento è uguale o inferiore a questo numero, 1/1 è la dimensione della scena.
 
-Carica il progetto di esempio &quot;**Materiale da affiancare**&quot; (tramite **File > Carica campione**) per provare rapidamente questa nuova funzione:
+Carica il progetto di esempio &quot;**Materiale Affiancamento**&quot; (tramite **File > Carica campione**) per provare rapidamente questa nuova funzione:
 
 ![](../../assets/height-sculp.gif){width="450px"}![](../../assets/cracks-demo.jpg){width="450px"}
 
@@ -86,13 +86,13 @@ Carica il progetto di esempio &quot;**Materiale da affiancare**&quot; (tramite *
 >
 > È stato aggiunto un nuovo filtro denominato &quot;**Height a normale**&quot; nello scaffale che può essere utilizzato per ottenere la mappa normale finale (nel caso in cui la conversione nativa per Substance Painter non sia sufficientemente forte).
 
-### Confronta effetto maschera
+### Maschera di confronto effetto
 
 ![](../../assets/compare-mask.png)
 
-La creazione e la fusione di materiali a volte può essere un po&#39; difficile ed è per questo che abbiamo creato un nuovo effetto denominato &quot;**Confronta maschera**&quot;. Questo effetto consente di confrontare rapidamente e facilmente due canali e di produrre di conseguenza una maschera.
+La creazione e la fusione di materiali a volte può essere un po&#39; difficoltosa ed è per questo che abbiamo creato un nuovo effetto denominato &quot;**Maschera di confronto**&quot;. Questo effetto consente di confrontare rapidamente e facilmente due canali e di produrre di conseguenza una maschera.
 
-L&#39;effetto Confronta maschera ha le seguenti proprietà:
+L&#39;effetto Maschera di confronto ha le seguenti proprietà:
 
 * **Canale**: canale da confrontare tra l&#39;origine e la destinazione da cui creare una maschera.
 * **Confronto**: in questa posizione sono disponibili tre parametri per scegliere come calcolare la maschera. Il menu a discesa al centro definisce l&#39;operazione di confronto (minore di, entro tolleranza, maggiore di).
@@ -102,18 +102,18 @@ L&#39;effetto Confronta maschera ha le seguenti proprietà:
 
 ![](../../assets/compare-mode.png)
 
-Per semplificare ulteriormente la configurazione, puoi fare clic con il pulsante destro del mouse su un livello e scegliere la scelta rapida &quot;**Aggiungi maschera con combinazione di height**&quot; per aggiungere rapidamente questa nuova maschera al livello. Questa scelta rapida consente anche di impostare il metodo di fusione del canale di Height su &quot;Normale&quot; anziché sull’impostazione predefinita &quot;Scherma lineare (Aggiungi)&quot;.\
+Per semplificare ulteriormente la configurazione, puoi fare clic con il pulsante destro del mouse su un livello e scegliere la scelta rapida &quot;**Aggiungi maschera con combinazione di height**&quot; per aggiungere rapidamente questa nuova maschera al livello. Questa scelta rapida da tastiera imposterà inoltre il metodo di fusione del canale del Height su &quot;Normale&quot; invece del &quot;Scherma lineare (Aggiungi)&quot; predefinito.\
 ![](../../assets/compare-shortcut.png)
 
 ### Simmetria radiale
 
 ![](../../assets/radial-demo.gif)
 
-Abbiamo ampliato le capacità del nostro strumento di simmetria per gestire la simmetria radiale. Nel menu delle impostazioni di simmetria è ora disponibile una nuova modalità che consente di attivarla (disponibile nella barra degli strumenti contestuale).
+Abbiamo ampliato le funzionalità del nostro strumento simmetria per gestire la simmetria radiale. Nel menu delle impostazioni di simmetria è ora disponibile una nuova modalità che consente di attivarla (disponibile nella barra degli strumenti contestuale).
 
 Sono disponibili le impostazioni seguenti:
 
-* **X / Y / Z**: controlla la direzione dell&#39;asse di simmetria utilizzato dalla simmetria radiale.
+* **X / Y / Z**: controlla la direzione dell&#39;asse della simmetria utilizzato dalla simmetria radiale.
 * **Conteggio**: numero di punti duplicati.
 * **Estensione angolo**: posizione dei punti duplicati rispetto a quello originale. Questa impostazione può essere utilizzata per creare un cerchio completo o un quarto di esso, ecc.
 
@@ -125,14 +125,14 @@ Sono disponibili le impostazioni seguenti:
 
 ![](../../assets/fill-proj.jpg)
 
-Sono state aggiunte due nuove modalità di proiezione con livelli di riempimento ed effetti di riempimento: **Planare** e **Sferico**. Abbiamo inoltre aggiunto molti nuovi parametri per controllare ulteriormente il comportamento delle proiezioni 3D.
+Sono state aggiunte due nuove modalità di proiezione con livelli di riempimento ed effetti di riempimento: **Planari** e **sferiche**. Abbiamo inoltre aggiunto molti nuovi parametri per controllare ulteriormente il comportamento delle proiezioni 3D.
 
 * **Nuova modalità proiezione planare**\
   Con questa nuova modalità è ora possibile proiettare un piano. Può essere utile per la creazione di strisce sui veicoli o il posizionamento di decalcomanie in un punto specifico.
 
   ![](../../assets/planar-proj.png)
 * **Strumento superficie per proiezione planare**\
-  Per semplificare la manipolazione della proiezione planare, abbiamo aggiunto anche un nuovo controllo per il manipolatore 3D, chiamato **strumento superficie**, a cui è possibile accedere con la scelta rapida &quot;**Maiusc+W**&quot;. È inoltre possibile accedervi dalla barra degli strumenti contestuale. Questa nuova modalità è disponibile solo con Proiezione planare.
+  Per semplificare la manipolazione della proiezione di planari, abbiamo aggiunto anche un nuovo controllo per il Manipolatore 3D, chiamato **strumento superficie**, a cui è possibile accedere con la scelta rapida da tastiera &quot;**Maiusc+W**&quot;. È inoltre possibile accedervi dalla barra degli strumenti contestuale. Questa nuova modalità è disponibile solo con la proiezione Planare.
 
   ![](../../assets/surface-tool-toolbar.png)
 
@@ -152,12 +152,12 @@ Sono state aggiunte due nuove modalità di proiezione con livelli di riempimento
 
   ![](../../assets/shape-crop-toggle.gif){width="500px"}
 * **Impostazioni esistenti spostate e rinominate**\
-  Grazie a queste nuove proiezioni abbiamo rielaborato il funzionamento di alcune impostazioni. &quot;**Tiling**&quot; è stato rinominato come &quot;**Involucro UV**&quot;. La suddivisione in porzioni ora può essere impostata solo in verticale o in orizzontale. Scala, Rotazione e Scostamento fanno ora parte di un nuovo gruppo di parametri denominato &quot;**Trasformazioni UV**&quot; per maggiore coerenza tra le modalità di proiezione.
+  Grazie a queste nuove proiezioni abbiamo rielaborato il funzionamento di alcune impostazioni. &quot;**L&#39;Affiancamento**&quot;, ad esempio, è stato rinominato come &quot;**Involucro UV**&quot;. L&#39;Affiancamento ora può essere impostato solo verticalmente o orizzontalmente. Scala, Rotazione e Scostamento fanno ora parte di un nuovo gruppo di parametri denominato &quot;**Trasformazioni UV**&quot; per maggiore coerenza tra le modalità di proiezione.
 
   ![](../../assets/repeat-mode.png)
 
   ![](../../assets/uv-transform.png)
-* **Modalità a tutti gli assi del manipolatore di rotazione migliorata** Anziché disegnare una sfera esplicita, è ora nascosta per evitare di nascondere la texture sottostante. Facendo clic tra gli assi si seleziona la sfera che consente di ruotare tutti gli assi contemporaneamente.\
+* **Modalità a tutto asse migliorata del Manipolatore di rotazione** Anziché disegnare una sfera esplicita, è ora nascosta per evitare di nascondere la texture sottostante. Facendo clic tra gli assi si seleziona la sfera che consente di ruotare tutti gli assi contemporaneamente.\
   ![](../../assets/manip-rotation-optim.gif)
 
 ### Vari miglioramenti
@@ -168,8 +168,8 @@ Sono state aggiunte due nuove modalità di proiezione con livelli di riempimento
   Ora è possibile selezionare più set di texture per modificarne la risoluzione contemporaneamente tramite le impostazioni Set di texture.\
   Nella modalità di selezione multipla esiste ancora il concetto di set di texture &quot;principale&quot;, ed è per questo che gli elementi aggiuntivi vengono selezionati in grigio. Se dovete passare a un diverso set di texture mantenendo la selezione corrente, potete utilizzare il pulsante centrale del mouse per effettuare questa operazione.
 * **Visualizzazione rapida nell&#39;elenco dei set di texture**\
-  Ora potete fare clic e trascinare (come nella pila di livelli) per nascondere o mostrare i set di texture.
-* **Interfaccia utente migliorata per lo stack di livelli**\
+  Ora potete fare clic e trascinare (come nella Pila livelli) per nascondere o mostrare gli insiemi di texture.
+* **Interfaccia utente migliorata per Pila livelli**\
   Abbiamo modificato l’icona per rendere lo stato nascosto/visualizzato di un livello più coerente e comprensibile. Abbiamo inoltre modificato il modo in cui vengono visualizzati i livelli selezionati, in modo da poterli confrontare più facilmente con la selezione dei loro effetti e di altri livelli.\
   ![](../../assets/layer-stack-selection-ui.gif)
 * **Nuova posizione dell’effetto in base alla selezione corrente** Qualsiasi nuovo effetto aggiunto su un livello ora verrà posizionato appena sopra quello attualmente selezionato.\
@@ -236,10 +236,10 @@ In questa versione abbiamo aggiunto anche molti contenuti nuovi: dai predefiniti
 * **7 nuovi generatori**\
   Con questa versione sono stati aggiunti alcuni nuovi generatori:
 
-  * **Occlusione ambiente**: Generatore di maschere che offre controlli sulla mappa della trama dell&#39;Occlusione ambiente. In base all’Editor maschera.
-  * **World Space Normals**: Generatore di maschere che offre controlli sulla mappa della trama World Space Normals. In base all’Editor maschera.
-  * **Posizione**: Generatore di maschere che offre controlli sulla mappa della trama di posizione. In base all’Editor maschera.
-  * **Curvatura**: Generatore maschera che offre controlli sulla mappa Trama curvatura. In base all’Editor maschera.
+  * **Occlusione ambientale**: Generatore di maschere che offre controlli sulla mappa della trama di Occlusione ambientale. In base all’Editor maschera.
+  * **World Space Normals**: Generatore di maschere che offre controlli sulla mappa mesh World Space Normals. In base all’Editor maschera.
+  * **Posizione**: Generatore di maschere che offre controlli sulla mappa Trama posizione. In base all’Editor maschera.
+  * **Curvatura**: Generatore di maschere che offre controlli sulla mappa Trama curvatura. In base all’Editor maschera.
   * **Cucitura automatica**: Generatore maschera che crea punti vicino ai bordi UV, alla curvatura della trama o attorno a un input maschera personalizzato.
   * **Densità texel UV**: helper che genera una sfumatura colorata in base alla densità texel dei poligoni della trama.
   * **Colore casuale UV**: genera un colore casuale per Isola UV (o in base a un input sfumatura personalizzato).
@@ -338,17 +338,17 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 * Spostamento e tassellatura nella finestra della vista in tempo reale
 * Spostamento e tassellatura in Iray
 * [Impostazioni shader]&#x200B;[UI] Nuova scheda per il controllo dello spostamento e della tassellatura
-* [Serie di livelli] Nuovo effetto Confronta maschera: genera una maschera confrontando due canali
-* [Stack di livelli]&#x200B;[UI] Nuova voce nel menu di scelta rapida &quot;Aggiungi maschera con combinazione di height&quot; per inserire un effetto CompareMask
+* [Pila livelli] Nuovo effetto Confronta maschera: genera una maschera confrontando due canali
+* [Pila livelli]&#x200B;[UI] Nuova voce nel menu di scelta rapida &quot;Aggiungi maschera con combinazione di height&quot; per inserire un effetto CompareMask
 * [Simmetria] Nuova modalità simmetria: pittura radiale
-* [Impostazioni simmetria] Espandere entrambe le sezioni &quot;Impostazioni&quot; e &quot;Visualizzazione&quot;
-* [Impostazioni simmetria]&#x200B;[UI] Anteprima per pittura radiale
+* [Simmetria impostazioni] Espandere entrambe le sezioni &quot;Impostazioni&quot; e &quot;Schermo&quot;
+* [Simmetria impostazioni]&#x200B;[UI] Anteprima per pittura radiale
 * Esporre due nuove modalità di proiezione: piana e sferica
 * [Proj] Nuova modalità di ritaglio forma per tutte le proiezioni
-* [Proj] Modalità Planare con nuovo manipolatore: strumento Superficie
-* [Proj]&#x200B;[Scelta rapida] Scelta rapida MAIUSC+W per lo strumento Superficie
+* [Proj] Modalità Planari con nuovo manipolatore: strumento Superficie
+* [Proj]&#x200B;[Scelta rapida da tastiera] Maiusc Scelta rapida da tastiera+W per strumento superficie
 * [Proj] Maschera di proiezione planare con taglio a sfoltimento profondità e sfondo
-* [Manipolatore] Miglioramento del manipolatore di rotazione su tutti e tre gli assi per triplanare
+* [Manipolatore] Miglioramento del manipolatore di rotazione su tutti e tre gli assi per il triplanare
 * [Tool]&#x200B;[UX] Se si fa clic su un canale tenendo premuto il tasto Alt, tale canale viene attivato o disattivato
 * [Engine] Aggiornamento alla versione più recente di Substance Engine
 * [Set di texture] Selezione multipla e modifica della risoluzione
@@ -388,4 +388,4 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 **Problemi noti:**
 
 * Facendo doppio clic sul nome del set di texture, questo viene selezionato prima di passare alla modalità di ridenominazione
-* [Serie di livelli]&#x200B;[UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
+* [Pila livelli]&#x200B;[UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente

@@ -30,4 +30,4 @@ Migliore è la lente della fotocamera, minore sarà il verificarsi di questi fen
 | **Potenza** | Controlla la velocità con cui la distorsione viene applicata dai bordi dello schermo. |
 | **FOV** | Controlla la quantità di distorsione dell’obiettivo (campo visivo simulato). |
 | **Rotondità bordo** | Controlla la forma arrotondata ai bordi o nella finestra della vista. |
-| **Smoothness bordo** | Controlla la durezza/lo smoothness dei bordi neri della finestra della vista. |
+| **Uniformità bordo** | Controlla la durezza/lo smoothness dei bordi neri della finestra della vista. |
