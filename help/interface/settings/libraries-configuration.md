@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/libraries-configuration.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/settings/libraries-configuration.html"
 breadcrumb-title: ''
 description: Scopri come configurare le librerie nelle impostazioni di Substance 3D Painter per gestire i percorsi delle risorse e l'organizzazione delle risorse.
 helpx_creative_field: ""
@@ -45,5 +45,5 @@ Il pulsante di scelta **predefinito** consente di definire il percorso in cui ve
 | --- | --- |
 | **Nome** | Nome che verrà utilizzato per fare riferimento al percorso nell&#39;interfaccia, ad esempio quando si fa clic con il pulsante destro del mouse su una risorsa. Questo nome definisce anche il nome della posizione interna per le risorse di cui tenere traccia se sono aggiornate o meno, pertanto si consiglia di non modificare questo nome una volta definito. |
 | **Percorso** | La posizione effettiva in cui le risorse sono (o saranno) presenti sul disco. |
-| **Pulsante più**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | Se si fa clic su questo pulsante, il percorso definito dalle impostazioni relative al nome e al percorso verrà aggiunto all&#39;elenco seguente.L&#39;aggiunta di un nuovo percorso creerà automaticamente la struttura di sottocartelle necessaria per organizzare i dati e le risorse. Per informazioni su dove posizionare le risorse, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
+| **Pulsante più**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | Se si fa clic su questo pulsante, il percorso definito dalle impostazioni relative al nome e al percorso verrà aggiunto all&#39;elenco seguente.L&#39;aggiunta di un nuovo percorso creerà automaticamente la struttura di sottocartelle necessaria per organizzare i dati e le risorse. Per informazioni su dove posizionare le risorse, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
 | **Pulsante meno**   <div><img data-preserve-html="true" src="../../assets/shelf-remove.png" width="30"/></div> | Se si fa clic su questo pulsante davanti a un percorso, questo verrà rimosso dall&#39;elenco. Le risorse non saranno più elencate nell&#39;interfaccia [Risorse](../assets/assets.md).  **Nota:** i percorsi predefiniti non possono essere rimossi, ma verranno disattivati e le relative risorse verranno nascoste. |

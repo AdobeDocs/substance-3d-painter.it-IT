@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla Guida di riferimento per API shader di superficie per Substance 3D Painter per creare effetti e materiali di shader personalizzati.
 helpx_creative_field: ""

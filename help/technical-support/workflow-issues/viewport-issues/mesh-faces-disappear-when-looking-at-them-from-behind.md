@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Scoprite come correggere le facce con trama che scompaiono quando vengono visualizzate da dietro nella finestra di visualizzazione di Substance 3D Painter per una corretta visibilità della trama.
 helpx_creative_field: ""

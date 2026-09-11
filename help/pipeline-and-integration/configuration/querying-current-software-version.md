@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
 breadcrumb-title: ''
 description: Informazioni su come eseguire query sulla versione corrente del software Substance 3D Painter a livello di programmazione per l'integrazione e l'automazione della pipeline.
 helpx_creative_field: ""

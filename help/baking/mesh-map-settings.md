@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
+helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Scoprite come configurare le impostazioni della mappa trama in Substance 3D Painter per controllare i parametri di esegue i baking e la qualità dell'output.
 helpx_creative_field: ''

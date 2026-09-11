@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la Pila livelli in Substance 3D Painter per organizzare e gestire più livelli di pittura texture.
 helpx_creative_field: ""

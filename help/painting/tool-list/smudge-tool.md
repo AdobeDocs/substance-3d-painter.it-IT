@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: Usa lo strumento Sfumino in Substance 3D Painter per fondere e sfumare i tratti della pittura per creare transizioni di texture uniformi.
 helpx_creative_field: ""

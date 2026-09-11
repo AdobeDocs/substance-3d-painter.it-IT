@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html'
+helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Utilizzate lo strumento Tracciato di Substance 3D Painter per creare e modificare i tracciati in modo da colorare le texture e posizionare il tratto con precisione.
 helpx_creative_field: ''

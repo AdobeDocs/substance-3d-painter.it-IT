@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare lo srotolamento UV automatico in Substance 3D Painter per generare automaticamente layout UV per i modelli 3D.
 helpx_creative_field: ""

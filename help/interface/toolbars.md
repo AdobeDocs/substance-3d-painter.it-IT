@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/toolbars.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/toolbars.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare e personalizzare le barre degli strumenti in Substance 3D Painter per accedere a strumenti e funzionalità in modo efficiente.
 helpx_creative_field: ""

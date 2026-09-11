@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
 description: Utilizza lo strumento Gomma di Substance 3D Painter per rimuovere pittura e texture dai modelli 3D con controllo di precisione.
 helpx_creative_field: ""

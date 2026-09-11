@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ''
 description: Scoprite come attivare la funzione tratto dinamico in Substance 3D Painter per creare tratti di pennello reattivi con effetti variabili.
 helpx_creative_field: ""

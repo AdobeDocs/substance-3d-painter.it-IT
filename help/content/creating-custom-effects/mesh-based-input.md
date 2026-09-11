@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare gli input basati su trama negli effetti personalizzati per Substance 3D Painter per creare effetti di texture con riconoscimento della geometria.
 helpx_creative_field: ""

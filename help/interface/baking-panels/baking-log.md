@@ -19,6 +19,6 @@ Il **pannello del registro di Esegue i baking** mostra l&#39;output tecnico rela
 
 >[!TIP]
 >
-> Le informazioni su come abbinare le risorse per nome sono disponibili nella [documentazione dei Baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> Le informazioni su come abbinare le risorse per nome sono disponibili nella [documentazione dei Baker](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)

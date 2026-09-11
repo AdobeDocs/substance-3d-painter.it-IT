@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
 breadcrumb-title: ''
 description: Per Substance 3D Painter, accedi alla sezione API shader con effetto pixel per creare effetti di rendering con effetto pixel personalizzati.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
 breadcrumb-title: ''
 description: Scopri come configurare le impostazioni del visualizzatore e MDL per il modulo di rendering di raggi X in Substance 3D Painter per personalizzare il rendering dei materiali.
 helpx_creative_field: ""

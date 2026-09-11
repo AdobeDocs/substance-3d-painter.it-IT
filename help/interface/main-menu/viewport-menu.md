@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare il menu Finestra della vista in Substance 3D Painter per accedere alle impostazioni della finestra della vista e alle opzioni di visualizzazione.
 helpx_creative_field: ""

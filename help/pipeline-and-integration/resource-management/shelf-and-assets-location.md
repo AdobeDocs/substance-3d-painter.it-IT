@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: Scopri come configurare lo scaffale e la posizione delle risorse in Substance 3D Painter per organizzare e accedere alla tua libreria di risorse.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/depth-of-field.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/post-processing/depth-of-field.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la profondità della post-elaborazione sul campo in Substance 3D Painter per creare effetti di sfocatura di messa a fuoco della fotocamera realistici.
 helpx_creative_field: ""

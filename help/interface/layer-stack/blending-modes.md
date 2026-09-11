@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/blending-modes.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare i metodi di fusione in Substance 3D Painter per combinare i livelli e creare vari effetti di fusione texture.
 helpx_creative_field: ""

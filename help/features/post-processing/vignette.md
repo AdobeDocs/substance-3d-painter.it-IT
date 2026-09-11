@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare l’effetto di post-elaborazione della vignettatura in Substance 3D Painter per scurire i bordi della finestra della vista.
 helpx_creative_field: ""

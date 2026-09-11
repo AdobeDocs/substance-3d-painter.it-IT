@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Utilizza la corrispondenza di riempimento per porzione UV in Substance 3D Painter per abbinare i pattern di texture nelle porzioni UV per un Affiancamento uniforme.
 helpx_creative_field: ""

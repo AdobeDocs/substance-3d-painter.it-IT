@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/2d-view.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/viewport/2d-view.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la Vista 2D in Substance 3D Painter per visualizzare e modificare la texture nello spazio UV per una texture precisa.
 helpx_creative_field: ""

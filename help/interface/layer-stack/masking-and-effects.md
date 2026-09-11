@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la mascheratura e gli effetti in Substance 3D Painter Pila livelli per controllare la visibilità dei livelli e applicare gli effetti di livello.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare le mappe trama negli effetti personalizzati in modo che Substance 3D Painter possa accedere alle informazioni sulla texture basata sulla geometria.
 helpx_creative_field: ""

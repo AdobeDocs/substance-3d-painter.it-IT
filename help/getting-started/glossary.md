@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/glossary.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/glossary.html"
 breadcrumb-title: ''
 description: Accedete al glossario di Substance 3D Painter per comprendere i termini e i concetti chiave usati nella documentazione.
 helpx_creative_field: ""

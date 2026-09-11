@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
 breadcrumb-title: ''
 description: Informazioni su come evitare errori di schermata blu di Windows quando si utilizza Substance 3D Painter per un funzionamento stabile del sistema.
 helpx_creative_field: ""

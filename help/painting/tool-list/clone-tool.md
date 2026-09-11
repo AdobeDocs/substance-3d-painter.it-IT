@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/clone-tool.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/clone-tool.html"
 breadcrumb-title: ''
 description: Utilizzate lo strumento Clona di Substance 3D Painter per copiare i dettagli della texture da un’area all’altra per una pittura uniforme della texture.
 helpx_creative_field: ""

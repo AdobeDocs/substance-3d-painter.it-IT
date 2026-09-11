@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare gli argomenti della riga di comando con Substance 3D Painter per l'automazione, lo scripting e l'integrazione della pipeline.
 helpx_creative_field: ""

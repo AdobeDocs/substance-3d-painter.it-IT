@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare le sequenze di immagini con i riquadri UV in Substance 3D Painter per flussi di lavoro di texture animata.
 helpx_creative_field: ""

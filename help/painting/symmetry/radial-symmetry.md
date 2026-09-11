@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/radial-symmetry.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/symmetry/radial-symmetry.html"
 breadcrumb-title: ''
 description: Usa simmetria radiale in Substance 3D Painter per creare pitture circolari simmetriche attorno a un punto centrale.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
+helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: Scoprite come eseguire il baking delle mappe di trama in Substance 3D Painter per generare occlusione ambientale, curvatura e altre texture basate su geometria.
 helpx_creative_field: ''
@@ -37,4 +37,4 @@ Per una rapida panoramica della modalità di Esegue i baking, guardate il nostro
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla cottura in generale, consultate la [documentazione sulla cottura in forno](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dedicata.
+> Per ulteriori informazioni sulla cottura in generale, consultate la [documentazione sulla cottura in forno](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home) dedicata.

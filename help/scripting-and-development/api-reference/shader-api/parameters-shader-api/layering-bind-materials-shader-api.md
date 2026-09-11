@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento relativa all’API shader Associazione di materiali livelli in cui Substance 3D Painter consente di associare i materiali nei flussi di lavoro con più livelli.
 helpx_creative_field: ""

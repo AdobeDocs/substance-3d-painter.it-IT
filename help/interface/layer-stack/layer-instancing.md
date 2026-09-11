@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare l’istanza dei livelli in Substance 3D Painter per riutilizzare in modo efficiente i livelli su più set di texture.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ''
 description: Scoprite come creare un nuovo progetto in Substance 3D Painter per iniziare a disegnare texture sui vostri modelli 3D.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Di seguito è riportata una spiegazione di tutti i parametri disponibili nella f
 
 | *Parametro* | *Descrizione* |
 | --- | --- |
-| **File** | Fate clic sul pulsante &quot;Seleziona&quot; per specificare il file del modello 3D da caricare. [Un elenco dei formati di file supportati è disponibile qui.](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
+| **File** | Fate clic sul pulsante &quot;Seleziona&quot; per specificare il file del modello 3D da caricare. [Un elenco dei formati di file supportati è disponibile qui.](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **Modello** | Specificate un modello che definirà le impostazioni predefinite del progetto. Un modello contiene i seguenti parametri:<ul data-preserve-html="true"> <li data-preserve-html="true">Impostazioni del set di texture.</li> <li data-preserve-html="true">Impostazioni dello schermo.</li> <li data-preserve-html="true">Impostazioni di cottura.</li> <li data-preserve-html="true">Shader delle risorse (incluse le texture collegate).</li> <li data-preserve-html="true">File mappa ambiente.</li> </ul>  **Nota:** i modelli sono file di <b>\*.spt</b> creati da un progetto esistente tramite il [menu File](../interface/main-menu/file-menu.md) e salvati all&#39;interno della cartella Risorse per essere facilmente condivisi con i membri del team. |
 | <b>Risoluzione</b> | Definite la risoluzione della texture predefinita del progetto per ciascun set di texture. La risoluzione può arrivare fino a 4K (4096x4096 pixel) quando si lavora all&#39;interno dell&#39;applicazione e 8K (8192x8192 pixel) quando si esporta. La risoluzione può essere modificata in qualsiasi momento in seguito, tramite le [impostazioni del set di texture](../interface/texture-set/texture-set-settings.md).  **Nota:** l&#39;esportazione in 8K richiede almeno 2,5 GB di VRam nella GPU per essere disponibile. |
 

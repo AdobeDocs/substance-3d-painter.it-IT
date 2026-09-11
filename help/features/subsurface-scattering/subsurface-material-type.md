@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare i tipi di materiale sottosuperficiale in Substance 3D Painter per creare pelle, cera e materiali organici realistici.
 helpx_creative_field: ""

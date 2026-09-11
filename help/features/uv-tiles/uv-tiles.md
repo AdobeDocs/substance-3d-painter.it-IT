@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare i riquadri UV in Substance 3D Painter per lavorare con i layout UV in riquadri e più set di texture.
 helpx_creative_field: ""

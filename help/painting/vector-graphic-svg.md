@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/vector-graphic-svg.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/vector-graphic-svg.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la grafica vettoriale (file SVG e AI) in Substance 3D Painter per aggiungere grafica vettoriale scalabile alla texture.
 helpx_creative_field: ""

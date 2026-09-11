@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: Scoprite come aggiungere contenuto dal disco rigido a Substance 3D Painter per espandere la libreria di risorse con i file locali.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Puoi importare diversi tipi di file nella libreria Substance 3D Painter. Inserir
 
 >[!NOTE]
 >
-> A partire dalla versione 7.2.0, le cartelle e le categorie personalizzate possono essere utilizzate in una libreria. Saranno accessibili nella finestra Risorse tramite [Filtra per percorso](../../interface/assets/filter-by-path.md) o [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> A partire dalla versione 7.2.0, le cartelle e le categorie personalizzate possono essere utilizzate in una libreria. Saranno accessibili nella finestra Risorse tramite [Filtra per percorso](../../interface/assets/filter-by-path.md) o [Breadcrumbs](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

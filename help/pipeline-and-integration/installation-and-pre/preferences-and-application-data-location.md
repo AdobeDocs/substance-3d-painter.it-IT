@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
 breadcrumb-title: ''
 description: Informazioni sulle preferenze e sui percorsi dei dati dell'applicazione per Substance 3D Painter per gestire le impostazioni e i dati degli utenti.
 helpx_creative_field: ""

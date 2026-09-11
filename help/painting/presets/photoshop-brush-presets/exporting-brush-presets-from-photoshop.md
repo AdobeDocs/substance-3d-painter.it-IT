@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
 breadcrumb-title: ''
 description: Scoprite come esportare i pennelli predefiniti da Photoshop come file ABR da utilizzare nei flussi di lavoro di pittura di Substance 3D Painter texture.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
 breadcrumb-title: ''
 description: Scoprite come correggere la dispersione di sangue con lo strumento pittura tra le Isole UV in Substance 3D Painter per mantenere puliti i bordi della texture.
 helpx_creative_field: ""

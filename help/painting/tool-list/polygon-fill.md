@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/polygon-fill.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
 description: Utilizza lo strumento Riempimento poligono di Substance 3D Painter per riempire i poligoni selezionati con pittura per una pittura a texture efficiente.
 helpx_creative_field: ""

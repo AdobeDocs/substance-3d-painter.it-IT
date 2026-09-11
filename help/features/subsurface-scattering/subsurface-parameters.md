@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
 breadcrumb-title: ''
 description: Scoprite come configurare i parametri di dispersione del sottosuolo in Substance 3D Painter per creare materiali traslucidi realistici.
 helpx_creative_field: ""

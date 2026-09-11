@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare lo strumento Tracciato riempito in Substance 3D Painter per creare forme e tracciati pieni per la pittura di texture.
 helpx_creative_field: ""

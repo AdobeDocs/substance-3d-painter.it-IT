@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
 breadcrumb-title: ''
 description: Scoprite i requisiti di compatibilità dei driver GPU per Substance 3D Painter per garantire la stabilità del rendering e delle prestazioni.
 helpx_creative_field: ""

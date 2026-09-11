@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
 breadcrumb-title: ''
 description: Scopri come ridurre le dimensioni dei file di progetto di Substance 3D Painter per ottimizzare le prestazioni e i requisiti di archiviazione.
 helpx_creative_field: ""

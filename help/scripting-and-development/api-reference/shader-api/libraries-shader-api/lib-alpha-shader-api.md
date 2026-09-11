@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento relativa all’API shader di Alpha libreria in modo che Substance 3D Painter possa lavorare con i canali alfa e la trasparenza negli ombreggiatori personalizzati.
 helpx_creative_field: ""
