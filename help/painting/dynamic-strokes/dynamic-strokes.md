@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare i tratti dinamici in Substance 3D Painter per creare tratti di pennello reattivi che si adattano alla velocità e alla pressione di pittura.
 helpx_creative_field: ""

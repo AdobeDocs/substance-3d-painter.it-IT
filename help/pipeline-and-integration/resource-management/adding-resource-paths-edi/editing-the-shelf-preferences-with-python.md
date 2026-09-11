@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
 breadcrumb-title: ''
 description: Scopri come modificare le preferenze degli scaffali utilizzando lo scripting Python in Substance 3D Painter per la gestione automatizzata dei percorsi delle risorse.
 helpx_creative_field: ""

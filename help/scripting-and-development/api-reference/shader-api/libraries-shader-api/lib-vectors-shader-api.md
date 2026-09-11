@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento relativa alle API shader Lib Vectors in modo che Substance 3D Painter possa lavorare con le operazioni vettoriali negli shader personalizzati.
 helpx_creative_field: ""
@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-Cornice locale del vertice nello spazio mondo
+Fotogramma locale del vertice nello spazio mondo
 
 ```
 struct LocalVectors { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-Calcola fotogramma locale da trama e height di documenti e normali
+Calcola il fotogramma locale dalla trama e dal height di documenti e dalle normali
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

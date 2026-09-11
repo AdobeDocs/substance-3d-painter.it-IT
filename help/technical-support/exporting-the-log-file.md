@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/exporting-the-log-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
 breadcrumb-title: ''
 description: Scopri come esportare i file di registro da Substance 3D Painter a scopo di risoluzione dei problemi e supporto tecnico.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized.html"
 breadcrumb-title: ''
 description: Scoprite come correggere i problemi di riconoscimento GPU in Substance 3D Painter per consentire prestazioni e accelerazione hardware corrette.
 helpx_creative_field: ""

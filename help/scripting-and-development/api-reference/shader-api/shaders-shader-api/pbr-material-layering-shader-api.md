@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
 breadcrumb-title: ''
 description: Per Substance 3D Painter, accedete alla pagina di riferimento relativa alle API shader a livelli di materiale PBR per creare effetti di materiale a più livelli.
 helpx_creative_field: ""

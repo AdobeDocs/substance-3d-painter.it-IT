@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
-description: Accedete al riferimento di API shader Tutti i parametri personalizzati (All Custom Params) per Substance 3D Painter per definire e controllare i parametri dello shader personalizzati.
+description: Per definire e controllare i parametri di API shader personalizzati, accedere al riferimento di shader Tutti i parametri personalizzati (All Custom Params) in Substance 3D Painter.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Tutti i parametri personalizzati - API shader
 
-## Shader campione parametri personalizzati
+## Parametri personalizzati shader campione
 
 **Tutti i ritocchi personalizzati richiedono almeno un valore *predefinito*.**
 
@@ -132,7 +132,7 @@ uniform bool u_bool;
 
 ## Parametri di Sampler
 
-La texture è definita dal suo nome nello scaffale e deve trovarsi nella categoria *Texture* o *Ambienti*.
+La texture è definita dal nome nello scaffale e deve essere nella categoria *Texture* o *Ambienti*.
 
 ```
 //: param custom { "default": "", "default_color": [1.0, 1.0, 0.0, 1.0], "label": "Texture" } 
@@ -180,7 +180,7 @@ uniform int u_combobox;
 ```
 
 
-Punto di ingresso dello shader
+Punto di ingresso Shader
 
 ```
 vec4 shade(V2F inputs) 

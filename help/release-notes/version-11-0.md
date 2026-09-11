@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-11-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 11.0 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 11.0
 
-<b>Substance 3D Painter 11.0</b> aggiunge un nuovo flusso di lavoro di aggiornamento automatico delle risorse, uno strumento per tracciati pieni e miglioramenti generali per i tracciati, una gabbia automatica per la cottura al forno e diversi nuovi filtri per la creazione di texture stilizzate.
+<b>Substance 3D Painter 11.0</b> aggiunge un nuovo flusso di lavoro di aggiornamento automatico delle risorse, uno strumento per tracciati pieni e miglioramenti generali per i tracciati, una gabbia automatica per la esegue i baking e diversi nuovi filtri per la creazione di texture stilizzata.
 
 Data di pubblicazione: <b>11 marzo 2025</b>
 
@@ -45,7 +45,7 @@ Con il nuovo flusso di lavoro di aggiornamento automatico è ora possibile mante
 
   ![](../assets/auto_update_icon.png)
 * <b>Aggiornamento delle risorse nei progetti</b>\
-  Il ricaricamento di una risorsa non aggiorna automaticamente la versione utilizzata all&#39;interno di un progetto tramite la pila di livelli, le impostazioni di visualizzazione, le impostazioni degli shader e così via. A tale scopo, attivare anche l&#39;opzione <b>Risorse utilizzate nel progetto</b>.
+  Il ricaricamento di una risorsa non aggiorna automaticamente la versione utilizzata all&#39;interno di un progetto tramite Pila livelli, impostazioni di visualizzazione, impostazioni di ombreggiatura e così via. A tale scopo, attivare anche l&#39;opzione <b>Risorse utilizzate nel progetto</b>.
 
   ![](../assets/auto-update_auto_settings.png)
 * <b>Frequenza aggiornamenti </b>\
@@ -73,18 +73,18 @@ Con il nuovo flusso di lavoro di aggiornamento automatico è ora possibile mante
 
 ![](../assets/banner_filled_path.jpg)
 
-Lo strumento tracciato pieno è un nuovo tipo di strumento tracciato che consente di creare forme sulla superficie del modello 3D riempite con un colore uniforme. Rende possibile la creazione di pattern complessi.
+Lo strumento tracciato pieno è un nuovo tipo di strumento tracciato che consente di creare forme sulla superficie del modello 3D riempito con un colore uniforme. Rende possibile la creazione di pattern complessi.
 
 * <b>Nuovo strumento per creare un tracciato con un colore pieno</b>\
-  Nel menu Tracciato è disponibile un nuovo strumento denominato <b>Tracciato riempito</b>. Questo strumento può riempire l&#39;area interna di un tracciato quando viene chiuso. Il riempimento viene effettuato con un colore uniforme per ciascun canale del set di texture.
+  Nel menu Tracciato è disponibile un nuovo strumento denominato <b>Tracciato riempito</b>. Questo strumento può riempire l&#39;area interna di un tracciato quando viene chiuso. Il riempimento viene effettuato con un colore uniforme per ciascun canale dell’insieme di texture.
 
   ![](../assets/filled_path_menu.png)
 * <b>Adatta automaticamente alla superficie</b>\
-  Lo strumento Tracciato pieno può adattarsi a qualsiasi tipo di superficie, non è limitato alle aree piane. Può attraversare gli spazi e i bordi degli oggetti.
+  Lo strumento Tracciato pieno può adattarsi a qualsiasi tipo di superficie, non è limitato alle aree planari. Può attraversare gli spazi e i bordi degli oggetti.
 
   ![](../assets/filled_path_across_gaps.png)
-* <b>Compatibile con simmetria speculare e radiale</b>\
-  Questo nuovo strumento supporta anche le proprietà di simmetria, che aprono la possibilità di creare forme complesse.
+* <b>Compatibile con mirror e simmetria radiale</b>\
+  Questo nuovo strumento supporta anche le proprietà della simmetria, che aprono la possibilità di creare forme complesse.
 
   ![](../assets/filled_path_symmetry.png)
 * <b>Facile passaggio da uno strumento di tracciato all&#39;altro</b>\
@@ -99,7 +99,7 @@ Lo strumento tracciato pieno è un nuovo tipo di strumento tracciato che consent
 In questa nuova versione sono stati aggiunti molti miglioramenti a livello di comportamento e qualità della vita per semplificare l’utilizzo degli strumenti tracciato:
 
 * <b>Anteprima tracciato (alternare con Maiusc+P)</b>\
-  Quando si modifica un tracciato, appare una nuova linea punteggiata che indica come reagirà il tracciato quando si aggiunge un nuovo punto alla fine della curva. Ciò rende i cambiamenti più prevedibili. Questa anteprima può essere disattivata tramite il menu delle impostazioni dedicato o utilizzando la scelta rapida da tastiera <b>Maiusc+P</b>.
+  Quando si modifica un tracciato, appare una nuova linea punteggiata che indica come reagirà il tracciato quando si aggiunge un nuovo punto alla fine della curva. Ciò rende i cambiamenti più prevedibili. Questa anteprima può essere disattivata tramite il menu delle impostazioni dedicato o utilizzando la scelta rapida da tastiera della tastiera <b>Maiusc+P</b>.
 
   ![](../assets/path_preview.gif)
 * <b>Allineamento rettilineo e angolare</b>\
@@ -129,7 +129,7 @@ In questa nuova versione sono stati aggiunti molti miglioramenti a livello di co
 
   ![](../assets/paste_vertices.png)
 * <b>Comportamento migliorato per mostrare/nascondere l’interfaccia utente</b>\
-  Premendo le scelte rapide da tastiera per i manipolatori della finestra della vista (<b>W</b>, <b>S</b> o <b>D</b>), ora è possibile attivarle rapidamente. Possono anche essere attivati/disattivati dai pulsanti dedicati della barra degli strumenti contestuale. Questa modifica consente di mostrare o nascondere rapidamente gli elementi senza nascondere anche gli altri elementi visivi nella finestra della vista (come la curva del tracciato e i punti).
+  Premendo le scelte rapide da tastiera per i manipolatori della finestra della vista (<b>W</b>, <b>S</b> o <b>D</b>), è possibile attivarle rapidamente. Possono anche essere attivati/disattivati dai pulsanti dedicati della barra degli strumenti contestuale. Questa modifica consente di mostrare o nascondere rapidamente gli elementi senza nascondere anche gli altri elementi visivi nella finestra della vista (come la curva del tracciato e i punti).
 
   ![](../assets/manipulator_toggle.png)
 * <b>Ruota e ridimensiona ora accessibili sui vertici del tracciato</b>\
@@ -145,13 +145,13 @@ In questa nuova versione sono stati aggiunti molti miglioramenti a livello di co
 
   ![](../assets/path_tangent_angle.gif)
 * <b>Mantenere aperto l&#39;elenco dei percorsi tra i livelli</b>\
-  Quando si passa da un livello di disegno ad un effetto diverso e viceversa, se il pannello Tracciato nella finestra della vista fosse chiuso, resterebbe chiuso anche sugli altri livelli. Il pannello ora rimarrà aperto per rendere più comodo il passato.
+  Quando si passa da un livello di pittura a un altro ed effetti diversi, se il pannello Tracciato nella finestra della vista era chiuso, restava chiuso anche sugli altri livelli. Il pannello ora rimarrà aperto per rendere più comodo il passato.
 
   ![](../assets/path_panel.png)
 * <b>Focus sul percorso attualmente selezionato </b>\
-  Quando modifichi un tracciato, la scelta rapida da tastiera <b>F</b> ora si concentra su un tracciato anziché sull&#39;intero modello 3D.
+  Premendo la scelta rapida da tastiera da tastiera <b>F</b> ora verrà messo a fuoco un tracciato invece dell&#39;intero modello 3D quando si modifica un tracciato.
 * <b>Elimina percorso con backspace </b>\
-  È ora possibile eliminare rapidamente i tracciati premendo la scelta rapida da tastiera <b>Backspace </b>.
+  È ora possibile eliminare rapidamente i tracciati premendo la scelta rapida da tastiera della tastiera <b>Backspace </b>.
 
 ### Nuovi filtri Substance e generatori di texture
 
@@ -174,7 +174,7 @@ La nuova versione introduce alcuni nuovi filtri e alcuni pattern procedurali.
 
   ![](../assets/filter_kuwahara.jpg)
 * <b>Distanza direzionale</b>\
-  Si tratta di un semplice filtro per dilatare i pixel in una determinata direzione in uno spazio 2D. Può essere utilizzato per sfumare tratti di pennello o creare facilmente perdite.
+  Si tratta di un semplice filtro che consente di allungamento i pixel in una determinata direzione in uno spazio 2D. Può essere utilizzato per sfumare tratti di pennello o creare facilmente perdite.
 
   ![](../assets/filter_directional_distance.jpg)
 * <b>Smusso uniforme</b>\
@@ -184,7 +184,7 @@ La nuova versione introduce alcuni nuovi filtri e alcuni pattern procedurali.
 * <b>Conversione in scala di grigi </b>\
   Questo nuovo filtro può essere utilizzato per convertire comodamente le immagini o i canali in scala di grigio e fornisce il controllo sui canali Rosso, Verde e Blu, se necessario.
 
-<b>Generatori di texture e rumori</b>:
+<b>Generatori di Texture e rumori</b>:
 
 * <b>Generatore Scratches </b>\
   Un generatore di graffi migliorato che simula thread sottili con vari controlli per la casualità.
@@ -199,11 +199,11 @@ La nuova versione introduce alcuni nuovi filtri e alcuni pattern procedurali.
 
 ![](../assets/noises.jpg)
 
-### Nuova gabbia automatica per la cottura al forno (sperimentale)
+### Nuova gabbia automatica per la eseguita i baking (sperimentale)
 
 ![](../assets/banner_bake_cage.jpg)
 
-Quando si inforna una trama ad alto poli su una trama a basso poli, è ora possibile selezionare una nuova opzione <b>Automatica </b> quando si specifica la modalità gabbia. Questo nuovo metodo tenta di calcolare una trama a gabbia automatica che si adatta al meglio alle trame ad alto poli per evitare artefatti.
+Quando si esegue i baking una trama ad alto poli su una trama a basso poli, è ora possibile selezionare una nuova opzione <b>Automatica </b> quando si specifica la modalità gabbia. Questo nuovo metodo tenta di calcolare una trama a gabbia automatica che si adatta al meglio alle trame ad alto poli per evitare artefatti.
 
 * <b>Nuova impostazione nei parametri di cottura comuni </b>\
   All’interno del parametro comune di cottura, il parametro della gabbia è stato sostituito da una selezione tra tre opzioni:\
@@ -234,14 +234,14 @@ In questa versione sono state apportate modifiche specifiche relative alla piatt
 
 In questa versione sono state aggiunte anche alcune altre funzioni:
 
-* <b>Abilita il canale del colore di base solo sul nuovo livello/effetto di riempimento</b>\
-  Per impostazione predefinita, quando si crea un nuovo livello di riempimento o effetto, viene attivato solo il canale Colore di base. (Questa modifica non si applica quando si trascina una risorsa che si creerebbe un livello di riempimento o un effetto.)\
+* <b>Abilita canale di colore di base solo sul nuovo livello/effetto di riempimento</b>\
+  Per impostazione predefinita, quando si crea un nuovo livello di riempimento o effetto, viene attivato solo il canale del Colore di base. (Questa modifica non si applica quando si trascina una risorsa che si creerebbe un livello di riempimento o un effetto.)\
   In base al feedback della community, abbiamo apportato questa modifica per migliorare le prestazioni evitando di attivare il calcolo dei canali che in seguito vengono disabilitati. Questo dovrebbe aiutare la reattività quando si lavora ad alta risoluzione o con i riquadri UV.\
-  Tieni presente che puoi riattivare rapidamente tutti i canali facendo clic sul pulsante Colore di base mantenendo la scelta rapida da tastiera <b>ALT </b>.
+  Tieni presente che puoi riattivare rapidamente tutti i canali facendo clic sul pulsante Colore di base mantenendo la scelta rapida da tastiera della tastiera <b>ALT </b>.
 
   ![](../assets/base_color_single_channel.png)
-* <b>Rinominare le porzioni UV per esportare le texture</b>\
-  Nella finestra dell&#39;elenco Set di texture non è possibile aggiungere un nome personalizzato alle porzioni UV. Contrariamente alla descrizione, il nome personalizzato può essere recuperato nei predefiniti di esportazione tramite il tag dedicato <b>$uvTileName</b>.\
+* <b>Rinominare le Porzioni UV per l&#39;esportazione delle texture</b>\
+  Nella finestra dell&#39;elenco Set di texture non è possibile aggiungere un nome personalizzato alle Porzioni UV. Contrariamente alla descrizione, il nome personalizzato può essere recuperato nei predefiniti di esportazione tramite il tag dedicato <b>$uvTileName</b>.\
   Questa nuova funzionalità consente di sostituire i numeri UDIM in nomi specifici durante l’esportazione.
 
   ![](../assets/uv_tile_rename.png)
@@ -261,7 +261,7 @@ In questa versione sono state aggiunte anche alcune altre funzioni:
 ### 11.0.0
 
 Data di pubblicazione: <b>2025/03/11</b>\
-Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, strumento Tracciato riempito e altri miglioramenti al tracciato, nuovi filtri e una generazione sperimentale di gabbia automatica per la cottura al forno</b>
+Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, strumento Tracciato compilato e altri miglioramenti al percorso, nuovi filtri e una generazione sperimentale di gabbia automatica per eseguire i baking</b>
 
 <b>Aggiunto</b>:
 
@@ -271,9 +271,9 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Aggiornamento automatico] Disattiva l&#39;aggiornamento automatico per impostazione predefinita
 * [Aggiornamento automatico] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono (.sbsar, .glsl, .ai, .svg)
 * [Aggiornamento automatico] Aggiungi variabile di ambiente per disabilitare la funzione di aggiornamento automatico
-* [Aggiornamento automatico]&#x200B;[SBSAR] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono
+* [Aggiornamento automatico][SBSAR] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono
 * Tracciato pieno
-* [Tracciato]&#x200B;[Riempimento] Aggiungi nuovo strumento per creare tracciati pieni
+* [Tracciato][Riempimento] Aggiungi nuovo strumento per creare tracciati pieni
 * Miglioramenti al tracciato
 * [Path] Crea un tracciato che si aggancia ai poligoni
 * [Path] Consente di cambiare i tipi di percorso
@@ -283,7 +283,7 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Tracciato] Chiudi la forma con un solo clic
 * [Path] Visualizza informazioni sul percorso
 * [Tracciato] Consente di ridimensionare e ruotare i vertici del tracciato
-* [Path]&#x200B;[UX] Semplificare l&#39;accesso ai gizmo di trasformazione
+* [Path][UX] Semplificare l&#39;accesso ai gizmo di trasformazione
 * [Path] Aggiungi anteprima percorso
 * [Tracciato] Disattiva l&#39;anteprima del tracciato con Maiusc + P
 * [Path] Migliorare l&#39;edizione tangente dalla vista laterale
@@ -291,7 +291,7 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Path] I vertici devono mantenere lo stato di selezione quando si attiva e disattiva l&#39;interfaccia utente
 * [Path] Consente di eliminare il percorso utilizzando Backspace
 * [Path] Mantieni l&#39;elenco dei percorsi aperto se l&#39;utente lo espande
-* [Path]&#x200B;[Pila di livelli] Rinomina correttamente i duplicati quando si copia o incolla
+* [Path][Pila di livelli] Rinomina correttamente i duplicati quando si copia o incolla
 * Miglioramenti all&#39;interfaccia utente di [Path] e alle descrizioni comandi
 * Prestazioni
 * [Prestazioni] Migliorare le prestazioni della finestra di visualizzazione quando si utilizza un livello di tassellatura elevato
@@ -305,11 +305,11 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Content] Aggiungi 3 nuovi generatori di texture (Tile Random, Triangle Grid, Generatore di Scratches)
 * [Content] Rinomina il modello di motore originale ed esporta i predefiniti
 * Python
-* [Shelf]&#x200B;[Python] Salva materiale intelligente o maschera avanzata su disco da Python
+* [Shelf][Python] Salva materiale intelligente o maschera avanzata su disco da Python
 * [Python] Aggiungi gabbia automatica di cottura all’API Python
 * [Python] Consente di modificare i nomi e le descrizioni dei set di texture/porzioni UV
 * [Python] Condivisione delle impostazioni di risoluzione su sorgenti vettoriali e di font
-* [Auto-update]&#x200B;[Python] Esporre le funzionalità di aggiornamento automatico del progetto in Python
+* [Auto-update][Python] Esporre le funzionalità di aggiornamento automatico del progetto in Python
 * Varie
 * [Esporta] Semplificare l’accesso alle opzioni di invio con un nuovo pannello
 * [Nvidia] Aggiungi un avviso sui driver Nvidia più recenti (572.16)
@@ -321,13 +321,13 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 
 <b>Risolto</b>:
 
-* [Nvidia]&#x200B;[Baking] I risultati del fornaio a occlusione ambientale hanno artefatti
+* [Nvidia][Baking] I risultati del fornaio a occlusione ambientale hanno artefatti
 * [Arresto anomalo] Se si fa clic con il tasto Alt per attivare o disattivare la visibilità del set di texture, si verifica un arresto anomalo
-* [Baking] La gabbia è considerata con il polo basso come param alto
+* [Eseguente i baking] La gabbia è presa in considerazione con poly basso come param poly alto
 * [Baking] Il colore del materiale per il fornaio di mappe ID non funziona con il formato di file USD
 * [Prestazioni] Rendering lento nella finestra della vista con trame e molti oggetti sovrapposti
 * [Qt] Il selettore colore personalizzato incorporato non dispone delle impostazioni di Gestione colore
-* [Finestra vista] Sfarfallio dei manipolatori 3D quando è attivato l’antialiasing
+* [Finestra vista] Sfarfallio dei Manipolatori 3D quando è attivato l’antialiasing
 * Slot in scala di grigio della gomma nello stato del pennello per blocchi maschera
 * [Log] Non vengono segnalati messaggi di errore molto lunghi durante l&#39;importazione delle trame
 * [Content] Errore nell’elenco dei nomi predefiniti nel predefinito dello strumento Topstitch
@@ -338,8 +338,8 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 <b>Problemi noti</b>:
 
 * [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
+* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Crash][Python] Esportazione USD attivata da TextureStateEvent
 * [Engine] Colorare con lo strumento Clona in canali normali si sposta i colori in modo errato
 * [Python] Il widget Ghost viene eliminato se lo script è ancora in funzione
 * [RedHat] Problemi con il selettore colore

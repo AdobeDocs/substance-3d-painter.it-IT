@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ''
-description: Scoprite come creare effetti di filtro specifici per i canali in modo che Substance 3D Painter elabori i singoli canali delle texture.
+description: Scoprite come creare effetti di filtro specifici per i canali in modo che Substance 3D Painter elabori i singoli canali di texture.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > Channel specific filter
 helpx_experience_level: ""
@@ -48,17 +48,17 @@ Per generare l&#39;output di questo componente alfa, creare un nodo di output co
 >
 > È possibile utilizzare **l&#39;utilizzo** o **l&#39;identificatore** in un nodo di input (l&#39;utilizzo ha la priorità).
 
-| Nome canale | Utilizzo | Alpha identificatore/identificatore |
+| Nome canale | Utilizzo | Identificatore/Alpha Identificatore |
 | --- | --- | --- |
 | *Occlusione ambiente* | **occlusioneAmbientale** | **ambientOcclusion/ambientOcclusion\_Alpha** |
-| *Angolo Anisotropia* | **anisotropiangolo** | **anisotropiaAngolo/anisotropiaAngolo\_Alpha** |
-| *Livello Anisotropia* | **anisotropilivello** | **anisotropiaLivello/anisotropiaLivello\_Alpha** |
+| *Angolo di anisotropia* | **anisotropiangolo** | **anisotropiaAngolo/anisotropiaAngolo\_Alpha** |
+| *Livello di anisotropia* | **anisotropilivello** | **anisotropiaLivello/anisotropiaLivello\_Alpha** |
 | *Colore di base* | **colore base** | **baseColor / baseColor\_Alpha** |
 | *Maschera di fusione* | **maschera di fusione** | **maschera di fusione/maschera di fusione\_Alpha** |
 | *Diffusione* | **diffusione** | **diffusione/diffusione\_Alpha** |
 | *Spostamento* | **spostamento** | **spostamento/spostamento\_Alpha** |
 | *Emissivo* | **emissivo** | **emissivo/emissivo\_Alpha** |
-| *Lucentezza* | **lucidità** | **lucidità/lucidità\_Alpha** |
+| *Lucentezza* | **lucentezza** | **lucentezza/lucentezza\_Alpha** |
 | *Height* | **height** | **height/height\_Alpha** |
 | *IOR* | **ior** | **ior / ior\_Alpha** |
 | *Metallico* | **metallico** | **metallizzato/metallizzato\_Alpha** |
@@ -83,7 +83,7 @@ Per generare l&#39;output di questo componente alfa, creare un nodo di output co
 
 ![](../../assets/single-channel.png){width="650px"}
 
-In questo esempio il canale alfa del colore di base viene estratto tramite un nodo in scala di grigio per sovrascrivere il canale **Rugosità**.
+In questo esempio il canale alfa di Colori di base viene estratto tramite un nodo in scala di grigio per sovrascrivere il canale **Rugosità**.
 
 ![](../../assets/mix-channel.png){width="650px"}
 

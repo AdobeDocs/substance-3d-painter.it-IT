@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
 breadcrumb-title: ''
 description: Esaminate il registro delle modifiche di Substance 3D Painter API shader per tenere traccia di aggiornamenti, nuove funzioni e modifiche nel tempo.
 helpx_creative_field: ""
@@ -24,26 +24,26 @@ ht-degree: 3%
 
 ## 2018.3.2
 
-* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md): le funzioni di campionamento utilizzano derivati di texture anziché un semplice livello mipmap. È un requisito fondamentale per il supporto del campionamento delle anisotropie. Funzioni di campionamento: le firme non vengono modificate.
-* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): la firma della funzione *getParallaxOffset* è stata modificata per utilizzare derivati delle texture
+* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md): le funzioni di campionamento utilizzano derivati di texture anziché un livello mipmap semplice. È un requisito fondamentale per il supporto del campionamento delle anisotropie. Funzioni di campionamento: le firme non vengono modificate.
+* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): la firma della funzione *getParallaxOffset* è stata modificata per utilizzare derivati di texture
 
 ## 2018.3.0
 
 * Aggiungi una nuova libreria [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api.md) per visualizzare l&#39;evidenziazione degli specular anisotropi
 * Aggiungi una nuova libreria [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md) per facilitare il campionamento dei canali gestendo la disponibilità delle mipmap
 * Aggiorna le interfacce delle librerie di shader per gestire questo campionamento sicuro
-* **Dichiarazione di obsolescenza**: le funzioni precedenti basate sulle coordinate della texture vec2 e sul campionatore texture sono state dichiarate obsolete (utilizzare nuove firme)
+* **Rimozione**: le funzioni precedenti basate sulle coordinate della texture vec2 e sul campionatore texture sono state dichiarate obsolete (utilizzare nuove firme)
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): aggiungi una funzione *applyParallaxOffset* per semplificare l&#39;uso dell&#39;effetto di occlusione parallax
 * [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md): aggiungete un generatore di valori casuali Blue Noise e alternative temporali
 * [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md): suddividere tutti gli helper di campionamento dei canali per avere sia gli helper di interpretazione dei valori che quelli di campionamento
 
 ## 2018.2.0
 
-* **Modifica API shader di superficie**: la firma della funzione *ombra* è stata modificata. Vedere [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)
+* **Modifica API shader di superficie**: la firma della funzione *ombra* è cambiata, vedere [shader di superficie.glsl](shaders-shader-api/surface-shader-shader-api.md)
 * La funzione *shadeShadow* non è più utilizzata e può essere rimossa in modo sicuro dagli shader di superficie personalizzati
 * Aggiungere il supporto per la dispersione dei sottosuoli, vedere [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md) e [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md) per i dettagli
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): la funzione *pbrComputeBRDF* è stata rimossa. Consulta l&#39;esempio di [pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md) per sapere come utilizzare la libreria ora
-* Sono stati aggiunti nuovi parametri del motore: *texture\_blue\_noise*, *aspetto\_rapporto*, *camera\_vp\_matrix\_inverse*, *ambiente\_esposizione*, *ambiente\_rotazione*, *fovy*, *principale\_luce* e *schermo\_dimensione*. Per ulteriori dettagli, vedere [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
+* Sono stati aggiunti nuovi parametri del motore: *texture\_blu\_rumore*, *aspetto\_rapporto*, *camera\_vp\_matrix\_inverse*, *ambiente\_esposizione*, *ambiente\_rotazione*, *fovy*, *principale\_luce* e *schermo\_dimensioni*. Per ulteriori dettagli, vedere [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 * Aggiungi i metadati *description* per fornire suggerimenti per i parametri dello shader personalizzati
 
 ## 2017.4.2
@@ -83,23 +83,23 @@ ht-degree: 3%
 * Aggiungere un modo per nascondere i parametri personalizzati dall’interfaccia utente dello shader predefinita
 * Aggiungere un collegamento all’elenco dei tag di canale nella documentazione dello shader dei livelli
 * Sostituire il tag &#39;channel\_ao&#39; con &#39;channel\_ambientocclusion&#39;
-* [Riquadro di visualizzazione] Alcune mappe normali presentano valori bloccati che appaiono come artefatti
+* [Riquadro di visualizzazione] Alcune mappe normali hanno valori bloccati che appaiono come artefatti
 * Correggere i canali disponibili nel documento shader
 * Consenti di definire un&#39;interfaccia utente shader personalizzata
 * Aggiungere un’interfaccia utente shader personalizzata standard per gli shader di livelli di materiale
 * La ricerca nei file personalizzati dell’interfaccia utente avviene ora in relazione a una cartella shader/custom-ui negli scaffali (come nel mdl)
 * Usare il canale di specular level negli shader predefiniti
-* Correggi esempio parametri shader vec3
+* Correggi shader di param vec3
 * Aggiornare Painter al profilo principale OpenGL
 
 ## 2.4.0
 
-* Correggere la differenza sulla mappa normale combinata esportata e visualizzata nella finestra della vista
+* Correggere la differenza tra la mappa normale esportata e quella visualizzata nella finestra della vista
 
 ## 2.2.0
 
-* Aggiungere il supporto per le texture senza binding nel materiale generico per le texture non di documento
-* Aggiornamento della documentazione dei cursori dello shader personalizzati
+* Aggiunta del supporto per texture senza binding nel materiale generico per texture non di documento
+* Aggiornamento della documentazione dei cursori di shader personalizzati
 * Consenti di definire la precisione dei passi per i cursori
 * Documentazione per stratificazione dinamica dei materiali
 
@@ -122,13 +122,13 @@ ht-degree: 3%
 
 * Consenti di sovrascrivere le mappe aggiuntive Normale/AO in base al canale dedicato
 * Modificare la funzione Height2Normal per utilizzare il metodo Sobel
-* Aggiungi la possibilità di definire un mdl per shader
+* Aggiungere la possibilità di definire un mdl per shader
 * Aggiungi una nuova cartella mdl nello scaffale
 * Aggiungere i predefiniti dei canali di diffusione e specular level
 * Aggiornamento della documentazione per la mappatura dei toni
-* Correggere i riflessi in modalità ortogonale
+* Correggere i riflessi in modalità ortografica
 * È stato risolto il problema relativo al glitch bianco verticale che veniva visualizzato in una posizione specifica sull’envmap.
-* Consenti di definire &#39;default\_color&#39; per i parametri di texture
+* Consenti di definire &#39;default\_color&#39; per i parametri texture
 
 ## 1.7.0
 
@@ -146,18 +146,18 @@ ht-degree: 3%
 ## 1.4.1
 
 * Tutte le conversioni sRGB seguono lo standard sRGB, ad eccezione di quelle eseguite negli shader che hanno una stretta approssimazione
-* Il canale di height nella mappa Normale viene convertito nello spazio colore errato
+* Il canale height su Mappa normale viene convertito nello spazio colore errato
 
 ## 1.4.0
 
 * Aggiungi canale di occlusione ambiente
 * Aggiungi nuovo flusso di lavoro per edizione normale
-* Aggiungere la sintassi dell’espressione &quot;o&quot; per i parametri automatici relativi alle texture
-* Correzione dello shader pbr per la gpu Intel su OSX
+* Aggiungere la sintassi dell&#39;espressione &#39;or&#39; per i parametri automatici correlati alla texture
+* Correggere lo shader pbr per la gpu Intel su OSX
 
 ## 1.3.4
 
-* Consenti interpolazione binormali nello shader di frammento
+* Consenti interpolazione binormali nello shader del frammento
 * Correggi spazio tangente Mikkt
 
 ## 1.3.3

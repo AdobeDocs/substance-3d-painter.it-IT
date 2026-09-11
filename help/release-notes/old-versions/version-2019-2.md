@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2019.2 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -20,51 +20,51 @@ ht-degree: 1%
 
 # Versione 2019.2
 
-**Substance Painter 2019.2** introduce nuove potenti funzionalità nei suoi forni e offre un nuovo set di materiali intelligenti e maschere intelligenti nello scaffale.
+**Substance Painter 2019.2** introduce nuove potenti funzionalità nei suoi Baker e offre un nuovo set di Materiali avanzati e Maschere avanzate nello scaffale.
 
 Data di pubblicazione: *25 luglio 2019*
 
 ## Caratteristiche principali
 
-### Miglioramenti del flusso di lavoro per i fornai
+### Miglioramenti del flusso di lavoro per i Baker
 
 ![](../../assets/header-image-vizu.jpg)
 
-Il flusso di lavoro di cottura è stato migliorato con questa versione con alcune nuove funzioni. Questi miglioramenti velocizzeranno e semplificheranno il lavoro quotidiano con Substance Painter.
+Il flusso di lavoro di esegue i baking è stato migliorato con questa versione con alcune nuove funzioni. Questi miglioramenti velocizzeranno e semplificheranno il lavoro quotidiano con Substance Painter.
 
-* **Visualizzazione del processo di cottura**\
-  Per impostazione predefinita, con questa nuova versione qualsiasi processo di baking sarà ora visibile nella finestra della vista. Consente di visualizzare in anteprima il risultato dei fornai in tempo reale e persino di annullarlo se necessario senza attendere la fine del processo per offrire iterazioni più rapide. Questo comportamento può essere disattivato accedendo alle impostazioni principali e deselezionando l&#39;impostazione &quot;**Abilita processo di cottura in anteprima dal vivo**&quot; nella sezione &quot;**Opzioni di cottura**&quot;.
+* **Visualizzazione Eseguita i baking del processo**\
+  Per impostazione predefinita, con questa nuova versione qualsiasi eseguo i baking sarà ora visibile nella finestra della vista. Consente di visualizzare in anteprima il risultato dei baker in tempo reale e persino di annullarlo se necessario senza attendere la fine della procedura per offrire iterazioni più rapide. Questo comportamento può essere disattivato accedendo alle impostazioni principali e deselezionando l&#39;impostazione &quot;**Abilita esegue i baking anteprima dal vivo**&quot; nella sezione &quot;**Opzioni di Esegue i baking**&quot;.
 
   ![](../../assets/baking-options-v2.png)
 
   ![](../../assets/bake-process.gif){width="500px"}
-* **Finestra di dialogo relativa alla cottura migliorata**\
-  La finestra di dialogo relativa alla cottura al forno è stata rielaborata e presenta ora uno stato migliore del processo di cottura corrente. Ora è disponibile un contatore che indica quante texture verranno calcolate, nonché un elenco esplicito per panettiere e set di texture di ciò che viene calcolato. In caso di errore, accanto al nome del fornaio viene visualizzata una croce rossa. Al termine del processo un nuovo pulsante consente di aprire rapidamente la finestra di registro per saperne di più sul problema.\
+* **Finestra di dialogo di esegue i baking migliorata**\
+  La finestra di dialogo di esegue i baking è stata rielaborata e presenta ora uno stato migliore della esegue i baking corrente. Ora è disponibile un contatore che indica quante texture verranno calcolate, nonché un elenco esplicito per baker e set di texture di ciò che viene calcolato. In caso di errore, accanto al nome del baker viene visualizzata una croce rossa. Al termine del processo un nuovo pulsante consente di aprire rapidamente la finestra di registro per saperne di più sul problema.\
   ![](../../assets/baking-dialog.png)
-* **Annullamento della cottura in corso** Il processo di cottura non blocca più l&#39;applicazione. La Substance Painter è ora più reattiva, il che significa che è possibile annullare un bake attualmente in corso senza attendere che finisca. L’annullamento non è tuttavia immediato e potrebbe richiedere alcuni secondi per avere effetto. Questo perché internamente il processo di cottura al forno funziona sulle texture nei blocchi e non può arrestarsi durante il calcolo di un blocco. Quando si annulla il processo di cottura al forno, la finestra di cottura si riapre automaticamente.\
+* **Annullamento della esegue i baking in corso** La esegue i baking non blocca più l&#39;applicazione. La Substance Painter è ora più reattiva, il che significa che è possibile annullare un eseguo i baking attualmente in corso senza attendere che termini. L’annullamento non è tuttavia immediato e potrebbe richiedere alcuni secondi per avere effetto. Ciò è dovuto al fatto che internamente il processo di esegue i baking funziona sulle texture nei blocchi e non può arrestarsi durante il calcolo di un blocco. Quando si annulla la esegue i baking, la finestra di Esegue i baking si riapre automaticamente.\
   ![](../../assets/baking-cancel-optim.gif)
 
-### Miglioramenti delle prestazioni per i panettieri
+### Miglioramenti delle prestazioni per i Baker
 
 ![](../../assets/header-image-baker.jpg)
 
-Con il miglioramento del flusso di lavoro abbiamo anche colto l&#39;occasione per aggiornare i nostri fornai e migliorare le loro prestazioni. Abbiamo aggiunto anche il supporto di DXR e Optix per abilitare il Raytracing GPU che consente di cuocere molto più velocemente di prima. Tuttavia, il Raytracing GPU influisce solo sull’Occlusione ambiente e sul fornaio di Thickness.
+Con il miglioramento del flusso di lavoro, abbiamo anche approfittato dell&#39;opportunità di aggiornare i nostri Baker e migliorare le loro prestazioni. Abbiamo inoltre aggiunto il supporto di DXR e Optix per consentire il Raytracing GPU, che consente di eseguire i baking molto più velocemente di prima. Tuttavia, il Raytracing GPU ha effetto solo sull’Occlusione ambientale e sul baker del Thickness.
 
-* **Il Raytracing della CPU è stato migliorato**\
-  Il calcolo del ray tracing sulla CPU è ora da 2 a 3 volte più veloce di prima. Pertanto, anche se la GPU non è compatibile con Raytracing GPU, in generale si ottengono comunque miglioramenti delle prestazioni.
+* **Il Raytracing CPU è stato migliorato**\
+  Il calcolo del raytracing sulla CPU è ora da 2 a 3 volte più veloce di prima. Pertanto, anche se la GPU non è compatibile con Raytracing GPU, in generale si ottengono comunque miglioramenti delle prestazioni.
 * **Raytracing GPU supporto con DXR e Optix**\
-  Grazie all&#39;hardware compatibile, i produttori possono ora elaborare direttamente i dati sulla GPU, riducendo drasticamente i tempi di calcolo, in particolare quando è attivato l&#39;anti-alias e vengono definiti molti raggi. DXR è l&#39;opzione predefinita quando disponibile, altrimenti verrà utilizzato Optix. È possibile disattivare il Raytracing GPU accedendo alle [impostazioni principali](../../interface/settings/settings.md) e cercando &quot;**Opzioni di cottura**&quot;:
+  Grazie all&#39;hardware compatibile, i baker possono ora eseguire il calcolo direttamente sulla GPU, riducendo drasticamente i tempi di calcolo, in particolare quando è attivato l&#39;antialiasing e vengono definiti molti raggi. DXR è l&#39;opzione predefinita quando disponibile, altrimenti verrà utilizzato Optix. È possibile disattivare il Raytracing GPU accedendo alle [impostazioni principali](../../interface/settings/settings.md) e cercando &quot;**opzioni di Esegue i baking**&quot;:
 
   ![](../../assets/baking-options-v2.png)
 
 >[!NOTE]
 >
 > Per abilitare la funzione Raytracing GPU, assicurati di eseguire l&#39;aggiornamento ai seguenti driver: **Driver Nvidia 430.86**.\
-> DXR è disponibile su GPU RTX e [GPU GeForce GTX 10xx](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/). DXR richiede inoltre che Windows 10 sia aggiornato per essere accessibile (versione 1809). Per ulteriori informazioni, consultate questa pagina.
+> L&#39;DXR è disponibile nelle GPU RTX e nelle [GPU GeForce GTX 10xx](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/). Per essere accessibile, l’DXR richiede anche che Windows 10 sia aggiornato (versione 1809). Per ulteriori informazioni, consulta questa pagina.
 
 >[!WARNING]
 >
-> Quando si utilizza Raytracing GPU, il fornaio potrebbe non riuscire se la trama ad alto poli non può essere contenuta in VRam. Quando si verifica questo problema, è consigliabile accedere alle [impostazioni principali](../../interface/settings/settings.md) e disattivare l&#39;impostazione &quot;**Raytracing GPU**&quot; nella sezione &quot;**Opzioni di cottura**&quot;. Dopodiché, potete semplicemente riavviare il processo di cottura al forno.
+> Quando si utilizza Raytracing GPU, il baker potrebbe non funzionare se la trama ad alto poli non può essere contenuta in VRam. Quando si verifica questo problema, è consigliabile accedere alle [impostazioni principali](../../interface/settings/settings.md) e disattivare l&#39;impostazione &quot;**Raytracing GPU**&quot; nella sezione &quot;**Opzioni di Esegue i baking**&quot;. Dopodiché, puoi semplicemente riavviare la procedura di esegue i baking.
 
 ### Nuove funzioni e miglioramenti vari
 
@@ -72,7 +72,7 @@ Con il miglioramento del flusso di lavoro abbiamo anche colto l&#39;occasione pe
 
 In questa versione abbiamo anche aggiunto e rielaborato alcune cose per migliorare la qualità della vita all’interno della Substance Painter.
 
-* **Manipolatore di rotazione migliorato**\
+* **manipolatore di rotazione migliorato**\
   Il manipolatore di rotazione era un po&#39; lento in passato, rendendo le rotazioni a volte noiose da eseguire. La velocità di rotazione è ora collegata alla fotocamera e alle dimensioni della scena.
 * **Prestazioni migliorate su schermi ad alto DPI con downscaling della finestra della vista**\
   Nelle [impostazioni principali](../../interface/settings/settings.md) è ora disponibile un nuovo parametro denominato &quot;Ridimensionamento finestra vista&quot; con il valore &quot;**Nessuno**&quot; e &quot;**Automatico**&quot; (impostazione predefinita). Quando Substance Painter rileva che uno schermo utilizza il ridimensionamento HDPI (ad esempio schermi Retina su MacOS), divide automaticamente la risoluzione della finestra della vista per 2. In questo modo si evita di ingrandire eccessivamente la finestra della vista e si migliorano le prestazioni generali senza alcuna perdita di qualità evidente.
@@ -87,9 +87,9 @@ In questa versione abbiamo anche aggiunto e rielaborato alcune cose per migliora
 
 ![](../../assets/header-image-content.jpg)
 
-Un nuovo set di materiali intelligenti e maschere intelligenti è stato aggiunto allo scaffale predefinito per coprire vari usi. Di seguito è riportato l&#39;elenco completo delle risorse aggiunte:
+Al Ripiano predefinito è stato aggiunto un nuovo set di Materiali avanzati e Maschere avanzate per coprire vari utilizzi. Di seguito è riportato l&#39;elenco completo delle risorse aggiunte:
 
-* **40 nuovi materiali avanzati**
+* **40 nuovi Materiali avanzati**
 
   * Tessuto
     * Area di lavoro tessuto piegata
@@ -157,7 +157,7 @@ Un nuovo set di materiali intelligenti e maschere intelligenti è stato aggiunto
   * Edge Stone Crepe
   * Bordi con graffi marcati
   * Thread infrastruttura
-  * Dipinto danneggiato
+  * Pittura danneggiata
   * Disegna graffio discreto
   * Cavità sabbia
   * Dust sabbia
@@ -180,7 +180,7 @@ Riepilogo: **Bugfix**
 **Corretto:**
 
 * [Plugin] L&#39;origine del plug-in non funziona
-* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 e AMD: la creazione di livelli di materiale non funziona come previsto
+* [MacOS][Shader] Mac OS 10.14.5 e AMD: la creazione di livelli di materiale non funziona come previsto
 
 **Problemi noti:**
 
@@ -195,8 +195,8 @@ Riepilogo: **Bugfix**
 
 **Corretto:**
 
-* L’importazione di risorse tramite script può causare un arresto anomalo
-* [Plugin] Il download di materiale dall’origine può causare un arresto anomalo
+* L&#39;importazione di risorse tramite script può provocare un arresto anomalo
+* [Plugin] Il download di materiale dall’origine può provocare un arresto anomalo
 
 ### 2019.2.1
 
@@ -205,13 +205,13 @@ Riepilogo: **Bugfix**
 
 **Corretto:**
 
-* [Mac]&#x200B;[USD] Impossibile aprire i file USDZ esportati da MacOS
+* [Mac][USD] Impossibile aprire i file USDZ esportati da MacOS
 * [Set di texture] Impossibile isolare un set di texture con il modificatore ALT
-* [Shelf] I predefiniti, i materiali avanzati e le maschere intelligenti vengono sempre modificati quando si esce dall’applicazione
+* [Shelf] I predefiniti, i Materiali avanzati e le Maschere avanzate vengono sempre modificati quando si esce dall’applicazione
 * [Serie di livelli] Impossibile selezionare l’effetto dopo aver eliminato un altro effetto
 * Sfarfallio quando si utilizza un cursore all’interno del pannello delle proprietà dello strumento
 * Arresto anomalo durante l’esportazione dei predefiniti nello scaffale
-* Arresto anomalo durante l’esportazione di un predefinito con spazio insufficiente
+* Arresto anomalo quando si esporta un predefinito con spazio insufficiente
 * Arresto anomalo durante la creazione di un predefinito con spazio insufficiente
 
 **Problemi noti:**
@@ -223,19 +223,19 @@ Riepilogo: **Bugfix**
 ### 2019.2
 
 *(Rilasciato il 25 luglio 2019)*\
-Riepilogo: **Versione principale con aggiornamenti dei forni in termini di prestazioni e una nuova modalità di previsualizzazione + nuovi contenuti**
+Riepilogo: **Versione principale con aggiornamenti dei baker in termini di prestazioni e una nuova modalità di previsualizzazione + nuovi contenuti**
 
 **Aggiunto:**
 
-* [Bakers] Aggiunto il supporto per Raytracing GPU con DXR e OptiX (Occlusione ambientale, Thickness)
+* [Baker] È stato aggiunto il supporto per Raytracing GPU con DXR e OptiX (Occlusione ambientale, Thickness)
 * [Baker] Ottimizzazioni e accelerazioni per il Raytracing della CPU
-* [Bakers]&#x200B;[Vis mode]&#x200B;[UI] Nuova modalità di visualizzazione baking nella finestra della vista
-* [Bakers]&#x200B;[Preferenze]&#x200B;[UI] Nuova opzione baking per abilitare-disabilitare Raytracing GPU
-* [Pannelli]&#x200B;[UI] Rielaborazione della finestra di dialogo barra di avanzamento
+* [Bakers][Vis mode][UI] Nuova modalità di visualizzazione baking nella finestra della vista
+* [Bakers][Preferenze][UI] Nuova opzione baking per abilitare-disabilitare Raytracing GPU
+* [Baker][UI] Rielaborazione della finestra di dialogo barra di avanzamento
 * [Bakers] Miglioramento dei messaggi di avviso e di errore
 * [Panettieri] Consenti una cancellazione più reattiva del processo di cottura al forno
-* [Bakers] Riapri la finestra del bake dopo aver fatto clic su Annulla
-* [Proj]&#x200B;[UX] Miglioramento dell&#39;usabilità del manipolatore di rotazione
+* [Baker] Riapri la finestra di esegue i baking dopo aver fatto clic su Annulla
+* [Proj][UX] Miglioramento dell&#39;usabilità del manipolatore di rotazione
 * [Settings] Opzione per migliorare le prestazioni riducendo la risoluzione del viewport per schermi HDPI
 * [Scripting] Modificare la risoluzione del set di texture
 * [Scripting] Ottieni set di texture selezionato
@@ -246,11 +246,11 @@ Riepilogo: **Versione principale con aggiornamenti dei forni in termini di prest
 
 **Corretto:**
 
-* [Serie di livelli] Blocco dell’interfaccia utente durante la selezione multipla dei livelli
+* [Pila livelli] Blocco dell’interfaccia utente durante la selezione multipla dei livelli
 * [Serie di livelli] Il raggruppamento di numerosi livelli blocca l’interfaccia utente per un tempo più lungo del solito
-* [Pila di livelli] In alcuni casi è possibile selezionare contemporaneamente un livello e un effetto
+* [Pila livelli] In alcuni casi è possibile selezionare contemporaneamente un livello e un effetto
 * I grafici delle Substance utilizzati negli strumenti di pittura non vengono generati alla risoluzione giusta
-* [Baker] Il pulsante &quot;Crea in forno tutti i set di texture&quot; non è disattivato quando non è selezionato alcun panettiere
+* [Baker] Il pulsante &quot;Esegue i baking tutti i set di texture&quot; non è disattivato quando non è selezionato alcun baker
 * [MacOS] Disattiva il messaggio di avviso sulla tassellatura
 * Lo strumento Proiezione non ha un’anteprima quando viene utilizzato con una maschera
 * Arresto anomalo e danneggiamento dei progetti durante il tentativo di salvataggio con spazio su disco insufficiente

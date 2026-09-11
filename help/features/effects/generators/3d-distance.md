@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_3d_distance.webp" alt=""/><br><strong>In:</strong> maschera, generatore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di distanza 3D definisce un punto nello spazio 3D (punto di origine) e visualizza la distanza da tale punto con una sfumatura monocromatica. Le aree della superficie della trama più vicine al punto sono più scure e le aree più lontane sono più chiare (per impostazione predefinita).<br><br>È necessaria una mappa di posizione al forno come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.<br><br>La distanza 3D genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere che creano una sfumatura lontano da una determinata posizione.<br><br></td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di distanza 3D definisce un punto nello spazio 3D (punto di origine) e visualizza la distanza da tale punto con una sfumatura monocromatica. Le aree della superficie della trama più vicine al punto sono più scure e le aree più lontane sono più chiare (per impostazione predefinita).<br><br>È necessaria una mappa di posizione eseguita i baking come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni su come eseguire i baking qui</a>.<br><br>Con Distanza 3D viene generata una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere che creano una sfumatura lontano da una determinata posizione.<br><br></td>
   </tr>
 </table>
 
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| **Posizione** | Utilizzate la mappa di posizione al forno per calcolare la distanza. |
+| **Posizione** | Utilizza la mappa Posizione eseguita i baking per calcolare la distanza. |
 
 ## Parametri
 
 | Nome parametro | Descrizione |
 | --- | --- |
 | **Inverti** | Invertite la sfumatura. |
-| **Posizione X** | Trasformate il punto sorgente lungo l&#39;asse x. |
-| **Posizione Y** | Trasformate il punto sorgente lungo l&#39;asse y. |
-| **Posizione Z** | Trasformate il punto sorgente lungo l&#39;asse Z. |
+| **Posizione X** | Trasforma il punto sorgente lungo l&#39;asse x. |
+| **Posizione Y** | Trasforma il punto sorgente lungo l’asse y. |
+| **Posizione Z** | Trasforma il punto sorgente lungo l’asse z. |
 | **Raggio** | Regolate le dimensioni del decadimento della distanza. |
 | **Scostamento** | Spostate le posizioni iniziale e finale della sfumatura verso o lontano dal punto sorgente. Se ci si allontana dal punto sorgente (aumentando lo scostamento), si ottiene un’area scura più grande vicino al punto sorgente. Se ci si avvicina al punto sorgente, la sfumatura viene schiarita e potenzialmente la si rimuove completamente se **Scostamento** è impostato su 0. |
 | **Contrasto** | Regolate il contrasto della sfumatura sferica. |

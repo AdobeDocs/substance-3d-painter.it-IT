@@ -22,7 +22,7 @@ Data di pubblicazione: <b>22 giugno 2026</b>
 
 ## Funzioni principali
 
-### Flusso di lavoro di cottura migliorato con l’inclinazione della pittura
+### Flusso di lavoro di esegue i baking migliorato con l’inclinazione
 
 ![](../assets/v12/v12_banner_skew.jpg)
 
@@ -30,13 +30,13 @@ Il flusso di lavoro di cottura è stato rielaborato per supportare il rebaking c
 
 * <b>Riattivazione automatica</b>
 
-  Una mappa di trama può essere rimodellata in modo continuo quando i parametri di cottura vengono regolati, eliminando la necessità di attivare manualmente un forno dopo ogni modifica. Il rebake automatico viene attivato automaticamente per ogni mappa e viene applicato a una singola mappa alla volta. Ciò è particolarmente utile per il flusso di lavoro di pittura dell’inclinazione, ma anche quando si regolano le impostazioni generali della cottura.
+  Una mappa di trama può essere rimodellata in modo continuo quando i parametri di cottura vengono regolati, eliminando la necessità di attivare manualmente un forno dopo ogni modifica. Il rebake automatico viene attivato automaticamente per ogni mappa e viene applicato a una singola mappa alla volta. Ciò è particolarmente utile per il flusso di lavoro di inclinazione, ma anche quando si regolano le impostazioni generali della esegue i baking.
 
   ![](../assets/v12/v12_auto_rebake.png)
 
 * <b>Colorazione correzione inclinazione</b>
 
-  Quando la gabbia è impostata sulla modalità <b>Distanza</b>, le correzioni dell&#39;inclinazione possono essere dipinte direttamente sulla trama a basso poli per controllare la direzione di proiezione utilizzata durante la cottura. Sono disponibili gli strumenti di riempimento pennello, gomma e poligono, con un selettore di valori in scala di grigi compatto, simmetria e i normali controlli del pennello (<b>Ctrl + clic con il pulsante destro del mouse</b> per ridimensionare il pennello, <b>X</b> per invertirne il valore). Le azioni di pittura con inclinazione possono essere annullate.
+  Quando la gabbia è impostata sulla modalità <b>Distanza</b>, le correzioni dell&#39;inclinazione possono essere dipinte direttamente sulla trama a basso poli per controllare la direzione di proiezione utilizzata durante la esegue i baking. Sono disponibili gli strumenti di riempimento pennello, gomma e poligono, con un selettore di valori in scala di grigi compatto, simmetria e i normali controlli del pennello (<b>Ctrl + clic con il pulsante destro del mouse</b> per ridimensionare il pennello, <b>X</b> per invertirne il valore). Le azioni di pittura con inclinazione possono essere annullate.
 
   ![](../assets/v12/v12_skew_fix_rebake.gif)
 
@@ -54,7 +54,7 @@ Il flusso di lavoro di cottura è stato rielaborato per supportare il rebaking c
 
 * <b>Pulsante per la cottura al forno semplificato</b>
 
-  Il pulsante bake nella finestra della vista è stato sostituito con un singolo pulsante <b>Bake</b> che visualizza il numero di mappe da eseguire (set di texture x porzioni UV x mappe mesh selezionate).
+  Il pulsante di esegue i baking viewport è stato sostituito con un singolo pulsante <b>Esegue i baking</b> che visualizza il numero di mappe da eseguire i baking (set di texture x Porzioni UV x mappe mesh selezionate).
 
   ![](../assets/v12/v12_bake_button.png)
 
@@ -68,9 +68,9 @@ Il flusso di lavoro di cottura è stato rielaborato per supportare il rebaking c
 
 Il modello di ombreggiatura è ora supportato in Painter ed è utilizzato come flusso di lavoro predefinito, fornendo una definizione di materiale standardizzata che può essere trasportata tra le applicazioni.
 
-* <b>Nuovo OpenPBR e flusso di lavoro predefinito</b>
+* <b>Nuovo shader di OpenPBR e flusso di lavoro predefinito</b>
 
-  Per impostazione predefinita, è disponibile e utilizzato uno shader che implementa la specifica OpenPBR 1.1. Un nuovo progetto creato senza un modello utilizza l&#39;OpenPBR shader e la prima voce della finestra del nuovo progetto è ora denominata <b>OpenPBR</b> anziché <b>ASM</b>. Sono inclusi nuovi modelli di progetto per l&#39;OpenPBR e i progetti di esempio sono stati aggiornati per utilizzarli.
+  Per impostazione predefinita è disponibile e utilizzato uno shader che attua la specifica di cui all&#39;OpenPBR 1.1. Un nuovo progetto creato senza un modello utilizza lo shader OpenPBR e la prima voce della finestra del nuovo progetto è ora denominata <b>OpenPBR</b> anziché <b>ASM</b>. Sono inclusi nuovi modelli di progetto per l&#39;OpenPBR e i progetti di esempio sono stati aggiornati per utilizzarli.
 
   ![](../assets/v12/v12_openpbr_shader_icon.jpg)
 
@@ -82,13 +82,13 @@ Il modello di ombreggiatura è ora supportato in Painter ed è utilizzato come f
 
 * <b>Convenzione di denominazione dell&#39;OpenPBR per l&#39;esportazione</b>
 
-  Nella finestra <b>Esporta texture</b> è disponibile un nuovo menu a discesa per scegliere la convenzione di denominazione. Il valore predefinito è OpenPBR quando viene utilizzato da almeno uno shader del progetto e lo schema selezionato viene visualizzato nell&#39;elenco delle mappe di ciascun set di texture.
+  Nella finestra <b>Esporta Texture</b> è disponibile un nuovo menu a discesa per scegliere la convenzione di denominazione. Il valore predefinito è OpenPBR quando viene utilizzato da almeno uno shader del progetto e lo schema selezionato viene visualizzato nell&#39;elenco delle mappe di ciascun set di texture.
 
   ![](../assets/v12/v12_openpbr_export.png)
 
 * Supporto per <b>USD e MDL</b>
 
-  I materiali di OpenPBR sono supportati tramite il formato USD. È stata inoltre aggiunta una nuova MDL per consentire il rendering dei materiali di OpenPBR in Iray, fornendo rappresentazioni dei materiali più accurate.
+  Il materiale OpenPBR è supportato tramite il formato USD. È stata inoltre aggiunta una nuova MDL per consentire il rendering dei materiali di OpenPBR in Iray, fornendo rappresentazioni dei materiali più accurate.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ In questa versione sono state aggiunte funzioni e miglioramenti aggiuntivi:
 
 * <b>Cronologia unificata di annullamento</b>
 
-  Le modalità di cottura e pittura ora condividono la stessa cronologia di annullamento. Il passaggio dalla modalità Baking a Paint è registrato come un passaggio non modificabile, quindi le azioni possono essere annullate solo nella modalità in cui si sono verificate.
+  Le modalità di esegue i baking e disegno condividono ora la stessa cronologia di annullamento. Il passaggio dalla modalità di Esegue i baking a quella di Pittura è registrato come un passaggio impossibile, quindi le azioni possono essere annullate solo nella modalità in cui si sono verificate.
 
 ## Tutorial
 
@@ -163,7 +163,7 @@ Riepilogo: **Versione secondaria**
 **Corretto:**
 
 * [Il selettore scala di grigi] rimane aperto dopo aver modificato lo strumento
-* [Inclina al forno] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
+* [Inclina Eseguita i baking] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
 * [L&#39;interazione dello strumento di proiezione] nella finestra della vista è bloccata dallo strumento di proiezione
 * [Traccia dinamica] Parametri di traccia dinamica mancanti nelle proprietà del pennello
 * L’esportazione in rete non funziona più
@@ -176,12 +176,12 @@ Riepilogo: **Versione secondaria**
 
 **Corretto:**
 
-* \[Arresto anomalo\] Alcune Substance possono causare un arresto anomalo durante il rendering
-* \[Arresto anomalo\] Reimporta trama in modalità cottura al forno
-* \[Arresto anomalo\] Un errore di inizializzazione della visualizzazione della grafica può causare un arresto anomalo
-* \[Arresto anomalo\] Durante l’aggiornamento del registro, in alcuni casi l’esportazione delle texture può bloccarsi
-* \[Arresto anomalo\] Arresto anomalo in modalità cottura in alcuni casi durante il caricamento/aggiornamento della mappa dell&#39;ambiente
-* \[Baking\] Il riavvio di bake dopo la modifica del file di poly elevato può provocare un blocco
+* \[Arresto anomalo\] Alcune Substance possono generare un arresto anomalo durante il rendering
+* \[Arresto anomalo\] Reimporta trama in modalità di esegue i baking
+* \[Arresto anomalo\] Un errore di inizializzazione della visualizzazione grafica può provocare un arresto anomalo
+* \[Arresto anomalo\] L&#39;esportazione di texture può verificarsi in alcuni casi durante l&#39;arresto anomalo del registro
+* \[Arresto anomalo\] Arresto anomalo in modalità di esegue i baking in alcuni casi durante il caricamento/aggiornamento della mappa dell&#39;ambiente
+* \[Eseguo i baking\] Il riavvio del eseguo i baking dopo la modifica del file di criteri alti può provocare un blocco
 * \[Invia a Photoshop\] Non riesce a esportare la maschera di livello
 * Il risultato del punto di ancoraggio \[Motore\] non viene visualizzato tra una maschera e un canale di colore
 
@@ -193,19 +193,19 @@ Riepilogo: versione secondaria
 
 Aggiunto:
 
-* [Inclina al forno] Modo normale base di inclinazione esposta: mesh o per triangle
-* [Proprietà] Rendi i colori uniformi sempre ripristinati al valore predefinito del canale
-* [OpenPBR] Raggruppare i canali per categorie nella finestra Esporta texture per la creazione di modelli di output
+* [Inclina in Eseguita i baking] Esposizione inclina base modalità normale: trama o per triangolo
+* [Proprietà] I colori uniformi vengono sempre ripristinati al valore predefinito del canale
+* [OpenPBR] Raggruppare i canali in base alle categorie nella finestra Esporta Texture per la creazione di modelli di output
 * Aggiornamento del motore di Substance alla versione 9.4.5
 
 Fisso:
 
 * [Il progetto] L&#39;apertura e il salvataggio di alcuni progetti può richiedere più tempo del solito
-* [Arresto anomalo] Il ricaricamento di più trame può causare un arresto anomalo
-* [Arresto anomalo] L’eliminazione di un canale in modalità di visualizzazione maschera causa un arresto anomalo
-* [Arresto anomalo] Alcune Substance possono causare un arresto anomalo durante il rendering
-* [Inclina inclinazione] lo strumento selezionato in inclina rimane selezionato dopo il passaggio alla modalità di disegno
-* [Impostazioni comuni di cottura] Le impostazioni della distanza di gabbia non aggiornano la visualizzazione di cage wireframe e shader
+* [Arresto anomalo] Il ricaricamento di più trame può provocare un arresto anomalo
+* [Arresto anomalo] L&#39;eliminazione di un canale in modalità di visualizzazione maschera genera un arresto anomalo
+* [Arresto anomalo] Alcune Substance possono generare un arresto anomalo durante il rendering
+* [Pittura inclinazione] Lo strumento selezionato in pittura inclinazione rimane selezionato dopo il passaggio alla modalità di disegno
+* [Esegue i baking delle impostazioni comuni] Le impostazioni di distanza della gabbia non aggiornano la visualizzazione di wireframe e shader della gabbia
 * La modalità &quot;Vicina spazio 3D&quot; del riempimento UV del [Motore] non funziona correttamente su triangoli sottili
 * Il risultato del punto di ancoraggio [del motore] non viene visualizzato tra una maschera e un canale di colore
 
@@ -213,7 +213,7 @@ Fisso:
 
 Data di pubblicazione: <b>2026/06/23</b>
 
-Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglioramenti dei forni con il nuovo stato dell&#39;interfaccia utente predefinito di cottura al forno, la mappa di inclinazione del disegno, il rebake automatico, la nuova opzione per lo srotolamento UV automatico per trame e OpenPBR su superfici dure. Per ulteriori dettagli, vedere le note sulla versione complete.</b>
+Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglioramenti a livello di baker con il nuovo stato predefinito dell’interfaccia utente eseguito i baking, la mappa di inclinazione del colore, il rebake automatico, la nuova opzione per lo srotolamento UV automatico per trame e OpenPBR hardsurface. Per ulteriori dettagli, vedere le note sulla versione complete.</b>
 
 <b>Aggiunto</b>:
 
@@ -236,37 +236,37 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 * [OpenPBR] Esportare materiali e texture di OpenPBR tramite USD
 * [OpenPBR] Aggiornare la finestra Esporta texture per visualizzare la convenzione di denominazione dell&#39;OpenPBR
 * [OpenPBR] Aggiungi documentazione sulle modifiche all’OpenPBR di supporto
-* [OpenPBR]&#x200B;[Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
+* [OpenPBR][Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
 * Diversi miglioramenti minori delle esportazioni in USD
 * [UI] Aggiungete un avviso nella finestra della vista quando tentate di colorare su un altro set di texture
 * [Appiattisci] Consenti di appiattire tutti i livelli istanziati tra set di texture
 * [Impostazioni set texture] Consente di selezionare più canali contemporaneamente tramite una nuova finestra
 * [History] Aggiornare il &quot;valore&quot; della voce Annulla per riflettere il nome del parametro
-* [Pila di livelli] Rendi gli effetti di riempimento nelle maschere predefiniti sul bianco (1,0)
+* [Pila livelli] Rendi gli effetti di riempimento nelle maschere predefiniti sul bianco (1,0)
 * [Substance] Aggiungi nuovo input mappa motore &quot;mesh_hard_edges_triangle&quot;
 * [Substance] Aggiungi nuovo input mappa motore &quot;mesh_hard_edges&quot;
-* [Shader] Impedire alle istanze dello shader di condividere gli stessi nomi
-* [Shader] Utilizza lo shader dal modello di progetto quando importi un file USD o GLTF
+* [Shader] Impedisci la condivisione degli stessi nomi da parte delle istanze shader
+* [Shader] Utilizza lo shader del modello di progetto durante l&#39;importazione di un file USD o GLTF
 * Aggiornamento dell&#39;Adobe Color Engine alla versione 7.0
 * Aggiornamento della versione minima MacOSX alla versione 13.0 (Ventura)
 * [Content] Nuovi modelli di progetto per l&#39;OpenPBR
-* [Content] Aggiorna i progetti di esempio per utilizzare il nuovo OpenPBR shader
+* [Content] Aggiorna i progetti di esempio per utilizzare il nuovo shader di OpenPBR
 * [Python] Espandi l’API maschera geometria per consentire le modalità di inclusione ed esclusione, come nell’interfaccia utente
 
 <b>Risolto</b>:
 
-* [Arresto anomalo]&#x200B;[Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
-* [Arresto anomalo] Quando si cuoce la curvatura dalla mappa senza spazio mondo normale
-* [Arresto anomalo]&#x200B;[Baking] Il baking con una gabbia personalizzata abilitata ma nessun file selezionato si arresta in modo anomalo
-* [Arresto anomalo] Annullamento della cottura automatica
+* [Arresto anomalo][Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
+* [Arresto anomalo] Quando si esegue i baking la curvatura da una mappa senza spazio mondo normale
+* [Arresto anomalo][Esegue i baking] Esegue i baking con gabbia personalizzata abilitata ma nessun file selezionato arresti anomali
+* [Arresto anomalo] Annullamento della esegue i baking di AO
 * [Auto-Cage] Caricamento infinito quando il percorso del file di tipo High Poly non è valido
-* [Linux]&#x200B;[Windows] Il selettore colore a volte può essere completamente nero o non apparire
+* [Linux][Windows] Il selettore colore a volte può essere completamente nero o non apparire
 * [Strumento Riempimento poligonale] Lo strumento non funziona con file non PBR
-* &lbrack;[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
-* [USD] Le istanze dello shader non vengono tutte rilevate correttamente
+* [[Pittura] L’eliminazione del canale del colore di base non elimina il colore colorato in precedenza
+* [USD] Le Istanze shader non vengono tutte rilevate correttamente
 * [Substance] Viene preso in considerazione solo il primo utilizzo di un nodo di input/output
-* [Shader] L’Occlusione Ambiente viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
-* [Engine] Le texture normali con canale blu vuoto (nero) possono produrre risultati di fusione errati
+* L’Occlusione ambientale [Shader] viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
+* [Engine] Una texture normale con canale blu vuoto (nero) può produrre risultati di fusione errati
 * [Importazione GLTF] La fusione di Alpha è abilitata su ogni set di texture
 * [Esportazione GLTF] La fusione di Alpha è sempre abilitata all&#39;esportazione
 * [Esporta] La geometria a due lati è sempre disattivata durante l&#39;importazione di un file GLTF

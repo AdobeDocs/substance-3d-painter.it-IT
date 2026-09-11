@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_dirt.webp" alt=""/><br><strong>In:</strong> maschera, generatore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Dirt aggiunge un accumulo realistico di dirt e grunge in fessure, bordi e superfici piane in base alla curvatura e all'occlusione ambientale. Facoltativamente, puoi anche utilizzare le mappe Micro Height e Micro Normal per aggiungere più dettagli.<br><br>Il generatore di Dirt genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile generare delle maschere per aggiungere dettagli di dirt o grunge al modello.<br><br>Per l'input dell'immagine sono necessarie mappe normali di posizione, curvatura, occlusione ambientale e spazio globale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Dirt aggiunge un accumulo realistico di dirt e grunge in fessure, bordi e superfici piane in base alla curvatura e all'occlusione ambientale. Facoltativamente, puoi anche utilizzare Micro Height e Micro Mappa normale per aggiungere ulteriori dettagli.<br><br>Il generatore di Dirt emette una texture monocromatica (in bianco e nero). Di conseguenza, è utile generare delle maschere per aggiungere dettagli di dirt o grunge al modello.<br><br>Sono necessarie mappe Eseguite i baking di posizione, curvatura, occlusione ambientale e spazio globale come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -26,12 +26,12 @@ ht-degree: 1%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| **Occlusione ambiente** Scala di grigi | Utilizzate la mappa di Occlusione ambiente cotta. |
-| Colore **Spazio globale normale** | Utilizzate la mappa standard di World Space. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| **Occlusione ambientale** Scala di grigi | Usa la mappa di Occlusione ambientale eseguita i baking. |
+| Colore **Spazio globale normale** | Utilizzare la mappa eseguita i baking World Space Normals. |
 | Colore **Posizione** | Utilizzate la mappa di posizione al forno. |
 | **grunge personalizzata** in scala di grigi | Usate una texture personalizzata o un punto di ancoraggio. |
-| Colore **Micro-Normale** | Usate una texture normale personalizzata o un punto di ancoraggio. |
+| Colore **Micro-Normale** | Utilizzate una texture normale personalizzata o un punto di ancoraggio. |
 | Colore **Micro Height** | Usate una texture personalizzata o un punto di ancoraggio. |
 
 ## Parametri
@@ -59,11 +59,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Usa triplanare</strong></td>
-    <td>Quando Triplanare è attivato, la texture viene proiettata da tre direzioni (assi X, Y, Z) invece di fare affidamento solo sugli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando Triplanare è attivato, la texture viene proiettata da tre direzioni (assi X, Y, Z) invece di basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto fusione triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. Regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. Regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
   <tr>
     <td><strong>Quantità grungi</strong></td>
@@ -92,11 +92,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa di Micro Height personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una mappa personalizzata dell'altezza della micro.</td>
   </tr>
   <tr>
     <td><strong>Micro Normale</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa Micro Normal personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una Micro Mappa normale personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Tipo curvatura</strong></td>
@@ -112,10 +112,10 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Raggio AO</strong></td>
-    <td>Regola il raggio (intervallo) dell'Occlusione Ambiente nei micro dettagli.</td>
+    <td>Regolate il raggio (intervallo) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
   <tr>
     <td><strong>PROFONDITÀ AO</strong></td>
-    <td>Regola la profondità (intensità) dell'Occlusione ambiente nei micro dettagli.</td>
+    <td>Regolate la profondità (intensità) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
 </table>

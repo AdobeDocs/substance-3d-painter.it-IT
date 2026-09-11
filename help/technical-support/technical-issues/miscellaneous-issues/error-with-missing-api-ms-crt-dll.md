@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.html"
 breadcrumb-title: ''
 description: Scoprite come correggere gli errori DLL api-ms-crt mancanti in Substance 3D Painter per il corretto supporto della libreria di runtime di Windows.
 helpx_creative_field: ""

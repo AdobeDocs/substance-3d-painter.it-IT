@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
 breadcrumb-title: ''
 description: Scoprite come correggere le anteprime di risorse vuote e ripiani in Substance 3D Painter per ripristinare la funzionalità di visualizzazione delle miniature.
 helpx_creative_field: ""

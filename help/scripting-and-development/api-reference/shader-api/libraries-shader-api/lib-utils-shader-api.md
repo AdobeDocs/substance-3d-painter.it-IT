@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla guida di riferimento per l’API shader Lib Utils in modo che Substance 3D Painter utilizzi le funzioni di utilità nello sviluppo di shader personalizzati.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Mappatura toni
 
-Questi sono esempi di mappatura dei toni che puoi utilizzare nello shader. Painter non applica alcuna mappatura dei toni, ad eccezione di quella facoltativa applicata da Yebis. Se decidi di eseguire una mappatura dei toni nello shader, questa verrà applicata prima di Yebis.
+Questi sono esempi di mappatura dei toni che puoi utilizzare negli shader. Painter non applica alcuna mappatura dei toni, ad eccezione di quella facoltativa applicata da Yebis. Se decidi di eseguire una mappatura dei toni nello shader, questa verrà applicata prima di Yebis.
 
 Esegui la mappatura dei toni della curva a S in base ai parametri sigma e n.
 
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## Conversioni sRGB
 
-Queste sono le conversioni utilizzate in Painter. Puoi ignorare la conversione lineare -> sRGB automatica nella finestra della vista inserendo questa linea nello shader personalizzato:
+Queste sono le conversioni utilizzate in Painter. È possibile ignorare la conversione lineare -> sRGB automatica nella finestra della vista inserendo questa linea nello shader personalizzato:
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 

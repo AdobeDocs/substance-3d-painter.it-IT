@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/plugins/resources-updater.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/resources-updater.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare il plug-in Resources Updater in Substance 3D Painter per aggiornare automaticamente le librerie di risorse e le risorse.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
 breadcrumb-title: ''
 description: Scoprite come aggiornare i driver GPU per Substance 3D Painter per garantire la compatibilità e prestazioni di rendering ottimali.
 helpx_creative_field: ""

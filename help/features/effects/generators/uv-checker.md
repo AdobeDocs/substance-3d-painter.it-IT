@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_checker.png" alt=""/><br><strong>In:</strong> uv, bordo, casuale</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Controllo UV applica al modello un motivo a griglia che consente di individuare con facilità problemi UV quali dilatazione, ridimensionamento irregolare o distorsione. <br><br>Il generatore UV Checker viene generalmente utilizzato direttamente su un livello di riempimento per visualizzare le distorsioni UV.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Controllo UV applica al modello un criterio di controllo simile a una griglia che consente di individuare facilmente problemi UV quali allungamento, ridimensionamento irregolare o distorsione. <br><br>Il generatore UV Checker viene generalmente utilizzato direttamente su un livello di riempimento per visualizzare le distorsioni UV.</td>
   </tr>
 </table>
 
@@ -27,7 +27,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Impostate il valore di partenza utilizzato per generare la texture del dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
+    <td>Impostate il valore di inizializzazione utilizzato per generare la texture di dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Metodo colore controllo</strong></td>

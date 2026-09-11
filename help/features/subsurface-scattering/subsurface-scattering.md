@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/subsurface-scattering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la dispersione sottosuperficiale in Substance 3D Painter per creare materiali traslucidi realistici come pelle e cera.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ![](../../assets/sss-sarah.jpg){width="500px"}
 
-&#x200B;>> 
+>> 
 
 (Crediti : Il soldato, [di Ribeyrolles Leo](https://www.artstation.com/artwork/xNYDm) )
 

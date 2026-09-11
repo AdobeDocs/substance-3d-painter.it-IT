@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
 description: Accedete al riferimento Lib Random API shader per Substance 3D Painter per generare valori casuali nello sviluppo di shader personalizzati.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ uniform sampler2D texture_blue_noise;
 ```
 
 
-Risoluzione texture con disturbo blu
+Risoluzione texture disturbo blu
 
 ```
 const ivec2 texture_blue_noise_size = ivec2(256);

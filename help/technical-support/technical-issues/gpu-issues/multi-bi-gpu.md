@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
 breadcrumb-title: ''
 description: Scopri come configurare Substance 3D Painter per sistemi con più GPU e due GPU per ottimizzare le prestazioni di rendering.
 helpx_creative_field: ""

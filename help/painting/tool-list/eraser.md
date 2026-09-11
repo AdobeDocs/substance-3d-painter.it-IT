@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
-description: Usate lo strumento Gomma in Substance 3D Painter per rimuovere colori e texture dai modelli 3D con controllo di precisione.
+description: Utilizza lo strumento Gomma di Substance 3D Painter per rimuovere pittura e texture dai modelli 3D con controllo di precisione.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Eraser
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Gomma
 
-Gomma è uno strumento di disegno che cancella o nasconde ciò che è stato precedentemente disegnato da altri strumenti. Questo strumento agisce solo su un livello alla volta.
+La Gomma è uno strumento pittura che cancella/nasconde ciò che è stato precedentemente disegnato da altri strumenti. Questo strumento agisce solo su un livello alla volta.
 
-La gomma ha in comune parametri e comportamenti con lo strumento pittura. Per ulteriori informazioni sui controlli pennello, alfa e stencil, consultate la [pagina dello strumento di disegno](paint-brush.md).
+La Gomma condivide parametri e comportamenti comuni con lo strumento Pittura. Per ulteriori informazioni sui controlli pennello, alfa e stencil, vedere la [pagina dello strumento Pittura](paint-brush.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Quando si cancellano le informazioni, è possibile agire solo su canali specific
 
 >[!NOTE]
 >
-> A differenza dello strumento Disegno, lo strumento Gomma consente solo di definire i canali interessati. Non è possibile caricare una risorsa dallo scaffale per influire su ciascun canale.
+> A differenza dello strumento Pittura, la Gomma consente solo di definire i canali interessati. Non è possibile caricare una risorsa dallo scaffale per influire su ciascun canale.
 
 * Se tutti i canali sono attivati, la gomma rimuoverà le informazioni all&#39;interno di tutti i canali:
 

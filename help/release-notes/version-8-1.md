@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-8-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-1.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 8.1 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 8.1
 
-**Substance 3D Painter 8.1** integra l&#39;Adobe Color Engine (ACE) con supporto per profili ICC, nuovi forni, nuovi rumori 3D e 20 mappe di grungi e un contagocce migliorato.
+**Substance 3D Painter 8.1** integra l&#39;Adobe Color Engine (ACE) con supporto per profili ICC, nuovi baker, nuovi rumori 3D e 20 mappe di grungi e un contagocce migliorato.
 
 Data di pubblicazione: *7 giugno 2022*
 
@@ -37,7 +37,7 @@ In questa nuova versione, il sistema di gestione del colore è stato ampliato co
 
   ![](../assets/cm-icc-ace-settings.png){width="400px"}
 
-  ACE include il seguente spazio cromatico di lavoro:
+  L’ACE ha il seguente spazio cromatico di lavoro:
 
   * **sRGB lineare**
   * **ACEScg**
@@ -63,10 +63,10 @@ In questa nuova versione, il sistema di gestione del colore è stato ampliato co
 
 ![](../assets/banner-physicalsize.jpg)
 
-Le dimensioni all’interno dei materiali delle Substance possono ora essere utilizzate per determinarne la scala e l’affiancamento nelle proiezioni degli strati di riempimento. Questo è uno strumento utile per abbinare correttamente i materiali sulle superfici in base alle loro dimensioni reali senza la necessità di indovinare.
+Le dimensioni all’interno dei materiali delle Substance possono ora essere utilizzate per determinare la loro scala e l’Affiancamento nelle proiezioni dei livelli di riempimento interni. Questo è uno strumento utile per abbinare correttamente i materiali sulle superfici in base alle loro dimensioni reali senza la necessità di indovinare.
 
 * **Nuovi parametri del livello di riempimento**\
-  Un livello di riempimento (o effetto) contiene nuovi parametri per controllare l’affiancatura/ripetizione di un materiale per il quale è stata definita una dimensioni fisiche. Questi nuovi parametri sono disponibili solo con proiezioni 3D.
+  Un livello di riempimento (o effetto) contiene nuovi parametri che consentono di controllare l’Affiancamento o la ripetizione di un materiale per il quale è stata definita una dimensioni fisiche. Questi nuovi parametri sono disponibili solo con proiezioni 3D.
 
   ![](../assets/physical-size-settings-fill.png){width="400px"}
 
@@ -82,19 +82,19 @@ Le dimensioni all’interno dei materiali delle Substance possono ora essere uti
 >
 > Per ulteriori informazioni, consulta la [documentazione dedicata](../features/physical-size.md).
 
-### Nuovi panettieri
+### Nuovi baker
 
 ![](../assets/banner-baker.jpg)
 
 Queste tre nuove aggiunte colmano il divario tra Designer e Painter per ampliare le possibilità di creazione e rendering delle texture.
 
-Sono stati aggiunti all&#39;elenco dei forni, ma sono disattivati per impostazione predefinita:
+Sono stati aggiunti all’elenco dei baker, ma sono disattivati per impostazione predefinita:
 
 ![](../assets/baker-list.png)
 
-I nuovi panettieri sono:
+I nuovi baker sono:
 
-* **Baker Normali piegati** Il baker Normali piegati consente di cuocere una direzione di occlusione (come vettore, simile alle mappe normali). Questa texture può essere utilizzata per migliorare l&#39;ombreggiatura nella finestra della vista abilitando l&#39;impostazione **Normale piegato** nella finestra [Impostazioni shader](../interface/shader-settings/shader-settings.md). Normali piegati (Bent Normals) migliorano notevolmente la precisione dell&#39;ombreggiatura del viewport in tempo reale.\
+* **baker Normali incurvate** Il baker Normali incurvate consente di eseguire i baking una direzione di occlusione (come vettore, simile alla mappa normale). Questa texture può essere utilizzata per migliorare l&#39;ombreggiatura nella finestra della vista abilitando l&#39;impostazione **Normale piegatura** nella finestra [Impostazioni Shader](../interface/shader-settings/shader-settings.md). Le normali incurvate migliorano notevolmente la precisione dell&#39;ombreggiatura del viewport in tempo reale.\
   Per l&#39;**ombreggiatura diffusa**, fornisce un&#39;occlusione più precisa e può anche sembrare un&#39;illuminazione globale approssimativa (primo esempio di seguito).\
   Per **riflessi specular**, consente di simulare l&#39;ombreggiatura e ridurre la quantità di luce che perde, rendendo l&#39;oggetto molto più a terra soprattutto con superfici metalliche (secondo esempio di seguito).
 
@@ -102,13 +102,13 @@ I nuovi panettieri sono:
 
   ![](../assets/bent-normal-car-compressed.gif){width="400px"}
 
-* **Fornaio di Height**\
-  Il fornaio di Height permette di cuocere la differenza tra la trama bassa e alta poly come una texture in scala di grigio che potrebbe quindi essere utilizzata per produrre spostamento su trame tessellate. Ad esempio, quando si eseguono le analisi delle informazioni su un piano.
+* **baker di Height**\
+  Il baker di Height consente di eseguire i baking la differenza tra la trama bassa e quella alta come una texture in scala di grigio che potrebbe quindi essere utilizzata per produrre spostamento su maglie tassellate. Ad esempio quando si eseguono i baking le informazioni di scansione in base a un piano.
 
   ![](../assets/disp-demo.jpg){width="400px"}
 
-* **Panettiera opacità**\
-  Il panificatore Opacità produce una mappa in bianco e nero che mostra i fori di una trama ad alto poli. Ad esempio può essere utilizzato per cuocere recinzioni o anche fori all&#39;interno di una superficie di tessuto.
+* **baker opacità**\
+  Il baker Opacità produce una mappa in bianco e nero che mostra i fori di una trama ad alto poli. Ad esempio può essere utilizzato per eseguire i baking recinzioni o anche fori all&#39;interno di una superficie in tessuto.
 
 ### Nuovo contenuto
 
@@ -151,7 +151,7 @@ Sono stati apportati diversi miglioramenti al contagocce per facilitare l’estr
 
   ![](../assets/peek-color-shortcut.gif){width="400px"}
 
-* **Nuova scelta rapida da tastiera per il contagocce**\
+* **Nuova scelta rapida da tastiera da tastiera per contagocce**\
   Quando la finestra del selettore colore è aperta, puoi anche premere **I** per accedere alla modalità Contagocce senza dover fare clic sull&#39;icona dedicata, il che semplifica l&#39;iterazione tra il prelievo e il disegno.
 
 * **Nuova anteprima durante il contorno**\
@@ -170,7 +170,7 @@ Sono stati apportati diversi miglioramenti al contagocce per facilitare l’estr
   ![](../assets/eyedropper-color-space.png)
 
 * **Comportamento selettore materiali migliorato**\
-  Il selettore di materiali dalla barra degli strumenti Strumenti (scelta rapida da tastiera P) ora rispetta la selezione del canale all’interno della finestra delle proprietà. Non verrà più attivato dai canali stessi.
+  Il selettore di materiale dalla barra degli strumenti Strumenti (scelta rapida da tastiera da tastiera P) ora rispetta la selezione del canale all’interno della finestra delle proprietà. Non verrà più attivato dai canali stessi.
 
   ![](../assets/material-picker.gif){width="400px"}
 
@@ -196,22 +196,22 @@ Ora le trame vengono tagliate in Isole UV separate utilizzando un metodo che si 
 * [Gestione colore] Consente di inserire valori di colore lineari nel Selettore colore con la modalità Legacy
 * [Gestione colore] Consente di specificare il profilo colore utilizzato per la selezione del colore al di fuori dell&#39;interfaccia utente
 * [Gestione colore] Ricordare l&#39;ultimo valore di visualizzazione scelto nella finestra della vista
-* [Gestione colore]&#x200B;[Substance] Fate funzionare correttamente i generatori/filtri con la Gestione colore
-* [Gestione colore]&#x200B;[Substance] Aggiungi nuove parole chiave di esclusione dello spazio colore $working e $standardsrgb
-* [Dimensioni fisiche]&#x200B;[Engine] Estrai informazioni dimensioni fisiche dalla trama
-* Calcolo Dimensioni fisiche [Dimensioni fisiche]&#x200B;[Engine]
+* [Gestione colore][Substance] Fate funzionare correttamente i generatori/filtri con la Gestione colore
+* [Gestione colore][Substance] Aggiungi nuove parole chiave di esclusione dello spazio colore $working e $standardsrgb
+* [Dimensioni fisiche][Engine] Estrai informazioni dimensioni fisiche dalla trama
+* Calcolo Dimensioni fisiche [Dimensioni fisiche][Engine]
 * [Dimensioni fisiche] Esporre le opzioni per utilizzare dimensioni fisiche nell&#39;interfaccia utente
 * [Dimensioni fisiche] Aggiungere gli helper visivi nella finestra della vista
-* [Baking] Aggiungere Height
-* [Baking] Aggiungere il fornaio normale piegato
-* [Baking] Aggiungi panettiere opacità
+* [Esegue i baking] Aggiungi baker di Height
+* [Esegue i baking] Aggiungi baker di Normali incurvate
+* [Esegue i baking] Aggiungi baker di opacità
 * [Contagocce] Anteprima nuovo selettore colore
 * [Contagocce] Il pannello Selettore colore riappare nell&#39;ultima posizione quando viene riaperto
 * [Contagocce] Una nuova icona per il Selettore materiale
 * [Contagocce] Il colore gestisce l&#39;anteprima del canale del selettore colore
 * [Contagocce] Aggiungete al contagocce la funzionalità clic per selezionare
 * [Contagocce] Il selettore di materiali non attiva più i canali non attivi
-* [Contagocce] Consenti di utilizzare il contagocce con una scelta rapida
+* [Contagocce] Consenti l’uso del contagocce con una scelta rapida da tastiera
 * [Contagocce] Il contagocce preleva il canale pertinente, se applicabile
 * [Contagocce] Quando si entra in modalità Selettore colore, tutte le scelte rapide vengono disattivate
 * [Contagocce] Rimuovi la selezione automatica del campo esadecimale
@@ -235,13 +235,13 @@ Ora le trame vengono tagliate in Isole UV separate utilizzando un metodo che si 
 
 * [glTF] Impossibile aprire glTF con carattere speciale
 * [Engine] Artefatti con anisotropia e SVT disattivati
-* [MacOS]&#x200B;[M1] I materiali avanzati non vengono visualizzati correttamente
+* [MacOS][M1] I materiali avanzati non vengono visualizzati correttamente
 * [Elaborazione trama] Impossibile importare trame da Modeler
 * [UI] Barra di scorrimento orizzontale nella nuova finestra del progetto con la Gestione colore attivata
 * [Gestione colore] Valore dello spazio di lavoro mancante nel selettore colore con alcune configurazioni OCIO
 * [Gestione colore] L’anteprima del pennello nella finestra della vista non è sottoposta alla gestione del colore
 * [SpaceMouse] Il pivot non viene aggiornato immediatamente con la modifica dello stato attivo e a volte fuori dal modello
-* [Export]&#x200B;[USD] I file USD esportati hanno una struttura errata
+* [Export][USD] I file USD esportati hanno una struttura errata
 * [USD] Problema di Occlusione ambientale durante l’esportazione
 * [Content] Aggiorna la trama della miniatura in modo che corrisponda al progetto di esempio Preview Sphere
 

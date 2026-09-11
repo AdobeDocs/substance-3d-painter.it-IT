@@ -13,4 +13,4 @@ ht-degree: 0%
 
 In [**Modalità cottura**](../../baking/baking.md), il **pannello delle impostazioni della mappa trama** visualizza i parametri per il tipo di mappa trama attualmente selezionato nel **pannello dei forni della mappa trama**.
 
-Un elenco completo delle impostazioni della mappa di trama disponibili nei [**pannelli Impostazioni comuni**](common-mesh-map-settings.md) e nei **pannelli delle impostazioni della mappa di trama** è disponibile [nella sezione relativa alla cottura della documentazione](../../baking/mesh-map-settings.md).
+Un elenco completo delle impostazioni della mappa trama disponibili nei [**pannelli delle impostazioni comuni**](common-mesh-map-settings.md) e nei **pannelli delle impostazioni della mappa trama** è disponibile [nella sezione di esegue i baking della documentazione](../../baking/mesh-map-settings.md).

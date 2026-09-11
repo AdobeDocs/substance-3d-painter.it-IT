@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
 breadcrumb-title: ''
 description: Scopri come installare il plug-in editor particelle per Substance 3D Painter per creare predefiniti pennello particelle personalizzati.
 helpx_creative_field: ""

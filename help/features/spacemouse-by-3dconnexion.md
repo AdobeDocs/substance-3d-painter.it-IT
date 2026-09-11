@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare SpaceMouse con connessione 3D con Substance 3D Painter per una navigazione 3D e un controllo viewport ottimizzati.
 helpx_creative_field: ""
@@ -42,7 +42,7 @@ Tutti i modelli e le versioni devono essere compatibili con l&#39;applicazione:
 | Modello | Descrizione | Visivo |
 | --- | --- | --- |
 | **Modello compatto** | Modello di base con controllo Manopola. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Wireless-400x400.png" width="200"/></div> |
-| **Modello Pro** | Controllo della manopola e pulsanti aggiuntivi per la scelta rapida da tastiera. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
+| **Modello Pro** | Controllo della manopola e pulsanti aggiuntivi per la scelta rapida da tastiera della tastiera. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
 | **Modello Enterprise** | Controllo della manopola, pulsanti aggiuntivi e visualizzazione contestuale. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Enterprise-400x400.png" width="200"/></div> |
 
 >[!NOTE]

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
 breadcrumb-title: ''
 description: Scopri come recuperare le risorse sugli scaffali scomparse dopo l'aggiornamento a Substance 3D Painter 7.2 per ripristinare la libreria di risorse.
 helpx_creative_field: ""

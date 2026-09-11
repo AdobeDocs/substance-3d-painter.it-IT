@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare stratificazione dinamica dei materiali in Substance 3D Painter per fondere e combinare materiali con maschere procedurali.
 helpx_creative_field: ""
@@ -54,16 +54,16 @@ In questo shader è possibile definire sottopile che possono essere campionate d
 ```
 
 
-![](../assets/sub-stacks.png) In questo esempio, lo shader crea 3 sottopile su un determinato set di texture con un canale di &quot;opacità&quot; in ciascuna. È possibile accedere ai sottostack nella finestra dell&#39;elenco TextureSet:
+![](../assets/sub-stacks.png) In questo esempio, lo shader creerà 3 sottopile su un determinato set di texture con un canale di &quot;opacità&quot; in ciascuna. È possibile accedere ai sottostack nella finestra dell&#39;elenco TextureSet:
 
-Poiché i **canali** delle pile dei sottolivelli sono definiti **nello shader**, non è possibile aggiungere nuovi canali nelle impostazioni del set di texture. Per aggiungere o rimuovere un canale, è necessario aggiornare il file shader.
+Poiché i **canali** delle pile dei sottolivelli sono definiti **nello shader**, non è possibile aggiungere nuovi canali nelle impostazioni del set di texture. Per aggiungere o rimuovere un canale, è necessario aggiornare il file di shader.
 
 Il numero massimo di canali supportati è definito dal numero totale di campionatori supportati dall&#39;hardware.\
-Mentre Substance 3D Painter supporta texture senza binding (e quindi una quantità illimitata di texture) per i materiali caricati come parametri, i canali forniti dal motore per le pile dei livelli sono limitati a 32 (in Windows). Questo limite include anche altre texture, come l’Occlusione Normale e Ambiente cotta sulla trama del progetto.
+Mentre Substance 3D Painter supporta texture senza binding (e quindi una quantità illimitata di texture) per i materiali caricati come parametri, i canali forniti dal motore per le Pile livelli sono limitati a 32 (in Windows). Questo limite include anche altre texture come Normale e l’Occlusione ambientale eseguita i baking sulla trama del progetto.
 
 ## Input di materiali
 
-Sebbene sia possibile impostare sottopile per definire i Materiali oltre alle Maschere, spesso è più pratico definire solo gli input di materiale nello shader e utilizzare direttamente i materiali dallo scaffale. La maggior parte delle volte questi materiali esistono anche nell&#39;applicazione finale come Unity o Unreal Engine 4. La convenzione per denominare i materiali nello shader è la seguente: &quot;pbr-material-layering&quot;:
+Sebbene sia possibile impostare sottopile per definire i materiali in aggiunta alle maschere, spesso è più pratico definire semplicemente gli input di materiale nello shader e utilizzare i materiali direttamente dallo scaffale. La maggior parte delle volte questi materiali esistono anche nell&#39;applicazione finale come Unity o Unreal Engine 4. La convenzione di denominazione dei materiali dichiarati nello shader &quot;pbr-material-layering&quot; è la seguente:
 
 ```
 //: materials [ 
@@ -90,9 +90,9 @@ Sebbene sia possibile impostare sottopile per definire i Materiali oltre alle Ma
 
 ![](../assets/materials.png) Di seguito è riportato il risultato al caricamento di alcuni materiali (materiali Substance o materiali predefiniti):
 
-La risoluzione del materiale può essere definita con il parametro &quot;size&quot;. È anche possibile caricare i materiali per impostazione predefinita quando lo shader viene creato con il parametro &quot;default&quot; (utilizzando il nome/l&#39;etichetta della risorsa che deve essere caricata).
+La risoluzione del materiale può essere definita con il parametro &quot;size&quot;. È inoltre possibile caricare i materiali per impostazione predefinita quando lo shader viene creato con il parametro &quot;default&quot; (utilizzando il nome/l&#39;etichetta della risorsa che deve essere caricata).
 
-Per accedere ai materiali e alla maschera dello shader, è sufficiente collegarli con la parola chiave &quot;param auto&quot;:
+Per accedere ai materiali e alla maschera dello shader stesso, collegateli semplicemente con la parola chiave &quot;param auto&quot;:
 
 ```
 //: param auto Material1.channel_basecolor 
@@ -113,7 +113,7 @@ Al momento, l’impacchettamento di maschere in una singola texture non è suppo
 
 ![](../assets/export-window-shader.png)
 
-Questo file JSON può quindi essere utilizzato per impostare le pile e gli shader dei livelli di un progetto.\
+Questo File JSON può quindi essere utilizzato per impostare le Pile livelli e gli shader di un progetto.\
 In questo modo è possibile condividere facilmente i parametri comuni tra più applicazioni.
 
 ![](../assets/import-jsons.png)

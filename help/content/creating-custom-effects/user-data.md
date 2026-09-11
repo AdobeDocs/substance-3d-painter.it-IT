@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/user-data.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
 breadcrumb-title: ''
-description: Scopri come utilizzare i dati utente negli effetti personalizzati per consentire a Substance 3D Painter di passare informazioni personalizzate agli effetti shader.
+description: Scopri come utilizzare i dati utente negli effetti personalizzati per Substance 3D Painter, per passare informazioni personalizzate agli effetti di shader.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > User data
 helpx_experience_level: ""
@@ -28,7 +28,7 @@ Le impostazioni dei dati utente vengono in genere applicate ai nodi di input o o
 
 ## Spazio cromatico
 
-L&#39;impostazione **spazio colore** può essere utilizzata per richiedere input del grafico Substance con uno spazio cromatico specifico o per definire un output configurato in un determinato modo. Ad esempio specificando il formato dell&#39;output della mappa normale.
+L&#39;impostazione **spazio colore** può essere utilizzata per richiedere input del grafico Substance con uno spazio cromatico specifico o per definire un output configurato in un determinato modo. Ad esempio, specifica il formato dell’output della mappa normale.
 
 Esempio di sintassi: **colorspace=$working**
 
@@ -45,14 +45,14 @@ Panoramica dei contesti:
 > * La tabella seguente elenca prima le impostazioni dello spazio colore compatibili con le versioni precedenti alla 8.1. La seconda sezione è esclusiva della versione 8.1 e successive.
 > * Per quanto riguarda i contesti in cui è possibile utilizzare l&#39;impostazione dello spazio colore, solo dal momento che la versione 8.1 può pulsante colore definire uno spazio colore. Nelle versioni precedenti si presume che siano nello spazio di visualizzazione (sRGB).
 > 
-> Le trasformazioni/spazi cromatici **snorm** e **unorm** non devono essere combinati con i formati di texture della GPU, il loro scopo è diverso.
+> Le trasformazioni/spazi cromatici **snorm** e **unorm** non devono essere combinati con i formati di texture GPU, il loro scopo è diverso.
 
 | SpazioColore | Disponibilità contesto | Descrizione |
 | --- | --- | --- |
 | **auto** | Pulsante colore Input/output grafico Input immagine | Impostazione predefinita. L’applicazione decide la conversione dello spazio colore da eseguire a seconda delle proprietà del nodo di input e dell’immagine inserita nell’input. |
 | **lineare** | Pulsante colore Input/output grafico Input immagine | Spazio cromatico standard sRGB IEC 61966-2-1:1999 con una curva gamma/tonalità lineare. Disponibile solo con la modalità di gestione colore **Legacy**. |
 | **srgb** | Pulsante colore Input/output grafico Input immagine | Spazio colore standard sRGB IEC 61966-2-1:1999. Disponibile solo con la modalità di gestione colore **Legacy**. |
-| **passthru** | Pulsante colore Input/output grafico Input immagine | Obsoleto. Interpretato come **lineare** in modalità di gestione colore legacy e **raw** con OCIO/ACE. Dovrebbe invece essere sostituito da **raw**. |
+| **passthru** | Pulsante colore Input/output grafico Input immagine | Obsoleto. Interpretato come **lineare** in modalità di gestione colore legacy e **non elaborato** con OCIO/ACE. Dovrebbe invece essere sostituito da **raw**. |
 | **snorm** | Input/output grafico Input immagine | Firmato normalizzato. Richiedi che l&#39;immagine di input sia nell&#39;intervallo [0, 1]. Per le immagini di input a 8 bit questo significa che il valore medio è 127. Per gli input di immagini mobili, il centro è 0,5 e non esegue alcun bloccaggio. |
 | **normalxyzright** | Input/output grafico Input immagine | Formato mappa normale OpenGL. |
 | **normalxyzleft** | Input/output grafico Input immagine | formato mappa normale DirectX. |
@@ -75,7 +75,7 @@ Esempio di sintassi: **alpha=premoltiplicato**
 | --- | --- |
 | semplice | Richiedete o definite l&#39;alfa come retta. |
 | premoltiplicato | Richiedi o definisci il canale alfa come premoltiplicato. |
-| nessuno | Passthrough, utilizzare l&#39;alfa specificato così com&#39;è. |
+| nessuno | Passthrough, usa l’alfa così com’è. |
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Esempio di sintassi:
 
 Per impostazione predefinita, l’input dell’immagine di un grafico a Substance non ha alcuna spaziatura interna, e l’area esterna all’Isola UV viene solitamente riempita con un colore uniforme per motivi legati alle prestazioni. L&#39;impostazione di riempimento può essere utilizzata per richiedere invece una dilatazione infinita, che può essere utilizzata per i filtri per evitare, ad esempio, la creazione di giunture.
 
-Esempio di sintassi: **p**&#x200B;**adding=extend**
+Esempio di sintassi: **p****adding=extend**
 
 ## Disabilitare un output per impostazione predefinita
 
@@ -105,11 +105,11 @@ Quando si aggiunge una sostanza in uno slot (come lo slot di materiale dello str
 * In un nodo di output specifico (come un materiale): **disable=(true)**
 * In un nodo di output generico (come un filtro): **disable=(height,diffusione,specular)**
 
-Quando si carica la sostanza, questo canale non sarà attivato nell’interfaccia utente e quindi non avrà alcun effetto nel gruppo di livelli. L&#39;utente può comunque riattivare il canale.
+Quando si carica la sostanza, questo canale non sarà attivato nell&#39;interfaccia utente e quindi non avrà alcun effetto nella Pila livelli. L&#39;utente può comunque riattivare il canale.
 
 ## Designare un output come maschera/alfa comune
 
-L’output di un grafico a Substance può essere utilizzato come canale/maschera alfa condivisa sugli altri output.
+L’output di un grafico a Substance può essere utilizzato come canale alfa/maschera condiviso sugli altri output.
 
 Questa operazione può essere eseguita in due modi:
 
@@ -129,7 +129,7 @@ Possono essere presenti alcune condizioni:
 
 ## Imposta il metodo di fusione predefinito per gli output di materiale
 
-È possibile definire quale deve essere il metodo di fusione di un output specifico in un grafico a Substance quando si trascinano i materiali dallo scaffale nella finestra della vista o nella pila di livelli.
+È possibile definire quale deve essere il metodo di fusione di un output specifico in un grafico a Substance quando si trascinano i materiali dallo scaffale nella finestra della vista o nella Pila livelli.
 
 * In un nodo di output specifico: **blendingmode=normal**
 

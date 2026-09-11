@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
-description: Scoprite come correggere arresti anomali e blocchi durante l'avvio di Substance 3D Painter per un avvio stabile dell'applicazione.
+description: Scopri come correggere arresti anomali e blocchi durante l'avvio di Substance 3D Painter per un avvio stabile dell'applicazione.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Arresto anomalo o blocco all’avvio
+title: Arresto anomalo o blocco durante l'avvio
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Arresto anomalo o blocco all’avvio
+# Arresto anomalo o blocco durante l&#39;avvio
 
 Questa pagina elenca i problemi noti e le relative soluzioni relative all’avvio non corretto dell’applicazione.
 
@@ -32,7 +32,7 @@ Se l&#39;applicazione non si avvia con la GPU corretta, potrebbero verificarsi p
 
 ## Driver GPU obsoleti
 
-L’utilizzo di driver GPU obsoleti può causare blocchi e/o arresti anomali. Si consiglia di utilizzare i driver più recenti della GPU, se disponibili. Consultate: [La GPU contiene driver obsoleti](../gpu-issues/gpu-has-outdated-drivers.md).
+L’utilizzo di driver GPU datati può causare blocchi e/o arresti anomali. Si consiglia di utilizzare i driver più recenti della GPU, se disponibili. Consultate: [La GPU contiene driver obsoleti](../gpu-issues/gpu-has-outdated-drivers.md).
 
 ## Schermo bianco e non risponde
 
@@ -41,14 +41,14 @@ Se l&#39;applicazione si blocca durante l&#39;avvio su Windows (portando a una s
 * Un&#39;applicazione esterna sta creando un conflitto. Vedere [Conflitti software](software-conflicts.md) per sapere quali.
 * Alcune finestre dell’applicazione sono state aperte su un altro monitor. Ripristinando il layout predefinito dell&#39;interfaccia, è possibile avviare l&#39;applicazione normalmente:
   1. Apri l&#39;editor del Registro di sistema (**regedit** dal menu Start)
-  1. Passare alle preferenze dell&#39;applicazione (vedere: [Preferenze e percorso dei dati dell&#39;applicazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
+  1. Passare alle preferenze dell&#39;applicazione (vedere: [Preferenze e percorso dei dati dell&#39;applicazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
   1. Espandi la chiave **Adobe Substance 3D Painter**
   1. Seleziona la chiave **Finestra principale 2018** ed eliminala
   1. Riavvia l’applicazione
 
 ## Arresto anomalo a causa di un percorso di sistema/percorso Python errato
 
-L&#39;applicazione controlla il percorso di sistema per caricare i moduli Python e le impostazioni dell&#39;ambiente. Se il sistema ha una configurazione errata può causare un arresto anomalo durante l&#39;avvio.
+L&#39;applicazione controlla il percorso di sistema per caricare i moduli Python e le impostazioni dell&#39;ambiente. Se il sistema ha una configurazione errata può provocare un arresto anomalo durante l&#39;avvio.
 
 In Windows:
 
@@ -58,7 +58,7 @@ In Windows:
 1. Fare clic su **Variabili di ambiente**
 1. In **Variabili di sistema** trovare la variabile **PATH**
 
-È quindi possibile modificare la variabile per verificarne il contenuto. Ad esempio, se la variabile contiene questo tipo di caratteri, si verificherà un arresto anomalo
+È quindi possibile modificare la variabile per verificarne il contenuto. Se ad esempio la variabile contiene questo tipo di caratteri, verrà generato un arresto anomalo
 
 ```
 ï–›éŒ à €è¸€ì‡ì‡ç¿¹

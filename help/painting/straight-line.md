@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/straight-line.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/straight-line.html"
 breadcrumb-title: ''
 description: Usate lo strumento Linea retta in Substance 3D Painter per creare tratti di pittura dritti precisi per la pittura di texture.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ La posizione della linea retta viene calcolata dalla finestra della vista, il ch
 
 ## Abilitazione della linea retta
 
-Basta premere &quot;Maiusc&quot; sulla tastiera quando è selezionato uno strumento di pittura per visualizzare le linee punteggiate che indicano il tracciato che lo strumento di pittura seguirà. Quando si preme &quot;Maiusc&quot;, facendo clic in un punto qualsiasi si disegna la linea.
+Basta premere &quot;Maiusc&quot; sulla tastiera quando è selezionato uno strumento di pittura per visualizzare le linee punteggiate che indicano il tracciato che lo strumento pittura seguirà. Quando si preme &quot;Maiusc&quot;, facendo clic in un punto qualsiasi si disegna la linea.
 
 ![](../assets/straight-line-optim.gif){width="400px"}
 

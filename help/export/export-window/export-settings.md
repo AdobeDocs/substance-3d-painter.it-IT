@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/export/export-window/export-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/export-settings.html"
 breadcrumb-title: ''
 description: Scopri come configurare le impostazioni di esportazione in Substance 3D Painter per controllare la risoluzione, il formato e le opzioni di output delle texture.
 helpx_creative_field: ""
@@ -42,11 +42,11 @@ Questa sezione contiene le impostazioni condivise per ogni texture che verrà ge
 
 | Impostazione | Descrizione |
 | --- | --- |
-| <b>Directory di output</b> | Salvate il percorso per le texture esportate. |
-| <b>Modello di output</b> | Selezionate il modello di output usato per assegnare un nome ai canali e comporli in file di texture. Per ulteriori informazioni sui modelli, vedere l&#39;elenco [Modelli di output](../export-presets/export-presets.md). |
+| <b>Directory di output</b> | Percorso di salvataggio per la texture esportata. |
+| <b>Modello di output</b> | Selezionate il modello di output utilizzato per assegnare un nome ai canali e comporli in file di texture. Per ulteriori informazioni sui modelli, vedere l&#39;elenco [Modelli di output](../export-presets/export-presets.md). |
 | <b>Tipo di file </b> | Il formato di file e la relativa profondità di bit. Se è selezionata l&#39;opzione <b>Basato sul modello di output</b>, il formato del file viene ereditato dal predefinito di esportazione (che consente di determinare il formato e la profondità di bit per texture anziché globalmente). La profondità di bit disponibile dipende dal tipo di file; per ulteriori informazioni, vedere la tabella seguente. |
 | <b>Dimensione </b> | La risoluzione del file di texture esportato. Valori possibili:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>In base alle dimensioni di ciascun set di texture</b></li> <li data-preserve-html="true"><b>128</b></li> <li data-preserve-html="true"><b>256</b></li> <li data-preserve-html="true"><b>512</b></li> <li data-preserve-html="true"><b>1024</b></li> <li data-preserve-html="true"><b>2048</b></li> <li data-preserve-html="true"><b>4096</b></li> <li data-preserve-html="true"><b>8192</b> (disponibile solo con GPU con più di 1,5 GB di Vram)</li> </ul> |
-| <b>Spaziatura interna </b> | Come riempire l’area al di fuori delle Isole UV all’interno della texture. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Nessuna spaziatura interna (passthrough)</b>: utilizzare lo stato corrente della texture così com&#39;è.</li> <li data-preserve-html="true"><b>Dilatazione infinita</b>: allungare i bordi dell&#39;Isola UV fino a raggiungere i bordi adiacenti o la fine della texture.</li> <li data-preserve-html="true"><b>Dilatazione + trasparente</b>: allunga i bordi dell’Isola UV alla distanza specificata in pixel, il resto è trasparente.</li> <li data-preserve-html="true"><b>Dilatazione + colore di sfondo predefinito</b>: allunga i bordi dell’Isola UV fino alla distanza specificata in pixel; il resto viene riempito con il colore predefinito del canale del set di texture.</li> <li data-preserve-html="true"><b>Dilatazione + colore di sfondo predefinito</b>: allunga i bordi dell’Isola UV fino alla distanza specificata in pixel; il resto viene riempito con il colore predefinito del canale del set di texture.</li> <li data-preserve-html="true"><b>Dilatazione + diffusione</b>: allunga i bordi dell’Isola UV alla distanza specificata in pixel, il resto viene riempito con una versione sfocata dell’Isola UV (in base alle mappe mip).</li> </ul> |
+| <b>Spaziatura interna </b> | Come riempire l’area al di fuori delle Isole UV all’interno della texture. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Nessuna spaziatura interna (passthrough)</b>: utilizzare lo stato corrente della texture così com&#39;è.</li> <li data-preserve-html="true"><b>Dilatazione infinita</b>: allungamento i bordi dell&#39;Isola UV fino a raggiungere i bordi adiacenti o la fine della texture.</li> <li data-preserve-html="true"><b>Dilatazione + trasparente</b>: allunga i bordi dell’Isola UV alla distanza specificata in pixel, il resto è trasparente.</li> <li data-preserve-html="true"><b>Dilatazione + colore di sfondo predefinito</b>: allungamento i bordi dell’Isola UV alla distanza specificata in pixel, il resto viene riempito con il colore predefinito del canale del set di texture.</li> <li data-preserve-html="true"><b>Dilatazione + colore di sfondo predefinito</b>: allungamento i bordi dell’Isola UV alla distanza specificata in pixel, il resto viene riempito con il colore predefinito del canale del set di texture.</li> <li data-preserve-html="true"><b>Dilatazione + diffusione</b>: allungamento i bordi dell&#39;Isola UV alla distanza specificata in pixel, il resto viene riempito con una versione sfocata dell&#39;Isola UV (in base alle mappe mip).</li> </ul> |
 
 >[!NOTE]
 >
@@ -54,13 +54,13 @@ Questa sezione contiene le impostazioni condivise per ogni texture che verrà ge
 
 ### Dithering
 
-L’esportazione di texture a 8 bit può causare bande nelle sfumature. Ciò è particolarmente evidente con le mappe Normale e Height. Esistono due modi per risolvere questo problema: utilizzando una precisione maggiore o compensando con il dithering.
+L’esportazione di texture a 8 bit può provocare l’applicazione di bande nelle sfumature. Ciò è particolarmente evidente con le mappe Normale e Altezza. Esistono due modi per risolvere questo problema: utilizzando una precisione maggiore o compensando con il dithering.
 
 Una maggiore precisione (16 o 32 bit) è ideale, ma potrebbe non essere compatibile con tutte le applicazioni. In particolare, i motori di gioco spesso si comprimono a 8 bit. Il dithering consente di ridurre i problemi di banding pur continuando a utilizzare 8 bit di informazioni.
 
 ![](../../assets/dither-1.jpg)
 
-### Formati di file Texture
+### Texture formati di file
 
 Di seguito è riportato un elenco di tutti i formati di file di esportazione supportati da Painter:
 
@@ -77,7 +77,7 @@ Di seguito è riportato un elenco di tutti i formati di file di esportazione sup
 | **Jpeg** | jpeg | 8, 8 + dithering |
 | **Intervallo esteso JPEG** | jpeg-x | 8, 8 + dithering, 16, 32 (fluttuante) |
 | **Portable Bit Map** | pbm | 8, 8 + dithering, 16 |
-| **Mappa mobile portatile** | pfm | 32 (fluttuante) |
+| **Mappa Virgola mobile Portatile** | pfm | 32 (fluttuante) |
 | **Mappa grigia portatile** | pgm | 8, 8 + dithering, 16 |
 | **Portable Network Graphics** | png | 8, 8 + dithering, 16 |
 | **Pixel Map Portatile** | ppm | 8, 8 + dithering, 16 |
@@ -102,9 +102,9 @@ Questa sezione consente di disabilitare l&#39;esportazione di file specifici o d
 
 ## Esporta risorsa USD
 
-Seleziona questa casella per consentire l’esportazione in formato USD. A differenza del predefinito USDz (Apple AR) disponibile in <b>Modelli di output</b>, questa esportazione terrà in considerazione qualsiasi modello o parametro configurato per l&#39;esportazione. I seguenti file vengono esportati quando si seleziona la casella della risorsa USD:
+Seleziona questa casella per consentire l’esportazione in formato USD. A differenza del predefinito USDz (Apple AR) disponibile in <b>Modelli di output</b>, questa esportazione terrà in considerazione qualsiasi modello o parametro configurato per l&#39;esportazione. I seguenti file vengono esportati quando selezionate la casella della risorsa USD:
 
-* Cartella con mappe texture
+* Una cartella con mappe texture
 * *.usda* che punta alla cartella delle mappe texture.
 * Un file .usd opzionale che assembla i materiali con il file mesh originale. Può essere utilizzato direttamente in Omniverse per mostrare la tua trama con i materiali applicati automaticamente.
-* Un file .usd opzionale, che include la trama utilizzata nel progetto. Viene esportato solo se il file di trama originale non è un file USD o se per generare gli UV è stato utilizzato lo scorrimento automatico di Painter.
+* Un file .usd opzionale, che include la trama utilizzata nel progetto. Viene esportato solo se il file mesh originale non è un USD o se per generare gli UV è stato utilizzato il comando di scorrimento automatico di Painter.

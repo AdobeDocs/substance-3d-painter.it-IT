@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2019.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Ora puoi utilizzare i tuoi pennelli di Photoshop in Substance Painter. Esportand
 
 Se non avete file ABR da importare, potete trovarne molti online:
 
-* [Predefiniti pennello di Kyle su Adobe](https://www.adobe.com/it/products/photoshop/brushes.html)
+* [Predefiniti pennello di Kyle su Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Pennelli predefiniti in ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Predefiniti pennello su DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Pennelli predefiniti nel pennello cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -44,28 +44,28 @@ Per supportare i pennelli di Photoshop, sono state aggiunte diverse nuove funzio
 * **Nuovi parametri minimi di dimensioni e flusso**\
   Ora potete specificare la dimensione minima e il flusso minimo dello strumento quando è attivata la pressione della penna. Questo parametro funziona come percentuale in base alla dimensione/flusso massimo corrente definito. Queste impostazioni vengono calibrate automaticamente quando si utilizza un pennello predefinito di Photoshop.\
   ![](../../assets/size-minimum.png)
-* **Nuovi parametri variazione posizione**\
+* **Nuovi parametri Variazione posizione**\
   Per adattarlo al comportamento del pennello di Photoshop, abbiamo aggiunto alcune nuove impostazioni. Ora è possibile definire l’asse a cui viene applicata la variazione e la distribuzione delle posizioni casuali (scegli **Uniforme** in base a Photoshop).\
   ![](../../assets/position-jitter-settings.png)\
   ![](../../assets/gaussian-vs-uniform.png)
 * **Nuovo metodo di fusione alfa**\
-  Photoshop non compone i tratti di pennello allo stesso modo di Substance Painter, pertanto è stato aggiunto un nuovo metodo di fusione (Schiarisci) per ottenere una corrispondenza migliore con il risultato del disegno. Questo metodo di fusione non si accumula eccessivamente quando i timbri si sovrappongono, il che può migliorare la sensazione di pressione quando si dipinge con un valore di flusso/opacità basso.\
+  Photoshop non compone i tratti di pennello allo stesso modo di Substance Painter, pertanto è stato aggiunto un nuovo metodo di fusione (Schiarisci) per una migliore corrispondenza con il risultato del disegno. Questo metodo di fusione non si accumula eccessivamente quando i timbri si sovrappongono, il che può migliorare la sensazione di pressione quando si dipinge con un valore di flusso/opacità basso.\
   ![](../../assets/alpha-blend-mode.png)\
   ![](../../assets/lighten-vs-normal-demo.png)
 * **Supporto per rotondità e capovolgimento**\
   È stato aggiunto un nuovo Alpha di Substance denominato **Brush Maker Photoshop** per supportare parametri quali Rotondità (ridimensiona il height dell&#39;Alpha) e Rifletti (rifletti un&#39;immagine su entrambi gli assi). Questo Alpha di Substance viene caricato automaticamente quando si fa clic su un pennello predefinito proveniente da un file ABR.\
   ![](../../assets/brush-maker-photoshop.png)\
   ![](../../assets/brush-maker-photoshop-settings.png)
-* **Nuova correzione gamma per il canale alfa dei livelli**\
-  Photoshop non fonde i suoi tratti di pennello nello nello spazio gamma lineare; questo significa che la fusione e l’opacità potrebbero avere un aspetto errato quando si utilizza un pennello predefinito di Photoshop. È possibile attivare una nuova impostazione sui livelli in modo che corrisponda a tale comportamento e applicare una correzione gamma. Questo influirà sull’effetto alfa usato per i tratti del pennello e su come la maschera del livello viene usata per fondersi con altri livelli. Tuttavia i metodi di fusione del livello funzioneranno ancora nello spazio gamma lineare.\
+* **Nuova correzione gamma per canale alfa di livelli**\
+  Photoshop non fonde i suoi tratti di pennello nello nello spazio gamma lineare; questo significa che la fusione e l’opacità potrebbero avere un aspetto errato quando si utilizza un pennello predefinito di Photoshop. È possibile attivare una nuova impostazione sui livelli in modo che corrisponda a tale comportamento e applicare una correzione gamma. Questo influirà sull’effetto alfa utilizzato per pittura i tratti del pennello e su come la maschera del livello viene utilizzata per fondersi con altri livelli. Tuttavia, i metodi di fusione del livello funzioneranno ancora nello spazio gamma lineare.\
   Per **attivare questa impostazione**, è sufficiente fare clic con il pulsante destro del mouse su un livello e scegliere **Alfa/maschera con correzione gamma**. Accanto al livello appare una nuova icona che indica quando questa impostazione è attivata.\
   ![](../../assets/layer-menu.png) ![](../../assets/layer-icon.png)\
   ![](../../assets/gamma-correction-demo.png)
-* **Valore massimo aumentato per variazione spaziatura e posizione**\
+* **Valore massimo aumentato per Spaziatura e Variazione posizione**\
   Per adattare correttamente i parametri predefiniti dei pennelli di Photoshop, è stato aumentato il valore massimo dei seguenti parametri:
 
   * **Spaziatura**: è ora possibile impostare un massimo di 1000.
-  * **Variazione posizione**: è ora possibile impostare su 1000 il valore massimo.
+  * **Variazione posizione**: è ora possibile impostare un massimo di 1000.
 
 Per ulteriori informazioni, ad esempio su come esportare i file ABR e importarli, consultate la documentazione [Predefiniti pennello di Photoshop](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md).
 
@@ -93,8 +93,8 @@ Oltre al supporto dei predefiniti per i pennelli di Photoshop, sono stati apport
   Nella barra degli strumenti contestuale è ora possibile definire come deve essere interpretata la pressione della penna. Queste nuove impostazioni consentono di controllare la velocità con cui si accumula la pressione, consentendo stili di pittura diversi.
 
   * **Lineare**: nessuna trasformazione. La pressione recuperata è quella fornita dalla penna della tavoletta grafica. Utilizzare questa impostazione nel caso in cui una curva di pressione della penna sia già definita nelle impostazioni dei driver del Tablet PC.
-  * **Ingresso graduale** (impostazione predefinita): rallenta l&#39;inizio della pressione, rendendo più facile colorare tratti sottili o deboli.
-  * **Uscita graduale**: rallenta l&#39;inizio della pressione e velocizza la fine, rendendo più facile dipingere tratti morbidi o forti.
+  * **Ingresso graduale** (impostazione predefinita): rallenta l&#39;inizio della pressione per facilitare la pittura di tratti sottili o deboli.
+  * **Uscita graduale**: rallenta l’inizio della pressione e accelerane la fine, per rendere più facile la pittura di tratti morbidi o forti.
 
   ![](../../assets/pressure-curve.png)
 * **Il pulsante Pressione non è più un menu a discesa**\
@@ -112,10 +112,10 @@ Oltre al supporto dei predefiniti per i pennelli di Photoshop, sono stati apport
 
 ![](../../assets/banner-uv-unwrap.jpg)
 
-La Substance Painter ora scompone automaticamente le trame con coordinate UV mancanti. In questo modo è possibile importare qualsiasi tipo di geometria e iniziare immediatamente a colorare. Il nostro sistema di srotolamento UV genererà un&#39;Isola UV per sottorete, pur continuando a seguire l&#39;assegnazione del materiale per creare set di texture. Questa funzione è attualmente in versione beta e si svilupperà nelle versioni future. Lo srotolamento automatico verrà applicato solo ai progetti che **non utilizzano il flusso di lavoro UDIM**.
+La Substance Painter ora scompone automaticamente le trame con coordinate UV mancanti. In questo modo è possibile importare qualsiasi tipo di geometria e iniziare immediatamente la pittura. Il nostro sistema di srotolamento UV genererà un&#39;Isola UV per sottorete, pur continuando a seguire l&#39;assegnazione del materiale per creare set di texture. Questa funzione è attualmente in versione beta e si svilupperà nelle versioni future. Lo srotolamento automatico verrà applicato solo ai progetti che **non utilizzano il flusso di lavoro UDIM**.
 
 * **Annullamento automatico del wrapping UV**\
-  Per impostazione predefinita, la Substance Painter ora genera automaticamente le coordinate UV per le trame mancanti. Questo vale sia per la creazione del progetto che per la reimportazione della trama. Tuttavia, è possibile disabilitare questo comportamento accedendo alle [impostazioni principali](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e disabilitando **Abilita lo srotolamento automatico degli UV** in **Opzioni di importazione**.
+  Per impostazione predefinita, la Substance Painter ora genera automaticamente le coordinate UV per le trame mancanti. Questo vale sia per la creazione del progetto che per la reimportazione della trama. Tuttavia, è possibile disabilitare questo comportamento accedendo alle [impostazioni principali](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e disabilitando **Abilita lo srotolamento automatico degli UV** in **Opzioni di importazione**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Annullamento del wrapping della barra di avanzamento UV**\
@@ -123,7 +123,7 @@ La Substance Painter ora scompone automaticamente le trame con coordinate UV man
 
   ![](../../assets/uv-unwrapping-progress.png)
 * **Problemi noti**\
-  Poiché questa nuova funzione è attualmente in beta, sono previsti alcuni problemi. Consulta le note sulla versione di seguito per un elenco dei problemi attualmente noti. Se l’applicazione si arresta in modo anomalo e genera risultati errati, consigliamo di inviarci una segnalazione di arresto anomalo o bug tramite l’applicazione per aiutarci a indagare sul problema e migliorare il processo.
+  Poiché questa nuova funzione è attualmente in beta, sono previsti alcuni problemi. Consulta le note sulla versione di seguito per un elenco dei problemi attualmente noti. Se l’arresto anomalo dell’applicazione produce risultati errati, si consiglia di inviarci un arresto anomalo o una segnalazione di bug tramite l’applicazione per aiutarci a indagare sul problema e migliorare la procedura.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Continuiamo a migliorare l&#39;integrazione del formato della Substance supporta
 * **Supporto del passaggio definito nei parametri**\
   I grafici delle Substance con parametri con un passaggio definito verranno ora considerati quando si modifica il cursore.
 * **Precisione delle cifre aumentata per i cursori a virgola mobile**\
-  Il cursore Mobile ora può avere valori di input che vanno fino a 6 decimali. Ciò è tuttavia limitato dalla precisione in virgola mobile, il che significa che il valore immesso può essere arrotondato in alcuni casi.
+  Il cursore Virgola mobile ora può avere valori di input che arrivano fino a 6 decimali. Ciò è tuttavia limitato dalla precisione in virgola mobile, il che significa che il valore immesso può essere arrotondato in alcuni casi.
 * **Nuovo controllo Numero casuale con Tratti dinamici**\
   Ora è possibile richiedere più valori di inizializzazione casuali all’interno di un intervallo definito. Ciò consente di creare variazioni di Substance uniche e casuali pur ottenendo buone prestazioni grazie al riciclo della cache.\
   Nel gruppo Traccia dinamica, per accedere al nuovo parametro, passa dal parametro **Random Seed Type** a **Random Per Stroke** o **Random Per Stamp**. La **Quantità di campionamento casuale** definisce il numero di variazioni di Substance che verranno generate in totale. Una volta generata la quantità selezionata, verrà effettuata una selezione casuale all&#39;interno dell&#39;insieme.
@@ -160,22 +160,22 @@ Continuiamo a migliorare l&#39;integrazione del formato della Substance supporta
 Nel resto dell’applicazione sono stati apportati diversi miglioramenti che dovrebbero contribuire a migliorare le attività quotidiane nell’ambito della Substance Painter.
 
 * **Visualizzazioni indipendenti attive**\
-  Lo stato attivo 2D e 3D (scelta rapida F) è stato modificato con il seguente comportamento:
+  La messa a fuoco 2D e 3D (scelta rapida da tastiera F) è stata modificata con il seguente comportamento:
 
-  * **Passare il mouse sulla vista 2D**: premendo F verrà attivata solo la vista 2D.
+  * **Passa il mouse sul Vista 2D**: premendo F viene attivato solo il Vista 2D.
   * **Passa il mouse sulla vista 3D**: premendo F viene attivata solo la vista 3D.
   * **Mouse all&#39;esterno delle finestre delle viste**: premendo F verrà attivata la vista 2D e 3D.
 
   ![](../../assets/viewport-focus.gif){width="400px"}
-* **Scelta rapida da tastiera e menu per la finestra di cottura**\
-  La finestra di cottura può essere aperta in due modi diversi:
+* **Esegue i baking della tastiera e della scelta rapida da tastiera di menu della finestra**\
+  La finestra di esegue i baking può essere aperta in due modi diversi:
 
   * Premendo **Ctrl+Maiusc+B**.
   * Accedete al menu Modifica e fate clic su **Crea mappe trama**.
 
   ![](../../assets/bake-mesh-maps-menu.png)
 * **Scorri i dock e le finestre con la scelta rapida Ctrl+Alt+Clic sinistro**\
-  È stata aggiunta una nuova scelta rapida che consente di scorrere le finestre e i dock senza la rotella del mouse. Quale scelta rapida è ora possibile scorrere con la penna della tavoletta grafica.
+  È stata aggiunta una nuova scelta rapida da tastiera che consente di scorrere finestre e banchine senza la rotella del mouse. Quale questa scelta rapida da tastiera è ora possibile scorrere con la penna della tavoletta grafica.
 
   ![](../../assets/scroll-shortcut.gif)
 * **Miglioramenti delle prestazioni**\
@@ -195,7 +195,7 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
   Sono stati aggiunti 3 nuovi filtri per semplificare i contenuti stilizzati:
 
   * **Fumetto MatFx**\
-    Questo filtro simula le linee di tratteggio e di spigolo in base all’input fornito (dal colore di base/diffusione alla curvatura).
+    Questo filtro simula linee di tratteggio e di spigolo in base all&#39;input fornito (dal colore di base/diffusione alla curvatura).
 
     ![](../../assets/icon-matfx-comic-book.png)
   * **Acquerello MatFx**\
@@ -215,7 +215,7 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
 * **Nuovi pennelli predefiniti**
 
   * **102 predefiniti pennello di Photoshop**\
-    Con l’introduzione del supporto dei pennelli di Photoshop, è stato incluso un nuovo set di predefiniti per mostrarlo. Questi predefiniti sono stati selezionati dai pacchetti di Kyle T. Webster disponibili sul [sito Web di Adobe](https://www.adobe.com/it/products/photoshop/brushes.html).
+    Con l’introduzione del supporto dei pennelli di Photoshop, è stato incluso un nuovo set di predefiniti per mostrarlo. Questi predefiniti sono stati selezionati dai pacchetti di Kyle T. Webster disponibili sul [sito Web di Adobe](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 nuovi pennelli predefiniti**\
@@ -223,7 +223,7 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
 
     * Pressione rigida di base
     * Carboncino fine
-    * Inquadratura piena carboncino
+    * Carboncino Fotogramma intero
     * Luce carboncino
     * Carboncino medio
     * Carboncino naturale
@@ -232,17 +232,17 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
     * Punti deformazioni
     * Tratto deformante con rottura
     * Tratti Deformazioni in movimento
-    * Freccia a rullo
+    * Pittura freccia a rulli
+    * Pittura graffette a rullo largo
     * Graffette a rullo
-    * Graffette a rullo
-    * Paint Roller Stitch
-    * Stripe a rullo
+    * Pittura punti rullo
+    * Pittura Stripe a rulli
     * Vernice a rullo vena lunga stretta
-    * Testo di avvertenza del rullo di pittura
+    * Pittura testo avviso rullo
 
     ![](../../assets/shelf-presets-demo.jpg){width="500px"}
 * **Nuovi strumenti predefiniti**\
-  Sono stati aggiunti 2 nuovi strumenti predefiniti che simulano la pittura guazzo.
+  Sono stati aggiunti 2 nuovi strumenti predefiniti per simulare la pittura del guazzo.
 
   * Gouache Dense.
   * Il Gouache È Sbiadito.
@@ -255,8 +255,8 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
     Questo nuovo grafico a Substance replica alcuni parametri specifici del pennello disponibili in Photoshop tramite la funzione Traccia dinamica. Con è possibile controllare la rotondità e la riflessione o un’immagine di input. Alcuni parametri di variazione sono disponibili anche per creare più variazioni. Questo grafico a Substance viene inserito automaticamente nella sezione Alpha quando si fa clic su un pennello predefinito di Photoshop proveniente da un file ABR.
 
     ![](../../assets/icon-brush-maker-photoshop.png)
-  * **Rullo di pittura di Brush Maker**\
-    Questo nuovo grafico a Substance simula un rullo di pittura (o un semplice strumento a nastro) per dipingere pattern continui con giri senza rompersi. Per semplificare la configurazione, date un’occhiata ai predefiniti esistenti o fate riferimento alla descrizione del grafico. Si consiglia di abilitare [il mouse pigro](../../painting/lazy-mouse.md) per disegnare correttamente il pennello di scorrimento senza creare interruzioni.
+  * **Rullo Pittura del produttore di pennelli**\
+    Questo nuovo grafico a Substance simula un rullo Pittura (o un semplice strumento a nastro) per pittura pattern continui con giri senza interruzioni. Per semplificare la configurazione, date un’occhiata ai predefiniti esistenti o fate riferimento alla descrizione del grafico. Si consiglia di abilitare [Mouse lento](../../painting/lazy-mouse.md) per disegnare correttamente il pennello a rotolamento senza creare interruzioni.
 
     ![](../../assets/icon-brush-maker-paint-roller.png)
 
@@ -268,7 +268,7 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
 * **Nuovo modello e predefiniti di esportazione**
 
   * **Keyshot 9+**\
-    Questo predefinito di esportazione rende le texture esportate compatibili con la nuova funzione Keyshot 9 che semplifica il caricamento e l&#39;assegnazione di texture e materiali. Per ulteriori informazioni, consulta la [documentazione Keyshot](https://luxion.atlassian.net/wiki/spaces/K9M/pages/1124335675/Material+Importer).
+    Questo predefinito di esportazione rende la texture esportata compatibile con la nuova funzione Keyshot 9 che semplifica il caricamento e l&#39;assegnazione di texture e materiali. Per ulteriori informazioni, consulta la [documentazione Keyshot](https://luxion.atlassian.net/wiki/spaces/K9M/pages/1124335675/Material+Importer).
   * **Spark AR Studio**\
     Il nuovo modello di progetto e il predefinito di esportazione semplificano l&#39;utilizzo di [Spark AR Studio](https://sparkar.facebook.com/ar-studio/).
 
@@ -293,13 +293,13 @@ Riepilogo: **Bugfix con aggiornamento a Iray 2019.3**
 
 **Corretto:**
 
-* [Baker] La cottura non riesce se la rete High-Poly non ha UV
+* [Baker] La Esegue i baking non riesce se la trama High-Poly non ha UV
 * [Linux] Le scelte rapide personalizzate del mouse non vengono salvate
 * [Pennello] Il contorno scompare con alcune forme alfa
 * [Tablet] Rilevamento errato durante lo spostamento dei cursori
-* [Shortcuts] Impossibile impostare qualsiasi scelta rapida con &quot;Ctrl+Alt+MouseClick&quot;
+* [Scelte rapide] Impossibile impostare una scelta rapida da tastiera con &quot;Ctrl+Alt+MouseClick&quot;
 * [Shelf] Impossibile visualizzare la descrizione comando della risorsa quando si utilizza una tavoletta a penna
-* [Vista 2D]&#x200B;[Esporta] Il predefinito Vista 2D non tiene conto delle informazioni normali
+* [Vista 2D][Esporta] Il predefinito Vista 2D non tiene conto delle informazioni normali
 * Si verifica un blocco con quando si disegna in allineamento UV con determinati pennelli
 * Colorare sotto un filtro crea un artefatto sul tratto in corso
 * [Finestra vista] Cache delle texture errata nella finestra della vista dopo la reimportazione di una trama
@@ -380,28 +380,28 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Srotolamento UV] Srotolamento UV automatico nella Substance Painter quando non sono presenti UV o UV parziali
 * [Srotolamento UV] Un&#39;impostazione globale per attivarla e disattivarla
 * [Annullamento del wrapping UV] Versione riportata nel file di log
-* [Annullamento UV]&#x200B;[UI] Indica l&#39;avanzamento dello srotolamento UV
+* [Annullamento UV][UI] Indica l&#39;avanzamento dello srotolamento UV
 * [UI] Nuove impostazioni nella barra degli strumenti contestuale per selezionare l&#39;anteprima del pennello: anteprima completa, contorno del pennello e mirino
 * [Tool] Nuovo metodo di fusione avanzato nella sezione alfa: Schiarisci (Massimo) oltre a Normale
 * [Serie di livelli] Opzione di correzione gamma per livello per canale alfa o maschera (menu di scelta rapida)
-* [Layer Stack]&#x200B;[UI] Aggiungi icona &quot;i&quot; quando un livello alfa è corretto dal gamma
-* [Tablet]&#x200B;[Strumento] Esporre la pressione minima per le dimensioni e il flusso
-* [Tablet]&#x200B;[UI] Nuova impostazione nella barra degli strumenti contestuale per selezionare la pressione della curva: lineare, intuitivo, intuitivo
-* [Tablet]&#x200B;[UX] Aggiungi Ctrl+Alt+clic per scorrere
+* [Layer Stack][UI] Aggiungi icona &quot;i&quot; quando un livello alfa è corretto dal gamma
+* [Tablet][Strumento] Esporre la pressione minima per le dimensioni e il flusso
+* [Tablet][UI] Nuova impostazione nella barra degli strumenti contestuale per selezionare la pressione della curva: lineare, intuitivo, intuitivo
+* [Tablet][UX] Aggiungi Ctrl+Alt+clic per scorrere
 * Importare pennelli predefiniti di Photoshop (formato ABR)
 * [ABR] Supporta i parametri Shape
 * [ABR] Supporta i parametri della dinamica delle forme
 * [ABR] Parametri di trasferimento del supporto
 * [ABR] Supporta i parametri di dispersione
-* [ABR]&#x200B;[Tratti dinamici] Supporta rotondità e capovolgimento
-* [ABR]&#x200B;[Shelf] Esporre la struttura di cartelle dei pennelli nell&#39;Editor filtri
-* [ABR]&#x200B;[Ripiano] Aggiungere l’icona di Photoshop nelle miniature
-* [ABR]&#x200B;[Shelf] Aggiungi un elenco di parametri non supportati nella miniatura dettagliata ABR
-* [Strumento]&#x200B;[Tratti dinamici] Nuova impostazione del tratto dinamico per controllare il numero di inizializzazione casuale da generare
-* [Tool]&#x200B;[UI] Aggiungi nuove impostazioni di distribuzione e asse per la variazione di dispersione
+* [ABR][Tratti dinamici] Supporta rotondità e capovolgimento
+* [ABR][Shelf] Esporre la struttura di cartelle dei pennelli nell&#39;Editor filtri
+* [ABR][Ripiano] Aggiungere l’icona di Photoshop nelle miniature
+* [ABR][Shelf] Aggiungi un elenco di parametri non supportati nella miniatura dettagliata ABR
+* [Strumento][Tratti dinamici] Nuova impostazione del tratto dinamico per controllare il numero di inizializzazione casuale da generare
+* [Tool][UI] Aggiungi nuove impostazioni di distribuzione e asse per la variazione di dispersione
 * [Scelta rapida] Aggiungi Ctrl+Maiusc+B per aprire la finestra Baking
-* [UI]&#x200B;[Menu] Aggiungi voce nel menu &quot;Modifica&quot; per aprire la finestra Baking
-* [UI]&#x200B;[Impostazioni] Miglioramento dell’allineamento dell’elenco delle scelte rapide
+* [UI][Menu] Aggiungi voce nel menu &quot;Modifica&quot; per aprire la finestra Baking
+* [UI][Impostazioni] Miglioramento dell’allineamento dell’elenco delle scelte rapide
 * [UI] Sostituire le icone dei controlli pressione (dimensioni e flusso) con i pulsanti di attivazione/disattivazione
 * [Riquadro di visualizzazione] Consente di mettere a fuoco separatamente il riquadro di visualizzazione 2D e 3D
 * Aggiornamento a QT 5.12.5
@@ -432,19 +432,19 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Tablet] In rari casi, le scelte rapide per modificare i pennelli a penna comportano prestazioni ridotte
 * [Tablet] Ritardo quando si disegna su un livello specifico
 * In rari casi, quando si cambia finestra, possono verificarsi texture sfocate
-* [UI]&#x200B;[Substance] Gli input dell’immagine non vengono sempre visualizzati
+* [UI][Substance] Gli input dell’immagine non vengono sempre visualizzati
 * L’opzione Pulisci non rimuove dal ripiano i predefiniti importati in un progetto
-* [Strumento]&#x200B;[Tratto dinamico] Problema di prestazioni durante l&#39;ottimizzazione del conteggio dei cicli del timbro
+* [Strumento][Tratto dinamico] Problema di prestazioni durante l&#39;ottimizzazione del conteggio dei cicli del timbro
 * In rari casi, problemi di aggiornamento durante l’uso della modalità finestra vista 3D/2D
 * Colorare un tratto molto lungo può portare a un blocco
 * [Tool] Problema di prestazioni quando si disegna con tratti dinamici specifici
 * [UI] Nella barra degli strumenti contestuale vengono ancora visualizzate le proprietà del pennello durante la selezione di una cartella
-* I valori dell&#39;asse di simmetria non vengono reimpostati
+* I valori dell&#39;asse delle simmetrie non vengono ripristinati
 * L’importazione di texture EXR con valori a virgola mobile è completamente nera
 * Alt + clic su un canale per isolare non funziona per filtro e generatore
-* [Esporta] Il progetto specifico si arresta in modo anomalo durante l’esportazione
+* [Esporta] arresti anomali di progetto specifici all’esportazione
 * [Substance] Valore predefinito errato nel menu a discesa se il parametro è nascosto da Visible If
-* [Shader] I canali definiti tramite la creazione di livelli di materiale non sono ordinati allo stesso modo nell’interfaccia utente
+* [Shader] I canali definiti tramite Livelli materiale non sono ordinati allo stesso modo nell’interfaccia utente
 * [Shelf] I metadati dei predefiniti non vengono salvati sul disco
 
 **Problemi noti:**

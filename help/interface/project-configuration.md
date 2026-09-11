@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/project-configuration.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
-description: Scoprite come configurare le impostazioni di progetto in Substance 3D Painter per impostare la risoluzione delle texture, i canali e le proprietà del progetto.
+description: Scopri come configurare le impostazioni di progetto in Substance 3D Painter per impostare la risoluzione delle texture, i canali e le proprietà del progetto.
 helpx_creative_field: ''
 helpx_description: Painter > Interface > Project configuration
 helpx_experience_level: ''
@@ -54,17 +54,17 @@ Questa sezione controlla diverse impostazioni correlate al progetto:
   </tr>
   <tr>
     <td><strong>Formato mappa normale</strong></td>
-    <td>Definisce il formato della mappa normale utilizzata per la trama nella finestra della vista. Questo parametro influisce solo sugli <a href="shader-settings/shader-settings.md">shader</a> nella finestra della vista e sulle mappe mesh nei <a href="../baking/baking.md">forni</a>. Il gruppo di livelli è indipendente. Valore consigliato per le applicazioni più comuni:<br><br><ul><li><strong>Unità</strong>: OpenGL</li><li><strong>Motore irreale</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS max</strong>: DirectX</li><li><strong>Blender</strong>: OpenGL</li></ul></td>
+    <td>Definisce il formato della mappa normale utilizzata per la trama nella finestra della vista. Questo parametro ha effetto solo sugli <a href="shader-settings/shader-settings.md">shader</a> nella finestra della vista e sulle mappe della trama nei <a href="../baking/baking.md">baker</a>. La Pila livelli è indipendente. Valore consigliato per le applicazioni più comuni:<br><br><ul><li><strong>Unità</strong>: OpenGL</li><li><strong>Motore irreale</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS max</strong>: DirectX</li><li><strong>Blender</strong>: OpenGL</li></ul></td>
   </tr>
   <tr>
     <td><strong>Calcola lo spazio tangente per frammento</strong></td>
-    <td>Determina come calcolare e visualizzare le mappe normali nella finestra della vista per l'ombreggiatura e l'illuminazione. Se questa opzione è attivata, la tangente e i binormali della trama verranno calcolati per pixel anziché per vertice.<br>Valore consigliato per le applicazioni comuni:<br><br><ul><li><strong>Unità</strong>: disattivata (abilitata se si utilizza HDRP)</li><li><strong>Motore Irreale</strong>: Abilitato</li></ul></td>
+    <td>Determina come calcolare e visualizzare la mappa normale nella finestra della vista per l'ombreggiatura e l'illuminazione. Se questa opzione è attivata, la tangente e i binormali della trama verranno calcolati per pixel anziché per vertice.<br>Valore consigliato per le applicazioni comuni:<br><br><ul><li><strong>Unità</strong>: disattivata (abilitata se si utilizza HDRP)</li><li><strong>Motore Irreale</strong>: Abilitato</li></ul></td>
   </tr>
 </table>
 
 >[!NOTE]
 >
-> Per modificare il formato normale o il calcolo della tangente, è necessario eseguire nuovamente il baking delle mappe mesh per garantire che l&#39;aspetto nelle finestre sia corretto.
+> La modifica del formato normale o del calcolo della tangente richiede di eseguire i baking nuovamente le mappe mesh per garantire che l&#39;aspetto nelle finestre delle viste sia corretto.
 
 ### Impostazioni specifiche per il tipo di file
 
@@ -83,7 +83,7 @@ Quando è selezionato un formato di trama USD, diventano disponibili altre impos
   </tr>
   <tr>
     <td><strong>Livello di suddivisione</strong></td>
-    <td>Si applica alla geometria con suddivisione. Specificate l’entità di suddivisione della trama per la creazione di texture in Painter. Se la suddivisione è impostata in modo esplicito su 'none' all'interno del file USD, questa impostazione è disattivata. La suddivisione viene applicata dopo lo srotolamento UV, in modo che non alteri la forma degli UV della trama.</td>
+    <td>Si applica alla geometria con suddivisione. Specificate l’entità di suddivisione della trama per la creazione di texture in Painter. Se la suddivisione è impostata in modo esplicito su "nessuno" all’interno del file USD, questa impostazione è disattivata. La suddivisione viene applicata dopo lo srotolamento UV, in modo che non alteri la forma degli UV della trama.</td>
   </tr>
   <tr>
     <td><strong>Cornice</strong></td>
@@ -91,9 +91,9 @@ Quando è selezionato un formato di trama USD, diventano disponibili altre impos
   </tr>
 </table>
 
-## Impostazioni porzioni UV
+## Impostazioni porzione UV
 
-Questa sezione contiene i controlli per attivare/disattivare l’utilizzo di UDIM nel progetto. Non è possibile modificare queste impostazioni dopo la creazione del progetto, ma puoi visualizzare le impostazioni per il progetto qui. Per ulteriori informazioni, consultate la [documentazione sulle porzioni UV](../features/uv-tiles/uv-tiles.md).
+Questa sezione contiene i controlli per attivare/disattivare l’utilizzo di UDIM nel progetto. Non è possibile modificare queste impostazioni dopo la creazione del progetto, ma puoi visualizzare le impostazioni per il progetto qui. Per ulteriori informazioni, consulta la [documentazione Porzione UV](../features/uv-tiles/uv-tiles.md).
 
 ## Impostazioni di importazione
 
@@ -103,7 +103,7 @@ Queste impostazioni controllano il modo in cui verrà importata la trama selezio
 | --- | --- |
 | **Importa fotocamere** | Se questa opzione è attivata, anche le fotocamere presenti nel file con trama verranno importate e saranno disponibili nella finestra della vista 3D. |
 | **Mantenere le posizioni dei tratti sulla trama** | Questa impostazione controlla il modo in cui i tratti del pennello verranno ricalcolati dopo l’importazione di una nuova trama 3D. Nella maggior parte dei casi si consiglia di mantenere attiva questa impostazione. Per ulteriori informazioni, consultate la documentazione sulla [riproiezione UV](../features/uv-reprojection.md). |
-| **Annullamento automatico del wrapping** | Srotolamento UV automatico. Fare clic sul pulsante Opzione per configurare il processo. Per ulteriori informazioni, consulta la [documentazione per lo srotolamento automatico degli UV](../features/automatic-uv-unwrapping.md). |
+| **Srotolamento automatico** | Srotolamento UV automatico. Fare clic sul pulsante Opzione per configurare il processo. Per ulteriori informazioni, consulta la [documentazione per lo srotolamento automatico degli UV](../features/automatic-uv-unwrapping.md). |
 
 ### Dimensioni fisiche impostazioni
 

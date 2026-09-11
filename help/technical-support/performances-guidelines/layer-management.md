@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Scopri le best practice per la gestione dei livelli in Substance 3D Painter per ottimizzare le prestazioni e gestire i progetti organizzati.
 helpx_creative_field: ""
@@ -20,19 +20,19 @@ ht-degree: 0%
 
 # Gestione dei livelli
 
-Painter calcola la pila di livelli dal basso verso l’alto. Pertanto, se apporti modifiche al livello superiore della pila, Painter deve solo calcolare le modifiche di quel livello. Tuttavia, se apportate una modifica a un livello nella parte inferiore della pila, per calcolare il risultato finale Painter deve calcolare tutti i livelli al di sopra di tale livello.
+Painter calcola la Pila livelli dal basso verso l’alto. Pertanto, se apporti modifiche al livello superiore della pila, Painter deve solo calcolare le modifiche di quel livello. Tuttavia, se apportate una modifica a un livello nella parte inferiore della pila, per calcolare il risultato finale Painter deve calcolare tutti i livelli al di sopra di tale livello.
 
 Esistono diverse opzioni che potete utilizzare per ridurre il costo in termini di prestazioni quando si apportano modifiche ai livelli più bassi nella pila:
 
 +++Usare le maschere di geometria
-Le maschere di geometria sono lo strumento di ottimizzazione migliore. Ogni volta che puoi isolare una parte della trama su cui lavorare, esegui questa operazione mascherando i livelli o le cartelle. Le maschere di geometria funzionano isolando mediante UDIM o mediante una parte di trama, in modo che le aree che non si trovano nella maschera non vengano elaborate, migliorando le prestazioni. Per semplificare la creazione delle texture, potete anche isolare visivamente le parti nella finestra della vista.
+Le maschere di geometria sono lo strumento di ottimizzazione migliore. Ogni volta che puoi isolare una parte della trama su cui lavorare, esegui questa operazione mascherando i livelli o le cartelle. Le maschere di geometria funzionano isolando per UDIM o per parte di trama, in modo che le aree che non si trovano nella maschera non vengano elaborate, migliorando le prestazioni. Per semplificare la creazione delle texture, potete anche isolare visivamente le parti nella finestra della vista.
 
 Potete [ottenere ulteriori informazioni sulle maschere di geometria con questo tutorial](https://www.youtube.com/watch?v=TGASuIGSUns) o [facendo riferimento alla documentazione](../../interface/layer-stack/geometry-mask.md).
 
 +++
 
 +++Nascondi livelli
-Per evitare rallentamenti quando si apportano modifiche a un livello inferiore nella pila dei livelli, potete nascondere i livelli sopra il livello modificato fino a quando non avete completato le regolazioni. Painter non elabora i livelli nascosti, quindi se tutti i livelli superiori sono nascosti, è come se steste modificando il livello superiore della pila. In questo modo, i livelli superiori verranno calcolati solo una volta, quando li scoprirai, anziché dopo ogni modifica apportata.
+Per evitare rallentamenti quando si apportano modifiche a un livello inferiore della Pila livelli, potete nascondere i livelli sopra il livello modificato fino a quando non avete completato le regolazioni. Painter non elabora i livelli nascosti, quindi se tutti i livelli superiori sono nascosti, è come se steste modificando il livello superiore della pila. In questo modo, i livelli superiori verranno calcolati solo una volta, quando li scoprirai, anziché dopo ogni modifica apportata.
 
 +++
 
@@ -46,13 +46,13 @@ Quando possibile, prova a raggruppare i livelli, in quanto le cartelle agiscono 
 
 +++
 
-+++Limita l’uso di filtri nella parte superiore del gruppo di livelli
-I filtri possono essere costosi. Se è necessario utilizzare un filtro vicino alla parte superiore dello stack di livelli, utilizzate le maschere di geometria per ridurre i costi di prestazioni.
++++Limita l’uso di filtri vicino alla parte superiore della Pila livelli
+I filtri possono essere costosi. Se è necessario utilizzare un filtro vicino alla parte superiore della Pila livelli, utilizzare le maschere di geometria per ridurre i costi di prestazioni.
 
 +++
 
 +++Limita l&#39;utilizzo del metodo di fusione passthrough
-La passthrough viene spesso utilizzata con filtri o livelli di tratti pennello. Si tratta di un metodo di fusione costoso perché esamina tutti i livelli sottostanti e ne trasforma il risultato, invece di ignorare il risultato come se fosse un metodo di fusione normale. Ogni volta che si utilizza la passthrough, provare a combinarla con le maschere e le cartelle Geometry per ridurre al minimo l&#39;impatto sulle prestazioni.
+La Passthrough viene spesso utilizzata con filtri o livelli di tratti pennello. Si tratta di un metodo di fusione costoso perché esamina tutti i livelli sottostanti e ne Trasforma il risultato, invece di ignorarlo come se fosse un metodo di fusione normale. Ogni volta che si utilizza la passthrough, provare a combinarla con le maschere e le cartelle Geometry per ridurre al minimo l&#39;impatto sulle prestazioni.
 
 +++
 
@@ -68,12 +68,12 @@ I pennelli e gli strumenti con un tag arancione hanno un parametro dinamico. Que
 
 +++
 
-+++Lavora con una risoluzione della texture più bassa
++++Lavora con una risoluzione texture più bassa
 La riduzione della risoluzione dei documenti è il modo più rapido per migliorare le prestazioni. Raddoppiare la risoluzione significa ottenere una mappa 4 volte più grande, quindi passare da 1k a 2k significa aumentare i costi delle prestazioni fino a 4 volte. Di conseguenza, è spesso utile lavorare ad una risoluzione più bassa il più a lungo possibile.
 
 +++
 
-+++Imposta le decalcomanie sulla modalità di proiezione planare
-La modalità decalcomania predefinita è Altera, ma a meno che non si stia deformando la decalcomania spostandone i punti, il passaggio alla modalità Planare è molto meno costoso.
++++Imposta le decalcomanie sulla modalità di proiezione Planare
+La modalità decalcomania predefinita è Altera, ma a meno che non si stia deformando la decalcomania spostandone i punti, il passaggio alla modalità Planari è molto meno costoso.
 
 +++

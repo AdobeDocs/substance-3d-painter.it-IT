@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_curvature.webp" alt=""/><br><strong>Ingresso:</strong> maschera, generatore, scala di grigi, fusione</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di curvatura crea una maschera basata sulla mappa di curvatura cotta con l'opzione per fondere una texture o micro dettagli nella maschera.<br><br>Il generatore di curvatura genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere anziché applicarle direttamente a un livello.<br><br>Per l'input è necessaria una mappa di posizione al forno. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di curvatura crea una maschera basata sulla mappa di curvatura eseguita i baking con l'opzione per fondere una texture o micro dettagli nella maschera.<br><br>Il generatore di curvatura genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere piuttosto che applicarle direttamente a un livello.<br><br>Come input è necessaria una mappa di posizione eseguita i baking. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -25,8 +25,8 @@ ht-degree: 4%
 | Colore **Texture** | Usate una texture o un punto di ancoraggio personalizzato. |
 | Colore **Micro-Normale** | Usate una texture normale personalizzata o un punto di ancoraggio. |
 | Colore **Micro Height** | Usate una texture o un punto di ancoraggio personalizzato. |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| Colore **Normali spazio globale** | Utilizzate la mappa standard di World Space. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| Colore **Normali spazio globale** | Utilizzare la mappa eseguita i baking World Space Normals. |
 | Colore **Sfumatura posizione** | Utilizzate la mappa di posizione al forno. |
 
 ## Parametri
@@ -37,7 +37,7 @@ ht-degree: 4%
 | **Sfocatura globale** | Ammorbidisce la maschera finale in modo uniforme dopo aver combinato tutti gli effetti. |
 | **Saldo globale** | Consente di spostare il bilanciamento della maschera finale quando tutti gli effetti vengono combinati in bianco o nero, ad esempio con una regolazione della luminosità. |
 | **Contrasto globale** | Regola il contrasto della maschera finale dopo aver combinato tutti gli effetti. |
-| **Usa texture** | Attivate o disattivate l’utilizzo di una mappa texture personalizzata. |
+| **Usa Texture** | Attivare o disattivare l&#39;utilizzo di una mappa texture personalizzata. |
 | **Usa dettagli micro** | Attivare o disattivare l’utilizzo della mappa dei micro dettagli personalizzata. |
 
 ### Curvatura
@@ -101,12 +101,12 @@ ht-degree: 4%
     <th>Descrizione</th>
   </tr>
   <tr>
-    <td><strong>Opacità texture</strong></td>
-    <td>Controllate la visibilità della texture personalizzata.</td>
+    <td><strong>Texture opacità</strong></td>
+    <td>Controlla la visibilità della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>
-    <td>Invertite solo la texture personalizzata.</td>
+    <td>Inverti solo la texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Conversione in scala di grigi</strong></td>
@@ -122,19 +122,19 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Contrasto</strong></td>
-    <td>Impostate il contrasto/decadimento della texture personalizzata.</td>
+    <td>Imposta il contrasto/decadimento della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Luminosità</strong></td>
-    <td>Impostate la luminosità della texture personalizzata.</td>
+    <td>Imposta la luminosità della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Triplanare</strong></td>
-    <td>Quando Triplanare è attivato, la texture viene proiettata da tre direzioni (assi X, Y, Z) invece di fare affidamento solo sugli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando Triplanare è attivato, la texture viene proiettata da tre direzioni (assi X, Y, Z) invece di basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
 </table>
 
@@ -147,11 +147,11 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa di Micro Height personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una mappa personalizzata dell'altezza della micro.</td>
   </tr>
   <tr>
     <td><strong>Micro Normale</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa Micro Normal personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una Micro Mappa normale personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Tipo curvatura</strong></td>

@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
 breadcrumb-title: ''
-description: Scoprite come colorare le mappe dei height direttamente in Substance 3D Painter per creare effetti di spostamento e di elevazione delle superfici.
+description: Scoprite come pittura le mappe dell’altezza direttamente in Substance 3D Painter per creare effetti di spostamento e di elevazione delle superfici.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Advanced channel painting > Height Map Painting
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Pittura mappa height
+title: Pittura mappa altezza
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Pittura mappa height
+# Pittura mappa altezza
 
 ## Idea generale
 
@@ -26,13 +26,13 @@ Lavorare su una mappa di altezza invece di lavorare direttamente su una normale 
 
 La procedura è la seguente:
 
-* Una mappa normale, cotta da una maglia poly alta, viene caricata sulla maglia poly bassa.
-* Dipingerai ulteriori dettagli sul canale della mappa dell’altezza.
-* Il Height che dipingete viene composto attraverso tutti i livelli e convertito in una mappa normale in tempo reale, e infine fuso con la normale dalla trama poli alta.
+* Una mappa normale, eseguita i baking da una trama poly alta, viene caricata sulla trama poly bassa.
+* Pittura ulteriori dettagli sul canale heightmap.
+* Il Height pittura viene composto attraverso tutti i livelli e convertito in mappa normale in tempo reale, per poi essere fuso con la normale della trama poly più alta.
 
 Tutto ciò di cui devi preoccuparti è dipingere quel height, tutto il resto viene fatto automaticamente.
 
-### Formato HDR height
+### Formato height HDR
 
 Il canale di Height utilizza un formato di colore **HDR**, che consente di colorare i valori positivi e negativi senza mai raggiungere un limite di luminosità, contrariamente alle tradizionali mappe di height che saturano tra 0 e 255.
 
@@ -44,7 +44,7 @@ Un grigio medio verrà rimappato su 0. Di conseguenza, i valori inferiori a 127 
 
 ### Visualizzazione height
 
-Quando si visualizza la mappa del Height in modalità Solo, l’anteprima predefinita mostra solo valori positivi, con una forte saturazione del nero per valori negativi.
+Quando si visualizza la mappa dell’altezza in modalità Solo, l’anteprima predefinita mostra solo valori positivi, con una forte saturazione del nero per valori negativi.
 
 L&#39;impostazione **+/- color** consente di visualizzare l&#39;intero intervallo utilizzando un colore diverso per i valori positivi e negativi.
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
-description: Accedete alla pagina di riferimento delle API shader Lib Sampler per Substance 3D Painter per campionare trame e dati nello sviluppo di shader personalizzati.
+description: Accedi alla pagina di riferimento per API shader Lib Sampler per Substance 3D Painter per campionare texture e dati nello sviluppo di shader personalizzati.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
 helpx_experience_level: ""
@@ -119,7 +119,7 @@ uniform vec4 screen_size;
 ```
 
 
-Restituire la lucentezza campionata o un valore predefinito
+Restituire una lucentezza campionata o un valore predefinito
 
 ```
 float getGlossiness(vec4 sampledValue) 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Restituire il livello di anisotropia campionato o un valore predefinito
+Restituire un livello di anisotropia campionato o un valore predefinito
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -211,7 +211,7 @@ float getAnisotropyLevel(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Restituisce l’angolo di anisotropia campionato o un valore predefinito
+Restituire un angolo di anisotropia campionato o un valore predefinito
 
 ```
 float getAnisotropyAngle(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Ripristina occlusione ambiente
+Occlusione ambientale di ritorno
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-Genera colore specular dal colore di base e dal fattore metallico, utilizzando lo specular level predefinito (0,04) per i dielettrici
+Genera colore specular da colore di base e fattore metallico, utilizzando lo specular level predefinito (0,04) per i dielettrici
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

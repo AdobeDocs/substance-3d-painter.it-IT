@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ''
 description: Scoprite come attivare la dispersione sottosuperficiale nei progetti Substance 3D Painter per creare realistici effetti di materiale traslucido.
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ Nel [set di texture](../../interface/texture-set/texture-set.md) aggiungi un can
 
 >[!NOTE]
 >
-> Il canale di dispersione funziona come una **maschera** sopra la **superficie surreale**: se il canale è nero non vi è alcuna superficie subsuperficiale, mentre se è bianco l&#39;intensità della superficie subsuperficiale sarà massima. Questo canale è un valore in scala di grigi che per impostazione predefinita è **nero**. Aggiungete un livello di riempimento nel gruppo di livelli per controllare il colore predefinito o utilizzate un livello di disegno per controllare manualmente l’intensità.
+> Il canale di dispersione funziona come una **maschera** sopra la **superficie surreale**: se il canale è nero non vi è alcuna superficie subsuperficiale, mentre se è bianco l&#39;intensità della superficie subsuperficiale sarà massima. Questo canale è un valore in scala di grigi che per impostazione predefinita è **nero**. Aggiungete un livello di riempimento nella Pila livelli per controllare il colore predefinito o utilizzate un livello di pittura per controllare manualmente l’intensità.
 
 ## 2 - Impostazione globale sottosuperficie
 
@@ -43,11 +43,11 @@ Abilita l&#39;impostazione di dispersione Subsurface principale nelle [Impostazi
 >
 > L’attivazione/disattivazione dell’effetto Sottosuperficie influisce sull’intero progetto. Può essere utile utilizzare questo parametro globale se è troppo pesante in termini di prestazioni.
 
-## 3 - Impostazioni shader
+## 3 - Impostazioni Shader
 
 ![](../../assets/shader-parameters.png)
 
-Nella finestra [Impostazioni shader](../../interface/shader-settings/shader-settings.md) con shader predefiniti è possibile trovare un gruppo &quot; **Parametri SSS**&quot; con due impostazioni.\
+Nella finestra [Impostazioni Shader](../../interface/shader-settings/shader-settings.md) con shader predefiniti è possibile trovare un gruppo &quot; **Parametri SSS**&quot; con due impostazioni.\
 Modificate la scala e il colore per adattarli al materiale di destinazione. Per ulteriori informazioni su queste impostazioni, vedere: [Parametri sottosuperficie](subsurface-parameters.md)
 
 ## Bonus: attivazione delle ombre

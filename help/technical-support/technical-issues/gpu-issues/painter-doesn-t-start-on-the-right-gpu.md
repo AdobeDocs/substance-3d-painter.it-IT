@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
 breadcrumb-title: ''
 description: Scoprite come configurare Substance 3D Painter per l'avvio con la GPU corretta per prestazioni e compatibilità ottimali.
 helpx_creative_field: ""
@@ -75,7 +75,7 @@ In alcuni computer, ad esempio i laptop, l&#39;applicazione può essere eseguita
 
 ### Disattiva &quot;Preferenze GPU non predefinite&quot;
 
-Quando esegui Painter da un collegamento sul desktop o tramite Steam, assicurati che l&#39;impostazione <b>PrefersNonDefaultGPU</b> all&#39;interno del file <b>\*.desktop</b> sia impostata su <b>false</b>.
+Quando si esegue Painter da una scelta rapida da tastiera desktop o tramite Steam, assicurarsi che l&#39;impostazione <b>PrefersNonDefaultGPU</b> all&#39;interno del file <b>\*.desktop</b> sia impostata su <b>false</b>.
 
 Questa impostazione può essere fuorviante e portare all’utilizzo/imposizione della GPU integrata al posto di quella discreta e più potente. Per ulteriori informazioni [vedere questa discussione](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
 

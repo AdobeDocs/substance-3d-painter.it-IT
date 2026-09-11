@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
 breadcrumb-title: ''
 description: Scoprite i requisiti di compatibilità dei driver GPU per Substance 3D Painter per garantire la stabilità del rendering e delle prestazioni.
 helpx_creative_field: ""
@@ -29,18 +29,18 @@ La tabella seguente elenca tutte le versioni dei driver che sono in grado di cre
 | *Versione driver* | *Descrizione del problema* |
 | --- | --- |
 | <b> 425.xx </b> | Raytracing GPU artefatti. |
-| <b> 429.xx o precedente </b> | Artefatti del blocco texture nero. |
-| <b> 435.xx o precedente </b> | Problemi di colore sRGB durante l’elaborazione delle texture. |
+| <b> 429.xx o precedente </b> | Artefatti del blocco di texture nera. |
+| <b> 435.xx o precedente </b> | Problemi di colore sRGB durante il calcolo della texture. |
 | <b> 439.xx </b> | Texture danneggiate. |
-| <b> 441.08 </b> | Problemi di arresto anomalo o stabilità. |
-| <b> 442.19 </b> | Problemi di arresto anomalo o stabilità. |
+| <b> 441.08 </b> | Problemi di Arresto anomalo o stabilità. |
+| <b> 442.19 </b> | Problemi di Arresto anomalo o stabilità. |
 | <b>528.09</b> | Blocco del sistema operativo. |
-| Da <b>572.16 a 572.42</b> | Artefatti o arresto anomalo durante la cottura delle texture. |
+| Da <b>572.16 a 572.42</b> | Artefatti o arresti anomali quando si eseguono i baking texture. |
 
 ### AMD
 
 | *Versione driver* | *Descrizione del problema* |
 | --- | --- |
-| Da **20.7.x** a **20.11.2** | Problema di texture o corruzione. |
-| Da **20.11.3** a **21.2.1** | Problemi di texture o corruzione più problemi di arresto anomalo o stabilità. |
-| Da **21.2.3** a **21.6.1** | Problemi di arresto anomalo o stabilità. |
+| Da **20.7.x** a **20.11.2** | Texture difetto o corruzione. |
+| Da **20.11.3** a **21.2.1** | Texture difetti o corruzione più problemi di arresto anomalo o stabilità. |
+| Da **21.2.3** a **21.6.1** | Problemi di Arresto anomalo o stabilità. |

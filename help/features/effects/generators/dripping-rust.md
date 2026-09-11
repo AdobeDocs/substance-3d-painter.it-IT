@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_dripping_rust.webp" alt=""/><br><strong>Ingresso:</strong> generatore, scala di grigi, colore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Ruggini gocciolanti crea striature di ruggini che scorrono verso il basso, simulando la corrosione causata dalla gravità e dallo scarico dell'acqua.<br><br>Il generatore di Ruggini gocciolanti genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile generare maschere per creare un effetto ruggine gocciolante.<br><br>Per l'immissione dell'immagine sono necessari posizionamento al forno, curvatura e occlusione dell'ambiente. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Ruggini gocciolanti crea striature di ruggini che scorrono verso il basso, simulando la corrosione causata dalla gravità e dallo scarico dell'acqua.<br><br>Il generatore di Ruggini gocciolanti genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile generare maschere per creare un effetto ruggine gocciolante.<br><br>La posizione, la curvatura e l'occlusione ambientale Eseguite i baking sono necessarie come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| **occlusione ambiente** Scala di grigi | Utilizzate la mappa di Occlusione ambiente cotta. |
-| Colore **Posizione** | Utilizzate la mappa di posizione al forno. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| **Occlusione ambientale** Scala di grigi | Usa la mappa di Occlusione ambientale eseguita i baking. |
+| Colore **Posizione** | Usa la mappa Posizione eseguita i baking. |
 
 ## Parametri
 
@@ -35,7 +35,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Impostate il valore di partenza utilizzato per generare la texture del dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
+    <td>Impostate il valore di inizializzazione utilizzato per generare la texture di dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>

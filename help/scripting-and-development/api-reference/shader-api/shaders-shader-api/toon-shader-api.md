@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento relativa alle API shader Toon in Substance 3D Painter per creare effetti di rendering personalizzati.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Toon - API shader
 
-## Shader toon base
+## Shader tonalità base
 
 Importa da librerie.
 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-**associamo** il canale del documento **colore di base** all&#39;uniforme **colore di base\_tex**.
+**Associamo** il canale del documento **colore di base** alla nostra uniforme **colore di base\_tex**.
 
 ```
 //: param auto channel_basecolor 

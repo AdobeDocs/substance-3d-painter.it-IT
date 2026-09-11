@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-9-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-0.html"
 breadcrumb-title: ''
 description: Consultate le note sulla versione per Substance 3D Painter versione 9.0 per informazioni su nuove funzioni, miglioramenti e correzioni di bug.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 9.0
 
-<b>Substance 3D Painter 9.0</b> introduce un nuovo modo per colorare i tratti con un percorso rimodificabile nella finestra della vista 3D e con contenuti predefiniti aggiornati.
+<b>Substance 3D Painter 9.0</b> introduce un nuovo metodo per la pittura dei tratti con un percorso rimodificabile nella finestra della vista 3D e contenuti predefiniti aggiornati.
 
 Data di pubblicazione: *20 giugno 2023*
 
@@ -32,7 +32,7 @@ Data di pubblicazione: *20 giugno 2023*
 
 Lo strumento <b>Disegna lungo il tracciato</b> è un nuovo modo per colorare i tratti nella finestra della vista 3D. Analogamente ad altre applicazioni, potete creare curve basate su Bezier guidate da punti sulla superficie dell’oggetto 3D per disegnare pattern. Combinato con materiali di Substance questo nuovo strumento può aprire un sacco di nuove possibilità.
 
-* <b>Nuovo strumento per creare tratti pennello guidati da un tracciato con punti</b>\
+* <b>Nuovo strumento per la creazione di tracce pittura guidate da un tracciato con punti</b>\
   Nella barra degli strumenti dello strumento è presente una nuova icona dedicata allo strumento Tracciato. Questo nuovo strumento consente di disegnare curve sulla superficie del modello 3D per creare tratti pennello. Questi tratti possono sempre essere modificati nuovamente. Quando lo strumento è attivo, fate clic sulla superficie della trama per aggiungere un punto. Fai clic su un punto esistente e premi elimina per rimuoverlo.
 
   ![Schermata dell&#39;interfaccia della barra degli strumenti che mostra i 3 tipi di strumenti tracciato.](../assets/v90_path_toolbar.png)
@@ -49,19 +49,19 @@ Lo strumento <b>Disegna lungo il tracciato</b> è un nuovo modo per colorare i t
 
   ![Gif che mostra un percorso chiuso per disegnare rivetti su una superficie meccanica](../assets/v90_path_closed_loop_demo.gif)
 * <b>Modificare nuovamente i tracciati (e le relative proprietà) con il pannello Tracciato</b>\
-  Quando è selezionato lo strumento tracciato, il tracciato creato nel livello di disegno corrente viene elencato nel pannello Tracciato dedicato nella parte superiore della finestra della vista 3D. Questo pannello consente di selezionare, eliminare o rinominare il tracciato
+  Quando è selezionato lo strumento tracciato, il tracciato creato nel livello di pittura corrente viene elencato nel pannello Tracciato dedicato nella parte superiore della finestra della vista 3D. Questo pannello consente di selezionare, eliminare o rinominare il tracciato
 
   ![Gif che mostra il pannello del tracciato in azione](../assets/v90_path_panel_demo.gif)
 
   ![GUID che mostra le proprietà del percorso in fase di modifica](../assets/v90_path_edit_properties.gif)
-* <b>Compatibile con altre caratteristiche di pittura come simmetria, maschera di geometria, tratti dinamici e così via</b>\
-  Molte impostazioni dei tratti pennello normali possono essere utilizzate con lo strumento tracciato:
+* <b>Compatibile con altre caratteristiche della pittura quali simmetria, maschera di geometria, tratti dinamici e così via</b>\
+  Molte impostazioni dei tratti pittura normali possono essere utilizzate con lo strumento tracciato:
 
-  * L&#39;attivazione della simmetria consente di disegnare un tracciato più volte, gestendone solo uno.
-  * I tracciati che si trovano su un livello con una maschera di geometria abilitata possono colorare sotto la geometria nascosta
+  * L’attivazione di simmetrie consente di disegnare un percorso più volte, gestendone solo uno.
+  * I tracciati che si trovano su un livello con una maschera di geometria abilitata possono pittura sotto la geometria nascosta
 
-  ![Gif che mostra un percorso annegato due volte con l&#39;aiuto della proprietà di simmetria](../assets/v90_path_symmetry.gif)
-* <b>Dipingi con altri strumenti come Gomma o Sfumino</b>\
+  ![Gif che mostra un percorso annegato due volte con l&#39;aiuto della proprietà simmetrie](../assets/v90_path_symmetry.gif)
+* <b>Pittura con altri strumenti, ad esempio Gomma o Sfumino</b>\
   Lo strumento tracciato è compatibile anche con lo strumento gomma e lo strumento sfumino, sbloccando modi più avanzati di colorare e combinare i tratti con il modo semplice e rimodificabile di manipolare i punti del tracciato.
 
   ![GUID che mostra un punto del percorso spostato e aggiorna l&#39;effetto sfumino](../assets/v90_path_smudge.gif)
@@ -73,11 +73,11 @@ Lo strumento <b>Disegna lungo il tracciato</b> è un nuovo modo per colorare i t
 >
 > Per ulteriori informazioni, consulta la [documentazione dedicata](../painting/tool-list/path.md).
 
-### Nuovo contenuto da utilizzare con la funzione Pittura lungo tracciato
+### Nuovo contenuto da utilizzare con la funzione pittura lungo il tracciato
 
 ![Immagine che mostra una felpa con cappuccio con diversi tipi di tratti di pennello cucitura utilizzati su di essa.](../assets/v90_banner_content_path.jpg)
 
-In questa versione sono stati inclusi alcuni nuovi strumenti predefiniti per sfruttare la nuova funzione dipingi lungo il tracciato:
+In questa versione sono stati inclusi alcuni nuovi strumenti predefiniti per sfruttare la nuova funzione pittura lungo il tracciato:
 
 * Sci-Fi rack di tubi
 * Risucchio
@@ -90,7 +90,7 @@ In questa versione sono stati inclusi alcuni nuovi strumenti predefiniti per sfr
 
 ![Immagine che mostra un esempio del nuovo predefinito di saldatura](../assets/v90_path_welding_demo.jpg)
 
-### Tratti dinamici migliorati per la funzione di disegno lungo il tracciato
+### Tratti dinamici migliorati per la funzione pittura lungo il tracciato
 
 ![Immagine che mostra un tratto di tracciato simile a una freccia con una forma rotonda come inizio e la punta della freccia come fine.](../assets/v90_banner_dyn_strokes.jpg)
 
@@ -153,7 +153,7 @@ Riepilogo: <b>Versione principale con Pittura lungo il percorso che consente cur
 * [Path] Consenti di chiudere il percorso
 * [Path] Consenti di specificare l&#39;asse del tracciato verso l&#39;alto in Proprietà
 * [Path] Aggiungere un menu di controllo dei vertici alla barra degli strumenti contestuale
-* [Tracciato] Introdurre le modalità di disegno/cancellazione/sfumino allo strumento tracciato
+* [Tracciato] Introduzione delle modalità pittura/Cancella/Sfumino allo strumento tracciato
 * [Path] Crea un feedback visivo per i tracciati nella finestra della vista
 * [Path] Aggiungi un indicatore visivo per la direzione del tracciato
 * [Path] Aggiungere un thickness di linee alle impostazioni di visualizzazione del percorso
@@ -167,24 +167,24 @@ Riepilogo: <b>Versione principale con Pittura lungo il percorso che consente cur
 * [Tratti dinamici] Aggiungi proprietà distanza per tratti dinamici
 * [Tratti dinamici] Aggiungere dimensioni e proprietà di spaziatura ai tratti dinamici
 * [Tratti dinamici] Aggiungi proprietà inizio/metà/fine per tratti dinamici
-* [Python]&#x200B;[USD] Esporre i parametri di configurazione del progetto per il formato USD
-* [Python]&#x200B;[USD] Esporre i parametri di creazione del progetto per il formato USD
-* [Esporta]&#x200B;[USD] Aggiungi le informazioni sul percorso del progetto nel file USD esportato
-* [GLTF] Aggiorna le texture nella libreria durante il ricaricamento di un file GLTF
-* [Shader] Riduci gli artefatti di giuntura per Isole UV con orientamento diverso
+* [Python][USD] Esposizione dei parametri di configurazione del progetto per il formato USD
+* [Python][USD] Esposizione dei parametri di creazione dei progetti per il formato USD
+* [Export][USD] Aggiungi le informazioni sul percorso del progetto all’interno del file USD esportato
+* [GLTF] Aggiorna texture nella libreria durante il ricaricamento di un file GLTF
+* [Shader] Ridurre gli artefatti di giuntura per Isole UV con orientamento diverso
 * [Engine] Aggiornamento alla versione 9.0 del motore di Substance
 
 <b>Corretto:</b>
 
-* [Importa] Alcuni GLB con texture non ottengono texture in Painter
+* [Importa] Alcuni GLB con texture non ricevono texture in Painter
 * [AMD] Artefatti sui bordi per tutti i riempimenti di proiezione 3D
-* [Engine] Le texture si interrompono quando si attiva o disattiva la visibilità del livello
-* [Engine] Le texture sono vuote in alcuni punti quando si cambia il metodo di fusione
+* [Engine] Le Texture si interrompono quando si attiva o disattiva la visibilità del livello
+* Le Texture di [Engine] sono vuote in alcuni punti quando si cambia il metodo di fusione
 * [Motore] In alcuni casi, Texture/Proiezione è la modalità di alterazione vuota
 * [Iray] Iterazione reimpostata su 0 durante il salvataggio del rendering
-* [Log] Messaggio di errore USD quando si esegue File > Nuovo
+* [Registro] Messaggio di errore USD quando si esegue File > Nuovo
 
 <b>Problemi noti:</b>
 
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Serie di livelli] Origine di input non salvata per livello
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Pila livelli] Sorgente di input non salvata per livello

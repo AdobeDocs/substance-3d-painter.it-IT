@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: Scoprite come aggiungere contenuto dal disco rigido a Substance 3D Painter per espandere la libreria di risorse con i file locali.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 È possibile aggiungere risorse alle librerie inserendo nuovi contenuti direttamente sul disco rigido nella posizione corretta.
 
-Per impostazione predefinita, viene fornita una cartella predefinita per le risorse utente in cui è possibile aggiungere il nuovo contenuto tramite l’interfaccia dell’applicazione o rilasciandolo manualmente nel seguente percorso. Questa libreria predefinita viene utilizzata anche durante la creazione di nuovi predefiniti come pennelli, strumenti, materiali intelligenti e così via. Per ulteriori informazioni, consultate la documentazione [Predefiniti](../../painting/presets/presets.md).
+Per impostazione predefinita, viene fornita una cartella predefinita per le risorse utente in cui è possibile aggiungere il nuovo contenuto tramite l’interfaccia dell’applicazione o rilasciandolo manualmente nel seguente percorso. Questa libreria predefinita viene utilizzata anche per la creazione di nuovi predefiniti quali pennelli, strumenti, materiali avanzati e così via. Per ulteriori informazioni, consultate la documentazione [Predefiniti](../../painting/presets/presets.md).
 
 ## Dove mettere le risorse?
 
@@ -44,7 +44,7 @@ Puoi importare diversi tipi di file nella libreria Substance 3D Painter. Inserir
 | **SBSAR** | Materiale di Substance | risorse / Materiali |
 | **SBSAR** | Filtri | risorse/Effetti |
 | **SBSAR** | Generatori | risorse / Generatori |
-| **PNG, TGA, JPEG e così via** | Texture o Alpha | risorse/texture **o** Scaffale/Alpha |
+| **PNG, TGA, JPEG e così via** | TEXTURE o ALPHA | risorse/Texture **o** Scaffale/Alpha |
 | **HDR, EXR** | Ambiente o Lut colori | risorse/ambienti **o** Shelf/Colorlut |
 | **GLSL** | Shader | risorse/Shader |
 | **SPPR** | Pennello predefinito | risorse / Predefiniti / Pennello |
@@ -57,7 +57,7 @@ Puoi importare diversi tipi di file nella libreria Substance 3D Painter. Inserir
 
 >[!NOTE]
 >
-> A partire dalla versione 7.2.0, le cartelle e le categorie personalizzate possono essere utilizzate in una libreria. Saranno accessibili nella finestra Risorse tramite [Filtra per percorso](../../interface/assets/filter-by-path.md) o [Breadcrumbs](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> A partire dalla versione 7.2.0, le cartelle e le categorie personalizzate possono essere utilizzate in una libreria. Saranno accessibili nella finestra Risorse tramite [Filtra per percorso](../../interface/assets/filter-by-path.md) o [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Scoprite come correggere le facce con trama che scompaiono quando vengono visualizzate da dietro nella finestra di visualizzazione di Substance 3D Painter per una corretta visibilità della trama.
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Le facce della trama scompaiono guardandole da dietro
 
-Per impostazione predefinita, le trame nella finestra della vista potrebbero non visualizzare il retro dei poligoni della trama (superficie posteriore). Questo perché vengono eliminati dallo shader corrente.
+Per impostazione predefinita, le trame nella finestra della vista potrebbero non visualizzare il retro dei poligoni della trama (superficie posteriore). Questo perché sono soppressi dallo shader attuale.
 
-Per visualizzare il retro delle facce, è sufficiente modificare lo shader corrente in **pbr-metal-rough-alpha-test** nelle [impostazioni shader](../../../interface/shader-settings/shader-settings.md).
+Per visualizzare il retro delle facce, è sufficiente modificare lo shader corrente in **pbr-metal-rough-alpha-test** nelle [impostazioni Shader](../../../interface/shader-settings/shader-settings.md).

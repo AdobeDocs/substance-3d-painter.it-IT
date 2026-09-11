@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla libreria Definisce il riferimento di API shader per Substance 3D Painter per definire le costanti dello shader e le direttive del preprocessore.
 helpx_creative_field: ""

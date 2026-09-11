@@ -2,7 +2,7 @@
 title: Lens-flare
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/post-processing/lens-flare.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-flare.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '262'
@@ -30,4 +30,4 @@ Simula gli artefatti ottici prodotti quando le sorgenti di luce interagiscono co
 | <b>smoothness Occlusione</b> | Controlla la graduale dissolvenza del riflesso dell’obiettivo. Valori più alti creano transizioni più morbide. |
 | <b>Fantasmi univoci</b> | Definisce la variazione delle forme dei bagliori. Valori più alti possono influire in modo significativo sulle prestazioni. |
 | <b>Scala posizione fantasma</b> | Controlla la diffusione e le dimensioni degli aloni dei riflessi. |
-| <b>Texture apertura</b> | Definisce la forma dell&#39;apertura dell&#39;obiettivo utilizzata per generare il motivo del bagliore. La texture controlla le forme diffrazione e fantasma. |
+| <b>texture apertura</b> | Definisce la forma dell&#39;apertura dell&#39;obiettivo utilizzata per generare il motivo del bagliore. La texture controlla le forme diffrazione e fantasma. |

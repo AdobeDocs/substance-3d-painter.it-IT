@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/post-processing/color-correction.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-correction.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la correzione colore nella fase di post-elaborazione in Substance 3D Painter per regolare luminosità, contrasto e saturazione.
 helpx_creative_field: ""

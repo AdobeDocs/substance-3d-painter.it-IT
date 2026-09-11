@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento relativa alle API shader di Substance 3D Painter per creare shader personalizzati ed estendere le funzionalità di rendering.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Substance Painter utilizza gli ombreggiatori per eseguire il rendering dei mater
 >
 > L&#39;API shader è disponibile anche direttamente dall&#39;applicazione, accedendo al menu **Guida > Documentazione > API shader**.
 
-## Riferimento shader
+## Riferimento Shader
 
 ## Changelog
 
@@ -38,7 +38,7 @@ Substance Painter utilizza gli ombreggiatori per eseguire il rendering dei mater
 
 ## Riscaldamento
 
-In Substance Painter, puoi scrivere i tuoi shader in *GLSL*. È possibile scrivere solo una *parte* dello shader di frammento, che a volte viene definito *shader di superficie*. Senza ulteriori indugi, introduciamo lo shader di Substance Painter &quot;Hello world&quot;:
+In Substance Painter, puoi scrivere i tuoi shader in *GLSL*. È possibile scrivere solo una *parte* dello shader, che a volte viene definito *shader*. Senza ulteriori indugi, introduciamo lo shader di Substance Painter &quot;Hello world&quot;:
 
 ```
 void shade(V2F inputs) { 
@@ -49,7 +49,7 @@ void shade(V2F inputs) {
 ```
 
 
-Ora, se salvi questo frammento in un file *.glsl* e lo carichi in Substance Painter rilasciandolo nella scheda shader dello scaffale, ora puoi usarlo e vedere un bel colore rosa uniforme sulla trama.
+Ora, se salvi questo frammento in un file *.glsl* e lo carichi in Substance Painter rilasciandolo nella scheda shader del tuo scaffale, ora puoi usarlo e vedere un bel colore rosa uniforme sulla trama.
 
 ## Shader di superficie
 
@@ -57,7 +57,7 @@ Ora, se salvi questo frammento in un file *.glsl* e lo carichi in Substance Pain
 
 ## Dati forniti dal motore (o come si accede ai canali?)
 
-In Substance Painter, potete accedere ai parametri del motore di rendering (canali del documento, texture aggiuntive, dati relativi alla fotocamera e così via). Ecco un elenco completo di tutti i parametri forniti dal motore:
+In Substance Painter, potete accedere ai parametri del motore di rendering (canali del documento, texture aggiuntiva, dati relativi alla fotocamera e così via). Ecco un elenco completo di tutti i parametri forniti dal motore:
 
 * [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 
@@ -69,7 +69,7 @@ In alcuni casi può essere utile usare una specifica configurazione di rendering
 
 ## Modifiche personalizzate (o come posso modificare lo shader?)
 
-Di solito si hanno modifiche personalizzate in uno shader. A tale scopo, nelle ombreggiature di Substance Painter, è stato introdotto un modo per specificare modifiche personalizzate. Di seguito è riportato un elenco completo di tutti i tipi di modifica dello shader personalizzati:
+Di solito si hanno modifiche personalizzate in uno shader. A tale scopo, nelle ombreggiature di Substance Painter, è stato introdotto un modo per specificare modifiche personalizzate. Di seguito è riportato un elenco completo di tutti i tipi di modifiche di shader personalizzate:
 
 * [all-custom-params.glsl](parameters-shader-api/all-custom-params-shader-api.md)
 
@@ -82,13 +82,13 @@ Per evitare di scrivere molto codice standard in tutti i vostri shader, abbiamo 
 * [lib-define.glsl](libraries-shader-api/lib-defines-shader-api.md): contiene utili costanti matematiche
 * [lib-emissive.glsl](libraries-shader-api/lib-emissive-shader-api.md): contiene gli helper delle proprietà di emissione
 * [lib-env.glsl](libraries-shader-api/lib-env-shader-api.md): contiene gli helper correlati alla mappa dell&#39;ambiente
-* [lib-normal.glsl](libraries-shader-api/lib-normal-shader-api.md): contiene gli helper relativi alla mappa normale (e la mappa normale generata dal height)
+* [lib-normal.glsl](libraries-shader-api/lib-normal-shader-api.md): contiene gli helper correlati alla mappa normale (e la mappa normale generata dalla mappa del height)
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): contiene helper di rendering basati fisicamente
 * [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api.md): contiene helper di rendering anisotropi basati fisicamente
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): contiene helper mapping occlusioni parallax
 * [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md): contiene utilità casuali (sequenze a bassa discrepanza)
 * [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md): contiene gli helper di channel getters
-* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md): contiene helper di campionamento delle texture sparse sicure
+* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md): contiene helper campionamento texture sparse sicuro
 * [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md): contiene helper di dispersione sottosuperficie
 * [lib-utils.glsl](libraries-shader-api/lib-utils-shader-api.md): contiene funzioni dell&#39;utilità colore (conversioni sRGB, mappatura toni)
 * [lib-vectors.glsl](libraries-shader-api/lib-vectors-shader-api.md): contiene helper vettoriali comuni
@@ -110,14 +110,14 @@ Potete dichiarare ulteriori informazioni non obbligatorie per dare un suggerimen
 
 I tasti supportati sono:
 
-* **custom-ui**: sostituire l&#39;interfaccia utente standard dei parametri dello shader con una vista personalizzata scritta come modulo QML (vedere la documentazione sullo scripting). Il percorso può essere assoluto o relativo a una cartella *custom-ui* dello scaffale.
-* **mdl**: definire il materiale mdl di Iray da utilizzare con lo shader. La sintassi del percorso è la seguente: *mdl::folder1::folder2::mdl\_filename::material\_name* dove *cartella1::folder2::mdl\_filename* è il percorso all&#39;interno di una cartella dello scaffale *mdl* in un file mdl e *::material\_name* è il nome di un materiale dichiarato all&#39;interno di questo file mdl. (ad esempio: &quot;mdl&quot; : &quot;mdl::alg::materials::fisicamente\_metallico\_rugosità::fisicamente\_metallico\_rugosità&quot;)
+* **custom-ui**: sostituire l&#39;interfaccia utente dei parametri di shader standard con una visualizzazione personalizzata scritta come modulo QML (vedere la documentazione sullo scripting). Il percorso può essere assoluto o relativo a una cartella *custom-ui* dello scaffale.
+* **mdl**: definire il materiale mdl dell&#39;Iray da utilizzare con lo shader. La sintassi del percorso è la seguente: *mdl::folder1::folder2::mdl\_filename::material\_name* dove *cartella1::folder2::mdl\_filename* è il percorso all&#39;interno di una cartella dello scaffale *mdl* in un file mdl e *::material\_name* è il nome di un materiale dichiarato all&#39;interno di questo file mdl. (ad esempio: &quot;mdl&quot; : &quot;mdl::alg::materials::fisicamente\_metallico\_rugosità::fisicamente\_metallico\_rugosità&quot;)
 
 ## Ombreggiature di esempio (sì, finalmente!)
 
 Per avere un&#39;idea di quello che sembra un vero shader, ecco alcuni shader campione, ordinati in base alla complessità crescente:
 
-* [pixelated.glsl](shaders-shader-api/pixelated-shader-api.md) : shader con effetto pixel
+* [pixelated.glsl](shaders-shader-api/pixelated-shader-api.md): uno shader con effetto pixel
 * [toon.glsl](shaders-shader-api/toon-shader-api.md): shader toon
 * [pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md): shader PBR predefinito incorporato nella Substance Painter
 

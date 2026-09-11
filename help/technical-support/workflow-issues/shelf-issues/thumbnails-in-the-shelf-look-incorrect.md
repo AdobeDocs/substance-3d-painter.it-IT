@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
 description: Scopri come correggere la visualizzazione errata delle miniature nello scaffale di Substance 3D Painter per garantire anteprime accurate delle risorse.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Le miniature sullo scaffale sembrano errate
 
-Se le miniature sullo scaffale sembrano essere diverse da quelle abituali, è possibile che sia stato utilizzato lo shader per il rendering delle anteprime.
+Se le miniature sullo scaffale sembrano essere diverse da quelle abituali, è possibile che il rendering delle anteprime venga eseguito con uno shader diverso.
 
 | Miniature interrotte | Miniature normali |
 | --- | --- |
@@ -32,10 +32,10 @@ Vai a **Modifica** e fai clic su **Impostazioni**:
 
 ![](../../../assets/pref-menu.png)
 
-## 2 - Rimuovere lo shader di anteprima Shelf
+## 2 - Rimuovere lo shader di anteprima Ripiano
 
 Nella vista **Generale** scorrete verso il basso fino a visualizzare la sezione &quot;Opzioni anteprima&quot;.\
-Per rimuovere lo shader corrente specificato, fare clic sul pulsante **cross** davanti allo &quot; **Shader di anteprime materiali**&quot;.
+Fare clic sul pulsante **croce** davanti a &quot; **Shader di anteprime materiali** &quot; per rimuovere lo shader corrente specificato.
 
 ![](../../../assets/remove-preview-shader.png){width="450px"}
 

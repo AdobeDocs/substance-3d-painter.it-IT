@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare i modelli di output nella finestra di esportazione di Substance 3D Painter per configurare i formati di esportazione delle texture e la denominazione.
+description: Scopri come utilizzare i modelli di output nella finestra di esportazione di Substance 3D Painter per configurare i formati di esportazione e la denominazione delle texture.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export window > Output templates
 helpx_experience_level: ""
@@ -44,7 +44,7 @@ Da questo elenco, i modelli possono essere <b>creati</b>, <b>rinominati</b>, <b>
 
 ![](../../assets/export-preset-config.png)
 
-In questa sezione sono elencate tutte le texture generate dal modello e la relativa composizione.
+In questa sezione sono elencate tutte le texture che verranno generate dal modello e la relativa composizione.
 
 ### Mappare tipi e parole chiave
 
@@ -104,19 +104,19 @@ L&#39;elenco della mappa di input raggruppa tutti i canali che possono essere ag
 
 ### Mappe delle mesh
 
-Le mappe trama sono le texture cotte:
+Le mappe di trama sono le texture eseguite i baking:
 
 | Nome | Descrizione |
 | --- | --- |
-| **Normale** | Carta normale cotta. |
-| **Spazio globale normale** | Spazio del mondo al forno normale. |
-| **ID** | Baked ID |
-| **occlusione ambiente** | Occlusione ambiente cotto |
+| **Normale** | mappa normale eseguita i baking. |
+| **Spazio globale normale** | Spazio mondiale eseguito i baking normale. |
+| **ID** | ID eseguito i baking. |
+| **occlusione ambiente** | occlusione ambientale eseguita i baking |
 | **Curvatura** | Curvatura cotta. |
 | **Posizione** | Posizione cotta. |
-| **Thickness** | Thickness al forno. |
-| **Height** | Height al forno. |
-| **Normali piegati** | Normali curvati. |
+| **Thickness** | thickness eseguito i baking. |
+| **Height** | height eseguito i baking. |
+| **Normali incurvate** | normali incurvate eseguite i baking. |
 
 ### Mappe convertite
 
@@ -124,15 +124,15 @@ Le mappe convertite sono mappe generate dall&#39;applicazione da un&#39;altra or
 
 | Nome | Descrizione |
 | --- | --- |
-| **OpenGL normale** | Mappa normale combinata nel formato OpenGL del normale al forno e del canale normale dell’insieme di texture. |
-| **DirectX normale** | Mappa normale combinata nel formato DirectX della normale cotta e del canale normale dell’insieme di texture. |
-| **AO misto** | Occlusione ambiente combinata dell&#39;occlusione ambiente cotto e del canale di occlusione ambiente del set di texture. |
-| **Diffusione** | Texture diffusa generata dal canale **Colore di base** e **Metallico** (le aree metalliche vengono sostituite da un colore nero). |
-| **Specular** | Texture di Specular generata dal canale **Colore di base** e **Metallico**. |
-| **Lucentezza** | Texture lucida generata dall’inverso del canale di rugosità. |
-| **Diffusione Unity4** | Obsoleto. Texture diffusa generata dal canale **Colore di base** in modo che corrisponda agli shader di Unità 4. |
-| **Sfumatura Unity4** | Obsoleto. Texture lucida generata dal canale **Rugosità** e **Metallica** in modo che corrisponda agli shader di Unità 4. |
+| **OpenGL normale** | Mappa normale combinata in formato OpenGL del canale normale eseguito i baking e del canale normale dell’insieme di texture. |
+| **DirectX normale** | Mappa normale combinata nel formato DirectX della normale eseguita i baking e del canale normale dell’insieme di texture. |
+| **AO misto** | Occlusione ambientale combinata dell’occlusione ambientale eseguita i baking e del canale di occlusione ambientale del set di texture. |
+| **Diffusione** | texture di Diffusa generata dal canale **Colore di base** e **Metallico** (le aree metalliche vengono sostituite da un colore nero). |
+| **Specular** | texture di Specular generata dal canale **Colore di base** e **Metallico**. |
+| **Lucentezza** | Lucentezza texture generata dall’inverso del canale di rugosità. |
+| **Diffusa Unity4** | Obsoleto. La texture di Diffusa generata dal canale **Colore di base** corrisponde agli shader di Unità 4. |
+| **Sfumatura Unity4** | Obsoleto. Lucentezza texture generata dal canale **Rugosità** e **Metallico** in modo che corrisponda agli shader di Unità 4. |
 | **Riflessione** | Texture in cui il bianco indica un materiale dielettrico e altri colori come materiali metallici. |
 | **1/ior** | Texture contenente 1 diviso per il valore **IOR**. **IOR** viene generato dalla mappa metallica: 1,4 per i dielettrici, 100 per i metalli (colore nero). |
-| **Lucentezza<sup>2</sup>** | Versione quadrata del canale **Lucidità** (**Lucidità** \* **Lucidità**) |
+| **Lucentezza<sup>2</sup>** | Versione quadrata del canale **Lucentezza** (**Lucentezza** \* **Lucentezza**) |
 | **f0** | Texture contenente il valore di riflettanza fresnel 0 (0,04 per la dieletria e 1,0 per la metallizzazione). |

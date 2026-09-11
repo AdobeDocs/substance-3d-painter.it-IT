@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare il predefinito di esportazione USDz (Apple AR) in Substance 3D Painter per esportare le texture per i flussi di lavoro Apple AR.
+description: Scopri come utilizzare il predefinito di esportazione USDz (Apple AR) in Substance 3D Painter per esportare texture per i flussi di lavoro Apple AR.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset
 helpx_experience_level: ""
@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Per esportare in USD con un Modello di output personalizzato, non utilizzare il modello USDz (Apple AR). Utilizza invece il Modello di output scelto e abilita <b>Esporta risorsa USD</b> nella parte inferiore della <b>scheda Impostazioni</b>.
+> Per esportare nell’USD con un Modello di output personalizzato, non utilizzare il modello USDz (Apple AR). Utilizza invece il Modello di output scelto e abilita <b>Esporta risorsa USD</b> nella parte inferiore della <b>scheda Impostazioni</b>.
 
 Il modello di output predefinito USDz (Apple AR) esporta la risorsa configurata per l’uso con le applicazioni Apple AR.
 
 Per utilizzare il modello USDz (Apple AR):
 
-1. Aprite la finestra Esporta con <b>File > Esporta texture</b> o con la scelta rapida da tastiera <b>Ctrl + Maiusc + E</b>.
+1. Aprite la finestra Esporta con <b>File > Esporta texture</b> o con la scelta rapida da tastiera da tastiera <b>Ctrl + Maiusc + E</b>.
 1. Nella <b>scheda Impostazioni</b>, apri il <b>menu a discesa dei Modelli di output</b> e seleziona <b>USDz (Apple AR)</b>.
 
 ![Immagine della finestra di esportazione che mostra il menu a discesa modello di output aperto e USDz (Apple AR) selezionato.](../../../assets/export-usd.png){zoomable="yes"}
 
-Vengono creati e salvati cinque file di texture (colore di base, metallizzato, normale, occlusione e rugosità). Tutti i file vengono salvati come JPG, ad eccezione della mappa normale che viene salvata come PNG per evitare artefatti dovuti alla compressione con perdita di dati.
+Vengono creati e salvati cinque file texture (colore di base, metallizzato, normale, occlusione e rugosità). Tutti i file vengono salvati come JPG, ad eccezione della mappa normale che viene salvata come PNG per evitare artefatti dovuti alla compressione con perdita di dati.
 
 Inoltre, vengono creati altri due file con estensione usdc e usdz:
 

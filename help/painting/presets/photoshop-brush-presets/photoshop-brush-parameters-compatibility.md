@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
 breadcrumb-title: ''
 description: Informazioni sulla compatibilità dei parametri dei pennelli di Photoshop in Substance 3D Painter durante l’importazione dei predefiniti dei pennelli ABR.
 helpx_creative_field: ""
@@ -29,18 +29,18 @@ Quando si osserva all’interno del file ABR, Substance 3D Painter recupera solo
 | *Tipo predefinito* | *Supporto* | *Descrizione* |
 | --- | --- | --- |
 | **Pennello (bitmap)** | Importato | I pennelli predefiniti basati sulle bitmap verranno importati come alfa. |
-| **Pennello (procedurale)** | Ignorato | I pennelli predefiniti basati su forme procedurali (come un cerchio) non vengono importati. |
+| **Pennello (procedurale)** | Ignorato | I pennelli predefiniti basati sulle forme procedurali (come un cerchio) non vengono importati. |
 | **Pennello (Aerografo)** | Ignorato | I predefiniti dei pennelli con le impostazioni Aerografo non vengono importati. |
 | **Pennello (setole)** | Ignorato | I predefiniti per i pennelli con impostazioni Setole non vengono importati. |
 | **Pennello (Commestibile)** | Ignorato | I pennelli predefiniti con le impostazioni Pennello modificabile non vengono importati. |
 | **Matita** | Ignorato | I predefiniti Matita non vengono importati. |
 | **Pennello miscela colori** | Ignorato | I predefiniti per i pennelli miscela colori non vengono importati. |
-| **Timbro clone** | Ignorato | I predefiniti di Timbro clone non vengono importati. |
+| **Clona /Clone timbro** | Ignorato | I predefiniti Timbro Clona /Clone non vengono importati. |
 | **Sfumino** | Ignorato | I predefiniti Sfumino non vengono importati. |
 
 ## Parametri
 
-Per ulteriori informazioni sulle funzionalità di questi parametri, consultare la [documentazione ufficiale di Photoshop](https://helpx.adobe.com/it/photoshop/using/creating-modifying-brushes.html) .
+Per ulteriori informazioni sulle funzionalità di questi parametri, consultare la [documentazione ufficiale di Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) .
 
 Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferimento alla legenda per conoscere lo stato di ogni parametro descritto di seguito:
 
@@ -53,19 +53,19 @@ Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferiment
 
 | *Gruppo* | *Parametro* | *Supporto* | *Descrizione* |
 | --- | --- | --- | --- |
-| Forma punta pennello | **Dimensioni** | ■ | Corrispondente al parametro Dimensione strumento di disegno.  **Nota:** Photoshop definisce la dimensione in pixel, mentre la dimensione di Substance 3D Painter si basa sul Rettangolo di selezione del progetto. Una corrispondenza esatta non è quindi possibile e sarà solo relativa. |
+| Forma punta pennello | **Dimensioni** | ■ | Corrispondente al parametro Dimensione strumento Pittura.  **Nota:** Photoshop definisce la dimensione in pixel, mentre la dimensione di Substance 3D Painter si basa sul Rettangolo di selezione del progetto. Una corrispondenza esatta non è quindi possibile e sarà solo relativa. |
 | **Rifletti X** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Rifletti Y** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
-| **Angolo** | ■ | Corrispondente al parametro Angolo dello strumento di disegno. |  |
+| **Angolo** | ■ | Corrispondenza con il parametro Angolo dell&#39;utensile Pittura. |  |
 | **Rotondità** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Durezza** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
-| **Spaziatura** | ■ | Corrispondente al parametro Spaziatura dello strumento di disegno. |  |
+| **Spaziatura** | ■ | Corrispondente al parametro Spaziatura utensile Pittura. |  |
 |  |  |  |  |
-| Dinamica forme | **Variazione dimensioni** | ■ | Corrisponde al parametro Variazione dimensione strumento di disegno. |
-| **Controllo (per dimensione)** | ■ | Corrispondente all&#39;impostazione Pressione dello strumento di disegno per il parametro Dimensione . |  |
-| **Diametro Minimo** | ■ | Corrispondente al parametro Dimensione minima dello strumento di pittura. |  |
+| Dinamica forme | **Variazione dimensioni** | ■ | Corrisponde al parametro Variazione dimensione strumento Pittura. |
+| **Controllo (per dimensione)** | ■ | Corrispondente all&#39;impostazione Pressione strumento Pittura per il parametro Dimensione. |  |
+| **Diametro Minimo** | ■ | Corrispondente al parametro Dimensione minima dello strumento Pittura. |  |
 | **Scala inclinazione** | ✖ |  |  |
-| **Variazione angolo** | ■ | Corrisponde al parametro Variazione angolo dello strumento di disegno. |  |
+| **Variazione angolo** | ■ | Corrisponde al parametro Variazione angolo dello strumento Pittura. |  |
 | **Controllo (per Angolo)** | ✖ |  |  |
 | **Variazione rotondità** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Rotondità minima** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
@@ -74,13 +74,13 @@ Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferiment
 | **Proiezione pennello** | ✖ |  |  |
 |  |  |  |  |
 | Dispersione | **Dispersione** | ■ | Corrisponde al parametro Variazione posizione dello strumento di disegno. |
-| **Entrambi gli assi** | ■ | Corrispondenza con il parametro Variazione posizione asse dello strumento di disegno. |  |
+| **Entrambi gli assi** | ■ | Corrispondenza con il parametro Asse Variazione posizione utensile Pittura. |  |
 | **Controllo (per Dispersione)** | ✖ |  |  |
-| **Conteggio** | ■ | Compensata tramite il parametro Spaziatura dello strumento di pittura. |  |
+| **Conteggio** | ■ | Compensata tramite il parametro Spaziatura strumento Pittura. |  |
 | **Variazione conteggio** | ✖ |  |  |
 | **Controllo (per variazione conteggio)** | ✖ |  |  |
 |  |  |  |  |
-| Texture | **Motivo texture** | ✖ |  |
+| Texture | **Texture pattern** | ✖ |  |
 | **Inverti** | ✖ |  |  |
 | **Scala** | ✖ |  |  |
 | **Luminosità** | ✖ |  |  |
@@ -107,12 +107,12 @@ Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferiment
 | **Variazione luminosità** | ✖ |  |  |
 | **Purezza** | ✖ |  |  |
 |  |  |  |  |
-| Transfert | **Variazione opacità** | ■ | Corrispondente con i timbri dello strumento di pittura Il parametro di fusione è impostato su &quot;Schiarisci&quot;. |
-| **Controllo (per opacità)** | ■ | Corrispondente all&#39;impostazione Pressione dello strumento di disegno per il parametro Flusso. |  |
-| **Minimo (per il controllo dell&#39;opacità)** | ■ | Corrispondente al parametro Flusso minimo dello strumento di pittura. |  |
-| **Variazione flusso** | ■ | Corrispondente al parametro Variazione flusso dello strumento di disegno. |  |
-| **Controllo (per Flusso)** | ■ | Corrispondenza con l&#39;impostazione Pressione dello strumento di pittura per il parametro Flusso (se minore di Opacità). |  |
-| **Minimo (per il controllo di flusso)** | ■ | Corrispondenza con il parametro Flusso minimo dello strumento di pittura (se inferiore a Opacità). |  |
+| Transfert | **Variazione opacità** | ■ | Corrispondente con i timbri degli strumenti Pittura Il parametro di fusione è impostato su &quot;Schiarisci&quot;. |
+| **Controllo (per opacità)** | ■ | Corrispondente all&#39;impostazione Pressione utensile Pittura per il parametro Flusso. |  |
+| **Minimo (per il controllo dell&#39;opacità)** | ■ | Corrispondente al parametro Flusso minimo dello strumento Pittura. |  |
+| **Variazione flusso** | ■ | Corrispondente al parametro Variazione flusso utensile Pittura. |  |
+| **Controllo (per Flusso)** | ■ | Corrispondenza con l&#39;impostazione Pressione strumento Pittura per il parametro Flusso (se inferiore a Opacità). |  |
+| **Minimo (per il controllo di flusso)** | ■ | Corrispondente al parametro Flusso minimo dello strumento Pittura (se inferiore a Opacità). |  |
 | **Variazione umidità** | ✖ |  |  |
 | **Controllo (per variazione umidità)** | ✖ |  |  |
 | **Minimo (per controllo umidità)** | ✖ |  |  |
@@ -132,5 +132,5 @@ Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferiment
 | Altro | **Disturbo** | ✖ |  |
 | **Bordi bagnati** | ✖ |  |  |
 | **Build-up** | ✖ |  |  |
-| **Arrotondamento** | ■ | Non corrisponde direttamente, ma può essere gestito tramite l&#39;impostazione [Lazy Mouse](../../lazy-mouse.md). |  |
-| **Texture Protect** | ✖ |  |  |
+| **Arrotondamento** | ■ | Non corrisponde direttamente, ma può essere gestito tramite l&#39;impostazione [Mouse lento](../../lazy-mouse.md). |  |
+| **Versione di Texture di Protect** | ✖ |  |  |

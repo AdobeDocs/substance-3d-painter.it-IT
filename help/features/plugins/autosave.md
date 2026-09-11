@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/plugins/autosave.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare il plug-in di salvataggio automatico in Substance 3D Painter per salvare automaticamente i tuoi progetti a intervalli regolari.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Per configurare il comportamento di salvataggio automatico, fai clic sul menu **
 > Il timer di salvataggio automatico verrà sospeso se:
 > 
 > * Il motore sta facendo un calcolo
-> * Esportazione delle texture in corso
+> * Esportazione della texture in corso
 > * Finestra di configurazione aperta
 > * Salvataggio del progetto in corso
 

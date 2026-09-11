@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/assets/customizing-the-layout.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ''
 description: Scopri come personalizzare il layout del pannello Risorse in Substance 3D Painter per ottimizzare la tua esperienza di navigazione delle risorse.
 helpx_creative_field: ""

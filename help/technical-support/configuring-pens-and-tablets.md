@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
 description: Scoprite come configurare penne e tablet in Substance 3D Painter per una sensibilità alla pressione ottimale e un'esperienza di disegno ottimale.
 helpx_creative_field: ""
@@ -123,7 +123,7 @@ Di seguito sono riportate le impostazioni di Windows Ink e la configurazione con
 | **Fai clic una volta** | Consigliato: **Niente** |
 | **Doppio clic** | Consigliato: **Niente** |
 | **Tenere premuto (supportato solo su alcune penne)** | Consigliato: **Niente** |
-| **Consenti alle app di ignorare il comportamento del pulsante di scelta rapida** | Consigliato: **Abilitato** |
+| **Consenti alle app di ignorare il comportamento del pulsante scelta rapida da tastiera** | Consigliato: **Abilitato** |
 | **Se disponibile, mostra l&#39;area di lavoro inchiostri dopo la rimozione della penna dall&#39;archivio** | Consigliato: **Disabilitato** |
 
 ## Come accedere alle impostazioni Penna e Tocco

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ''
 description: Scoprite come correggere l’impostazione Mantieni tratti pennello che rimane disattivata in Substance 3D Painter per mantenere correttamente i tratti del pennello.
 helpx_creative_field: ""

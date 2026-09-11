@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/effects/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
 description: Scoprite come usare l’effetto Livelli in Substance 3D Painter per regolare la luminosità, il contrasto e la gamma tonale delle texture.
 helpx_creative_field: ""
@@ -38,6 +38,6 @@ Per regolare la gamma di colori dell’immagine, sono disponibili due serie di c
 > L&#39;effetto Livelli può essere applicato solo a un canale alla volta, come selezionato dall&#39;opzione *Canale interessato*. Se desideri applicare un livello a più canali, dovrai creare più effetti Livelli.
 
 * La casella a discesa Colori in alto a destra consente di modificare i livelli dell’immagine rgb completa o di uno solo dei canali rosso, verde e blu.
-* L’opzione Blocca in basso a destra consente di bloccare i valori dei livelli tra 0 e 1 (0-255). Questa opzione deve essere sempre selezionata quando si lavora su canali non HDR (come il **colore di base**).
+* L’opzione Blocca in basso a destra consente di bloccare i valori dei livelli tra 0 e 1 (0-255). Questa opzione deve essere sempre selezionata quando si lavora su canali non HDR (come il **Colore di base**).
 
 [Per capire meglio i Livelli, dovresti guardare il nostro corso sulla Substance Academy dedicato all&#39;argomento.](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

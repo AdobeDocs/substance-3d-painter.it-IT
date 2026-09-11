@@ -1,6 +1,6 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/viewport.html'
-description: Scoprite come utilizzare la finestra della vista in Substance 3D Painter per visualizzare i modelli e le texture 3D durante il processo di pittura.
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
+description: Scoprite come utilizzare la finestra della vista in Substance 3D Painter per visualizzare i modelli e la texture 3D durante il processo di pittura.
 helpx_description: Painter > Interface > Viewport
 title: Riquadro di visualizzazione
 source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
@@ -15,13 +15,13 @@ ht-degree: 2%
 
 ![](../../assets/viewports-progress.jpg){width="600px"}
 
-Nella finestra della vista vengono visualizzate la trama 3D e le relative texture. È anche possibile colorare sulla superficie della trama 3D.
+La finestra della vista è il punto in cui vengono visualizzate la trama 3D e le relative texture. In questo modo è anche possibile eseguire pitture sulla superficie della trama 3D.
 
 ## Panoramica
 
 La finestra della vista è divisa in quattro parti:
 
-* **Barra degli strumenti contestuale**: questa barra degli strumenti si trova nella parte superiore della finestra della vista e offre un collegamento a varie proprietà a seconda del contesto corrente (ad esempio, i parametri del pennello quando si disegna).
+* **Barra degli strumenti contestuale**: questa barra degli strumenti si trova nella parte superiore della finestra della vista e offre scelte rapide da tastiera a varie proprietà a seconda del contesto corrente (ad esempio, i parametri del pennello quando si disegna).
 * **Vista 3D**: questa vista mostra la trama 3D da un angolo specifico, definito da una videocamera.
 * **Vista 2D**: questa vista mostra lo srotolamento UV della trama 3D per il [set di texture](../texture-set/texture-set-list.md) attualmente selezionato.
 * **Barra di avanzamento**: questa barra grigia/verde nella parte inferiore della finestra della vista viene visualizzata quando è in corso un calcolo, ad esempio quando il motore genera texture.
@@ -47,7 +47,7 @@ I controlli per lo spostamento nella finestra della vista sono simili sia nella 
   <tr>
     <td>Rotazione/Rotazione<br></td>
     <td><strong>Alt + clic sinistro</strong></td>
-    <td><ul><li>Vista 3D: orbita la videocamera attorno alla posizione del cursore.</li><li>Vista 2D: ruota lo spazio UV attorno alla posizione del cursore.</li></ul></td>
+    <td><ul><li>vista 3D: ruota la videocamera attorno alla posizione del cursore.</li><li>vista 2D: ruota lo spazio UV attorno alla posizione del cursore.</li></ul></td>
   </tr>
   <tr>
     <td>Panning</td>
@@ -66,7 +66,7 @@ I controlli per lo spostamento nella finestra della vista sono simili sia nella 
 
 ## Modifica Del Layout
 
-Il layout predefinito posiziona la vista 3D a sinistra e la vista 2D a destra. Nella **barra degli strumenti contestuale** sono disponibili alcuni parametri che consentono di modificare il layout:
+Il layout predefinito posiziona la vista 3D a sinistra e il Vista 2D a destra. Nella **barra degli strumenti contestuale** sono disponibili alcuni parametri che consentono di modificare il layout:
 
 <table>
   <tr>
@@ -75,11 +75,11 @@ Il layout predefinito posiziona la vista 3D a sinistra e la vista 2D a destra. N
   </tr>
   <tr>
     <td><strong>Modalità viewport</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
-    <td>Queste impostazioni controllano il layout della finestra della vista:<br><ul><li><strong>3D/2D</strong> (impostazione predefinita): consente di visualizzare entrambe le viste 3D e 2D nella finestra della vista</li><li><strong>Solo 3D</strong>: ingrandisci la vista 3D e nascondi la vista 2D.</li><li><strong>Solo 2D</strong>: ingrandite la vista 2D e nascondete la vista 3D.</li><li><strong>Scambia 3D/2D</strong>: scambia l’ordine di visualizzazione delle visualizzazioni. Se la vista 3D era a sinistra, si troverà a destra dopo aver scelto questa azione.</li></ul></td>
+    <td>Queste impostazioni controllano il layout della finestra della vista:<br><ul><li><strong>3D/2D</strong> (impostazione predefinita): consente di visualizzare entrambe le viste 3D e 2D nella finestra della vista</li><li><strong>Solo 3D</strong>: ingrandite la vista 3D e nascondete il Vista 2D.</li><li><strong>Solo 2D</strong>: ingrandite il Vista 2D e nascondete la vista 3D.</li><li><strong>Scambia 3D/2D</strong>: scambia l’ordine di visualizzazione delle visualizzazioni. Se la vista 3D era a sinistra, si troverà a destra dopo aver scelto questa azione.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modalità prospettiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
-    <td>Queste impostazioni controllano l’aspetto della trama 3D nella vista 3D:<br><ul><li><strong>Vista prospettica</strong> (impostazione predefinita): visualizza la trama 3D come se fosse vista dall’occhio umano o da una videocamera.</li><li><strong>Vista ortogonale</strong>: visualizza la trama 3D in quanto ogni direzione misura la stessa lunghezza.</li></ul></td>
+    <td><strong>Modalità Prospettiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
+    <td>Queste impostazioni controllano l’aspetto della trama 3D nella vista 3D:<br><ul><li><strong>Vista prospettica</strong> (impostazione predefinita): visualizza la trama 3D come se fosse visibile dall'occhio umano o da una videocamera.</li><li><strong>Vista Ortografica</strong>: visualizza la trama 3D in quanto ogni direzione misura la stessa lunghezza.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Modalità di rotazione fotocamera</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>

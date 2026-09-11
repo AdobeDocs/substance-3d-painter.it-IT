@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
-description: Scoprite come creare modelli di output personalizzati in Substance 3D Painter per definire le vostre configurazioni di esportazione delle texture.
+description: Scopri come creare modelli di output personalizzati in Substance 3D Painter per definire le tue configurazioni di esportazione texture.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Creating Output templates
 helpx_experience_level: ""
@@ -38,7 +38,7 @@ La scheda di configurazione della finestra di esportazione è suddivisa in tre p
 >[!NOTE]
 >
 > Quando un modello viene utilizzato per esportare le texture, il file modello viene incluso automaticamente nel file di progetto nei salvataggi successivi.\
-> Ciò consente la condivisione e/o lo spostamento di un progetto in un altro computer, mantenendo i modelli per l’esportazione delle texture.\
+> Ciò consente la condivisione e/o lo spostamento di un progetto in un altro computer mantenendo i modelli per l’esportazione della texture.\
 > Nel progetto viene salvato solo l’ultimo predefinito utilizzato. Tuttavia, se Substance 3D Painter rileva un predefinito con lo stesso nome, il predefinito all’interno del progetto verrà contrassegnato come &quot;Obsoleto&quot; nell’elenco.
 
 ## Creazione di un modello
@@ -83,7 +83,7 @@ Le opzioni vanno dai <b>canali RGB</b> e <b>singoli</b> ai <b>canali Alpha</b> e
 
 ![](../assets/output-name.gif)
 
-Alcuni flag sono disponibili per generare automaticamente il nome della texture durante il processo di esportazione.
+Alcuni flag sono disponibili per generare automaticamente il nome della texture durante l’esportazione.
 
 * <b> $mesh</b>: nome del file mesh caricato nel progetto
 * <b> $textureSet</b>: nome del set di texture
@@ -113,16 +113,16 @@ Alcuni flag sono disponibili per generare automaticamente il nome della texture 
 Esistono diversi tipi di mappe:
 
 * <b>Mappe di input</b>: canali diretti che possono essere aggiunti in un set di texture. Tramite il pannello delle impostazioni di TextureSet.
-* <b> Mappe trama</b>: le texture presenti negli slot delle mappe aggiuntivi di un set di texture (texture cotte).
+* <b> Mappe trama</b>: Texture presenti negli slot delle mappe aggiuntivi di un set di texture (texture eseguite i baking).
 * <b> Mappe convertite:</b> texture virtuali, generate durante l&#39;esportazione in base ai canali presenti nel documento.
-  * <b>Normale OpenGL/DirectX</b>: genera un normale nello spazio dedicato combinando il normale dalle mappe aggiuntive, il height e il canale normale.
-  * <b>AO</b> misto: combina la mappa aggiuntiva Occlusione ambiente con il canale Occlusione ambiente.
-  * <b>Diffuso</b>: colore diffuso generato dai canali BaseColor e Metallic (le parti metalliche verranno sostituite da un colore nero).
+  * <b>OpenGL normale/DirectX</b>: esegue l&#39;output di un normale nello spazio dedicato combinando il normale dalle mappe aggiuntive, il height e il canale normale.
+  * <b>AO</b> misto: combina la mappa aggiuntiva di Occlusione ambientale con il canale di Occlusione ambientale.
+  * <b>Diffusa</b>: colore della Diffusa generato dai canali BaseColor e Metallic (le parti metalliche verranno sostituite con un colore nero).
   * <b>Specular</b>: colore di Specular generato dai canali BaseColor e Metallic.
-  * <b>Lucidità</b>: inversa rispetto al canale di rugosità.
-  * <b>Unity4 Diffuse</b>: colore diffuso generato da BaseColor in modo che corrisponda agli shader Unity4.
-  * <b>Lucidità Unity4</b>: la lucidità generata dal canale Rugosità e Metallico corrisponde agli shader Unity4.
+  * <b>Lucentezza</b>: inversa rispetto al canale di rugosità.
+  * <b>Diffusa Unity4</b>: colore della Diffusa generato da BaseColor in modo che corrisponda agli shader Unity4.
+  * <b>Lucentezza Unity4</b>: Lucentezza generata dal canale Rugosità e Metallico per corrispondere agli shader Unity4.
   * <b>Riflessione</b>: esportate una mappa in cui il bianco indica materiali dielettrici e altri colori per materiali metallici
   * <b>1/ior</b>: 1 diviso per il valore ior, ior viene generato dalla mappa metallica: 1,4 per i dielettrici, 100 per i metalli (colore nero)
-  * <b>Lucidità<sup>2</sup></b>: versione quadrata del canale di lucidità (lucidità \*)
+  * <b>Lucentezza<sup>2</sup></b>: versione quadrata del canale della lucentezza (Lucentezza \* Lucentezza)
   * <b>f0</b>: valore di riflettanza in fresnel 0 (0,04 per dielettrici, 1,0 per metallici)

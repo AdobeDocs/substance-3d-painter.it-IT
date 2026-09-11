@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/history.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/history.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare il pannello Cronologia in Substance 3D Painter per visualizzare e navigare nella cronologia delle modifiche.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Nella finestra Cronologia sono elencate tutte le azioni e le modifiche apportate
 * La creazione di una nuova azione quando non è presente nell&#39;ultimo elemento dell&#39;elenco cancellerà le azioni future esistenti e le sostituirà con una nuova.
 * Le azioni sono globali per il progetto, quindi la creazione di un livello in due diversi set di texture apparirà nello stesso elenco.
 
-Anche se tutte le informazioni vengono salvate in un progetto (per essere in grado di ridipingere/riapplicare la texture a tutto), l&#39;elenco Cronologia non sarà accessibile se il progetto viene chiuso e riaperto. L&#39;elenco della cronologia è disponibile solo durante la sessione corrente.
+Anche se tutte le informazioni vengono salvate in un progetto (per essere in grado di rieseguire la pittura o la texture di tutto), l&#39;elenco Cronologia non sarà accessibile se il progetto viene chiuso e riaperto. L&#39;elenco della cronologia è disponibile solo durante la sessione corrente.

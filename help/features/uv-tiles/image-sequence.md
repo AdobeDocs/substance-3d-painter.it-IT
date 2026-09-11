@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare le sequenze di immagini con i riquadri UV in Substance 3D Painter per flussi di lavoro con texture animate.
+description: Scoprite come utilizzare le sequenze di immagini con i riquadri UV in Substance 3D Painter per flussi di lavoro di texture animata.
 helpx_creative_field: ""
 helpx_description: Painter > Features > UV Tiles > Image Sequence
 helpx_experience_level: ""
@@ -53,4 +53,4 @@ La corrispondenza del nome file si basa sulla seguente espressione regolare:
 
 Le sequenze di immagini possono essere caricate in qualsiasi slot di risorse nell&#39;interfaccia come qualsiasi altra risorsa. Tuttavia, in alcuni casi potrebbero essere necessarie impostazioni aggiuntive per il corretto utilizzo.
 
-In [Livelli di riempimento](../../painting/fill-projections/fill-projections.md) (ed effetti di riempimento), assicuratevi che la modalità di proiezione sia impostata su **Riempimento (come per porzione UV)** per garantire che ogni immagine della sequenza sia assegnata alla [porzione UV](uv-tiles.md) destra nel set di texture.
+In [Livelli di riempimento](../../painting/fill-projections/fill-projections.md) (ed effetti di riempimento), assicuratevi che la modalità di proiezione sia impostata su **Riempimento (corrispondente a Porzione UV)** per garantire che ogni immagine della sequenza sia assegnata alla [Porzione UV](uv-tiles.md) destra nel set di texture.

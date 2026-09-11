@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.2 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 2017.2
 
-**La versione di Substance Painter 2017.2** introduce una nuova e potente funzionalità tramite il sistema di punti di ancoraggio. Consente di creare configurazioni più avanzate nello stack di livelli, aprendo molte nuove possibilità.
+**La versione di Substance Painter 2017.2** introduce una nuova e potente funzionalità tramite il sistema di punti di ancoraggio. Permette di realizzare configurazioni più avanzate nella Pila livelli, aprendo nuove opportunità.
 
 Data di pubblicazione: *27 luglio 2017*
 
@@ -30,7 +30,7 @@ Data di pubblicazione: *27 luglio 2017*
 
 ![](../../assets/anchor-height-blend-optim.gif)
 
-**Un nuovo tipo di effetto** è stato aggiunto a Substance Painter, accanto a quelli già esistenti, ad esempio **Filtro** e **Livello**, è ora possibile trovare il nuovo **Punto di ancoraggio**. Questo nuovo effetto consente di definire una **posizione** nello **stack di livelli** a cui è quindi possibile fare riferimento **in tutto il resto del progetto in qualsiasi altro livello.** Ciò consente, ad esempio, di utilizzare le informazioni del height da un livello nella maschera di un livello appena sopra questo, consentendo una fusione più naturale (come illustrato dal gif sopra).
+**Un nuovo tipo di effetto** è stato aggiunto a Substance Painter, accanto a quelli già esistenti, ad esempio **Filtro** e **Livello**, è ora possibile trovare il nuovo **Punto di ancoraggio**. Questo nuovo effetto consente di definire una **posizione** nella **Pila livelli** a cui è possibile fare riferimento **in tutti gli altri livelli del progetto.** Ciò consente, ad esempio, di utilizzare le informazioni del height da un livello nella maschera di un livello appena sopra questo, consentendo una fusione più naturale (come illustrato dal gif sopra).
 
 Poiché l&#39;ancoraggio funziona come un effetto, può essere creato in **molte situazioni** : **contenuto** di un livello, **maschera** e anche come filtro **pass-through**. L’effetto funziona anche se il livello in cui si trova è disattivato. Tenete presente che l&#39;Ancoraggio definisce solo una posizione, non ciò che potete recuperare da essa. Queste informazioni vengono definite nel punto in cui viene creato il riferimento all&#39;ancoraggio.
 
@@ -40,7 +40,7 @@ Per ulteriori dettagli tecnici ed esempi, consultate la pagina dedicata: [Punto 
 
 Oltre al nuovo effetto Punto di ancoraggio, abbiamo lavorato anche su:
 
-* Possibilità di rinominare alcuni effetti, ad esempio Riempimento e Disegno
+* Possibilità di rinominare alcuni effetti, ad esempio Riempimento e Pittura
 * Nuove funzioni di scripting, che consentono di creare un collegamento dinamico con altre applicazioni come Unity
 
 ## Esercitazione

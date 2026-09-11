@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/texture-set/texture-set-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-list.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare l’elenco di set di texture in Substance 3D Painter per gestire e organizzare più set di texture nel progetto.
 helpx_creative_field: ""
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ![](../../assets/texture-set-list.png)
 
-Nella finestra **Elenco set di texture** vengono visualizzati tutti gli ID materiale del modello 3D corrente in un progetto. Consente di cambiare e visualizzare la pila di livelli associata a ciascun materiale sul modello, nonché le relative impostazioni dedicate.
+Nella finestra **Elenco set di texture** vengono visualizzati tutti gli ID materiale del modello 3D corrente in un progetto. Permette di commutare e visualizzare la Pila livelli associata a ciascun materiale sul modello, nonché le impostazioni dedicate.
 
-L&#39;obiettivo principale della finestra Elenco set di texture è consentire il passaggio da un materiale all&#39;altro per accedere alla pila di livelli associata a ciascun materiale.\
+L&#39;obiettivo principale della finestra Elenco serie texture è consentire il passaggio da un materiale all&#39;altro per accedere alla Pila livelli associata a ciascun materiale.\
 Nel caso del flusso di lavoro [Livellamento dei materiali](../../features/dynamic-material-layering.md), i **sottostack** vengono visualizzati **sotto** il nome del set di texture.
 
 >[!WARNING]
@@ -37,9 +37,9 @@ Gli insiemi di texture possono avere più stati:
 
 ![](../../assets/txtset-status.png)
 
-* **Selezionato**: il set di texture corrente è attualmente in fase di modifica. Se si seleziona un set di texture, vengono aggiornati di conseguenza lo [stack di livelli](../layer-stack/layer-stack.md) e la finestra [Impostazioni shader](../shader-settings/shader-settings.md).
+* **Selezionato**: il set di texture corrente è attualmente in fase di modifica. Se si seleziona un set di texture, la finestra [Pila livelli](../layer-stack/layer-stack.md) e le [impostazioni di Shader](../shader-settings/shader-settings.md) verranno aggiornate di conseguenza.
 * **Visibile/Nascosto**: per ulteriori dettagli, consulta la sezione sulla visibilità riportata di seguito.
-* **Disabilitato**: i set di texture e lo stack di livelli associato non possono essere collegati a un materiale nella trama. Per ulteriori informazioni, vedere [Riassegnazione del set di texture](texture-set-reassignment.md).
+* **Disabilitato**: i set di texture e la Pila livelli associata non possono essere collegati a un materiale nella trama. Per ulteriori informazioni, vedere [Riassegnazione del set di texture](texture-set-reassignment.md).
 
 ## Visibilità
 
@@ -65,14 +65,14 @@ La visualizzazione di un set di texture può essere gestita dalle icone dedicate
 Facendo clic con il pulsante destro del mouse sul nome di un set di texture, viene aperto un menu contestuale con le seguenti azioni:
 
 * **Mostra/Nascondi set di texture**: attiva/disattiva la visibilità del set di texture (come descritto nella sezione precedente)
-* **Modifica nome**: consente di rinominare un set di texture. Questo nome verrà utilizzato anche durante il processo di esportazione delle texture. È inoltre possibile rinominare un set di texture facendo doppio clic sul relativo nome.
+* **Modifica nome**: consente di rinominare un set di texture. Questo nome verrà utilizzato anche durante l’esportazione delle Texture. È inoltre possibile rinominare un set di texture facendo doppio clic sul relativo nome.
 * **Reimposta il nome su \*nome originale\***: ripristina il nome del set di texture originale dal materiale mesh se è stato modificato.
 * **Modifica descrizione**: consente di aggiungere/modificare la descrizione associata a un set di texture.
 
-## Gestione shader
+## Gestione Shader
 
-Per gestire l’assegnazione dello shader, potete usare il pulsante a destra del nome di ogni set di texture.\
-Per impostazione predefinita, ogni set di texture condivide la stessa istanza dello shader. Tuttavia, può essere comodo avere a volte uno shader diverso solo per una parte specifica della trama. A tale scopo, fare clic sul pulsante e scegliere &quot;**Nuova istanza dello shader**&quot;. Da qui, nella finestra [Impostazioni shader](../shader-settings/shader-settings.md) è possibile modificare lo shader e i relativi parametri senza influire su altri set di texture.
+Per gestire l’assegnazione degli shader potete usare il pulsante a destra del nome di ogni set di texture.\
+Per impostazione predefinita, ogni set di texture condivide la stessa istanza shader. Tuttavia, può risultare comodo avere a volte uno shader diverso solo per una parte specifica della trama. A tale scopo, fare clic sul pulsante e scegliere &quot;**Nuova istanza shader**&quot;. Da qui, nella finestra [Impostazioni Shader](../shader-settings/shader-settings.md) è possibile modificare lo shader e i relativi parametri senza influire sugli altri set di texture.
 
 ![](../../assets/capture-d-e-cran-2018-07-12-a-15-45-32.png){width="500px"}
 
@@ -83,5 +83,5 @@ Il pulsante Impostazioni apre un nuovo menu che espone più azioni:
 * **Nascondi descrizioni vuote** (impostazione predefinita): nasconde i campi descrizione se vuoti
 * **Nascondi tutte le descrizioni**: nasconde i campi delle descrizioni anche se non vuoti
 * **Mostra tutte le descrizioni**: mostra i campi delle descrizioni anche se vuoti
-* **Importa parametri shader**: consente di importare un file json per configurare i parametri shader dei set di texture
+* **Importa parametri di Shader**: consente di importare un file json per configurare i parametri di shader dei set di texture
 * **Riassegna set di texture**: per ulteriori informazioni, vedere [Riassegnazione set di texture](texture-set-reassignment.md).

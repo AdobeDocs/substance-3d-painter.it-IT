@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2018.1 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -12,7 +12,7 @@ user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,9 @@ Substance Painter 2018.1 introduce una **rielaborazione completa dell&#39;interf
 * Nella parte superiore della finestra della vista è ora presente una nuova **barra degli strumenti contestuale**.\
   Questa barra degli strumenti ne modifica i parametri a seconda dello strumento corrente utilizzato. È un modo per accedere rapidamente alle funzionalità di base dello strumento (come la dimensione del pennello).\
   ![](../../assets/contextual-toolbar_1.png)
-* Ora è possibile **riordinare gli effetti** utilizzando **il trascinamento** nello **stack di livelli**.\
+* Ora è possibile **riordinare gli effetti** utilizzando **il trascinamento** nella **Pila livelli**.\
   ![](../../assets/re-order-effects.gif)
-* Anche se le scelte rapide &quot;**C**&quot; e &quot;**B**&quot; consentono di visualizzare rapidamente **Canale** e **Texture al forno** nella **finestra della vista**, è ora possibile utilizzare il **menu a discesa unificato** per modificare la visualizzazione della finestra della vista.\
+* Anche se le scelte rapide &quot;**C**&quot; e &quot;**B**&quot; consentono di visualizzare rapidamente **Canale** e **texture Eseguita i baking** nella **finestra della vista**, è ora possibile utilizzare il **menu a discesa unificato** per modificare la visualizzazione della finestra della vista.\
   Nella **parte superiore destra** della **finestra della vista** è ora disponibile un elenco a discesa che elenca **tutti i canali e le mappe trama** (in precedenza mappe aggiuntive). Questo menu a discesa unificato è disponibile anche nel dock **Impostazioni schermo**.\
   ![](../../assets/dropdown-viewport.gif)
 * Le **impostazioni dello schermo** e le **impostazioni del visualizzatore** sono state **unite** in un singolo ancoraggio.\
@@ -68,7 +68,7 @@ Substance Painter 2018.1 introduce una **rielaborazione completa dell&#39;interf
 ![](../../assets/drag-drop-material-resize.gif){width="650px"}
 
 Ora potete **trascinare** materiali e materiali avanzati **direttamente nella finestra della vista**.\
-Questa nuova azione **evidenzierà contemporaneamente la geometria** del **set di texture di destinazione**. I nuovi livelli verranno così creati nella parte superiore della pila di livelli del set di texture.
+Questa nuova azione **evidenzierà contemporaneamente la geometria** del **set di texture di destinazione**. I nuovi livelli verranno così creati nella parte superiore della Pila livelli dell’insieme di texture.
 
 ### Comportamento migliorato della penna
 
@@ -108,7 +108,7 @@ Questa nuova spaziatura viene generata automaticamente dopo ogni tratto del penn
 In questa versione sono state migliorate anche le prestazioni su più livelli:
 
 * L’apertura e il salvataggio del progetto dovrebbero essere un po’ più rapidi di prima.\
-  Abbiamo rielaborato il modo in cui codifichiamo/decodifichiamo i nostri **dati di pittura**. Questo influisce in particolare sui progetti con molte informazioni pittoriche (tratti pennello).
+  Abbiamo rielaborato il modo in cui codifichiamo/decodifichiamo i nostri **dati di pittura**. Questo influisce in particolare sui progetti con molte informazioni sulla pittura (tratti pennello).
 * Ora supportiamo molti **sottooggetti** con trame.\
   Non è più obbligatorio unire una trama in un unico pezzo prima di caricarla in Substance Painter. Le prestazioni dovrebbero rimanere buone anche con **8000 sottooggetti** in un progetto.
 * Abbiamo modificato il modo in cui **viewport** viene **aggiornato** per ridurre il carico sulla GPU durante il disegno.\
@@ -121,10 +121,10 @@ In questa versione sono state migliorate anche le prestazioni su più livelli:
 
 ![](../../assets/position-baker.jpg)
 
-Ora abbiamo una nuova impostazione che consente di eseguire una mappa di posizione per set di texture, tenendo conto delle dimensioni complete della scena.\
-Questo nuovo comportamento consente di utilizzare proiezioni triplanari nei generatori di maschere che corrisponderanno all’intera scena, invece di creare giunture come prima. Questo è molto utile con i progetti che hanno molti set di texture (come i progetti basati su UDIM).
+Ora abbiamo una nuova impostazione che consente di eseguire i baking una mappa di posizione per set di texture che tiene conto delle dimensioni complete della scena.\
+Questo nuovo comportamento consente di utilizzare proiezioni triplanari nei Generatori di maschere che corrisponderanno all’intera scena, invece di creare giunture come prima. Questo è molto utile per i progetti che dispongono di molti set di texture (come i progetti basati sull’UDIM).
 
-Nelle impostazioni del panificatore di posizione, modifica il parametro &quot;**Scala di normalizzazione**&quot; da &quot;**Per Material**&quot; a &quot;**Scena completa**&quot; per abilitare questo nuovo comportamento.
+Nelle impostazioni del baker di posizioni, modificare il parametro &quot;**Scala di normalizzazione**&quot; da &quot;**Per Materiale**&quot; a &quot;**Scena completa**&quot; per abilitare questo nuovo comportamento.
 
 ![](../../assets/position-baker-example.png)
 
@@ -140,11 +140,11 @@ In questa versione sono stati inoltre aggiunti nuovi contenuti:
 * **Rumori non quadrati**\
   I rumori di base sono stati aggiornati alla versione più recente da Substance Designer.\
   Ciò significa che la funzione di espansione non quadrata è ora disponibile nei parametri di disturbo.
-* Nuovo generatore di maschere **3D linear gradient.** Questo nuovo generatore di maschere consente di creare una sfumatura lineare in qualsiasi direzione nello spazio 3D.\
+* Nuovo generatore di maschere **3D linear gradient** Questo nuovo generatore di maschere consente di creare una sfumatura lineare in qualsiasi direzione nello spazio 3D.\
   La direzione può essere definita con due posizioni 3D, che possono essere selezionate direttamente sulla mappa posizione.\
   Esempio:
 
-1. &#x200B;
+1. 
    1. Crea il generatore di maschere **3D linear gradient** in uno dei tuoi livelli
    1. Imposta la visualizzazione della finestra della vista su &quot;**Posizione**&quot; (tramite il menu a discesa della finestra della vista o utilizzando la chiave &quot;**B**&quot;)
    1. Fai clic sul parametro &quot;**Inizio posizione 3D**&quot; per aprire la finestra a comparsa **Selettore colore**
@@ -155,8 +155,8 @@ In questa versione sono stati inoltre aggiunti nuovi contenuti:
 
 * Nuovo modello **Lens-studio** (app Snap Chat 3D).\
   È disponibile un nuovo modello che consente di creare facilmente progetti destinati all&#39;applicazione Lens-Studio creata da Snap.\
-  Sono disponibili anche uno shader dedicato e un predefinito di esportazione. Per ulteriori informazioni su Lens Studio, vedere: <https://lensstudio.snapchat.com/>
-* **I materiali avanzati** e le **maschere intelligenti** sono stati aggiornati con la versione più recente dei nostri generatori di maschere.\
+  Sono inoltre disponibili uno shader dedicato e un predefinito di esportazione. Per ulteriori informazioni su Lens Studio, vedere: <https://lensstudio.snapchat.com/>
+* **Materiali avanzati** e **Maschera avanzata** sono stati aggiornati con la versione più recente dei nostri Generatori di maschere.\
   Tutti i nostri predefiniti avanzati ora supportano la funzione **micro dettagli** che può essere utilizzata con **punti di ancoraggio**.
 
 ### Nuovo progetto di esempio
@@ -164,7 +164,7 @@ In questa versione sono stati inoltre aggiunti nuovi contenuti:
 ![](../../assets/seamless-paint-material-optim.gif){width="650px"}
 
 Ora è disponibile un nuovo progetto di esempio denominato &quot;**TilingMaterial**&quot; che puoi aprire tramite l&#39;azione di menu &quot;**File > Apri campione**&quot;.\
-Questo progetto utilizza una semplice trama piana con UV sovrapposti che consente di **dipingere senza problemi** materiali e tratti di pennello per **creare materiali di affiancatura**.
+Questo progetto utilizza una semplice trama piana con UV sovrapposti che consente di **pittura senza problemi** materiali e tratti di pennello per **creare materiali Affiancamenti**.
 
 ![](../../assets/seamless-paint-optim.gif){width="400px"}
 
@@ -203,7 +203,7 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 
 **Aggiunto:**
 
-* Riepilogo: Velocità di cottura migliorata, Sistema di salvataggio migliorato, Cursori aggiornati, API di plug-in aggiornata, Traduzione cinese, Riempimento migliorato ora opzionale
+* Riepilogo: velocità di Esegue i baking migliorata, sistema di salvataggio migliorato, cursori aggiornati, API di plug-in aggiornata, traduzione cinese, spaziatura interna migliorata ora facoltativa
 * [Panettieri] Miglioramento delle prestazioni con la nuova versione per panettieri
 * Forzare la finestra di dialogo di visualizzazione con la GPU incompatibile
 * [Salva] Scopri la nuova funzionalità di progetto compatto (modalità di salvataggio completa/compatta)
@@ -253,7 +253,7 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 * [Driver] Aggiornamento dei requisiti minimi dei driver
 * [3Dview] Normali non generate correttamente sulle trame UDIM senza informazioni sulle normali
 * [Intel] Arresto anomalo con Substance Painter 2018.1.0
-* [Intel]&#x200B;[Viewport] Problema con la spaziatura interna (artefatti neri)
+* [Intel][Viewport] Problema con la spaziatura interna (artefatti neri)
 
 **Problemi noti:**
 
@@ -287,19 +287,19 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 * [Finestra vista] Casella combinata di selezione Materiale/Canale/Mappa nella finestra della vista
 * [Riquadro di visualizzazione] Ridurre lo sfarfallio durante la rotazione (ombra attivata)
 * [Shelf] Visualizza i materiali per impostazione predefinita all’apertura di Painter
-* [Shelf] Miglioramento del tempo di caricamento di texture e materiali Substance (da 2 a 6 volte più veloce)
+* [Shelf] Miglioramento del tempo di caricamento delle texture e dei materiali delle Substance (da 2 a 6 volte più veloce)
 * [Shelf] Riorganizzare le cartelle dei materiali per adattarle alla struttura della Substance Source
 * [Shelf] Trascina i materiali direttamente sulla trama nella finestra della vista
 * [Shelf] Nuovi rumori 3D (Perlin, Perlin Fractal, Simplex e Worley)
-* [Shelf] Nuovo generatore maschera 3D linear gradient con posizione mesh
+* [Ripiano] Nuovo generatore di maschere con posizione mesh
 * [Shelf] Disturbi di base aggiornati per supportare il non square expansion
 * [Shelf] Aggiunto un nuovo modello ed esporta il predefinito per Lens Studio (applicazione Snap)
-* [Shelf] Materiali avanzati e maschere intelligenti aggiornati per utilizzare la versione più recente di Editor maschera (micro dettagli)
-* [Shelf] Nuovo progetto di esempio &quot;TilingMaterial&quot; per creare materiali per piastrelle senza giunture
+* [Shelf] Materiali avanzati e Maschere avanzate aggiornati per utilizzare la versione più recente di Editor maschera (micro dettagli)
+* [Shelf] Nuovo progetto di esempio &quot;TilingMaterial&quot; per creare materiali in Affiancamento senza soluzione di continuità
 * [Shelf] Nuovi predefiniti per i pennelli (Calligrafia, Bagnato, Tratteggio e così via)
 * [Cursori] Nuovi cursori e stile e comportamento delle barre di grigio/colore
-* [Baker] Consenti l&#39;uso del rettangolo di selezione della scena per calcolare la mappa di posizione
-* [Shader] Rimuove il parametro della forza del height dai parametri dello shader di default
+* [Baker] Consenti l’uso del rettangolo di selezione completo della scena per calcolare la mappa di posizione
+* [Shader] Rimuovi il parametro della forza del height dai parametri di shader di default
 * Motore di Substance [Engine] aggiornato
 * [Motore] Nessuna o meno discontinuità tra i blocchi UV (nuova imbottitura di cucitura)
 * [Plugin] Importa più rapidamente i materiali scaricati da Substance Source
@@ -310,7 +310,7 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 * [Nuovo progetto] Nuovo progetto - Miglioramento del tempo di aggiornamento mesh
 * [Salva] Salvataggio del tempo del progetto migliorato
 * [Log] Tipo di licenza segnalato nel log
-* [TextureSet] Rinomina il pulsante &quot;Crea texture&quot; in &quot;Crea mappe trama&quot;
+* [TextureSet] Rinomina il pulsante &quot;Esegue i baking Texture&quot; in &quot;Esegue i baking mappe trama&quot;
 * Rinominare &quot;Mappe aggiuntive&quot; come &quot;Mesh maps&quot;
 
 **Corretto:**
@@ -319,24 +319,24 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 * [Strumenti proprietà] Canale disattivato quando si trascina un’immagine nello slot del materiale
 * [Proprietà Tools] L’anteprima del pennello non funziona con gli strumenti sfumino e clone
 * [Set di texture] L’ordine dei canali non è corretto quando si utilizzano i modelli
-* [Shelf] Icona mancante per il generatore di conversione in scala di grigi
+* [Shelf] Icona mancante per il generatore di Conversioni in scala di grigi
 * [Shelf] Sign Circle Number alpha è interrotto (font mancante)
 * Rilevamento errato delle GPU integrate all’avvio
 * [Arresto anomalo] Trascina una risorsa importata denominata con un carattere #
 * [Engine] Problema di rilevamento Vram sulla GPU integrata
-* [Engine] Risolti numerosi arresti anomali in Substance Engine Linker
+* [Engine] Corretti numerosi arresti anomali in Substance Engine Linker
 * [Engine] Artefatti quadrati quando si modifica la risoluzione
-* [Post Effects] Il ridimensionamento dell’interfaccia è lento quando gli effetti post sono attivi
-* [Bakers] L’unità della scena non viene rispettata correttamente per i valori di distanza dei raggi
-* [Panettieri] AO dalla distanza di occlusione della trama è fissato a 1 indipendentemente dal valore di input
-* [Bakers] La corrispondenza per nome ignora alcune trame con nomi specifici
-* [Pannelli] L’impostazione Colore da trama Poligruppo e ID trama restituisce sempre un’immagine nera
-* [Bakers] ID Baking non riesce con trame FBX binarie da Blender
-* [Shader] Disturbo nella vista 2D con dota-2 e non-pbr-spec-gloss
-* [Linux] Durante il baking viene utilizzato un solo thread CPU
+* [Effetti post] Il ridimensionamento dell’interfaccia è lento quando gli effetti post sono attivi
+* [Baker] L’unità della scena non viene rispettata correttamente per i valori di distanza dei raggi
+* [Baker] AO da Mesh La distanza di occlusione è bloccata a 1 indipendentemente dal valore di input
+* [Baker] La corrispondenza per nome ignora alcune trame con nomi specifici
+* [Baker] L’impostazione Colore da trama Poligruppo e ID trama secondaria restituisce sempre un’immagine nera
+* [Baker] La Esegue i baking dell&#39;ID non riesce con mesh FBX binarie di Blender
+* [Shader] Disturbo nel vista 2D con dota-2 e non-pbr-spec-gloss
+* [Linux] Durante la esegue i baking viene utilizzato un solo thread CPU
 * [MacOS] Arresto anomalo con il cursore del pennello che si sposta sulla finestra della vista
 
 **Problemi noti:**
 
 * Blocco del calcolo sulle GPU AMD VEGA
-* Processo di post-distorsione non preso in considerazione durante l&#39;esportazione in IRay (canale alfa)
+* Distorsione post-processo non presa in considerazione durante l&#39;esportazione in IRay (canale alfa)

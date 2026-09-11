@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_position.webp" alt=""/><br><strong>Entrata:</strong> mesh, uv, distanza</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di posizione utilizza le mappe normali della posizione cotta e dello spazio mondo per creare una maschera sfumatura basata sulla posizione del materiale nello spazio 3D (come dall’alto verso il basso o da un lato all’altro).<br><br>Il generatore di posizione genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere con sfumature basate sulla posizione nello spazio mondo.<br><br>Per l'input dell'immagine sono necessarie mappe normali della posizione e dello spazio globale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore Posizione utilizza le mappe normali di posizione e spazio mondo eseguite i baking per creare una maschera sfumatura in base alla posizione del materiale nello spazio 3D (come dall’alto verso il basso o da un lato all’altro).<br><br>Il generatore Posizione genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere con sfumature basate sulla posizione nello spazio mondo.<br><br>Per l'input dell'immagine sono necessarie mappe normali di posizione Eseguita i baking e di spazio mondo. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 | --- | --- |
 | Colore **Texture** | Usate una texture personalizzata o un punto di ancoraggio. |
 | Colore **Sfumatura posizione** | Utilizzate la mappa di posizione al forno. |
-| Colore **Normali spazio globale** | Utilizzate la mappa standard di World Space. |
+| Colore **Normali spazio globale** | Utilizzare la mappa eseguita i baking World Space Normals. |
 
 ## Parametri
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 | **Sfocatura globale** | Sfocate la maschera finale in modo uniforme dopo aver combinato tutte le sfumature. |
 | **Saldo globale** | Regolate il bilanciamento della maschera finale dopo aver combinato tutte le sfumature tra il bianco e il nero, come avviene con una regolazione della luminosità. |
 | **Contrasto globale** | Regolate il contrasto della maschera finale dopo aver combinato tutte le sfumature. |
-| **Usa texture** | Attivate o disattivate l’utilizzo di una mappa texture personalizzata. |
+| **Usa Texture** | Attivate o disattivate l’utilizzo di una mappa texture personalizzata. |
 
 ### Posizione sfumatura
 
@@ -78,15 +78,15 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Opacità texture</strong></td>
-    <td>Regolate la visibilità della texture personalizzata.</td>
+    <td>Regola la visibilità della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>
-    <td>Invertite la mappa texture personalizzata.</td>
+    <td>Invertire la mappa texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Conversione in scala di grigi</strong></td>
-    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di conversione <a href="grayscale-conversion.md">scala di grigi fornisce ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
+    <td>Imposta il metodo usato per convertire dal colore completo al grigio. Il generatore di <a href="grayscale-conversion.md">Conversioni in scala di grigi contiene ulteriori informazioni sul funzionamento di ciascun metodo</a>.</td>
   </tr>
   <tr>
     <td><strong>Metodo fusione</strong></td>
@@ -98,7 +98,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Contrasto</strong></td>
-    <td>Regolate il contrasto/decadimento della texture personalizzata.</td>
+    <td>Regola il contrasto/decadimento della texture personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Luminosità</strong></td>
@@ -106,10 +106,10 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Triplanare</strong></td>
-    <td>Quando l’opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché dipendere solo dagli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando l'opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
 </table>

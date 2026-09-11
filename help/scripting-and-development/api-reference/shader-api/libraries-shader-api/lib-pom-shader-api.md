@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
 breadcrumb-title: ''
 description: Per Substance 3D Painter, accedi alla pagina di riferimento per API shader Lib POM per creare effetti di mappatura occlusioni parallasse in ombreggiatori personalizzati.
 helpx_creative_field: ""
@@ -171,7 +171,7 @@ vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS)
 ```
 
 
-Aggiornare le coordinate della texture di input con offset parallasse
+Aggiorna le coordinate della texture di input con offset parallasse
 
 ```
 void applyParallaxOffset(inout V2F inputs, vec3 viewTS) 

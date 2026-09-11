@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare il menu File in Substance 3D Painter per gestire progetti, importare risorse ed esportare texture.
+description: Scopri come utilizzare il menu File in Substance 3D Painter per gestire progetti, importare risorse ed esportare texture.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Main menu > File menu
 helpx_experience_level: ""
@@ -39,7 +39,7 @@ Il menu File contiene le azioni per creare e salvare i progetti, nonché le azio
 | **Pulito** | Rimuovi tutte le risorse inutilizzate dal progetto corrente (saranno attive dopo il prossimo **salvataggio**). |
 | **Importa risorse** | Aprire la finestra Importa risorse. |
 | **Esporta trama** | Aprite la finestra di esportazione della trama che consente di esportare il progetto corrente come file di modello 3D. |
-| **Esporta texture** | Aprite la finestra esportazione texture che consente di esportare il progetto corrente come texture bitmap. |
+| **Esportare texture** | Aprite la finestra Esportazione texture che consente di esportare il progetto corrente come texture bitmap. |
 | **Invia a** | Elenca tutte le azioni **Invia a** per inviare un progetto a un&#39;altra applicazione. |
 | **Esci** | Chiudi l’applicazione. Se il progetto corrente contiene modifiche non salvate, verrà visualizzato un messaggio. |
 

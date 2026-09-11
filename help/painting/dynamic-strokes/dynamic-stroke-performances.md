@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Scoprite le considerazioni sulle prestazioni del tratto dinamico in Substance 3D Painter per ottimizzare il rendering e la reattività del tratto del pennello.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Anche se è facile implementare effetti straordinari o avanzati all&#39;interno 
 
 Il Numero Casuale è un ottimo modo per generare unicità. Il problema è che la generazione può essere costosa e nel caso della funzione Traccia dinamica può accadere molto spesso se non viene modificata correttamente. È importante capire quando usare il Numero casuale e quando evitarlo, preferendo piuttosto un metodo alternativo per ottenere il miglior compromesso tra immagini e prestazioni:
 
-* **Numero casuale per timbro**: in questo caso, per ogni timbro verrà generata una nuova Substance univoca. Questo è perfetto per la creazione di unghie uniche su un&#39;asse di legno, ad esempio, ma non se si stanno creando scie di inchiostro/pittura.
+* **Numero casuale per timbro**: in questo caso, per ogni timbro verrà generata una nuova Substance univoca. Questo è perfetto per la creazione di unghie uniche su una tavoletta di legno, ad esempio, ma non se si stanno creando tracce di inchiostro/pittura.
 * **Numero casuale per tratto**: viene creato un numero casuale univoco per il tratto corrente del pennello. Ciò è utile quando sono presenti pochi timbri ma è necessario un nuovo set di variazioni per ogni tratto (come un effetto spray).
 * **Numero casuale statico**: la Substance viene generata una volta e non cambierà mai. Ottimale per le prestazioni ma forse troppo restrittivo a seconda delle vostre esigenze.
 

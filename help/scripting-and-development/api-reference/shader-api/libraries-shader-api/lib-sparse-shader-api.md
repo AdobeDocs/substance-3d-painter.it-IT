@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
-description: Accedete alla pagina di riferimento per API shader Lib Sparse in modo che Substance 3D Painter possa lavorare con il campionamento di texture sparse in ombreggiatori personalizzati.
+description: Accedete alla pagina di riferimento per API shader Lib Sparse in modo che Substance 3D Painter possa lavorare con il campionamento delle texture sparse negli shader personalizzati.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ Questo file fornisce utili funzioni per garantire la correttezza del campionamen
 
 La macro *FEATURE\_SPARSE\_TEXTURE* è definita solo se l&#39;estensione della texture virtuale di tipo sparse è abilitata.
 
-Se questa opzione è attivata, elaborate ulteriori controlli di ricerca delle texture per scalare la piramide mipmap se mancano dei testi.
+Se questa opzione è attivata, elabora ulteriori controlli di ricerca delle texture per scalare la piramide mipmap se mancano i testi.
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -109,7 +109,7 @@ struct SparseCoord {
 ```
 
 
-Struttura delle coordinate della texture di compilazione utilizzata dalla funzione di campionamento *textureSparse()* (deve essere chiamata dallo shader di frammento)
+Struttura delle coordinate della texture di compilazione utilizzata dalla funzione di campionamento *textureSparse()* (deve essere chiamata dallo shader del frammento)
 
 Esempio: *SparseCoord uv1coord = getSparseCoord(inputs.multi\_tex\_coord[1]);*
 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-Struttura delle coordinate della texture utilizzata dalla funzione di campionamento *textureSparse()* Versione di campionamento a livello di base (può essere utilizzata se si utilizza uno shader di frammento esterno)
+Struttura delle coordinate della texture di compilazione utilizzata dalla funzione di campionamento *textureSparse()* Versione di campionamento a livello di base (può essere utilizzata se è presente uno shader di frammento esterno)
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -179,7 +179,7 @@ SparseCoord getSparseCoordLod0(vec2 tex_coord) {
 ```
 
 
-Calcolare il livello di dettaglio che verrà utilizzato per campionare da una texture sparsa
+Calcolare il livello di dettaglio da utilizzare per il campionamento da una texture sparsa
 
 Salire la piramide mipmap se mancano i testi Restituisce loD PRIMA di applicare la distorsione LoD
 

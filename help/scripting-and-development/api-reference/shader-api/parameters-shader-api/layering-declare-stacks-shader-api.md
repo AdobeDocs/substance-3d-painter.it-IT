@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento relativa alle API shader di dichiarazione dei livelli per Substance 3D Painter, con cui potete creare stack di livelli di materiale personalizzati.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Livelli di materiale: dichiarare pile modificabili
 
-Una serie modificabile è definita da un identificatore univoco e da un elenco di canali del documento. Gli ID di canale possibili sono: *ambientocclusione* *anisotropiangolo* *anisotropilivello* *basecolor* *blendingmask* *diffusi* *spostamenti* *emissivi* *lucidità* *height* *interni* *metallici* *normale* *opacità* *riflessione* *rugosità* *dispersione* *specular* *specularlevel* *trasmissivo* *utente0* *utente1* *utente2* *utente3* *utente4* *utente5* *utente6* *utente7*
+Una serie modificabile è definita da un identificatore univoco e da un elenco di canali del documento. Gli ID di canale possibili sono: *ambientocclusione* *anisotropiangolo* *anisotropilivello* *basecolor* *blendingmask* *diffuso* *spostamento* *emissivo* *lucentezza* *height* *ior* *metallizzato* *normale* *opacità* *riflessione* *rugosità* *dispersione* *specular* *specularlevel* *trasmissivo* *utente0* *utente1* *utente2* *utente3* *utente4* *utente5* *utente6* *utente7*
 
 Esempio:
 
@@ -57,7 +57,7 @@ Esempio:
 ```
 
 
-Per associare un canale da una pila a un parametro di campionatore, anteporre al tag channel l’identificatore della pila:
+Per associare un canale da una pila a un parametro campionatore, anteporre il tag channel all’identificatore della pila:
 
 ```
 //: param auto Mask1.channel_opacity 

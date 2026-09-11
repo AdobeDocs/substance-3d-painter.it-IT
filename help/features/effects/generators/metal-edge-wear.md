@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_metal_edge_wear.webp" alt=""/><br><strong>In:</strong> maschera, generatore</td>
-    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Edge Wear metallico dà l'impressione di danneggiare e consumare le aree della trama che potrebbero essere urtate o graffiate.<br><br>Il generatore di Edge Wear Metal genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere per aggiungere dettagli di usura dei bordi a un livello.<br><br>Per l'input dell'immagine sono necessarie mappe di posizione, curvatura, occlusione ambientale e spazio globale normale. <a href="../../../baking/baking.md">Ulteriori informazioni sulla cottura</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrizione</strong><br>Il generatore di Edge Wear metallico dà l'impressione di danneggiare e consumare le aree della trama che potrebbero essere urtate o graffiate.<br><br>Il generatore di Edge Wear Metal genera una texture monocromatica (in bianco e nero). Di conseguenza, è utile per generare maschere per aggiungere dettagli di usura dei bordi a un livello.<br><br>Le mappe Eseguite i baking di posizione, curvatura, occlusione ambientale e spazio globale normale sono necessarie come input dell'immagine. <a href="../../../baking/baking.md">Ulteriori informazioni sulla esegue i baking</a>.</td>
   </tr>
 </table>
 
@@ -22,12 +22,12 @@ ht-degree: 1%
 
 | Nome di input | Descrizione |
 | --- | --- |
-| **Spazio globale normale** colore | Utilizzate la mappa Normale di World Space. |
+| **Spazio globale normale** colore | Utilizzare la mappa eseguita i baking World Space Normal. |
 | Colore **Posizione** | Utilizzate la mappa di posizione al forno. |
 | **grunge personalizzata** in scala di grigi | Usate una texture personalizzata o un punto di ancoraggio. |
-| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura. |
-| **Occlusione ambiente** Scala di grigi | Utilizzate la mappa di Occlusione ambiente cotta. |
-| Colore **Micro-Normale** | Usate una texture normale personalizzata o un punto di ancoraggio. |
+| **Curvatura** Scala Di Grigi | Utilizzate la mappa di curvatura eseguita i baking. |
+| **Occlusione ambientale** Scala di grigi | Usa la mappa di Occlusione ambientale eseguita i baking. |
+| Colore **Micro-Normale** | Utilizzate una texture normale personalizzata o un punto di ancoraggio. |
 | Colore **Micro Height** | Usate una texture personalizzata o un punto di ancoraggio. |
 
 ## Parametri
@@ -39,7 +39,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Impostate il valore di partenza utilizzato per generare la texture del dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
+    <td>Impostate il valore di inizializzazione utilizzato per generare la texture di dirt. <br><ul><li>Fate clic su Casuale per passare a un altro valore di inizializzazione casuale.</li><li>Fate clic sulla matita per visualizzare il valore iniziale corrente e immettete un valore specifico.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Inverti</strong></td>
@@ -55,11 +55,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Usa triplanare</strong></td>
-    <td>Quando l’opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché dipendere solo dagli UV. <br><ul><li>Senza l’opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l’opzione triplanare attivata, la texture viene proiettata da più angoli e fusa.</li></ul></td>
+    <td>Quando l'opzione <strong>Usa triplanare </strong> è abilitata, la texture viene proiettata da tre direzioni (assi X, Y, Z) anziché basarsi solo sugli UV. <br><ul><li>Senza l'opzione triplanare attivata, la texture segue il layout UV.</li><li>Con l'opzione triplanare attivata, la texture viene proiettata da più angolazioni e fusa.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contrasto fusione triplanare</strong></td>
-    <td>Regolate l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
+    <td>Regola l’uniformità con cui una texture si fonde quando viene proiettata utilizzando la mappatura triplanare. In questo modo si regola la morbidezza della fusione tra le proiezioni da ogni direzione.</td>
   </tr>
   <tr>
     <td><strong>Quantità grungi</strong></td>
@@ -78,8 +78,8 @@ ht-degree: 1%
     <td>Regolate lo smoothness dei bordi complessivi.</td>
   </tr>
   <tr>
-    <td><strong>Mascheratura Occlusione ambientale</strong></td>
-    <td>Utilizzate l’occlusione ambiente come maschera per evitare che le aree ostruite ricevano l’effetto dell’invecchiamento.</td>
+    <td><strong>Mascheratura Occlusioni ambientali</strong></td>
+    <td>Utilizzate questa occlusione ambientale come maschera per evitare che le aree ostruite subiscano l’effetto dell’invecchiamento.</td>
   </tr>
   <tr>
     <td><strong>Spessore curvatura</strong></td>
@@ -96,11 +96,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa di Micro Height personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una mappa personalizzata dell'altezza della micro.</td>
   </tr>
   <tr>
     <td><strong>Micro Normale</strong></td>
-    <td>Attivare o disattivare l'utilizzo di una mappa Micro Normal personalizzata.</td>
+    <td>Attivare o disattivare l'utilizzo di una Micro Mappa normale personalizzata.</td>
   </tr>
   <tr>
     <td><strong>Tipo curvatura</strong></td>
@@ -116,7 +116,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Raggio AO</strong></td>
-    <td>Regola il raggio (intervallo) dell'Occlusione Ambiente nei micro dettagli.</td>
+    <td>Regolate il raggio (intervallo) dell’Occlusione ambientale nei micro dettagli.</td>
   </tr>
   <tr>
     <td><strong>PROFONDITÀ AO</strong></td>

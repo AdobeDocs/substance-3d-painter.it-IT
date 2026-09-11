@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html"
 breadcrumb-title: ''
 description: Accedete alla pagina di riferimento per API shader Lib Bayer in Substance 3D Painter per creare pattern di dithering Bayer in ombreggiature personalizzate.
 helpx_creative_field: ""

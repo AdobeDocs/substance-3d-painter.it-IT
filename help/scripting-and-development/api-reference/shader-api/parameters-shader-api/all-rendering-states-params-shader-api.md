@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: Per controllare i parametri dello stato di rendering in Substance 3D Painter, accedete al riferimento di API shader Tutti gli stati di rendering per i parametri di stato di rendering.
 helpx_creative_field: ""
@@ -75,9 +75,9 @@ Metodo fusione moltiplicativo:
 ```
 
 
-## Località di campionamento shader
+## Località di campionamento Shader
 
-Per impostazione predefinita, i canali del documento vengono campionati utilizzando le coordinate della texture non trasformate per ottimizzare il rendering durante il disegno.
+Per impostazione predefinita, i canali del documento vengono campionati utilizzando le coordinate delle texture non trasformate per ottimizzare il rendering durante il disegno.
 
 Se vengono visualizzati elementi, impostare lo stato *non locale* su *on*.
 

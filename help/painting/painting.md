@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
 breadcrumb-title: ''
 description: Scoprite come colorare le texture direttamente sui modelli 3D in Substance 3D Painter utilizzando vari pennelli, strumenti e tecniche.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 La pittura in Substance 3D Painter può essere realizzata in molti modi con strumenti manuali o azioni automatiche.
 
-Gli strumenti di pittura manuale sono accessibili direttamente tramite la barra degli strumenti (o la relativa scelta rapida da tastiera). Quando è selezionato uno strumento di disegno, le sue proprietà vengono visualizzate nella finestra Proprietà.
+Gli strumenti di pittura manuale sono accessibili direttamente dalla barra degli strumenti (o dalle scelte rapide da tastiera dedicate). Quando è selezionato uno strumento pittura, le sue proprietà vengono visualizzate nella finestra Proprietà.
 
 Per informazioni su ogni strumento, consultate la relativa pagina dedicata:
 

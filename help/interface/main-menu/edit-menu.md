@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare il menu Modifica in Substance 3D Painter per accedere alle operazioni di annullamento, ripetizione e modifica.
 helpx_creative_field: ""
@@ -29,4 +29,4 @@ Il menu Modifica consente di accedere rapidamente alle azioni di annullamento/ri
 | **Ripeti** | Fai un passo avanti nello stack [Cronologia](../history.md). |
 | **Configurazione del progetto** | Apri la finestra [impostazioni progetto](../project-configuration.md) del progetto corrente. |
 | **Impostazioni** | Aprire la finestra generale [impostazioni applicazione](../settings/settings.md). |
-| **Mappe con trama di cottura** | Aprire la finestra [Baking](../../baking/baking.md). |
+| **Esegue i baking mappe trama** | Aprire la finestra [Baking](../../baking/baking.md). |

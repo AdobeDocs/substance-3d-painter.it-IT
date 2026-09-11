@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
 breadcrumb-title: ''
 description: Scoprite come creare tratti dinamici personalizzati in Substance 3D Painter per progettare comportamenti ed effetti unici per il tratto del pennello.
 helpx_creative_field: ""
@@ -42,7 +42,7 @@ Di seguito è riportato un elenco dei parametri supportati per i Tratti dinamici
 | <b>Numero casuale</b> | Se un file di Substance viene cotto con il valore di Numero casuale visualizzato, sarà controllabile con la funzione Traccia dinamica. |
 | <b>indiceTimbro</b> | <b>Intero1</b> verrà alimentato da Substance 3D Painter quando si disegna il tratto del pennello. I valori minimo e massimo non hanno alcun effetto; Substance 3D Painter li ignorerà. |
 | <b>stampCycleCount</b> | <b>Intero1</b> Painter leggerà il valore predefinito del parametro, il valore minimo e il valore massimo per esporre il parametro Conteggio ciclo timbro. Questo parametro controlla il numero di varianti di Substance univoche che verranno create. |
-| <b>$time</b> | <b>Float1</b> verrà alimentato da Substance 3D Painter quando si disegna il tratto del pennello in base al tempo di disegno trascorso (per tratto). Questa proprietà può generare molte variazioni di Substance e quindi influire sulle prestazioni. |
+| <b>$time</b> | <b>Virgola mobile1</b> verrà alimentato da Substance 3D Painter quando si disegna il tratto del pennello in base al tempo di disegno trascorso (per tratto). Questa proprietà può generare molte variazioni di Substance e quindi influire sulle prestazioni. |
 | <b>strokeSpacing</b> | <b>float1</b> Valore di spaziatura corrente per l&#39;intero tratto colorato. |
 | <b>strokeSize</b> | <b>float1</b> Valore della dimensione corrente per l&#39;intero tratto colorato. |
 | <b>stampStrokePosition</b> | <b>numero intero1</b> Utilizzato per specificare l&#39;inizio di un tratto. Il valore finale è disponibile solo sul tratto del tracciato e non tramite la pittura manuale. Valore possibile:<ul data-preserve-html="true"> <li data-preserve-html="true">0 = centro</li> <li data-preserve-html="true">1 = inizio</li> <li data-preserve-html="true">2 = fine</li> </ul>Può essere disattivato utilizzando il tag utente isstrokepositionactive. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
 breadcrumb-title: ''
 description: Accedi alla pagina di riferimento PBR Metal Rough API shader per Substance 3D Painter per creare materiali basati fisicamente.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # PBR Metallo grezzo - API shader
 
-## Shader PBR in metallo allegoritmico/grezzo
+## Allegorithmic Metal/Rough PBR shader
 
 Importa da librerie.
 
@@ -37,7 +37,7 @@ import lib-utils.glsl
 ```
 
 
-Dichiarate il materiale mdl iray da utilizzare con questo shader.
+Dichiarare il materiale mdl iray da utilizzare con questo shader.
 
 ```
 //: metadata { 
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-Punto di ingresso dello shader.
+Punto di ingresso Shader.
 
 ```
 void shade(V2F inputs) 

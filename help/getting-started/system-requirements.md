@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Verifica i requisiti di sistema di Substance 3D Painter per verificare che il computer soddisfi le specifiche hardware e software.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Di seguito è riportato un elenco di hardware e sistemi supportati dall&#39;appl
 
 ## Raccomandazioni generali
 
-Per ottenere buone prestazioni quando si utilizza il flusso di lavoro UV Tile consigliamo di utilizzare:
+Per ottenere buone prestazioni durante l’utilizzo del flusso di lavoro Porzione UV consigliamo di utilizzare:
 
 * 32 GB di RAM
 * GPU con 8 GB di VRAM
@@ -107,11 +107,11 @@ Per un elenco dettagliato dei problemi relativi ai driver GPU per costruttore, c
 
 ## Raytracing GPU per la cottura al forno
 
-Per attivare Raytracing GPU tramite Optix o DXR, è necessario installare i driver minimi sopra consigliati.
+Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i driver minimi sopra consigliati.
 
 <b>DXR</b> richiede anche la seguente configurazione minima:
 
-* <b>Windows 10</b> versione 1809; per ulteriori informazioni, vedere [questa pagina](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing)
+* <b>Windows 10</b> versione 1809; per ulteriori informazioni, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
 * <b> GPU con architettura Pascal</b> (Nvidia GeForce 10XX)
 
 >[!TIP]

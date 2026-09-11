@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
 breadcrumb-title: ''
-description: Per controllare i parametri dello shader a livello di motore, accedere al riferimento di API shader Tutti i param motore (All Engine Params) in Substance 3D Painter.
+description: Per controllare i parametri di API shader a livello di motore, accedere al riferimento di shader Tutti i param motore (All Engine Params) in Substance 3D Painter.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
 helpx_experience_level: ""
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ## Esempi di parametri del motore
 
-## Parametri texture
+## Texture parametri
 
 Substance Painter utilizza un sistema SVT (Sparse Virtual Texture) per visualizzare le texture nella finestra della vista.
 
 Per ulteriori informazioni sul sistema, consultare la [documentazione online](../../../../features/sparse-virtual-textures.md).
 
-Questo sistema ha ripercussioni sulla scrittura del codice dello shader. Stiamo fornendo degli assistenti per semplificarne l&#39;uso con le funzioni di ricerca della struttura e delle texture di *SamplerSparse* (vedi [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
+Questo sistema ha ripercussioni sulla scrittura del codice dello shader. Stiamo fornendo supporto per semplificarne l&#39;utilizzo con la struttura *SamplerSparse* e le funzioni di ricerca delle texture (vedi [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
 
 Utilizzo di base:
 
@@ -58,7 +58,7 @@ Dove *TEXTURE\_TAG* è uno dei tag descritti di seguito.
 
 ### Tag dei canali del documento
 
-Tutte queste texture sono **premoltiplicate** e **dilatate** per evitare problemi di giuntura.
+Tutte queste texture sono **premoltiplicate** e **dilatate** per evitare problemi di cuciture.
 
 **Canali del set di texture**
 
@@ -70,15 +70,15 @@ Tutte queste texture sono **premoltiplicate** e **dilatate** per evitare problem
 
 ### Mappe delle mesh
 
-*texture\_ambientocclusion*: mappa Occlusione ambiente\
-*texture\_curvature*: mappa curvatura\
-*texture\_id*: mappa ID\
+*texture\_ambientocclusion*: mappa di Occlusione ambientale\
+*texture\_curvature*: mappa di curvatura\
+*texture\_id*: mapping ID\
 *texture\_normal*: mappa normale dello spazio tangente\
 *texture\_normal\_ws*: mappa normale spazio globale\
-*texture\_position*: mappa posizione spazio mondo\
-*texture\_thickness*: mappa Thickness
+*texture\_posizione*: mappa posizione spazio globale\
+*texture\_thickness*: mappa di spessore
 
-## Parametri di texture aggiuntivi
+## Parametri texture aggiuntivi
 
 Utilizzo di base:
 
@@ -112,7 +112,7 @@ uniform vec4 uniform_tex_size; // if TEX_TAG_1 exists then TEX_TAG_1_size else T
 
 Dove *TEXTURE\_TAG* è uno dei tag descritti di seguito.
 
-*texture\_blue\_noise*: texture con disturbo blu\
+*texture\_blue\_noise*: texture di rumore blu\
 *texture\_environment*: mappa dell&#39;ambiente, **mappata-mip**, utilizzare [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md) per utilizzare questa mappa
 
 ## Altri parametri
@@ -200,7 +200,7 @@ uniform float uniform_fovy;
 ```
 
 
-*is\_2d\_view*: un *bool* che indica se il rendering viene eseguito per la vista 2D o meno
+*is\_2d\_view* : *bool* che indica se il rendering viene eseguito per Vista 2D o meno
 
 ```
 //: param auto is_2d_view 
@@ -209,7 +209,7 @@ uniform bool uniform_2d_view;
 ```
 
 
-*is\_perspective\_projection*: un *bool* che indica se la proiezione è prospettica o ortogonale
+*is\_Prospettiva\_projection*: un *bool* che indica se la proiezione è Prospettiva o ortografica
 
 ```
 //: param auto is_perspective_projection 

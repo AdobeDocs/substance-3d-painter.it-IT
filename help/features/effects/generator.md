@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/features/effects/generator.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
-description: Scopri come utilizzare gli effetti di generazione in Substance 3D Painter per creare automaticamente texture e pattern procedurali.
+description: Scoprite come utilizzare gli effetti di generazione in Substance 3D Painter per creare automaticamente texture e pattern procedurali.
 helpx_creative_field: ''
 helpx_description: Painter > Features > Effects > Generator
 helpx_experience_level: ''
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Generatori
 
-I generatori sono sostanze che generano una maschera o texture in base alla topologia di trama [utilizzando mappe di utilità predefinite come Posizione, Curvatura e Spazio globale normale](../../baking/baking.md).
+I generatori sono sostanze che generano una maschera o una texture in base alla topologia della trama [utilizzando mappe di utilità eseguite i baking come Posizione, Curvatura e Spazio globale normale](../../baking/baking.md).
 
 >[!NOTE]
 >
-> La maggior parte dei generatori genera texture monocromatiche (bianco e nero), rendendole più utili per creare maschere che controllano un livello di materiale. Tuttavia, nulla impedisce di utilizzare un generatore monocromatico come livello di riempimento o un generatore di colori completi come maschera.
+> La maggior parte dei generatori genera texture monocromatiche (bianco e nero), rendendole più utili per la creazione di maschere che controllano un livello di materiale. Tuttavia, nulla impedisce di utilizzare un generatore monocromatico come livello di riempimento o un generatore di colori completi come maschera.
 
 Per aggiungere un generatore a una maschera:
 
@@ -47,7 +47,7 @@ Per aggiungere un generatore a un livello:
 ![](../../assets/generators/generator_spectrum.png)
 
 Ogni generatore dispone di un set di parametri che consente di perfezionare la maschera risultante.\
-Per aggiungere generatori personalizzati nello scaffale, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Per aggiungere generatori personalizzati nello scaffale, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

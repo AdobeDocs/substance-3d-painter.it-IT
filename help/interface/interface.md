@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface.html"
 breadcrumb-title: ''
-description: Scoprite l’interfaccia di Substance 3D Painter per comprendere pannelli, menu e strumenti per flussi di lavoro efficienti di pittura delle texture.
+description: Scoprite l’interfaccia di Substance 3D Painter per comprendere pannelli, menu e strumenti per flussi di lavoro efficienti per la pittura di texture.
 helpx_creative_field: ""
 helpx_description: Painter > Interface
 helpx_experience_level: ""

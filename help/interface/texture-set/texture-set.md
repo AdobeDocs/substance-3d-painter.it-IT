@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/texture-set.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare i set di texture in Substance 3D Painter per organizzare le texture e gestire diverse assegnazioni di materiale.
+description: Scoprite come utilizzare i set di texture in Substance 3D Painter per organizzare la texture e gestire diverse assegnazioni di materiale.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Texture Set
 helpx_experience_level: ""

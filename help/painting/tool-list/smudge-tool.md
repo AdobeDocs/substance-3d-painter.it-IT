@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
-description: Usa lo strumento Sfumino in Substance 3D Painter per fondere e sfumare i tratti di pittura per creare transizioni di texture uniformi.
+description: Usa lo strumento Sfumino in Substance 3D Painter per fondere e sfumare i tratti della pittura per creare transizioni di texture uniformi.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Smudge tool
 helpx_experience_level: ""
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 ![](../../assets/image2018-6-12-18-14-12.png)
 
-Introdotto in Substance 3D Painter 2, lo strumento sfumino condivide lo stesso tipo di parametri dello [strumento di disegno](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush).
+Introdotto in Substance 3D Painter 2, lo strumento sfumino condivide lo stesso tipo di parametri dello [strumento pittura](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush).
 
 ![](../../assets/smudge.gif)
 
 ## Utilizzo
 
-Il modo più semplice per usare lo strumento sfumino è usarlo direttamente sul contenuto di un livello di pittura, come uno strumento di pittura normale.
+Il modo più semplice per usare lo strumento sfumino è usarlo direttamente sul contenuto di un livello di pittura, come normale strumento pittura.
 
 Un modo più intelligente di utilizzare lo strumento sfumino consiste nel creare un livello di pittura e impostare tutti i canali del livello sul metodo di fusione &quot;Attraversa&quot;. Ciò consentirà di sfumare in modo non distruttivo su tutti i livelli situati sotto il &quot;livello sfumino&quot;. I livelli sottostanti rimangono intatti e tutte le modifiche applicate in seguito verranno prese in considerazione dal livello sfumino.

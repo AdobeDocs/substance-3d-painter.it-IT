@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-8-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-2.html"
 breadcrumb-title: ''
 description: Consultate le note sulla versione di Substance 3D Painter 8.2 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -81,15 +81,15 @@ Il contenuto delle cartelle (la parte colorata di un livello) può ora ricevere 
 
 ![](../assets/banner-sbsar.png)
 
-Il formato di file SBSAR (Substance archive) è ora disponibile per l’esportazione di texture. SBSAR è un contenitore che può essere aperto in molte applicazioni con integrazione Substance, che può rendere più veloce e facile &quot;plug-and-play&quot; texture personalizzate.
+Il formato di file SBSAR (Substance Archive) è ora disponibile per l&#39;esportazione di texture. Un SBSAR è un contenitore che può essere aperto in molte applicazioni con l&#39;integrazione della Substance, che può rendere più veloce e facile &quot;plug-and-play&quot; texture personalizzata.
 
 * **Esportazione di un archivio di Substance (SBSAR)**\
-  È ora possibile specificare il formato di file SBSAR dall&#39;elenco dei formati di file nella finestra **Esporta texture**. Questo esporta un singolo file SBSAR contenente tutte le texture specificate. La denominazione dei nodi di output e i relativi utilizzi sono definiti dal predefinito di esportazione selezionato e dai relativi tipi di canale.
+  È ora possibile specificare il formato di file SBSAR dall&#39;elenco dei formati di file nella finestra **Esporta Texture**. Questa operazione consente di esportare un singolo file SBSAR contenente tutte le texture specificate. La denominazione dei nodi di output e i relativi utilizzi sono definiti dal predefinito di esportazione selezionato e dai relativi tipi di canale.
 
   ![](../assets/sbsar-export.png)
 
 * **Predefiniti di esportazione ibridi con formati di file PSD e SBSAR**\
-  I predefiniti di esportazione ora possono specificare le mappe di output come PSD o SBSAR in aggiunta a tutti gli altri formati di immagine. I formati PSD e SBSAR sono considerati come &quot;contenitori&quot;, il che significa che è possibile memorizzare all’interno più texture. Quando un predefinito di esportazione specifica sia i formati contenitore che i formati immagine autonomi, ogni output nel modello destinato a un file SBSAR verrà raggruppato mentre gli altri output verranno esportati come singoli file.
+  I predefiniti di esportazione ora possono specificare le mappe di output come PSD o SBSAR in aggiunta a tutti gli altri formati di immagine. I formati PSD e SBSAR sono considerati come &quot;contenitori&quot;, il che significa che è possibile memorizzare più texture all’interno. Quando un predefinito di esportazione specifica sia i formati contenitore che i formati immagine autonomi, ogni output nel modello destinato a un file SBSAR verrà raggruppato mentre gli altri output verranno esportati come singoli file.
 
   ![](../assets/export-preset-sbsar.png)
 
@@ -134,7 +134,7 @@ In questa nuova versione sono stati aggiunti numerosi piccoli miglioramenti e fu
   ![](../assets/whats-new-4.jpg){width="400px"}
 
 * **Nuova azione per reimportare rapidamente un modello 3D**\
-  È stata aggiunta una nuova scelta rapida da tastiera (**CTRL+MAIUSC+R** per impostazione predefinita) che consente di reimportare rapidamente il modello 3D del progetto corrente. In questo modo l’iterazione di una risorsa è più semplice e veloce. Se non è possibile trovare il file di origine, nel registro verrà generato un messaggio di errore. È stata aggiunta un&#39;azione anche al menu **Modifica**.
+  È stata aggiunta una nuova scelta rapida da tastiera da tastiera (**CTRL+MAIUSC+R** per impostazione predefinita) che consente di reimportare rapidamente il modello 3D del progetto corrente. In questo modo l’iterazione di una risorsa è più semplice e veloce. Se non è possibile trovare il file di origine, nel registro verrà generato un messaggio di errore. È stata aggiunta un&#39;azione anche al menu **Modifica**.
 
   ![](../assets/reimport-mesh.png)
 
@@ -150,19 +150,19 @@ In questa nuova versione sono stati aggiunti numerosi piccoli miglioramenti e fu
   ![](../assets/restore-default.png) ![](../assets/restore-specific.png)
 
 * **Visualizzare singoli componenti RGBA nelle finestre delle viste**\
-  Quando si guarda un canale nelle finestre di visualizzazione, è disponibile una nuova impostazione denominata **Canali di colore** in **Impostazioni di visualizzazione > Visualizzazione canale** che consente di esaminare singolarmente i componenti RGBA. Questo può essere utile per analizzare le texture o isolare componenti specifici all’interno dei canali utente.
+  Quando si guarda un canale nelle finestre di visualizzazione, è disponibile una nuova impostazione denominata **Canali di colore** in **Impostazioni di visualizzazione > Visualizzazione canale** che consente di esaminare singolarmente i componenti RGBA. Ciò può essere utile per analizzare la texture o isolare componenti specifici all’interno dei canali utente.
 
   ![](../assets/channels-display-component.png)
 
   ![](../assets/viewport-channels.jpg){width="450px"}
 
-* **Livelli di riempimento in porzioni ed effetti oltre il 128**\
-  Il parametro di suddivisione in porzioni dei livelli di riempimento e degli effetti è stato modificato per ottenere un intervallo sfumato. In questo modo è ora possibile digitare qualsiasi valore di suddivisione desiderato. Anche l’intervallo predefinito del cursore è stato ridotto da [-128,128] a [-32,32] per facilitare il trascinamento.
+* **Livelli di riempimento Affiancamento ed effetti oltre il 128**\
+  Il parametro Affiancamento dei livelli di riempimento e degli effetti è stato modificato per ottenere un intervallo sfumato. In questo modo è ora possibile digitare qualsiasi valore di Affiancamento desiderato. Anche l’intervallo predefinito del cursore è stato ridotto da [-128,128] a [-32,32] per facilitare il trascinamento.
 
   ![](../assets/fill-tiling.gif)
 
-* **Nuova impostazione per l&#39;esportazione delle texture 16f e 32f EXR**\
-  In precedenza, l’esportazione di texture EXR veniva forzata a 32f bit nell’interfaccia, ma all’interno del file effettivo generava dati a 16f bit (half-float). È stato risolto e c&#39;è una possibilità esplicita di scegliere tra bit 16f e 32f. I vecchi progetti e i predefiniti di esportazione che utilizzano EXR come formato di file verranno impostati a 16f bit in modo da rispettare il vecchio comportamento (soprattutto per evitare di produrre file più pesanti di prima).
+* **Nuova impostazione per l&#39;esportazione delle texture EXR 16f e 32f**\
+  In precedenza, l’esportazione di texture EXR era forzata a 32f bit nell’interfaccia, ma all’interno del file effettivo avrebbe prodotto dati a 16f bit (mezzo float). È stato risolto e c&#39;è una possibilità esplicita di scegliere tra bit 16f e 32f. I vecchi progetti e i predefiniti di esportazione che utilizzano EXR come formato di file verranno impostati su 16 bit per rispettare il vecchio comportamento (soprattutto per evitare di produrre file più pesanti di prima).
 
   ![](../assets/exr-export.png)
 
@@ -198,7 +198,7 @@ All’API Python sono state aggiunte diverse nuove funzionalità. Per informazio
   Sono state aggiunte diverse funzioni per salvare e ricaricare il layout dell’interfaccia utente. Il layout dipende inoltre dalla modalità di applicazione corrente (Pittura o Rendering).
 
 * **substance\_painter.event**\
-  È stato aggiunto un nuovo **TextureStateEvent** per tenere traccia delle modifiche apportate alla pila di livelli dei set di texture e di altri parametri. Questo evento viene attivato sui tratti pennello o sull’aggiunta/rimozione di canali.
+  È stato aggiunto un nuovo **TextureStateEvent** per tenere traccia delle modifiche apportate alla Pila livelli dei set di texture e ad altri parametri. Questo evento viene attivato sulle tracce pittura o sull’aggiunta/rimozione di canali.
 
 ## Note sulla versione
 
@@ -239,7 +239,7 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
   È stata aggiunta una funzionalità di clic con il pulsante destro del mouse al metodo di fusione e all’opacità dei livelli che consente di applicare a tutti i canali l’impostazione su cui si fa clic.
 * Ricarica trama con una scelta rapida da tastiera (CTRL+MAIUSC+R)
 
-  È stata aggiunta una scelta rapida modificabile per ricaricare il file mesh con le ultime impostazioni disponibili. È possibile accedere a questa opzione anche da Modifica > Reimporta trama.
+  È stata aggiunta una scelta rapida da tastiera modificabile per ricaricare il file mesh con le ultime impostazioni disponibili. È possibile accedere a questa opzione anche da Modifica > Reimporta trama.
 * Ripristina i parametri predefiniti di Substance
 
   È stato aggiunto un nuovo pulsante nelle proprietà nella parte inferiore delle risorse .sbsar che consente di reimpostare la risorsa come predefinita.
@@ -278,14 +278,14 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
   Quando si imposta la configurazione dei canali del Set di texture all’interno di uno shader per la creazione di livelli di materiale, è ora possibile specificare il formato del canale da deviare dal valore di default. Ciò consente in particolare di richiedere canali utente a colori invece che solo in scala di grigio.
 * [Esporta] Consente di esportare le texture come SBSAR
 
-  Quando esportate le texture tramite la finestra File > Esporta texture, potete scegliere il formato di file SBSAR (Substance archivio) per raggrupparle nuovamente. Il contenuto del SBSAR dipende dal modello di output utilizzato.\
-  Il formato del file SBSAR può essere impostato anche nei predefiniti di esportazione. Quando utilizzate la configurazione ibrida (SBSAR + Altro formato), le texture che hanno come destinazione un SBSAR vengono raggruppate, mentre il resto viene esportato insieme.
+  Quando si esporta una texture tramite la finestra File > Esporta Texture, si può scegliere il formato di file SBSAR (Substance Archivio) per raggrupparla. Il contenuto del SBSAR dipende dal modello di output utilizzato.\
+  Il formato del file SBSAR può essere impostato anche nei predefiniti di esportazione. Quando si utilizza la configurazione ibrida (SBSAR + Altro formato), le texture che hanno come destinazione un SBSAR vengono raggruppate mentre le altre vengono esportate insieme.
 * [Esporta] Opzione Esporta 16 bit per il formato di file EXR
 
-  Quando si esportano i file di texture EXR, ora è possibile scegliere tra 16f bit (Half-Float) o 32f bit (Float) nella finestra Esporta texture (sia per le impostazioni di esportazione che per i predefiniti di esportazione). I vecchi progetti e i vecchi predefiniti di esportazione verranno impostati per impostazione predefinita su 16 f bit per riflettere il vecchio comportamento.
+  Quando si esportano file di texture EXR, ora è possibile scegliere tra 16f bit (Mezza Virgola mobile) o 32f bit (Virgola mobile) nella finestra Esporta Texture (sia per le impostazioni di esportazione che per i predefiniti di esportazione). I vecchi progetti e i vecchi predefiniti di esportazione verranno impostati per impostazione predefinita su 16 f bit per riflettere il vecchio comportamento.
 * [Python] Aggiungi evento per sapere quando vengono modificati i set di texture
 
-  Il nuovo &quot;substance\_painter.event.TextureStateEvent&quot; consente di sapere quando un insieme di texture è stato modificato a causa di un tratto pennello, di un nuovo canale aggiunto o di un canale rimosso.
+  Il nuovo &quot;substance\_painter.event.TextureStateEvent&quot; consente di sapere quando un insieme di texture è stato modificato a causa di un tratto di pittura, di un nuovo canale aggiunto o di un canale rimosso.
 * [Python] Consenti di ottenere e impostare le risorse Mesh Map nelle impostazioni Texture Set
 
   Nel modulo &quot;substance\_painter.project&quot; sono state aggiunte nuove funzioni per ottenere e impostare le risorse per le mappe mesh. Queste funzioni possono essere utilizzate per aggiornare le mappe di trama a cui fanno riferimento le impostazioni del set di texture.
@@ -294,16 +294,16 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
   È stata rimossa l&#39;opzione per ottenere i plug-in Javascript poiché erano ospitati sul sito Web di condivisione che aveva subito una riduzione di prezzo.
 * [Content] Aggiungi nuovo modello Roblox ed esporta predefinito
 
-  Sono stati aggiunti un nuovo modello di progetto Roblox &quot;Variante materiale&quot; e &quot;Aspetto superficie&quot; e un predefinito di esportazione per facilitare l’esportazione della texture PBR in Roblox. È possibile accedere al modello dalla finestra File > Nuovo progetto.
+  Sono stati aggiunti un nuovo modello di progetto Roblox &quot;Material Variant&quot; e &quot;Surface Appearance&quot; e un predefinito di esportazione per facilitare l’esportazione di texture PBR in Roblox. È possibile accedere al modello dalla finestra File > Nuovo progetto.
 * Aggiornamento della Substance Engine alla versione più recente (8.6.3)
 * [Steam] Versione ottimizzata per chipset Apple Silicon (Apple M1 / M2)
 
 **Corretto:**
 
-* Arresto anomalo quando si utilizza exr 16.000
-* [Arresto anomalo] Ctrl Z Dopo l’eliminazione di un’istanza dello shader
+* Arresto anomalo quando si utilizza exr 16k
+* [Arresto anomalo] Ctrl Z Dopo l’eliminazione di un’istanza shader
 * [Iray] IoR è bloccato su 1 per alcuni shader
-* [Win]&#x200B;[Baking] Alcuni poli alti non vengono caricati
+* [Win][Eseguita i baking] Alcuni poli alti non vengono caricati
 * [Gestione colore] Nome dello spazio colore non corretto nell&#39;interfaccia utente con filtri
 * [Python] Gli oggetti risorsa restituiti dalla funzione di importazione non hanno un tipo
 

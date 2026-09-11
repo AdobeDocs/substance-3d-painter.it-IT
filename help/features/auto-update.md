@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare l'aggiornamento automatico delle risorse in Substance 3D Painter per mantenere sincronizzate e aggiornate le librerie di risorse.
 helpx_creative_field: ""
@@ -44,8 +44,8 @@ Le impostazioni di aggiornamento automatico determinano la frequenza con cui l�
 
 | Impostazione | Descrizione |
 | --- | --- |
-| <b>Pannello Risorse</b> | Se questa opzione è attivata, l&#39;aggiornamento automatico cercherà le risorse da aggiornare in tutte le librerie attualmente caricate. Questo include il progetto corrente. Tuttavia, non aggiorna le risorse utilizzate nella pila di livelli, le impostazioni di visualizzazione, le impostazioni dello shader e così via. |
-| <b>Risorse utilizzate nel progetto</b> | Se questa opzione è attivata, l&#39;aggiornamento automatico cercherà le risorse da aggiornare che sono attualmente importate e utilizzate dal progetto corrente. Questo vale per le risorse utilizzate nella pila di livelli, le impostazioni di visualizzazione, le impostazioni dello shader, ecc. |
+| <b>Pannello Risorse</b> | Se questa opzione è attivata, l&#39;aggiornamento automatico cercherà le risorse da aggiornare in tutte le librerie attualmente caricate. Questo include il progetto corrente. Tuttavia, non aggiorna le risorse utilizzate nella Pila livelli, le impostazioni di visualizzazione, le impostazioni di shader, ecc. |
+| <b>Risorse utilizzate nel progetto</b> | Se questa opzione è attivata, l&#39;aggiornamento automatico cercherà le risorse da aggiornare che sono attualmente importate e utilizzate dal progetto corrente. Questo vale per le risorse utilizzate nella Pila livelli, le impostazioni di visualizzazione, le impostazioni di shader, ecc. |
 | <b>Aggiorna ogni x minuti</b> | Controlla la frequenza con cui l&#39;applicazione cerca un aggiornamento delle risorse. Un ritardo di 0 minuti attiverà un aggiornamento ogni pochi secondi. Tenete presente che un ritardo così basso può creare problemi di prestazioni. |
 
 >[!NOTE]

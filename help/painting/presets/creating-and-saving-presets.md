@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: Scoprite come creare e salvare i pennelli predefiniti in Substance 3D Painter per creare una libreria riutilizzabile di strumenti di pittura personalizzati.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Utilizza la [finestra Proprietà](../../interface/properties.md) per modificare 
 
 ![](../../assets/save-preset-1.png)
 
-I predefiniti possono essere creati facendo clic con il pulsante destro del mouse nella finestra Proprietà quando sono disponibili le proprietà dello strumento (livello di disegno o effetto di disegno).
+È possibile creare i predefiniti facendo clic con il pulsante destro del mouse nella finestra Proprietà quando sono disponibili le proprietà degli strumenti (effetto livello di pittura o pittura).
 
 Fai clic con il pulsante destro del mouse nella finestra Proprietà per aprire un menu di scelta rapida con le seguenti opzioni:
 

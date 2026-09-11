@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/home.html"
 breadcrumb-title: ''
-description: Iniziate a utilizzare Substance 3D Painter per colorare le texture direttamente sui modelli 3D e creare superfici di materiale realistiche.
+description: Inizia a utilizzare Substance 3D Painter per creare texture direttamente su modelli 3D e pittura superfici di materiale realistiche.
 helpx_creative_field: ""
 helpx_description: Painter > Home
 helpx_experience_level: ""
@@ -28,7 +28,7 @@ Substance 3D Painter è un software per la pittura 3D che consente di creare tex
 
 Questa documentazione è progettata per aiutarti a imparare a utilizzare questo software, dalle tecniche di base a quelle avanzate.
 
-Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle sul nostro [forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://helpx.adobe.com/it/substance-3d/unlisted/tutorials.html) per ulteriori informazioni su PBR.
+Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle sul nostro [forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) per ulteriori informazioni su PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -68,29 +68,29 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 
 * [Elenco degli strumenti](painting/tool-list/tool-list.md): in questa pagina vengono descritti in dettaglio tutti gli strumenti di pittura disponibili e come utilizzarli.
 * [Linea dritta](painting/straight-line.md): la linea dritta consente di disegnare una linea con qualsiasi strumento di pittura con meno clic e maggiore precisione.
-* [Mouse pigro](painting/lazy-mouse.md): il mouse pigro è uno scostamento di distanza tra il cursore del mouse e il disegno effettivo che consente di disegnare tratti più precisi o uniformi.
-* [Simmetria](painting/symmetry/symmetry.md): la simmetria è l&#39;azione di colorare in più posizioni contemporaneamente in base a vincoli geometrici.
-* [Riempi proiezioni](painting/fill-projections/fill-projections.md) - Il livello di riempimento e gli effetti di riempimento proiettano una texture direttamente sulla trama in base a una modalità specifica. Questo tipo di livello/effetto evita di colorare manualmente le texture sul modello 3D. Le impostazioni della proiezione possono essere modificate mediante la finestra Proprietà.
+* [Mouse lento](painting/lazy-mouse.md): il Mouse lento è uno scostamento di distanza tra il cursore del mouse e il disegno effettivo che consente di pittura tratti più precisi o uniformi.
+* [Simmetria](painting/symmetry/symmetry.md): la Simmetria è l&#39;azione di colorare in più posizioni contemporaneamente in base ai vincoli geometrici.
+* [Riempi proiezioni](painting/fill-projections/fill-projections.md) - Il livello di riempimento e gli effetti di riempimento proiettano una texture direttamente sulla trama in base a una modalità specifica. Questo tipo di livello/effetto evita di pittura manualmente le texture sul modello 3D. Le impostazioni della proiezione possono essere modificate mediante la finestra Proprietà.
 * [Predefiniti](painting/presets/presets.md) — I predefiniti sono configurazioni salvate di Strumenti di disegno. Questa pagina spiega come e perché utilizzarle.
 * [Tratti dinamici](painting/dynamic-strokes/dynamic-strokes.md): i Tratti dinamici sono tratti di pennello regolari basati su file di Substance che possono cambiare per ogni timbro all&#39;interno di un tratto di pennello.
 * [Colorazione avanzata del canale](painting/advanced-channel-painting/advanced-channel-painting.md): è possibile colorare alcuni dei canali predefiniti utilizzati negli ombreggiatori per creare effetti avanzati o complessi. Ad esempio, informazioni sul height di pittura che vengono convertite in una mappa normale.
 
 ### Baking
 
-* [Come eseguire il baking delle mappe trama](baking/how-to-bake-mesh-maps.md)
-* [Impostazioni di visualizzazione Baking](baking/baking-visualization-settings.md)
+* [Come eseguire i baking le mappe trama](baking/how-to-bake-mesh-maps.md)
+* [Eseguire i baking le impostazioni di visualizzazione](baking/baking-visualization-settings.md)
 
 ### Contenuto
 
 * [Creazione di effetti personalizzati](content/creating-custom-effects/creating-custom-effects.md)
-* [Importazione delle risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importazione delle risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Funzionalità
 
 * [Srotolamento UV automatico](features/automatic-uv-unwrapping.md)
 * [Effetti](features/effects/effects.md)
 * [Dimensione fisica](features/physical-size.md)
-* [Materiali e maschere intelligenti](features/smart-materials-and-masks.md)
+* [Materiali avanzati e maschere](features/smart-materials-and-masks.md)
 * [Dispersione sotto la superficie](features/subsurface-scattering/subsurface-scattering.md)
 * [Stratificazione dinamica dei materiali](features/dynamic-material-layering.md)
 * [Riproiezione UV](features/uv-reprojection.md)
@@ -112,7 +112,7 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 
 ### Scripting e sviluppo
 
-* [Script e plug-in](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Script e plug-in](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Supporto tecnico
 

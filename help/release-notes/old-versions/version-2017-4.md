@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.4 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -30,12 +30,12 @@ Data di pubblicazione: *23 novembre 2017*
 
 ![](../../assets/instancing.jpg)
 
-La **istanza dei livelli** è un nuovo sistema che consente di mantenere **sincronizzati** i **parametri** del livello su **altri livelli e set di texture**. Quando si crea un&#39;istanza di livello, il livello originale diventa **sorgente** e le istanze **rimarranno aggiornate** a meno che il collegamento tra di esse non venga interrotto. I livelli istanziati sono un **ottimo** per **strutturare una risorsa in pochi clic** ed evitare di andare avanti e indietro per aggiornare i livelli. Per applicare facilmente una texture a una risorsa, è sufficiente **creare un&#39;istanza di una cartella** su altri set di texture e inserirvi un materiale avanzato o qualsiasi altro livello, **replicarla ovunque** all&#39;istante.
+La **istanza dei livelli** è un nuovo sistema che consente di mantenere **sincronizzati** i **parametri** del livello su **altri livelli e set di texture**. Quando si crea un&#39;istanza di livello, il livello originale diventa **sorgente** e le istanze **rimarranno aggiornate** a meno che il collegamento tra di esse non venga interrotto. I livelli istanziati sono un **ottimo** per **texture una risorsa con pochi clic** ed evitare di andare avanti e indietro per aggiornare i livelli. Per creare facilmente texture per una risorsa, è sufficiente **creare un&#39;istanza di una cartella** su altri set di texture e inserirvi un materiale avanzato o qualsiasi altro livello, **replicarla ovunque** all&#39;istante.
 
 È possibile creare un&#39;istanza in due modi:
 
-* Dopo aver copiato un livello, scegli &quot;**incolla come istanza**&quot; (o utilizza la scelta rapida CTRL+MAIUSC+V)
-* Scegliete &quot;**crea istanza tra set di texture**&quot; (o usate la scelta rapida CTRL+MAIUSC+D) dopo aver selezionato un livello
+* Dopo aver copiato un livello, scegli &quot;**incolla come istanza**&quot; (o utilizza la scelta rapida da tastiera CTRL+MAIUSC+V)
+* Dopo aver selezionato un livello, scegli &quot;**crea istanza tra set di texture**&quot; (o usa la scelta rapida da tastiera CTRL+MAIUSC+D)
 
 >[!NOTE]
 >
@@ -43,8 +43,8 @@ La **istanza dei livelli** è un nuovo sistema che consente di mantenere **sincr
 > 
 > * Qualsiasi azione di pittura sarà presente solo sul livello sorgente, i livelli istanziati non replicheranno i tratti del pennello.
 > * I riferimenti dell&#39;ancoraggio devono avere il punto di ancoraggio allo stesso livello dell&#39;istanza, un punto di ancoraggio non può trovarsi all&#39;esterno di una cartella di istanze altrimenti verrà interrotto.
-> * Se un materiale avanzato viene salvato con i livelli istanziati, il livello di origine deve trovarsi nella cartella del materiale avanzato, altrimenti il collegamento dell’istanza verrà interrotto.
-> * A seconda dell’impostazione della serie di livelli, i livelli con istanza possono creare un ciclo, che non è supportato e interrompe il risultato dell’istanza. Eliminate o spostate l&#39;istanza per correggerla.
+> * Se un materiale avanzato viene salvato con livelli istanziati, il livello di origine deve trovarsi nella cartella del materiale avanzato, altrimenti il collegamento dell’istanza non funzionerà.
+> * A seconda dell’impostazione della Pila livelli, i livelli con istanza possono creare un ciclo, che non è supportato e interrompe il risultato dell’istanza. Eliminate o spostate l&#39;istanza per correggerla.
 
 Per ulteriori dettagli ed esempi, vedere la pagina dedicata: [Istanza dei livelli](../../interface/layer-stack/layer-instancing.md)
 
@@ -60,7 +60,7 @@ Per connettere l&#39;applicazione con **Unreal Engine 4** (versione **4.18** min
 
 ![](../../assets/materials-1.jpg)
 
-Abbiamo aggiunto **20 nuovi materiali procedurali** e **40 nuove mappe di grungi** (alcune delle quali procedurali). I nuovi materiali si trovano nella sezione &quot;**Materiali**&quot; dello **scaffale**, ad esempio i 6 nuovi metalli, le 8 nuove plastiche, alcuni tessuti e 2 nuove superfici in legno. Le nuove mappe delle grungi si trovano direttamente nella sezione &quot;**Grungi**&quot; dello **scaffale**.
+Abbiamo aggiunto **20 nuovi materiali per la procedurali** e **40 nuove mappe per le grungi** (alcune delle quali sono procedurali). I nuovi materiali si trovano nella sezione &quot;**Materiali**&quot; dello **scaffale**, ad esempio i 6 nuovi metalli, le 8 nuove plastiche, alcuni tessuti e 2 nuove superfici in legno. Le nuove mappe delle grungi si trovano direttamente nella sezione &quot;**Grungi**&quot; dello **scaffale**.
 
 ![](../../assets/grunges-1.jpg)
 
@@ -70,11 +70,11 @@ Ringraziamo Clément Feuillet e Nicolas Longchamps per averci permesso di ottene
 
 ![](../../assets/sketchfab.jpg)
 
-Abbiamo aggiornato la nostra esportazione di Sketchfab e aggiunto la possibilità di pubblicare il tuo progetto come bozza e persino di aggiornare i progetti già caricati. Dovrebbe rendere le iterazioni del progetto molto più facili da eseguire.
+Abbiamo aggiornato la nostra esportazione di Sketchfab e aggiunto la possibilità di pubblicare il tuo progetto come bozza e persino di aggiornare i progetti già caricati. Dovrebbe rendere molto più semplice eseguire le iterazioni del progetto.
 
 ### Miglioramenti delle prestazioni
 
-Abbiamo continuato il nostro lavoro riguardante i miglioramenti delle esecuzioni. In questa nuova versione abbiamo rielaborato gran parte del rendering OpenGL nelle finestre delle viste, che dovrebbe aumentare notevolmente la velocità. Abbiamo anche migliorato il modo in cui vengono calcolati i tratti di pennello e dovrebbero richiedere calcoli di texture molto meno grandi in memoria. Nel complesso darà risultati molto più veloci e migliori sensazioni di pittura.
+Abbiamo continuato il nostro lavoro riguardante i miglioramenti delle esecuzioni. In questa nuova versione abbiamo rielaborato gran parte del rendering OpenGL nelle finestre delle viste, che dovrebbe aumentare notevolmente la velocità. Abbiamo anche migliorato il modo in cui vengono calcolati i tratti di pennello e dovrebbero richiedere calcoli texture molto meno grandi in memoria. Nel complesso darà risultati molto più veloci e migliori sensazioni di pittura.
 
 ## Esercitazione
 
@@ -97,7 +97,7 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 * [Scripting] Aggiungere le funzioni di richiamata prima e dopo l’esportazione delle texture
 * [Iray] Aggiornamento a SDK 2017.1 (supporto di GPU Volta)
 
-**&#x200B;**&#x200B;Corretto:**&#x200B;**
+****Corretto:****
 
 * Arresto anomalo quando si esce dall’applicazione prima della visualizzazione della finestra principale
 * [MAC] Arresto anomalo durante il caricamento di mappe in scala di grigio con IRAY
@@ -133,12 +133,12 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 * [Plugin] Il plug-in Photoshop ignora la selezione del canale ed esporta sempre tutto
 * [Livelli] Gli ancoraggi si interrompono quando vengono copiati/incollati su set di texture
 * [Livelli] Alcuni riferimenti di ancoraggio non possono essere ripristinati se sono interrotti
-* [Shader] Il parametro di rugosità secondaria rivestita con pbr è interrotto
+* [Shader] il parametro di rugosità secondaria rivestita con pbr è interrotto
 * [Steam] La finestra a comparsa Controllo versione non deve essere visibile all’avvio
 
 **Problemi noti:**
 
-* [AMD] Si arresta in modo anomalo/si blocca quando si tenta di dipingere su una trama. Può essere risolto con un aggiornamento del driver GPU.
+* [AMD] Arresti anomali/Blocchi quando si tenta di pittura su una trama. Può essere risolto con un aggiornamento del driver GPU.
 
 ### 2017.4
 
@@ -149,13 +149,13 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 * [Creazione istanza] Consente di creare un&#39;istanza dei parametri tra i livelli
 * [Istanza] Consente di passare da un livello di origine a un&#39;istanza e viceversa
 * [Creazione di istanze] Aggiungi un’azione &quot;Crea istanza tra set di texture&quot;
-* [Istanza] Indica nello stack di livelli istanze di rientro (cicli)
+* [Istanza] Indica nella Pila livelli istanze di rientro (cicli)
 * [Istanza] Elimina le istanze quando viene rimossa un&#39;origine
 * [Istanza] Non consentire riferimenti di ancoraggio dall&#39;esterno di una cartella istanza
 * [UI] Sposta lo stack di annullamento nella propria finestra denominata &quot;History&quot;
 * [Plugin] Integrazione del plug-in DCC live-link
 * [Engine] Migliora le prestazioni di pittura con Pittura sparsa
-* [Esporta] Aggiungi le opzioni di bozza e riesportazione al modulo di esportazione Sketchfab
+* [Esporta] Aggiungi le opzioni di bozza e riesporta in esportazione Sketchfab
 * [Shelf] Aggiungi il controllo &quot;flip&quot; per le sostanze Font
 * [Shelf] Aggiungi 20 nuovi materiali per le procedure
 * [Shelf] Aggiungi 40 nuove mappe grunge (basate su bitmap e procedurali)
@@ -164,7 +164,7 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 
 **Corretto:**
 
-* Arresto anomalo durante l’elaborazione di Substance con risoluzioni eccessive
+* Arresto anomalo quando si elaborano Substance a risoluzioni eccessive
 * Arresto anomalo quando si dipingono intensamente con particelle
 * [Finestra vista] Riflesso di specular errato nella vista 2D con trame specifiche
 * [UI] Alcune azioni indesiderate vengono visualizzate nella finestra Cronologia

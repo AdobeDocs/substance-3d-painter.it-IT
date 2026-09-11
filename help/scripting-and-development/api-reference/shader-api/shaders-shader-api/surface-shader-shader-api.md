@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: Accedete al riferimento API shader superficie (Surface) per Substance 3D Painter per creare effetti e materiali di ombreggiatura personalizzati.
+description: Accedete alla Guida di riferimento per API shader di superficie per Substance 3D Painter per creare effetti e materiali di shader personalizzati.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Shader di superficie - API shader
+title: SHADER - API SHADER
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Shader di superficie - API shader
+# SHADER - API SHADER
 
 ## surface-shader.glsl
 
-Per creare una risorsa shader utilizzabile in Substance Painter, è sufficiente creare un file glsl contenente una singola funzione denominata *shade* con il profilo seguente:
+Per creare una risorsa shader che può essere utilizzata in Substance Painter, è sufficiente creare un file glsl contenente una singola funzione denominata *shade* con il profilo seguente:
 
 ```
 void shade(V2F inputs);

@@ -2,7 +2,7 @@
 title: Appiattisci livelli
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/flatten-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/flatten-layers.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '883'
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 ## Appiattisci livelli
 
-I livelli di conversione della trasparenza consentono di comprimere in un singolo livello i dati visibili della texture di un gruppo selezionato. Questo può aiutare a semplificare lo stack di livelli, migliorando le prestazioni e rendendo i tuoi progetti più facili da gestire.
+La conversione dei livelli consente di comprimere in un singolo livello i dati visibili della texture di un gruppo selezionato. In questo modo è possibile semplificare la Pila livelli, migliorare le prestazioni e semplificare la gestione dei progetti.
 
 >[!NOTE]
 >
-> Quando si utilizza la funzione Appiattisci, viene creato un nuovo livello, ma il gruppo originale di livelli non viene eliminato. Al contrario, il gruppo sorgente è disattivato e potete scegliere se eliminarlo o salvarlo come materiale avanzato per modificarlo in un secondo momento.
+> Quando si utilizza la funzione Appiattisci, viene creato un nuovo livello, ma il gruppo originale di livelli non viene eliminato. Il gruppo sorgente è invece disattivato, lasciando la scelta di eliminarlo o in alternativa salvarlo come Materiale avanzato per la modifica successiva.
 
 ## Come ridurre a livello singolo
 
@@ -40,14 +40,14 @@ Quando i livelli vengono convertiti, viene creato un nuovo livello di riempiment
 ## Appiattisci canali specifici
 
 * Su un livello di riempimento, usa il pannello Proprietà per disattivare i canali che non desideri unire. Le informazioni non vanno perse quando i canali sono disattivati. Una volta appiattito il livello, puoi riattivare i canali e i dati saranno ancora presenti.
-* Per i gruppi o i livelli di disegno, potete usare i metodi di fusione per disabilitare i canali:
-  * Nella parte superiore della serie di livelli, seleziona il canale da disattivare.
+* Per i gruppi o i livelli di pittura, puoi utilizzare i metodi di fusione per disabilitare i canali:
+  * Nella parte superiore della Pila livelli, seleziona il canale da disattivare.
   * Modificate il metodo di fusione del livello desiderato su &quot;Disattivato&quot;.
   * Per applicare lo stesso metodo di fusione a tutti i canali di un livello, fate clic con il pulsante destro del mouse sul metodo di fusione e selezionate &quot;Applica a tutti i canali&quot;.
 
 ## Esportare le mappe appiattite dalla pila di livelli
 
-Per esportare rapidamente le texture, utilizzate <b>Esporta gruppo con unico livello in file</b> dal menu di scelta rapida nella pila dei livelli. Questa opzione è disponibile quando è selezionato un livello o un gruppo. Quando sono selezionati più livelli o gruppi, questi verranno gestiti come batch, come se ciascuno di essi fosse stato esportato uno alla volta.
+Utilizza <b>Esporta gruppo con unico livello in file</b> dal menu di scelta rapida nella Pila livelli per esportare rapidamente texture. Questa opzione è disponibile quando è selezionato un livello o un gruppo. Quando sono selezionati più livelli o gruppi, questi verranno gestiti come batch, come se ciascuno di essi fosse stato esportato uno alla volta.
 
 >[!NOTE]
 >
@@ -75,14 +75,14 @@ Le proprietà dei file esportati si basano sui seguenti valori al momento dell�
 Le seguenti proprietà sono hardcoded e non possono essere modificate:
 
 * Il riempimento è bloccato a 1 px.
-* Il formato del file dipende dal canale esportato. Le mappe come height e normale solitamente richiedono una maggiore profondità di bit e vengono esportate come EXR, mentre gli altri canali vengono esportati come PNG.
+* Il formato del file dipende dal canale esportato. Le mappe come height e normale di solito richiedono più profondità di bit e vengono esportate come EXR, mentre gli altri canali vengono esportati come PNG.
 * Se viene esportata solo una maschera, potete selezionare il formato di esportazione.
 
 ## Come viene generato il livello unito?
 
 La funzione appiattisci crea una bitmap per canale abilitato all&#39;interno di un nuovo livello di riempimento. La risoluzione si basa sulla risoluzione impostata per l’insieme di texture e la profondità di bit è determinata dalle relative impostazioni.
 
-La funzione Appiattisci funziona quando sono presenti dati di texture all’interno di un determinato canale. La conversione non funziona su un livello di disegno vuoto e visualizza un messaggio di errore nel registro se nella selezione non sono presenti dati.
+L’opzione Unisci livello funziona quando sono presenti dati di texture all’interno di un determinato canale. La conversione non funzionerà su un livello di pittura vuoto e invierà un messaggio di errore al registro se nella selezione non sono presenti dati.
 
 Solo i livelli visibili e gli effetti possono essere convertiti. Se alcuni livelli del gruppo vengono disattivati quando il gruppo viene unito, gli effetti di questi livelli non verranno inclusi nel risultato unito.
 
@@ -106,4 +106,4 @@ Alle immagini con unico livello vengono automaticamente aggiunti i tag &quot;app
 
 ### Pulisci le immagini inutilizzate
 
-La rimozione di immagini inutilizzate dal file di progetto può contribuire a schiarire le dimensioni del progetto. Nel pannello Risorse, potete eliminare le immagini dal menu di scelta rapida. In alternativa, per rimuovere tutte le immagini inutilizzate, utilizzare <b>File > Rimuovi risorse inutilizzate</b>. Tenete presente che questa operazione eliminerà non solo le immagini convertite, ma anche tutte le risorse che non vengono utilizzate nella pila di livelli, negli slot delle mappe di backup o altrove nell’interfaccia utente.
+La rimozione di immagini inutilizzate dal file di progetto può contribuire a schiarire le dimensioni del progetto. Nel pannello Risorse, potete eliminare le immagini dal menu di scelta rapida. In alternativa, per rimuovere tutte le immagini inutilizzate, utilizzare <b>File > Rimuovi risorse inutilizzate</b>. Tenete presente che questa operazione non comporta solo l&#39;eliminazione delle immagini convertite, ma anche di tutte le risorse che non vengono utilizzate nella Pila livelli, negli slot delle mappe di backup o altrove nell&#39;interfaccia utente.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Scoprite come riassegnare i set di texture in Substance 3D Painter per riorganizzare le assegnazioni di trama e la mappatura delle texture.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/txtset-reassignment-window.png)
 
-La finestra Riassegnazione set di texture consente di modificare l’assegnazione del gruppo di livelli in una parte diversa della trama della scena. Ciò è utile ad esempio quando, dopo aver importato una nuova trama in un progetto esistente, alcuni set di texture vengono disattivati. Questo accade perché la pila di livelli è stata assegnata a un materiale che non esiste più. Con la finestra di riassegnazione è possibile ripristinare quel gruppo di livelli (vedere &quot;Ripristino di set di texture disabilitati&quot; di seguito).
+La finestra Riassegnazione set di texture consente di cambiare l’assegnazione della Pila livelli in una parte diversa della trama della scena. Ciò è utile ad esempio quando, dopo aver importato una nuova trama in un progetto esistente, alcuni set di texture vengono disattivati. Ciò accade perché la Pila livelli è stata assegnata a un materiale che non esiste più. Con la finestra di riassegnazione è possibile ripristinare quella Pila livelli (vedere &quot;Ripristino di set di texture disabilitati&quot; di seguito).
 
 Per accedere alla finestra Riassegnazione set di texture, accedete alla finestra [Elenco set di texture](texture-set-list.md) e scegliete **Impostazioni > Riassegna set di texture**.
 
