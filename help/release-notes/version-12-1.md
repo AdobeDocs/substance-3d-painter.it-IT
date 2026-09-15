@@ -2,13 +2,11 @@
 title: Versione 12.1
 description: Note sulla versione 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1790'
 ht-degree: 0%
-
 ---
-
 
 # Versione 12.1
 
@@ -60,7 +58,7 @@ Il flusso di lavoro di cottura è stato rielaborato per supportare il rebaking c
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla cottura al forno, consultate la [pagina dedicata alla documentazione](../baking/baking.md).
+> Per ulteriori informazioni sulla esegue i baking, vedere la [pagina dedicata alla documentazione](../baking/baking.md).
 
 ### Supporto OpenPBR
 
@@ -86,7 +84,7 @@ Il modello di ombreggiatura è ora supportato in Painter ed è utilizzato come f
 
   ![](../assets/v12/v12_openpbr_export.png)
 
-* Supporto per <b>USD e MDL</b>
+* <b>Supporto per USD e MDL</b>
 
   Il materiale OpenPBR è supportato tramite il formato USD. È stata inoltre aggiunta una nuova MDL per consentire il rendering dei materiali di OpenPBR in Iray, fornendo rappresentazioni dei materiali più accurate.
 
@@ -140,7 +138,7 @@ In questa versione sono state aggiunte funzioni e miglioramenti aggiuntivi:
 
 * <b>Cronologia unificata di annullamento</b>
 
-  Le modalità di esegue i baking e disegno condividono ora la stessa cronologia di annullamento. Il passaggio dalla modalità di Esegue i baking a quella di Pittura è registrato come un passaggio impossibile, quindi le azioni possono essere annullate solo nella modalità in cui si sono verificate.
+  Le modalità di cottura e pittura ora condividono la stessa cronologia di annullamento. Il passaggio dalla modalità di Esegue i baking a quella di Pittura è registrato come un passaggio impossibile, quindi le azioni possono essere annullate solo nella modalità in cui si sono verificate.
 
 ## Tutorial
 
@@ -149,6 +147,29 @@ Guarda il nostro ultimo tutorial su Youtube:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Note sulla versione
+
+### 12.1.5
+
+Data di pubblicazione: **2026/09/15**
+
+Riepilogo: **Versione secondaria**
+
+**Corretto:**
+
+* L’esportazione di un’immagine dallo scaffale a una rete non funziona più
+* [Generatore] L&#39;impostazione di &quot;usa texture&quot; su false non disattiva l&#39;utilizzo dell&#39;input della texture
+* Il riquadro di visualizzazione si blocca durante il salvataggio durante la modifica della proiezione 3D
+* La risoluzione dei livelli del materiale è troppo bassa
+
+### 12.1.4
+
+Data di pubblicazione: **2026/09/04**
+
+Riepilogo: **Versione secondaria**
+
+**Corretto:**
+
+* [Arresto anomalo] Arresto anomalo durante l&#39;importazione o l&#39;esportazione di file i cui nomi contengono caratteri non ASCII
 
 ### 12.1.3
 
@@ -163,7 +184,7 @@ Riepilogo: **Versione secondaria**
 **Corretto:**
 
 * [Il selettore scala di grigi] rimane aperto dopo aver modificato lo strumento
-* [Inclina Eseguita i baking] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
+* [Inclina al forno] La correzione dell’inclinazione si interrompe quando si disegna e si annulla
 * [L&#39;interazione dello strumento di proiezione] nella finestra della vista è bloccata dallo strumento di proiezione
 * [Traccia dinamica] Parametri di traccia dinamica mancanti nelle proprietà del pennello
 * L’esportazione in rete non funziona più
@@ -176,12 +197,12 @@ Riepilogo: **Versione secondaria**
 
 **Corretto:**
 
-* \[Arresto anomalo\] Alcune Substance possono generare un arresto anomalo durante il rendering
-* \[Arresto anomalo\] Reimporta trama in modalità di esegue i baking
-* \[Arresto anomalo\] Un errore di inizializzazione della visualizzazione grafica può provocare un arresto anomalo
-* \[Arresto anomalo\] L&#39;esportazione di texture può verificarsi in alcuni casi durante l&#39;arresto anomalo del registro
-* \[Arresto anomalo\] Arresto anomalo in modalità di esegue i baking in alcuni casi durante il caricamento/aggiornamento della mappa dell&#39;ambiente
-* \[Eseguo i baking\] Il riavvio del eseguo i baking dopo la modifica del file di criteri alti può provocare un blocco
+* \[Arresto anomalo\] Alcune Substance possono causare un arresto anomalo durante il rendering
+* \[Arresto anomalo\] Reimporta trama in modalità cottura al forno
+* \[Arresto anomalo\] Un errore di inizializzazione della visualizzazione della grafica può causare un arresto anomalo
+* \[Arresto anomalo\] Durante l’aggiornamento del registro, in alcuni casi l’esportazione delle texture può bloccarsi
+* \[Arresto anomalo\] Arresto anomalo in modalità cottura in alcuni casi durante il caricamento/aggiornamento della mappa dell&#39;ambiente
+* \[Baking\] Il riavvio di bake dopo la modifica del file di poly elevato può provocare un blocco
 * \[Invia a Photoshop\] Non riesce a esportare la maschera di livello
 * Il risultato del punto di ancoraggio \[Motore\] non viene visualizzato tra una maschera e un canale di colore
 
@@ -193,9 +214,9 @@ Riepilogo: versione secondaria
 
 Aggiunto:
 
-* [Inclina in Eseguita i baking] Esposizione inclina base modalità normale: trama o per triangolo
-* [Proprietà] I colori uniformi vengono sempre ripristinati al valore predefinito del canale
-* [OpenPBR] Raggruppare i canali in base alle categorie nella finestra Esporta Texture per la creazione di modelli di output
+* [Inclina al forno] Modo normale base di inclinazione esposta: mesh o per triangle
+* [Proprietà] Rendi i colori uniformi sempre ripristinati al valore predefinito del canale
+* [OpenPBR] Raggruppare i canali per categorie nella finestra Esporta texture per la creazione di modelli di output
 * Aggiornamento del motore di Substance alla versione 9.4.5
 
 Fisso:
@@ -217,28 +238,28 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 
 <b>Aggiunto</b>:
 
-* [Inclina al forno] Inclina strumenti di pittura
-* [Inclina al forno] Aggiungete effetti visivi vettoriali dell&#39;ombreggiatura dell&#39;anteprima dell&#39;inclinazione e della direzione dell&#39;inclinazione quando colorate la mappa dell&#39;inclinazione
-* [Skew Baking] Aggiungi opzione protezione bordi
-* [Inclina al forno] Ripetizione automatica
-* [Skew Baking] Rielaborare l&#39;interfaccia utente dell&#39;elenco mappa trama
-* [Inclina in forno] Dividi mappa trama / Impostazioni comuni di cottura + Sposta impostazioni comuni fuori dall&#39;elenco mappa trama solo colore di base o maschera
-* [Skew Baking] Cambiare i pulsanti della barra degli strumenti della finestra della vista
-* [Skew Baking] Mostra/Nascondi simmetria per il pennello nella barra degli strumenti superiore
-* [Skew Baking] Opzioni di ridenominazione nel menu di sincronizzazione della mappa mesh
-* [Inclina baking] Aggiornare le finestre di dialogo Sincronizza e Stato controllato
-* [Inclina cottura] Crea variante del selettore colore in scala di grigio
-* [Skew Baking] Icona Aggiorna modalità di cottura
+* [Inclina eseguendo i baking] Inclina strumenti di pittura
+* [Inclina in Eseguita i baking] Aggiungete immagini vettoriali di shader e direzione di inclinazione dell&#39;anteprima dell&#39;inclinazione quando disegnate la mappa di inclinazione
+* [Inclina in Eseguita i baking] Opzione Aggiungi protezione bordi
+* [Inclina in eseguita i baking] Ripetizione automatica
+* [Inclina in Eseguita i baking] Rielaborare l&#39;interfaccia utente dell&#39;elenco delle mappe della trama
+* [Inclina in Eseguita i baking] Dividi mappa trama / Impostazioni comuni di Esegue i baking + Sposta impostazioni comuni fuori dall&#39;elenco mappa trama solo colore di base o maschera
+* [Inclina Eseguo i baking] Cambiare i pulsanti della barra degli strumenti della finestra della vista
+* [Inclina in Eseguita i baking] Mostra/Nascondi Simmetria per il pennello nella barra degli strumenti superiore
+* [Inclina in Eseguita i baking] Opzioni di ridenominazione nel menu Sincronizzazione mappa trama
+* [Inclina in Eseguita i baking] Finestre di dialogo Aggiorna stato sincronizzato e controllato
+* [Inclina in Eseguita i baking] Variante del selettore colore Crea scala di grigi
+* [Inclina in Eseguita i baking] Aggiorna l’icona della modalità di esegue i baking
 * [Auto Unwrap] Opzione Integra superficie dura (Integrate Hard Surface)
 * [OpenPBR] Aggiungi il supporto per l’OpenPBR 1.1
-* [OpenPBR] Rendi OpenPBR il flusso di lavoro e lo shader predefiniti
-* [OpenPBR] Importa materiali e texture OpenPBR tramite USD
-* [OpenPBR] Esportare materiali e texture di OpenPBR tramite USD
-* [OpenPBR] Aggiornare la finestra Esporta texture per visualizzare la convenzione di denominazione dell&#39;OpenPBR
+* [OpenPBR] Imposta OpenPBR come flusso di lavoro e shader predefiniti
+* [OpenPBR] Importare materiali e texture OpenPBR tramite USD
+* [OpenPBR] Esportazione di materiali e texture OpenPBR tramite USD
+* [OpenPBR] Aggiorna la finestra Esporta Texture per mostrare la convenzione di denominazione delle OpenPBR
 * [OpenPBR] Aggiungi documentazione sulle modifiche all’OpenPBR di supporto
-* [OpenPBR]&#x200B;[Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
-* Diversi miglioramenti minori delle esportazioni in USD
-* [UI] Aggiungete un avviso nella finestra della vista quando tentate di colorare su un altro set di texture
+* [OpenPBR][Iray] Aggiungi un nuovo MDL per supportare l&#39;OpenPBR 1.1 in Iray
+* Diversi miglioramenti minori nelle esportazioni USD
+* [UI] Aggiungete un avviso nella finestra della vista quando tentate di eseguire la pittura su un altro set di texture
 * [Appiattisci] Consenti di appiattire tutti i livelli istanziati tra set di texture
 * [Impostazioni set texture] Consente di selezionare più canali contemporaneamente tramite una nuova finestra
 * [History] Aggiornare il &quot;valore&quot; della voce Annulla per riflettere il nome del parametro
@@ -255,18 +276,18 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene miglior
 
 <b>Risolto</b>:
 
-* [Arresto anomalo]&#x200B;[Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
-* [Arresto anomalo] Quando si esegue i baking la curvatura da una mappa senza spazio mondo normale
-* [Arresto anomalo]&#x200B;[Esegue i baking] Esegue i baking con gabbia personalizzata abilitata ma nessun file selezionato arresti anomali
-* [Arresto anomalo] Annullamento della esegue i baking di AO
+* [Arresto anomalo][Impostazioni mappe trama] Applica le impostazioni ad altri set di texture
+* [Arresto anomalo] Quando si cuoce la curvatura dalla mappa senza spazio mondo normale
+* [Arresto anomalo][Baking] Il baking con una gabbia personalizzata abilitata ma nessun file selezionato si arresta in modo anomalo
+* [Arresto anomalo] Annullamento della cottura automatica
 * [Auto-Cage] Caricamento infinito quando il percorso del file di tipo High Poly non è valido
-* [Linux]&#x200B;[Windows] Il selettore colore a volte può essere completamente nero o non apparire
+* [Linux][Windows] Il selettore colore a volte può essere completamente nero o non apparire
 * [Strumento Riempimento poligonale] Lo strumento non funziona con file non PBR
-* &lbrack;[Pittura] L’eliminazione del canale del colore di base non elimina il colore colorato in precedenza
-* [USD] Le Istanze shader non vengono tutte rilevate correttamente
+* [[Paint] L’eliminazione del canale del colore di base non elimina il colore colorato precedentemente
+* [USD] Le istanze dello shader non vengono tutte rilevate correttamente
 * [Substance] Viene preso in considerazione solo il primo utilizzo di un nodo di input/output
-* L’Occlusione ambientale [Shader] viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
-* [Engine] Una texture normale con canale blu vuoto (nero) può produrre risultati di fusione errati
+* [Shader] L’Occlusione Ambiente viene applicata due volte con gli insiemi di texture, utilizzando diversi metodi di miscelazione
+* [Engine] Le texture normali con canale blu vuoto (nero) possono produrre risultati di fusione errati
 * [Importazione GLTF] La fusione di Alpha è abilitata su ogni set di texture
 * [Esportazione GLTF] La fusione di Alpha è sempre abilitata all&#39;esportazione
 * [Esporta] La geometria a due lati è sempre disattivata durante l&#39;importazione di un file GLTF
