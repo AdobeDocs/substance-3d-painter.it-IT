@@ -1,10 +1,10 @@
 ---
 title: Correzione colore
 description: Scopri come utilizzare il filtro Correzione colore di Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 5%
 ---
 
 # Correzione colore
@@ -36,52 +36,24 @@ Viene utilizzato su un livello di riempimento per apportare lievi regolazioni a 
 
 ### Ombre
 
-<table>
-<tr>
-<td><b>Contrasto:</b></td>
-<td>Regolate il contrasto delle ombre.</td>
-</tr>
-<tr>
-<td><b>Luminosità:</b></td>
-<td>Regolate la luminosità delle ombre.</td>
-</tr>
-<tr>
-<td><b>Saturazione:</b></td>
-<td>Regolate la saturazione delle ombre.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Contrasto:** | Regolate il contrasto delle ombre. |
+| **Luminosità:** | Regolate la luminosità delle ombre. |
+| **Saturazione:** | Regolate la saturazione delle ombre. |
 
 ### Mezzitoni
 
-<table>
-<tr>
-<td><b>Contrasto:</b></td>
-<td>Regolate il contrasto dei mezzitoni.</td>
-</tr>
-<tr>
-<td><b>Luminosità:</b></td>
-<td>Regolate la luminosità dei mezzitoni.</td>
-</tr>
-<tr>
-<td><b>Saturazione:</b></td>
-<td>Regolate la saturazione dei mezzitoni.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Contrasto:** | Regolate il contrasto dei mezzitoni. |
+| **Luminosità:** | Regolate la luminosità dei mezzitoni. |
+| **Saturazione:** | Regolate la saturazione dei mezzitoni. |
 
 ### Luci
 
-<table>
-<tr>
-<td><b>Contrasto:</b></td>
-<td>Regolate il contrasto delle aree di luce.</td>
-</tr>
-<tr>
-<td><b>Luminosità:</b></td>
-<td>Regolate la luminosità delle aree di luce.</td>
-</tr>
-<tr>
-<td><b>Saturazione:</b></td>
-<td>Regolate la saturazione delle luci.</td>
-</tr>
-</table>
-
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Contrasto:** | Regolate il contrasto delle aree di luce. |
+| **Luminosità:** | Regolate la luminosità delle aree di luce. |
+| **Saturazione:** | Regolate la saturazione delle luci. |

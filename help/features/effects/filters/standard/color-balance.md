@@ -1,10 +1,10 @@
 ---
 title: Bilanciamento colore
 description: Scopri come utilizzare il filtro Bilanciamento colore di Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 5%
 ---
 
 # Bilanciamento colore
@@ -36,52 +36,24 @@ Viene utilizzato su un livello di riempimento per apportare regolazioni di color
 
 ### Luci
 
-<table>
-<tr>
-<td><b>Ciano &lt;-&gt; Rosso:</b></td>
-<td>Spostate il colore verso il ciano o il rosso.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Verde:</b></td>
-<td>Spostate il colore verso magenta o verde.</td>
-</tr>
-<tr>
-<td><b>Giallo &lt;-&gt; Blu:</b></td>
-<td>Spostate il colore verso il giallo o il blu.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Ciano &lt;-> Rosso:** | Spostate il colore verso il ciano o il rosso. |
+| **Magenta &lt;-> Verde:** | Spostate il colore verso magenta o verde. |
+| **Giallo &lt;-> Blu:** | Spostate il colore verso il giallo o il blu. |
 
 ### Mezzitoni
 
-<table>
-<tr>
-<td><b>Ciano &lt;-&gt; Rosso:</b></td>
-<td>Spostate il colore verso il ciano o il rosso.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Verde:</b></td>
-<td>Spostate il colore verso magenta o verde.</td>
-</tr>
-<tr>
-<td><b>Giallo &lt;-&gt; Blu:</b></td>
-<td>Spostate il colore verso il giallo o il blu.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Ciano &lt;-> Rosso:** | Spostate il colore verso il ciano o il rosso. |
+| **Magenta &lt;-> Verde:** | Spostate il colore verso magenta o verde. |
+| **Giallo &lt;-> Blu:** | Spostate il colore verso il giallo o il blu. |
 
 ### Ombre
 
-<table>
-<tr>
-<td><b>Ciano &lt;-&gt; Rosso:</b></td>
-<td>Spostate il colore verso il ciano o il rosso.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Verde:</b></td>
-<td>Spostate il colore verso magenta o verde.</td>
-</tr>
-<tr>
-<td><b>Giallo &lt;-&gt; Blu:</b></td>
-<td>Spostate il colore verso il giallo o il blu.</td>
-</tr>
-</table>
-
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Ciano &lt;-> Rosso:** | Spostate il colore verso il ciano o il rosso. |
+| **Magenta &lt;-> Verde:** | Spostate il colore verso magenta o verde. |
+| **Giallo &lt;-> Blu:** | Spostate il colore verso il giallo o il blu. |

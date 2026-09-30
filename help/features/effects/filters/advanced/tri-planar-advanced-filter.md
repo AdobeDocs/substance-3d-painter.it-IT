@@ -1,10 +1,10 @@
 ---
 title: Tri-Planari Advanced
 description: Scopri come utilizzare il filtro Avanzate Tri-Planari di Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 ---
 
 # Tri-Planari Advanced
@@ -56,20 +56,11 @@ Viene utilizzato su un livello texture o all’interno di una maschera per aggiu
 
 ### Asse X
 
-<table>
-<tr>
-<td><b>Rotazione X:</b></td>
-<td>Regola la rotazione della proiezione della texture dell'asse X.</td>
-</tr>
-<tr>
-<td><b>Offset X X:</b></td>
-<td>Regolate lo scostamento della proiezione dell'asse X lungo l'asse X.</td>
-</tr>
-<tr>
-<td><b>Offset X Y:</b></td>
-<td>Regolate lo scostamento della proiezione dell'asse X lungo l'asse Y.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Rotazione X:** | Regola la rotazione della proiezione della texture dell&#39;asse X. |
+| **Scostamento X X:** | Regolate lo scostamento della proiezione dell&#39;asse X lungo l&#39;asse X. |
+| **Scostamento X Y:** | Regolate lo scostamento della proiezione dell&#39;asse X lungo l&#39;asse Y. |
 
 >[!NOTE]
 >
@@ -79,20 +70,11 @@ Viene utilizzato su un livello texture o all’interno di una maschera per aggiu
 
 ### Asse Y
 
-<table>
-<tr>
-<td><b>Rotazione X:</b></td>
-<td>Regolate la rotazione della proiezione della texture dell'asse Y.</td>
-</tr>
-<tr>
-<td><b>Scostamento Y X:</b></td>
-<td>Regolate lo scostamento della proiezione dell'asse Y lungo l'asse X.</td>
-</tr>
-<tr>
-<td><b>Scostamento Y Y:</b></td>
-<td>Regolate lo scostamento della proiezione dell'asse Y lungo l'asse Y.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Rotazione X:** | Regolate la rotazione della proiezione della texture dell&#39;asse Y. |
+| **Scostamento Y X:** | Regolate lo scostamento della proiezione dell&#39;asse Y lungo l&#39;asse X. |
+| **Scostamento Y Y:** | Regolate lo scostamento della proiezione dell&#39;asse Y lungo l&#39;asse Y. |
 
 >[!NOTE]
 >
@@ -102,20 +84,11 @@ Viene utilizzato su un livello texture o all’interno di una maschera per aggiu
 
 ### Asse Z
 
-<table>
-<tr>
-<td><b>Rotazione X:</b></td>
-<td>Regolate la rotazione della proiezione della texture dell'asse Z.</td>
-</tr>
-<tr>
-<td><b>Offset Z X:</b></td>
-<td>Regolate lo scostamento della proiezione dell'asse Z lungo l'asse X.</td>
-</tr>
-<tr>
-<td><b>Offset Z Y:</b></td>
-<td>Regolate lo scostamento della proiezione dell'asse Z lungo l'asse Y.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Rotazione X:** | Regolate la rotazione della proiezione della texture dell&#39;asse Z. |
+| **Scostamento Z X:** | Regolate lo scostamento della proiezione dell&#39;asse Z lungo l&#39;asse X. |
+| **Scostamento Z Y:** | Regolate lo scostamento della proiezione dell&#39;asse Z lungo l&#39;asse Y. |
 
 >[!NOTE]
 >

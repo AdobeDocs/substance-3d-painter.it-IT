@@ -1,9 +1,9 @@
 ---
 title: Sfumatura
 description: Scopri come utilizzare il filtro Sfumatura di Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 2%
 ---
 
@@ -48,25 +48,10 @@ Può essere utilizzato per modificare i valori di un’immagine in scala di grig
 
 ### Trasformazione input
 
-<table>
-<tr>
-<td><b>Modalità scala di grigi:</b></td>
-<td>Selezionate la modalità di trasformazione in scala di grigio. Potete scegliere tra Desaturazione, Luma, Media, Max e Min.</td>
-</tr>
-<tr>
-<td><b>Intensità sfocatura:</b></td>
-<td>Regola l’entità di sfocatura dell’input.</td>
-</tr>
-<tr>
-<td><b>Bilanciamento:</b></td>
-<td>Regola il bilanciamento dell'input spostando il punto medio verso il bianco o il nero, in modo simile a un controllo della luminosità.</td>
-</tr>
-<tr>
-<td><b>Contrasto:</b></td>
-<td>Regola il contrasto dell'input.</td>
-</tr>
-<tr>
-<td><b>Inverti:</b></td>
-<td>Attiva/disattiva l’inversione dei colori di input.</td>
-</tr>
-</table>
+| Nome parametro | Descrizione |
+| --- | --- |
+| **Modalità scala di grigi:** | Selezionate la modalità di trasformazione in scala di grigio. Potete scegliere tra Desaturazione, Luma, Media, Max e Min. |
+| **Intensità sfocatura:** | Regola l’entità di sfocatura dell’input. |
+| **Saldo:** | Regola il bilanciamento dell&#39;input spostando il punto medio verso il bianco o il nero, in modo simile a un controllo della luminosità. |
+| **Contrasto:** | Regola il contrasto dell&#39;input. |
+| **Inverti:** | Attiva/disattiva l’inversione dei colori di input. |
