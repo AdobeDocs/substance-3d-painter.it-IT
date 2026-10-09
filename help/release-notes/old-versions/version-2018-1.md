@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2018.1 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2018.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2018.1
 
@@ -67,7 +59,7 @@ Substance Painter 2018.1 introduce una **rielaborazione completa dell&#39;interf
 
 ![](../../assets/drag-drop-material-resize.gif){width="650px"}
 
-Ora potete **trascinare** materiali e materiali avanzati **direttamente nella finestra della vista**.\
+Ora puoi **trascinare** materiali e Materiali avanzati **direttamente nella finestra della vista**.\
 Questa nuova azione **evidenzierà contemporaneamente la geometria** del **set di texture di destinazione**. I nuovi livelli verranno così creati nella parte superiore della Pila livelli dell’insieme di texture.
 
 ### Comportamento migliorato della penna
@@ -117,7 +109,7 @@ In questa versione sono state migliorate anche le prestazioni su più livelli:
 * Il sistema **shelf** è ora **più veloce per individuare** risorse all&#39;avvio dell&#39;applicazione.\
   I materiali Substance con bitmap incorporate sono **due volte più veloci** da scoprire (se cotti come non solidi). Anche **Predefiniti** dovrebbe presentare miglioramenti.
 
-### Panettiere posizione scena globale
+### Baker posizione scena globale
 
 ![](../../assets/position-baker.jpg)
 
@@ -186,9 +178,9 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 **Corretto:**
 
 * [Plugin] La Substance Source di ricerca non funziona
-* [Materiali intelligenti] L’importazione di materiali intelligenti in alcuni casi provoca un arresto anomalo
-* [Materiali avanzati] L’eliminazione di materiali intelligenti causa in alcuni casi un arresto anomalo
-* [Salva] Il salvataggio causa un arresto anomalo in alcuni rari casi
+* [Materiali avanzati] In alcuni casi, l’importazione di Materiali avanzati genera un arresto anomalo
+* [Materiali avanzati] In alcuni casi, l’eliminazione di Materiali avanzati genera un arresto anomalo
+* [Salva] In alcuni rari casi, il salvataggio genera un arresto anomalo
 * [Shelf] Inverti non funziona su Celle 2 e Celle 3
 * [Shelf] Errore di battitura in alcuni Alpha
 * [Ripiano] Alcuni materiali Substance non vengono riprodotti correttamente
@@ -204,7 +196,7 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 **Aggiunto:**
 
 * Riepilogo: velocità di Esegue i baking migliorata, sistema di salvataggio migliorato, cursori aggiornati, API di plug-in aggiornata, traduzione cinese, spaziatura interna migliorata ora facoltativa
-* [Panettieri] Miglioramento delle prestazioni con la nuova versione per panettieri
+* [Baker] Miglioramento delle prestazioni con la nuova versione del baker
 * Forzare la finestra di dialogo di visualizzazione con la GPU incompatibile
 * [Salva] Scopri la nuova funzionalità di progetto compatto (modalità di salvataggio completa/compatta)
 * [Salva] Informa l&#39;utente in caso di errore di salvataggio
@@ -222,16 +214,16 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 
 **Corretto:**
 
-* [Strumento] Lo slot del canale si trasforma in uno slot materiale su riempimenti a canale singolo
+* [Strumento] Lo slot del canale Trasforma in uno slot materiale su riempimenti a canale singolo
 * Arresto anomalo durante il caricamento di una trama (FBX) con alcune facce non assegnate da un materiale
-* Arresto anomalo di Iray con NVIDIA GRID 5.2 sulla macchina virtuale
-* Arresto anomalo quando si annulla un&#39;eliminazione di materiali predefiniti
+* Arresto anomalo in Iray con NVIDIA GRID 5.2 sulla macchina virtuale
+* Arresto anomalo quando si annulla un&#39;eliminazione di un predefinito di materiale
 * Arresto anomalo durante il caricamento di alcuni progetti
-* [Riga di comando] Nuova riga di comando per le trame UDIM suddivise per dim
+* [Riga di comando] Nuova riga di comando per le trame degli UDIM suddivise per dim
 * [Toolbar] Riduzione della barra degli strumenti
 * [Istanza] Impossibile creare un&#39;istanza delle bitmap su più set di texture
 * [Finestra vista] L’aggiornamento non è completo quando si dipinge su trama con UV in porzioni
-* [Iray] La mappa normale viene applicata due volte per i dielettrici
+* La Mappa normale [Iray] viene applicata due volte per i dielettrici
 * [Shelf] Errori di battitura in alcuni parametri di Substance (alpha, procedure e matfx)
 * [Shelf] Errore ortografico per la bitmap &quot;Authorized Personnel Only&quot;
 * [Script] La funzione alg.shaders.materials() non funziona più
@@ -247,11 +239,11 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 **Corretto:**
 
 * [Tablet] Problema durante la modifica delle scelte di interazione predefinite
-* [Baker] Arresto anomalo con la libreria Assimp
-* [Bakers] Regressione sulle prestazioni con A.O. map
-* [Iray] La Distorsione obiettivo non viene applicata al canale Alpha
+* [Baker] Arresto anomalo con libreria Assimp
+* [Baker] Regressione sulle prestazioni con A.O. map
+* [Iray] La Distorsione obiettivo non viene applicata al Canale alfa
 * [Driver] Aggiornamento dei requisiti minimi dei driver
-* [3Dview] Normali non generate correttamente sulle trame UDIM senza informazioni sulle normali
+* [3Dview] Normali non generati correttamente sulle trame UDIM senza informazioni sulle normali
 * [Intel] Arresto anomalo con Substance Painter 2018.1.0
 * [Intel]&#x200B;[Viewport] Problema con la spaziatura interna (artefatti neri)
 
@@ -269,14 +261,14 @@ Un nuovo corso di esercitazione è stato aggiunto a Substance Academy per coprir
 * Nuovo layout predefinito
 * [Tablet] Miglioramento dell&#39;esperienza utente durante la pittura
 * [Menu principale] Ordinare prima gli elementi nativi nelle visualizzazioni e nelle barre degli strumenti
-* [Menu principale] Spostare le azioni rapide della maschera nella sezione viewport
+* [Menu principale] Spostare le azioni delle maschere veloci nella sezione viewport
 * [Menu principale] Spostare le azioni del clic con il pulsante destro del mouse nella sezione della finestra della vista
 * [Menu principale] Rinominare &quot;Visualizza&quot; come &quot;Finestra&quot;
 * [Menu rapido] Nuove proprietà dello strumento facendo clic con il pulsante destro del mouse nella finestra della vista
 * [Widget dock] Nuova barra degli strumenti dock per ridurre/richiamare rapidamente
 * [Impostazioni di visualizzazione] Finestra Impostazioni videocamera e visualizzatore unita
-* [Serie di livelli] Menu contestuale di scelta rapida
-* [Pila di livelli] Trascina e rilascia per spostare qualsiasi effetto all’interno dello stesso livello
+* [Pila livelli] Menu contestuale di scelta rapida
+* [Pila livelli] Trascinate e rilasciate per spostare qualsiasi effetto all’interno dello stesso livello
 * [Toolbar] Riorganizzazione della barra degli strumenti e nuova barra degli strumenti contestuale
 * [Barra degli strumenti] Dividere lo strumento Clona in due strumenti separati
 * [Proprietà Tools] Valore più chiaro della scala di grigi dello sfondo nell&#39;anteprima
