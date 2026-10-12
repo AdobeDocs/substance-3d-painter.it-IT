@@ -2,9 +2,9 @@
 title: Pittura a gabbia
 description: Scoprite come evitare artefatti e personalizzare la gabbia durante il processo di esegue i baking con l’applicazione di pittura a gabbia in Substance 3D Painter.
 hold: true
-source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
+source-git-commit: a6741dd7c792608e886e0b04ee59ebf3fe4d3285
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '923'
 ht-degree: 0%
 ---
 
@@ -20,11 +20,7 @@ Affinché **Cage painting** sia disponibile, il progetto deve avere almeno un fi
 >
 > In una prossima versione verrà aggiunto il supporto per **Cage painting** per il **tipo di gabbia automatica**.
 
-Regolando i parametri di **Gabbia** dopo aver applicato la gabbia è possibile alterare le aree dipinte, richiedendo potenzialmente una rilavorazione o addirittura il riavvio del processo di applicazione della gabbia. È quindi preferibile regolare prima questi parametri.
-
-**Distanza frontale massima** e **Distanza posteriore massima** controllano la distanza di base tra la gabbia e la superficie della trama a basso poli. L’opzione Pittura gabbia utilizza questi valori come limiti per determinare di quanto modificare la gabbia. Se si apportano modifiche di grandi dimensioni a questi valori dopo aver colorato la gabbia, è possibile che si verifichino intersezioni inattese.
-
-**Rispetto al rettangolo di selezione** controlla le unità utilizzate per definire le dimensioni della gabbia. Alternando questo parametro è possibile modificare drasticamente le dimensioni della gabbia, quindi è probabile che qualsiasi area dipinta debba essere ridipinta per correggere i nuovi valori.
+Si consiglia di impostare i valori **Distanza frontale massima** e **Rispetto al rettangolo di selezione** prima di iniziare a creare la pittura della gabbia, in quanto la modifica di questi valori dopo il disegno potrebbe richiedere ritocchi o addirittura la ricolorazione della gabbia da zero.
 
 >[!TIP]
 >
@@ -44,19 +40,19 @@ Per avviare il disegno con gabbia:
 
 >[!NOTE]
 >
-> Per impostazione predefinita, **esegue i baking rapida** è attivato per il canale normale quando si immette per la prima volta **Pittura gabbia**. Ciò significa che la mappa normale verrà automaticamente ricaricata ogni volta che si modifica la gabbia. Se preferisci, puoi disattivare **esegue i baking rapida** nel [**pannello baker mappa trama**](../interface/baking-panels/mesh-map-bakers.md).
+> Per impostazione predefinita, **Auto-rebake** è attivato per il canale normale quando si immette per la prima volta **Cage painting**. Ciò significa che la mappa normale verrà automaticamente ricaricata ogni volta che si modifica la gabbia. Se preferisci, puoi disattivare **Auto-rebake** nel [**pannello baker mappa trama**](../interface/baking-panels/mesh-map-bakers.md).
 
 Una volta attivata la modalità di disegno Gabbia, la visualizzazione predefinita nel **Riquadro di visualizzazione** mostra:
 
 * La gabbia intorno alla trama in beige trasparente.
 * Aree in cui il poli elevato interseca la gabbia in rosso brillante.
-* Gabbia colorata le aree in verde sulla superficie della rete a basso poli.
+* Le aree dipinte con gabbia sono di colore verde (positivo) e blu (negativo) sulla superficie con trama a basso poli.
 
 In modalità Disegno in gabbia, potete utilizzare il [**menu di visualizzazione Eseguito i baking**](baking-visualization-settings.md) nella **finestra della vista** per modificare il colore e l&#39;opacità della visualizzazione per ogni elemento oppure attivare o disattivare la visualizzazione per elementi specifici.
 
 >[!NOTE]
 >
-> La visualizzazione in rosso brillante delle intersezioni di poli elevati con la gabbia è un’anteprima approssimativa e non corrisponde esattamente ai risultati finali della esegue i baking. Nella maggior parte dei casi, la visualizzazione è abbastanza accurata, ma per trame a basso poli con poligoni lunghi e sottili, può essere imprecisa ed è meglio visualizzare il risultato eseguito i baking.
+> La visualizzazione in rosso brillante delle intersezioni di poli elevati con la gabbia è un’anteprima approssimativa e non corrisponde esattamente ai risultati finali della esegue i baking. Nella maggior parte dei casi, la visualizzazione è abbastanza accurata, ma per trame a basso poli con poligoni lunghi e sottili, può essere imprecisa ed è preferibile utilizzare **Esegue i baking rapida** o **Auto-Rebake** per verificare il risultato finale.
 
 ## Strumenti di pittura a gabbia
 
@@ -71,42 +67,46 @@ L&#39;uso del **pennello** a piena **intensità**, **flusso** e **opacità** avr
 
 TODO: animazione/video che mostra la differenza nell’effetto intensità
 
->[!NOTE]
->
-> Per impostazione predefinita, nel disegno in gabbia lo strumento Pennello utilizza il metodo di fusione **Scherma lineare (Aggiungi)**. Questo metodo di fusione fa sì che i successivi tratti nella stessa area accumulino costantemente l’intensità dell’effetto, in modo da poter scolpire la superficie della gabbia con risultati coerenti. I metodi di fusione standard **Massimo (schiarisci)** e **Normale** sono ancora disponibili:
->
-> 1. Fate clic con il pulsante destro del mouse per aprire le proprietà del pennello.
-> 1. Scorri fino a **Alpha > Fusione avanzata**.
-> 1. Seleziona la modalità di fusione **Timbri**.
-
 ### Gomma
 
 Lo strumento Gomma consente di rimuovere la pittura dalla gabbia, ripristinando efficacemente le aree cancellate alle dimensioni predefinite della gabbia.
 
 ### Riempimento poligono
 
-Nella **modalità di colorazione delle gabbie** **modalità**, lo strumento Riempimento poligono include una funzionalità aggiuntiva. Dopo aver selezionato i poligoni, nella finestra della vista viene visualizzato un **cursore Intensità** che consente di regolare l’intensità dei poligoni selezionati. In questo modo è più semplice regolare la potenza dell’effetto senza dover riselezionare costantemente i poligoni.
+Nella **modalità di colorazione delle gabbie** **modalità**, lo **strumento di riempimento poligono** presenta una funzionalità aggiuntiva, mentre nella **finestra di visualizzazione** viene visualizzato un **cursore Intensità** quando si apportano modifiche che è possibile utilizzare per regolare il valore dell&#39;ultimo set di poligoni selezionati.
+
+Questo è particolarmente utile per eseguire regolazioni per elemento utilizzando la **Modalità di riempimento trama** in scene con più trame separate.
 
 >[!NOTE]
 >
 > Questa funzione funziona ripetendo l&#39;ultima operazione (applicazione del riempimento poligonale) con un valore di intensità diverso. Di conseguenza, se si esegue un’operazione diversa o si cambiano gli strumenti, il cursore scompare.
 
-Spesso può essere utile applicare lo stesso valore di riempimento del poligono a più aree della trama. Per eseguire questa operazione:
+Spesso può essere utile applicare lo stesso valore **Riempimento poligonale** a più aree della trama. Per eseguire questa operazione:
 
 1. Seleziona il primo gruppo di poligoni.
 1. Utilizza il cursore **Intensità gabbia** per regolare l’intensità dell’effetto.
 1. Copiare il valore **Intensità gabbia** dal cursore temporaneo nella **finestra della vista**.
 1. Incollate il valore nel cursore **Intensità** nella parte superiore del **Riquadro di visualizzazione**.
-1. Seleziona i successivi set di poligoni per applicare ad essi lo stesso valore di intensità.
+1. Seleziona i successivi set di poligoni per applicare lo stesso valore di intensità.
 
 Il video seguente mostra questo flusso di lavoro in azione, utilizzando lo **strumento Riempimento poligonale** **strumento** con **Riempimento trama** selezionato.
 
 TODO: VIDEO
 
+>[!NOTE]
+>
+> Quando si eseguono questi passaggi, può essere utile selezionare **Metodo fusione normale** in modo che lo strumento Riempimento poligono sovrascriva i valori colorati esistenti, anziché aggiungerli.
+
 ### Modalità Fusione
 
-Per impostazione predefinita, entrambi gli strumenti Pennello e Riempimento poligonale utilizzano per impostazione predefinita il metodo di fusione **Scherma lineare (Aggiungi)**, ma potete anche utilizzare i metodi di fusione **Normale** e **Schiarisci (Massimo)**.
+Per impostazione predefinita, sia lo strumento **Pennello** che lo strumento **Riempimento poligonale** utilizzano per impostazione predefinita il metodo di fusione **Scherma lineare (Aggiungi)**, ma potete anche utilizzare i metodi di fusione **Normale** e **Schiarisci (Massimo)**.
 
-* **Scherma lineare (aggiunta)**: ogni tratto/timbro aggiunge o sottrae il valore di intensità specificato dal valore esistente. Questo metodo di fusione funziona in modo simile alle applicazioni di scultura 3D, in cui ogni tratto pittura viene aggiunto alla superficie della trama.
-* **Normale**: ogni tratto/timbro imposta il valore sull&#39;intensità specificata, sovrascrivendo il valore esistente. Questo metodo di fusione si comporta come il pennello predefinito in modalità pittura, consentendoti di coprire la superficie esistente con un valore diverso.
-* **Schiarisci (massimo)**: per ogni tratto/timbro viene scelto il valore massimo tra l’intensità e il valore esistente. Con questo metodo di fusione, i bordi del pennello impiegano più tempo per creare tratti successivi, contribuendo a creare una transizione più graduale.
+* **Scherma lineare (aggiungi)**
+  * Ogni tratto/timbro aggiunge o sottrae il valore di intensità specificato dal valore esistente.
+  * Questo metodo di fusione funziona in modo simile alle applicazioni di scultura 3D, in cui ogni tratto pittura viene aggiunto alla superficie della trama.
+* **Normale**
+  * Ogni tratto/timbro imposta il valore sull’intensità specificata, sovrascrivendo il valore esistente.
+  * Questo metodo di fusione si comporta come il pennello predefinito in modalità pittura, consentendoti di coprire la superficie esistente con un valore diverso.
+* **Schiarisci (massimo)**:
+  * Per ogni tratto/timbro viene scelto il valore massimo tra l’intensità e il valore esistente.
+  * Con questo metodo di fusione, i bordi del pennello impiegano più tempo per creare tratti successivi, contribuendo a creare una transizione più graduale.
