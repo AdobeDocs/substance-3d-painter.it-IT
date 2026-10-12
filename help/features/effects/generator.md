@@ -39,7 +39,7 @@ Per aggiungere un generatore a un livello:
 ![](../../assets/generators/generator_spectrum.png)
 
 Ogni generatore dispone di un set di parametri che consente di perfezionare la maschera risultante.\
-Per aggiungere generatori personalizzati nello scaffale, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Per aggiungere generatori personalizzati nello scaffale, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

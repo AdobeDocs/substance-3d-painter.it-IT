@@ -29,4 +29,4 @@ Per una rapida panoramica della modalità di Esegue i baking, guardate il nostro
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla esegue i baking in generale, consulta la [Documentazione di Esegue i baking](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dedicata.
+> Per ulteriori informazioni sulla esegue i baking in generale, consulta la [Documentazione di Esegue i baking](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home) dedicata.

@@ -19,4 +19,4 @@ Con i vecchi progetti, lo spostamento all’interno della videocamera nella fine
 Per eliminare il flash bianco è sufficiente **aggiornare** lo **shader del progetto**:
 
 * Per **shader predefiniti**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../../../interface/shader-settings/updating-a-shader.md).
-* Per **shader personalizzati**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Per **shader personalizzati**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

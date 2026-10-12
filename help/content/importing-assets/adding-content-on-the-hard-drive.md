@@ -49,7 +49,7 @@ Puoi importare diversi tipi di file nella libreria Substance 3D Painter. Inserir
 
 >[!NOTE]
 >
-> A partire dalla versione 7.2.0, le cartelle e le categorie personalizzate possono essere utilizzate in una libreria. Saranno accessibili nella finestra Risorse tramite [Filtra per percorso](../../interface/assets/filter-by-path.md) o [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> A partire dalla versione 7.2.0, le cartelle e le categorie personalizzate possono essere utilizzate in una libreria. Saranno accessibili nella finestra Risorse tramite [Filtra per percorso](../../interface/assets/filter-by-path.md) o [Breadcrumbs](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

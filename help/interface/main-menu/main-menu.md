@@ -20,6 +20,6 @@ Situato sopra la barra degli strumenti, dal menu Principale, è possibile accede
 * [Menu Modifica](edit-menu.md)
 * [Menu Modalità](mode-menu.md)
 * [Menu Finestra](window-menu.md)
-* [Menu Finestra vista](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [Menu Finestra vista](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [Menu Plug-in](plugins-menu.md)
 * [Menu Aiuto](help-menu.md)

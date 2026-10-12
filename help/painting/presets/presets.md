@@ -22,6 +22,6 @@ I predefiniti vengono salvati sul disco all&#39;interno della cartella [Assets](
 
 Per gestire i predefiniti, consultate:
 
-* [Creazione e salvataggio dei predefiniti](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [Creazione e salvataggio dei predefiniti](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [Creazione di predefiniti di particelle](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [Predefiniti pennello Photoshop (ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

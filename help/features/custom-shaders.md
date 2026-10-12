@@ -28,4 +28,4 @@ Impossibile eseguire il rendering di {children}. Pagina non trovata: Shader pred
 
 È possibile creare nuovi shader personalizzati semplicemente creando nuovi file **.glsl**.
 
-È disponibile un [API shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) dettagliato che fornisce funzioni di supporto per la creazione di nuovi effetti e l&#39;integrazione nel flusso di lavoro esistente.
+È disponibile un [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) dettagliato che fornisce funzioni di supporto per la creazione di nuovi effetti e l&#39;integrazione nel flusso di lavoro esistente.

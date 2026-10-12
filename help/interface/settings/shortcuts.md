@@ -18,7 +18,7 @@ In questa pagina sono elencate tutte le scelte rapide da tastiera e mouse dispon
 
 ## Panoramica delle scelte rapide
 
-Per una rapida panoramica di tutte le Scelte rapide disponibili, date un&#39;occhiata alla nostra grafica [disponibile nelle nostre esercitazioni](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Per una rapida panoramica di tutte le Scelte rapide disponibili, date un&#39;occhiata alla nostra grafica [disponibile nelle nostre esercitazioni](https://helpx.adobe.com/it/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Come cambiare una scelta rapida da tastiera
 

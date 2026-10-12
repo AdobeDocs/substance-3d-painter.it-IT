@@ -18,6 +18,6 @@ I pennelli particelle sono composti da due parti: **emittente** e **ricevitore**
 
 Per ulteriori informazioni, consultate le pagine dedicate:
 
-* [Installazione dell&#39;editor particelle](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Panoramica dell&#39;editor particelle](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Installazione dell&#39;editor particelle](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Panoramica dell&#39;editor particelle](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Creazione Di Un Nuovo Script Particelle](creating-a-new-particle-script.md)

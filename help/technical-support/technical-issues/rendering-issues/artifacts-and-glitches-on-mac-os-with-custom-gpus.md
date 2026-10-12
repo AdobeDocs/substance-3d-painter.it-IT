@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Se durante l&#39;esecuzione di una GPU personalizzata con driver personalizzati si verificano imperfezioni, arresti anomali o artefatti, una soluzione alternativa potrebbe essere quella di eliminare **correttamente l&#39;elenco** dei file correlati all&#39;applicazione.
 
-Per sapere quale file rimuovere, consulta: [Preferenze e percorso dei dati dell&#39;applicazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Per sapere quale file rimuovere, consulta: [Preferenze e percorso dei dati dell&#39;applicazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

@@ -58,4 +58,4 @@ Ora riavvia l’applicazione, le ricerche salvate vengono visualizzate nella sez
 
 Si consiglia di regolare manualmente le impostazioni dell’applicazione dall’interfaccia. Questo è il modo più sicuro per migrare le informazioni senza introdurre problemi di compatibilità.
 
-Altrimenti consulta la pagina seguente per sapere dove si trovano le preferenze: [Preferenze e percorso dei dati dell&#39;applicazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Altrimenti consulta la pagina seguente per sapere dove si trovano le preferenze: [Preferenze e percorso dei dati dell&#39;applicazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

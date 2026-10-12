@@ -19,4 +19,4 @@ La trama può apparire **rosa** all&#39;interno della finestra della vista perch
 Ecco come risolvere il problema:
 
 * Per **shader predefiniti**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../../../interface/shader-settings/updating-a-shader.md).
-* Per **shader personalizzato**: date un&#39;occhiata al messaggio di errore nella finestra del registro e alla pagina [API shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Per **shader personalizzato**: date un&#39;occhiata al messaggio di errore nella finestra del registro e alla pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

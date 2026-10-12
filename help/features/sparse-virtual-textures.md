@@ -52,7 +52,7 @@ Per ulteriori informazioni tecniche, vedere: [Texture virtuali sparse](https://s
 ![](../assets/settings-temp.png)
 
 Quando la memoria di sistema (Ram) non è sufficiente per memorizzare la cache SVT, Substance 3D Painter passa al disco rigido del computer per memorizzare la cache.\
-Per impostazione predefinita, la posizione di questa cache si trova nella cartella dei file temporanei del sistema operativo. È possibile modificare questa posizione accedendo alle impostazioni principali dell&#39;applicazione, vedere [Preferenze generali](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
+Per impostazione predefinita, la posizione di questa cache si trova nella cartella dei file temporanei del sistema operativo. È possibile modificare questa posizione accedendo alle impostazioni principali dell&#39;applicazione, vedere [Preferenze generali](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
 
 ## Compatibilità con Shader
 
@@ -61,7 +61,7 @@ Per sfruttare appieno la SVT, gli Ombreggiatori devono richiedere e leggere text
 Per aggiornare gli shader:
 
 * Per **Substance 3D Painter shader predefinito**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../interface/shader-settings/updating-a-shader.md).
-* Per **shader personalizzato**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Per **shader personalizzato**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

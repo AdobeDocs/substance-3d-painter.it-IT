@@ -20,7 +20,7 @@ Substance 3D Painter è un software per la pittura 3D che consente di eseguire t
 
 Questa documentazione è progettata per aiutarti a imparare a utilizzare questo software, dalle tecniche di base a quelle avanzate.
 
-Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle sul nostro [forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) per ulteriori informazioni su PBR.
+Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle sul nostro [forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://helpx.adobe.com/it/substance-3d/unlisted/tutorials.html) per ulteriori informazioni su PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 ### Contenuti
 
 * [Creazione di effetti personalizzati](content/creating-custom-effects/creating-custom-effects.md)
-* [Importazione delle risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importazione delle risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Funzionalità
 
@@ -104,7 +104,7 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 
 ### Scripting e sviluppo
 
-* [Script e plug-in](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Script e plug-in](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Supporto tecnico
 

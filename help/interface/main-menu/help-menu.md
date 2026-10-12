@@ -21,7 +21,7 @@ ht-degree: 6%
 
 | Azione | Descrizione |
 | --- | --- |
-| Tutorial | Collegamento alle [esercitazioni](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) ufficiali correlate all&#39;applicazione. |
+| Tutorial | Collegamento alle [esercitazioni](https://helpx.adobe.com/it/substance-3d/unlisted/tutorials.html) ufficiali correlate all&#39;applicazione. |
 | Note sulla versione | Collegamento alle [note sulla versione](../../release-notes/all-changes.md). |
 | Documentazione | Collega questa documentazione. |
 | Elenco scelte rapide | Collegamento alla documentazione di [collegamenti](../settings/shortcuts.md). |
