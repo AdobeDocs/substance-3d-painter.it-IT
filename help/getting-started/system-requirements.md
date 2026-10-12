@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/system-requirements.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verifica i requisiti di sistema di Substance 3D Painter per verificare che il computer soddisfi le specifiche hardware e software.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > System requirements
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Requisiti di sistema
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 1%
-
 ---
-
 
 # Sistemi supportati
 
@@ -64,7 +56,7 @@ Varie:
 * L&#39;esportazione a <b>8K</b> (8192\*8192 pixel) richiede una GPU con <b>più di</b> 2 GB di VRam.
 * Solo le versioni 2019.x e successive sono state autenticate per essere eseguite su MacOS 10.15 (Catalina).
 * Per utilizzare il software tramite RDP (Desktop remoto), vedere la [pagina della documentazione](../pipeline-and-integration/configuration/remote-desktop.md) dedicata.
-* L&#39;arresto anomalo della CPU Ryzen durante la cottura al forno può essere risolto aggiornando il BIOS.
+* L&#39;Arresto anomalo sulla CPU Ryzen durante la esegue i baking può essere risolto aggiornando il BIOS.
 
 ## Configurazione non supportata
 
@@ -105,7 +97,7 @@ Per scaricare nuovi driver, consultate: [La GPU contiene driver obsoleti](../tec
 
 Per un elenco dettagliato dei problemi relativi ai driver GPU per costruttore, consultare la [pagina dedicata alla documentazione](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md).
 
-## Raytracing GPU per la cottura al forno
+## Raytracing GPU per eseguire i baking
 
 Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i driver minimi sopra consigliati.
 
@@ -116,7 +108,7 @@ Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i d
 
 >[!TIP]
 >
-> Raytracing GPU funziona in modo ottimale su hardware dedicato per il ray tracing, ad esempio le GPU NVIDIA GeForce RTX o NVIDIA Quadro RTX.
+> Raytracing GPU funziona in modo ottimale su hardware di raytracing dedicato come le GPU NVIDIA GeForce RTX o NVIDIA Quadro RTX.
 
 ## Tablet grafici supportati
 

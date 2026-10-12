@@ -1,34 +1,26 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/lazy-mouse.html"
-breadcrumb-title: ''
-description: Scopri come utilizzare il mouse pigro in Substance 3D Painter per creare pennellate fluide e uniformi con risposta ritardata del cursore.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Lazy mouse
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Scopri come utilizzare il Mouse lento in Substance 3D Painter per creare tratti di pennello fluidi e uniformi con risposta ritardata del cursore.
 title: Mouse lento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 2%
-
 ---
-
 
 # Mouse lento
 
 ![](../assets/lazy-mouse-example.png)
 
-Il mouse pigro è uno scostamento di distanza tra il cursore del mouse e il disegno effettivo che consente di disegnare tratti più precisi o uniformi.
+Il Mouse lento è uno scostamento di distanza tra il cursore del mouse e il disegno effettivo che consente di pittura tratti più precisi o uniformi.
 
 Può essere attivata tramite la [barra degli strumenti contestuale](../interface/toolbars.md). Semplifica la pittura con linee continue e pulite.
 
 ## Abilitazione del Mouse lento
 
-Per attivare o disattivare il mouse pigro, fare clic sul pulsante disponibile nella barra degli strumenti contestuale:
+Per attivare o disattivare il Mouse lento, è sufficiente fare clic sul pulsante disponibile nella barra degli strumenti contestuale:
 
 ![](../assets/lazy-mouse-button.png)
 

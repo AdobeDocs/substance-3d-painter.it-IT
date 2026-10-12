@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-10-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 10.0 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 10.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 
 # Versione 10.0
 
@@ -112,10 +104,10 @@ In seguito al supporto per i file <b>.svg</b>, questa nuova versione aggiunge an
 
 ![](../assets/v10_banner_python-1.jpg)
 
-Con questa versione viene aggiunto il nuovo modulo Pila livelli all’API Python. Questa API consente di controllare la pila di livelli di un progetto, aprendo la porta alla creazione di plug-in avanzati per la pila di livelli e strumenti personalizzati.
+Con questa versione viene aggiunto il nuovo modulo Pila livelli all’API Python. Questa API consente di controllare la Pila livelli di un progetto, aprendo la porta alla creazione di plug-in di Pila livelli avanzati e strumenti personalizzati.
 
 * <b>Nuova API Pila livelli</b>\
-  Il nuovo modulo <b>layerstack</b> consente di controllare la pila di livelli di un progetto in molti modi. È possibile:
+  Il nuovo modulo <b>layerstack</b> consente di controllare la Pila livelli di un progetto in molti modi. È possibile:
 
   * Eseguire una query e impostare la selezione di livelli ed effetti.
   * Crea nuovi livelli, cartelle ed effetti (inclusi filtri, punti di ancoraggio, ecc.).
@@ -123,9 +115,9 @@ Con questa versione viene aggiunto il nuovo modulo Pila livelli all’API Python
   * Ottieni e imposta i parametri di livelli ed effetti, carica le risorse in essi.
   * Recupera e imposta i parametri della Substance.
 * <b>Modifiche con ambito e pausa del motore</b>\
-  La manipolazione della pila di livelli potrebbe portare a lunghi calcoli, ecco perché abbiamo anche esposto la possibilità di mettere in pausa e rimettere in pausa il motore dall’API (come nell’interfaccia utente). Abbiamo inoltre reso possibile raggruppare le modifiche per entrambi i motivi di prestazioni, ma anche per annullare una singola operazione multipla.
+  La manipolazione della Pila livelli potrebbe portare a calcoli lunghi, ecco perché abbiamo anche esposto la possibilità di mettere in pausa e rimettere in pausa il motore dall’API (come nell’interfaccia utente). Abbiamo inoltre reso possibile raggruppare le modifiche per entrambi i motivi di prestazioni, ma anche per annullare una singola operazione multipla.
 * <b>Gestione colore di base</b>\
-  Con l’esposizione della pila di livelli dovevamo introdurre il concetto di gestione del colore nella nostra API. È stato aggiunto un nuovo modulo <b>gestione dei colori</b> per creare, modificare i colori e scegliere lo spazio colore delle bitmap. (Questa parte dell’API non è ancora completa e verrà espansa nelle versioni future).
+  Con l’esposizione della Pila livelli dovevamo introdurre il concetto di gestione del colore nella nostra API. È stato aggiunto un nuovo modulo <b>gestione dei colori</b> per creare, modificare i colori e scegliere lo spazio colore delle bitmap. (Questa parte dell’API non è ancora completa e verrà espansa nelle versioni future).
 * <b>Query sulle informazioni sui predefiniti di esportazione</b>\
   I predefiniti di esportazione ora sono disponibili nell’API, e consentono di richiedere l’elenco dei predefiniti (sia predefiniti che personalizzati). Il loro contenuto può anche essere recuperato in un formato simile al nostro attuale API di esportazione della texture.
 * <b>Nuove possibilità in futuro.\
@@ -239,20 +231,20 @@ Riepilogo: <b>Versione principale, edizione della Pila livelli con API Python, l
 * [Risorsa di testo] Consenti di cercare/visualizzare i font nei mini-scaffali
 * [Risorsa testo] Aggiungi messaggio di errore/finestra di dialogo durante l’importazione di un font incompatibile
 * Varie
-* [Proiezione riempimento] Migliora il comportamento del manipolatore di scala quando si utilizzano valori piccoli
-* [Manipolatori] Aggiungi una nuova modalità precisa quando si preme CTRL
-* [Manipolatori] Miglioramento della stabilità del manipolatore di superficie durante la traslazione
+* [Proiezione riempimento] Migliora il comportamento del manipolatore Scala quando si utilizzano valori piccoli
+* [Manipolatori] Aggiungi una nuova modalità precisa quando premi la scelta rapida da tastiera CTRL
+* [Manipolatori] Miglioramento della stabilità del manipolatore durante la traslazione
 * [Esporta] Aggiungi nome spazio colore negli output SBSAR
 * [Prestazioni] Miglioramento dei tempi di individuazione delle librerie delle risorse su disco
 * [Substance] Aggiornamento al motore di Substance versione 9.1.2
 * [Drag and Drop] Allinea la rotazione della decalcomania alla videocamera quando viene rilasciata nella finestra della vista
-* [Python] Edizione dello stack di livelli
+* Edizione [Python] della Pila livelli
 * [Python] Consenti di selezionare livello, effetto, maschera e maschera geografica nell&#39;interfaccia utente
 * [Python] Consenti di ottenere/impostare i metodi di fusione dei livelli
 * [Python] Consenti di ottenere/impostare le impostazioni di proiezione del livello di riempimento
 * [Python] Consente di interrogare il colore del materiale della Substance da un livello di riempimento
-* [Python] Consenti di eseguire query e impostare colori e risorse uniformi nei livelli e negli effetti
-* [Python] Consenti di creare e modificare risorse di testo in una pila di livelli
+* [Python] Consenti di eseguire query e impostare colori uniformi e risorse in livelli ed effetti
+* [Python] Consenti di creare e modificare risorse di testo in Pila livelli
 * [Python] Consente di modificare i canali attivi su livelli ed effetti
 * [Python] Consenti alle azioni in batch di avere un singolo annullamento/ripristino
 * [Python] Consente di caricare/modificare i parametri di origine vettoriale
@@ -264,7 +256,7 @@ Riepilogo: <b>Versione principale, edizione della Pila livelli con API Python, l
 * [Python] Consenti di passare a nodi di pari livello e nodi padre
 * [Python] Consente di creare un effetto filtro/generatore
 * [Python] Consente di aggiungere un effetto livello
-* [Python] Consenti di aggiungere una maschera avanzata a un livello
+* [Python] Consenti di aggiungere maschera avanzata a un livello
 * [Python] Consenti di creare/modificare punti di ancoraggio
 * [Python] Consenti di ottenere/impostare la maschera sui livelli
 * [Python] Consente di creare un effetto maschera di confronto
@@ -279,29 +271,29 @@ Riepilogo: <b>Versione principale, edizione della Pila livelli con API Python, l
 * [Arresto anomalo] Annullamento di &quot;Rimuovi istanza shader&quot; con Ctrl+Z
 * [Arresto anomalo] Crea un livello su una pila vuota se l’ultima selezione era un effetto
 * [SVG] Problema con il valore dell’area ritagliata personalizzato
-* [Annullamento automatico] Il ricalcolo del solo impacchettamento senza alcuna modifica dell’orientamento UV provoca l’arresto anomalo
+* [Srotolamento automatico] Se si ricalcola solo l&#39;impacchettamento senza modificare l&#39;orientamento UV, si verifica un arresto anomalo
 * [Drag and drop] Il ritardo dovuto alle risorse esterne viene precaricato più volte
-* [UI] Trascinate la miniatura della risorsa per nascondere il messaggio di avviso nello stack di livelli
+* [UI] Trascina la miniatura della risorsa per nascondere il messaggio di avviso in Pila livelli
 * [Prestazioni] I riquadri UV mascherati vengono ancora calcolati
 * [USD] Evidenziazione errata per la selezione dell’ambito
 * [Risorsa] L&#39;immagine bitmap viene danneggiata dopo aver colorato nel canale normale e salvato il progetto
 * [USD] Supporta l’ordine dei vertici mancini
 * [Substance] Ripristina predefiniti torna sempre a zero per il widget Angolo
 * [Engine] Colorare con un SVG in uno stencil non funziona
-* [Motore] I tratti del pennello mappa normale si interrompono dopo un annullamento
-* [Contenuto] Il filtro Da grafica a materiale presenta una fusione alfa e uno spazio cromatico errati
+* [Motore] I tratti del pennello Mappa normale si interrompono dopo un annullamento
+* [Contenuto] L&#39;elemento grafico di un Filtro materiale presenta una fusione alfa e uno spazio cromatico errati
 * [Content] I metodi di fusione sul Tile Generator non funzionano
 * [Contenuto] In alcuni casi, il filtro di scansione dell’istogramma genera bande
-* [Contenuto] L’illuminazione al forno stilizzata non tiene conto del height dipinto
+* [Contenuto] L’illuminazione Eseguita i baking stilizzata non tiene conto del height dipinto
 * [Python] Errore imprevisto durante il recupero delle informazioni sui livelli istanziati dopo la modifica dello shader
 
 <b>Problemi noti</b>:
 
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Crash]&#x200B;[Linux]&#x200B;[AMD] Trascinamento di risorse nello stack di livelli sul sistema operativo Wayland
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Arresto anomalo]&#x200B;[Linux]&#x200B;[AMD] Trascinamento di risorse in Pila livelli su Wayland OS
 * [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo per gli schermi HD
-* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
+* [Arresto anomalo]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
 * [Salva] Il file di progetto Spp viene perso quando &quot;Salva con nome&quot; non riesce
-* [MacOS Intel] Arresto anomalo durante l’importazione di alcuni predefiniti
-* [Illustrator] Impossibile importare file Ai dopo l&#39;arresto del server senza riavviare Painter
+* [MacOS Intel] Arresto anomalo durante l&#39;importazione di alcuni predefiniti
+* [Illustrator] Impossibile importare i file Ai dopo l&#39;arresto anomalo del server senza riavviare Painter
 * [Importa] Le risorse con lo stesso nome ma estensioni diverse vengono sostituite

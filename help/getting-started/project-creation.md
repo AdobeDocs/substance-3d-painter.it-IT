@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come creare un nuovo progetto in Substance 3D Painter per iniziare a disegnare texture sui vostri modelli 3D.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creazione del progetto
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # Creazione del progetto
 
@@ -37,16 +29,16 @@ Di seguito è riportata una spiegazione di tutti i parametri disponibili nella f
 | *Parametro* | *Descrizione* |
 | --- | --- |
 | **File** | Fate clic sul pulsante &quot;Seleziona&quot; per specificare il file del modello 3D da caricare. [Un elenco dei formati di file supportati è disponibile qui.](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
-| **Modello** | Specificate un modello che definirà le impostazioni predefinite del progetto. Un modello contiene i seguenti parametri:<ul data-preserve-html="true"> <li data-preserve-html="true">Impostazioni del set di texture.</li> <li data-preserve-html="true">Impostazioni dello schermo.</li> <li data-preserve-html="true">Impostazioni di cottura.</li> <li data-preserve-html="true">Shader delle risorse (incluse le texture collegate).</li> <li data-preserve-html="true">File mappa ambiente.</li> </ul>  **Nota:** i modelli sono file di <b>\*.spt</b> creati da un progetto esistente tramite il [menu File](../interface/main-menu/file-menu.md) e salvati all&#39;interno della cartella Risorse per essere facilmente condivisi con i membri del team. |
+| **Modello** | Specificate un modello che definirà le impostazioni predefinite del progetto. Un modello contiene i seguenti parametri:<ul data-preserve-html="true"> <li data-preserve-html="true">Impostazioni del set di texture.</li> <li data-preserve-html="true">Impostazioni dello schermo.</li> <li data-preserve-html="true">Esegue i baking delle impostazioni.</li> <li data-preserve-html="true">Shader delle risorse (incluse le texture collegate).</li> <li data-preserve-html="true">File mappa ambiente.</li> </ul>  **Nota:** i modelli sono file di <b>\*.spt</b> creati da un progetto esistente tramite il [menu File](../interface/main-menu/file-menu.md) e salvati all&#39;interno della cartella Risorse per essere facilmente condivisi con i membri del team. |
 | <b>Risoluzione</b> | Definite la risoluzione della texture predefinita del progetto per ciascun set di texture. La risoluzione può arrivare fino a 4K (4096x4096 pixel) quando si lavora all&#39;interno dell&#39;applicazione e 8K (8192x8192 pixel) quando si esporta. La risoluzione può essere modificata in qualsiasi momento in seguito, tramite le [impostazioni del set di texture](../interface/texture-set/texture-set-settings.md).  **Nota:** l&#39;esportazione in 8K richiede almeno 2,5 GB di VRam nella GPU per essere disponibile. |
 
 ### Impostazioni specifiche per il tipo di file
 
-Quando viene selezionato un file USD, diventano disponibili altre impostazioni specifiche per il tipo di file.
+Quando si seleziona un USD, diventano disponibili altre impostazioni specifiche per il tipo di file.
 
 | *Parametro* | *Descrizione* |
 | --- | --- |
-| <b>Ambito e varianti</b> | Selezionare una parte specifica di un file USD. Per impostazione predefinita, questa opzione è impostata su &quot;Root&quot;, il che significa che per creare il progetto Painter verrà utilizzato l’intero file USD.  <b>Modifica...</b> apre una nuova finestra che visualizza il contenuto dell&#39;USD. Se vengono rilevate varianti, è possibile selezionare una variante specifica per la creazione del progetto. È possibile modificare l&#39;ambito e le varianti dopo la creazione del progetto nelle impostazioni [Configurazione del progetto](../interface/project-configuration.md). Si noti che -<ul data-preserve-html="true"> <li data-preserve-html="true">Solo la selezione della variante di modellazione avrà un impatto sul progetto.</li> <li data-preserve-html="true">Le varianti nidificate all&#39;interno delle varianti non vengono attualmente rilevate.</li> </ul> |
+| <b>Ambito e varianti</b> | Selezionare una parte specifica di un file USD. Per impostazione predefinita, questa opzione è impostata su &quot;Root&quot; (Radice), il che significa che per creare il progetto Painter verrà utilizzato l’intero file USD.  <b>Modifica...</b> apre una nuova finestra che visualizza il contenuto dell&#39;USD. Se vengono rilevate varianti, è possibile selezionare una variante specifica per la creazione del progetto. È possibile modificare l&#39;ambito e le varianti dopo la creazione del progetto nelle impostazioni [Configurazione del progetto](../interface/project-configuration.md). Si noti che -<ul data-preserve-html="true"> <li data-preserve-html="true">Solo la selezione della variante di modellazione avrà un impatto sul progetto.</li> <li data-preserve-html="true">Le varianti nidificate all&#39;interno delle varianti non vengono attualmente rilevate.</li> </ul> |
 | <b>Livello di suddivisioni</b> | Per la geometria che deve essere suddivisa, questa impostazione consente di specificare di quanto si desidera suddividere la trama per la creazione di texture in Painter. Se la suddivisione è impostata in modo esplicito su &quot;nessuno&quot; all’interno del file USD, questa impostazione è disattivata.  La suddivisione viene applicata dopo lo srotolamento degli UV, in modo da non alterare la forma degli UV della trama. I livelli di suddivisioni possono essere modificati dopo la creazione del progetto nelle impostazioni [Configurazione del progetto](../interface/project-configuration.md). |
 | <b>Fotogramma</b> | Per i file USD in cui vengono rilevate animazioni, questa impostazione consente di selezionare il fotogramma da utilizzare per la creazione del progetto Painter. Se nel file USD selezionato non è presente alcuna animazione, questa impostazione è disattivata. È possibile modificare il fotogramma dopo la creazione del progetto nelle impostazioni [Configurazione del progetto](../interface/project-configuration.md). |
 
@@ -65,9 +57,9 @@ Quando viene selezionato un file USD, diventano disponibili altre impostazioni s
 
 | *Parametro* | *Descrizione* |
 | --- | --- |
-| **Usa flusso di lavoro Porzione UV** | Se selezionata, la trama importata verrà elaborata in modo diverso per consentire la pittura al di fuori dell&#39;intervallo UV regolare (0-1). Questa impostazione deve essere abilitata per i progetti che utilizzano UDIM. L’elaborazione della trama può variare a seconda dell’impostazione.   Per ulteriori informazioni, consultate la [documentazione relativa ai riquadri UV](../features/uv-tiles/uv-tiles.md). |
-| <b>Mantenere il layout delle porzioni UV per i materiali e abilitare la pittura su più porzioni</b> | Le porzioni UV (UDIM) vengono importate e raggruppate per assegnazione di materiale sulla trama. Ciò significa che un singolo set di texture può contenere più Porzioni UV visibili una accanto all’altra nella vista 2D. Le porzioni UV che si trovano all’interno dello stesso set di texture possono essere colorate in modo uniforme.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
-| <b>Convertire porzioni UV in singoli set di texture (legacy)</b> | Le porzioni UV (UDIM) vengono separate in singoli insiemi di texture e rinominate, ignorando qualsiasi assegnazione di materiale. Ogni porzione UV viene spostata nell&#39;intervallo UV [0-1] per essere colorabile.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../assets/uvtiles-legacy.jpg" width="500px"/></div> |
+| **Usa flusso di lavoro Porzione UV** | Se selezionata, la trama importata verrà elaborata in modo diverso per consentire la pittura al di fuori dell&#39;intervallo UV regolare (0-1). Questa impostazione deve essere abilitata per i progetti che utilizzano UDIM. L’elaborazione della trama può variare a seconda dell’impostazione.   Per ulteriori informazioni, consulta la [documentazione Porzione UV](../features/uv-tiles/uv-tiles.md). |
+| <b>Mantieni layout Porzione UV per materiali e abilita la pittura su più riquadri</b> | Le porzioni UV (UDIM) vengono importate e raggruppate per assegnazione di materiale sulla trama. Ciò significa che un singolo set di texture può contenere più Porzioni UV visibili una accanto all’altra nella vista 2D. Le porzioni UV che si trovano all’interno dello stesso set di texture possono essere colorate in modo uniforme.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
+| <b>Convertire Porzioni UV in singoli set di Texture (legacy)</b> | Le porzioni UV (UDIM) vengono separate in singoli insiemi di texture e rinominate, ignorando qualsiasi assegnazione di materiale. Ogni Porzione UV viene spostata nell’intervallo UV [0-1] da colorabili.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../assets/uvtiles-legacy.jpg" width="500px"/></div> |
 
 ### Importa impostazioni
 
@@ -78,7 +70,7 @@ Quando viene selezionato un file USD, diventano disponibili altre impostazioni s
 
 ### Importa mappe con baking
 
-Usate il pulsante <b>Aggiungi</b> per caricare i file di texture come mappe trama e assegnarli automaticamente nelle [impostazioni del set di texture](../interface/texture-set/texture-set-settings.md). È necessario seguire una convenzione di denominazione specifica affinché le mappe mesh vengano assegnate automaticamente ai rispettivi set di texture. Le mappe della trama possono anche essere cotte direttamente all&#39;interno dell&#39;applicazione; consultate la documentazione sulla cottura al forno.
+Usate il pulsante <b>Aggiungi</b> per caricare i file di texture come mappe trama e assegnarli automaticamente nelle [impostazioni del set di texture](../interface/texture-set/texture-set-settings.md). È necessario seguire una convenzione di denominazione specifica affinché le mappe mesh vengano assegnate automaticamente ai rispettivi set di texture. Le mappe trama possono anche essere eseguite i baking direttamente all&#39;interno dell&#39;applicazione; consultate la documentazione di Esegue i baking.
 
 Convenzione di denominazione:<b> TextureSetName\_MeshMapName</b>
 
@@ -88,7 +80,7 @@ Elenco delle mappe di trama supportate e loro denominazione:
 
 | *Mappa trama* | *Convenzione per il nome file* |
 | --- | --- |
-| **occlusione ambiente** | ambiente\_occlusione |
+| **Occlusione ambientale** | ambiente\_occlusione |
 | **Curvatura** | curvatura |
 | **Normale** | normal\_base |
 | **Spazio globale normale** | world\_space\_normals |

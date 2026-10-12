@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/baking/baking-visualization-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come configurare le impostazioni di visualizzazione eseguita i baking in Substance 3D Painter per visualizzare in anteprima ed eseguire il debug dei risultati della esegue i baking delle mappe trama.
-helpx_creative_field: ""
-helpx_description: Painter > Baking > Baking visualization settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Eseguire i baking le impostazioni di visualizzazione
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 6%
-
 ---
-
 
 # Eseguire i baking le impostazioni di visualizzazione
 

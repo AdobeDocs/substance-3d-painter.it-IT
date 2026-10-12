@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come correggere gli arresti anomali del driver GPU durante i calcoli lunghi in Substance 3D Painter per evitare errori di timeout TDR.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Arresto anomalo dei driver GPU con calcoli lunghi (arresto anomalo TDR)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 
 # Arresto anomalo dei driver GPU con calcoli lunghi (arresto anomalo TDR)
 
@@ -28,7 +20,7 @@ In Windows, questa finestra viene visualizzata se Substance 3D Painter rileva ch
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Perché il driver GPU si arresta in modo anomalo?
+## Perché viene eseguito l’arresto anomalo del driver GPU?
 
 </td>
 <td style="border: 0;" valign="top">
@@ -44,7 +36,7 @@ In Windows, questa finestra viene visualizzata se Substance 3D Painter rileva ch
 </tr>
 </table>
 
-## Perché il driver GPU si arresta in modo anomalo?
+## Perché viene eseguito l’arresto anomalo del driver GPU?
 
 Per evitare che il rendering o il calcolo della GPU possano **bloccare il sistema**, il sistema operativo Windows **annulla il driver della GPU** ogni volta che il rendering richiede più di qualche secondo. Quando il driver viene terminato, l&#39;applicazione che lo utilizza si arresto anomalo automaticamente. Non è possibile sapere quanto tempo può durare un’operazione di rendering o un calcolo (dipende dalla GPU, dai driver, dal sistema operativo, dalle dimensioni della trama, dalla dimensione della texture, ecc.), pertanto non è possibile stabilire un limite alla quantità di dati che il computer deve elaborare ed evitare l’arresto anomalo dal livello dell’applicazione.
 

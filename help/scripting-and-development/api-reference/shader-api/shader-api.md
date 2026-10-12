@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accedete alla pagina di riferimento relativa alle API shader di Substance 3D Painter per creare shader personalizzati ed estendere le funzionalità di rendering.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: API Shader
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 0%
-
 ---
-
 
 # API Shader
 
@@ -80,7 +72,7 @@ Per evitare di scrivere molto codice standard in tutti i vostri shader, abbiamo 
 * [lib-alpha.glsl](libraries-shader-api/lib-alpha-shader-api.md): contiene helper correlati all&#39;opacità
 * [lib-bayer.glsl](libraries-shader-api/lib-bayer-shader-api.md): contiene gli helper matrice bayer
 * [lib-define.glsl](libraries-shader-api/lib-defines-shader-api.md): contiene utili costanti matematiche
-* [lib-emissive.glsl](libraries-shader-api/lib-emissive-shader-api.md): contiene gli helper delle proprietà di emissione
+* [lib-emissivo.glsl](libraries-shader-api/lib-emissive-shader-api.md): contiene helper proprietà emissivi
 * [lib-env.glsl](libraries-shader-api/lib-env-shader-api.md): contiene gli helper correlati alla mappa dell&#39;ambiente
 * [lib-normal.glsl](libraries-shader-api/lib-normal-shader-api.md): contiene gli helper correlati alla mappa normale (e la mappa normale generata dalla mappa del height)
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): contiene helper di rendering basati fisicamente
@@ -118,12 +110,12 @@ I tasti supportati sono:
 Per avere un&#39;idea di quello che sembra un vero shader, ecco alcuni shader campione, ordinati in base alla complessità crescente:
 
 * [pixelated.glsl](shaders-shader-api/pixelated-shader-api.md): uno shader con effetto pixel
-* [toon.glsl](shaders-shader-api/toon-shader-api.md): shader toon
+* [toon.glsl](shaders-shader-api/toon-shader-api.md): shader
 * [pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md): shader PBR predefinito incorporato nella Substance Painter
 
 ## Stratificazione dinamica dei materiali
 
-La Stratificazione dinamica dei materiali è un flusso di lavoro specifico in cui i materiali vengono combinati all’interno di uno shader e consente all’utente di modificare dinamicamente le maschere di fusione in Substance Painter. Per attivare questo flusso di lavoro, sono disponibili due nuove funzionalità:
+La Stratificazione dinamica dei materiali è un flusso di lavoro specifico in cui i materiali vengono combinati all’interno di uno shader e consente all’utente di modificare dinamicamente la maschera di fusione in Substance Painter. Per attivare questo flusso di lavoro, sono disponibili due nuove funzionalità:
 
 * dichiarare stack modificabili da una definizione di shader: [livelli\_dichiarano\_stacks.glsl](parameters-shader-api/layering-declare-stacks-shader-api.md)
-* associa i materiali come parametri dello shader: [livelli\_bind\_materials.glsl](parameters-shader-api/layering-bind-materials-shader-api.md)
+* associa materiali come parametri di shader: [livelli\_bind\_materials.glsl](parameters-shader-api/layering-bind-materials-shader-api.md)

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/assets/saved-searches.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come creare e utilizzare le ricerche salvate in Substance 3D Painter per accedere rapidamente ai filtri per le risorse utilizzati più di frequente.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Saved searches
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ricerche salvate
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
-
 ---
-
 
 # Ricerche salvate
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come correggere le anteprime di risorse vuote e ripiani in Substance 3D Painter per ripristinare la funzionalità di visualizzazione delle miniature.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Assets (or shelf) previews are empty
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Le anteprime delle risorse (o degli scaffali) sono vuote
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
-
 ---
-
 
 # Le anteprime delle risorse (o degli scaffali) sono vuote
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.1 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2017.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2017.1
 
@@ -73,7 +65,7 @@ Il nuovo contenuto è trattato nell&#39;ultima esercitazione video:
 * [Shelf] 230 Nuovi Alpha (Mix di pattern, pennelli e scansioni di impronte digitali)
 * [Scaffale] 50 Nuovi Procedurali (Tessuti di abbigliamento medievale e contemporaneo)
 * [Scaffale] 2 Nuove mappe ambientali (Mondarrain e Villa Nova Street)
-* [Shelf] 9 Nuovi filtri (MatFx Detail Edge Wear, Clamp, HBAO, ecc.)
+* [Shelf] 9 Nuovi filtri (MatFx Detail Edge Wear, Blocca, HBAO, ecc.)
 * [Shelf] Mappa ambiente Panorama predefinita migliorata
 * [Shelf] Nuovi predefiniti di esportazione Arnold 5
 * [Scripting] Consente di importare la risorsa nello scaffale

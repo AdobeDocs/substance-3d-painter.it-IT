@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/clone-tool.html"
-breadcrumb-title: ''
-description: Utilizzate lo strumento Clona di Substance 3D Painter per copiare i dettagli della texture da un’area all’altra per una pittura uniforme della texture.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Clone Tool
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Usate lo strumento Clona /Clone di Substance 3D Painter per copiare i dettagli delle texture da un’area all’altra per una pittura texture uniforme.
 title: Strumento clone
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
-
 ---
-
 
 # Strumento clone
 
@@ -37,8 +29,8 @@ Questa operazione può essere eseguita in 2 passaggi:
 
 ![](../../assets/2018-06-12-18-11-59.png)
 
-Per impostazione predefinita, quando colorate con lo strumento Clona, la posizione di origine segue e aggiorna la sua posizione una volta rilasciato il pennello. Disabilitando il pulsante utilizzato per il &quot; **comportamento di origine clone** &quot;, l&#39;origine tornerà al punto in cui era stata definita quando si preme &quot; **V** &quot;. Questo può essere utile quando colorate più volte con la stessa area sorgente.
+Per impostazione predefinita, quando colorate con lo strumento Clona, la posizione di origine segue e aggiorna la sua posizione una volta rilasciato il pennello. Disabilitando il pulsante utilizzato per il &quot; **comportamento Clona /Clone origine** &quot;, l&#39;origine tornerà al punto definito quando si preme &quot; **V** &quot;. Questo può essere utile quando colorate più volte con la stessa area sorgente.
 
-Un modo più intelligente di utilizzare lo strumento Clona /Clone consiste nel creare un livello di pittura e impostare il metodo di fusione di tutti i canali su &quot;Attraversa&quot;. Ciò consentirà di duplicare qualsiasi informazione in modo non distruttivo da tutti i livelli che si trovano sotto il &quot;livello Clone&quot;. I livelli sottostanti rimangono intatti e tutte le modifiche applicate in seguito verranno prese in considerazione dal livello Clone:
+Un modo più intelligente di utilizzare lo strumento Clona /Clone consiste nel creare un livello di pittura e impostare il metodo di fusione di tutti i canali su &quot;Attraversa&quot;. Ciò consentirà di duplicare qualsiasi informazione in modo non distruttivo da tutti i livelli che si trovano sotto il &quot;livello Clona /Clone&quot;. I livelli sottostanti rimangono intatti e tutte le modifiche applicate in seguito verranno prese in considerazione dal livello Clona /Clone:
 
 ![](../../assets/clone-02.gif)

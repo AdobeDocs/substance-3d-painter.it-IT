@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come risolvere i conflitti software che impediscono a Substance 3D Painter di avviarsi correttamente nel sistema.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Software conflicts
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Conflitti software
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 
 # Conflitti software
 
@@ -30,7 +22,7 @@ Questa pagina contiene un elenco di problemi noti di altri software che potrebbe
 | <b> computer Alienware/Dell</b> | Per ulteriori informazioni, vedere questa pagina: [Arresto anomalo durante l&#39;apertura o il salvataggio di un file](../stability-issues/crash-when-opening-or-saving-a-file.md). |
 | **APFS di Paragon Software** | È possibile che il software registri una posizione nella variabile di ambiente Percorso di Windows che può eseguire l&#39;arresto anomalo dell&#39;applicazione all&#39;avvio. La disinstallazione del software potrebbe non essere sufficiente e potrebbe essere necessario rimuovere manualmente la variabile di ambiente. Esempio di percorso problematico: `C:Program Files (x86)Paragon SoftwareAPFS for Windowsï–›éŒ à €è¸€ì‡ì‡ç¿¹` |
 | **Avecto** | L’esecuzione di una versione precedente di Avecto può causare rallentamenti e arresti anomali. Assicurati di aggiornarlo alla versione più recente. |
-| **Asus GPU Tweak** | Questo software può causare problemi durante la compilazione degli shader all&#39;interno di Substance 3D Painter o addirittura impedire l&#39;avvio della compilazione dello shader. Se si verifica questo problema, si consiglia di disinstallare il software per vedere se il problema viene risolto. |
+| **Asus GPU Tweak** | Questo software può causare problemi durante la compilazione degli shader all&#39;interno di Substance 3D Painter o addirittura impedire l&#39;avvio della compilazione di shader. Se si verifica questo problema, si consiglia di disinstallare il software per vedere se il problema viene risolto. |
 | **Asus RAMCache** | Questo software potrebbe impedire il corretto avvio di Substance 3D Painter o renderlo instabile durante l&#39;esecuzione. Se riscontri problemi di stabilità, ti consigliamo di disabilitare o installare Asus RAMCache. |
 | **Asus Sonic Suite** | Sui computer con una scheda madre ASUS, <b>Asus Sonic Suite</b> potrebbe essere installato per impostazione predefinita. La disinstallazione di questo software può risolvere alcuni problemi di visualizzazione/interfaccia in Substance 3D Painter. |
 | **Software di backup cloud** **(** OneDrive,**GDrive,** **Dropbox,** **Filestream, ecc.)** | Il software di backup cloud può essere la fonte di numerosi arresti anomali durante il salvataggio di un progetto. In tal caso, si consiglia di lavorare sul file di progetto e di salvarlo in una cartella non sincronizzata, copiando invece i file di progetto nuovamente nell’unità cloud una volta che le modifiche non saranno più apportate. |

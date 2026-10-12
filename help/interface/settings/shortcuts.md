@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Scoprite come personalizzare le scelte rapide da tastiera in Substance 3D Painter per semplificare il flusso di lavoro e migliorare l'efficienza.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Scelte rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 
 # Scelte rapide
 
@@ -129,7 +121,7 @@ Alcune scelte rapide possono **funzionare** solo se il **mouse è sopra** la fin
 
 Esempio: per **copiare** e **incollare** è necessario che il mouse si trovi **sulla Pila livelli**.
 
-| *Azione* | *Scelta rapida da tastiera (Windows)* | *Scelta rapida (MacOS)* | Descrizione |
+| *Azione* | *Scelta rapida da tastiera (Windows)* | *Scelta rapida da tastiera (MacOS)* | Descrizione |
 | --- | --- | --- | --- |
 | **Copia livello** | Ctrl+C | ⌘+C | Copia i livelli attualmente selezionati. |
 | **Taglia livello** | Ctrl+X | ⌘+X | Taglia i livelli selezionati. |

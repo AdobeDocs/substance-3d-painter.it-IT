@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-7-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 7.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 7.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
-
 ---
-
 
 # Versione 7.4
 
@@ -43,13 +35,13 @@ Questo nuovo flusso di lavoro consente di gestire e calibrare i colori dall’im
 * **Impostazioni di visualizzazione del riquadro di visualizzazione**\
   Nella parte superiore delle viste 2D e 3D sono presenti due controlli per la gestione del colore:\
   **Pulsante Colore**: attiva o disattiva la trasformazione del colore nella finestra della vista.\
-  **Menu a discesa Trasformazione visualizzazione**: seleziona la trasformazione di visualizzazione da utilizzare per la conversione dei colori.
+  **Menu a discesa Trasforma di visualizzazione**: seleziona la Trasforma di visualizzazione da utilizzare per la conversione dei colori.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
 * **Impostazioni selettore colore**\
   Quando la gestione del colore è attivata, i selettori colore offrono nuovi controlli. I colori vengono modificati nello spazio colore di lavoro specificato dalla configurazione.\
-  Sotto i cursori HSV/RGB viene visualizzato il valore del colore finale, trasformato dallo spazio di lavoro allo spazio colore di visualizzazione.
+  Sotto i cursori HSV/RGB viene visualizzato il valore del colore finale, Trasforma dallo spazio di lavoro allo spazio colore di visualizzazione.
 
   ![](../../assets/color-picker-demo.png)
 
@@ -255,7 +247,7 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 
 **Problemi noti:**
 
-* [Mac M1] I materiali avanzati non vengono visualizzati correttamente
+* [Mac M1] I Materiali avanzati non vengono visualizzati correttamente
 
 ### 7.4.0
 
@@ -275,10 +267,10 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore]&#x200B;[Finestra vista] Consente di gestire separatamente i colori delle viste 2D e 3D
 * [Gestione colore] Caricare e convertire la mappa dell&#39;ambiente nello spazio colore di lavoro
 * [Gestione colore] Regola il selettore colore e l&#39;editor con lo spazio colore corrente
-* [Gestione colore] Consente di selezionare lo spazio colore di trasformazione della visualizzazione nella finestra della vista con un nuovo menu a discesa
-* [Gestione colore] Applicare la trasformazione della visualizzazione con i risultati del rendering dei raggi
+* [Gestione colore] Consente di selezionare lo spazio colore Trasforma della visualizzazione nella finestra della vista con un nuovo menu a discesa
+* [Gestione colore] Applicare la Trasforma di visualizzazione con i risultati del rendering dei raggi
 * [Gestione colore] Esportare texture con diversi spazi colore
-* [Gestione colore]&#x200B;[Python] Applicazione delle impostazioni di gestione del colore dalla variabile di ambiente (OCIO) ai nuovi progetti
+* [Gestione colore]&#x200B;[Python] Applicare le impostazioni di gestione del colore dalla variabile di ambiente (OCIO) ai nuovi progetti
 * [Finestra vista] Consente di disancorare la finestra della vista 2D o 3D
 * [Annullamento automatico] Nuova opzione per evitare isole allungate
 * [Scripting Python] Chiama funzioni JavaScript dall’API Python

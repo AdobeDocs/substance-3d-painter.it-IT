@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/viewport/2d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la Vista 2D in Substance 3D Painter per visualizzare e modificare la texture nello spazio UV per una texture precisa.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Viewport > 2D view
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Vista 2D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # Vista 2D
 
@@ -40,7 +32,7 @@ In basso a destra nella finestra della vista si trova **Informazioni asse**, che
 
 ![](../../assets/2d-view-button.png)
 
-Accanto alla **Modalità di visualizzazione** è disponibile il pulsante **Informazioni sull&#39;elemento UV** che consente di mostrare/nascondere informazioni relative all&#39;elemento UV Tiles. Questo pulsante non è visibile con i progetti normali.
+Accanto alla **modalità di visualizzazione** è disponibile il pulsante **Porzione UV informazioni** che consente di mostrare/nascondere le informazioni relative alla Porzione UV. Questo pulsante non è visibile con i progetti normali.
 
 ## Flusso di lavoro progetto
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate la proiezione cilindrica in Substance 3D Painter per proiettare texture da un cilindro per avvolgere texture attorno a oggetti cilindrici.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Cylindrical projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Proiezione cilindrica
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 67d4a1ed7e1c56a6dc58940efe620a06c159064e
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 3%
-
 ---
-
 
 # Proiezione cilindrica
 
@@ -29,7 +21,7 @@ La proiezione cilindrica del riempimento consente di proiettare immagini e patte
 | Impostazione | Descrizione |
 | --- | --- |
 | **Filtraggio** | Controlla il modo in cui la texture o il materiale verranno filtrati. Questa impostazione può influire sull&#39;aspetto della texture se viene ripetuta più volte. Con valori di ridimensionamento elevati, l’utilizzo di un filtro diverso da quello predefinito può produrre risultati migliori. Impostazioni correnti disponibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Sede centrale `\|` bilineare</strong> (impostazione predefinita): filtro bilineare avanzato che tenta di migliorare la qualità della texture quando i valori Affiancamenti sono alti.</li><li data-preserve-html="true"><strong>Bilineare `\|` Nitido</strong>: filtro bilineare semplice che ammorbidisce leggermente la texture, ma tenta di mantenere i dettagli.</li><li data-preserve-html="true"><strong>Più vicino</strong>: nessun filtro utile se il filtro bilineare produce un risultato sfocato e interrompe i dettagli più fini. Può introdurre l&#39;alias nella texture.</li></ul> |
-| **Involucro UV** | Controllate la modalità di ripetizione della texture all’interno della proiezione. I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nessuno</strong>: la texture non viene ripetuta. Tutto ciò che si trova al di fuori della texture è nero/trasparente.</li><li data-preserve-html="true"><strong>Ripetizione orizzontale</strong>: la texture viene ripetuta solo orizzontalmente.</li><li data-preserve-html="true"><strong>Ripeti verticalmente</strong>: la texture si ripete solo verticalmente.</li><li data-preserve-html="true"><strong>Ripetizione</strong> (impostazione predefinita): la texture si ripete su entrambi gli assi.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cyl-repeat.jpg" width="500px"/></div> **Nota:** nell&#39;immagine precedente, l&#39;impostazione dell&#39;angolo è impostata su 90, limitando la distanza di applicazione della proiezione. |
+| **Involucro UV** | Controlla il modo in cui la texture si ripete all&#39;interno della proiezione. I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nessuno</strong>: la texture non viene ripetuta. Tutto ciò che si trova al di fuori della texture è nero/trasparente.</li><li data-preserve-html="true"><strong>Ripetizione orizzontale</strong>: la texture viene ripetuta solo orizzontalmente.</li><li data-preserve-html="true"><strong>Ripetizione verticale</strong>: la texture viene ripetuta solo verticalmente.</li><li data-preserve-html="true"><strong>Ripetizione</strong> (impostazione predefinita): la texture si ripete su entrambi gli assi.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cyl-repeat.jpg" width="500px"/></div> **Nota:** nell&#39;immagine precedente, l&#39;impostazione dell&#39;angolo è impostata su 90, limitando la distanza di applicazione della proiezione. |
 | **Ritaglio forma** | Definite se la texture proiettata deve essere visibile all&#39;esterno dell&#39;area di proiezione. I valori possibili sono:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Progetto ritagliato in forma</strong>: la proiezione è limitata all&#39;interno dell&#39;area di proiezione.</li><li data-preserve-html="true"><strong>La proiezione si estende oltre la forma</strong> (impostazione predefinita): la proiezione continua oltre l&#39;area di proiezione.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cylindrical-extend.jpg" width="500px"/></div> |
 | **Angolo** | Consente di controllare le dimensioni della proiezione sul perimetro del cilindro. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cylindrical-angle.gif"/></div> |
 | **Eliminazione sfondo** | L&#39;attivazione di Culling Backface consente di tagliare la proiezione a un angolo perpendicolare al cilindro. Il cursore Durezza definisce la morbidezza della proiezione negli angoli intermedi (che non sono pieni di 90 gradi). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cylindrical-proj.gif" width="500px"/></div> |

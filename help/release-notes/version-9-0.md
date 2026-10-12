@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-9-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultate le note sulla versione per Substance 3D Painter versione 9.0 per informazioni su nuove funzioni, miglioramenti e correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 9.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
-
 ---
-
 
 # Versione 9.0
 
@@ -26,14 +18,14 @@ Data di pubblicazione: *20 giugno 2023*
 
 ## Funzioni principali
 
-### Nuovo disegno lungo il tracciato nella finestra della vista 3D
+### Nuova pittura lungo il tracciato nella finestra della vista 3D
 
 ![Primo piano di una scarpa in pelle con un percorso disegnato in alto con la relativa interfaccia utente di supporto](../assets/v90_banner_path.jpg)
 
-Lo strumento <b>Disegna lungo il tracciato</b> è un nuovo modo per colorare i tratti nella finestra della vista 3D. Analogamente ad altre applicazioni, potete creare curve basate su Bezier guidate da punti sulla superficie dell’oggetto 3D per disegnare pattern. Combinato con materiali di Substance questo nuovo strumento può aprire un sacco di nuove possibilità.
+Lo strumento <b>Pittura lungo il tracciato</b> è un nuovo modo per pittura i tratti nella finestra della vista 3D. Analogamente ad altre applicazioni, potete creare curve basate su Bezier guidate da punti sulla superficie dell’oggetto 3D per disegnare pattern. Combinato con materiali di Substance questo nuovo strumento può aprire un sacco di nuove possibilità.
 
 * <b>Nuovo strumento per la creazione di tracce pittura guidate da un tracciato con punti</b>\
-  Nella barra degli strumenti dello strumento è presente una nuova icona dedicata allo strumento Tracciato. Questo nuovo strumento consente di disegnare curve sulla superficie del modello 3D per creare tratti pennello. Questi tratti possono sempre essere modificati nuovamente. Quando lo strumento è attivo, fate clic sulla superficie della trama per aggiungere un punto. Fai clic su un punto esistente e premi elimina per rimuoverlo.
+  Nella barra degli strumenti dello strumento è presente una nuova icona dedicata allo strumento Tracciato. Questo nuovo strumento consente di disegnare curve sulla superficie del modello 3D per creare tratti di pittura. Questi tratti possono sempre essere modificati nuovamente. Quando lo strumento è attivo, fate clic sulla superficie della trama per aggiungere un punto. Fai clic su un punto esistente e premi elimina per rimuoverlo.
 
   ![Schermata dell&#39;interfaccia della barra degli strumenti che mostra i 3 tipi di strumenti tracciato.](../assets/v90_path_toolbar.png)
 
@@ -133,10 +125,10 @@ Riepilogo: <b>Versione principale con Pittura lungo il percorso che consente cur
 
 <b>Aggiunto:</b>
 
-* [Tracciato] Strumento Aggiungi nuovo disegno lungo tracciato
-* [Tracciato] Aggiungi una scelta rapida vuota per lo strumento tracciato
+* [Tracciato] Strumento Aggiungi nuova Pittura lungo il tracciato
+* [Tracciato] Aggiungi una scelta rapida da tastiera vuota per lo strumento tracciato
 * [Path] Consente di aggiungere nuovi punti a un percorso esistente
-* [Path] Aggiungi collegamento per uscire dalla creazione del percorso corrente
+* [Path] Aggiungi scelta rapida da tastiera per uscire dalla creazione del percorso corrente
 * [Tracciato] Consente di modificare le proprietà del pennello per i tracciati
 * [Tracciato] Regolare automaticamente le tangenti durante il posizionamento di un punto
 * [Path] Ricalcolare le tangenti quando si sposta un punto

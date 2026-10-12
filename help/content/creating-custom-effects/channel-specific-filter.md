@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come creare effetti di filtro specifici per i canali in modo che Substance 3D Painter elabori i singoli canali di texture.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Channel specific filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Filtro specifico per il canale
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
-
 ---
-
 
 # Filtro specifico per il canale
 
@@ -50,12 +42,12 @@ Per generare l&#39;output di questo componente alfa, creare un nodo di output co
 
 | Nome canale | Utilizzo | Identificatore/Alpha Identificatore |
 | --- | --- | --- |
-| *Occlusione ambiente* | **occlusioneAmbientale** | **ambientOcclusion/ambientOcclusion\_Alpha** |
+| *Occlusione ambientale* | **occlusioneAmbientale** | **ambientOcclusion/ambientOcclusion\_Alpha** |
 | *Angolo di anisotropia* | **anisotropiangolo** | **anisotropiaAngolo/anisotropiaAngolo\_Alpha** |
 | *Livello di anisotropia* | **anisotropilivello** | **anisotropiaLivello/anisotropiaLivello\_Alpha** |
 | *Colore di base* | **colore base** | **baseColor / baseColor\_Alpha** |
 | *Maschera di fusione* | **maschera di fusione** | **maschera di fusione/maschera di fusione\_Alpha** |
-| *Diffusione* | **diffusione** | **diffusione/diffusione\_Alpha** |
+| *Diffusa* | **diffusione** | **diffusione/diffusione\_Alpha** |
 | *Spostamento* | **spostamento** | **spostamento/spostamento\_Alpha** |
 | *Emissivo* | **emissivo** | **emissivo/emissivo\_Alpha** |
 | *Lucentezza* | **lucentezza** | **lucentezza/lucentezza\_Alpha** |

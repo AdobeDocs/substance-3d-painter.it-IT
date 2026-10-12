@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/physical-size.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come impostare la dimensioni fisiche in Substance 3D Painter per definire le dimensioni reali per un ridimensionamento accurato della texture.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Physical size
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Dimensione fisica
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
-
 ---
-
 
 # Dimensione fisica
 
@@ -30,7 +22,7 @@ Per ulteriori informazioni, consulta:
 
 * <b>Dimensioni fisiche</b> parametri in [Riempi proiezioni](../painting/fill-projections/fill-projections.md)
 * <b>Parametri Griglia</b> in [Impostazioni viewport](../interface/display-settings/viewport-settings.md)
-* <b>Spostamento basato sulla dimensioni fisiche</b> in [Impostazioni shader](../interface/shader-settings/shader-settings.md)
+* <b>Spostamento basato su dimensioni fisiche</b> in [Shader](../interface/shader-settings/shader-settings.md)
 
 >[!NOTE]
 >

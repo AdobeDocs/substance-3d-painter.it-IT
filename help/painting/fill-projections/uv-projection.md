@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/fill-projections/uv-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate la Proiezione UV in Substance 3D Painter per proiettare la texture in base alle coordinate UV per un posizionamento preciso della texture.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > UV projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Proiezione UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
-
 ---
-
 
 # Proiezione UV
 
@@ -60,7 +52,7 @@ La Proiezione UV utilizza un manipolatore disponibile solo nella [Vista 2D](../.
 | **Traduci con vincolo** | MAIUSC+clic del mouse | Fate clic e trascinate qualsiasi area all’interno della trasformazione tenendo premuta e tenendo premuta la scelta rapida da tastiera per spostarla solo lungo un asse. L&#39;asse può essere orizzontale o verticale e allineato alla videocamera, in base alla direzione del mouse. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-translate-constrained.gif"/></div> |
 | **Rotazione** | Clic del mouse | Facendo clic e trascinando dall&#39;esterno della trasformazione è possibile ruotarla. Spostando il perno è anche possibile modificare il punto di origine della rotazione.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-rotation.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-rotation-pivot.gif"/></div>  </td> </tr> </table> |
 | **Rotazione vincolata** | MAIUSC+clic del mouse | Facendo clic e trascinando dall&#39;esterno della trasformazione, tenendo premuta e mantenendo la scelta rapida da tastiera, è possibile ruotarla solo ogni 45 gradi. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-rotation-constrained.gif"/></div> |
-| **Scala** | Clic del mouse | Facendo clic e trascinando le maniglie del manipolatore è possibile deformare la trasformazione.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-free.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle.gif"/></div>  </td> </tr> </table> |
+| **Scala** | Clic del mouse | Facendo clic e trascinando una delle maniglie del manipolatore è possibile deformare la trasformazione.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-free.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle.gif"/></div>  </td> </tr> </table> |
 | **Scala vincolata** | MAIUSC+clic del mouse | Premendo e mantenendo la scelta rapida da tastiera mentre si trascina una maniglia, la trasformazione viene forzata a mantenere le proporzioni.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-ratio.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle-ratio.gif"/></div>  </td> </tr> </table> |
 | **Scala con mirroring** | CTRL+clic del mouse | Quando si sposta una maniglia mentre si preme la scelta rapida da tastiera, le altre maniglie eseguono un movimento simile. Consente di deformare la trasformazione in simmetria attorno al punto fulcro.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-mirror.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-mirror-pivot.gif"/></div>  </td> </tr> </table> |
 | **Scala con mirroring e vincolo** | MAIUSC+CTRL+clic del mouse | La combinazione di entrambe le scelte rapide consente di deformare la trasformazione in simmetrie mantenendo le proporzioni. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r8-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-mirror-ratio.gif"/></div> |

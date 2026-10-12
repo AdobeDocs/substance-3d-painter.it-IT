@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/geometry-mask.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare le maschere di geometria in Substance 3D Painter per mascherare i livelli in base alla geometria della trama e alle proprietà della superficie.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Geometry mask
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Maschera Geometria
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
-
 ---
-
 
 # Maschera Geometria
 
@@ -32,7 +24,7 @@ La maschera Geometria (Geometry) è uno strumento utile per eliminare rapidament
 * In genere è più veloce da configurare e utilizzare con le modalità di selezione della finestra della vista.
 * Offre prestazioni migliori in quanto la geometria può essere completamente eliminata durante la generazione delle texture.
 * Non è distruttivo e verrà aggiornato quando il modello 3D viene modificato dopo una reimportazione.
-* Consente di colorare la geometria che si trova sotto la geometria mascherata, consentendo di colorare le parti nascoste.
+* Consente di pittura la geometria che si trova sotto la geometria mascherata, consentendo di pittura le parti nascoste.
 * Analogamente alla maschera pittura, la maschera di geometria può essere applicata a un gruppo per agire su più livelli contemporaneamente.
 
 ### Stati icona

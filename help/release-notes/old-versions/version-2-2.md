@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2.2 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2.2
 
@@ -70,25 +62,25 @@ L&#39;ultima esercitazione video illustra le nuove funzioni:
 * [Shelf] Miglioramento del sistema di ricerca e delle query
 * [Shelf] Aggiungi campo di ricerca per i mini-scaffali
 * [Shader] Consente di definire la precisione dei passi per i cursori
-* [Shader] Aggiungere un pulsante Annulla/Ripeti per i parametri dello shader
-* [Shader] Il ricaricamento di uno shader non deve reimpostarne i parametri
+* [Shader] Aggiungi un pulsante Annulla/Ripeti per i parametri di shader
+* [Shader] Il ricaricamento di uno shader non dovrebbe ripristinarne i parametri
 * [MatLayering] Aggiungi il supporto per Stratificazioni dinamiche del materiale e sottopile
-* [MatLayering] Consenti di importare un file json per configurare le impostazioni dello shader
-* [MatLayering] Limite sblocca i campionatori texture (passa a texture senza binding)
-* [Scripting] Consenti di impostare le impostazioni dei panettieri e avviare il loro calcolo
-* [Substance] Utilizzare &quot;utilizzo&quot; per connessioni di input/output oltre agli identificatori
+* [MatLayering] Consenti di importare il file json per configurare le impostazioni di shader
+* [MatLayering] Sblocca il limite dei campionatori texture (passa a texture senza binding)
+* [Scripting] Consenti di impostare le impostazioni dei baker e avviare il calcolo
+* [Substance] Utilizzo per connessioni di input/output oltre agli identificatori
 * [Tool] Consente di selezionare il canale di anteprima nella finestra della vista per lo strumento di proiezione
 
 **Risolto:**
 
 * Arresto anomalo all&#39;avvio se le sostanze si trovano in una cartella errata
-* Il rapporto sugli arresti anomali a volte non funziona a causa di un file di registro errato
-* [Iray] Gli effetti post non si aggiornano quando Iray è in pausa
-* [Iray] La scelta rapida per l&#39;attivazione automatica non funziona più
+* Il report di Arresto anomalo a volte non funziona a causa di un file di registro errato
+* [Iray] Gli Effetti post non si aggiornano quando Iray è in pausa
+* [Iray] La scelta rapida da tastiera con messa a fuoco automatica non funziona più
 * [Iray] Il comportamento del cursore Apertura varia a seconda delle dimensioni della risorsa
 * [Livelli] Il primo canale di materiale non è attivato per impostazione predefinita se è disattivato
-* [Shader] Se un &quot;param auto&quot; non è corretto, non vengono stampati errori
+* [Shader] Se un &quot;parametro automatico&quot; non è corretto, non viene stampato alcun errore
 
 **Problema noto:**
 
-* [Mac] Il limite di campioni di texture è bloccato su 16 (problema con il driver della GPU)
+* [Mac] Il limite di campioni di Texture è bloccato su 16 (problema driver GPU)

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come correggere gli arresti anomali di Substance 3D Painter durante le operazioni di esportazione per flussi di lavoro di esportazione texture affidabili.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Arresto anomalo durante l’esportazione
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 
 # Arresto anomalo durante l’esportazione
 
@@ -30,7 +22,7 @@ Per ulteriori informazioni, consulta: [arresto anomalo di driver GPU con calcoli
 
 ## Memoria virtuale insufficiente
 
-L’esportazione può richiedere una grande quantità di RAM (memoria del computer), nel qual caso il sistema tenterà di eseguire il fallback sulla memoria virtuale se la RAM del sistema è esaurita. La memoria virtuale è in genere una memoria aggiuntiva memorizzata sulle unità disco rigido. Se le dimensioni della memoria virtuale sono troppo piccole, Substance 3D Painter si arresta in modo anomalo perché la memoria totale è esaurita.
+L’esportazione può richiedere una grande quantità di RAM (memoria del computer), nel qual caso il sistema tenterà di eseguire il fallback sulla memoria virtuale se la RAM del sistema è esaurita. La memoria virtuale è in genere una memoria aggiuntiva memorizzata sulle unità disco rigido. Se le dimensioni della memoria virtuale sono troppo piccole, Substance 3D Painter verrà arresto anomalo a causa di memoria totale insufficiente.
 
 Per ulteriori informazioni, vedere: [Arresto anomalo con memoria virtuale insufficiente](crash-with-low-virtual-memory.md).
 

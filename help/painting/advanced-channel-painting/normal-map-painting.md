@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come pittura la mappa normale direttamente in Substance 3D Painter per aggiungere dettagli della superficie e profondità alle texture.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mappa normale pittura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
-
 ---
-
 
 # Mappa normale pittura
 
-I dettagli di pittura possono essere eseguiti colorando direttamente i dati della Mappa normale direttamente sulla trama. In questa pagina viene raggruppato un modo diverso per gestire la normale pittura di mappe.
+I dettagli di pittura possono essere eseguiti colorando direttamente i dati della Mappa normale direttamente sulla trama. In questa pagina viene raggruppato un modo diverso per gestire la pittura di mappa normale.
 
 ## Dettagli mappa normale di pittura
 
@@ -30,7 +22,7 @@ Per pittura dettagli mappa normale:
 1. Attivate il canale normale nello strumento di pittura corrente
 1. Caricate una risorsa Normale nello slot Normale della sezione Materiale dello strumento di pittura corrente.
 
-Da lì, dipingere con una mappa normale è molto simile a [Pittura mappa Height](height-map-painting.md) , con la precisione aggiuntiva di una normale cotta.
+Da qui, dipingere con una mappa normale è molto simile a [Pittura mappa altezza](height-map-painting.md) , con la precisione aggiuntiva di una normale eseguita i baking.
 
 ![](../../assets/normal-painting.gif)
 
@@ -48,7 +40,7 @@ Per ulteriori informazioni, consultate la pagina [Metodi di fusione](../../inter
 
 Quando si carica una mappa normale nello slot di un materiale (proprietà dello strumento o livello di riempimento), è possibile modificare lo spazio colore predefinito.
 
-Questa impostazione può essere utilizzata per specificare il Formato mappa normale poiché per impostazione predefinita è prevista una mappa normale di DirectX (Y-), che non è influenzata dall&#39;impostazione del progetto. Pertanto, quando si utilizza una mappa normale OpenGL (Y+), è necessario fare clic sulla piccola freccia per aprire il menu dello spazio colore e quindi modificare lo spazio colore della bitmap.
+Questa impostazione può essere utilizzata per specificare il Formato mappa normale poiché per impostazione predefinita è prevista una mappa normale DirectX (Y-), che non è influenzata dall&#39;impostazione del progetto. Pertanto, quando si utilizza una mappa normale OpenGL (Y+), è necessario fare clic sulla piccola freccia per aprire il menu dello spazio colore e quindi modificare lo spazio colore della bitmap.
 
 ![](../../assets/normal-color-space.png)
 

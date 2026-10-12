@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/uv-reprojection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la riproiezione UV in Substance 3D Painter per trasferire texture tra layout UV diversi.
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Reprojection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Riproiezione UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
-
 ---
-
 
 # Riproiezione UV
 
@@ -25,7 +17,7 @@ Se carichi una nuova trama nel documento (tramite la finestra [Configurazione pr
 
 Colorare in vista 2D
 
-Poiché ogni tratto creato nel Vista 2D viene eseguito nello spazio UV, non c&#39;è modo di riproiettarlo correttamente nel caso in cui l&#39;UV della trama cambi radicalmente dopo una reimportazione. Il modo migliore per fare in modo che il vostro progetto sia a prova di riproiezione è affidarsi alla mascheratura tramite una mappa ID e altro tipo di selezione e pittura invece della Vista 3D.
+Poiché ogni tratto creato nel Vista 2D viene eseguito nello spazio UV, non c&#39;è modo di riproiettarlo correttamente nel caso in cui l&#39;UV della trama cambi radicalmente dopo una reimportazione. Il modo migliore per fare in modo che il vostro progetto sia a prova di riproiezione è affidarsi alla mascheratura tramite una mappa ID e altro tipo di selezione e pittura invece del vista 3D.
 
 ## Come funziona la riproiezione?
 

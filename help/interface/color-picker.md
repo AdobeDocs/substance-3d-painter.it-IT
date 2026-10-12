@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/color-picker.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare il selettore colore in Substance 3D Painter per selezionare i colori dalle texture e dai materiali.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Color picker
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Selettore colore
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 1%
-
 ---
-
 
 # Selettore colore
 
@@ -28,7 +20,7 @@ La finestra del selettore colore viene visualizzata quando si fa clic su un camp
 
 ## Panoramica del selettore colore
 
-Una volta aperto, il selettore colore è semi-persistente, il che significa che rimarrà aperto fino a quando non cambierà contesto, ad esempio quando si passa da un livello di pittura a un livello di riempimento. È possibile spostare la finestra e collocarla su uno degli schermi disponibili. Tuttavia, a differenza di altre finestre, il selettore colore non può essere ancorato.
+Una volta aperto, il selettore colore è semi-persistente, il che significa che rimarrà aperto fino a un cambiamento di contesto, ad esempio quando si passa da un livello di livello di pittura a un livello di riempimento. È possibile spostare la finestra e collocarla su uno degli schermi disponibili. Tuttavia, a differenza di altre finestre, il selettore colore non può essere ancorato.
 
 La finestra ha un layout verticale ed è composta da tre sezioni:
 

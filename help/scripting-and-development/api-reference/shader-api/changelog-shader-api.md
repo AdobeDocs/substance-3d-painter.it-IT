@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Esaminate il registro delle modifiche di Substance 3D Painter API shader per tenere traccia di aggiornamenti, nuove funzioni e modifiche nel tempo.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Changelog - API shader
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 
 # Changelog - API shader
 
@@ -44,7 +36,7 @@ ht-degree: 3%
 * Aggiungere il supporto per la dispersione dei sottosuoli, vedere [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md) e [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md) per i dettagli
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): la funzione *pbrComputeBRDF* è stata rimossa. Consulta l&#39;esempio di [pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md) per sapere come utilizzare la libreria ora
 * Sono stati aggiunti nuovi parametri del motore: *texture\_blu\_rumore*, *aspetto\_rapporto*, *camera\_vp\_matrix\_inverse*, *ambiente\_esposizione*, *ambiente\_rotazione*, *fovy*, *principale\_luce* e *schermo\_dimensioni*. Per ulteriori dettagli, vedere [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
-* Aggiungi i metadati *description* per fornire suggerimenti per i parametri dello shader personalizzati
+* Aggiungi i metadati *descrizione* per fornire suggerimenti per i parametri di shader personalizzati
 
 ## 2017.4.2
 
@@ -59,7 +51,7 @@ ht-degree: 3%
 
 ## 2017.4.0
 
-* Riflesso specular errato nella vista 2D per alcune trame
+* Riflesso specular errato nel Vista 2D per alcune trame
 
 ## 2017.3.1
 
@@ -67,7 +59,7 @@ ht-degree: 3%
 
 ## 2017.2.0
 
-* Rimuovere la normalizzazione della tabulazione interpolata per adeguarla al comportamento di Substance Designer e forni
+* Rimuovere la normalizzazione della tabulazione interpolata in base al comportamento di Substance Designer e baker
 * [Viewport] Sostituire il tavolo Hammersley con una spirale di Fibonacci
 
 ## 2.6.0
@@ -80,12 +72,12 @@ ht-degree: 3%
 * Aggiunta del supporto per i profili colore (LUT) nelle finestre delle viste (conversione sRGB opzionale)
 * Aggiungere il dithering all’opacità negli shader
 * Aggiungere la mappatura delle occlusioni parallasse agli shader PBR
-* Aggiungere un modo per nascondere i parametri personalizzati dall’interfaccia utente dello shader predefinita
-* Aggiungere un collegamento all’elenco dei tag di canale nella documentazione dello shader dei livelli
+* Aggiungere un modo per nascondere i parametri personalizzati dall’interfaccia utente di shader predefinita
+* Aggiungere un collegamento all’elenco dei tag di canale nella documentazione sullo shader dei livelli
 * Sostituire il tag &#39;channel\_ao&#39; con &#39;channel\_ambientocclusion&#39;
 * [Riquadro di visualizzazione] Alcune mappe normali hanno valori bloccati che appaiono come artefatti
 * Correggere i canali disponibili nel documento shader
-* Consenti di definire un&#39;interfaccia utente shader personalizzata
+* Consenti di definire un&#39;interfaccia utente di shader personalizzata
 * Aggiungere un’interfaccia utente shader personalizzata standard per gli shader di livelli di materiale
 * La ricerca nei file personalizzati dell’interfaccia utente avviene ora in relazione a una cartella shader/custom-ui negli scaffali (come nel mdl)
 * Usare il canale di specular level negli shader predefiniti
@@ -109,14 +101,14 @@ ht-degree: 3%
 
 ## 2.1.0
 
-* Consenti di definire gruppi per parametri shader e materiali/maschere
+* Consente di definire i gruppi per i parametri degli shader e i materiali/le maschere
 * Aggiungere i canali mancanti nella documentazione (&#39;ao&#39;, &#39;diffuso&#39;, &#39;specularlevel&#39;)
 
 ## 2.0.4
 
 * Funzione di decompressione normale non corretta con valori alfa bassi
-* Consenti di leggere i colori dei vertici della trama nello shader personalizzato
-* [Viewport] Mapping di ambiente esteso in alcuni computer
+* Consenti di leggere i colori dei vertici della trama in shader personalizzati
+* [Viewport] Mappa di ambiente Allungamento in alcuni computer
 
 ## 2.0.0
 
@@ -132,7 +124,7 @@ ht-degree: 3%
 
 ## 1.7.0
 
-* Consenti di campionare trame esterne (dallo scaffale)
+* Consenti di campionare texture esterne (dallo scaffale)
 
 ## 1.6.0
 
@@ -141,7 +133,7 @@ ht-degree: 3%
 
 ## 1.5.0
 
-* Aggiungi numero di riga e nome file nel report degli errori dello shader
+* Aggiungere il numero di riga e il nome del file nel report degli errori shader
 
 ## 1.4.1
 
@@ -150,7 +142,7 @@ ht-degree: 3%
 
 ## 1.4.0
 
-* Aggiungi canale di occlusione ambiente
+* Aggiungi canale di occlusione ambientale
 * Aggiungi nuovo flusso di lavoro per edizione normale
 * Aggiungere la sintassi dell&#39;espressione &#39;or&#39; per i parametri automatici correlati alla texture
 * Correggere lo shader pbr per la gpu Intel su OSX

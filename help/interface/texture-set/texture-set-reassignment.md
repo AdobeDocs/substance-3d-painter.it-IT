@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come riassegnare i set di texture in Substance 3D Painter per riorganizzare le assegnazioni di trama e la mappatura delle texture.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set reassignment
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Riassegnazione set di texture
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 
 # Riassegnazione set di texture
 

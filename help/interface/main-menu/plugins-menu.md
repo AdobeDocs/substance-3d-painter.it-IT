@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/main-menu/plugins-menu.html'
 breadcrumb-title: ''
 description: Scopri come utilizzare il menu Plug-in in Substance 3D Painter per accedere e gestire i plug-in e le estensioni installati.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Plugins menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Menu JavaScript e Python
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
-
 ---
-
 
 # Menu dei plug-in JavaScript e Python
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/subsurface-scattering.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la dispersione sottosuperficiale in Substance 3D Painter per creare materiali traslucidi realistici come pelle e cera.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Dispersione sotto la superficie
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
-
 ---
-
 
 # Dispersione sotto la superficie
 

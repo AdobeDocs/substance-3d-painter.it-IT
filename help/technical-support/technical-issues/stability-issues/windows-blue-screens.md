@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Informazioni su come evitare errori di schermata blu di Windows quando si utilizza Substance 3D Painter per un funzionamento stabile del sistema.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Schermate blu di Windows
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 
 # Schermate blu di Windows
 

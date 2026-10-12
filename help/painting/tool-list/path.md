@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Utilizzate lo strumento Tracciato di Substance 3D Painter per creare e modificare i tracciati in modo da colorare le texture e posizionare il tratto con precisione.
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Panoramica dello strumento tracciato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6fcf10add7086a0e2a070ee6046c0a261ef1ae34
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
-
 ---
-
 
 # Panoramica dello strumento tracciato
 
@@ -29,7 +21,7 @@ Gli **strumenti tracciato** consentono di definire una curva con punti sulla sup
 I tracciati possono essere creati su livelli di pittura ed effetti pittura. Esistono due modi per accedere allo strumento Tracciato:
 
 * **Tramite l&#39;interfaccia**: accedi alla barra degli strumenti dello strumento sul lato sinistro e fai clic sulla terza icona dall&#39;alto.
-* **Tramite una scelta rapida da tastiera da tastiera**: per impostazione predefinita, allo strumento non è assegnato alcun elemento. Questa impostazione può essere modificata nel menu Impostazioni modificando la scelta rapida &quot;Seleziona strumento dipingi lungo tracciato&quot;.
+* **Tramite una scelta rapida da tastiera da tastiera**: per impostazione predefinita, allo strumento non è assegnato alcun elemento. Questa impostazione può essere modificata nel menu Impostazioni modificando la scelta rapida da tastiera &quot;Seleziona lo strumento pittura lungo il tracciato&quot;.
 
 Una volta selezionato l’utensile, è possibile posizionare i punti facendo clic sulla superficie del modello 3D all’interno della finestra della vista 3D. Per creare un tracciato sono necessari almeno due punti (o vertici).
 
@@ -37,7 +29,7 @@ Una volta selezionato l’utensile, è possibile posizionare i punti facendo cli
 
 Lo strumento Tracciato ha diverse modalità, che possono essere simili agli altri strumenti pittura disponibili nell’applicazione:
 
-* Dipingi lungo il tracciato: disegnate un tratto di pennello regolare lungo un tracciato definito.
+* Pittura lungo il tracciato: disegnate un tratto di pennello regolare lungo un tracciato definito.
 * [Percorso dei nastri](ribbon-tool.md): disegna un&#39;immagine ripetuta o allungamento lungo un percorso.
 * [Percorso riempito](filled-path.md): riempite l&#39;interno di un tracciato con un colore uniforme.
 * Cancella lungo tracciato: disegna un tratto che cancella/rimuove informazioni lungo un tracciato definito.

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2017.3
 
@@ -97,14 +89,14 @@ Questa versione di Substance Painter include anche un nuovo e forte migliorament
 * [UI] Migliora la finestra di dialogo per la nuova versione e aggiungi il registro modifiche
 * [UI] Indica se la manutenzione è scaduta nella finestra di dialogo per una nuova versione
 * [Licenza] Aggiornare il sistema di licenze per gestire le date di manutenzione
-* [Esporta] Rinomina materiale standard Adobe in Adobe Dimension
+* [Esporta] Rinomina Adobe Standard Material in Adobe Dimension
 
 **Risolto:**
 
-* [Mac] La pittura causa la corruzione dei quadrati neri e delle texture
+* [Mac] Dipingere causa quadrati neri e texture di corruzione
 * La cache di [Engine] a volte può scomparire nella finestra della vista
 * [Engine] Vengono visualizzati artefatti di tipo Blocky quando si attiva la compressione della memoria
-* [Baking] Strani messaggi di errore durante la cottura di trame specifiche
+* [Eseguita i baking] Strani messaggi di errore durante la esegue i baking di trame specifiche
 * [Export] PSD non sono scritti correttamente e non vengono riconosciuti correttamente da Photoshop
 * [Livelli] Non dovrebbe essere possibile copiare/incollare i livelli in più progetti
 * [Substance] In alcuni casi, lo spazio colore UserData per l’input Normale viene capovolto

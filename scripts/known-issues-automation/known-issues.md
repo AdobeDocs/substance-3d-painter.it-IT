@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Esamina i problemi noti per Substance 3D Painter per ricevere informazioni sulle limitazioni e sulle soluzioni alternative attuali nell'ultima versione.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Problemi noti
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -24,21 +18,21 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 * L&#39;interpretazione del suffisso `[Baking]` corrispondente per nome è errata
 * Le cuciture Uv di `[Baking]` non vengono visualizzate dopo la reimportazione di mes
 * `[Baking]` artefatti di tipo griglia con alcune impostazioni
-* `[Baking]` Occlusione ambiente Ignora backface per nome trama non funziona
-* `[Baking]` `[AMD]` Dispositivo perso durante la cottura al forno con trame poly alte e pesanti
+* L&#39;Occlusione ambientale di `[Baking]` Ignora backface per nome trama non funziona
+* `[Baking]` `[AMD]` Dispositivo perso durante la esegue i baking con trame poly alte pesanti
 
 * `[Substance]` Diversi errori ortografici nelle risorse
 * `[Substance]` condizione di spazio vuoto interrotto per visibilità
 * Il caricamento di `[Substance]` predefiniti per alcuni materiali richiede troppo tempo
 * `[Substance]`: impossibile importare la risorsa con utilizzi misti
 
-* `[Engine]` Errore durante l&#39;utilizzo di Smart Materials se il set di texture non include la porzione 1001
-* `[Engine]` Colorazione con lo strumento Clona in canali normali non corretta
+* `[Engine]` Errore durante l&#39;utilizzo di Materiali avanzati se il set di texture non ha una porzione 1001
+* `[Engine]` Colorazione con lo strumento Clona /Clone in colori di scorrimento canale normale non corretta
 * La maschera Geometria `[Engine]` mostra artefatti ai bordi UV con livelli istanziati
 
 * `[Color Management]` Associazioni incompatibili con il generatore non utilizzate nella maschera
 * L&#39;output del filtro `[Color Management]` non viene considerato correttamente
-* `[Color Management]` conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* Le conversioni di `[Color Management]` dello spazio cromatico HDR con ACE su Linux producono colori bloccati
 
 * `[USD]` Assegnazione usda errata in alcuni casi
 * `[USD]` La geometria USD esportata è scivolata lungo i bordi UV

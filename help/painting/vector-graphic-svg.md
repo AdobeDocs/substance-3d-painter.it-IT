@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/vector-graphic-svg.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la grafica vettoriale (file SVG e AI) in Substance 3D Painter per aggiungere grafica vettoriale scalabile alla texture.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Grafica vettoriale (SVG)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
-
 ---
-
 
 # Grafica vettoriale (.svg e .ai)
 
@@ -39,7 +31,7 @@ Dopo aver importato un file vettoriale e averlo caricato all&#39;interno di un l
 | <b>Risoluzione</b> | Risoluzione | Definite le dimensioni con cui il file svg verrà convertito in un’immagine bitmap (pixel) quando viene utilizzata per la texture all’interno della Pila livelli.   Valori possibili:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automatico</b>: la risoluzione è determinata dalla risoluzione del set di texture corrente (se utilizzato nel livello/effetto di riempimento) o a 512 pixel quando utilizzato in uno strumento pennello.<br/> </li> <li data-preserve-html="true"><b>Risorsa</b>: la risoluzione è determinata dalla dimensione in pixel definita all&#39;interno del file SVG stesso.<br/> </li> <li data-preserve-html="true"><b>Personalizzato</b>: la risoluzione è determinata dall&#39;impostazione di risoluzione appena sotto nell&#39;interfaccia.</li> </ul>  <div><img alt="impostazione risoluzione svg" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-ad42696-column-7212622_image" src="../assets/svg_resolution_custom.png" title="impostazione risoluzione svg"/></div> |
 |  |  |  |
 | <b>Area di ritaglio</b> | Ritaglia a | Definite in che modo le forme SVG saranno limitate all’area sottoposta a rendering.   Valori possibili:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Limiti risorsa</b>: l&#39;area è definita dai limiti definiti all&#39;interno del file SVG.</li> <li data-preserve-html="true"><b>Personalizzata</b>: l&#39;area è definita da valori espliciti tramite le impostazioni dell&#39;interfaccia appena sotto.<br/> </li> </ul> |
-|  | Proporzioni quadrate | Se l’area di ritaglio è definita da <b>Limiti risorsa</b>, questa impostazione garantisce il mantenimento delle proporzioni originali, evitando dilatazioni errate durante il rendering del SVG come immagine quadrata.   Questa impostazione può rendere alcuni elementi inaspettatamente visibili. Per evitare questo problema, disattivate questa impostazione e regolate invece manualmente le impostazioni UV quando si trova all&#39;interno di un livello/effetto di riempimento. |
+|  | Proporzioni quadrate | Se l’area di ritaglio è definita da <b>Limiti risorsa</b>, questa impostazione garantisce il mantenimento delle proporzioni originali, evitando errori di allungamento durante il rendering del SVG come immagine quadrata.   Questa impostazione può rendere alcuni elementi inaspettatamente visibili. Per evitare questo problema, disattivate questa impostazione e regolate invece manualmente le impostazioni UV quando si trova all&#39;interno di un livello/effetto di riempimento. |
 |  | In alto a sinistra In basso a destra | Se il ritaglio è impostato su Area personalizzata, queste impostazioni consentono di definire l’area manualmente specificando gli angoli superiore sinistro e inferiore destro. |
 |  |  |  |
 | <b>Ambito</b> | Ambito | Definite gli elementi all’interno del file SVG da includere prima di eseguire il rendering.   Il valore predefinito è <b>Documento</b>, ovvero viene utilizzato tutto il contenuto del file SVG. Utilizza il pulsante <b>Modifica</b> per modificare gli elementi da includere. |

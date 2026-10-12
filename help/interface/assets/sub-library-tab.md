@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/assets/sub-library-tab.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come utilizzare la scheda della libreria secondaria in Substance 3D Painter per organizzare e accedere alle librerie di risorse nidificate.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Sub-library tab
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Scheda Sub-libreria
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 
 # Scheda Sub-libreria
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la gestione colore ACE e ICC di Adobe in Substance 3D Painter per flussi di lavoro di colore coerenti.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management > Color management with Adobe ACE - ICC
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gestione del colore con Adobe ACE - ICC
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
-
 ---
-
 
 # Gestione del colore con Adobe ACE - ICC
 

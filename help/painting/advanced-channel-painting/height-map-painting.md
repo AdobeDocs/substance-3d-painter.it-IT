@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come pittura le mappe dell’altezza direttamente in Substance 3D Painter per creare effetti di spostamento e di elevazione delle superfici.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Height Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pittura mappa altezza
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
-
 ---
-
 
 # Pittura mappa altezza
 
@@ -34,11 +26,11 @@ Tutto ciò di cui devi preoccuparti è dipingere quel height, tutto il resto vie
 
 ### Formato height HDR
 
-Il canale di Height utilizza un formato di colore **HDR**, che consente di colorare i valori positivi e negativi senza mai raggiungere un limite di luminosità, contrariamente alle tradizionali mappe di height che saturano tra 0 e 255.
+Il canale di Height utilizza un formato di colore **HDR**, che consente di pittura valori positivi e negativi senza mai raggiungere un limite di luminosità, contrariamente alle tradizionali mappe di altezza che saturano tra 0 e 255.
 
 * Quando colorate con una bitmap o una sostanza su un height, tale sorgente viene rimappata dal suo intervallo [0,255] originale a un intervallo [-1,1].
 
-Un grigio medio verrà rimappato su 0. Di conseguenza, i valori inferiori a 127 **substrattano** dalla mappa di altezza, mentre i valori superiori a 127 **vi aggiungeranno** quando si utilizza il metodo di fusione predefinito impostato per le mappe height, **Scherma lineare (Aggiungi)**.
+Un grigio medio verrà rimappato su 0. Pertanto, i valori inferiori a 127 **substrattano** dalla mappa di altezza, mentre i valori superiori a 127 **vi aggiungono** quando si utilizza il metodo di fusione predefinito impostato per le mappe di altezza, **Scherma lineare (Aggiungi)**.
 
 * Quando colorate con un colore normale, potete selezionare direttamente valori compresi tra -1 e 1.
 
@@ -48,7 +40,7 @@ Quando si visualizza la mappa dell’altezza in modalità Solo, l’anteprima pr
 
 L&#39;impostazione **+/- color** consente di visualizzare l&#39;intero intervallo utilizzando un colore diverso per i valori positivi e negativi.
 
-L&#39;impostazione **Scala** consente di modificare l&#39;intervallo visibile di quella mappa HDR nel caso in cui abbiate aggiunto o sottratto più dell&#39;intervallo predefinito [-1,1].
+L&#39;impostazione **Scala** consente di modificare l&#39;intervallo visibile di quella mappa HDR nel caso in cui tu abbia aggiunto o sottratto più dell&#39;intervallo predefinito [-1,1].
 
 <table>
 <tr style="border: 0;">

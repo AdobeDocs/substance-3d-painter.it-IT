@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/export/creating-export-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come creare modelli di output personalizzati in Substance 3D Painter per definire le tue configurazioni di esportazione texture.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Creating Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creazione di Modelli di output
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
-
 ---
-
 
 # Creazione di Modelli di output
 
@@ -26,7 +18,7 @@ La scheda di configurazione della finestra di esportazione è suddivisa in tre p
 
 * <b>Elenco predefiniti:</b> (a sinistra) consente di scegliere quale modello modificare o duplicare e rinominare i modelli esistenti.
 * <b>Elenco texture di output</b>: (al centro) elenca il contenuto di un predefinito selezionato e visualizza la convenzione di denominazione e le opzioni di impacchettamento del canale.
-* <b>Elenco di canali</b> e <b>texture convertite</b>: (a destra)elenco di canali e texture da utilizzare per comporre il contenuto di una texture esportata.
+* <b>Elenco di canali</b> e <b>texture convertita</b>: (a destra)elenco di canali e texture da utilizzare per comporre il contenuto di una texture esportata.
 
 ![](../assets/image2018-4-25-13-36-44.png){width="800px"}
 
@@ -37,7 +29,7 @@ La scheda di configurazione della finestra di esportazione è suddivisa in tre p
 
 >[!NOTE]
 >
-> Quando un modello viene utilizzato per esportare le texture, il file modello viene incluso automaticamente nel file di progetto nei salvataggi successivi.\
+> Quando un modello viene utilizzato per esportare la texture, il file modello viene incluso automaticamente nel file di progetto nei salvataggi successivi.\
 > Ciò consente la condivisione e/o lo spostamento di un progetto in un altro computer mantenendo i modelli per l’esportazione della texture.\
 > Nel progetto viene salvato solo l’ultimo predefinito utilizzato. Tuttavia, se Substance 3D Painter rileva un predefinito con lo stesso nome, il predefinito all’interno del progetto verrà contrassegnato come &quot;Obsoleto&quot; nell’elenco.
 

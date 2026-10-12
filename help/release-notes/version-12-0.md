@@ -1,15 +1,11 @@
 ---
 title: Versione 12.0
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-12-0.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 
 # Versione 12.0
 
@@ -69,7 +65,7 @@ Le decalcomanie possono ora adattarsi automaticamente a superfici complesse, rid
 >
 > Per ulteriori informazioni sulla proiezione di alterazione, consultate la [pagina dedicata alla documentazione](../painting/fill-projections/warp-projection.md).
 
-### Nuovi effetti di post
+### Nuovi Effetti post
 
 ![](../assets/v12_banner_post_effects2.jpg)
 
@@ -145,8 +141,8 @@ Riepilogo: <b>Versione principale. Questa versione contiene le funzioni che appi
 <b>Corretto:</b>
 
 * [Arresto anomalo] La modifica dell’output di un canale di materiale in una maschera può causare l’arresto anomalo
-* [Import] Le texture EXR vengono forzate in sRGB invece che in lineare durante l’importazione di file USD
-* [Porzioni UV] La sequenza di immagini con una singola immagine riempie anche altre porzioni UV
-* [Baking] L&#39;AO è diverso tra il baking della CPU e quello della GPU
+* [Import] Le texture EXR vengono forzate in sRGB invece che lineari durante l&#39;importazione dei file USD
+* [Porzione UV] Una sequenza di immagini con una sola immagine riempie anche altre Porzioni UV
+* [Esegue i baking] L’AO varia tra esegue i baking su CPU e GPU
 * [Color Management]&#x200B;[MacOS] La finestra di visualizzazione BaseColor non corrisponde al selettore colore
 * [USD] In alcuni casi non vengono importati valori uniformi

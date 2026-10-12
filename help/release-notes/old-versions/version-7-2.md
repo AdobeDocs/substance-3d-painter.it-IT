@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-7-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 7.2 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 7.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 1%
-
 ---
-
 
 # Versione 7.2
 
@@ -117,7 +109,7 @@ Con questo nuovo flusso di lavoro, l’invio di risorse e servizi tra le applica
   Esporta da Painter a Stager con il predefinito di esportazione aggiornato o utilizza l&#39;azione **Invia a Substance 3D Stager** per esportare e importare automaticamente il progetto corrente in Stager. Nessuna configurazione manuale necessaria.
 
 * **Stager in Painter**\
-  Ricevi i modelli da Stager alla texture con un&#39;azione simile rapida direttamente da Stager.
+  Ricevi i modelli da Stager a texture con un&#39;azione simile con un clic direttamente da Stager.
 
 * **Da Designer o Sampler a Painter**\
   Ricevi materiali Substance, filtri e altro ancora da Designer o Sampler direttamente nella finestra Risorse con un solo clic.
@@ -136,7 +128,7 @@ In questa versione sono stati aggiunti nuovi contenuti:
 
 * **Nuovi modelli di progetto per ASM (Adobe Stand Material)**\
   Per semplificare l&#39;utilizzo del nuovo shader ASM, sono stati creati nuovi modelli di progetto per velocizzare la creazione del progetto:
-  * ASM - Rugosità metallica PBR
+  * ASM - RUGOSITÀ METALLICA PBR
   * ASM - ANGOLO DI ANISOTROPIA RUGOSITÀ METALLICA PBR
   * ASM - Rivestimento Rugosità metallica PBR
   * ASM - RUGOSITÀ METALLICA PBR SSS
@@ -218,11 +210,11 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 * [Libraries]&#x200B;[UI] Consente di nascondere le cartelle vuote
 * [Libraries]&#x200B;[UI] La libreria utente predefinita dovrebbe essere visibile anche se vuota
 * [Libraries]&#x200B;[UI] Nuovo metodo di filtraggio tramite le icone del tipo di risorsa
-* [Libraries] Scelta rapida &quot;CTRL&quot; per selezionare più tipi di risorse
+* [Libraries] Scelta rapida da tastiera &quot;CTRL&quot; per selezionare più tipi di risorse
 * [Libraries] Nuova variabile di ambiente per controllare il budget della memoria di anteprima delle risorse
 * [Libraries]&#x200B;[Content] Mappe del nuovo ambiente
 * [Libraries]&#x200B;[Content]&#x200B;[UI] spostamento di rendering sui materiali predefiniti
-* [Libraries]&#x200B;[Contenuto] Impostate lo shader Adobe Standard Material (ASM) come predefinito per la generazione delle anteprime
+* [Libraries]&#x200B;[Contenuto] Imposta lo shader dell&#39;Adobe Standard Material (ASM) come predefinito per la generazione delle anteprime
 * [Libraries]&#x200B;[Content]&#x200B;[ASM] Nuovi modelli di progetto per il nuovo shader ASM
 * [Libraries]&#x200B;[Thumbnail] Utilizza la nuova mappa dell&#39;ambiente Studio 6
 * [Libraries]&#x200B;[Thumbnail] Leggi la miniatura nella risorsa invece di generarla
@@ -232,28 +224,28 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 * [Impostazioni set di texture]&#x200B;[UI] Rielaborazione dell&#39;organizzazione dell&#39;interfaccia utente dei canali
 * [Impostazioni set texture] Limite canali utente aumentato a 16 canali
 * [Texture Set Settings]&#x200B;[UI] Indica quali canali sono compatibili con lo shader attualmente selezionato
-* [Shader]&#x200B;[ASM] Nuovo shader materiale standard Adobe
-* [Shader]&#x200B;[ASM] Aggiunto il supporto per Anisotropia, Cancella rivestimento, Dispersione sottosuperficie, Specular edge color e Brillantezza
-* [Shader]&#x200B;[ASM] Modifica i valori di colore dei canali predefiniti
+* [Shader]&#x200B;[ASM] Nuovo shader Adobe Standard Material
+* [Shader]&#x200B;[ASM] Aggiunto il supporto per Anisotropia, Cancella pelo, Dispersione sottosuperficie, Specular edge color e Brillantezza
+* [Shader]&#x200B;[ASM] Modificare i valori di colore dei canali predefiniti
 * [Shader]&#x200B;[ASM]&#x200B;[Esporta] Modello di esportazione aggiornato da Adobe Dimension a Adobe Substance 3D Stager
-* [Shader]&#x200B;[ASM] Etichette e descrizioni comandi aggiunte per i parametri shader e MDL
-* [Shader]&#x200B;[ASM] Rendete visibile il colore della Dispersione nella vista 2D anche se SSS non è supportato
+* [Shader]&#x200B;[ASM] Etichette e descrizioni comandi aggiunte per i parametri di shader e MDL
+* [Shader]&#x200B;[ASM] Rendete visibile il colore della Dispersione nel vista 2D anche se SSS non è supportato
 * [Shader]&#x200B;[ASM]&#x200B;[Iray] Supporta lo shader ASM in Iray con la nuova MDL
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Scattering sottosuperficie aggiornato in lucido e patinato delle specifiche PBR legacy
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Scattering sottosuperficie aggiornato in lucido e patinato nelle specifiche PBR legacy
 * [Shader]&#x200B;[ASM]&#x200B;[Content] Ha modificato il tipo SSS predefinito per i campioni
 * [Shader]&#x200B;[ASM] Documentazione aggiunta per l&#39;API ASM
-* [Shader]&#x200B;[ASM] Ottimizzate gli shader per ignorare i canali non utilizzati
+* [Shader]&#x200B;[ASM] Ottimizzate gli ombreggiatori per ignorare i canali inutilizzati
 * [Shader] Esporre i nuovi canali del set di texture
-* [Shader] Dispersione sottosuperficie migliorata
-* [Shader] Nuovi parametri dello shader nascosti per alcuni shader
-* [Shader] Visibile se per i parametri dello shader
+* [Shader] Miglioramento della dispersione sottosuperficie
+* [Shader] Nuovi parametri shader nascosti per alcuni ombreggiatori
+* [Shader] Visibile se per i parametri di shader
 * [Prestazioni]
 * [Librerie] Anteprima risorse: miglioramenti a livello di tempo di caricamento e prestazioni di calcolo
 * [Engine] Miglioramenti delle prestazioni di pittura
 * [Annullamento automatico] Miglioramenti delle prestazioni di Impacchettamento
 * [Annullamento automatico]
-* [Rimozione automatica] Rimozione automatica dell’involucro compatibile con il flusso di lavoro Porzione UV
-* [Auto-Unwrap] Nuova opzione per posizionare gli UV in base all&#39;orientamento della trama
+* [Annullamento automatico] Annullamento automatico del wrapping compatibile con il flusso di lavoro Porzione UV
+* [Srotolamento automatico] Nuova opzione per posizionare gli UV in base all&#39;orientamento della trama
 * [Altro]
 * [Impostazioni] Cambiata direzione zoom predefinita
 * [UI] Aggiornamento complessivo dell’interfaccia utente
@@ -261,7 +253,7 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 * [UI] Sostituisci l&#39;icona Inverti
 * [UI]&#x200B;[Plugin] Icona Sostituisci per il collegamento dcc del plug-in
 * [UI]&#x200B;[AMD] Aggiorna la versione minima richiesta e il messaggio a comparsa
-* [Serie di livelli] Crea un nuovo livello all’interno della cartella vuota selezionata
+* [Pila livelli] Crea un nuovo livello nella cartella vuota selezionata
 * Aggiornamento della documentazione Python
 * Branding
 * [Branding]&#x200B;[UI] Nome dell’applicazione aggiornato in Adobe Substance 3D Painter
@@ -288,24 +280,24 @@ Riepilogo: **Versione principale, fornisce un aggiornamento del pannello delle r
 
 * [Tablet] Prestazioni ridotte quando si esegue il disegno a pressione
 * [Tablet] Problema con i tablet con controlli del cursore
-* [Arresto anomalo] Mancata corrispondenza del nome tra l’elenco Set di texture e il modulo di esportazione
-* [Arresto anomalo]&#x200B;[Librerie] Fai doppio clic su una libreria secondaria
+* [Arresto anomalo] Mancata corrispondenza del nome tra l&#39;elenco e l&#39;Esportazione del set di texture
+* [Arresto anomalo]&#x200B;[Librerie] Fai doppio clic su una sub-libreria
 * [Libraries] Problema durante la ricerca per indicizzazione delle directory della libreria
 * [Libraries] La riga di comando Forza generazione anteprima non funziona come previsto
-* [Libraries]&#x200B;[Contenuto] Il filtro Baked Light Environment è nero per impostazione predefinita
+* [Libraries]&#x200B;[Contenuto] Il filtro Ambiente luce Eseguita i baking è nero per impostazione predefinita
 * [Linux]&#x200B;[MacOS]&#x200B;[Esporta mesh] Impossibile importare glTF creato su Linux/MacOS
-* [Linux] Il trascinamento di un file nel pannello Risorse può causare un arresto anomalo
-* [Auto-Unwrap] L’opzione Auto-Unwrap è disponibile anche se una trama non è stata selezionata per il ricaricamento
+* [Linux] Il trascinamento di un file nel pannello Risorse può provocare un arresto anomalo
+* [Srotolamento automatico] Lo Srotolamento automatico è disponibile anche se non è stata selezionata una trama per il ricaricamento
 * [Particelle] Comportamento errato delle particelle con gravità
-* [Serie di livelli] L’istogramma a livelli può utilizzare la luminanza solo con alcuni canali
+* [Pila livelli] L’istogramma dei livelli può utilizzare la luminanza solo con alcuni canali
 * [Maschera geometria] Il menu di scelta rapida di una cartella quando si modifica la maschera di geometria non funziona
 * [Proiezione] Cucitura con proiezione sferica e filtro bilineare
-* [Riquadri UV] Esporta maschera solo in file esporta solo il riquadro 0, 0
-* [Trama di esportazione] L&#39;esportazione della trama FBX è vuota
-* [Iray] La mappa normale non viene considerata nei nuovi progetti durante il rendering
+* [Porzione UV] Esporta maschera in file esporta solo la porzione 0, 0
+* [Trama di esportazione] L’esportazione di trame FBX è vuota
+* [Iray] La Mappa normale non viene considerata nei nuovi progetti durante il rendering
 * [Salva] Salva problemi su unità condivise
-* [Baking] Se si esegue il rebaking di una trama con parametri modificati, viene visualizzato un avviso
-* [Baking]&#x200B;[Regressione] Risultato errato quando il rettangolo di selezione globale di High Poly Meshes non include l&#39;origine della scena
+* [Eseguo i baking] Se si riattiva una trama con i parametri modificati, viene visualizzato un avviso
+* [Eseguita i baking]&#x200B;[Regressione] Risultato errato quando il rettangolo di selezione globale di High Poly Meshes non include l’origine della scena
 * [Python] Le librerie utente personalizzate non sono considerate
 
 **Problemi noti:**

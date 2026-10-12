@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: Scopri come configurare le impostazioni di progetto in Substance 3D Painter per impostare la risoluzione delle texture, i canali e le proprietà del progetto.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Project configuration
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Configurazione del progetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 3%
-
 ---
-
 
 # Configurazione del progetto
 
@@ -41,7 +33,7 @@ La reimportazione della trama è spesso utile quando è necessario:
 
 >[!NOTE]
 >
-> Se gli ID materiale cambiano o vengono rinominati durante la reimportazione della trama del progetto, i set di texture precedenti nel progetto possono diventare disattivati, dando l’aspetto di texture mancanti. Questo problema può essere risolto con la [finestra di riassegnazione](texture-set/texture-set-reassignment.md) dall&#39;**elenco set di texture**.
+> Se gli ID materiale cambiano o vengono rinominati durante la reimportazione della trama del progetto, i set di texture precedenti nel progetto possono diventare disattivati, creando l’impressione di texture mancanti. Questo problema può essere risolto con la [finestra di riassegnazione](texture-set/texture-set-reassignment.md) dall&#39;**elenco set di texture**.
 
 ## Impostazioni progetto
 

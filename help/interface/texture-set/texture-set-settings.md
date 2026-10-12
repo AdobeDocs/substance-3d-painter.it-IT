@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/texture-set/texture-set-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come configurare le impostazioni dei set di texture in Substance 3D Painter per controllare la risoluzione della texture e le proprietà dei canali.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Impostazioni set texture
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 
 # Impostazioni set texture
 
@@ -33,7 +25,7 @@ Le **impostazioni del set di texture** controllano i parametri del set di textur
 | **Nome** | Nome del set di texture. Ereditato per il nome del materiale assegnato al modello 3D. |
 | **Descrizione** | Campo di testo che consente di aggiungere informazioni su un set di texture. Questo testo viene visualizzato nelle finestre [Elenco set di texture](texture-set-list.md) e [Esegue i baking](../../baking/baking.md). |
 | **Dimensioni** | Controlla la risoluzione dei canali in pixel all’interno di un set di texture. Per utilizzare le risoluzioni **non quadrate** (ad esempio 2048x1024), disattiva il **pulsante di blocco** tra i due menu a discesa.Le risoluzioni del set di texture sono **dinamiche** a causa del **flusso di lavoro non distruttivo**. Ciò significa che è possibile lavorare a bassa risoluzione per ottenere buone prestazioni e quindi utilizzare una risoluzione più elevata in un secondo momento per ottenere una qualità migliore. All’interno dell’applicazione la risoluzione massima di un canale è di 4096x4096 pixel, mentre quando si esporta il massimo è invece di 8192x8192 (se supportato dalla GPU). La modifica della risoluzione può comportare un lungo calcolo del motore. |
-| **Istanza dello shader** | Definite quali [Shader](../shader-settings/shader-settings.md) usare per eseguire il rendering del set di texture specificato nella [finestra della vista](../viewport/viewport.md). |
+| **Istanza shader** | Definite quali [Shader](../shader-settings/shader-settings.md) usare per eseguire il rendering del set di texture specificato nella [finestra della vista](../viewport/viewport.md). |
 
 ## Canali
 

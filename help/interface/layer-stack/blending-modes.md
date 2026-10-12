@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare i metodi di fusione in Substance 3D Painter per combinare i livelli e creare vari effetti di fusione texture.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Metodi fusione
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # Metodi fusione
 
@@ -92,6 +84,6 @@ Di seguito è riportato l’elenco di tutti i metodi di fusione disponibili nei 
 |  |  |
 | Combinazione mappa normale | Operazione di fusione sbianca. Mantenere i dettagli assicurandosi che le normali piatte funzionino correttamente. Per ulteriori informazioni, vedere [Mappa normale disegno](../../painting/advanced-channel-painting/normal-map-painting.md). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r36-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-combine.jpg"/></div> |
 | Dettagli mappa normale | Operazione di fusione orientata ai dettagli (mappatura normale riorientata), più precisa della Combinazione mappa normale. Mantenere le mappe normali piatte e l&#39;intensità delle due sorgenti. Per fare in modo che il risultato del livello Superiore normale venga riorientato in modo da seguire la superficie del livello inferiore. Per ulteriori informazioni, vedere [Mappa normale disegno](../../painting/advanced-channel-painting/normal-map-painting.md). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
-| Dettaglio inverso mappa normale | Stesso comportamento dell’operazione di fusione dei Dettagli mappa normale; tuttavia, è il livello Inferiore che viene Trasforma per adattarsi alla superficie del livello Superiore. Per ulteriori informazioni, vedere [Mappa normale disegno](../../painting/advanced-channel-painting/normal-map-painting.md). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
+| Dettagli mappa normale invertita | Stesso comportamento dell’operazione di fusione dei Dettagli mappa normale; tuttavia, è il livello Inferiore che viene Trasforma per adattarsi alla superficie del livello Superiore. Per ulteriori informazioni, vedere [Mappa normale disegno](../../painting/advanced-channel-painting/normal-map-painting.md). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
 &#x200B;>>

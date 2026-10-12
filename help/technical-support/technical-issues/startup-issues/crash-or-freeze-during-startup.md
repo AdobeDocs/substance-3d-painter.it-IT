@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come correggere arresti anomali e blocchi durante l'avvio di Substance 3D Painter per un avvio stabile dell'applicazione.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Arresto anomalo o blocco durante l'avvio
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
-
 ---
-
 
 # Arresto anomalo o blocco durante l&#39;avvio
 

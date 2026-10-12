@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-8-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultate le note sulla versione di Substance 3D Painter 8.2 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 8.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2870'
 ht-degree: 0%
-
 ---
-
 
 # Versione 8.2
 
@@ -30,7 +22,7 @@ Data di pubblicazione: *6 ottobre 2022*
 
 ![](../assets/banner-blend-mode-copy.jpg)
 
-Sono state aggiunte diverse scelte rapide e azioni per semplificare e velocizzare la copia e l’applicazione dei metodi di fusione e dell’opacità su più canali nella pila di livelli.
+Sono state aggiunte diverse scelte rapide e azioni per semplificare e velocizzare la copia e l’applicazione dei metodi di fusione e dell’opacità su più canali nella Pila livelli.
 
 * **Fare clic con il pulsante destro del mouse su un metodo di fusione o un controllo di opacità**\
   Facendo clic con il pulsante destro del mouse su un metodo di fusione o un&#39;opacità, selezionate l&#39;azione **Applica a tutti i canali** per utilizzare questo metodo di fusione su tutti gli altri canali del livello. Questa azione è disponibile anche per gli effetti che dispongono di controlli metodo fusione e opacità.
@@ -237,33 +229,33 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
 * Applicare il metodo di fusione/opacità a tutti i canali di un livello
 
   È stata aggiunta una funzionalità di clic con il pulsante destro del mouse al metodo di fusione e all’opacità dei livelli che consente di applicare a tutti i canali l’impostazione su cui si fa clic.
-* Ricarica trama con una scelta rapida da tastiera (CTRL+MAIUSC+R)
+* Ricarica trama con una scelta rapida da tastiera da tastiera (CTRL+MAIUSC+R)
 
   È stata aggiunta una scelta rapida da tastiera modificabile per ricaricare il file mesh con le ultime impostazioni disponibili. È possibile accedere a questa opzione anche da Modifica > Reimporta trama.
 * Ripristina i parametri predefiniti di Substance
 
   È stato aggiunto un nuovo pulsante nelle proprietà nella parte inferiore delle risorse .sbsar che consente di reimpostare la risorsa come predefinita.
-* Ripristina pennello artistico ai valori predefiniti
+* Ripristina pittura pennello predefinito
 
   È stato aggiunto un nuovo menu nella sezione Pennello in Proprietà che consente di ripristinare il pennello di base predefinito.
 * Fare clic con il pulsante destro del mouse per ripristinare i singoli parametri di Substance ai valori predefiniti
 
   È stata aggiunta la possibilità di reimpostare i singoli parametri all&#39;interno di una risorsa .sbsar facendo clic con il pulsante destro del mouse.
-* [Pannello Risorse] &quot;Blocca&quot; le risorse preferite da visualizzare sopra il pannello Risorse
+* [Pannello Risorse] Le risorse preferite del &quot;Segnaposto&quot; vengono visualizzate nella parte superiore del pannello Risorse
 
-  È stata aggiunta una nuova opzione di clic con il pulsante destro del mouse sulle risorse della libreria che consente di bloccarle come preferite nella parte superiore del pannello. Puoi anche visualizzare tutte le tue risorse preferite tramite Ricerche salvate.
+  È stata aggiunta una nuova opzione di clic con il pulsante destro del mouse sulle risorse della libreria che consente di raggrupparle come segnaposti preferiti nella parte superiore del pannello. Puoi anche visualizzare tutte le tue risorse preferite tramite Ricerche salvate.
 * [Pannello Risorse] Elimina, ricarica e rinomina le risorse
 
   Sono state aggiunte le opzioni del menu di scelta rapida per eliminare, ricaricare e rinominare le risorse nella libreria utente. Vengono eliminati direttamente dal percorso della libreria sul disco e ricaricati dal percorso originale. Le risorse che fanno parte di un pacchetto come .abr o .sbsar non possono essere modificate singolarmente.
 * [Selezione colore] Aggiungere metodi di fusione all’effetto Selezione colore
-* [Serie di livelli] Aggiungi metodo di fusione e opacità ai filtri
-* [Serie di livelli] Consenti valori di suddivisione in porzioni superiori a 128 per livelli di riempimento/effetti
-* [Serie di livelli] Estremità cilindriche per la proiezione cilindrica nel livello di riempimento/effetto
+* [Pila livelli] Aggiungere il metodo di fusione e l’opacità ai filtri
+* [Pila livelli] Consenti valori di Affiancamento maggiori di 128 per livello di riempimento/effetti
+* [Pila livelli] Tappi cilindrici per la proiezione cilindrica nel livello di riempimento/effetto
 
   La proiezione cilindrica nelle proprietà del livello Riempimento ora ha l&#39;opzione per rimuovere le estremità dei cilindri.
-* [Log] Visualizza un messaggio di errore se la parte mesh si trova in uno spazio negativo quando si tenta di creare un progetto di porzione UV
+* [Log] Visualizza un messaggio di errore se la parte mesh si trova in uno spazio negativo durante il tentativo di creazione di un progetto Porzione UV
 
-  È stato aggiunto un messaggio di errore più chiaro quando non è possibile creare un progetto di porzioni UV perché le parti UV si trovano in spazi negativi.
+  È stato aggiunto un messaggio di errore più chiaro quando non si crea un progetto di Porzione UV perché le parti UV vengono trovate in spazi negativi.
 * [Progetto] Indica la versione nel messaggio di errore &quot;dati troppo recenti&quot; quando si apre un progetto
 
   Quando si apre un progetto troppo recente per l’applicazione, il messaggio di errore indica ora la versione del progetto per facilitare l’identificazione della versione corretta dell’applicazione.
@@ -275,8 +267,8 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
   In Impostazioni schermo > Impostazioni finestra vista > Visualizzazione canali è disponibile una nuova impostazione Canali colore che consente di visualizzare solo il componente R, G, B o Alpha di un canale quando è attiva la modalità di visualizzazione singola.
 * [Shader] Consenti di impostare i canali utente come RGBA negli shader di livello materiale
 
-  Quando si imposta la configurazione dei canali del Set di texture all’interno di uno shader per la creazione di livelli di materiale, è ora possibile specificare il formato del canale da deviare dal valore di default. Ciò consente in particolare di richiedere canali utente a colori invece che solo in scala di grigio.
-* [Esporta] Consente di esportare le texture come SBSAR
+  Quando si imposta la configurazione dei canali del Set di texture all’interno di uno shader per la creazione di livelli di materiale, è ora possibile specificare il formato del canale da deviare dal valore predefinito. Ciò consente in particolare di richiedere canali utente a colori invece che solo in scala di grigio.
+* [Esporta] Consente di esportare texture come SBSAR
 
   Quando si esporta una texture tramite la finestra File > Esporta Texture, si può scegliere il formato di file SBSAR (Substance Archivio) per raggrupparla. Il contenuto del SBSAR dipende dal modello di output utilizzato.\
   Il formato del file SBSAR può essere impostato anche nei predefiniti di esportazione. Quando si utilizza la configurazione ibrida (SBSAR + Altro formato), le texture che hanno come destinazione un SBSAR vengono raggruppate mentre le altre vengono esportate insieme.
@@ -311,7 +303,7 @@ Riepilogo: **Versione principale con nuovi pannelli di onboarding (nuovo pannell
 
 **Problemi noti:**
 
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Serie di livelli] Origine di input non salvata per livello
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Pila livelli] Sorgente di input non salvata per livello
 * [Pittura] L’anti-alias temporale provoca artefatti quando si dipinge in alcuni casi
 * [Esporta] 2DView esporta in modo casuale la mappa uniforme

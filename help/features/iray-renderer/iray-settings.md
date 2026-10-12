@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/iray-renderer/iray-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come configurare le impostazioni del modulo di rendering di immagini in Substance 3D Painter per controllare la qualità e le prestazioni del rendering.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Iray Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Impostazioni Iray
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
-
 ---
-
 
 # Impostazioni Iray
 

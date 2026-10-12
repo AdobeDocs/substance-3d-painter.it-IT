@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come aggiungere contenuto dal disco rigido a Substance 3D Painter per espandere la libreria di risorse con i file locali.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Aggiunta di contenuto sul disco rigido
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
-
 ---
-
 
 # Aggiunta di contenuto sul disco rigido
 
