@@ -263,9 +263,9 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Aggiornamento automatico] Disattiva l&#39;aggiornamento automatico per impostazione predefinita
 * [Aggiornamento automatico] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono (.sbsar, .glsl, .ai, .svg)
 * [Aggiornamento automatico] Aggiungi variabile di ambiente per disabilitare la funzione di aggiornamento automatico
-* [Aggiornamento automatico][SBSAR] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono
+* [Aggiornamento automatico]&#x200B;[SBSAR] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono
 * Tracciato pieno
-* [Tracciato][Riempimento] Aggiungi nuovo strumento per creare tracciati pieni
+* [Tracciato]&#x200B;[Riempimento] Aggiungi nuovo strumento per creare tracciati pieni
 * Miglioramenti al tracciato
 * [Path] Crea un tracciato che si aggancia ai poligoni
 * [Path] Consente di cambiare i tipi di percorso
@@ -275,7 +275,7 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Tracciato] Chiudi la forma con un solo clic
 * [Path] Visualizza informazioni sul percorso
 * [Tracciato] Consente di ridimensionare e ruotare i vertici del tracciato
-* [Path][UX] Semplificare l&#39;accesso ai gizmo di trasformazione
+* [Path]&#x200B;[UX] Semplificare l&#39;accesso ai gizmo di trasformazione
 * [Path] Aggiungi anteprima percorso
 * [Tracciato] Disattiva l&#39;anteprima del tracciato con Maiusc + P
 * [Path] Migliorare l&#39;edizione tangente dalla vista laterale
@@ -283,7 +283,7 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Path] I vertici devono mantenere lo stato di selezione quando si attiva e disattiva l&#39;interfaccia utente
 * [Path] Consente di eliminare il percorso utilizzando Backspace
 * [Path] Mantieni l&#39;elenco dei percorsi aperto se l&#39;utente lo espande
-* [Path][Pila livelli] Rinominare correttamente i duplicati quando si copia/incolla
+* [Path]&#x200B;[Pila livelli] Rinominare correttamente i duplicati quando si copia/incolla
 * Miglioramenti all&#39;interfaccia utente di [Path] e alle descrizioni comandi
 * Prestazioni
 * [Prestazioni] Migliorare le prestazioni della finestra di visualizzazione quando si utilizza un livello di tassellatura elevato
@@ -297,11 +297,11 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Contenuto] Aggiungi 3 nuovi generatori di texture (Tile Random, Triangle Grid, Generatore di Scratches)
 * [Content] Rinomina il modello di motore originale ed esporta i predefiniti
 * Python
-* [Shelf][Python] Salvataggio del materiale avanzato o della maschera avanzata su disco da Python
+* [Shelf]&#x200B;[Python] Salvataggio del materiale avanzato o della maschera avanzata su disco da Python
 * [Python] Aggiungi gabbia automatica eseguente i baking all’API Python
 * [Python] Consente di modificare i nomi e le descrizioni di set di texture/Porzioni UV
 * [Python] Condivisione delle impostazioni di risoluzione su sorgenti vettoriali e di font
-* [Auto-update][Python] Esporre le funzionalità di aggiornamento automatico del progetto in Python
+* [Auto-update]&#x200B;[Python] Esporre le funzionalità di aggiornamento automatico del progetto in Python
 * Varie
 * [Esporta] Semplificare l’accesso alle opzioni di invio con un nuovo pannello
 * [Nvidia] Aggiungi un avviso sui driver Nvidia più recenti (572.16)
@@ -313,7 +313,7 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 
 <b>Risolto</b>:
 
-* [Nvidia][Eseguita i baking] I risultati del baker di Occlusione ambientale hanno artefatti
+* [Nvidia]&#x200B;[Eseguita i baking] I risultati del baker di Occlusione ambientale hanno artefatti
 * [Arresto anomalo] Alt + clic per attivare/disattivare la visibilità dei lead arresti anomali del set di texture disabilitato
 * [Eseguente i baking] La gabbia è presa in considerazione con poly basso come param poly alto
 * [Eseguente i baking] Il colore del materiale per il baker di mappe ID non funziona con il formato di file USD
@@ -330,8 +330,8 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 <b>Problemi noti</b>:
 
 * [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
-* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Arresto anomalo][Python] Esportazione USD attivata da TextureStateEvent
+* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Arresto anomalo]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
 * [Engine] Colorare con lo strumento Clona /Clone in colori di scorrimento canale normale non correttamente
 * [Python] Il widget Ghost viene eliminato se lo script è ancora in funzione
 * [RedHat] Problemi con il selettore colore

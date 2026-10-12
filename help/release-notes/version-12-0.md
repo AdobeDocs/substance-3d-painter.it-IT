@@ -126,7 +126,7 @@ Riepilogo: <b>Versione principale. Questa versione contiene le funzioni che appi
 * [Post-effetti] Sostituire gli effetti post con altri nuovi
 * [Post-effects] Aggiornare la mappatura toni
 * [Post-effetti] Aggiungi nuovo utilizzo per le risorse Post-effetti
-* [Content][Post-effects] Integra le risorse predefinite per i post-effetti nella libreria
+* [Content]&#x200B;[Post-effects] Integra le risorse predefinite per i post-effetti nella libreria
 * [Nuovo progetto] Miglioramento dell’interfaccia utente per la creazione di progetti
 * [Nuovo progetto] Modifiche alla funzionalità di reimportazione della trama
 * [Nuovo progetto] Consenti apertura file \*.geo.usd
@@ -144,5 +144,5 @@ Riepilogo: <b>Versione principale. Questa versione contiene le funzioni che appi
 * [Import] Le texture EXR vengono forzate in sRGB invece che lineari durante l&#39;importazione dei file USD
 * [Porzione UV] Una sequenza di immagini con una sola immagine riempie anche altre Porzioni UV
 * [Esegue i baking] L’AO varia tra esegue i baking su CPU e GPU
-* [Color Management][MacOS] La finestra di visualizzazione BaseColor non corrisponde al selettore colore
+* [Color Management]&#x200B;[MacOS] La finestra di visualizzazione BaseColor non corrisponde al selettore colore
 * [USD] In alcuni casi non vengono importati valori uniformi

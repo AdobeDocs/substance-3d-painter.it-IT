@@ -200,10 +200,10 @@ Riepilogo: **Versione principale con nuova modalità di esegue i baking, nuova i
 * [USD] Importare maglie con pelle USD a un fotogramma specifico
 
   Quando si crea un nuovo progetto con un file mesh USD che contiene animazioni, è possibile selezionare il fotogramma utilizzando un cursore che riflette la sequenza temporale incorporata. Il fotogramma può essere modificatore tramite Configurazione progetto.
-* [USD][Esporta] Aggiungi un’opzione per esportare i file USD
+* [USD]&#x200B;[Esporta] Aggiungi un’opzione per esportare i file USD
 
   Nuova casella di controllo Esporta USD aggiunta alla finestra Esporta texture. Quando è selezionato, consente di esportare file USD e mappe texture utilizzando qualsiasi modello.
-* [USD][Esporta] Aggiungere il formato di file USD all’esportazione con trama
+* [USD]&#x200B;[Esporta] Aggiungere il formato di file USD all’esportazione con trama
 * [USD] Rinomina il predefinito di esportazione &quot;Rugosità metallo USD PBR&quot; esistente per renderlo più esplicito
 
   Il modello di esportazione USD precedentemente noto come &#39;Rugosità metallo USD PBR&#39; è ancora accessibile tramite Esporta texture > Modello di output > USDz (Apple AR).
@@ -216,13 +216,13 @@ Riepilogo: **Versione principale con nuova modalità di esegue i baking, nuova i
 * [Dimensioni fisiche] Esposizione dimensioni fisiche per Proiezione UV
 
   Il ridimensionamento delle dimensioni fisiche è ora disponibile per le Proiezioni UV: consente di ridimensionare automaticamente un materiale in base alla dimensioni fisiche di una trama. Può essere selezionata da Scala > Dimensioni fisiche nel livello di riempimento o nella finestra Proprietà effetti.
-* [Scripting][Python] Consenti di eseguire query sulla versione dell’applicazione
-* [Scripting][JavaScript] Aggiorna l’API in base ai nuovi parametri di esegue i baking
-* [Scripting][Python] Modulo di Esegue i baking: modifica parametri di esegue i baking
-* [Scripting][Python] Modulo di Esegue i baking: avvia/annulla esegue i baking
-* Modulo di Esegue i baking [Scripting][Python]: seleziona il metodo di curvatura
-* [Scripting][Python] Modulo di Esegue i baking: selezione di baker/riquadri uv
-* [Scripting][Python] Modulo di Esegue i baking: sincronizzare le impostazioni del baker tra tutti i set di texture
+* [Scripting]&#x200B;[Python] Consenti di eseguire query sulla versione dell’applicazione
+* [Scripting]&#x200B;[JavaScript] Aggiorna l’API in base ai nuovi parametri di esegue i baking
+* [Scripting]&#x200B;[Python] Modulo di Esegue i baking: modifica parametri di esegue i baking
+* [Scripting]&#x200B;[Python] Modulo di Esegue i baking: avvia/annulla esegue i baking
+* Modulo di Esegue i baking [Scripting]&#x200B;[Python]: seleziona il metodo di curvatura
+* [Scripting]&#x200B;[Python] Modulo di Esegue i baking: selezione di baker/riquadri uv
+* [Scripting]&#x200B;[Python] Modulo di Esegue i baking: sincronizzare le impostazioni del baker tra tutti i set di texture
 * [SVT] Abilitazione del supporto hardware di tipo sparse sulle GPU AMD
 
   L’accelerazione hardware per il sistema Sparse Virtual Textures può ora essere abilitata con le GPU AMD. Questa impostazione viene attivata automaticamente nelle preferenze generali.
@@ -241,10 +241,10 @@ Riepilogo: **Versione principale con nuova modalità di esegue i baking, nuova i
 **Corretto:**
 
 * [Arresto anomalo] Cambiare i canali sul filtro con una pila specifica
-* [Mac][M1] Arresto anomalo durante la creazione di un livello di riempimento e l&#39;uscita dalla Pila livelli
+* [Mac]&#x200B;[M1] Arresto anomalo durante la creazione di un livello di riempimento e l&#39;uscita dalla Pila livelli
 
   Questo problema può essere risolto eseguendo l’aggiornamento a Mac OS 13 (Ventura).
-* [Scripting][Python] Arresto anomalo di utilizzo di ui.add\_dock\_widget() con tipo errato
+* [Scripting]&#x200B;[Python] Arresto anomalo di utilizzo di ui.add\_dock\_widget() con tipo errato
 * [Esegue i baking] Messaggio di errore incompleto nel registro quando un eseguo i baking non riesce
 * [Esegue i baking] La memoria non viene liberata al termine della esegue i baking
 * [Engine] La cache della Texture non si aggiorna quando si modifica la visibilità degli effetti

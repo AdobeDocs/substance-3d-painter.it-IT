@@ -89,7 +89,7 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 * [Scripting] Aggiungi funzioni di richiamata prima e dopo quando si esportano texture
 * [Iray] Aggiornamento a SDK 2017.1 (supporto di GPU Volta)
 
-****Corretto:****
+**&#x200B;**&#x200B;Corretto:**&#x200B;**
 
 * Arresto anomalo di chiusura dell&#39;applicazione prima della visualizzazione della finestra principale
 * [MAC] Arresto anomalo durante il caricamento di mappe in scala di grigio con IRAY
