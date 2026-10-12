@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/smart-materials-and-masks.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare materiali avanzati e maschere in Substance 3D Painter per creare texture di procedurali che si adattano alla geometria.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Smart Materials and Masks
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Materiali avanzati e maschere
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
-
 ---
-
 
 # Materiali avanzati e maschere
 
@@ -24,15 +16,15 @@ Substance 3D Painter supporta l&#39;utilizzo di **predefiniti di livello** avanz
 
 >[!NOTE]
 >
-> Una volta aggiunto nella pila di livelli, non è possibile recuperare il materiale avanzato utilizzato. Nel caso in cui un materiale avanzato debba essere aggiornato, il processo dovrà essere eseguito manualmente.\
+> Una volta aggiunto nella Pila livelli, non è possibile recuperare il materiale avanzato utilizzato. Nel caso in cui un materiale avanzato debba essere aggiornato, il processo dovrà essere eseguito manualmente.\
 > È tuttavia possibile aggiornare le singole risorse con [Resources Updater](plugins/resources-updater.md).
 
 ## Come si utilizzano Materiali avanzati/maschere?
 
-I materiali avanzati possono essere utilizzati in qualsiasi punto della pila di livelli, mentre le maschere avanzate possono essere utilizzate solo nella pila di effetti.\
-Per ulteriori informazioni sulle differenze, consultate: [Stack di livelli](../interface/layer-stack/layer-stack.md) e [Effetti](effects/effects.md)
+I materiali avanzati possono essere utilizzati in qualsiasi punto della Pila livelli, mentre le maschere avanzate possono essere utilizzate solo nella serie di effetti.\
+Per ulteriori informazioni sulle differenze, vedere: [Pila livelli](../interface/layer-stack/layer-stack.md) e [Effetti](effects/effects.md)
 
-### Aggiunta di un materiale avanzato
+### Aggiunta di un Materiale avanzato
 
 I materiali avanzati possono essere aggiunti in due modi diversi:
 
@@ -47,7 +39,7 @@ Poiché le Maschere avanzate sono predefiniti degli effetti, possono essere aggi
 
 * Per aggiungere una Maschera avanzata, è sufficiente **trascinarne** una dallo scaffale al livello **target**:\
   ![](../assets/smm-drop.gif)
-* Se trascinate **più** maschere avanzate, queste verranno accumulate:\
+* Se trascinate e rilasciate **più** Maschere avanzate, queste verranno accumulate:\
   ![](../assets/smm-drop-accum.gif)
 * È tuttavia possibile **sostituire** l&#39;intera serie di effetti premendo **CTRL** durante il trascinamento della selezione:\
   ![](../assets/smm-drop-replace.gif)

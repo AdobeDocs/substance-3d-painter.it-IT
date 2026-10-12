@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Scoprite come configurare le impostazioni della mappa trama in Substance 3D Painter per controllare i parametri di esegue i baking e la qualità dell'output.
-helpx_creative_field: ''
-helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Impostazioni della mappa della trama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 10%
-
 ---
-
 
 # Impostazioni della mappa della trama
 
@@ -134,4 +126,4 @@ La pagina delle impostazioni comuni contiene i controlli che influiscono sul mod
 | Angolo di diffusione | Regolate l’intervallo angular dei raggi generati. Un angolo di estensione più elevato consente di occludere più facilmente una superficie mediante una geometria che non è posizionata perpendicolarmente alla superficie. |
 | Distribuzione | Seleziona la modalità di distribuzione dei raggi. |
 | Ignora backface | Scegliete se trattare le superfici posteriori come occlusioni. |
-| Occlusione autonoma | Selezionate le trame che devono influire sulle normali di piegatura per la trama corrente. |
+| Occlusione autonoma | Seleziona le trame che devono influire sulle normali incurvate per la trama corrente. |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/sparse-virtual-textures.html"
-breadcrumb-title: ''
-description: Scoprite come utilizzare le texture virtuali sparse in Substance 3D Painter per lavorare con texture ad altissima risoluzione in modo efficiente.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Scoprite come utilizzare la texture virtuale sparsa in Substance 3D Painter per lavorare con la texture ad altissima risoluzione in modo efficiente.
 title: Texture virtuali sparse
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 
 # Texture virtuali sparse
 
@@ -60,7 +52,7 @@ Per ulteriori informazioni tecniche, vedere: [Texture virtuali sparse](https://s
 ![](../assets/settings-temp.png)
 
 Quando la memoria di sistema (Ram) non è sufficiente per memorizzare la cache SVT, Substance 3D Painter passa al disco rigido del computer per memorizzare la cache.\
-Per impostazione predefinita, la posizione di questa cache si trova nella cartella dei file temporanei del sistema operativo. È possibile modificare questa posizione accedendo alle impostazioni principali dell&#39;applicazione, vedere [Preferenze generali](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
+Per impostazione predefinita, la posizione di questa cache si trova nella cartella dei file temporanei del sistema operativo. È possibile modificare questa posizione accedendo alle impostazioni principali dell&#39;applicazione, vedere [Preferenze generali](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
 
 ## Compatibilità con Shader
 
@@ -69,7 +61,7 @@ Per sfruttare appieno la SVT, gli Ombreggiatori devono richiedere e leggere text
 Per aggiornare gli shader:
 
 * Per **Substance 3D Painter shader predefinito**: seguire la procedura dettagliata dalla pagina [Aggiornamento di uno shader](../interface/shader-settings/updating-a-shader.md).
-* Per **shader personalizzato**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Per **shader personalizzato**: esaminare i messaggi di errore nel registro e nella pagina [API shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

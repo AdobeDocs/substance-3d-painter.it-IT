@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-9-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultate le note sulla versione per Substance 3D Painter versione 9.1 per informazioni su nuove funzioni, miglioramenti e correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 9.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
-
 ---
-
 
 # Versione 9.1
 
@@ -37,7 +29,7 @@ In questa nuova versione continuiamo lo sviluppo dello strumento Tracciato (intr
   Ora è possibile impostare manualmente le tangenti di un punto specifico su un tracciato. Questo consente di ignorare il comportamento automatico per creare nuove forme.
 
   ![Tangenti personalizzate](../assets/path_control_tangents.gif)
-* <b>Modificare i punti del tracciato tramite i manipolatori</b>
+* <b>Modificare i punti del tracciato tramite manipolatori</b>
 
   A volte, i soli punti di scorrimento sulla superficie dell’oggetto non sono sufficienti. I manipolatori consentono di spostare i punti oltre la superficie. Questo può essere molto utile per spostare più punti contemporaneamente, ad esempio nel caso in cui fossero troppo lontani da una superficie dopo una reimportazione di trama.
 
@@ -195,8 +187,8 @@ I miglioramenti del trascinamento non si limitano all’importazione delle risor
 
   Quando si rilascia una risorsa, mantenendo il modificatore della tastiera CTRL o ALT è possibile abilitare comportamenti aggiuntivi:
 
-  * <b>CTRL</b> durante l&#39;inserimento nello <b>stack di livelli</b>: crea un nuovo livello con la risorsa in una maschera nera. Può essere utile ad esempio per forzare l&#39;inserimento di un materiale in una maschera. Oppure per saltare il menu a discesa con un canale alfa.
-  * <b>ALT</b> durante l&#39;eliminazione nella <b>Pila livelli</b>: si applica solo quando si trascina su una miniatura di livello. ALT rimuoverà tutti gli effetti precedenti. Questo può essere utilizzato come metodo rapido per provare diverse risorse, in particolare le maschere intelligenti, senza doverle prima rimuovere manualmente.
+  * <b>CTRL</b> durante l&#39;inserimento nella <b>Pila livelli</b>: creare un nuovo livello con la risorsa in una maschera nera. Può essere utile ad esempio per forzare l&#39;inserimento di un materiale in una maschera. Oppure per saltare il menu a discesa con un canale alfa.
+  * <b>ALT</b> durante l&#39;eliminazione nella <b>Pila livelli</b>: si applica solo quando si trascina su una miniatura di livello. ALT rimuoverà tutti gli effetti precedenti. Questo può essere utilizzato come un modo rapido per provare diverse risorse, in particolare maschere avanzate, senza doverle rimuovere manualmente prima.
   * <b>CTRL</b> durante l&#39;inserimento nella <b>finestra della vista</b>: crea un nuovo livello con la risorsa in una maschera nera. La risorsa verrà inserita in un effetto <b>Selezione ID colore</b> che verrà impostato in base alla selezione effettuata nella finestra della vista.
   * <b>ALT</b> durante l&#39;eliminazione nella <b>finestra della vista</b>: come prima, forzerà una risorsa a essere in modalità di proiezione decalcomania.
 
@@ -210,7 +202,7 @@ In questa versione sono state aggiunte anche diverse funzioni minori e miglioram
 
   D&#39;ora in poi, qualsiasi immagine contenuta in un progetto con una profondità di bit di 16 verrà compressa con un algoritmo senza perdita di qualità, che consente di ridurne le dimensioni. Questo si aggiunge al file di progetto che comprime già i propri dati.
 
-  Questa modifica riguarda principalmente <b>texture bake</b>, che in genere sono il motivo per cui i file di progetto possono essere molto pesanti sul disco. In media, abbiamo visto progetti di dimensioni <b>ridotte del 30% al 50% sul disco</b>.
+  Questa modifica riguarda principalmente <b>texture di esegue i baking</b>, che in genere sono il motivo per cui i file di progetto possono essere molto pesanti sul disco. In media, abbiamo visto progetti di dimensioni <b>ridotte del 30% al 50% sul disco</b>.
 
   Questa compressione viene applicata automaticamente quando si salva un progetto (vecchio o nuovo) in risorse non già compresse. Ciò significa che per i vecchi progetti, il salvataggio per la prima volta in questa nuova versione potrebbe richiedere un po’ più di tempo del solito. Una volta completata questa operazione, il risparmio di tempo dovrebbe tornare alla normalità.
 * <b>Nuovo set UV in modalità di proiezione riempimento con impostazione UV</b>
@@ -247,21 +239,21 @@ Riepilogo: <b>Versione principale che introduce il supporto per SVG e trasparenz
 <b>Aggiunto:</b>
 
 * [SVG] Consenti l’importazione di file vettoriali (SVG)
-* [SVG]&#x200B;[UI] Aggiungi il supporto per le proprietà specifiche dei SVG
+* [SVG][UI] Aggiungi il supporto per le proprietà specifiche dei SVG
 * [SVG] Aggiungete un’opzione per mantenere facilmente le proporzioni originali dell’immagine
 * [SVG] Consenti l&#39;utilizzo automatico del canale alfa di SVG con trasparenza
 * [Interoperabilità] Consente di inviare una trama con texture ad After Effects (Ae 24.1 beta)
 * [Interoperabilità] Aggiungere impostazioni per Invia a After Effects
-* [QoL]&#x200B;[Assets]&#x200B;[UI] Importa automaticamente risorsa durante il trascinamento nello slot dell&#39;interfaccia utente
+* [QoL][Assets][UI] Importa automaticamente risorsa durante il trascinamento nello slot dell&#39;interfaccia utente
 * [QoL] Consente di trascinare e rilasciare risorse esterne nella Pila livelli
-* [QoL]&#x200B;[Pila livelli] Trascina le texture dal pannello Risorse alla Pila livelli
-* [QoL]&#x200B;[Viewport] Consente di trascinare e rilasciare il generatore, filtri sulla trama
-* [QoL]&#x200B;[Finestra vista] Consente di rilasciare risorse esterne sulla trama
-* [QoL]&#x200B;[Proiezione] Aggiungi un nuovo set UV alla modalità di proiezione del set UV
+* [QoL][Pila livelli] Trascina le texture dal pannello Risorse alla Pila livelli
+* [QoL][Viewport] Consente di trascinare e rilasciare il generatore, filtri sulla trama
+* [QoL][Finestra vista] Consente di rilasciare risorse esterne sulla trama
+* [QoL][Proiezione] Aggiungi un nuovo set UV alla modalità di proiezione del set UV
 * [QoL] Trascina le Maschere avanzate come nuovi livelli nella finestra della vista e nella Pila livelli
 * [QoL] Aggiungi selettore per i generatori con più output quando utilizzati nella maschera
 * [QoL] Consente di trascinare e rilasciare immagini a canale singolo su un effetto di riempimento
-* [QoL]&#x200B;[Pila livelli] Usate i modificatori CTRL/ALT con il trascinamento per specificare dove/come creare effetti/livello
+* [QoL][Pila livelli] Usate i modificatori CTRL/ALT con il trascinamento per specificare dove/come creare effetti/livello
 * [Tracciato] Attiva/disattiva la visibilità dei tracciati singolarmente nel pannello Tracciato
 * [Path] Consenti l&#39;utilizzo di manipolatori di trasformazione per i punti di tracciato
 * [Path] Consente di controllare manualmente le tangenti per vertice
@@ -281,7 +273,7 @@ Riepilogo: <b>Versione principale che introduce il supporto per SVG e trasparenz
 * [Prestazioni] Applicate la compressione senza perdita di dati alle immagini a 16 bit per ridurre l’ingombro del progetto
 * [Python] Consenti di manipolare la videocamera predefinita in vista 3D
 * [Python] Esporta la possibilità di esportare trama tramite scripting
-* [Content]&#x200B;[Samples] Aggiungi un nuovo progetto di esempio &quot;French Restaurant Table&quot;
+* [Content][Samples] Aggiungi un nuovo progetto di esempio &quot;French Restaurant Table&quot;
 * [Content] Aggiorna Substance logo alpha alla nuova versione
 * [Contenuto] Aggiungi tre filtri di materiale focalizzati sui SVG (Adesivo personalizzato, Spruzzo personalizzato e Grafica su materiale)
 
@@ -296,18 +288,18 @@ Riepilogo: <b>Versione principale che introduce il supporto per SVG e trasparenz
 * [UI] In alcuni casi la freccia contestuale della barra degli strumenti non viene visualizzata
 * [Substance] Il pulsante affiancato per i valori booleani non è supportato
 * [Level] Etichetta del canale errata quando utilizzata nella maschera
-* [Export]&#x200B;[glTF] i file glTF/GLB esportati da Painter non dispongono di un&#39;unità di dimensioni fisiche
+* [Export][glTF] i file glTF/GLB esportati da Painter non dispongono di un&#39;unità di dimensioni fisiche
 * [Content] L’intensità del filtro Sfocatura è bloccata su 16
 * [Content] L&#39;input dell&#39;immagine &quot;colore di destinazione&quot; del filtro Corrispondenza colori non è visibile
 
 <b>Problemi noti:</b>
 
 * [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
-* [Arresto anomalo]&#x200B;[Linux] con Linux Wayland su AMD quando si trascina e si rilascia la risorsa nella Pila livelli
-* [Arresto anomalo]&#x200B;[Mac] Modifica del valore di filtro anisotropo nel sistema operativo Monterey
+* [Arresto anomalo][Linux] con Linux Wayland su AMD quando si trascina e si rilascia la risorsa nella Pila livelli
+* [Arresto anomalo][Mac] Modifica del valore di filtro anisotropo nel sistema operativo Monterey
 * [Arresto anomalo] Exr utilizzato come input dell&#39;immagine
 * [Arresto anomalo] Utilizzo di una mappa dell&#39;ambiente a 16 K
 * [Annullamento automatico] Problema di interfaccia utente per il controllo della densità del testo
-* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sullo schermo hd
+* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sullo schermo hd
 * [Python] Arresto anomalo di esportazione dell’USD attivato da TextureStateEvent
 * [QoL] Se si trascina una risorsa Alpha in modalità decalcomania, viene creata una Proiezione UV nella maschera

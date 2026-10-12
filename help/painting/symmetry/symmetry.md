@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/symmetry.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare gli strumenti simmetria in Substance 3D Painter per creare effetti di pittura texture bilanciati e specchiati.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Symmetry
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Simmetria
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 5%
-
 ---
-
 
 # Simmetria
 
@@ -44,7 +36,7 @@ Regolare le opzioni di Simmetria con il <b>pulsante Simmetria impostazioni</b> n
 
 >[!NOTE]
 >
-> La proiezione del colore e la proiezione dello stencil nella vista 2D non supportano la simmetria. Se necessario, si consiglia di utilizzare la vista 3D.
+> La proiezione della pittura e la proiezione dello stencil nella Vista 2D non supportano la simmetria. Se necessario, si consiglia di utilizzare la vista 3D.
 
 ## Usa Simmetria con livelli di riempimento
 

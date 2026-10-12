@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-8-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 8.1 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 8.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
-
 ---
-
 
 # Versione 8.1
 
@@ -190,16 +182,16 @@ Ora le trame vengono tagliate in Isole UV separate utilizzando un metodo che si 
 
 **Aggiunto:**
 
-* [Gestione colore] Aggiungi il supporto per i profili ICC con Adobe Color Engine (ACE)
+* [Gestione colore] Aggiungi supporto per profili ICC con Adobe Color Engine (ACE)
 * [Gestione colore] Aggiungi il supporto per &quot;Adobe 98 RGB&quot; come spazio colore di lavoro per ICC
 * [Gestione colore] Consente di configurare le impostazioni ACE/ICC tramite un file di configurazione
 * [Gestione colore] Consente di inserire valori di colore lineari nel Selettore colore con la modalità Legacy
 * [Gestione colore] Consente di specificare il profilo colore utilizzato per la selezione del colore al di fuori dell&#39;interfaccia utente
 * [Gestione colore] Ricordare l&#39;ultimo valore di visualizzazione scelto nella finestra della vista
-* [Gestione colore]&#x200B;[Substance] Fate funzionare correttamente i generatori/filtri con la Gestione colore
-* [Gestione colore]&#x200B;[Substance] Aggiungi nuove parole chiave di esclusione dello spazio colore $working e $standardsrgb
-* [Dimensioni fisiche]&#x200B;[Engine] Estrai informazioni dimensioni fisiche dalla trama
-* Calcolo Dimensioni fisiche [Dimensioni fisiche]&#x200B;[Engine]
+* [Gestione colore][Substance] Fate funzionare correttamente i generatori/filtri con la Gestione colore
+* [Gestione colore][Substance] Aggiungi nuove parole chiave di esclusione dello spazio colore $working e $standardsrgb
+* [Dimensioni fisiche][Engine] Estrai informazioni dimensioni fisiche dalla trama
+* Calcolo Dimensioni fisiche [Dimensioni fisiche][Engine]
 * [Dimensioni fisiche] Esporre le opzioni per utilizzare dimensioni fisiche nell&#39;interfaccia utente
 * [Dimensioni fisiche] Aggiungere gli helper visivi nella finestra della vista
 * [Esegue i baking] Aggiungi baker di Height
@@ -222,33 +214,33 @@ Ora le trame vengono tagliate in Isole UV separate utilizzando un metodo che si 
 * Aggiorna Scorrimento automatico a 0.9.0
 * Esegui l’aggiornamento a Qt 5.15.8
 * Aggiornamento a Python 3.9
-* [Shader] Aggiungere il supporto per l&#39;ombreggiatura Normali piegati
+* [Shader] Aggiunta del supporto per l&#39;ombreggiatura della Normali incurvate
 * [MacOS] Supporto di 3DConnection SpaceMouse
 * [Python] Documentazione della versione Python utilizzata nell’API
 * [Content] Aggiungi 6 nuovi rumori 3D con 105 predefiniti
 * [Content] 20 nuove mappe di grunge e 2 modelli di pieghe di tessuto
-* [Content] Aggiorna il predefinito di esportazione &quot;Mesh maps&quot; per utilizzare nuovi forni
+* [Content] Aggiornamento del predefinito di esportazione &quot;Mesh maps&quot; per utilizzare nuovi baker
 * [Contenuto] I filtri Sfoca Pendenza e Altera dipendono dalla risoluzione del set di texture
-* [Content] Aggiorna i progetti di esempio per utilizzare i tre nuovi panettieri
+* [Content] Aggiorna i progetti di esempio per utilizzare i tre nuovi baker
 
 **Corretto:**
 
 * [glTF] Impossibile aprire glTF con carattere speciale
 * [Engine] Artefatti con anisotropia e SVT disattivati
-* [MacOS]&#x200B;[M1] I materiali avanzati non vengono visualizzati correttamente
+* I Materiali avanzati [MacOS][M1] non vengono visualizzati correttamente
 * [Elaborazione trama] Impossibile importare trame da Modeler
 * [UI] Barra di scorrimento orizzontale nella nuova finestra del progetto con la Gestione colore attivata
 * [Gestione colore] Valore dello spazio di lavoro mancante nel selettore colore con alcune configurazioni OCIO
 * [Gestione colore] L’anteprima del pennello nella finestra della vista non è sottoposta alla gestione del colore
 * [SpaceMouse] Il pivot non viene aggiornato immediatamente con la modifica dello stato attivo e a volte fuori dal modello
-* [Export]&#x200B;[USD] I file USD esportati hanno una struttura errata
+* [Export][USD] I file USD esportati hanno una struttura errata
 * [USD] Problema di Occlusione ambientale durante l’esportazione
 * [Content] Aggiorna la trama della miniatura in modo che corrisponda al progetto di esempio Preview Sphere
 
 **Problemi noti:**
 
-* Esporta le texture utilizzando il riempimento di diffusione esegue il rendering delle mappe nere
-* Il mixaggio delle Occlusioni normali/ambientali è interrotto
+* Esportare texture utilizzando il riempimento diffusione esegue il rendering delle mappe nere
+* Il missaggio normale/Occlusione ambientale è interrotto
 * [MacOS] Arresto anomalo all&#39;avvio di Iray in alcuni rari casi
 * [Anteprima miniatura] Le miniature semplificate non vengono aggiornate quando si utilizza un ancoraggio
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati

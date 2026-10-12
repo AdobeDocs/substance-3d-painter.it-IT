@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri le best practice per la gestione dei livelli in Substance 3D Painter per ottimizzare le prestazioni e gestire i progetti organizzati.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Layer management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gestione dei livelli
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 
 # Gestione dei livelli
 
@@ -57,7 +49,7 @@ La Passthrough viene spesso utilizzata con filtri o livelli di tratti pennello. 
 +++
 
 +++Profondità di proiezione ridotta
-Con qualsiasi strumento o modalità che abbia un’impostazione profondità di proiezione (alterazione, planare, tracciato, ecc.), mantenete il valore della profondità di proiezione il più basso possibile. Più la profondità di proiezione si estende, meno performante risulta.
+Con qualsiasi strumento o modalità che abbia un’impostazione profondità di proiezione (alterazione, planari, tracciato, ecc.), mantenete il valore della profondità di proiezione il più basso possibile. Più la profondità di proiezione si estende, meno performante risulta.
 
 +++
 

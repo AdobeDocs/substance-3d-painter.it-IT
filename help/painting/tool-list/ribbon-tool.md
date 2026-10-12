@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/tool-list/ribbon-tool.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Usate lo strumento Barra multifunzione in Substance 3D Painter per creare tratti di pittura a nastro lungo i tracciati per la texture decorativa.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Percorso del nastro
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 2%
-
 ---
-
 
 # Percorso del nastro
 
@@ -112,8 +104,8 @@ Questa sezione controlla il risultato della fusione quando il tracciato si sovra
 | Parametro | Descrizione |
 | --- | --- |
 | <b>Alpha</b> | Controlla il modo in cui la sezione <b>Alpha</b> del Percorso dei nastri viene fusa nelle aree in cui si sovrappone, il che influisce sull&#39;intensità della fusione di tutti gli altri canali. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normale</b>: utilizza il canale alfa del segmento superiore.</li> <li data-preserve-html="true"><b>Schiarisci (massimo)</b>: (impostazione predefinita) utilizza il valore alfa massimo, mantenendo il segmento più opaco.</li> <li data-preserve-html="true"><b>Scherma lineare (Aggiungi)</b>: aggiunge l&#39;alfa dei segmenti per accumularli insieme, con un valore più saturo.</li> </ul> |
-| <b>Normale</b> | Definite il modo in cui il canale <b>Normale</b> viene fuso nelle aree in cui il tracciato si sovrappone. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normale</b>: utilizza il risultato del segmento superiore.</li> <li data-preserve-html="true"><b>Mappa normale combinazione</b>: (impostazione predefinita) combina i segmenti con uguale intensità.</li> <li data-preserve-html="true"><b>Mappa normale dettagli</b>: considera il segmento superiore come dettagli aggiuntivi, mentre le aree inferiori ne manterranno l&#39;intensità.</li> </ul>Questa impostazione è diversa dal metodo di fusione <b>Normale</b> definito per l&#39;intero livello, che viene applicato dopo la fusione della sovrapposizione del tracciato stesso. <b>Nota</b>: questa impostazione è disabilitata se il canale è di colore uniforme. È compatibile solo con bitmap e risorse di Substance. |
-| <b>Height</b> | Definisci come fondere il canale <b>Height</b> nelle aree in cui il tracciato si sovrappone. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normale</b>: utilizza il risultato del segmento superiore.</li> <li data-preserve-html="true"><b>Scherma lineare (Aggiungi)</b>: aggiunge i segmenti mantenendo l&#39;intensità originale.</li> <li data-preserve-html="true"><b>Scurisci (min)</b>: mantenete solo il valore più scuro/più basso dei segmenti sovrapposti.</li> <li data-preserve-html="true"><b>Luce (max)</b>: (impostazione predefinita) mantenete il valore più chiaro/più alto dei segmenti sovrapposti.</li> <li data-preserve-html="true"><b>Schermo</b>: simile a <b>Schermo lineare</b>, ma con un risultato meno saturo.</li> </ul>Questa impostazione è diversa dal metodo di fusione <b>Height</b> definito per l&#39;intero livello, che viene applicato dopo la fusione della sovrapposizione del tracciato stesso. <b>Nota</b>: questa impostazione è disabilitata se il canale è di colore uniforme. È compatibile solo con bitmap e risorse di Substance. |
+| <b>Normale</b> | Definite il modo in cui il canale <b>Normale</b> viene fuso nelle aree in cui il tracciato si sovrappone. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normale</b>: utilizza il risultato del segmento superiore.</li> <li data-preserve-html="true"><b>Mappa normale combinazione</b>: (impostazione predefinita) combina i segmenti con uguale intensità.</li> <li data-preserve-html="true"><b>Mappa normale dettagli</b>: considera il segmento superiore come dettagli aggiuntivi, mentre le aree inferiori ne manterranno l&#39;intensità.</li> </ul>Questa impostazione è diversa dal metodo di fusione <b>Normale</b> definito per l&#39;intero livello, che viene applicato dopo la fusione della sovrapposizione del tracciato stesso. <b>Nota</b>: questa impostazione è disabilitata se il canale è un colore uniforme. È compatibile solo con bitmap e risorse di Substance. |
+| <b>Height</b> | Definisci come fondere il canale <b>Height</b> nelle aree in cui il tracciato si sovrappone. I valori possibili sono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normale</b>: utilizza il risultato del segmento superiore.</li> <li data-preserve-html="true"><b>Scherma lineare (Aggiungi)</b>: aggiunge i segmenti mantenendo l&#39;intensità originale.</li> <li data-preserve-html="true"><b>Scurisci (min)</b>: mantenete solo il valore più scuro/più basso dei segmenti sovrapposti.</li> <li data-preserve-html="true"><b>Luce (max)</b>: (impostazione predefinita) mantenete il valore più chiaro/più alto dei segmenti sovrapposti.</li> <li data-preserve-html="true"><b>Schermo</b>: simile a <b>Schermo lineare</b>, ma con un risultato meno saturo.</li> </ul>Questa impostazione è diversa dal metodo di fusione <b>Height</b> definito per l&#39;intero livello, che viene applicato dopo la fusione della sovrapposizione del tracciato stesso. <b>Nota</b>: questa impostazione è disabilitata se il canale è un colore uniforme. È compatibile solo con bitmap e risorse di Substance. |
 
 Esempio di un possibile aspetto del metodo di fusione con il canale del height:
 

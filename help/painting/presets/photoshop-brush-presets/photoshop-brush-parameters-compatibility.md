@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Informazioni sulla compatibilità dei parametri dei pennelli di Photoshop in Substance 3D Painter durante l’importazione dei predefiniti dei pennelli ABR.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Compatibilità dei parametri dei pennelli Photoshop
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
-
 ---
-
 
 # Compatibilità dei parametri dei pennelli Photoshop
 
@@ -40,7 +32,7 @@ Quando si osserva all’interno del file ABR, Substance 3D Painter recupera solo
 
 ## Parametri
 
-Per ulteriori informazioni sulle funzionalità di questi parametri, consultare la [documentazione ufficiale di Photoshop](https://helpx.adobe.com/it/photoshop/using/creating-modifying-brushes.html) .
+Per ulteriori informazioni sulle funzionalità di questi parametri, consultare la [documentazione ufficiale di Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) .
 
 Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferimento alla legenda per conoscere lo stato di ogni parametro descritto di seguito:
 
@@ -73,7 +65,7 @@ Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferiment
 | **Variazione rifl. Y** | ■ | Gestito tramite il file di Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Proiezione pennello** | ✖ |  |  |
 |  |  |  |  |
-| Dispersione | **Dispersione** | ■ | Corrisponde al parametro Variazione posizione dello strumento di disegno. |
+| Dispersione | **Dispersione** | ■ | Corrispondente al parametro della Variazione posizione dell&#39;utensile Pittura. |
 | **Entrambi gli assi** | ■ | Corrispondenza con il parametro Asse Variazione posizione utensile Pittura. |  |
 | **Controllo (per Dispersione)** | ✖ |  |  |
 | **Conteggio** | ■ | Compensata tramite il parametro Spaziatura strumento Pittura. |  |
@@ -85,7 +77,7 @@ Non tutti i parametri dei pennelli di Photoshop sono supportati. Fare riferiment
 | **Scala** | ✖ |  |  |
 | **Luminosità** | ✖ |  |  |
 | **Contrasto** | ✖ |  |  |
-| **Texture Ogni Punta** | ✖ |  |  |
+| **Texture ogni suggerimento** | ✖ |  |  |
 | **Modalità** | ✖ |  |  |
 | **Profondità** | ✖ |  |  |
 | **Profondità minima** | ✖ |  |  |

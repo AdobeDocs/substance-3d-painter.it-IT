@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.4 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2017.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2017.4
 
@@ -90,24 +82,24 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 
 * [Esportazione] Ottieni lo stato di un’esportazione con avanzamento passaggio
 * [Esportazione] Consenti l’annullamento di un’esportazione
-* [Esporta] Esporta le texture in Sketchfab senza perdere la qualità della mappa normale
+* [Esporta] Esporta texture in Sketchfab senza perdere la qualità delle mappe normali
 * [Esportazione] Esportazione in formato binario (glb) glTF
 * [Esporta] Consente il ridimensionamento delle colonne nella scheda di configurazione della finestra di esportazione
 * [Shader] Aggiungere un registro delle modifiche per l&#39;API shader
-* [Scripting] Aggiungere le funzioni di richiamata prima e dopo l’esportazione delle texture
+* [Scripting] Aggiungi funzioni di richiamata prima e dopo quando si esportano texture
 * [Iray] Aggiornamento a SDK 2017.1 (supporto di GPU Volta)
 
-**&#x200B;**&#x200B;Corretto:**&#x200B;**
+****Corretto:****
 
-* Arresto anomalo quando si esce dall’applicazione prima della visualizzazione della finestra principale
+* Arresto anomalo di chiusura dell&#39;applicazione prima della visualizzazione della finestra principale
 * [MAC] Arresto anomalo durante il caricamento di mappe in scala di grigio con IRAY
 * [MAC] Il rilevamento VRAM non è corretto con il nuovo sistema operativo High Sierra
 * [Plugin] Il download delle risorse da Substance Source non funziona più
 * [Scripting] Rilevamento minimo della versione del plug-in non corretto
-* [Esporta] Impossibile salvare il predefinito di esportazione dopo l’esportazione delle texture
+* [Esporta] Impossibile salvare il predefinito di esportazione dopo l’esportazione della texture
 * [Istanza] Problema relativo ai generatori di cui è stata creata un’istanza in un TextureSet senza mappe aggiuntive
 * [Finestra vista] Il dithering non funziona con una risoluzione superiore a 4k
-* [Riquadro di visualizzazione] La visualizzazione del materiale 2D View è coperta da rumore
+* [Finestra vista] La visualizzazione del materiale vista 2D è coperta da rumore
 * [Shelf] Migliorare il tempo di caricamento per i predefiniti shelf
 * [Motore] Fusione errata durante il disegno sotto la selezione colore
 
@@ -124,11 +116,11 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 **Corretto:**
 
 * Arresto anomalo se l&#39;applicazione viene chiusa prima del termine della ricerca per indicizzazione delle risorse
-* Arresto anomalo all’apertura di progetti con lo strumento Sfumino/Clone
-* Arresto anomalo quando si utilizza Ripeti dopo un annullamento di una modifica dello shader in Impostazioni visualizzatore
+* Arresto anomalo durante l’apertura di progetti con lo strumento Sfumino/Clona /Clone
+* Arresto anomalo quando si utilizza Ripeti dopo un annullamento della modifica dello Shader in Impostazioni visualizzatore
 * [Engine] La creazione di texture differisce tra Painter 2017.2 e 2017.4
 * [Finestra vista] Il prelievo su una mappa ID da un&#39;istanza consente di campionare il colore errato
-* [Esporta] Arresto anomalo durante l’esportazione di una texture normale o di occlusione non valida
+* arresto anomalo [Esporta] durante l’esportazione di una texture normale o di occlusione non valida
 * I gruppi dei file PSD di [Esportazione] sono bloccati all’apertura in Photoshop CS6
 * [Plugin] Il plug-in Photoshop ignora la selezione del canale ed esporta sempre tutto
 * [Livelli] Gli ancoraggi si interrompono quando vengono copiati/incollati su set di texture
@@ -165,11 +157,11 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 **Corretto:**
 
 * Arresto anomalo quando si elaborano Substance a risoluzioni eccessive
-* Arresto anomalo quando si dipingono intensamente con particelle
-* [Finestra vista] Riflesso di specular errato nella vista 2D con trame specifiche
+* Arresto anomalo quando si dipinge intensamente con particelle
+* [Finestra vista] Riflesso di specular errato nella Vista 2D con trame specifiche
 * [UI] Alcune azioni indesiderate vengono visualizzate nella finestra Cronologia
 
 **Problemi noti:**
 
 * [Livelli] Alcuni riferimenti di ancoraggio non possono essere ripristinati se sono interrotti
-* Arresto anomalo quando si utilizza Ripeti dopo un annullamento di una modifica dello shader in Impostazioni visualizzatore
+* Arresto anomalo quando si utilizza Ripeti dopo un annullamento della modifica dello Shader in Impostazioni visualizzatore

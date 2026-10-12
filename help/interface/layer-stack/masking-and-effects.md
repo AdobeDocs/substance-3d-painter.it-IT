@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la mascheratura e gli effetti in Substance 3D Painter Pila livelli per controllare la visibilità dei livelli e applicare gli effetti di livello.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Masking and effects
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mascheratura ed effetti
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 5%
-
 ---
-
 
 # Mascheratura ed effetti
 

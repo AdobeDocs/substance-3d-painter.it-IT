@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come pittura le mappe di occlusione ambientale direttamente in Substance 3D Painter per aggiungere ombre e profondità realistiche alle texture.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Occlusione ambientale pittura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
-
 ---
-
 
 # Occlusione ambientale pittura
 
 Il canale di occlusione ambientale consente di pittura i dettagli nelle ombre ambientali di un oggetto. Può essere utilizzato per aggiungere dettagli AO provenienti da Materiali o semplicemente correggere manualmente gli errori di esegue i baking quando necessario.
 
-&#x200B;>> 
+>> 
 
 Nella computergrafica, l’occlusione ambientale è una tecnica di ombreggiatura e rendering utilizzata per calcolare l’esposizione di ciascun punto di una scena all’illuminazione ambientale. L&#39;interno di un tubo è tipicamente più occluso (e quindi più scuro) rispetto alle superfici esterne esposte, e più si va all&#39;interno del tubo, più occlusa (e più scura) diventa l&#39;illuminazione. L’Occlusione ambientale può essere vista come un valore di accessibilità calcolato per ciascun punto della superficie.\
 Fonte: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>
@@ -60,10 +52,10 @@ Crea un nuovo livello di riempimento e inserisci l’occlusione ambientale esegu
 
 ### 3 - Modificare il metodo di fusione del livello di riempimento
 
-Per impostazione predefinita, il metodo di fusione del canale AO su qualsiasi nuovo livello è impostato su &quot; **Moltiplica** &quot;. Poiché è preferibile utilizzare il livello di riempimento come base, abbiamo scelto il metodo di fusione &quot;normale&quot;, in quanto la bitmap non ha alcun canale alfa, sostituirà tutto ciò che segue (incluso il colore predefinito dello shader).\
+Per impostazione predefinita, il metodo di fusione del canale AO su qualsiasi nuovo livello è impostato su &quot; **Moltiplica** &quot;. Poiché è preferibile utilizzare il livello di riempimento come base, abbiamo scelto il metodo di fusione &quot;normale&quot;, in quanto la bitmap non ha canale alfa, sostituirà tutto ciò che segue (compreso il colore predefinito dello shader).\
 ![](../../assets/ao-blend-mode.gif)
 
 ### 4 - Creazione di un livello di pittura sulla mappa di occlusione ambientale eseguita i baking
 
-Create un nuovo livello (regolare o di riempimento) e impostatene il metodo di fusione su &quot;normale&quot; per il canale AO. Una volta completata questa configurazione, tutto ciò che viene dipinto sul canale AO assumerà il controllo della mappa dell’AO cotta che si trova sul livello sottostante.\
+Create un nuovo livello (regolare o di riempimento) e impostatene il metodo di fusione su &quot;normale&quot; per il canale AO. Una volta completata questa configurazione, tutto ciò che viene dipinto sul canale AO assumerà il controllo della mappa AO eseguita i baking che si trova sul livello sottostante.\
 ![](../../assets/paint-over-ao-optimized.gif)

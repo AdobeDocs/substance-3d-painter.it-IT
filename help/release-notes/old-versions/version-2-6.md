@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2-6.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2.6 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2.6
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2.6
 
@@ -48,7 +40,7 @@ Il **plug-in** è disponibile in GitHub. Non esitare ad aiutarti se riscontri po
 ![](../../assets/texture-set-rename-description.png)
 
 Ora è possibile modificare il nome di un set di texture direttamente all’interno della Substance Painter. La ridenominazione di un set di texture influisce sul nome della texture esportata sul disco (a seconda del predefinito di esportazione utilizzato).\
-Per rinominare un set di texture, fate doppio clic sul nome per modificarlo oppure usate il pulsante destro del mouse per aprire il menu di scelta rapida. È inoltre possibile aggiungere descrizioni personalizzate per fornire ulteriori informazioni sulle funzioni dei set di texture. Questo può essere molto utile quando si lavora su un [progetto UDIM](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilizzare il pulsante &quot;**impostazioni**&quot; per configurare la modalità di visualizzazione delle descrizioni nell&#39;elenco.
+Per rinominare un set di texture, fate doppio clic sul nome per modificarlo oppure usate il pulsante destro del mouse per aprire il menu di scelta rapida. È inoltre possibile aggiungere descrizioni personalizzate per fornire ulteriori informazioni sulle funzioni dei set di texture. Questo può essere molto utile quando si lavora su un [progetto UDIM](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilizzare il pulsante &quot;**impostazioni**&quot; per configurare la modalità di visualizzazione delle descrizioni nell&#39;elenco.
 
 ![](../../assets/reasign-texture-set.png)
 
@@ -75,14 +67,14 @@ Le nuove funzioni principali sono descritte nell’ultima esercitazione video:
 **Risolto:**
 
 * [Engine] Problema di scomparsa dei tratti quando si modifica la risoluzione (4K>2K)
-* [Bakers] La mappatura degli ID non riesce con l&#39;opzione Corrispondenza per nome abilitata
-* [Bakers] I messaggi di errore non sono sufficientemente espliciti
-* [Vista 3D] Lo spazio tangente non è sincronizzato con i forni
+* [Baker] La Esegue i baking della mappa ID non riesce con l’opzione Corrispondenza per nome attivata
+* [Baker] I messaggi di errore non sono sufficientemente espliciti
+* [vista 3D] Lo spazio tangente non è sincronizzato con i baker
 * [Strumento] Artefatti di nero quando si utilizza lo strumento sfumino
 * [Shader] Lo shader non PBR non funziona più
 * [Shader] &quot;pbr-coated&quot; è rotto
-* [Shader] La rugosità del rivestimento dello shader &quot;pbr-coated&quot; non ha più alcun impatto
-* [Shader] Lo shader lucido della specifica non corrisponde a Iray e SD
+* [Shader] La rugosità dello shader &quot;pbr-coated&quot; non ha più alcun impatto
+* [Shader] Lo shader lucido delle specifiche non corrisponde a Iray e SD
 * [Shelf] Arresto anomalo durante il caricamento di due file con lo stesso nome ma estensioni diverse
 * [Shelf] Impossibile modificare il predefinito negli scaffali
 * [Shelf] Impossibile impostare un&#39;anteprima personalizzata per le risorse importate nello shelf
@@ -103,14 +95,14 @@ Le nuove funzioni principali sono descritte nell’ultima esercitazione video:
 
 * Arresto anomalo quando si cambia TextureSet dopo la sostituzione della mappa con baking
 * Arresto anomalo quando si esegue &quot;Annulla e ripeti&quot; dopo aver modificato il metodo di fusione del livello
-* Arresto anomalo o blocco quando si utilizza l’effetto &quot;Selezione colore&quot; con mappa ID grande
+* Arresto anomalo o blocco quando si utilizza l&#39;effetto &quot;selezione colore&quot; con mappa ID grande
 * [Esporta] I set di texture rinominati non sono ordinati alfabeticamente nella finestra di esportazione
 * [TextureSet] Il ripristino del nome predefinito non verifica la presenza di unicità
 * [TextureSet] Il set di texture rinominato viene disattivato dopo la riapertura del progetto
 * [Shelf] Contenuto modelli predefiniti mancante
-* [Ripiano] Le texture non quadrate vengono visualizzate come quadrate
+* [Shelf] Le texture non quadrate vengono visualizzate come quadrate
 * [Shader] Una volta disattivato un set di texture, lo shader associato viene eliminato
-* [Script] alg.baking.setTextureSetBakingParameters() non funziona più
+* [Scripting] alg.eseguite i baking.setTextureSetBakingParameters() non funziona più
 * [Scripting] Errore di battitura nell’esercitazione websocket
 * [Scripting] Vari problemi in AlgWidgets
 * [Log] Rilevamento errato della memoria virtuale disponibile in alcuni casi
@@ -141,10 +133,10 @@ Le nuove funzioni principali sono descritte nell’ultima esercitazione video:
 **Risolto**:
 
 * Arresto anomalo durante l’aggiornamento di una trama in progetti specifici
-* [Finestra vista] Il colore interno del piano di simmetria non è più visibile
+* [Finestra vista] Il colore interno del piano della Simmetria non è più visibile
 * [Riquadro di visualizzazione] Alcuni effetti di post-elaborazione sono attivati quando si utilizza la vista Solo
 * [Ombreggiature] La fusione &quot;sopra\_predefinito&quot; non funziona correttamente
-* [Shader] Avvertenza sul test alfa con lo shader predefinito
+* [Ombreggiatori] Avvertenza sul test alfa con lo shader predefinito
 * [Shelf] Analisi errata dei tag dalle Substance
 * [Shelf] MatFX Ruggine Weathering non funziona correttamente
 * [Shelf] Per impostazione predefinita, il filtro HSL è attivato sui canali errati

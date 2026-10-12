@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2017.3
 
@@ -30,7 +22,7 @@ Data di pubblicazione: *28 settembre 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Una delle nuove esportazioni incluse in questa versione è il supporto dell’Adobe Standard Material, da utilizzare con Adobe Dimension (in precedenza Project Felix dell’Adobe). Ti permettiamo di esportare la trama della scena e le sue texture per importarle nel Progetto Felix con un solo clic. Per accedervi, è sufficiente scegliere &quot;**Adobe Standard Material**&quot; nella finestra Esporta texture. Per ulteriori informazioni, vedere: [http://www.adobe.com/it/products/dimension.html](https://www.adobe.com/it/products/dimension.html)
+Una delle nuove esportazioni incluse in questa versione è il supporto dell’Adobe Standard Material, da utilizzare con Adobe Dimension (in precedenza Project Felix dell’Adobe). Ti permettiamo di esportare la trama della scena e le sue texture per importarle nel Progetto Felix con un solo clic. Per accedervi, è sufficiente scegliere &quot;**Adobe Standard Material**&quot; nella finestra Esporta texture. Per ulteriori informazioni, vedere: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Puoi anche consultare il post del blog su questo argomento: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +47,7 @@ Se viene creato un backup ma il progetto non è stato salvato (ovvero Untilted),
 
 ![](../../assets/gradient-rust.jpg)
 
-Il **filtro sfumatura** è stato completamente rinnovato. Agire in modo molto più simile al nodo **mappa sfumatura** disponibile nel **Substance Designer**. Ora supporta fino a **10 colori diversi**, con la possibilità di specificare **dove si trova il colore all&#39;interno** della sfumatura **&#x200B;**, aprendo molte nuove porte. Ciò consente di creare più&#x200B;**pattern di colore avanzati**, ma anche **mappe di altezza rimasterizzate**&#x200B;e di creare **nuove forme**.
+Il **filtro sfumatura** è stato completamente rinnovato. Agire in modo molto più simile al nodo **mappa sfumatura** disponibile nel **Substance Designer**. Ora supporta fino a **10 colori diversi**, con la possibilità di specificare **dove si trova il colore all&#39;interno** della sfumatura ****, aprendo molte nuove porte. Ciò consente di creare più&#x200B;**pattern di colore avanzati**, ma anche **mappe di altezza rimasterizzate**e di creare **nuove forme**.
 
 Il cursore principale (quantità di colore) definisce il numero di colori totali utilizzati per creare la sfumatura. Il pulsante appena sotto definisce il metodo di fusione del colore (sRGB o lineare). Questo è importante se desiderate ottenere una fusione corretta tra i colori. Ad esempio, la fusione di un rosso puro e di un verde puro dovrebbe dare un bel giallo nel mezzo. Questo non è il caso se il pulsante è disattivato (darà invece un marrone scuro). Quando si modifica il height o qualsiasi altro canale in scala di grigio, questo pulsante deve essere disattivato per evitare la conversione di gamma.
 
@@ -97,14 +89,14 @@ Questa versione di Substance Painter include anche un nuovo e forte migliorament
 * [UI] Migliora la finestra di dialogo per la nuova versione e aggiungi il registro modifiche
 * [UI] Indica se la manutenzione è scaduta nella finestra di dialogo per una nuova versione
 * [Licenza] Aggiornare il sistema di licenze per gestire le date di manutenzione
-* [Esporta] Rinomina materiale standard Adobe in Adobe Dimension
+* [Esporta] Rinomina Adobe Standard Material in Adobe Dimension
 
 **Risolto:**
 
-* [Mac] La pittura causa la corruzione dei quadrati neri e delle texture
+* [Mac] Dipingere causa quadrati neri e texture di corruzione
 * La cache di [Engine] a volte può scomparire nella finestra della vista
 * [Engine] Vengono visualizzati artefatti di tipo Blocky quando si attiva la compressione della memoria
-* [Baking] Strani messaggi di errore durante la cottura di trame specifiche
+* [Eseguita i baking] Strani messaggi di errore durante la esegue i baking di trame specifiche
 * [Export] PSD non sono scritti correttamente e non vengono riconosciuti correttamente da Photoshop
 * [Livelli] Non dovrebbe essere possibile copiare/incollare i livelli in più progetti
 * [Substance] In alcuni casi, lo spazio colore UserData per l’input Normale viene capovolto
@@ -130,7 +122,7 @@ Questa versione di Substance Painter include anche un nuovo e forte migliorament
 * Arresto anomalo quando si eliminano più scaffali secondari
 * Arresto anomalo quando si passa da un livello a qualcos&#39;altro durante il calcolo di un motore
 * [Mac] Arresto anomalo sulla GPU Intel durante il calcolo del motore
-* [Mac]&#x200B;[Finestra vista] Prestazioni errate quando è attivato il dithering
+* [Mac][Finestra vista] Prestazioni errate quando è attivato il dithering
 * [Mac] MacOS 10.13 viene riconosciuto come &quot;Versione sconosciuta&quot; nel file di registro
 * [Baker] Eseguire i baking con una gabbia non funziona più
 * [Livelli] Ctrl + C scelta rapida da tastiera (azione copia) non funziona più

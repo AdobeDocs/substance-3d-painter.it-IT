@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite i requisiti di compatibilità dei driver GPU per Substance 3D Painter per garantire la stabilità del rendering e delle prestazioni.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Compatibilità dei driver GPU
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
-
 ---
-
 
 # Compatibilità dei driver GPU
 
@@ -31,7 +23,7 @@ La tabella seguente elenca tutte le versioni dei driver che sono in grado di cre
 | <b> 425.xx </b> | Raytracing GPU artefatti. |
 | <b> 429.xx o precedente </b> | Artefatti del blocco di texture nera. |
 | <b> 435.xx o precedente </b> | Problemi di colore sRGB durante il calcolo della texture. |
-| <b> 439.xx </b> | Texture danneggiate. |
+| <b> 439.xx </b> | Texture corruzione. |
 | <b> 441.08 </b> | Problemi di Arresto anomalo o stabilità. |
 | <b> 442.19 </b> | Problemi di Arresto anomalo o stabilità. |
 | <b>528.09</b> | Blocco del sistema operativo. |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come correggere la dispersione di sangue con lo strumento pittura tra le Isole UV in Substance 3D Painter per mantenere puliti i bordi della texture.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Tools Issues > Paint Tool bleeds on other UV islands
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Lo strumento pittura pagine al vivo su altre Isole UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
-
 ---
-
 
 # Lo strumento pittura pagine al vivo su altre Isole UV
 

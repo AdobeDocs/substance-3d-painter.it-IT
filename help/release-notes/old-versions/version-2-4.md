@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2.4
 
@@ -40,7 +32,7 @@ Per creare query avanzate, vedere la parte dedicata della documentazione: [Query
 
 Con la rielaborazione dello scaffale è stata **migliorata anche la finestra di importazione delle risorse**. La finestra è ora più coerente e può essere **chiamata in tre modi diversi**: tramite il menu File, tramite il pulsante nella finestra dello scaffale o come prima trascinando una risorsa nella finestra dello scaffale. La nuova finestra consente di **impostare rapidamente l&#39;utilizzo** per **più risorse** contemporaneamente, il che significa che non è più necessario trascinare e rilasciare le risorse nella posizione corretta. È stata inoltre aggiunta la possibilità di **specificare un percorso personalizzato** per creare sottocartelle per sfruttare la nuova visualizzazione della struttura.
 
-Per ulteriori informazioni, vedere la parte dedicata della documentazione: [Aggiunta di risorse tramite la finestra di importazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Per ulteriori informazioni, vedere la parte dedicata della documentazione: [Aggiunta di risorse tramite la finestra di importazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### Nuovi predefiniti particelle
 
@@ -60,8 +52,8 @@ Le nuove funzioni e l’utilizzo dello scaffale sono descritti nell’ultima ese
 
 **Risolto:**
 
-* Arresto anomalo durante la creazione di un progetto con un modello
-* Arresto anomalo quando si chiude la finestra di dialogo di esportazione durante un’esportazione
+* Arresto anomalo di creazione di un progetto con un modello
+* Arresto anomalo di chiusura della finestra di dialogo di esportazione durante un’esportazione
 * [Mac] Errori durante il salvataggio del progetto (impossibile salvare il predefinito di esportazione)
 * [Shelf] Quando si crea un nuovo predefinito, questo viene visualizzato due volte
 * [Shelf] I predefiniti non possono essere caricati in modalità di sola lettura senza diritti di amministratore
@@ -88,7 +80,7 @@ Le nuove funzioni e l’utilizzo dello scaffale sono descritti nell’ultima ese
 * Arresto anomalo durante la rimozione di una maschera
 * Arresto anomalo quando si disegna dopo aver salvato un predefinito
 * Arresto anomalo con sfocatura dell’ambiente su alcune GPU
-* Arresto anomalo durante l’assegnazione di una risorsa errata al mini scaffale
+* Arresto anomalo durante l&#39;assegnazione di una risorsa errata con lo scaffale inferiore
 * [Shelf] Pulisci e salva rimuovi tag e metadati per le risorse nel progetto
 * [Shelf] l’importazione di un predefinito ne mostra le risorse nello shelf
 * La Mappa normale [Esporta] generata dal canale del height ha un’intensità bassa

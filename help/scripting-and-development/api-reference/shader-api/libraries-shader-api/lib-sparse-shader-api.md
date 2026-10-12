@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accedete alla pagina di riferimento per API shader Lib Sparse in modo che Substance 3D Painter possa lavorare con il campionamento delle texture sparse negli shader personalizzati.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Lib Sparse - API shader
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # Lib Sparse - API shader
 
 ## lib-sparse.glsl
 
-Questo file fornisce utili funzioni per garantire la correttezza del campionamento delle texture sparse (ARB\_sparse\_texture). Consente di campionare solo una parte delle texture presenti nella memoria video.
+Questo file fornisce utili funzioni per garantire la correttezza del campionamento delle texture sparse (ARB\_sparse\_texture). Consente di campionare solo una parte della texture presente nella memoria video.
 
 **Funzioni pubbliche:** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
@@ -63,7 +55,7 @@ uniform float uvtile_lod_bias;
 ```
 
 
-Sampler e la struttura informativa delle texture sparse
+Struttura delle informazioni di Sampler e sparse texture
 
 Utilizzato per eseguire query su tutte le uniformi relative al campionatore con una singola associazione automatica
 
@@ -210,7 +202,7 @@ float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-Calcolare i derivati da utilizzare per campionare da una texture sparsa
+Calcolare i derivati da utilizzare per il campionamento da una texture sparsa
 
 Salite la piramide mipmap se mancano i testi
 
@@ -249,9 +241,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-Esegue una ricerca della texture su una texture di tipo sparse, se necessario impostando il livello dei livelli mipmap su un valore più alto
+Esegue una ricerca di texture in una texture di tipo sparse, se necessario incrementando i livelli mipmap
 
-Questa funzione sostituisce lo standard *texture(sampler2D, vec2)* per recuperare i testicoli da una texture di tipo sparse
+Questa funzione sostituisce lo standard *texture(sampler2D, vec2)* per recuperare i testi da una texture sparsa
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 

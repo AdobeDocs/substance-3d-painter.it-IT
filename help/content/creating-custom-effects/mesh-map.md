@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare le mappe trama negli effetti personalizzati in modo che Substance 3D Painter possa accedere alle informazioni sulla texture basata sulla geometria.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Mesh Map
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mappa trama
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%
-
 ---
-
 
 # Mappa trama
 
@@ -30,7 +22,7 @@ Di seguito è riportata la convenzione di denominazione per ogni mappa mesh:
 
 | Mappa di mesh | Utilizzo | Identificatore |
 | --- | --- | --- |
-| *occlusione ambiente* | **ambientOcclusionBase** | **ambiente\_occlusione** |
+| *Occlusione ambientale* | **ambientOcclusionBase** | **ambiente\_occlusione** |
 | *ID* | **id** | **id** |
 | *Curvatura* | **curvatura** | **curvatura** |
 | *Normale* | **normalBase** | **normale\_base** |

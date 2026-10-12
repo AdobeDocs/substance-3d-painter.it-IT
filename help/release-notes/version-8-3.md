@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-8-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultate le note sulla versione di Substance 3D Painter 8.3 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 8.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 0%
-
 ---
-
 
 # Versione 8.3
 
@@ -67,13 +59,13 @@ La vecchia finestra di esegue i baking è stata sostituita da una modalità dedi
 
   ![](../assets/cage-distance.gif)
 
-* **Controllare la rete durante il caricamento e la cottura**\
-  Caricando trame e eseguendo i baking non si blocca più l&#39;applicazione, il che significa che è possibile interagire con la finestra della vista durante tali operazioni. Ciò può essere utile per analizzare il eseguo i baking in corso, identificare tempestivamente i problemi e annullare il eseguo i baking, contribuendo a risparmiare tempo alla fine. Allo stesso modo, il set di texture più visibile nella finestra della vista verrà ora preparato per primo, per consentire di verificare in anticipo i risultati su aree specifiche.
+* **Controllare la trama durante il caricamento e l&#39;eseguo i baking**\
+  Caricando trame e eseguendo i baking non si blocca più l&#39;applicazione, il che significa che è possibile interagire con la finestra della vista durante tali operazioni. Ciò può essere utile per analizzare il eseguo i baking in corso, identificare tempestivamente i problemi e annullare il eseguo i baking, contribuendo a risparmiare tempo alla fine. Analogamente, verrà eseguito i baking per primo il set di texture più visibile nella finestra della vista, per verificare in anticipo i risultati in aree specifiche.
 
   ![](../assets/interaction-while-baking.gif)
 
 * **Impostazioni neutre del materiale e del viewport**\
-  Per mettere a fuoco i risultati della cottura al forno e cercare eventuali problemi, la modalità di cottura al forno non visualizza texture dipinte, ma utilizza un materiale neutro. Le impostazioni di questo materiale neutro possono essere regolate nel pannello di visualizzazione Eseguito i baking all&#39;interno della finestra della vista.
+  Per mettere a fuoco i risultati della esegue i baking e cercare eventuali problemi, la modalità di esegue i baking non visualizza texture dipinte, ma utilizza un materiale neutro. Le impostazioni di questo materiale neutro possono essere regolate nel pannello di visualizzazione Eseguito i baking all&#39;interno della finestra della vista.
 
   ![](../assets/neutral-material-demo.gif)
 
@@ -85,7 +77,7 @@ La vecchia finestra di esegue i baking è stata sostituita da una modalità dedi
   ![](../assets/hard-edge-missing-seams-2d.jpg){width="300px"}
 
 * **Sincronizzare e annullare la sincronizzazione dei parametri**\
-  La nuova azione di sincronizzazione consente di specificare quale parte delle impostazioni di cottura viene sincronizzata tra set di texture. In caso contrario, sarebbe noioso configurare le impostazioni più volte in modo identico. A volte è utile avere degli insiemi di texture con impostazioni dedicate e tenerli non sincronizzati. Ad esempio, mantenendo separate le impostazioni Comuni ora è possibile utilizzare una Distanza frontale massima, una Risoluzione e/o un elenco di trame ad alto poli che sarebbero diverse per Set di texture.
+  La nuova azione di sincronizzazione consente di specificare quale parte delle impostazioni di Esegue i baking deve essere sincronizzata tra set di texture. In caso contrario, sarebbe noioso configurare le impostazioni più volte in modo identico. A volte è utile avere degli insiemi di texture con impostazioni dedicate e tenerli non sincronizzati. Ad esempio, mantenendo separate le impostazioni Comuni ora è possibile utilizzare una Distanza frontale massima, una Risoluzione e/o un elenco di trame ad alto poli che sarebbero diverse per Set di texture.
 
   ![](../assets/sync-icon-1.png){width="400px"}
 
@@ -147,90 +139,90 @@ Per scoprire e scoprire la nuova modalità di Esegue i baking, seguite il nostro
 ## Note sulla versione
 
 *(Rilasciato: 10 gennaio 2023)*\
-Riepilogo: **Versione principale con nuova modalità di cottura, nuova importazione ed esportazione di file USD e supporto di dimensioni fisiche per Proiezione UV**
+Riepilogo: **Versione principale con nuova modalità di esegue i baking, nuova importazione ed esportazione di file USD e supporto di dimensioni fisiche per Proiezione UV**
 
 **Aggiunto:**
 
-* [Modalità cottura] Nuova modalità di cottura dedicata al processo di cottura al forno
-* [Modalità cottura] Imposta la scelta rapida per passare alla modalità di cottura su F8
+* [Modalità di Esegue i baking] Nuova modalità di esegue i baking dedicata alla esegue i baking
+* [Modalità Eseguita i baking] Imposta scelta rapida da tastiera per passare alla modalità eseguita i baking su F8
 * [Modalità di Esegue i baking] Pulsante Aggiungi inizio e Annulla esegue i baking nella finestra della vista
-* [Modalità cottura] Aggiungete la selezione di cottura al forno nell&#39;elenco Set di texture
+* [Modalità di Esegue i baking] Aggiungete una selezione eseguita i baking nell’elenco Set di texture
 * [Modalità di Esegue i baking] Aggiungere una nuova finestra Baker mappa trama per selezionare i baker
-* [Modalità cottura] Aggiungere una nuova finestra Impostazioni mappa trama per modificare le impostazioni di cottura
+* [Modalità di Esegue i baking] Aggiungere una nuova finestra Impostazioni mappa trama per modificare le impostazioni di esegue i baking
 * [Modalità di Esegue i baking] Aggiungere una nuova finestra Log di Esegue i baking per seguire la procedura di esegue i baking
-* [Modalità cottura] Aggiungere parametri di cottura e annullare le azioni alla finestra della cronologia
-* [Modalità cottura] Aggiungere breadcrumbs in Impostazioni mappa trama
-* [Modalità cottura] Aggiungere miniature di mappe trama nella finestra Pannelli mappe trama
-* [Modalità cottura] Aggiungere il menu comprimibile delle impostazioni di visualizzazione nella finestra della vista 3D
-* [Modalità cottura] Aggiungi impostazione di visualizzazione per mostrare/nascondere la trama High-Poly
-* [Modalità cottura] Aggiungi impostazione di visualizzazione per mostrare/nascondere la trama della gabbia e il wireframe
-* [Modalità cottura] Aggiungi impostazione di visualizzazione per mostrare/nascondere la trama a basso poli
-* [Modalità cottura] Aggiungi impostazione di visualizzazione per mostrare bordi netti senza giunture UV come errori
-* [Modalità cottura] Informate nella finestra della vista sugli errori di mesh e di cottura se il registro di cottura non è visibile
-* [Modalità cottura] Aggiungi azione per sincronizzare le impostazioni del fornaio tra tutti i set di texture
+* [Modalità di Esegue i baking] Aggiungi parametri di esegue i baking e annulla le azioni nella finestra della cronologia
+* [Modalità di Esegue i baking] Aggiungi breadcrumbs nelle impostazioni Mesh Map
+* [Modalità di Esegue i baking] Aggiungere miniature di mappe trama nella finestra Baker mappe trama
+* [Modalità di Esegue i baking] Aggiungi menu comprimibile delle impostazioni di visualizzazione nella finestra della vista 3D
+* [Modalità Eseguita i baking] Aggiungi impostazione di visualizzazione per mostrare/nascondere la trama High-Poly
+* [Modalità Eseguita i baking] Aggiungi impostazione di visualizzazione per mostrare/nascondere la trama della gabbia e il wireframe
+* [Modalità Eseguita i baking] Aggiungi impostazione di visualizzazione per mostrare/nascondere la trama low-poly
+* [Modalità di Esegue i baking] Aggiungi impostazione di visualizzazione per mostrare bordi netti senza giunture UV come errori
+* [Modalità di Esegue i baking] Fornisci informazioni sulla trama nella finestra della vista e esegue i baking gli errori se Esegue i baking registro non è visibile
+* [Modalità di Esegue i baking] Aggiungi azione per sincronizzare le impostazioni del baker tra tutti i set di texture
 
-  Nella finestra Pannelli mappa trama, ogni panettiere (così come le impostazioni comuni) può essere sincronizzato tra set di texture facendo clic sull&#39;icona di collegamento accanto al nome. Questa azione consente di aprire una finestra che consente di selezionare quali set di texture condivideranno gli stessi parametri.
-* [Modalità cottura] Aggiungere azioni per copiare e incollare le impostazioni del fornaio
+  Nella finestra Baker mappa trama, è possibile sincronizzare ciascun baker (e le impostazioni comuni) tra set di texture facendo clic sull’icona di collegamento accanto al nome del gruppo. Questa azione consente di aprire una finestra che consente di selezionare quali set di texture condivideranno gli stessi parametri.
+* [Modalità di Esegue i baking] Aggiungi azioni per copiare e incollare le impostazioni del baker
 
-  Nella finestra Pannelli mappa trama sono disponibili le azioni per copiare e superare le impostazioni di ogni panettiera tra i set di texture, tramite il menu dedicato nella parte superiore della finestra o il menu contestuale, accessibile facendo clic con il pulsante destro del mouse.
-* [Modalità di cottura] Pulsante Aggiungi nel registro di cottura per passare da un errore alle impostazioni corrette
+  Nella finestra Baker mappa trama sono disponibili le azioni per copiare e superare le impostazioni di ciascun baker nei set di texture, tramite il menu dedicato nella parte superiore della finestra o il menu di scelta rapida (clic con il pulsante destro del mouse).
+* [Modalità di Esegue i baking] Pulsante Aggiungi in Esegue i baking registro per passare da un errore alle impostazioni corrette
 
-  Quando un fornaio non va a buon fine o una trama non viene caricata correttamente, nel Registro forni viene visualizzato un messaggio di errore. Un pulsante accanto al messaggio consente di modificare la finestra Impostazioni cassette e mappe trama per visualizzare le relative impostazioni. In questo modo è possibile isolare più facilmente la fonte di un problema per poterlo risolvere.
-* [Modalità cottura] Aggiungete menu per gestire set di texture e selezioni di forni
+  Quando un baker si guasta o una trama non viene caricata correttamente, nel Registro di Esegue i baking viene visualizzato un messaggio di errore. Un pulsante accanto al messaggio consente di modificare la finestra Baker mappa trama e Impostazioni mappa trama per visualizzare le relative impostazioni. In questo modo è possibile isolare più facilmente la fonte di un problema per poterlo risolvere.
+* [Modalità di Esegue i baking] Aggiungete menu per gestire set di texture e selezioni di Baker
 
-  Nelle finestre &quot;Set di texture&quot; e &quot;Mesh Map Bakers&quot; è stato aggiunto un menu di azioni che permette di copiare e invertire le selezioni.
-* [Modalità cottura] Dividi elenco di selezione forni per set di texture
-* [Modalità cottura] Dividere le impostazioni comuni per set di texture
-* [Modalità cottura] Carica maglie ad alto poligono e gabbia senza bloccare l&#39;interfaccia
-* [Modalità cottura] Utilizzare la barra di avanzamento della finestra della vista per visualizzare il caricamento della trama
-* [Modalità di cottura] Aggiungere lo stato di caricamento della trama nel registro di cottura
-* [Modalità cottura] Consente di ruotare la trama nella finestra della vista durante la cottura
-* [Modalità cottura] Imposta l&#39;ordine di cottura in base alla visibilità della finestra della trama corrente
-* [Modalità cottura] Visualizza gabbia di cottura implicita nella finestra della vista
+  Sia nella finestra &quot;Elenco set texture&quot; che nella finestra &quot;Baker mappa trama&quot; sono stati aggiunti un piccolo menu di azioni che consente di copiare e invertire le selezioni.
+* [Modalità di Esegue i baking] Suddividi l’elenco di selezione dei baker per set di texture
+* [Modalità di Esegue i baking] Dividere le impostazioni comuni per set di texture
+* [Modalità di Eseguita i baking] Caricare mesh di poli e gabbia ad alta densità senza bloccare l&#39;interfaccia
+* [Modalità di Esegue i baking] Utilizzare la barra di avanzamento della finestra della vista per visualizzare il caricamento della trama
+* [Modalità di Esegue i baking] Aggiungere lo stato di caricamento della trama nel registro di Esegue i baking
+* [Modalità di Esegue i baking] Consente di ruotare la trama nella finestra della vista durante la esegue i baking
+* [Modalità di Esegue i baking] Imposta l’ordine di esegue i baking in base alla visibilità della finestra della trama corrente
+* [Modalità Eseguita i baking] Visualizza gabbia eseguita i baking implicita nella finestra della vista
 
-  Quando non si utilizza un file di mesh di gabbia personalizzato, viene generata e visualizzata una mesh di gabbia automatica nella finestra della vista. Le sue dimensioni saranno basate sul parametro Distanza frontale massima dalle impostazioni comuni di cottura al forno. La maglia della gabbia viene utilizzata per indicare la distanza di corrispondenza tra il poly basso e alto.
-* [Modalità di cottura] Mostra elenco corrispondente di nomi di mesh per corrispondenza per nome nel registro di cottura
-* [Modalità cottura] Usate materiale neutro per visualizzare il modello 3D nella finestra della vista
-* [Modalità cottura] Disattiva il calcolo del motore in modalità cottura
-* [Modalità cottura] Visualizza un avviso quando si esce dall’app mentre è in corso una cottura
-* [Bakers] Aggiornamento delle etichette delle impostazioni di antialiasing
+  Quando non si utilizza un file di mesh di gabbia personalizzato, viene generata e visualizzata una mesh di gabbia automatica nella finestra della vista. Le sue dimensioni si basano sul parametro Distanza frontale massima dalle impostazioni comuni eseguite i baking. La maglia della gabbia viene utilizzata per indicare la distanza di corrispondenza tra il poly basso e alto.
+* [Modalità di Esegue i baking] Mostra l&#39;elenco corrispondente dei nomi di mesh per Corrispondenza per nome nel registro di Esegue i baking
+* [Modalità di Eseguo i baking] Usare materiale neutro per visualizzare il modello 3D nella finestra della vista
+* [Modalità di Esegue i baking] Disattiva il calcolo del motore in modalità di esegue i baking
+* [Modalità di Esegue i baking] Visualizza un avviso quando si esce dall’app mentre è in corso un eseguo i baking
+* [Baker] Aggiornare le etichette delle impostazioni di antialiasing
 
   I valori delle impostazioni di antialiasing sono stati rinominati &quot;Supersampling&quot; e con un numero moltiplicatore esplicito per chiarirne il comportamento.
-* [Bakers] Aggiornate bakers alla versione 2.5.7.
-* [USD] Importare ed esportare file Universal Scene Description (USD)
+* [Baker] Aggiorna i baker alla versione 2.5.7.
+* [USD] Importare ed esportare file di Universal Scene Description (USD)
 * [USD] Aggiungere le opzioni USD alla finestra Nuovo progetto quando si seleziona un file USD
-* [USD] Aggiungi nuova finestra di selezione Ambito e Varianti
+* [USD] Aggiungi nuova finestra di selezione Ambito e varianti
 
-  Quando si importa un file USD, facendo clic sul pulsante Modifica nella finestra Nuovo progetto o Configurazione progetto è possibile selezionare la parte e le varianti di un file USD da importare.
+  Quando si importa un file USD, facendo clic sul pulsante di modifica nella finestra Nuovo progetto o Configurazione progetto è possibile selezionare la parte e le varianti di un file USD da importare.
 * [USD] Opzione Aggiungi livelli di suddivisioni
 
-  Quando create un nuovo progetto con un file di trama USD che contiene suddivisioni, è possibile selezionare il livello di suddivisioni utilizzando un cursore. Il progetto verrà creato con la trama suddivisa. Il livello può essere modificatore tramite Configurazione progetto.
-* [USD] Importa mesh con skin USD in un fotogramma specifico
+  Quando si crea un nuovo progetto con un file mesh USD che contiene suddivisioni, è possibile selezionare il livello di suddivisioni utilizzando un cursore. Il progetto verrà creato con la trama suddivisa. Il livello può essere modificatore tramite Configurazione progetto.
+* [USD] Importare maglie con pelle USD a un fotogramma specifico
 
-  Quando crei un nuovo progetto con un file di trama USD che contiene animazioni, è possibile selezionare il fotogramma utilizzando un cursore che riflette la sequenza temporale incorporata. Il fotogramma può essere modificatore tramite Configurazione progetto.
-* [USD]&#x200B;[Esporta] Aggiungi un’opzione per esportare i file USD
+  Quando si crea un nuovo progetto con un file mesh USD che contiene animazioni, è possibile selezionare il fotogramma utilizzando un cursore che riflette la sequenza temporale incorporata. Il fotogramma può essere modificatore tramite Configurazione progetto.
+* [USD][Esporta] Aggiungi un’opzione per esportare i file USD
 
   Nuova casella di controllo Esporta USD aggiunta alla finestra Esporta texture. Quando è selezionato, consente di esportare file USD e mappe texture utilizzando qualsiasi modello.
-* [USD]&#x200B;[Esporta] Aggiungi il formato di file USD all’esportazione con trama
+* [USD][Esporta] Aggiungere il formato di file USD all’esportazione con trama
 * [USD] Rinomina il predefinito di esportazione &quot;Rugosità metallo USD PBR&quot; esistente per renderlo più esplicito
 
-  Il modello di esportazione USD precedentemente noto come &quot;Rugosità metallo USD PBR&quot; è ancora accessibile tramite Esporta texture > Modello di output > USDz (Apple AR).
+  Il modello di esportazione USD precedentemente noto come &#39;Rugosità metallo USD PBR&#39; è ancora accessibile tramite Esporta texture > Modello di output > USDz (Apple AR).
 * [Annullamento automatico] Aggiungi orientamento blocco per impacchettamento
 
-  Nuova opzione per lo scorrimento automatico delle impostazioni che consente di mantenere l’orientamento delle Isole UV esistenti quando si utilizza la funzione di impacchettamento. È possibile accedervi da Nuovo progetto > Opzioni di annullamento automatico > Isola UV orientamento.
+  Nuova opzione per lo scorrimento automatico delle impostazioni che consente di mantenere l’orientamento delle Isole UV esistenti quando si utilizza la funzione di impacchettamento. È possibile accedervi da Nuovo progetto > Opzioni Srotolamento automatico > Isola UV orientamento.
 * [Dimensioni fisiche] Aggiungi impostazione per utilizzare automaticamente la Dimensioni fisiche nell’effetto/livello di riempimento
 
   È stata aggiunta una nuova opzione che consente di passare automaticamente alla scala dimensioni fisiche quando si utilizza un materiale con dimensioni fisiche incorporata. Può essere attivato per ogni progetto tramite Nuovo progetto o tramite Modifica > Configurazione progetto > Dimensioni fisiche > Converti il ridimensionamento del livello di riempimento in Dimensioni fisiche quando si assegnano i materiali.
 * [Dimensioni fisiche] Esposizione dimensioni fisiche per Proiezione UV
 
   Il ridimensionamento delle dimensioni fisiche è ora disponibile per le Proiezioni UV: consente di ridimensionare automaticamente un materiale in base alla dimensioni fisiche di una trama. Può essere selezionata da Scala > Dimensioni fisiche nel livello di riempimento o nella finestra Proprietà effetti.
-* [Scripting]&#x200B;[Python] Consenti di eseguire query sulla versione dell’applicazione
-* [Scripting]&#x200B;[JavaScript] Aggiorna l’API in base ai nuovi parametri di baking
-* [Scripting]&#x200B;[Python] Modulo Baking: modificare i parametri di baking
-* [Scripting]&#x200B;[Python] Modulo Baking: avvia/annulla baking
-* [Scripting]&#x200B;[Python] Modulo Baking: selezionare il metodo di curvatura
-* [Scripting]&#x200B;[Python] Modulo Baking: selezione di panettieri/piastrelle uv
-* [Scripting]&#x200B;[Python] Modulo Baking: sincronizzare le impostazioni baker su tutti i set di texture
+* [Scripting][Python] Consenti di eseguire query sulla versione dell’applicazione
+* [Scripting][JavaScript] Aggiorna l’API in base ai nuovi parametri di esegue i baking
+* [Scripting][Python] Modulo di Esegue i baking: modifica parametri di esegue i baking
+* [Scripting][Python] Modulo di Esegue i baking: avvia/annulla esegue i baking
+* Modulo di Esegue i baking [Scripting][Python]: seleziona il metodo di curvatura
+* [Scripting][Python] Modulo di Esegue i baking: selezione di baker/riquadri uv
+* [Scripting][Python] Modulo di Esegue i baking: sincronizzare le impostazioni del baker tra tutti i set di texture
 * [SVT] Abilitazione del supporto hardware di tipo sparse sulle GPU AMD
 
   L’accelerazione hardware per il sistema Sparse Virtual Textures può ora essere abilitata con le GPU AMD. Questa impostazione viene attivata automaticamente nelle preferenze generali.
@@ -244,24 +236,24 @@ Riepilogo: **Versione principale con nuova modalità di cottura, nuova importazi
   Per i progetti realizzati prima della versione 8.2, il valore restituito sarà null.
 * [Import] Migliorare i tempi generali di importazione dei modelli 3D
 
-  Abbiamo migliorato il tempo generale di importazione delle trame. Ad esempio, la riduzione del tempo di attesa durante il caricamento di trame ad alto poli per la cottura al forno. Questa ottimizzazione si applica in particolare al caricamento di file OBJ.
+  Abbiamo migliorato il tempo generale di importazione delle trame. Ad esempio, la riduzione del tempo di attesa durante il caricamento di trame a poli elevato per la esegue i baking. Questa ottimizzazione si applica in particolare al caricamento dei file OBJ.
 
 **Corretto:**
 
-* [Arresto anomalo] Modifica dei canali su un filtro con uno stack specifico
-* [Mac]&#x200B;[M1] Arresto anomalo durante la creazione di un livello di riempimento e l&#39;uscita dal gruppo di livelli
+* [Arresto anomalo] Cambiare i canali sul filtro con una pila specifica
+* [Mac][M1] Arresto anomalo durante la creazione di un livello di riempimento e l&#39;uscita dalla Pila livelli
 
   Questo problema può essere risolto eseguendo l’aggiornamento a Mac OS 13 (Ventura).
-* [Scripting]&#x200B;[Python] Arresto anomalo quando si utilizza ui.add\_dock\_widget() con tipo errato
-* [Baking] Messaggio di errore incompleto nel registro quando un baking non riesce
-* [Baking] La memoria non viene liberata al termine della cottura
-* [Engine] La cache delle texture non si aggiorna quando si modifica la visibilità degli effetti
+* [Scripting][Python] Arresto anomalo di utilizzo di ui.add\_dock\_widget() con tipo errato
+* [Esegue i baking] Messaggio di errore incompleto nel registro quando un eseguo i baking non riesce
+* [Esegue i baking] La memoria non viene liberata al termine della esegue i baking
+* [Engine] La cache della Texture non si aggiorna quando si modifica la visibilità degli effetti
 * [Esporta] 2DView esporta in modo casuale la mappa uniforme
 * [Progetto] Errore di allocazione della memoria durante il salvataggio del progetto con trama grande
 * [Riquadro di visualizzazione] In alcuni casi, l’accesso automatico al contenuto causa artefatti durante l’uso del colore
 
 **Problemi noti:**
 
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Serie di livelli] Origine di input non salvata per livello
-* [Esporta] La vista 2D esporta una mappa casualmente uniforme
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Pila livelli] Sorgente di input non salvata per livello
+* [Esporta] vista 2D esporta una mappa casualmente uniforme

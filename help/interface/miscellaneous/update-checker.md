@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/miscellaneous/update-checker.html'
 breadcrumb-title: ''
 description: Scoprite come utilizzare il controllo degli aggiornamenti in Substance 3D Painter per ricevere informazioni sulle nuove versioni e funzionalità.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Miscellaneous > Update checker
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Verifica aggiornamenti
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
-
 ---
-
 
 # Verifica aggiornamenti
 

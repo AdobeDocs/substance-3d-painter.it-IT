@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/performances-guidelines/gpu-drivers.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite i requisiti della GPU per l’VRAM e i driver per Substance 3D Painter per ottimizzare le prestazioni e la stabilità del rendering.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > GPU Drivers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: VRAM e driver GPU
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 
 # Driver GPU
 

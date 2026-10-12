@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come configurare le impostazioni del visualizzatore e MDL per il modulo di rendering di raggi X in Substance 3D Painter per personalizzare il rendering dei materiali.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Impostazioni visualizzatore e MDL
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
-
 ---
-
 
 # Impostazioni visualizzatore e MDL
 
@@ -80,12 +72,12 @@ I parametri della MDL vengono quindi visualizzati nella parte inferiore delle im
 
 >[!NOTE]
 >
-> Per caricare MDL personalizzati, è necessario uno shader glsl personalizzato.\
+> Per caricare file MDL personalizzati, è necessario uno shader glsl personalizzato.\
 >  Nello shader è possibile aggiungere alcuni metadati per specificare il percorso mdl:
 > 
 > //- Dichiarare il materiale mdl iray da utilizzare con questo shader. //: metadati { //: &quot;mdl&quot;:&quot;mdl::alg::materials::physical\_metallic\_roughness::physical\_metallic\_roughness&quot; //: }
 > 
-> * **mdl**: definire il materiale mdl di Iray da utilizzare con lo shader. La sintassi del percorso è la seguente: *mdl::folder1::folder2::mdl\_filename::material\_name* dove *cartella1::folder2::mdl\_filename* è il percorso all&#39;interno di una cartella dello scaffale *mdl* in un file mdl e *::material\_name* è il nome di un materiale dichiarato all&#39;interno di questo file mdl. (ad esempio: &quot;mdl&quot; : &quot;mdl::alg::materials::fisicamente\_metallico\_rugosità::fisicamente\_metallico\_rugosità&quot;)
+> * **mdl**: definire il materiale mdl dell&#39;Iray da utilizzare con lo shader. La sintassi del percorso è la seguente: *mdl::folder1::folder2::mdl\_filename::material\_name* dove *cartella1::folder2::mdl\_filename* è il percorso all&#39;interno di una cartella dello scaffale *mdl* in un file mdl e *::material\_name* è il nome di un materiale dichiarato all&#39;interno di questo file mdl. (ad esempio: &quot;mdl&quot; : &quot;mdl::alg::materials::fisicamente\_metallico\_rugosità::fisicamente\_metallico\_rugosità&quot;)
 
 >[!NOTE]
 >
@@ -97,7 +89,7 @@ Il file MDL predefinito di Substance 3D Painter supporta le seguenti proprietà:
 
 | *Impostazione* | *Descrizione* |
 | --- | --- |
-| **Intensità di emissione** | Moltiplicatore del canale di emissione. Un valore alto comincerà a emettere luce. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/emissive-optim.gif"/></div> |
+| **Intensità Emissivo** | Moltiplicatore del canale Emissivo. Un valore alto comincerà a emettere luce. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/emissive-optim.gif"/></div> |
 | **Rifrazione** | Controlla la quantità di rifrazione. |
 | **IOR** | Definisce l&#39;indice di rifrazione del materiale.   Nota : Aria = 1,0, Acqua = 1,2, Vetro = 1,5. |
 | **Dispersione** | Controlla la quantità di luce diffusa sulla superficie. |

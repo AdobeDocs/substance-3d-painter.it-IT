@@ -1,32 +1,24 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/uv-tiles.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare i riquadri UV in Substance 3D Painter per lavorare con i layout UV in riquadri e più set di texture.
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Tiles
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Porzioni UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
-
 ---
-
 
 # Porzioni UV
 
 ![](../../assets/banner-uvtiles.jpg)
 
-Le porzioni UV consentono di creare texture su più set di texture, in diversi intervalli UV, all’interno di un set di texture.
+La porzione UV consente di texture più set di texture, in diversi intervalli UV, all’interno di un set di texture.
 
-Per impostazione predefinita, in un flusso di lavoro tradizionale una texture viene ripetuta su ogni intervallo UV. Con i riquadri UV, ogni intervallo diventa invece una texture dedicata. Questo flusso di lavoro consente di aumentare virtualmente la risoluzione generale della texture dividendo gli UV in più set di texture. Al momento, le porzioni UV supportano solo la convenzione di denominazione UDIM.
+Per impostazione predefinita, in un flusso di lavoro tradizionale una texture viene ripetuta su ogni intervallo UV. Con la Porzione UV, ogni intervallo diventa invece una texture dedicata. Questo flusso di lavoro consente di aumentare virtualmente la risoluzione generale della texture dividendo gli UV in più set di texture. Al momento, le porzioni UV supportano solo la convenzione di denominazione UDIM.
 
-Per ulteriori informazioni sul flusso di lavoro delle porzioni UV, consultate le pagine seguenti:
+Per ulteriori informazioni sul flusso di lavoro Porzione UV, consultate le pagine seguenti:
 
 * [Creazione di progetti](../../getting-started/project-creation.md) con il flusso di lavoro Porzione UV.
 * Visualizzazione delle Porzioni UV nella [Vista 2D](../../interface/viewport/2d-view.md).

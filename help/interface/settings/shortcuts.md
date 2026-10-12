@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Scoprite come personalizzare le scelte rapide da tastiera in Substance 3D Painter per semplificare il flusso di lavoro e migliorare l'efficienza.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Scelte rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 
 # Scelte rapide
 
@@ -26,7 +18,7 @@ In questa pagina sono elencate tutte le scelte rapide da tastiera e mouse dispon
 
 ## Panoramica delle scelte rapide
 
-Per una rapida panoramica di tutte le Scelte rapide disponibili, date un&#39;occhiata alla nostra grafica [disponibile nelle nostre esercitazioni](https://helpx.adobe.com/it/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Per una rapida panoramica di tutte le Scelte rapide disponibili, date un&#39;occhiata alla nostra grafica [disponibile nelle nostre esercitazioni](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Come cambiare una scelta rapida da tastiera
 
@@ -74,8 +66,8 @@ Per ripristinare il valore predefinito di una scelta rapida da tastiera, è suff
 | **Seleziona strumento Clona /Clone (origine relativa)** | 6 | 6 |  |
 | **Seleziona strumento Clona /Clone (origine assoluta)** | Ctrl+6 | ⌘+6 |  |
 | **Esegue i baking Mappe Trama** | Ctrl+Maiusc+B | ⌘+Maiusc+B | Apri la finestra delle impostazioni di Esegue i baking. |
-| **Aumenta dimensione strumento** | **&rbrack;** | **&rbrack;** | Aumentate le dimensioni del pennello per lo strumento di pittura. |
-| **Diminuisci dimensione strumento** | **&lbrack;** | **&lbrack;** | Diminuite le dimensioni del pennello per lo strumento di pittura. |
+| **Aumenta dimensione strumento** | **&amp;rbrack;** | **&amp;rbrack;** | Aumentate le dimensioni del pennello per lo strumento di pittura. |
+| **Diminuisci dimensione strumento** | **&amp;lbrack;** | **&amp;lbrack;** | Diminuite le dimensioni del pennello per lo strumento di pittura. |
 | **Strumento Inverti scala di grigi** | X | X | Se lo strumento di pittura si trova su una maschera, invertite il valore corrente della scala di grigi. |
 | **Selezionare il materiale del tratto** | P | P | Attiva lo strumento Selettore materiale. |
 | **Mouse lento** | D | D | Attiva il comportamento del Mouse lento per lo strumento corrente. |
@@ -129,7 +121,7 @@ Alcune scelte rapide possono **funzionare** solo se il **mouse è sopra** la fin
 
 Esempio: per **copiare** e **incollare** è necessario che il mouse si trovi **sulla Pila livelli**.
 
-| *Azione* | *Scelta rapida da tastiera (Windows)* | *Scelta rapida (MacOS)* | Descrizione |
+| *Azione* | *Scelta rapida da tastiera (Windows)* | *Scelta rapida da tastiera (MacOS)* | Descrizione |
 | --- | --- | --- | --- |
 | **Copia livello** | Ctrl+C | ⌘+C | Copia i livelli attualmente selezionati. |
 | **Taglia livello** | Ctrl+X | ⌘+X | Taglia i livelli selezionati. |

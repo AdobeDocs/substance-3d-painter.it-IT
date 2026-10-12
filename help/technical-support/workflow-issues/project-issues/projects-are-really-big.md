@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come ridurre le dimensioni dei file di progetto di Substance 3D Painter per ottimizzare le prestazioni e i requisiti di archiviazione.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Projects are really big
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: I progetti sono davvero grandi
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
-
 ---
-
 
 # I progetti sono davvero grandi
 
@@ -80,11 +72,11 @@ Per ridurre le dimensioni delle Mesh Maps è possibile:
   1. Esegue i baking tutte le tue Texture alla stessa risoluzione
   1. Esporta la texture eseguita i baking con il predefinito di esportazione &quot;Mesh Maps&quot; come PNG a 16 bit con il riempimento impostato su &quot;No padding (passthrough)&quot;
   1. Apri ogni mappa con un software di fotoritocco o Substance 3D Designer
-  1. Riducete la risoluzione per le texture per le quali sembrano essere state adattate. Assicuratevi di cambiare l&#39;Occlusione ambientale, la curvatura e il Thickness da colore a scala di grigio.
-  1. Salvate le nuove versioni delle texture come PNG a 16 bit.
+  1. Riducete la risoluzione per le texture per le quali sembra essere stata montata. Assicuratevi di cambiare l&#39;Occlusione ambientale, la curvatura e il Thickness da colore a scala di grigio.
+  1. Salvate le nuove versioni di texture come PNG a 16 bit.
   1. Reimportate le texture e sostituitele sulle texture di esegue i baking originali nelle impostazioni Set texture.
   1. Per rimuovere le vecchie mappe trama, usate l’azione Pulisci del menu File.
   1. Per comprimere il file di progetto, utilizzate l’azione Salva e compatta del menu File.\
      Dopo tutte queste fasi, l&#39;ingombro del progetto dovrebbe essere notevolmente ridotto.
 
-È importante che le mappe della trama rimangano almeno texture a 16 bit. Anche se le texture a 8 bit possono avere un ingombro ridotto, introdurranno artefatti nei materiali avanzati e nei generatori di maschere. Si consiglia PNG perché è un formato di compressione senza perdita di dati, ovvero comprimerà comunque la texture senza introdurre artefatti e supporta anche 16 bit.
+È importante che le mappe della trama rimangano almeno texture a 16 bit. Anche se la texture a 8 bit può avere un ingombro ridotto, introduce artefatti nei Materiali avanzati e nei Generatori di maschere. Si consiglia PNG perché è un formato di compressione senza perdita di dati, ovvero comprimerà comunque la texture senza introdurre artefatti e supporta anche 16 bit.

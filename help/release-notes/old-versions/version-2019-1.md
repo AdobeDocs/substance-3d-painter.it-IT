@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2019.1 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2019.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2954'
 ht-degree: 1%
-
 ---
-
 
 # Versione 2019.1
 
@@ -32,7 +24,7 @@ Data di pubblicazione: *23 aprile 2019*
 
 Con questa versione, il nostro motore di pennelli ora supporta quelli che chiamiamo Tratti dinamici. Questi tipi di tratti creano variazioni e nuovi effetti grazie alla generazione immediata di nuove versioni di Substance. Ora è possibile avere un nuovo materiale Substance o alfa per ogni nuovo tratto del pennello dipinto sulla risorsa.
 
-Quando una risorsa compatibile con Traccia dinamica viene caricata nello strumento Disegno (Disegno, Gomma, Sfumino o Clone), viene visualizzato un nuovo gruppo di parametri:
+Quando una risorsa compatibile con Tratto dinamico viene caricata nello strumento Pittura (Pittura, Gomma, Sfumino o Clona /Clone), viene visualizzato un nuovo gruppo di parametri:
 
 ![](../../assets/dynamic-stroke-ui.png)
 
@@ -102,14 +94,14 @@ L&#39;effetto Maschera di confronto ha le seguenti proprietà:
 
 ![](../../assets/compare-mode.png)
 
-Per semplificare ulteriormente la configurazione, puoi fare clic con il pulsante destro del mouse su un livello e scegliere la scelta rapida &quot;**Aggiungi maschera con combinazione di height**&quot; per aggiungere rapidamente questa nuova maschera al livello. Questa scelta rapida da tastiera imposterà inoltre il metodo di fusione del canale del Height su &quot;Normale&quot; invece del &quot;Scherma lineare (Aggiungi)&quot; predefinito.\
+Per semplificare ulteriormente la configurazione, potete fare clic con il pulsante destro del mouse su un livello e scegliere la scelta rapida da tastiera &quot;**Aggiungi maschera con combinazione di height**&quot; per aggiungere rapidamente questa nuova maschera al livello. Questa scelta rapida da tastiera imposterà inoltre il metodo di fusione del canale del Height su &quot;Normale&quot; invece del &quot;Scherma lineare (Aggiungi)&quot; predefinito.\
 ![](../../assets/compare-shortcut.png)
 
 ### Simmetria radiale
 
 ![](../../assets/radial-demo.gif)
 
-Abbiamo ampliato le funzionalità del nostro strumento simmetria per gestire la simmetria radiale. Nel menu delle impostazioni di simmetria è ora disponibile una nuova modalità che consente di attivarla (disponibile nella barra degli strumenti contestuale).
+Abbiamo ampliato le funzionalità del nostro strumento simmetria per gestire la simmetria radiale. Nel menu delle impostazioni della simmetria è ora disponibile una nuova modalità che consente di attivarla (disponibile nella barra degli strumenti contestuale).
 
 Sono disponibili le impostazioni seguenti:
 
@@ -117,7 +109,7 @@ Sono disponibili le impostazioni seguenti:
 * **Conteggio**: numero di punti duplicati.
 * **Estensione angolo**: posizione dei punti duplicati rispetto a quello originale. Questa impostazione può essere utilizzata per creare un cerchio completo o un quarto di esso, ecc.
 
-È stata inoltre aggiunta una piccola anteprima per modificare più facilmente le impostazioni prima di iniziare a dipingere:
+È stata inoltre aggiunta una piccola anteprima per semplificare la modifica delle impostazioni prima di iniziare la pittura:
 
 ![](../../assets/radial-settings.png)
 
@@ -127,18 +119,18 @@ Sono disponibili le impostazioni seguenti:
 
 Sono state aggiunte due nuove modalità di proiezione con livelli di riempimento ed effetti di riempimento: **Planari** e **sferiche**. Abbiamo inoltre aggiunto molti nuovi parametri per controllare ulteriormente il comportamento delle proiezioni 3D.
 
-* **Nuova modalità proiezione planare**\
+* **Nuova modalità di proiezione Planare**\
   Con questa nuova modalità è ora possibile proiettare un piano. Può essere utile per la creazione di strisce sui veicoli o il posizionamento di decalcomanie in un punto specifico.
 
   ![](../../assets/planar-proj.png)
-* **Strumento superficie per proiezione planare**\
+* **Strumento superficie per proiezione Planari**\
   Per semplificare la manipolazione della proiezione di planari, abbiamo aggiunto anche un nuovo controllo per il Manipolatore 3D, chiamato **strumento superficie**, a cui è possibile accedere con la scelta rapida da tastiera &quot;**Maiusc+W**&quot;. È inoltre possibile accedervi dalla barra degli strumenti contestuale. Questa nuova modalità è disponibile solo con la proiezione Planare.
 
   ![](../../assets/surface-tool-toolbar.png)
 
   ![](../../assets/surface-tool-optim.gif)
-* **Abbattimento/dissolvenza della proiezione planare**\
-  Sono disponibili più impostazioni per rendere la proiezione planare continua o finita. Quando è attivata un’impostazione di taglio, il riquadro punteggiato attorno al manipolatore indica il rettangolo di selezione per la proiezione e la linea centrale è il punto di inizio della proiezione. Il ridimensionamento della proiezione consente di controllare quanto va e quando inizia a sfumare.
+* **Abbattimento/dissolvenza della proiezione Planare**\
+  Sono disponibili più impostazioni per rendere la proiezione planare continua o finita. Quando è attivata un’impostazione di taglio, il riquadro punteggiato attorno al manipolatore indica il rettangolo di selezione della proiezione e la linea centrale indica il punto di inizio della proiezione. Il ridimensionamento della proiezione consente di controllare quanto va e quando inizia a sfumare.
 
   ![](../../assets/planar-culling.gif){width="500px"}
 
@@ -180,7 +172,7 @@ Sono state aggiunte due nuove modalità di proiezione con livelli di riempimento
 * **Il dithering durante l&#39;esportazione** è ora possibile disabilitare il dithering tramite un&#39;impostazione dedicata nella finestra di esportazione accanto al formato del file e alla profondità di bit. Per ulteriori informazioni su come e quando viene applicato il dithering [consultare la documentazione sull&#39;esportazione](../../export/export-window/export-window.md).\
   ![](../../assets/dithering.png)
 * **Istogrammi migliori**\
-  Abbiamo rielaborato il nostro generatore di istogramma. Gli istogrammi ora dovrebbero visualizzare informazioni più precise e essere aggiornati correttamente dopo una modifica nella pila dei livelli.\
+  Abbiamo rielaborato il nostro generatore di istogramma. Gli istogrammi ora dovrebbero mostrare informazioni più precise e essere aggiornati correttamente dopo una modifica della Pila livelli.\
   ![](../../assets/histogram.png)
 * **Migliore creazione di istanze dei livelli**\
   Per i livelli istanziati ora il metodo di fusione è impostato su &quot;Attraversa&quot; invece del metodo di fusione predefinito. Questo metodo di fusione migliorerà la compatibilità di alcuni effetti quando i livelli vengono divisi in istanze tra set di texture.
@@ -231,7 +223,7 @@ In questa versione abbiamo aggiunto anche molti contenuti nuovi: dai predefiniti
   * **Da Height a normale**: questo filtro converte il canale del Height in un normale e lo invia al canale normale. I controlli di intensità variano a seconda delle esigenze.
   * **Contorno maschera**: questo filtro crea un bordo bianco su nero attorno a un input in scala di grigi. Questa funzione è particolarmente utile in Maschera per creare bordi intorno alle forme.
   * **PBR Validata**: è stato aggiunto questo filtro per verificare che i colori dei materiali PBR siano negli intervalli corretti. Per ulteriori informazioni, consulta la [Guida PBR](https://www.allegorithmic.com/pbr-guide)!
-  * **MatFX Peeling Paint**: simula la sbucciatura della pittura precedente. Questo filtro produce raggi alfa che facilita la fusione con i materiali sottostanti.
+  * **Pittura di peeling MatFX**: simula la pittura precedente che inizia a sbucciarsi. Questo filtro produce raggi alfa che facilita la fusione con i materiali sottostanti.
   * **Gocce d&#39;acqua MatFx**: simula le gocce d&#39;acqua sulla superficie di un oggetto. Come l&#39;acqua su un&#39;auto dopo la pioggia.
 * **7 nuovi generatori**\
   Con questa versione sono stati aggiunti alcuni nuovi generatori:
@@ -240,7 +232,7 @@ In questa versione abbiamo aggiunto anche molti contenuti nuovi: dai predefiniti
   * **World Space Normals**: Generatore di maschere che offre controlli sulla mappa mesh World Space Normals. In base all’Editor maschera.
   * **Posizione**: Generatore di maschere che offre controlli sulla mappa Trama posizione. In base all’Editor maschera.
   * **Curvatura**: Generatore di maschere che offre controlli sulla mappa Trama curvatura. In base all’Editor maschera.
-  * **Cucitura automatica**: Generatore maschera che crea punti vicino ai bordi UV, alla curvatura della trama o attorno a un input maschera personalizzato.
+  * **Cucitura automatica**: Generatore di maschere che crea punti vicino ai bordi UV, alla curvatura della trama o attorno a un input maschera personalizzato.
   * **Densità texel UV**: helper che genera una sfumatura colorata in base alla densità texel dei poligoni della trama.
   * **Colore casuale UV**: genera un colore casuale per Isola UV (o in base a un input sfumatura personalizzato).
 * **2 nuove mappe di ambiente**
@@ -276,11 +268,11 @@ Riepilogo: **Correzione rapida con 2 nuove funzioni**
 
 * &quot;Segui tracciato&quot; non funziona sempre
 * La mappatura dei canali non funziona con SBSAR utilizzato negli slot a canale singolo
-* [Serie di livelli] Prestazioni ridotte durante lo scorrimento con livelli nascosti
-* Arresto anomalo di [TextureSet] quando si fa clic tra le maschere
+* [Pila livelli] Prestazioni ridotte durante lo scorrimento con livelli nascosti
+* arresto anomalo di [TextureSet] quando si fa clic tra maschere diverse
 * Lo Spostamento [SVT] non viene visualizzato correttamente e in alcuni casi sfarfalla
-* [Alembic] Arresto anomalo con trama che utilizza le normali dei punti invece delle normali dei vertici
-* [Alembic]&#x200B;[Log] Segnala un errore nel log se il file Alembic non è supportato durante l&#39;importazione
+* [Alembico] Arresto anomalo con trama che utilizza le normali dei punti invece delle normali dei vertici
+* [Alembic][Log] Segnala un errore nel log se il file Alembic non è supportato durante l&#39;importazione
 
 ### 2019.1.2
 
@@ -303,17 +295,17 @@ Riepilogo: **HotFix**
 **Corretto:**
 
 * [Substance] Visibile se non viene preso in considerazione per le immagini di input
-* [SVT]&#x200B;[Engine] La modifica della risoluzione del set di texture in alcuni casi causa un arresto anomalo
-* [Engine] In alcuni casi vengono visualizzate texture di nero casuale
-* [Serie di livelli]&#x200B;[UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
-* [Serie di livelli] L’opacità non ha effetto sull’effetto Disegno con metodo di fusione Attraversa
-* [Serie di livelli] L’input del filtro Da Height a normale non si aggiorna correttamente con il tratto del pennello gomma
+* [SVT][Motore] La modifica della risoluzione del set di texture porta in alcuni casi a un arresto anomalo
+* [Engine] In alcuni casi compaiono texture nere casuali
+* [Pila livelli][UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
+* [Pila livelli] L’opacità non ha effetto sull’effetto Pittura con il metodo di fusione Attraversa
+* [Pila livelli] L’input del filtro Da Height a normale non si aggiorna correttamente con il tratto del pennello gomma
 * [LayersStack] Arresto anomalo quando si annulla la rilascio di una maschera avanzata
 * Sfarfallio del wireframe con ombre e anti-alias temporale attivati
 * [Spostamento] Ritardo su AMD con alcune trame pesanti
-* [Windows] Arresto anomalo all&#39;apertura di alcuni progetti tramite Esplora file
+* [Windows] Arresto anomalo quando si aprono alcuni progetti tramite Esplora file
 * [Istogramma] Arresto anomalo durante la rimozione di una maschera con punto di ancoraggio in alcuni casi
-* Arresto anomalo nella generazione dell’anteprima in alcuni rari casi
+* Arresto anomalo di generazione dell’anteprima in alcuni rari casi
 * [Arresto anomalo] Impossibile riaprire un progetto con troppi strumenti di clonazione e sfumino
 * Nessuna trama visualizzata in modalità materiale dopo il salvataggio in alcuni casi
 * [Scripting] alg.mapexport.documentStructure() restituisce valori errati per le cartelle
@@ -325,7 +317,7 @@ Riepilogo: **HotFix**
 ### 2019.1
 
 *(Rilasciato il 23 aprile 2019)*\
-Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tassellatura in tempo reale e irradiazione, effetto maschera di confronto, simmetria radiale, planare e Proiezione sferica**
+Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tassellatura in tempo reale e irraggiamento, effetto Maschera di confronto, simmetria radiale, Planari e Proiezione sferica**
 
 **Aggiunto:**
 
@@ -334,39 +326,39 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 * [Tratto dinamico] Tieni conto del parametro $time
 * [Tratto dinamico] Genera un nuovo parametro $randomseed per tratto e per timbro
 * [Tratto dinamico] Avvia un indice di tratto dinamico da un numero casuale
-* [Tratto dinamico]&#x200B;[Scaffale] Aiuta a trovare una risorsa tratto dinamico con una nuova icona dedicata
+* [Tratto dinamico][Scaffale] Aiuta a trovare una risorsa tratto dinamico con una nuova icona dedicata
 * Spostamento e tassellatura nella finestra della vista in tempo reale
 * Spostamento e tassellatura in Iray
-* [Impostazioni shader]&#x200B;[UI] Nuova scheda per il controllo dello spostamento e della tassellatura
+* [Shader impostazioni][UI] Nuova scheda per il controllo dello spostamento e della tassellatura
 * [Pila livelli] Nuovo effetto Confronta maschera: genera una maschera confrontando due canali
-* [Pila livelli]&#x200B;[UI] Nuova voce nel menu di scelta rapida &quot;Aggiungi maschera con combinazione di height&quot; per inserire un effetto CompareMask
+* [Pila livelli][UI] Nuova voce nel menu di scelta rapida &quot;Aggiungi maschera con combinazione di height&quot; per inserire un effetto CompareMask
 * [Simmetria] Nuova modalità simmetria: pittura radiale
 * [Simmetria impostazioni] Espandere entrambe le sezioni &quot;Impostazioni&quot; e &quot;Schermo&quot;
-* [Simmetria impostazioni]&#x200B;[UI] Anteprima per pittura radiale
-* Esporre due nuove modalità di proiezione: piana e sferica
+* [Simmetria impostazioni][UI] Anteprima per pittura radiale
+* Esporre due nuove modalità di proiezione: planare e sferica
 * [Proj] Nuova modalità di ritaglio forma per tutte le proiezioni
 * [Proj] Modalità Planari con nuovo manipolatore: strumento Superficie
-* [Proj]&#x200B;[Scelta rapida da tastiera] Maiusc Scelta rapida da tastiera+W per strumento superficie
-* [Proj] Maschera di proiezione planare con taglio a sfoltimento profondità e sfondo
+* [Proj][Scelta rapida da tastiera] Maiusc Scelta rapida da tastiera+W per strumento superficie
+* [Proj] Maschera di proiezione Planare con sfoltimento profondità e taglio della superficie posteriore
 * [Manipolatore] Miglioramento del manipolatore di rotazione su tutti e tre gli assi per il triplanare
-* [Tool]&#x200B;[UX] Se si fa clic su un canale tenendo premuto il tasto Alt, tale canale viene attivato o disattivato
+* [Tool][UX] Se si fa clic su un canale tenendo premuto il tasto Alt, tale canale viene attivato o disattivato
 * [Engine] Aggiornamento alla versione più recente di Substance Engine
 * [Set di texture] Selezione multipla e modifica della risoluzione
 * [Set di texture] Attivazione e disattivazione rapida dei set di texture
 * [Set di texture] Combina solo e tutte le opzioni in un nuovo menu
-* [Set di texture]&#x200B;[Layer stack] Icona Nuova per attivazione e disattivazione
-* [Layer stack]&#x200B;[UX] Inserisci effetti sopra quelli già selezionati
-* [Serie di livelli]&#x200B;[UI] Rielaborare lo stile di selezione della visualizzazione della serie di livelli
-* [Serie di livelli] Per impostazione predefinita, il metodo di fusione per i livelli istanziati è ora impostato sul metodo Attraversa
+* [Set di texture][Pila livelli] Icona Nuova per attivazione e disattivazione
+* [Pila livelli][UX] Inserisci effetti al di sopra di quelli già selezionati
+* [Pila livelli][UI] Rielaborare lo stile di selezione della vista Pila livelli
+* [Pila livelli] Per impostazione predefinita, il metodo di fusione per i livelli istanziati è ora impostato sul metodo Attraversa
 * Opzione [Esporta] per attivare e disattivare il dithering
 * [Plugin] Supporta il modificatore di precisione per i cursori (SHIFT)
-* [Plugin]&#x200B;[UI] Nuova icona per il salvataggio automatico
+* [Plugin][UI] Nuova icona per il salvataggio automatico
 * [Scripting] Elenca il contenuto di una cartella
 * [Scripting] Consente l’eliminazione dei file
 * [Scripting] Leggi tutte le informazioni sullo stack, incluse le risorse utilizzate
-* [Contenuto]&#x200B;[Tratto dinamico] Nuovi strumenti e pennelli predefiniti
-* [Contenuto]&#x200B;[Tratto dinamico] Due nuove sfumature procedurali: Tonalità sfumatura e Generatore sfumatura
-* [Contenuto] 11 nuovi filtri: MatFx Peeling Paint, MatFx Water Drops e altro ancora
+* [Contenuto][Tratto dinamico] Nuovi strumenti e pennelli predefiniti
+* [Contenuto][Tratto dinamico] Due nuove sfumature procedurali: Tonalità sfumatura e Generatore sfumatura
+* [Contenuto] 11 nuovi filtri: Pittura di pelatura MatFx, gocce d&#39;acqua MatFx e altro ancora
 * [Content] 7 nuovi generatori: Cucitrice automatica, Colore casuale UV, Densità texel UV e altro ancora
 * [Contenuto] 93 nuove alfa: nuovi testi, frecce e varie altre forme
 * [Content] 2 nuove procedure: Tonalità sfumatura, Generatore sfumatura e altro ancora
@@ -377,9 +369,9 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 
 **Corretto:**
 
-* [Pila livelli] La pila di livelli continua a trascinare per sempre
+* La Pila livelli [serie di livelli] continua a trascinare per sempre
 * [Mac] &quot;Mostra nel Finder&quot; può portare al blocco
-* [Scripting] Le impostazioni salvate tramite l’interfaccia utente personalizzata vengono perse se il file dello shader viene spostato
+* [Scripting] Le impostazioni salvate tramite l’interfaccia utente personalizzata vengono perse se il file di shader viene spostato
 * [Scripting] Il numero di versione dell’API non è corretto e non aggiornato
 * [Effetto] Il contenuto dell’istogramma non viene visualizzato correttamente
 * [Effetto] In alcuni casi l’effetto Istogramma non si aggiorna
@@ -388,4 +380,4 @@ Riepilogo : **Traccia dinamica con nuovi contenuti dedicati, Spostamento e tasse
 **Problemi noti:**
 
 * Facendo doppio clic sul nome del set di texture, questo viene selezionato prima di passare alla modalità di ridenominazione
-* [Pila livelli]&#x200B;[UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente
+* [Pila livelli][UI] Alternando una maschera con MAIUSC è possibile selezionare più livelli contemporaneamente

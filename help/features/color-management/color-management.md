@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come configurare la gestione del colore in Substance 3D Painter per garantire una precisione del colore uniforme in tutto il flusso di lavoro.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gestione del colore
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # Gestione del colore
 
@@ -56,17 +48,17 @@ All’interno dell’applicazione, i canali con gestione del colore o meno (dati
 
 | Canale | Il colore è gestito |
 | --- | --- |
-| **occlusione ambiente** | No |
+| **Occlusione ambientale** | No |
 | **Angolo di anistotropia** | No |
 | **Livello di anisotropia** | No |
 | **Colore di base** | **Sì** |
 | **Maschera di fusione** | No |
-| **Colore pelo** | **Sì** |
+| **Colore del rivestimento** | **Sì** |
 | **Normale dei rivestimenti** | No |
 | **Opacità del rivestimento** | No |
-| **Rugosità pelo** | No |
-| **specular level** | No |
-| **Diffusione** | **Sì** |
+| **Rugosità del rivestimento** | No |
+| **Livello speculare dei rivestimenti** | No |
+| **Diffusa** | **Sì** |
 | **Spostamento** | No |
 | **Lucentezza** | No |
 | **Height** | No |
@@ -104,7 +96,7 @@ Entrambe le viste 2D e 3D sono sottoposte alla gestione del colore e nella parte
 ![](../../assets/viewport-cm.png)
 
 * **Pulsante sinistro**: attiva/disattiva il Trasforma di visualizzazione della finestra della vista. Se è disattivata, la finestra della vista visualizzerà i colori come raw/passthrough. Questo pulsante è attivato per impostazione predefinita.
-* **Menu a discesa a destra**: specificate quale trasformazione di visualizzazione utilizzare per convertire i colori in modo da visualizzarli sullo schermo. Il valore predefinito è basato sulla configurazione OCIO. Questa impostazione non viene salvata con il progetto perché può essere dipendente dal monitoraggio.
+* **Menu a discesa a destra**: specificate il Trasforma di visualizzazione da utilizzare per convertire i colori in modo da visualizzarli sullo schermo. Il valore predefinito è basato sulla configurazione OCIO. Questa impostazione non viene salvata con il progetto perché può essere dipendente dal monitoraggio.
 
 >[!NOTE]
 >

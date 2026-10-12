@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2018.2 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2018.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2018.2
 
@@ -95,8 +87,8 @@ Per impostazione predefinita, il parametro predefinito è ora impostato su non f
 
 La modalità di fatturazione può essere impostata come segue:
 
-* **Nessuna porzione** (impostazione predefinita)
-* **Verticale in porzioni**
+* **Nessun Affiancamento** (impostazione predefinita)
+* **Affiancamento orizzontale**
 * **Affiancamento verticale**
 * **Affiancamento H e V** (comportamento precedente)
 
@@ -139,9 +131,9 @@ Si prende in considerazione anche il fotogramma della fotocamera (e il suo cance
   È stato migliorato il trascinamento del contenuto dallo scaffale alla finestra della vista. Premendo **CTRL** durante il trascinamento di un materiale, è ora possibile scegliere il colore ID da utilizzare come maschera.\
   Una maschera nera con un effetto di selezione colore verrà aggiunta al nuovo livello creato nella Pila livelli. Se lo stesso materiale viene trascinato su un altro colore ID, il livello esistente viene aggiornato e i colori ID vengono combinati.\
   ![](../../assets/id-drop.gif)
-* **Trascinamento dello scorrimento dello stack di livelli:**\
+* **Pila livelli scorrimento trascinamento :**\
   Trascinare i livelli intorno alla Pila livelli ora ha una piccola finestra.\
-  Quando una risorsa o un livello viene trascinato vicino ai bordi della finestra del gruppo di livelli, inizierà automaticamente a scorrere il relativo contenuto.\
+  Quando una risorsa o un livello viene trascinato vicino ai bordi della finestra della Pila livelli, inizierà automaticamente a scorrere il relativo contenuto.\
   ![](../../assets/layer-drag.gif)
 
 ### Importazione mesh glTF e Alembic
@@ -155,7 +147,7 @@ Ora sono supportati nuovi formati di file per l’importazione di trame e la cre
 
 >[!NOTE]
 >
-> Substance Painter non consente di controllare in quale fotogramma dell’animazione importare al momento.\
+> Substance Painter non consente di controllare quale fotogramma di animazione importare al momento.\
 > Ciò significa che quando si esporta un file Alembic, il fotogramma di riferimento da utilizzare per la pittura sulla risorsa deve essere già impostato.
 
 ### Miglioramenti dell’integrazione Substance
@@ -190,11 +182,11 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 
 (Pubblicato il 25 settembre 2018)
 
-**&#x200B;**&#x200B;Corretto:**&#x200B;**
+****Corretto:****
 
-* [Vista 2D] La vista 2D è interrotta con alcune trame durante la creazione di un nuovo progetto
-* [Arresto anomalo] Il passaggio dalla proiezione Proiezione UV a quella triplanare causa un arresto anomalo
-* [RayCollider] Arresti anomali multipli dovuti a &quot;RayCollider&quot;
+* [vista 2D] Il vista 2D è interrotto con alcune trame durante la creazione di un nuovo progetto
+* [Arresto anomalo] Il passaggio da Proiezione UV a proiezione triplanari porta a un arresto anomalo
+* [RayCollider] Più arresti anomali dovuti a &quot;RayCollider&quot;
 * [Strumento] Quando si cambia livello, le proprietà del pennello modificate vengono perse
 * Le impostazioni del pennello vengono ripristinate quando si passa alla gomma
 
@@ -210,8 +202,8 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 **Aggiunto:**
 
 * Riepilogo: correzione rapida con aggiornamento dei contenuti, nuove funzionalità di scripting e possibilità di disattivare l&#39;aggiornamento automatico
-* [Content]&#x200B;[Shelf] Aggiungi un predefinito Ripiano incarnato
-* [Content]&#x200B;[shelf] Conversione di 19 normali cutanee in materiali per la dispersione sottosuperficiale
+* [Content][Shelf] Aggiungi un predefinito Ripiano incarnato
+* [Content][shelf] Conversione di 19 normali cutanee in materiali per la dispersione sottosuperficiale
 * [Scripting] Crea un modello di progetto da un progetto aperto
 * [Scripting] Ottenere/impostare le impostazioni di esportazione di un progetto aperto
 * [Updates] Consente di disattivare la finestra a comparsa Aggiornamento automatico da impostazioni e variabile di ambiente
@@ -219,18 +211,18 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 
 **Corretto:**
 
-* [Fotocamera] Zoom errato passando da ortogonale a prospettico
+* [Fotocamera] Zoom errato passando da ortografica a Prospettiva
 * [Display] Alcune mappe vengono visualizzate in modalità lineare anziché sRGB
 * [Finestre di visualizzazione] Lo stato attivo della trama non funziona correttamente
-* [2D View] Progetto con fotocamera rotta ha sparito UVs Gusci
-* [SSS]&#x200B;[Tooltip] nel registro vengono visualizzate le descrizioni degli strumenti per la dispersione delle superfici
+* [vista 2D] Il progetto con la fotocamera rotta ha sparito i proiettili UV
+* [SSS][Tooltip] nel registro vengono visualizzate le descrizioni degli strumenti per la dispersione delle superfici
 * Alcuni progetti non possono essere aperti in 2018.2 e il messaggio di errore non può salvare un pacchetto substance null
-* [Maschera] Il colore dello strumento di pittura può bloccarsi in alcuni casi quando si lavora su una maschera
+* [Maschera] Il colore dello strumento Pittura può bloccarsi in alcuni casi quando si lavora su una maschera
 * [Materiale] Mappe non visualizzate in situazioni specifiche
-* [Proj]&#x200B;[Strumenti] Manipolatore attivo con un generatore
+* manipolatore [Proj][Tools] attivo con un generatore
 * [Substance] Gruppi di parametri Substance mancanti
 * [Scripting] Nome software errato nella documentazione
-* [UDIM] Nessuna informazione nel registro sui gusci UV su più riquadri UV
+* [UDIM] Nessuna informazione nel registro sulle conchiglie UV su più porzioni UV
 
 **Problemi noti:**
 
@@ -257,79 +249,79 @@ Per trovare il progetto, utilizza la voce di menu **File** > **Apri campione...*
 **Aggiunto:**
 
 * Riepilogo: Versione estate, Supporto per la dispersione sotto la superficie, miglioramenti a livello di proiezione e riempimento, importazione e selezione della fotocamera, supporto di Alembic/glTF, trascinamento sulla mappa ID, supporto migliorato del formato di Substance e nuovi contenuti
-* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Dispersione sottosuperficie generica
+* [SSS][Viewport][Iray] Dispersione sottosuperficie generica
 * [SSS] Sincronizza i parametri di dispersione MDL e subsuperficiale
 * [SSS] È stato aggiunto un nuovo canale in scala di grigi denominato &quot;Scattering&quot;
-* [SSS]&#x200B;[Impostazioni shader] Parametro del tipo di dispersione per la dispersione del sottosuolo (incarnato o traslucido)
-* [SSS]&#x200B;[Impostazioni shader] Parametro della scala di dispersione per la dispersione sotto la superficie
-* [SSS]&#x200B;[Impostazioni shader] Parametro colore di dispersione per dispersione sottosuperficie
-* [SSS]&#x200B;[Impostazioni schermo] Conteggio dei campioni di dispersione per la dispersione sotto la superficie
-* [Shader]&#x200B;[Iray] Integrazione di MDL di dispersione sottosuperficiale per Iray
+* [SSS][Impostazioni Shader] Parametro del tipo di dispersione per la dispersione del sottosuolo (incarnato o traslucido)
+* [SSS][Impostazioni Shader] Parametro della scala di dispersione per la dispersione del sottosuolo
+* [SSS][Impostazioni Shader] Parametro colore di dispersione per la dispersione del sottosuolo
+* [SSS][Impostazioni schermo] Conteggio dei campioni di dispersione per la dispersione sotto la superficie
+* [Shader][Iray] Integra MDL di dispersione sottosuperficiale per Iray
 * [Shader] Aggiornamento di Shader tramite il programma di aggiornamento delle risorse
 * [Shader] Aggiornamento dell&#39;API del log delle modifiche e della documentazione
-* [Proprietà utensile]&#x200B;[Proj] Nuovi parametri per la proiezione triplanare
-* [Finestra vista]&#x200B;[Proj] Controlla le proprietà del livello di riempimento nella vista 3D direttamente con i manipolatori (proiezione triplanare)
-* [Shortcuts]&#x200B;[Proj] Nuove scelte rapide Q, W, E, R, T per manipolatori di proiezione triplanari
-* [Finestra vista]&#x200B;[Proj] Controlla le proprietà del livello di riempimento nella vista 2D direttamente con i manipolatori (Proiezione UV)
-* [Shortcuts]&#x200B;[Proj] Nuova scelta rapida Q per i manipolatori di Proiezione UV
-* [Barra degli strumenti contestuale]&#x200B;[Proj] Controlla i manipolatori di proiezione triplanari
-* [Barra degli strumenti contestuale]&#x200B;[Proj] Manipolatori Proiezione UV di controllo
-* [Proprietà strumento] Disattiva l&#39;affiancamento della texture con lo strumento proiezione e stencil
+* [Proprietà utensile][Proj] Nuovi parametri per la proiezione triplanare
+* [Finestra vista][Proj] Controlla le proprietà del livello di riempimento nella vista 3D direttamente con i manipolatori (proiezione triplanare)
+* [Shortcuts][Proj] Nuove scelte rapide Q, W, E, R, T per manipolatori di proiezione triplanari
+* [Riquadro di visualizzazione][Proj] Controlla le proprietà del livello di riempimento direttamente nei Vista 2D con i manipolatori (Proiezione UV)
+* [Shortcuts][Proj] Nuova scelta rapida da tastiera Q per manipolatori Proiezione UV
+* [Barra degli strumenti contestuale][Proj] Controlla manipolatori di proiezione triplanari
+* [Barra degli strumenti contestuale][Proj] manipolatori di Proiezioni UV di controllo
+* [Proprietà strumento] Disattiva Affiancamento texture con lo strumento proiezione e stencil
 * [Stencil] Utilizzare immagini non quadrate con lo strumento di proiezione/stencil
-* [Stencil] Consenti il controllo della modalità di suddivisione in porzioni nella finestra Proprietà
-* [Stencil] Lo zoom non è centrato su uno stencil non affiancato
+* [Stencil] Consenti il controllo della modalità Affiancamento nella finestra Proprietà
+* [Stencil] Lo zoom non è centrato su uno stencil non Affiancamento
 * [Fotocamere] Importa fotocamere da Maya, Max, Blender, Modo, DAE
-* [Fotocamere]&#x200B;[Finestra vista] Selezionare e controllare le videocamere importate nella finestra della vista
-* [Fotocamere]&#x200B;[Iray] Seleziona e controlla le videocamere importate in Iray
-* [Fotocamere]&#x200B;[UI]&#x200B;[Nuovo progetto]&#x200B;[Configurazione progetto] &quot;Importa fotocamere&quot; è selezionato per impostazione predefinita
-* [Videocamere]&#x200B;[Scelte rapide] Aggiungete le scelte rapide &quot;&lt;&quot; e &quot;>&quot; per passare da una videocamera all’altra
-* [Fotocamere]&#x200B;[Finestra vista] Aggiungi fotogramma nella finestra della vista
-* [Fotocamere]&#x200B;[Impostazioni finestra di visualizzazione] Controllo dell&#39;opacità dei fotogrammi
-* [Fotocamere]&#x200B;[Impostazioni fotocamera] lunghezza focale massima a 500 mm
-* [Fotocamere]&#x200B;[Impostazioni videocamera] Rapporto di esposizione
-* [Fotocamere]&#x200B;[Impostazioni fotocamera] Aggiungi un&#39;opzione di blocco
-* [Fotocamere]&#x200B;[Impostazioni fotocamera] Aggiungi un&#39;opzione di ripristino
-* [Cameras]&#x200B;[Impostazioni fotocamera] Aggiungi attributo distanza focale
+* [Fotocamere][Finestra vista] Selezionare e controllare le videocamere importate nella finestra della vista
+* [Fotocamere][Iray] Seleziona e controlla le videocamere importate in Iray
+* [Fotocamere][UI][Nuovo progetto][Configurazione progetto] &quot;Importa fotocamere&quot; è selezionato per impostazione predefinita
+* [Videocamere][Scelte rapide] Aggiungete le scelte rapide &quot;&lt;&quot; e &quot;>&quot; per passare da una videocamera all’altra
+* [Fotocamere][Finestra vista] Aggiungere un fotogramma nella finestra della vista
+* [Fotocamere][Impostazioni finestra vista] Controllo dell&#39;opacità del fotogramma
+* [Fotocamere][Impostazioni fotocamera] lunghezza focale massima a 500 mm
+* [Fotocamere][Impostazioni videocamera] Rapporto di esposizione
+* [Fotocamere][Impostazioni fotocamera] Aggiungi un&#39;opzione di blocco
+* [Fotocamere][Impostazioni fotocamera] Aggiungi un&#39;opzione di ripristino
+* [Cameras][Impostazioni fotocamera] Aggiungi attributo distanza focale
 * [glTF] Importazione di un file glTF
-* [glTF] Importa mappa occlusione ambiente
+* [glTF] Importa mapping occlusione ambientale
 * [Alembic] Importa fotogramma Alembic 1 con geometria statica
 * [Ripiano] Trascina i materiali direttamente sulla trama utilizzando mappe ID con un modificatore (CTRL/Comando)
-* [Pila di livelli] Creazione automatica di maschere ID con trascinamento di materiali sulla trama con mappe ID
-* [Pila di livelli] Scorrimento automatico dei livelli con trascinamento sulla pila di livelli
-* [UI]&#x200B;[Proprietà strumento] Predefinito di Esposizione Substance
-* [UI]&#x200B;[Menu?] Miglioramento del menu?
-* [UI]&#x200B;[Nuovo progetto]&#x200B;[Configurazione progetto] Riorganizzazione della finestra
-* [UI]&#x200B;[Nuovo progetto]&#x200B;[Configurazione progetto] Sostituisci il termine &quot;Trama&quot; con &quot;File&quot;
-* [UI]&#x200B;[Substance] Visualizza gli attributi della Substance nell&#39;interfaccia utente
+* [Pila livelli] Creazione automatica della maschera ID con trascinamento dei materiali sulla trama con mappe ID
+* [Pila livelli] Scorrimento automatico dei livelli con trascinamento sulla Pila livelli
+* [UI][Proprietà strumento] Predefinito di Esposizione Substance
+* [UI][Menu?] Miglioramento del menu?
+* [UI][Nuovo progetto][Configurazione progetto] Riorganizzazione della finestra
+* [UI][Nuovo progetto][Configurazione progetto] Sostituisci il termine &quot;Trama&quot; con &quot;File&quot;
+* [UI][Substance] Visualizza gli attributi della Substance nell&#39;interfaccia utente
 * [Scelte rapide] &quot;F4&quot; alterna la vista 2D e 3D
-* [Scelte rapide] Nuove scelte rapide per Attiva/Disattiva stencil &quot;N&quot; e maschera rapida &quot;U&quot;
+* [Scelte rapide] Nuove scelte rapide per Attiva/Disattiva stencil &quot;N&quot; e maschera veloce &quot;U&quot;
 * [Integrazione Substance] Considera le istruzioni &#39;visible if&#39; nei parametri di Substance
 * [Riquadro di visualizzazione] Le ombre non vengono calcolate dopo lo spostamento della videocamera
 * [Content] Aggiorna MeetMat con le fotocamere importate
 * [Content] Aggiungi un campione con la dispersione sottosuperficiale attivata - JadeToad
 * [Content] Aggiungi un nuovo modello di progetto PBR con la dispersione sottosuperficie attivata
 * [Content] Predefiniti di esportazione aggiornati per aggiungere un nuovo canale di diffusione
-* [Content]&#x200B;[Shelf] Aggiunto supporto per la dispersione sottosuperficiale per: pbr-metal-rough, pbr-metal-rough-alpha-test, pbr-coated, pbr-spec-gloss
-* [Content]&#x200B;[Shelf] Canale di dispersione aggiunto a 5 materiali intelligenti (marmi e pelli)
-* [Content]&#x200B;[Shelf] 1 nuovo materiale giada
-* [Content]&#x200B;[Shelf] 1 nuovo materiale cera
+* [Content][Shelf] Aggiunto supporto per la dispersione sottosuperficiale per: pbr-metal-rough, pbr-metal-rough-alpha-test, pbr-coated, pbr-spec-gloss
+* [Content][Shelf] Aggiunto canale di dispersione a 5 materiali avanzati (marmi e pelli)
+* [Content][Shelf] 1 nuovo materiale giada
+* [Content][Shelf] 1 nuovo materiale cera
 
 **Corretto:**
 
 * [CMD] Risultati diversi utilizzando la stessa riga di comando con versioni diverse
 * [TDR] Se TdrLevel è impostato, non ci sono errori nel registro
-* [Baker] La mappa di occlusione ambientale è capovolta
+* [Baker] La mappa di Occlusione ambientale è capovolta
 * [ID Map] Arresto anomalo durante il prelievo al di fuori dell’intervallo 0-1
-* [Iray] Arresto anomalo quando si cambia set di texture e si torna alla modalità Disegno
+* [Iray] Arresto anomalo quando si cambia set di texture e si torna alla modalità Pittura
 * [Finestra vista] Sincronizza le aree di rilascio tra le finestre della vista per il trascinamento
-* [Motore] Artefatto moire quando si sovrappongono i livelli di riempimento o si dipinge un piccolo pennello
+* [Engine] Artefatto moire quando si Affiancamento i livelli di riempimento o si disegna un piccolo pennello
 * [Licenza] Verifica versione software non valida del servizio di licenza
 * [Licenza] Rielabora il modo in cui gestiamo l&#39;autenticazione
 * [API] Chiama l&#39;evento API di scripting `onNewProjectCreated` anche durante la creazione con un modello
-* [Shader] Lo shader compilato non viene caricato dalla cache quando il file shader non viene compilato
-* [Shelf] L’esportazione di file HDR dallo shelf genera un file con valori bloccati
+* [Shader] Lo shader compilato non viene caricato dalla cache se non viene compilato dal file di shader
+* [Shelf] L’esportazione del file HDR dallo shelf genera un file con valori bloccati
 * [Esporta] L’esportazione EXR blocca i valori di colore RGB tra 0 e 1
-* [Content] Il disturbo procedurale &quot;3D Perlin Noise Fractal&quot; è pixelato
+* [Content] Il disturbo Procedurale &quot;Rumore di Perlin 3D frattale&quot; è pixelato
 
 **Problemi noti:**
 

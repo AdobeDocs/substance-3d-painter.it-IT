@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Esamina i problemi noti per Substance 3D Painter per ricevere informazioni sulle limitazioni e sulle soluzioni alternative attuali nell'ultima versione.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Problemi noti
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -77,7 +71,7 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 * `[UV Tiles]` Nessun messaggio di errore sugli spazi UV sovrapposti con una trama specifica
 * `[GLTF]` `[Crash]` La creazione di un progetto con file gltf compresso provoca un arresto anomalo
 * `[UV Tile sequence]` mappe posizione non importate correttamente
-* La maschera di combinazione per `[UVTiles]` Height non viene aggiornata con la maschera di porzione UV
+* La maschera di combinazione per `[UVTiles]` Height non viene aggiornata con la maschera Porzione UV
 * `[Import]` Impossibile importare il file obj con valori &quot;nan&quot;
 * `[Export]` esportazioni GLTF con dimensioni errate
 * Il nome `[Texture Set]` può essere vuoto
@@ -97,16 +91,16 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 * `[Sonoma]` icone non visualizzate nei menu
 * `[Polygon Fill]` La modifica dello spazio colore del colore di base non aggiorna il selettore colore
 * `[UV Padding]` artefatti durante l&#39;aumento di texture da 4k a 8k all&#39;esportazione
-* `[Performances]` utilizzo VRAM di Painter hogs
+* `[Performances]` Painter nasconde l&#39;utilizzo dell&#39;VRAM
 * `[FBX]` problemi di scala
 * È possibile selezionare `[Texture set list]` Porzioni UV contemporaneamente a un set di texture
 * `[Viewport]` Ritardo del cursore nella parte inferiore della finestra della vista della modalità di esegue i baking
-* Le risorse non quadrate vengono dilatate quando vengono utilizzate negli slot del canale del pennello
+* Le risorse non quadrate vengono allungamento quando vengono utilizzate negli slot del canale del pennello
 * Impossibile decodificare la sostanza
 * Gli UV non perfettamente sovrapposti possono creare artefatti
 * Normali mesh non valide con alcuni fbx
 * La visualizzazione non viene aggiornata quando si cambia il canale interessato da un livello
-* Il progetto con un set di texture viene riaperto in modalità Solo colore base
+* I progetti con un set di texture vengono riaperti in modalità Solo Colore di base
 * L&#39;interfaccia utente del pulsante del canale nelle proprietà Materiale/pittura può essere interrotta
 * L’ordine dei canali nelle Proprietà può essere interrotto
 * I tratti creati in L16F e RBG16F possono mostrare artefatti
@@ -122,11 +116,11 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 
 ## Stabilità
 
-* `[Crash]` Se si fa clic sull&#39;elenco Set di texture dopo una creazione del progetto non riuscita, si verifica un arresto anomalo
-* `[Crash]` Errore critico: arresto anomalo quando lo stesso progetto viene aperto due volte
+* `[Crash]` Se si fa clic sull&#39;elenco Set di texture dopo la creazione del progetto non riuscita, viene generato un arresto anomalo
+* `[Crash]` arresto anomalo di errore critico quando lo stesso progetto viene aperto due volte
 * `[Crash]` Selezionare &quot;Esporta trama&quot; quando il caricamento della trama non è riuscito
 * `[Crash]` Fare clic su &quot;Inizia a disegnare&quot; dopo aver provato ad aprire un vecchio progetto
-* `[Crash]` La creazione di testi molto lunghi nella barra multifunzione può arrestarsi in modo anomalo
-* `[Crash]` Ripristino della modalità di disegno dopo la perdita del dispositivo durante la cottura al forno
+* `[Crash]` La creazione di testi molto lunghi nella barra multifunzione può arresto anomalo
+* `[Crash]` Ripristino della modalità di disegno dopo la perdita del dispositivo durante la esegue i baking
 * `[Crash]` Esci da Painter dopo aver annullato l’esportazione delle mappe
 * `[Crash]` Esportazione della trama con alcuni simboli speciali nel nome della fotocamera

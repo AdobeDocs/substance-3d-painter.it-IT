@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-11-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 11.0 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 11.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2707'
 ht-degree: 0%
-
 ---
-
 
 # Versione 11.0
 
@@ -170,7 +162,7 @@ La nuova versione introduce alcuni nuovi filtri e alcuni pattern procedurali.
 
   ![](../assets/filter_quantize.jpg)
 * <b>Kuwahara Anisotropo</b>\
-  Questo filtro applica il [filtro Kuwahara](https://en.wikipedia.org/wiki/Kuwahara_filter "https://en.wikipedia.org/wiki/Kuwahara_filter") che può essere utilizzato anche per ridurre il disturbo e stilizzare le texture.
+  Questo filtro applica il [filtro Kuwahara](https://en.wikipedia.org/wiki/Kuwahara_filter "https://en.wikipedia.org/wiki/Kuwahara_filter") che può essere utilizzato anche per ridurre il disturbo e stilizzare la texture.
 
   ![](../assets/filter_kuwahara.jpg)
 * <b>Distanza direzionale</b>\
@@ -191,9 +183,9 @@ La nuova versione introduce alcuni nuovi filtri e alcuni pattern procedurali.
 * <b>Triangle Grid </b>\
   Un disturbo creato dalle connessioni dei triangoli, con controlli per la casualità e lo smoothness.
 * <b>Affianca casuale </b>\
-  Un generatore di texture su misura per la creazione di pattern di riquadri.
+  Un generatore di texture su misura per costruire pattern di riquadri.
 * <b>Rumori frattali di Voronoi e Voronoi </b>\
-  Già disponibili come rumori 3D, queste nuove versioni 2D possono essere utilizzate per lavorare e creare porzioni in uno spazio 2D o UV.
+  Già disponibili come rumori 3D, queste nuove versioni 2D possono essere utilizzate per lavorare e Affiancamento in uno spazio 2D o UV.
 * <b>Sono stati aggiornati i rumori alla versione più recente di Designer </b>\
   La maggior parte dei rumori disponibili in Painter è stata aggiornata con la versione più recente di Substance 3D Designer. I parametri Disturbo non sono più nascosti in un gruppo per velocizzarne la modifica.
 
@@ -205,8 +197,8 @@ La nuova versione introduce alcuni nuovi filtri e alcuni pattern procedurali.
 
 Quando si esegue i baking una trama ad alto poli su una trama a basso poli, è ora possibile selezionare una nuova opzione <b>Automatica </b> quando si specifica la modalità gabbia. Questo nuovo metodo tenta di calcolare una trama a gabbia automatica che si adatta al meglio alle trame ad alto poli per evitare artefatti.
 
-* <b>Nuova impostazione nei parametri di cottura comuni </b>\
-  All’interno del parametro comune di cottura, il parametro della gabbia è stato sostituito da una selezione tra tre opzioni:\
+* <b>Nuova impostazione nei parametri di esegue i baking comuni </b>\
+  All’interno del parametro di esegue i baking comune, il parametro gabbia è stato sostituito da una selezione tra tre opzioni:\
   <b>In base alla distanza</b>: le impostazioni predefinite per la distanza frontale/posteriore.\
   <b>Automatico (sperimentale)</b>: la nuova gabbia automatica.\
   <b>File personalizzato</b>: il modo precedente di caricare un file di trama personalizzato come gabbia.
@@ -224,7 +216,7 @@ Quando si esegue i baking una trama ad alto poli su una trama a basso poli, è o
 In questa versione sono state apportate modifiche specifiche relative alla piattaforma Mac:
 
 * <b>Metal Graphics API è ora utilizzato al posto di OpenGL in Mac </b>\
-  A partire da questa versione, Painter ora utilizza l&#39;API grafica </b>Metal su Mac, sia per il rendering della finestra della vista che per l&#39;elaborazione delle texture. <b>Questo switch migliora notevolmente le prestazioni e la stabilità dell&#39;applicazione. Inoltre, renderà più facile l’integrazione di nuove funzionalità in futuro, poiché OpenGL è stato dichiarato obsoleto su MacOS.
+  A partire da questa versione, Painter ora utilizza l&#39;API grafica </b>Metal su Mac, sia per il rendering della finestra della vista che per il calcolo della texture. <b>Questo switch migliora notevolmente le prestazioni e la stabilità dell&#39;applicazione. Inoltre, renderà più facile l’integrazione di nuove funzionalità in futuro, poiché OpenGL è stato dichiarato obsoleto su MacOS.
 * <b>Rimozione del supporto per l&#39;architettura Intel nel sistema operativo Mac </b>\
   Con questa versione, la compatibilità con le CPU Intel su MacOS è stata rimossa. Architettura ARM (M1, M2, ecc.) è ora l’unico supportato.
 
@@ -271,9 +263,9 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Aggiornamento automatico] Disattiva l&#39;aggiornamento automatico per impostazione predefinita
 * [Aggiornamento automatico] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono (.sbsar, .glsl, .ai, .svg)
 * [Aggiornamento automatico] Aggiungi variabile di ambiente per disabilitare la funzione di aggiornamento automatico
-* [Aggiornamento automatico]&#x200B;[SBSAR] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono
+* [Aggiornamento automatico][SBSAR] Rendi facoltativo l&#39;aggiornamento se i parametri della risorsa non corrispondono
 * Tracciato pieno
-* [Tracciato]&#x200B;[Riempimento] Aggiungi nuovo strumento per creare tracciati pieni
+* [Tracciato][Riempimento] Aggiungi nuovo strumento per creare tracciati pieni
 * Miglioramenti al tracciato
 * [Path] Crea un tracciato che si aggancia ai poligoni
 * [Path] Consente di cambiare i tipi di percorso
@@ -283,7 +275,7 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Tracciato] Chiudi la forma con un solo clic
 * [Path] Visualizza informazioni sul percorso
 * [Tracciato] Consente di ridimensionare e ruotare i vertici del tracciato
-* [Path]&#x200B;[UX] Semplificare l&#39;accesso ai gizmo di trasformazione
+* [Path][UX] Semplificare l&#39;accesso ai gizmo di trasformazione
 * [Path] Aggiungi anteprima percorso
 * [Tracciato] Disattiva l&#39;anteprima del tracciato con Maiusc + P
 * [Path] Migliorare l&#39;edizione tangente dalla vista laterale
@@ -291,40 +283,40 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 * [Path] I vertici devono mantenere lo stato di selezione quando si attiva e disattiva l&#39;interfaccia utente
 * [Path] Consente di eliminare il percorso utilizzando Backspace
 * [Path] Mantieni l&#39;elenco dei percorsi aperto se l&#39;utente lo espande
-* [Path]&#x200B;[Pila di livelli] Rinomina correttamente i duplicati quando si copia o incolla
+* [Path][Pila livelli] Rinominare correttamente i duplicati quando si copia/incolla
 * Miglioramenti all&#39;interfaccia utente di [Path] e alle descrizioni comandi
 * Prestazioni
 * [Prestazioni] Migliorare le prestazioni della finestra di visualizzazione quando si utilizza un livello di tassellatura elevato
 * [Prestazioni] Abilita solo il primo canale su nuovi livelli di riempimento/effetti
 * [Prestazioni] Calcolo del tratto del pennello in parallelo
 * Baking
-* [Baking] Aggiungi nuova opzione di generazione gabbie completamente automatica per la cottura al forno con trame ad alto poli (sperimentale)
-* Contenuto
+* [Eseguita i baking] Aggiungi nuova opzione di generazione completamente automatica delle gabbie per eseguire i baking con maglie ad alto polio (sperimentale)
+* Contenuti
 * [Content] Aggiungi 6 nuovi filtri: stilizzazione, quantizzazione, kuwahara anisotropo, smusso uniforme, distanza direzionale, conversione in scala di grigi
 * [Content] Aggiornate Noises and Grunges alla versione più recente di Designer (con il nuovo Voronoi 2D)
-* [Content] Aggiungi 3 nuovi generatori di texture (Tile Random, Triangle Grid, Generatore di Scratches)
+* [Contenuto] Aggiungi 3 nuovi generatori di texture (Tile Random, Triangle Grid, Generatore di Scratches)
 * [Content] Rinomina il modello di motore originale ed esporta i predefiniti
 * Python
-* [Shelf]&#x200B;[Python] Salva materiale intelligente o maschera avanzata su disco da Python
-* [Python] Aggiungi gabbia automatica di cottura all’API Python
-* [Python] Consente di modificare i nomi e le descrizioni dei set di texture/porzioni UV
+* [Shelf][Python] Salvataggio del materiale avanzato o della maschera avanzata su disco da Python
+* [Python] Aggiungi gabbia automatica eseguente i baking all’API Python
+* [Python] Consente di modificare i nomi e le descrizioni di set di texture/Porzioni UV
 * [Python] Condivisione delle impostazioni di risoluzione su sorgenti vettoriali e di font
-* [Auto-update]&#x200B;[Python] Esporre le funzionalità di aggiornamento automatico del progetto in Python
+* [Auto-update][Python] Esporre le funzionalità di aggiornamento automatico del progetto in Python
 * Varie
 * [Esporta] Semplificare l’accesso alle opzioni di invio con un nuovo pannello
 * [Nvidia] Aggiungi un avviso sui driver Nvidia più recenti (572.16)
 * L’aggancio dell’angolo deve essere influenzato dalla selezione dello spazio Oggetto/Mondo&#x200B;
-* [Elenco set di texture] Consente di aggiungere un nome personalizzato ai riquadri UV e di utilizzarli al momento dell’esportazione
+* [Elenco set di texture] Consente di aggiungere un nome personalizzato alle Porzioni UV e di utilizzarle all’esportazione
 * Mac
 * [Mac] Usare Metal invece di OpenGL per il rendering grafico
 * [Mac] Elimina il supporto Mac Intel
 
 <b>Risolto</b>:
 
-* [Nvidia]&#x200B;[Baking] I risultati del fornaio a occlusione ambientale hanno artefatti
-* [Arresto anomalo] Se si fa clic con il tasto Alt per attivare o disattivare la visibilità del set di texture, si verifica un arresto anomalo
+* [Nvidia][Eseguita i baking] I risultati del baker di Occlusione ambientale hanno artefatti
+* [Arresto anomalo] Alt + clic per attivare/disattivare la visibilità dei lead arresti anomali del set di texture disabilitato
 * [Eseguente i baking] La gabbia è presa in considerazione con poly basso come param poly alto
-* [Baking] Il colore del materiale per il fornaio di mappe ID non funziona con il formato di file USD
+* [Eseguente i baking] Il colore del materiale per il baker di mappe ID non funziona con il formato di file USD
 * [Prestazioni] Rendering lento nella finestra della vista con trame e molti oggetti sovrapposti
 * [Qt] Il selettore colore personalizzato incorporato non dispone delle impostazioni di Gestione colore
 * [Finestra vista] Sfarfallio dei Manipolatori 3D quando è attivato l’antialiasing
@@ -337,9 +329,9 @@ Riepilogo: <b>Versione principale, nuova funzione Aggiornamento automatico, stru
 
 <b>Problemi noti</b>:
 
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
-* [Engine] Colorare con lo strumento Clona in canali normali si sposta i colori in modo errato
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Arresto anomalo][Python] Esportazione USD attivata da TextureStateEvent
+* [Engine] Colorare con lo strumento Clona /Clone in colori di scorrimento canale normale non correttamente
 * [Python] Il widget Ghost viene eliminato se lo script è ancora in funzione
 * [RedHat] Problemi con il selettore colore

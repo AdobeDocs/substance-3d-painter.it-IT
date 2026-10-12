@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-11-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 11.1 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter > Release notes > Version 11.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 11.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2273'
 ht-degree: 0%
-
 ---
-
 
 # Versione 11.1
 
@@ -147,11 +139,11 @@ Questa versione include 75 nuovi strumenti predefiniti che sfruttano le nuove fu
 I livelli di riempimento e gli effetti ora supportano la simmetria con le rispettive modalità di proiezione 3D. Può essere attivata tramite il menu simmetria nella barra degli strumenti contestuale o tramite la sezione simmetria appena aggiunta nella finestra <b>Proprietà</b>.
 
 * <b>Simmetria sui livelli di riempimento </b>\
-  Quando si utilizzano le modalità di proiezione basate su 3D negli effetti e nei livelli di riempimento, è ora possibile attivare la simmetria. Sono disponibili simmetria sia speculare che radiale.
+  Quando si utilizzano le modalità di proiezione basate su 3D negli effetti di riempimento e nei livelli, è ora possibile attivare simmetria. Sono disponibili sia la simmetria speculare che quella radiale.
 
   ![](../assets/symmetry_fill.jpg)
 * <b>Attivare la simmetria tramite la barra degli strumenti contestuale o la finestra Proprietà</b>\
-  Simmetria può essere attivata tramite il menu della <b>barra degli strumenti contestuale</b>, in modo simile agli strumenti di disegno, oppure tramite la finestra <b>Proprietà</b> con la nuova sezione dedicata.
+  La funzione simmetria può essere attivata tramite il menu della <b>barra degli strumenti contestuale</b>, in modo simile agli strumenti pittura, oppure tramite la finestra <b>Proprietà</b> con la nuova sezione dedicata.
 
   ![](../assets/symmetry_contextual.png)
 
@@ -160,7 +152,7 @@ I livelli di riempimento e gli effetti ora supportano la simmetria con le rispet
   Anche il livello di riempimento e la simmetria degli effetti dispongono di nuove opzioni rispetto a quelle che consentono di capovolgere le immagini di input o gli assi X/Y. In questo modo, ad esempio, è possibile creare un testo speculare, ma renderlo comunque leggibile su entrambi i lati.
 
   ![](../assets/mirror_symmetry_flip.gif)
-* <b>Interfaccia delle impostazioni di simmetria migliorata</b>\
+* <b>Interfaccia impostazioni simmetria migliorata</b>\
   L&#39;interfaccia delle impostazioni della simmetria è stata rielaborata per semplificarne la lettura e velocizzarne l&#39;uso. Ad esempio, i cursori degli assi hanno una propria linea, per maggiore precisione. Il display radiale è stato anche ridimensionato per occupare meno spazio.
 
   ![](../assets/symmetry_radial.png)
@@ -190,8 +182,8 @@ In continuazione del lavoro iniziato nella versione precedente, che è passata d
 
 * <b>L&#39;API grafica Vulkan è ora utilizzata al posto di OpenGL in Windows e Linux</b>\
   Painter ora utilizza l’API grafica Vulkan per il rendering nella finestra della vista e per l’elaborazione della texture. Questo switch dovrebbe migliorare le prestazioni generali dell&#39;applicazione. Inoltre, renderà più facile l&#39;integrazione di nuove funzionalità in futuro.
-* <b>Raytracing GPU per la cottura al forno tramite Vulkan</b>\
-  DRX (DirectX Tracing) e Optix sono stati sostituiti in favore del raytracing tramite l&#39;API grafica Vulkan nei nostri forni. Questa modifica significa che il raytracing basato su GPU è ora disponibile sulle GPU AMD e sul sistema operativo Linux.\
+* <b>Raytracing GPU per eseguire i baking tramite Vulkan</b>\
+  DirectX raytracing (DRX) e Optix sono stati sostituiti in favore di raytracing tramite l’API grafica Vulkan nei nostri baker. Questa modifica significa che il raytracing basato su GPU è ora disponibile sulle GPU AMD e sul sistema operativo Linux.\
   Il passaggio a Vulkan migliora anche i tempi di rendering eseguiti i baking, specialmente ad alte risoluzioni.
 
 ### Varie
@@ -241,7 +233,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 * [Barra multifunzione] Aggiungi metodi di fusione per l&#39;alfa e alcuni canali quando si sovrappongono automaticamente
 * Riempi simmetria
 * [Riempimento] Aggiungi il supporto per simmetria su livelli di riempimento ed effetti
-* [Fill]&#x200B;[UI] Mostra le impostazioni della simmetria nella finestra delle proprietà per il livello di riempimento e gli effetti
+* [Fill][UI] Mostra le impostazioni della simmetria nella finestra delle proprietà per il livello di riempimento e gli effetti
 * [Fill] Rielaborare l&#39;interfaccia utente delle impostazioni della simmetria sia nel menu della finestra della vista che nella finestra delle proprietà
 * [Riempimento] Riorientare correttamente la texture normale durante la proiezione in modalità di alterazione
 * Dimensioni fisiche spostamento
@@ -256,7 +248,7 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 * [Substance] Esporre la sostituzione della risoluzione per le risorse Substance in Strumenti e riempimenti
 * [Esporta] Aggiorna il predefinito di esportazione delle mappe trama per esportare le texture in scala di grigio
 * Python
-* [Eseguita i baking]&#x200B;[Python] Indica nel registro delle modifiche interrotte dopo l&#39;aggiornamento dei baker
+* [Eseguita i baking][Python] Indica nel registro delle modifiche interrotte dopo l&#39;aggiornamento dei baker
 * [Python] Esporre le impostazioni della simmetria di riempimento in Python
 * Contenuto e nuovo contenuto
 * [Content] Aggiungi 75 nuovi strumenti predefiniti per lo strumento Barra multifunzione
@@ -277,16 +269,16 @@ Riepilogo: <b>Questo aggiornamento è una versione principale e contiene il nuov
 
 <b>Problemi noti</b>:
 
-* Cronologia dell&#39;istanza dello shader non rilevata correttamente
-* [Barra multifunzione] Problema di prestazioni con i riquadri UV
+* Cronologia Istanze shader non monitorata correttamente
+* [Barra multifunzione] Problema di prestazioni con la Porzione UV
 * [Barra multifunzione] In alcuni casi, il percorso può sovrapporsi in modo imprevisto dopo un angolo
 * [Barra multifunzione] Le tangenti creano un ciclo indesiderato quando il punto viene spostato vicino alle estremità del tracciato
-* [Arresto anomalo]&#x200B;[Barra multifunzione] La creazione di testi molto lunghi nella barra multifunzione può causare l&#39;arresto anomalo
+* [Arresto anomalo][Barra multifunzione] La creazione di testi molto lunghi nella barra multifunzione può dare l&#39;arresto anomalo
 * [Strumento] L’anteprima del materiale non funziona quando si utilizza la proiezione in una maschera
-* [Baking] L’impostazione AO &quot;Occlusione autonoma&quot; viene ignorata con diversi set di texture e &quot;corrispondenza per nome&quot; abilitato
-* [Baking] AO con normale presenta artefatti ai bordi a causa della mancanza di riempimento
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
-* [Engine] Colorare con lo strumento Clona in canali normali si sposta i colori in modo errato
+* [Eseguo i baking] L’impostazione AO &quot;Occlusione autonoma&quot; viene ignorata con diversi set di texture e l’opzione &quot;corrispondenza per nome&quot; è abilitata
+* [Eseguo i baking] AO con normale presenta artefatti ai bordi a causa di spaziatura interna mancante
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Arresto anomalo][Python] Esportazione USD attivata da TextureStateEvent
+* [Engine] Colorare con lo strumento Clona /Clone in colori di scorrimento canale normale non correttamente
 * [Python] Il widget Ghost viene eliminato se lo script è ancora in funzione

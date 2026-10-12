@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 10.1 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # Versione 10.1
 
@@ -156,7 +148,7 @@ Riepilogo: <b>Versione principale, nuovo contenuto: maschera area di riempimento
 * [VFX Platform 2024] Aggiornamento a Python 3.11
 * [Piattaforma VFX 2024] Aggiornamento all&#39;OpenEXR 3.2
 * [VFX Platform 2024] [USD] Aggiornamento OpenSubdiv 3.6.0
-* [VFX Platform 2024]&#x200B;[Color Management] Aggiornamento a OCIO 2.3.2
+* [VFX Platform 2024][Color Management] Aggiornamento a OCIO 2.3.2
 * [Linux] Migrazione a Linux RedHat
 * [Linux] Aggiorna la versione min del driver Nvidia a 535.171.04
 * [Import] Aggiungi un&#39;opzione per capovolgere la mappa normale durante l&#39;importazione di una trama GLTF
@@ -164,28 +156,28 @@ Riepilogo: <b>Versione principale, nuovo contenuto: maschera area di riempimento
 * [Substance Engine] Aggiungi la funzione di striscia delle chiamate per rimuovere i simboli dall&#39;eseguibile
 * [Schermata iniziale] Aggiornamento al nuovo formato della schermata iniziale
 * Aggiornamento della Substance Engine alla versione 9.1.3
-* [Python] Mostra collegamento agli esempi nel menu della documentazione dello stack di livelli
+* [Python] Mostra collegamento agli esempi nel menu Pila livelli documentazione
 * [JavaScript] Spostare i plug-in Javascript nella sottocartella javascript/plugins
 
 <b>Risolto</b>:
 
-* [Illustrator] Arresto anomalo durante l&#39;esportazione di un riquadro UV con grafica .ai in casi specifici
-* [Tratti dinamici]&#x200B;[Tracciato] Casuale per tratto non funziona su un tracciato
-* [UI]&#x200B;[Proprietà] Il blocco è attivato quando la suddivisione in porzioni è non uniforme
+* [Illustrator] Arresto anomalo di esportazione di una Porzione UV con grafica .ai in casi specifici
+* [Tratti dinamici][Tracciato] Casuale per tratto non funziona su un tracciato
+* [UI][Proprietà] Il blocco è attivato quando l&#39;Affiancamento non è uniforme
 * &#x200B;Il file TXT di debug viene creato quando si fa doppio clic su un progetto Painter
-* [USD]&#x200B;[Esporta] Alcune texture potrebbero essere mancanti
+* [USD][Esportazione] Alcune texture potrebbero essere mancanti
 * [ASM] La dispersione del canale del colore ignora l&#39;effetto metallizzato
 * [Contenuto] Il filtro Sfocatura non funziona nello spazio colore &quot;di lavoro&quot;
 * [Contenuto] Il filtro Regolazione Height modifica anche il canale alfa del livello
 
 <b>Problemi noti</b>:
 
-* [Gestione colore] Le conversioni dello spazio colore HDR con ACE su Linux producono colori bloccati
-* [Win]&#x200B;[Arresto anomalo] [ACE] Non utilizza lo spazio colore ICE sRGB per la trasformazione dello schermo
-* [Regressione]&#x200B;[UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
-* [Crash]&#x200B;[Python] Esportazione USD attivata da TextureStateEvent
-* [MacOS Intel] Arresto anomalo durante l’importazione di alcuni predefiniti
-* [Arresto anomalo] Riposiziona risorsa e salva progetto
-* [Engine] Colorare con lo strumento Clona in canali normali si sposta i colori in modo errato
+* [Gestione colore] Le conversioni dello spazio cromatico HDR con ACE su Linux producono colori bloccati
+* [Win][Arresto anomalo] [ACE] Non si utilizza lo spazio cromatico sRGB ICE per il Trasforma di visualizzazione
+* [Regressione][UI] Il menu di scelta rapida è troppo piccolo sugli schermi HD
+* [Arresto anomalo][Python] Esportazione USD attivata da TextureStateEvent
+* [MacOS Intel] Arresto anomalo durante l&#39;importazione di alcuni predefiniti
+* [Arresto anomalo] Riposizionare la risorsa e salvare il progetto
+* [Engine] Colorare con lo strumento Clona /Clone in colori di scorrimento canale normale non correttamente
 * [Python] Il widget Ghost viene eliminato se lo script è ancora in funzione
 * [RedHat] Problemi con il selettore colore

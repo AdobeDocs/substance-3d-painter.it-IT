@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2018.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2018.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2018.3
 
@@ -30,19 +22,19 @@ Data di pubblicazione: *20 novembre 2018*
 
 ![](../../assets/export-2d-view.jpg)
 
-È ora possibile **esportare la vista 2D** eseguendo il rendering di **come texture**. Questa funzione è stata richiesta da molti utenti e finalmente è stata resa disponibile! Il processo di esportazione assumerà lo stato corrente di **Vista 2D** per eseguire il rendering di una texture con le normali impostazioni di esportazione (spaziatura interna, formato file, profondità di bit). Ciò significa che se la modalità di visualizzazione è impostata su **Solo** invece della modalità **Materiale**, la visualizzazione 2D verrà esportata così com&#39;è.
+È ora possibile **esportare il rendering** di Vista 2D **come texture**. Questa funzione è stata richiesta da molti utenti e finalmente è stata resa disponibile! Il processo di esportazione assumerà lo stato corrente di **Vista 2D** per eseguire il rendering di una texture con le normali impostazioni di esportazione (spaziatura interna, formato file, profondità di bit). Ciò significa che se la modalità di visualizzazione è impostata su **Solo** invece della modalità **Materiale**, il Vista 2D verrà esportato così com&#39;è.
 
 Passa alla **finestra Esportazione** e scegli la nuova configurazione denominata &quot;**vista 2D**&quot;:\
 ![](../../assets/2d-view-export-config.png)
 
-Nella scheda **Configurazione** della finestra Esporta è disponibile anche una nuova **Mappa convertita** denominata &quot;**Visualizzazione 2D**&quot;, per creare un **predefinito di esportazione** personalizzato.
+Nella scheda **Configurazione** della finestra Esporta è disponibile anche una nuova **Mappa convertita** denominata &quot;**vista 2D**&quot;, per creare un **predefinito di esportazione** personalizzato.
 
 ### Filtro illuminazione Eseguito i baking migliorato
 
 ![](../../assets/baked-lighting.jpg)
 
 Il filtro **Baked lighting environment** è stato notevolmente migliorato e ora supporta correttamente **mappe di ambiente HDR**.\
-Ora è possibile replicare la luce della finestra della vista (come nella vista 2D) e infiltrarla nel canale del colore di base. Il nuovo filtro fornisce ulteriori controlli come **la rotazione** dell&#39;**ambiente** della mappa **verticale** e la modifica della **esposizione**.
+È ora possibile replicare la luce della finestra della vista (come si vede nel Vista 2D) e eseguire i baking la finestra nel canale del Colore di base. Il nuovo filtro fornisce ulteriori controlli come **la rotazione** dell&#39;**ambiente** della mappa **verticale** e la modifica della **esposizione**.
 
 ![](../../assets/shelf-baked-lighting.png)
 
@@ -60,9 +52,9 @@ Il progetto di esempio predefinito &quot;**Sfera di anteprima**&quot; è stato a
 
 >[!NOTE]
 >
-> Se compaiono **artefatti di riga** dall’aspetto strano quando si utilizzano le sfumature all’interno del canale **Angolo di Anisotropia**, provate a cambiare la modalità di filtro in &quot;**Più vicino**&quot; in caso di un livello di riempimento, in quanto questo potrebbe migliorare il campionamento per lo shader ed eliminare il problema.
+> Se compaiono **artefatti di linea** dall&#39;aspetto strano quando utilizzate le sfumature all&#39;interno del canale **Angolo di anisotropia**, provate a cambiare la modalità di filtro in &quot;**Più vicino**&quot; in caso di un livello di riempimento, in quanto questo potrebbe migliorare il campionamento per lo shader ed eliminare il problema.
 
-### Aggiornato Clear Coat Shader
+### Aggiornamento di Clear Coat Shader
 
 ![](../../assets/coated.jpg)
 
@@ -266,15 +258,15 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 
 * La trama a volte scompare dalla finestra della vista 3D (premete F per reimpostare la videocamera)
 * [glTF] Aggiorna Substance Painter caricatore Sketchfab con i nuovi tipi di licenza Sketchfab
-* [Import]&#x200B;[glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
-* [Import]&#x200B;[glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
-* [Esporta]&#x200B;[USD] L’opacità non funziona in Arkit
-* [Esportazione]&#x200B;[USD] arresti anomali di esportazione USDz in alcuni casi
-* [Esportazione]&#x200B;[USD] L’esportazione nell’USD senza salvataggio comporta l’arresto anomalo
-* [Esportazione]&#x200B;[USD] Modalità di Affiancamento errata per texture, modalità di suddivisione per trame e tipi di output per ombreggiatori
-* [Esporta]&#x200B;[USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria
+* [Import][glTF] Gestione errata della modulazione della texture di input come definita nei file glTF
+* [Import][glTF] In alcuni casi il piano terreno viene visualizzato in modo errato con l&#39;importazione glTF
+* [Esporta][USD] L’opacità non funziona in Arkit
+* [Esportazione][USD] arresti anomali di esportazione USDz in alcuni casi
+* [Esportazione][USD] L’esportazione nell’USD senza salvataggio comporta l’arresto anomalo
+* [Esportazione][USD] Modalità di Affiancamento errata per texture, modalità di suddivisione per trame e tipi di output per ombreggiatori
+* [Esporta][USD] Esportazioni sparse solo di alcuni set di texture con tutta la geometria
 * [Istanza] Arresto anomalo di eliminazione di un livello di istanza interrotto
-* [Regressione]&#x200B;[Esporta] Alcune mappe non vengono esportate nella profondità di bit scelta
+* [Regressione][Esporta] Alcune mappe non vengono esportate nella profondità di bit scelta
 * [Linux] Problema con la libreria libtbb.so.2
 
 **Problemi noti:**
@@ -290,7 +282,7 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 
 * Riepilogo: aggiornamento rapido con nuove funzioni
 * [Esporta] Consente l’esportazione in USDZ
-* [Finestra vista] Consenti di controllare la qualità della texture in Impostazioni schermo
+* [Finestra vista] Consenti di controllare la qualità della texture nelle impostazioni dello schermo
 * [Finestra vista] È stata aggiunta l&#39;impostazione di polarizzazione mip in Impostazioni schermo
 * [Finestra vista] È stato aggiunto il filtro anisotropo in Impostazioni schermo
 * [plug-in] Aggiorna i plug-in ufficiali per utilizzare lo stile di Substance Painter 2018
@@ -300,9 +292,9 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 
 * Arresto anomalo collegato alla decompressione
 * Aggiungi TAA sul materiale da solo
-* Disturbo con ombreggiatura, prova di sensibilità TAA e alfa con dithering
+* Disturbo con ombra, shader di prova TAA e alfa con dithering
 * Rimuovere il dithering specular per tutti gli shader PBR classici
-* In alcuni casi, arresto anomalo nelle impostazioni dello shader
+* Arresto anomalo nelle impostazioni shader in alcuni casi
 * L’attivazione della dispersione non è sincronizzata tra i rendering OpenGL e Iray
 * Gli strumenti Sfumino e Clona non funzionano più su trame specifiche
 * Alcuni set di texture non possono essere visualizzati nel rendering dei raggi
@@ -324,14 +316,14 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 **Aggiunto:**
 
 * Riepilogo: hotfix
-* [Simmetria]&#x200B;[Finestra vista] La simmetria nella vista 2D è tornata ed ora presenta un&#39;anteprima del pennello clone fissa
+* [Simmetria][Riquadro di visualizzazione] Il disegno della Simmetria nel Vista 2D è tornato e ora presenta un&#39;anteprima del pennello clone fissa
 
 **Corretto:**
 
-* [Esporta] In alcuni casi, l’esportazione in vista 2D genera una texture nera
+* [Esporta] In alcuni casi, l’esportazione di Vista 2D genera una texture nera
 * [Iray] Le informazioni normali diventano errate in Iray dopo aver creato un&#39;istanza di un livello di materiale
-* Gli insiemi di texture non quadrate possono causare in alcuni casi l’arresto anomalo
-* [Annulla] Diversi Ctrl+Z possono causare in alcuni casi l&#39;arresto anomalo
+* Gli insiemi di texture non quadrate possono portare in alcuni casi all&#39;arresto anomalo
+* [Annulla] Diversi Ctrl+Z in alcuni casi possono provocare l&#39;arresto anomalo casuale
 * [QML] In alcuni casi AlgScrollView può creare un avviso nel registro (cicli di associazione)
 
 **Problemi noti:**
@@ -346,26 +338,26 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 
 <b><b>Aggiunto:</b></b>
 
-* Riepilogo: aggiornamenti della finestra della vista, corretta esportazione della vista 2D, nuovi helper dell&#39;interfaccia utente, uno strumento di simmetria migliorato, nuovi contenuti e un enorme miglioramento delle prestazioni
-* [Anti-alias]&#x200B;[Finestra vista] Nuova anti-alias temporale di filtro per la finestra della vista 3D (tramite Impostazioni schermo)
-* [Esporta] Esporta il contenuto della finestra della vista 2D come texture singola
-* [Export]&#x200B;[Dithering] Esporta dithering all’esportazione
+* Riepilogo: aggiornamenti del viewport, esportazione corretta dei Vista 2D, nuovi helper dell&#39;interfaccia utente, uno strumento di simmetria migliorato, nuovi contenuti e un enorme miglioramento delle prestazioni
+* [Anti-alias][Finestra vista] Nuova anti-alias temporale di filtro per la finestra della vista 3D (tramite Impostazioni schermo)
+* [Esporta] Esporta il contenuto della finestra della vista 2D come una singola texture
+* [Export][Dithering] Esporta dithering all’esportazione
 * [Pila livelli] Colori su livelli e cartelle
 * [Pila livelli] Attivazione e disattivazione rapida di più livelli ed effetti
 * [Pila livelli] Navigazione più semplice per i metodi di fusione con i tasti su e giù e lo scorrimento del mouse
-* [Proj]&#x200B;[UI] manipolatore di rotazione aggiuntivo su tutti e tre gli assi per triplanare
-* [Proj]&#x200B;[Scelte rapide] - e + per modificare le dimensioni del manipolatore della Proiezione UV
+* [Proj][UI] manipolatore di rotazione aggiuntivo su tutti e tre gli assi per triplanare
+* [Proj][Scelte rapide] - e + per modificare le dimensioni del manipolatore della Proiezione UV
 * [Shader] Controlla i parametri dei livelli rivestiti con canali nello shader rivestito con PBR
 * [Substance] Esposizione di nuovi input di texture basati su mesh per filtri e generatori
-* [Simmetrie]&#x200B;[Viewport]&#x200B;[UI] Controlla lo scostamento della simmetria con i manipolatori
-* [Simmetrie]&#x200B;[Barra degli strumenti contestuale]&#x200B;[UI] Nuovo pannello simmetria con opzioni
+* [Simmetrie][Viewport][UI] Controlla lo scostamento della simmetria con i manipolatori
+* [Simmetrie][Barra degli strumenti contestuale][UI] Nuovo pannello simmetria con opzioni
 * [Simmetria] Nuova modalità di intersezione linee simmetria
 * [Simmetria] Nuovo cursore clone simmetria
-* [Simmetria]&#x200B;[Scelte rapide] Q per nascondere e -, + per modificare le dimensioni e MAIUSC per agganciare
+* [Simmetria][Scelte rapide] Q per nascondere e -, + per modificare le dimensioni e MAIUSC per agganciare
 * [Log] Migliora i messaggi di errore quando non è possibile esportare texture
 * [Scripting] Consente di modificare o aggiornare le risorse in Impostazioni di visualizzazione
 * [Scripting] Consente di creare o rimuovere i canali nei set di texture
-* [Content]&#x200B;[Shaders] Aggiungi il supporto per l&#39;anisotropia con uno shader dedicato (pbr-metal-rough-anisotropia-angle)
+* [Content][Shaders] Aggiungi il supporto per l&#39;anisotropia con uno shader dedicato (pbr-metal-rough-anisotropia-angle)
 * [Contenuto] Aggiornamento della sfera di anteprima con anisotropia e angolo modificato
 * [Content] Shutline matFx aggiornato
 * [Content] Nuova creazione di texture.Scansione del volto senza interruzioni in XYZ
@@ -374,34 +366,34 @@ Abbiamo anche aggiornato alcuni contenuti per perfezionarli:
 * [Content] Mappa del nuovo ambiente: studio automobilistico neutro
 * [Content] Nuovo modello di progetto: PBR - Angolo di anisotropia di rugosità metallica (con canali di anisotropia)
 * [Contenuto] Nuovo modello di progetto: PBR - rugosità metallica Coated
-* [SVT]&#x200B;[Engine]: Texture virtuali sparse (SVT)
-* [SVT]&#x200B;[Preferenze]&#x200B;[UI] Opzione di accelerazione del supporto hardware SVT
-* [SVT]&#x200B;[Registro] Ulteriori informazioni sulla funzionalità di creazione di texture virtuali sparse (ad esempio, disco di dimensioni)
-* [SVT]&#x200B;[UI] Finestra del messaggio all&#39;avvio se le dimensioni del disco sono troppo basse per la cache
-* [SVT]&#x200B;[Preferenze]&#x200B;[UI] Substance Painter posizione cache globale
+* [SVT][Engine]: Texture virtuali sparse (SVT)
+* [SVT][Preferenze][UI] Opzione di accelerazione del supporto hardware SVT
+* [SVT][Registro] Ulteriori informazioni sulla funzionalità di creazione di texture virtuali sparse (ad esempio, disco di dimensioni)
+* [SVT][UI] Finestra del messaggio all&#39;avvio se le dimensioni del disco sono troppo basse per la cache
+* [SVT][Preferenze][UI] Substance Painter posizione cache globale
 * [SVT] Nuova variabile di ambiente per specificare il percorso della cache della Substance Painter
 * [SVT] Nuova variabile di ambiente per attivare l&#39;accelerazione del supporto hardware SVT
 * [SVT] Rileva supporto sparse per hardware
-* [SVT]&#x200B;[Hardware Sparse] Aumento della versione minima del driver per la GPU Nvidia
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Avvisa l&#39;utente se all&#39;apertura del progetto sono presenti artefatti con texture virtuale sparsa
+* [SVT][Hardware Sparse] Aumento della versione minima del driver per la GPU Nvidia
+* [SVT][Shader][Viewport][UI] Avvisa l&#39;utente se all&#39;apertura del progetto sono presenti artefatti con texture virtuale sparsa
 
 <b><b>Corretto:</b>\
 </b>
 
 * [Selettore colore] Viene visualizzato il cursore di disegno quando si tenta di selezionare un colore
-* L’arresto anomalo quando si selezionano o deselezionano i livelli in un ordine specifico può causare l’arresto anomalo
+* Arresto anomalo selezionando o deselezionando i livelli in un ordine specifico può provocare arresto anomalo
 * Arresto anomalo quando si incolla come istanza un livello con una maschera
-* [Canale utente]&#x200B;[Regressione] Arresto anomalo durante la ridenominazione del canale utente
+* arresto anomalo [Canale utente][Regressione] durante la ridenominazione del canale utente
 * [Canale utente] Anteprima pennello grigio
 * [Alembic] Una sola texture impostata da diversi materiali dopo l’importazione
 * [Engine] La texture esportata è diversa dalla finestra della vista per i timbri a pennello
 * [Motore] L’inversione con un effetto livello non influisce completamente su una texture
 * Il selettore materiale sta applicando un tratto di pennello durante il prelievo
-* Il passaggio a una risoluzione di 128x128px causa un arresto anomalo
+* Il passaggio a una risoluzione di 128x128px genera un arresto anomalo
 * I collegamenti delle mappe trama non vengono aggiornati correttamente quando si ridefiniscono o si creano istanze dei livelli
-* [Substance] UserData ColorSpace non funziona su Baked Mesh Normal richiesto come input
+* [Substance] UserData ColorSpace non funziona con la trama Eseguita i baking Normale richiesta come input
 * Associazione MDL non corrispondente quando si utilizzano più istanze di shader
-* [Simmetria]&#x200B;[Livello riempimento] Piano di simmetria e relativo manipolatore attivo nel livello di riempimento
+* Piano della Simmetria [Simmetria][Livello di riempimento] e il relativo manipolatore attivo nel livello di riempimento
 * [Viewport] Il punto pivot per la traduzione non viene sempre aggiornato dopo aver fatto clic su
 * [UI] Icone fisse e rimozione dei segnaposto per i monitor HDPI
 

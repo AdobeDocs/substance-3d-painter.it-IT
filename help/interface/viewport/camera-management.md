@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
-description: Scoprite come gestire le viste della fotocamera nella finestra della vista di Substance 3D Painter per navigare e inquadrare efficacemente i modelli 3D.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Viewport > Camera management
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
+description: Scoprite come gestire le viste della fotocamera nella finestra della vista di Substance 3D Painter per navigare e fotogramma efficacemente i modelli 3D.
 title: Gestione delle telecamere
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e370ba212d3e90f71e09b75ff41be6123d37c5eb
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 
 # Gestione delle telecamere
 
@@ -47,7 +39,7 @@ Quindi fare clic su **OK**:
 
 Quando le fotocamere sono state importate nel progetto corrente, puoi selezionare la videocamera attiva dal **menu a discesa** nella **finestra della vista 3D**.
 
-Per impostazione predefinita, la fotocamera Painter denominata &quot;Videocamera predefinita&quot; è selezionata ed è in modalità prospettiva.
+Per impostazione predefinita, la videocamera Painter denominata &quot;Videocamera predefinita&quot; è selezionata ed è in modalità Prospettiva.
 
 ![](../../assets/camera-select.png)
 
@@ -93,7 +85,7 @@ Se le proporzioni di visualizzazione sono presenti nel file mesh, vengono visual
 
 ## Telaio della fotocamera
 
-È possibile attivare/disattivare il fotogramma della fotocamera in **Impostazioni schermo > Impostazioni finestra vista**:
+È possibile attivare/disattivare il fotogramma di fotocamere in **Impostazioni schermo > Impostazioni finestra vista**:
 
 ![](../../assets/image2018-7-26-15-54-58.png)
 

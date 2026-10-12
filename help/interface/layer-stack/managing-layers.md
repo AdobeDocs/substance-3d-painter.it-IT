@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/interface/layer-stack/managing-layers.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come gestire i livelli in Substance 3D Painter per organizzare, riordinare e controllare il flusso di lavoro di pittura texture.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Managing layers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gestione dei livelli
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
-
 ---
-
 
 # Gestione dei livelli
 

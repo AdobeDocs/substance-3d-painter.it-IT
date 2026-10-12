@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/content/creating-custom-effects/user-data.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come utilizzare i dati utente negli effetti personalizzati per Substance 3D Painter, per passare informazioni personalizzate agli effetti di shader.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > User data
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Dati utente
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
-
 ---
-
 
 # Dati utente
 
@@ -96,7 +88,7 @@ Esempio di sintassi:
 
 Per impostazione predefinita, l’input dell’immagine di un grafico a Substance non ha alcuna spaziatura interna, e l’area esterna all’Isola UV viene solitamente riempita con un colore uniforme per motivi legati alle prestazioni. L&#39;impostazione di riempimento può essere utilizzata per richiedere invece una dilatazione infinita, che può essere utilizzata per i filtri per evitare, ad esempio, la creazione di giunture.
 
-Esempio di sintassi: **p**&#x200B;**adding=extend**
+Esempio di sintassi: **p****adding=extend**
 
 ## Disabilitare un output per impostazione predefinita
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come correggere i problemi di viewport interrotti o non reattivi su Ubuntu in Substance 3D Painter per il corretto rendering 3D.
-helpx_creative_field: ""
-helpx_description: Viewport appears broken or unresponsive on Ubuntu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Il riquadro di visualizzazione appare interrotto o non risponde su Ubuntu
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
-
 ---
-
 
 # Il riquadro di visualizzazione appare interrotto o non risponde su Ubuntu
 

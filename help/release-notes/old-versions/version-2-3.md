@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2.3 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2.3
 
@@ -48,7 +40,7 @@ L’ultima esercitazione spiega il processo di esportazione con il nuovo plug-in
 
 **Aggiunto:**
 
-* [Plugin]&#x200B;[Photoshop] Consente di specificare quale materiale/stack/canale esportare
+* [Plugin][Photoshop] Consente di specificare quale materiale/stack/canale esportare
 * [Scripting] I nomi delle funzioni presentano alcune incongruenze
 
 **Risolto:**
@@ -57,7 +49,7 @@ L’ultima esercitazione spiega il processo di esportazione con il nuovo plug-in
 * [Export] L’Alpha ottiene una conversione gamma errata sui canali sRGB
 * [Esporta] I documenti non quadrati vengono esportati come quadrati
 * [Esporta] Impossibile esportare mappe aggiuntive se ne manca una
-* [Iray] Alcuni parametri (come Intensità emissiva) non hanno alcun effetto
+* [Iray] Alcuni parametri (ad esempio Intensità emissivo) non hanno alcun effetto
 * [NVIDIA] Arresto anomalo all&#39;avvio con NVIDIA Quadro K2200/GTX 750/760
 * [AMD] Set di colori non corretto per miniature e anteprime
 * [AMD] Si blocca e si verifica un errore del driver all&#39;apertura di un nuovo file
@@ -69,18 +61,18 @@ L’ultima esercitazione spiega il processo di esportazione con il nuovo plug-in
 
 **Aggiunto:**
 
-* [Plugin] Nuovo plug-in &quot;Esporta in Photoshop&quot; (esportazione dello stack di livelli completo)
+* [Plugin] Nuovo plug-in &quot;Esporta in Photoshop&quot; (Pila livelli di esportazione completa)
 * [Esporta] Consente di specificare la larghezza della spaziatura interna (in pixel o infinito)
 * [Esporta] Consente di impostare il tipo di sfondo esterno agli UV
 * [Shelf] Nuovo shader di stratificazione del materiale per fondere 10 materiali
-* [Shelf] Nuovo shader argilla per visualizzare i dettagli con il canale height/normale
-* [Shelf] Nuovo filtro di illuminazione cotta con input ambientale
+* [Shelf] Nuovo shader in argilla per visualizzare i dettagli con il canale height/normale
+* [Shelf] Nuovo filtro di illuminazione eseguito i baking con input ambiente
 * [Shelf] Sono stati aggiornati alcuni generatori di maschere per aggiungere trasformazioni non quadrate
-* [Finestra vista] Aggiungere la mappa normale composta (normale+height+bake) alla modalità Solo
+* [Finestra vista] Aggiungere la mappa normale composta (normale+height+esegue i baking) alla modalità Solo
 * [Scripting] Consente di esportare mappe aggiuntive
 * [Scripting] Consente di eseguire query sulle mappe aggiuntive disponibili per set di texture
 * [Scripting] Consente di recuperare il formato del canale
-* [Scripting] Aggiungere esempi nella documentazione di cottura
+* [Scripting] Aggiungere esempi nella documentazione di esegue i baking
 * [Scripting] Consente di interrogare la visibilità di un livello
 * [Scripting] Consente di interrogare il metodo di fusione e l’opacità del livello
 * [Scripting] Consente di esportare le mappe convertite (mappe normali finali, AO misti, ecc.)

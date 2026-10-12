@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/getting-started/glossary.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accedete al glossario di Substance 3D Painter per comprendere i termini e i concetti chiave usati nella documentazione.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Glossary
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Glossario
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 6%
-
 ---
-
 
 # Glossario
 
@@ -27,7 +19,7 @@ In questa pagina sono elencate le parole chiave più comuni utilizzate dall’ap
 | --- | --- |
 | **Allineamento** | L’allineamento indica il modo in cui il pennello sarà orientato verso la trama 3D durante il disegno. |
 | **Alpha** | Un canale alfa è una maschera che può essere utilizzata per pittura dettagli o forme complesse, ad esempio un codice a barre o un logo. |
-| **Esegue i baking** | Per &quot;infornata&quot; si intende l’azione di calcolare le informazioni da una trama 3D e salvarle in una texture basata sulle informazioni UV di una trama. |
+| **Esegue i baking** | Un eseguo i baking (o eseguo i baking) si riferisce all&#39;azione di elaborare le informazioni da una trama 3D e salvarle in una Texture basata sulle informazioni UV di una trama. |
 | **Profondità di bit** | La profondità di bit è la quantità di informazioni che può essere memorizzata in una texture (per colore). Maggiore è il numero, migliore è la precisione delle informazioni. Tuttavia le prestazioni diminuiscono con numeri elevati durante l&#39;esecuzione dei calcoli. |
 | **Pennello** | Un pennello è uno strumento per colorare su una mesh. Un pennello è definito da più parametri che ne controllano il comportamento (ad esempio le dimensioni e l’opacità). |
 | **Fotocamera** | La videocamera è l’oggetto che consente di controllare la posizione e la direzione della vista in una finestra 3D o 2D. |
@@ -38,7 +30,7 @@ In questa pagina sono elencate le parole chiave più comuni utilizzate dall’ap
 | **Dilatazione/Spaziatura interna** | Sulla stessa idea della diffusione, la dilatazione è un modo di generare informazioni al di fuori dell&#39;Isola UV estendendo i colori dei pixel. |
 | **Effetto** | Un effetto è un elemento che può essere aggiunto a un livello, sul contenuto o sulla maschera. Substance 3D Painter supporta vari tipi di effetti, ad esempio i filtri. |
 | **Ambiente** | Un ambiente è un’immagine utilizzata per calcolare l’illuminazione di una scena; si tratta in genere di una texture HDR che rappresenta un’ampia gamma di informazioni sul colore. |
-| **Esporta** | L’azione di esportazione è il modo di generare texture appiattite dal dipinto realizzato all’interno dell’applicazione. Le texture create dall’esportazione possono essere utilizzate in altre applicazioni. |
+| **Esporta** | L’azione di esportazione è il modo di generare texture appiattite dal dipinto realizzato all’interno dell’applicazione. Le texture create dall’esportazione possono essere utilizzate in un’altra applicazione. |
 | **FOV / Campo di visualizzazione** | Il FOV è l&#39;estensione del mondo osservabile dalla Camera. |
 | **Riempi** | Riempimento è un’azione (che può essere un effetto o un livello) che può caricare un colore, una texture o persino un materiale sull’intera trama 3D. |
 | **Filtro** | Un filtro è un effetto Substance in grado di modificare le informazioni precedenti. Ad esempio, un filtro di sfocatura attenua un’immagine precedente. I filtri possono anche essere più complessi e modificare un materiale completo. |
@@ -53,7 +45,7 @@ In questa pagina sono elencate le parole chiave più comuni utilizzate dall’ap
 | **Mouse lento** | Il Mouse lento è un comportamento dello strumento pennello. Rallenta il tracciato del pennello per migliorare la precisione durante il disegno e crea un ritardo/scostamento tra il cursore del mouse e il disegno effettivo. |
 | **Livello** | Un livello è un effetto che consente di controllare un intervallo o le informazioni sul colore/scala di grigi tramite un istogramma. Può essere utilizzato ad esempio per invertire il colore o scurire/schiarire un colore. |
 | **Registro** | Un registro è un file di testo in cui vengono scritte informazioni dal software, in genere correlate al computer che esegue l&#39;applicazione. |
-| **Trama bassa/alta** | Una maglia poly bassa e una alta sono entrambe mesh 3D, una è con una bassa densità di poligoni, mentre l&#39;altra è con una maggiore quantità di politonio (spesso 100 volte più grande). Di solito le informazioni sulla trama alta sono incise sulla trama bassa. |
+| **Trama bassa/alta** | Una maglia poly bassa e una alta sono entrambe mesh 3D, una è con una bassa densità di poligoni, mentre l&#39;altra è con una maggiore quantità di politonio (spesso 100 volte più grande). Di solito le informazioni sulla trama alta sono eseguite i baking a quella bassa. |
 | **Materiale** | Un materiale definisce le proprietà per rappresentare un argomento specifico. Su una trama 3D, il materiale viene utilizzato anche per definire gruppi di facce poligonali. |
 | **Trama** | Una trama è un oggetto 3D definito da più informazioni. In Substance 3D Painter una trama è definita da poligoni (in genere triangoli). È possibile creare una trama in un&#39;applicazione di modellazione 3D come **Blender** o **Autodesk Maya**. |
 | **Mappa trama** | Una mappa di trama è una mappa eseguita i baking da una trama che contiene informazioni relative alla trama stessa. Può essere un&#39;informazione di posizione o un&#39;informazione di occlusione, ad esempio. |
@@ -74,7 +66,7 @@ In questa pagina sono elencate le parole chiave più comuni utilizzate dall’ap
 | **Proiezione** | Una proiezione è l’azione di applicare da un punto di vista specifico (come la fotocamera) un’immagine/oggetto sulla superficie della trama 3D. |
 | **Risoluzione (potenza di 2)** | La risoluzione definisce le dimensioni di una texture sugli assi X e Y (o larghezza e height). Spesso in una potenza di 2 scale (2, 4, 8, 16... 512, 1024, 2048...) perché è ottimizzato per i calcoli su una GPU. |
 | **Scripting** | Lo scripting è l&#39;atto o l&#39;utilizzo di un comando specifico tramite un formato di file basato su testo per eseguire comportamenti specifici. |
-| **Shader** | Uno shader definisce il comportamento di un materiale quando riceve informazioni di illuminazione. Alcuni shader possono essere semplici (come ombreggiatura toon) o più avanzati (come ombreggiatura della pelle che simula l’assorbimento di luce in una superficie). |
+| **Shader** | Uno shader definisce il comportamento di un materiale quando riceve informazioni di illuminazione. Alcuni shader possono essere semplici (come l’ombreggiatura del toon) o più avanzati (come l’ombreggiatura della pelle che simula l’assorbimento di luce in una superficie). |
 | **Scaffale** | Uno scaffale è la posizione nell&#39;applicazione in cui sono organizzate risorse di tipo multiplo. Può passare da immagini semplici a strumenti più complessi. |
 | **Maschera avanzata** | Le maschere avanzate si comportano come materiali avanzati, ma invece di essere livelli sono effetti definiti per generare maschere solo in base alla trama 3D corrente. |
 | **Materiale avanzato** | Un materiale avanzato è un gruppo di livelli salvati come un unico file. Materiale avanzato può adattarsi a ogni progetto in Substance 3D Painter, consentendo di creare materiali che cambieranno a seconda della trama 3D corrente. |

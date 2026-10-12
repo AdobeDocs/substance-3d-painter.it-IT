@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/technical-support/exporting-a-dxdiag.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come esportare le informazioni di sistema di DXDiag da Risoluzione dei problemi e supporto di Substance 3D Painter per Windows.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Exporting a DXDiag
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Esportazione di un file DXDiag
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
-
 ---
-
 
 # Esportazione di un file DXDiag
 

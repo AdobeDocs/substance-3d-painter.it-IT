@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-7-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 7.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 7.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
-
 ---
-
 
 # Versione 7.4
 
@@ -43,13 +35,13 @@ Questo nuovo flusso di lavoro consente di gestire e calibrare i colori dall’im
 * **Impostazioni di visualizzazione del riquadro di visualizzazione**\
   Nella parte superiore delle viste 2D e 3D sono presenti due controlli per la gestione del colore:\
   **Pulsante Colore**: attiva o disattiva la trasformazione del colore nella finestra della vista.\
-  **Menu a discesa Trasformazione visualizzazione**: seleziona la trasformazione di visualizzazione da utilizzare per la conversione dei colori.
+  **Menu a discesa Trasforma di visualizzazione**: seleziona la Trasforma di visualizzazione da utilizzare per la conversione dei colori.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
 * **Impostazioni selettore colore**\
   Quando la gestione del colore è attivata, i selettori colore offrono nuovi controlli. I colori vengono modificati nello spazio colore di lavoro specificato dalla configurazione.\
-  Sotto i cursori HSV/RGB viene visualizzato il valore del colore finale, trasformato dallo spazio di lavoro allo spazio colore di visualizzazione.
+  Sotto i cursori HSV/RGB viene visualizzato il valore del colore finale, Trasforma dallo spazio di lavoro allo spazio colore di visualizzazione.
 
   ![](../../assets/color-picker-demo.png)
 
@@ -173,9 +165,9 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 
 **Aggiunto:**
 
-* [SpaceMouse]&#x200B;[Windows] Supporto di 3Dconnection SpaceMouse nel riquadro di visualizzazione 3D per la navigazione
-* [SpaceMouse]&#x200B;[Windows] Scelte rapide/tasti di base per i modelli Pro ed Enterprise di SpaceMouse nella finestra della vista 3D
-* [SpaceMouse]&#x200B;[Windows] Icona del centro di rotazione dedicato nella finestra della vista 3D
+* [SpaceMouse][Windows] Supporto di 3Dconnection SpaceMouse nel riquadro di visualizzazione 3D per la navigazione
+* [SpaceMouse][Windows] Scelte rapide/tasti di base per i modelli Pro ed Enterprise di SpaceMouse nella finestra della vista 3D
+* [SpaceMouse][Windows] Icona del centro di rotazione dedicato nella finestra della vista 3D
 * [Gestione colore] Utilizzare i ruoli della configurazione OCIO per modificare le impostazioni predefinite
 * [Gestione colore] Gestione colore gestisce la finestra delle proprietà per i widget colore
 * [Gestione colore] Gestione colore gestisce la finestra delle proprietà per l’anteprima del materiale
@@ -193,7 +185,7 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Disattiva il selettore colore Visualizza il menu a discesa per i canali dati
 * [Ottimizzazione] La griglia di alterazione ricalcola solo le porzioni UV coperte
 * [Esporta] Consente di esportare progetti di Porzione UV per Sketchfab, USD e glTF
-* [Scripting]&#x200B;[Python] Consente di modificare la funzione di mappatura tonale
+* [Scripting][Python] Consente di modificare la funzione di mappatura tonale
 
 **Corretto:**
 
@@ -209,9 +201,9 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Lo strumento Riempimento poligonale visualizza il colore errato
 * [Gestione colore] Il tonemapper ACE viene applicato ai canali in modalità Solo
 * [Gestione colore] L’illuminazione della sfera di anteprima dello strumento non è gestita dal colore
-* [Gestione colore]&#x200B;[Esporta] Le mappe convertite applicano una conversione errata
-* [Scripting]&#x200B;[Python]&#x200B;[Gestione colore] I progetti creati con la variabile di ambiente template &amp; OCIO sono in modalità Legacy
-* [Scripting]&#x200B;[Python] Impossibile utilizzare la funzione di valutazione JavaScript all&#39;avvio
+* [Gestione colore][Esporta] Le mappe convertite applicano una conversione errata
+* [Scripting][Python][Gestione colore] I progetti creati con la variabile di ambiente template &amp; OCIO sono in modalità Legacy
+* [Scripting][Python] Impossibile utilizzare la funzione di valutazione JavaScript all&#39;avvio
 * [Offerta Adobe 3D] Impossibile avviare Painter quando si utilizzano impostazioni internazionali con lingue non supportate per impostazione predefinita
 
 **Problemi noti:**
@@ -232,15 +224,15 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Per impostazione predefinita, espandi la sezione Gestione colore quando nelle finestre Nuovo progetto e Impostazioni progetto è selezionato OCIO
 * [Gestione colore] Aggiungere il tonemapper ACE in modalità legacy
 * [Gestione colore] Regolare le impostazioni di configurazione predefinite
-* [Gestione colore]&#x200B;[Esporta] Riempi $colorSpace nei nomi dei file per i canali dati
+* [Gestione colore][Esporta] Riempi $colorSpace nei nomi dei file per i canali dati
 * [Esporta] Esporta progetto di Porzione UV in Stager
 * [Interoperabilità] Non disponibile per le edizioni Steam e Substance
 * [Interoperabilità] Consente di inviare un progetto Porzione UV a Stager
 
 **Corretto:**
 
-* [MacOS]&#x200B;[Arresto anomalo] Painter non inizia con Catalina
-* [Gestione colore]&#x200B;[Arresto anomalo] arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
+* [MacOS][Arresto anomalo] Painter non inizia con Catalina
+* [Gestione colore][Arresto anomalo] arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
 * [Gestione colore] Le risorse utilizzate come scala di grigio nello spazio colore della maschera visualizzano il nuovo menu
 * [Gestione colore] Il canale utente è più scuro nella finestra della vista in modalità legacy + visualizzazione solo
 * [Gestione colore] La mappa Env è sempre lineare quando utilizzata in iRay
@@ -255,7 +247,7 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 
 **Problemi noti:**
 
-* [Mac M1] I materiali avanzati non vengono visualizzati correttamente
+* [Mac M1] I Materiali avanzati non vengono visualizzati correttamente
 
 ### 7.4.0
 
@@ -272,18 +264,18 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 * [Gestione colore] Estrai il nome dello spazio colore dal nome del file bitmap importato
 * [Gestione colore] Consente di ignorare lo spazio colore con uno spazio colore dalla configurazione nella finestra Proprietà
 * [Gestione colore] Aggiungere opzioni di gestione del colore nelle impostazioni del set di texture
-* [Gestione colore]&#x200B;[Finestra vista] Consente di gestire separatamente i colori delle viste 2D e 3D
+* [Gestione colore][Finestra vista] Consente di gestire separatamente i colori delle viste 2D e 3D
 * [Gestione colore] Caricare e convertire la mappa dell&#39;ambiente nello spazio colore di lavoro
 * [Gestione colore] Regola il selettore colore e l&#39;editor con lo spazio colore corrente
-* [Gestione colore] Consente di selezionare lo spazio colore di trasformazione della visualizzazione nella finestra della vista con un nuovo menu a discesa
-* [Gestione colore] Applicare la trasformazione della visualizzazione con i risultati del rendering dei raggi
+* [Gestione colore] Consente di selezionare lo spazio colore Trasforma della visualizzazione nella finestra della vista con un nuovo menu a discesa
+* [Gestione colore] Applicare la Trasforma di visualizzazione con i risultati del rendering dei raggi
 * [Gestione colore] Esportare texture con diversi spazi colore
-* [Gestione colore]&#x200B;[Python] Applicazione delle impostazioni di gestione del colore dalla variabile di ambiente (OCIO) ai nuovi progetti
+* [Gestione colore][Python] Applicare le impostazioni di gestione del colore dalla variabile di ambiente (OCIO) ai nuovi progetti
 * [Finestra vista] Consente di disancorare la finestra della vista 2D o 3D
 * [Annullamento automatico] Nuova opzione per evitare isole allungate
 * [Scripting Python] Chiama funzioni JavaScript dall’API Python
 * [Finestra Nuovo progetto] Rende comprimibile la sezione delle mappe importate
-* [Proiezione]&#x200B;[Altera] Consenti di nascondere le normali come opzione nelle impostazioni di Altera
+* [Proiezione][Altera] Consenti di nascondere le normali come opzione nelle impostazioni di Altera
 * [Content] 11 nuove mappe grungi
 * [Content] 8 nuovi strumenti predefiniti (cerniera, cavo di serraggio, scintillio)
 * [Contenuto] 8 nuovi materiali (cicatrice, tasca, ...)
@@ -292,10 +284,10 @@ Per eseguire un comando Javascript da Python, utilizzare la funzione **assessmen
 **Problemi noti:**
 
 * [Mac M1] I Materiali avanzati non vengono visualizzati correttamente
-* [Gestione colore]&#x200B;[Arresto anomalo] arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
+* [Gestione colore][Arresto anomalo] arresto anomalo casuale durante la riproduzione con tipo di dati/gestione colore sul canale utente
 * [Gestione colore] Il selettore colore non seleziona il valore corretto per il canale dati in modalità legacy
-* [Gestione colore]&#x200B;[Iray] Il salvataggio del rendering in EXR o TIFF durante l’attivazione della Gestione colore nella finestra della vista consente di risparmiare sempre in modalità lineare
+* [Gestione colore][Iray] Il salvataggio del rendering in EXR o TIFF durante l’attivazione della Gestione colore nella finestra della vista consente di risparmiare sempre in modalità lineare
 * [Gestione colore] Le risorse utilizzate come scala di grigio nella maschera visualizzano il menu Spazio colore errato
-* [Color Management]&#x200B;[Iray] La mappa Env è sempre lineare se utilizzata in Iray
-* [Gestione colore]&#x200B;[Esporta] Le mappe convertite non vengono esportate come canali di gestione del colore
-* [Gestione colore]&#x200B;[Esporta] L&#39;esportazione ignora se il canale utente è sottoposto alla gestione del colore o meno in modalità legacy
+* [Color Management][Iray] La mappa Env è sempre lineare se utilizzata in Iray
+* [Gestione colore][Esporta] Le mappe convertite non vengono esportate come canali di gestione del colore
+* [Gestione colore][Esporta] L&#39;esportazione ignora se il canale utente è sottoposto alla gestione del colore o meno in modalità legacy

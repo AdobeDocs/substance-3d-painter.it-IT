@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accedi alle note sulla versione di Substance 3D Painter per restare aggiornato sulle nuove funzioni, i miglioramenti e le correzioni di bug tra le versioni.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Note sulla versione
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 19578e843e2843a708e479ec81d94fd8c48c3648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 8%
-
 ---
-
 
 # Note sulla versione
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2017.2 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2017.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2017.2
 
@@ -56,7 +48,7 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 **Aggiunto:**
 
 * [Effetto] Nuovo punto di ancoraggio che consente riferimenti a livelli e maschere
-* [Livelli] Possibilità di rinominare gli effetti di riempimento e disegno
+* [Livelli] Possibilità di rinominare gli effetti di riempimento e Pittura
 * [Plugin] Plug-in Substance Source aggiornato
 * [Scripting] Consente di eseguire query sulla risoluzione del set di texture
 * [Scripting] Consenti di ottenere lo stato del motore di pittura
@@ -66,10 +58,10 @@ Le nuove funzioni sono descritte dettagliatamente nei nostri video più recenti:
 
 * [Tool] Problemi di prestazioni durante la modifica dei parametri del materiale
 * [Motore] Scomparsa dei tratti di pennello durante la modifica della risoluzione (4K>2K)
-* [Vista 3D] Lo spazio tangente non è sincronizzato con i forni
+* [vista 3D] Lo spazio tangente non è sincronizzato con i baker
 * [Shelf] Il percorso dello scaffale nei documenti utente non viene creato automaticamente
 * [Shelf] Rendete i predefiniti compatibili con le versioni precedenti dopo un aggiornamento
 * [Shader] Lo shader non PBR non funziona più
-* [Bakers] La mappatura degli ID non riesce con l&#39;opzione Corrispondenza per nome abilitata
+* [Baker] La Esegue i baking della mappa ID non riesce con l’opzione Corrispondenza per nome attivata
 * [Sample] I nomi dei set di texture del progetto di esempio Meet Mat non sono corretti
 * Il salvataggio di un progetto prima della creazione di un modello restituisce errori di autorizzazione di scrittura

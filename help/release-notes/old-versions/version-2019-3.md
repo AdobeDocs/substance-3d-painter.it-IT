@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2019.3 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2019.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 0%
-
 ---
-
 
 # Versione 2019.3
 
@@ -34,7 +26,7 @@ Ora puoi utilizzare i tuoi pennelli di Photoshop in Substance Painter. Esportand
 
 Se non avete file ABR da importare, potete trovarne molti online:
 
-* [Predefiniti pennello di Kyle su Adobe](https://www.adobe.com/it/products/photoshop/brushes.html)
+* [Predefiniti pennello di Kyle su Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Pennelli predefiniti in ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Predefiniti pennello su DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Pennelli predefiniti nel pennello cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +107,7 @@ Oltre al supporto dei predefiniti per i pennelli di Photoshop, sono stati apport
 La Substance Painter ora scompone automaticamente le trame con coordinate UV mancanti. In questo modo è possibile importare qualsiasi tipo di geometria e iniziare immediatamente la pittura. Il nostro sistema di srotolamento UV genererà un&#39;Isola UV per sottorete, pur continuando a seguire l&#39;assegnazione del materiale per creare set di texture. Questa funzione è attualmente in versione beta e si svilupperà nelle versioni future. Lo srotolamento automatico verrà applicato solo ai progetti che **non utilizzano il flusso di lavoro UDIM**.
 
 * **Annullamento automatico del wrapping UV**\
-  Per impostazione predefinita, la Substance Painter ora genera automaticamente le coordinate UV per le trame mancanti. Questo vale sia per la creazione del progetto che per la reimportazione della trama. Tuttavia, è possibile disabilitare questo comportamento accedendo alle [impostazioni principali](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e disabilitando **Abilita lo srotolamento automatico degli UV** in **Opzioni di importazione**.
+  Per impostazione predefinita, la Substance Painter ora genera automaticamente le coordinate UV per le trame mancanti. Questo vale sia per la creazione del progetto che per la reimportazione della trama. Tuttavia, è possibile disabilitare questo comportamento accedendo alle [impostazioni principali](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e disabilitando **Abilita lo srotolamento automatico degli UV** in **Opzioni di importazione**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Annullamento del wrapping della barra di avanzamento UV**\
@@ -171,10 +163,10 @@ Nel resto dell’applicazione sono stati apportati diversi miglioramenti che dov
   La finestra di esegue i baking può essere aperta in due modi diversi:
 
   * Premendo **Ctrl+Maiusc+B**.
-  * Accedete al menu Modifica e fate clic su **Crea mappe trama**.
+  * Accedendo al menu Modifica e facendo clic su **Esegue i baking mappe trama**.
 
   ![](../../assets/bake-mesh-maps-menu.png)
-* **Scorri i dock e le finestre con la scelta rapida Ctrl+Alt+Clic sinistro**\
+* **Scorri i dock e le finestre con Ctrl+Alt+clic sulla scelta rapida da tastiera sinistra**\
   È stata aggiunta una nuova scelta rapida da tastiera che consente di scorrere finestre e banchine senza la rotella del mouse. Quale questa scelta rapida da tastiera è ora possibile scorrere con la penna della tavoletta grafica.
 
   ![](../../assets/scroll-shortcut.gif)
@@ -202,8 +194,8 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
     Questo filtro simula la pittura con effetto acquerello con perdita di colore e assorbimento carta leggendo il colore di input.
 
     ![](../../assets/icon-matfx-watercolor.png)
-  * **Dipinto a olio MatFx**\
-    Ispirato al lavoro di [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), questo filtro legge le informazioni sui colori dall’input e le traduce in tratti di pennello basati su vari parametri. Sono disponibili più predefiniti per provare facilmente le variazioni. Ti consigliamo di combinarlo con il filtro **Baked lighting environment** o di aggiungere manualmente ombre di baking/pittura nelle texture per massimizzarne l&#39;effetto.
+  * **Pittura olio MatFx**\
+    Ispirato al lavoro di [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), questo filtro legge le informazioni sui colori dall’input e le traduce in tratti di pennello basati su vari parametri. Sono disponibili più predefiniti per provare facilmente le variazioni. Ti consigliamo di combinarlo con il filtro **Baked lighting environment** o di eseguire i baking/pittura manualmente le ombre nelle texture per massimizzarne l&#39;effetto.
 
     ![](../../assets/icon-matfx-oil-paint.png)
 
@@ -215,7 +207,7 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
 * **Nuovi pennelli predefiniti**
 
   * **102 predefiniti pennello di Photoshop**\
-    Con l’introduzione del supporto dei pennelli di Photoshop, è stato incluso un nuovo set di predefiniti per mostrarlo. Questi predefiniti sono stati selezionati dai pacchetti di Kyle T. Webster disponibili sul [sito Web di Adobe](https://www.adobe.com/it/products/photoshop/brushes.html).
+    Con l’introduzione del supporto dei pennelli di Photoshop, è stato incluso un nuovo set di predefiniti per mostrarlo. Questi predefiniti sono stati selezionati dai pacchetti di Kyle T. Webster disponibili sul [sito Web di Adobe](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 nuovi pennelli predefiniti**\
@@ -234,10 +226,10 @@ In questa versione sono stati aggiunti molti nuovi contenuti:
     * Tratti Deformazioni in movimento
     * Pittura freccia a rulli
     * Pittura graffette a rullo largo
-    * Graffette a rullo
+    * Pittura graffette a rullo
     * Pittura punti rullo
     * Pittura Stripe a rulli
-    * Vernice a rullo vena lunga stretta
+    * Pittura rullo vena lunga stretta
     * Pittura testo avviso rullo
 
     ![](../../assets/shelf-presets-demo.jpg){width="500px"}
@@ -288,7 +280,7 @@ Riepilogo: **Bugfix con aggiornamento a Iray 2019.3**
 **Aggiunto:**
 
 * Aggiornamento a Iray 2019.3
-* [Log] Indica bios obsoleto per la CPU Ryzen che causa l&#39;arresto anomalo durante la cottura
+* [Log] Indica bios obsoleto per la CPU Ryzen che causa arresto anomalo durante il eseguo i baking
 * [ABR] Estrarre ABR alfa allo scaffale
 
 **Corretto:**
@@ -299,10 +291,10 @@ Riepilogo: **Bugfix con aggiornamento a Iray 2019.3**
 * [Tablet] Rilevamento errato durante lo spostamento dei cursori
 * [Scelte rapide] Impossibile impostare una scelta rapida da tastiera con &quot;Ctrl+Alt+MouseClick&quot;
 * [Shelf] Impossibile visualizzare la descrizione comando della risorsa quando si utilizza una tavoletta a penna
-* [Vista 2D]&#x200B;[Esporta] Il predefinito Vista 2D non tiene conto delle informazioni normali
+* Il predefinito [vista 2D][Esporta] non tiene conto delle informazioni normali
 * Si verifica un blocco con quando si disegna in allineamento UV con determinati pennelli
 * Colorare sotto un filtro crea un artefatto sul tratto in corso
-* [Finestra vista] Cache delle texture errata nella finestra della vista dopo la reimportazione di una trama
+* [Finestra vista] Cache della texture errata nella finestra della vista dopo la reimportazione di una trama
 * [Arresto anomalo] Errore durante il salvataggio dopo l’esportazione in Photoshop
 * [Arresto anomalo] Scrittura di simboli speciali nel prefisso durante l’importazione delle risorse
 * [Arresto anomalo] Fai clic sul riferimento in Proprietà punto di ancoraggio
@@ -350,11 +342,11 @@ Riepilogo: **Hotfix**
 * Arresto anomalo quando si lavora su trame con Proiezioni UV specifiche
 * [ABR] Arresto anomalo quando si passa da un predefinito Photoshop a un altro
 * [Linux] Impossibile avviare Substance Painter su CentOS 7.4 a causa di un problema di dipendenza libGLX
-* [Bakers] Arresto anomalo durante la cottura al forno dopo aver utilizzato File > Pulisci
-* [Bakers] La finestra di dialogo di avanzamento della cottura si blocca dopo l&#39;annullamento
-* [fornai] La mesh di cottura al forno dopo l’esportazione delle texture non funziona
-* [Panettieri] Utilizzo dei risultati &quot;Corrispondenza per nome&quot; con mappe trama nere
-* [Panettieri] Gabbia non presa in considerazione
+* [Baker] Arresto anomalo durante la esegue i baking dopo aver utilizzato File > Pulisci
+* [Baker] La finestra di dialogo di avanzamento Eseguita i baking si blocca dopo l’annullamento
+* [Baker] La Esegue i baking della trama dopo l’esportazione delle texture non funziona
+* [Baker] L’uso dei risultati &quot;Corrispondenza per nome&quot; con le mappe trama nere
+* [Baker] Gabbia non presa in considerazione
 * [Shelf] L’importazione di file PSD genera immagini danneggiate
 * [Sample] Il progetto di esempio &quot;Mat&quot; ha videocamere danneggiate e un predefinito di esportazione errato
 
@@ -380,28 +372,28 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Srotolamento UV] Srotolamento UV automatico nella Substance Painter quando non sono presenti UV o UV parziali
 * [Srotolamento UV] Un&#39;impostazione globale per attivarla e disattivarla
 * [Annullamento del wrapping UV] Versione riportata nel file di log
-* [Annullamento UV]&#x200B;[UI] Indica l&#39;avanzamento dello srotolamento UV
+* [Annullamento UV][UI] Indica l&#39;avanzamento dello srotolamento UV
 * [UI] Nuove impostazioni nella barra degli strumenti contestuale per selezionare l&#39;anteprima del pennello: anteprima completa, contorno del pennello e mirino
-* [Tool] Nuovo metodo di fusione avanzato nella sezione alfa: Schiarisci (Massimo) oltre a Normale
-* [Serie di livelli] Opzione di correzione gamma per livello per canale alfa o maschera (menu di scelta rapida)
-* [Layer Stack]&#x200B;[UI] Aggiungi icona &quot;i&quot; quando un livello alfa è corretto dal gamma
-* [Tablet]&#x200B;[Strumento] Esporre la pressione minima per le dimensioni e il flusso
-* [Tablet]&#x200B;[UI] Nuova impostazione nella barra degli strumenti contestuale per selezionare la pressione della curva: lineare, intuitivo, intuitivo
-* [Tablet]&#x200B;[UX] Aggiungi Ctrl+Alt+clic per scorrere
+* [Tool] Nuovo metodo di fusione avanzato nella sezione alfa: Schiarisci (massimo) oltre a Normale
+* [Pila livelli] Opzione di correzione gamma per livello per alfa o maschera (clic con il pulsante destro del mouse)
+* [Pila livelli][UI] Aggiungi l’icona &quot;i&quot; quando un livello alfa è corretto dal gamma
+* [Tablet][Strumento] Esporre la pressione minima per le dimensioni e il flusso
+* [Tablet][UI] Nuova impostazione nella barra degli strumenti contestuale per selezionare la pressione della curva: lineare, intuitivo, intuitivo
+* [Tablet][UX] Aggiungi Ctrl+Alt+clic per scorrere
 * Importare pennelli predefiniti di Photoshop (formato ABR)
 * [ABR] Supporta i parametri Shape
 * [ABR] Supporta i parametri della dinamica delle forme
 * [ABR] Parametri di trasferimento del supporto
 * [ABR] Supporta i parametri di dispersione
-* [ABR]&#x200B;[Tratti dinamici] Supporta rotondità e capovolgimento
-* [ABR]&#x200B;[Shelf] Esporre la struttura di cartelle dei pennelli nell&#39;Editor filtri
-* [ABR]&#x200B;[Ripiano] Aggiungere l’icona di Photoshop nelle miniature
-* [ABR]&#x200B;[Shelf] Aggiungi un elenco di parametri non supportati nella miniatura dettagliata ABR
-* [Strumento]&#x200B;[Tratti dinamici] Nuova impostazione del tratto dinamico per controllare il numero di inizializzazione casuale da generare
-* [Tool]&#x200B;[UI] Aggiungi nuove impostazioni di distribuzione e asse per la variazione di dispersione
-* [Scelta rapida] Aggiungi Ctrl+Maiusc+B per aprire la finestra Baking
-* [UI]&#x200B;[Menu] Aggiungi voce nel menu &quot;Modifica&quot; per aprire la finestra Baking
-* [UI]&#x200B;[Impostazioni] Miglioramento dell’allineamento dell’elenco delle scelte rapide
+* [ABR][Tratti dinamici] Supporta rotondità e capovolgimento
+* [ABR][Shelf] Esporre la struttura di cartelle dei pennelli nell&#39;Editor filtri
+* [ABR][Ripiano] Aggiungere l’icona di Photoshop nelle miniature
+* [ABR][Shelf] Aggiungi un elenco di parametri non supportati nella miniatura dettagliata ABR
+* [Strumento][Tratti dinamici] Nuova impostazione del tratto dinamico per controllare il numero di inizializzazione casuale da generare
+* [Tool][UI] Aggiungi nuove impostazioni di distribuzione e asse per la variazione di dispersione
+* [Scelta rapida da tastiera] Aggiungi Ctrl+Maiusc+B per aprire la finestra di Esegue i baking
+* [UI][Menu] Aggiungi voce nel menu &quot;Modifica&quot; per aprire la finestra di Esegue i baking
+* [UI][Impostazioni] Miglioramento dell’allineamento dell’elenco delle scelte rapide
 * [UI] Sostituire le icone dei controlli pressione (dimensioni e flusso) con i pulsanti di attivazione/disattivazione
 * [Riquadro di visualizzazione] Consente di mettere a fuoco separatamente il riquadro di visualizzazione 2D e 3D
 * Aggiornamento a QT 5.12.5
@@ -412,10 +404,10 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Substance] Ottimizzazione della generazione di tratti dinamici con supporto delle condizioni nei dati utente
 * [Substance] Consenti di designare un output del grafico come maschera per tutti i canali tramite dati utente
 * [Content] Aggiorna il progetto di esempio &quot;Mat&quot; con topologia descrittiva per lo spostamento, nuova mappa ID e nuove fotocamere
-* [Content] Integrare 3 nuovi filtri (MatFx): fumetto, acquerello, Dipinto a olio (ispirato al lavoro di Emrecan Cubukcu)
+* [Content] Integrare 3 nuovi filtri (MatFx): fumetto, acquerello, Pittura a olio (ispirato al lavoro di Emrecan Cubukcu)
 * [Contenuto] Integra 102 pennelli predefiniti di Photoshop dai pacchetti di Kyle T. Webster
-* [Content] Integrate 18 nuovi predefiniti per i pennelli: Freccia del rullo di pittura, Testo di avvertenza del rullo di pittura, Carboncino fine e altri ancora
-* [Contenuto] Integrazione di 9 nuove alfa: rullo di pittura del creatore di pennelli, Photoshop del creatore di pennelli, pattern di pennelli e altro ancora
+* [Contenuto] Integra 18 nuovi predefiniti pennello: Pittura freccia a rullo, Pittura testo avviso rullo, Carboncino fine e altri ancora
+* [Contenuto] Integra 9 nuove alfa: rullo Pittura del Brush Maker, Photoshop del Brush Maker, pattern di pennelli e altro ancora
 * [Content] Integrate 2 nuovi strumenti predefiniti: Gouache Dense e Gouache Faded
 * [Content] Integra 1 nuovo generatore : Controllo UV (Isole UV di evidenziazione e cuciture)
 * [Content] Integra 2 nuovo predefinito di esportazione: Keyshot 9+ e Spark AR Studio
@@ -432,9 +424,9 @@ Riepilogo: **Versione principale con miglioramento dell’esperienza utente di p
 * [Tablet] In rari casi, le scelte rapide per modificare i pennelli a penna comportano prestazioni ridotte
 * [Tablet] Ritardo quando si disegna su un livello specifico
 * In rari casi, quando si cambia finestra, possono verificarsi texture sfocate
-* [UI]&#x200B;[Substance] Gli input dell’immagine non vengono sempre visualizzati
+* [UI][Substance] Gli input dell’immagine non vengono sempre visualizzati
 * L’opzione Pulisci non rimuove dal ripiano i predefiniti importati in un progetto
-* [Strumento]&#x200B;[Tratto dinamico] Problema di prestazioni durante l&#39;ottimizzazione del conteggio dei cicli del timbro
+* [Strumento][Tratto dinamico] Problema di prestazioni durante l&#39;ottimizzazione del conteggio dei cicli del timbro
 * In rari casi, problemi di aggiornamento durante l’uso della modalità finestra vista 3D/2D
 * Colorare un tratto molto lungo può portare a un blocco
 * [Tool] Problema di prestazioni quando si disegna con tratti dinamici specifici

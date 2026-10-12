@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Painter versione 2019.2 per scoprire le nuove funzioni, i miglioramenti e le correzioni di bug.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versione 2019.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 
 # Versione 2019.2
 
@@ -140,7 +132,7 @@ Al Ripiano predefinito è stato aggiunto un nuovo set di Materiali avanzati e Ma
     * Wood Acajou
     * Nave di legno scafo nordico
     * Nave Di Legno Scafo Vecchio
-* **20 nuove maschere avanzate**
+* **20 nuove Maschere avanzate**
 
   * Grinze
   * Cavità dirt
@@ -158,7 +150,7 @@ Al Ripiano predefinito è stato aggiunto un nuovo set di Materiali avanzati e Ma
   * Bordi con graffi marcati
   * Thread infrastruttura
   * Pittura danneggiata
-  * Disegna graffio discreto
+  * Pittura graffio leggero
   * Cavità sabbia
   * Dust sabbia
   * Gocce d&#39;acqua
@@ -180,13 +172,13 @@ Riepilogo: **Bugfix**
 **Corretto:**
 
 * [Plugin] L&#39;origine del plug-in non funziona
-* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 e AMD: la creazione di livelli di materiale non funziona come previsto
+* [MacOS][Shader] Mac OS 10.14.5 e AMD: la creazione di livelli di materiale non funziona come previsto
 
 **Problemi noti:**
 
 * Impossibile importare file alembici con suddivisioni
-* Rari arresti anomali durante l’importazione di alcuni file Alembic
-* L’interfaccia utente temporaneamente non risponde durante la cottura in forno con DXR su GPU Pascal
+* Arresti anomali rari durante l’importazione di alcuni file Alembic
+* L’interfaccia utente temporaneamente non risponde quando si esegue i baking con DXR su GPU Pascal
 
 ### 2019.2.2
 
@@ -205,10 +197,10 @@ Riepilogo: **Bugfix**
 
 **Corretto:**
 
-* [Mac]&#x200B;[USD] Impossibile aprire i file USDZ esportati da MacOS
+* [Mac][USD] Impossibile aprire i file USDZ esportati da MacOS
 * [Set di texture] Impossibile isolare un set di texture con il modificatore ALT
 * [Shelf] I predefiniti, i Materiali avanzati e le Maschere avanzate vengono sempre modificati quando si esce dall’applicazione
-* [Serie di livelli] Impossibile selezionare l’effetto dopo aver eliminato un altro effetto
+* [Pila livelli] Impossibile selezionare l’effetto dopo aver eliminato un altro effetto
 * Sfarfallio quando si utilizza un cursore all’interno del pannello delle proprietà dello strumento
 * Arresto anomalo durante l’esportazione dei predefiniti nello scaffale
 * Arresto anomalo quando si esporta un predefinito con spazio insufficiente
@@ -217,8 +209,8 @@ Riepilogo: **Bugfix**
 **Problemi noti:**
 
 * Impossibile importare file alembici con suddivisioni
-* Rari arresti anomali durante l’importazione di alcuni file Alembic
-* L’interfaccia utente temporaneamente non risponde durante la cottura in forno con DXR su GPU Pascal
+* Arresti anomali rari durante l’importazione di alcuni file Alembic
+* L’interfaccia utente temporaneamente non risponde quando si esegue i baking con DXR su GPU Pascal
 
 ### 2019.2
 
@@ -228,39 +220,39 @@ Riepilogo: **Versione principale con aggiornamenti dei baker in termini di prest
 **Aggiunto:**
 
 * [Baker] È stato aggiunto il supporto per Raytracing GPU con DXR e OptiX (Occlusione ambientale, Thickness)
-* [Baker] Ottimizzazioni e accelerazioni per il Raytracing della CPU
-* [Bakers]&#x200B;[Vis mode]&#x200B;[UI] Nuova modalità di visualizzazione baking nella finestra della vista
-* [Bakers]&#x200B;[Preferenze]&#x200B;[UI] Nuova opzione baking per abilitare-disabilitare Raytracing GPU
-* [Baker]&#x200B;[UI] Rielaborazione della finestra di dialogo barra di avanzamento
-* [Bakers] Miglioramento dei messaggi di avviso e di errore
-* [Panettieri] Consenti una cancellazione più reattiva del processo di cottura al forno
+* [Baker] Ottimizzazioni e accelerazioni per il Raytracing CPU
+* [Baker][Modalità Vis][UI] Nuova modalità di visualizzazione eseguita i baking nella finestra della vista
+* [Baker][Preferenze][UI] Nuova opzione di esegue i baking per abilitare/disabilitare il Raytracing GPU
+* [Baker][UI] Rielaborazione della finestra di dialogo barra di avanzamento
+* [Baker] Miglioramento dei messaggi di avviso e di errore
+* [Baker] Consenti un annullamento più reattivo del processo di esegue i baking
 * [Baker] Riapri la finestra di esegue i baking dopo aver fatto clic su Annulla
-* [Proj]&#x200B;[UX] Miglioramento dell&#39;usabilità del manipolatore di rotazione
+* [Proj][UX] Miglioramento dell&#39;usabilità del manipolatore di rotazione
 * [Settings] Opzione per migliorare le prestazioni riducendo la risoluzione del viewport per schermi HDPI
 * [Scripting] Modificare la risoluzione del set di texture
 * [Scripting] Ottieni set di texture selezionato
 * [Scripting] Consente di selezionare un set di texture
 * [Scripting] Funzione per sapere quando la selezione del set di texture è stata modificata
-* [Shelf] Aggiunti 40 nuovi materiali intelligenti
+* [Shelf] Aggiunti 40 nuovi materiali avanzati
 * [Shelf] Aggiunte 20 nuove maschere avanzate
 
 **Corretto:**
 
 * [Pila livelli] Blocco dell’interfaccia utente durante la selezione multipla dei livelli
-* [Serie di livelli] Il raggruppamento di numerosi livelli blocca l’interfaccia utente per un tempo più lungo del solito
+* [Pila livelli] Il raggruppamento di numerosi livelli blocca l’interfaccia utente più a lungo del solito
 * [Pila livelli] In alcuni casi è possibile selezionare contemporaneamente un livello e un effetto
 * I grafici delle Substance utilizzati negli strumenti di pittura non vengono generati alla risoluzione giusta
 * [Baker] Il pulsante &quot;Esegue i baking tutti i set di texture&quot; non è disattivato quando non è selezionato alcun baker
 * [MacOS] Disattiva il messaggio di avviso sulla tassellatura
 * Lo strumento Proiezione non ha un’anteprima quando viene utilizzato con una maschera
-* Arresto anomalo e danneggiamento dei progetti durante il tentativo di salvataggio con spazio su disco insufficiente
+* Arresti anomali e progetti danneggiati durante il tentativo di salvataggio con spazio su disco insufficiente
 * [Shelf] Arresto anomalo durante l&#39;importazione di una risorsa su disco tramite shelf con spazio insufficiente
 * [Shelf] Arresto anomalo durante il ripristino del predefinito di sessione
-* [Shelf] L’importazione di un predefinito con un nome che termina con uno spazio causa un arresto anomalo
-* [Shelf] L&#39;importazione di una risorsa con un prefisso che termina con uno spazio vuoto provoca un arresto anomalo
+* [Shelf] L’importazione di un predefinito con un nome che termina con uno spazio genera un arresto anomalo
+* [Shelf] L&#39;importazione di una risorsa con un prefisso che termina con uno spazio vuoto genera un arresto anomalo
 
 **Problemi noti:**
 
 * Impossibile importare file alembici con suddivisioni
-* Rari arresti anomali durante l’importazione di alcuni file Alembic
-* L’interfaccia utente temporaneamente non risponde durante la cottura in forno con DXR su GPU Pascal
+* Arresti anomali rari durante l’importazione di alcuni file Alembic
+* L’interfaccia utente temporaneamente non risponde quando si esegue i baking con DXR su GPU Pascal

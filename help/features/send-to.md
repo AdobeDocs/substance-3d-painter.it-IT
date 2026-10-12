@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/features/send-to.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come utilizzare la funzione Invia a in Substance 3D Painter per trasferire progetti e risorse ad altre applicazioni Substance 3D.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Invia a
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
-
 ---
-
 
 # Invia a
 
 ![Immagine banner](../assets/sendto_banner.jpg)
 
-<b>Invia a</b> sono azioni per esportare e importare facilmente risorse da un progetto in un&#39;altra applicazione, evitando di doverle eseguire manualmente. Invia a può essere utilizzato per esportare il modello 3D e le sue texture in un’altra applicazione di rendering o per ricevere materiali Substance da Substance 3D Designer.
+<b>Invia a</b> sono azioni per esportare e importare facilmente risorse da un progetto in un&#39;altra applicazione, evitando di doverle eseguire manualmente. Invia a può essere utilizzato per esportare il modello 3D e le sue texture in un’altra applicazione di rendering o per ricevere materiali di Substance da Substance 3D Designer.
 
 Le azioni Invia a sono disponibili tramite il menu <b>File > Invia</b> a.
 

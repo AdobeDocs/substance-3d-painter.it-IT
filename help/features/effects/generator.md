@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/it/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Scoprite come utilizzare gli effetti di generazione in Substance 3D Painter per creare automaticamente texture e pattern procedurali.
-helpx_creative_field: ''
-helpx_description: Painter > Features > Effects > Generator
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Generatori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 
 # Generatori
 
@@ -47,7 +39,7 @@ Per aggiungere un generatore a un livello:
 ![](../../assets/generators/generator_spectrum.png)
 
 Ogni generatore dispone di un set di parametri che consente di perfezionare la maschera risultante.\
-Per aggiungere generatori personalizzati nello scaffale, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Per aggiungere generatori personalizzati nello scaffale, vedere: [Aggiunta di contenuto allo scaffale](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare gli argomenti della riga di comando con Substance 3D Painter per l'automazione, lo scripting e l'integrazione della pipeline.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Command lines
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Righe di comando
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 
 # Righe di comando
 
