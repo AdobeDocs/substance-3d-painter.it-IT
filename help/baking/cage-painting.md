@@ -2,15 +2,23 @@
 title: Pittura a gabbia
 description: Scoprite come evitare artefatti e personalizzare la gabbia durante il processo di esegue i baking con l’applicazione di pittura a gabbia in Substance 3D Painter.
 hold: true
-source-git-commit: a6741dd7c792608e886e0b04ee59ebf3fe4d3285
+source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '1044'
 ht-degree: 0%
 ---
 
 # Pittura a gabbia
 
 **La pittura a gabbia** consente di pittura le aree per allontanare la gabbia eseguente i baking o avvicinarla alla superficie a poli bassi. L’applicazione del colore in gabbia consente di prevenire gli artefatti durante la eseguita i baking, catturando al contempo tutti i dettagli ad alto livello della trama.
+
+![](../assets/baking/cage-painting/splash_example.png)
+
+*Il guanto sinistro, eseguito i baking di una gabbia a base di distanza e di una distanza frontale inferiore Max, mostra artefatti eseguiti i baking, tra cui distorsione e aree in cui la gabbia interseca la trama ad alto poli, perdendo dettagli. Il guanto destro è stato eseguito i baking con le stesse impostazioni, ma con il disegno della gabbia per controllare le dimensioni della gabbia.*
+
+>[!NOTE]
+>
+> La verniciatura a gabbia suddivide automaticamente la trama della gabbia, il che significa che anche con trame a bassa risoluzione, la gabbia può essere spinta e tirata abbastanza da coprire tutti i dettagli.
 
 ## Imposta pittura a gabbia
 
@@ -24,7 +32,7 @@ Si consiglia di impostare i valori **Distanza frontale massima** e **Rispetto al
 
 >[!TIP]
 >
-> Se desiderate ricominciare a disegnare sulle gabbie da zero, potete ripristinare i parametri di colorazione delle gabbie, i tratti di colorazione delle gabbie o tutte le impostazioni di esegue i baking.
+> Se desiderate ricominciare a disegnare su una gabbia da zero, ripristinate i parametri di colorazione della gabbia, i tratti di colorazione della gabbia o tutte le impostazioni di esegue i baking.
 >
 > ![](../assets/baking/cage-painting/resetcage.png)
 
@@ -38,9 +46,15 @@ Per avviare il disegno con gabbia:
 1. Impostare il **tipo di gabbia** su **basato sulla distanza**.
 1. Fai clic su **Gabbia Pittura**.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3504611?learn=on)
+
+*Questo video mostra un nuovo progetto impostato per il disegno in gabbia. Per prima cosa si passa alla modalità di esegue i baking, quindi si seleziona una scena high-poly. Il tipo di gabbia basato sulla distanza è selezionato per impostazione predefinita, quindi è possibile iniziare subito a disegnare la gabbia.*
+
 >[!NOTE]
 >
-> Per impostazione predefinita, **Auto-rebake** è attivato per il canale normale quando si immette per la prima volta **Cage painting**. Ciò significa che la mappa normale verrà automaticamente ricaricata ogni volta che si modifica la gabbia. Se preferisci, puoi disattivare **Auto-rebake** nel [**pannello baker mappa trama**](../interface/baking-panels/mesh-map-bakers.md).
+> Per impostazione predefinita, **Auto-rebake** è attivato per il canale normale quando si immette per la prima volta **Cage painting**. Ciò significa che la mappa normale viene automaticamente ricaricata ogni volta che si modifica la gabbia. Attiva o disattiva **Auto-rebake** nel [**pannello baker mappa trama**](../interface/baking-panels/mesh-map-bakers.md).
+>
+> ![](../assets/baking/cage-painting/auto-rebake.png)
 
 Una volta attivata la modalità di disegno Gabbia, la visualizzazione predefinita nel **Riquadro di visualizzazione** mostra:
 
@@ -48,11 +62,11 @@ Una volta attivata la modalità di disegno Gabbia, la visualizzazione predefinit
 * Aree in cui il poli elevato interseca la gabbia in rosso brillante.
 * Le aree dipinte con gabbia sono di colore verde (positivo) e blu (negativo) sulla superficie con trama a basso poli.
 
-In modalità Disegno in gabbia, potete utilizzare il [**menu di visualizzazione Eseguito i baking**](baking-visualization-settings.md) nella **finestra della vista** per modificare il colore e l&#39;opacità della visualizzazione per ogni elemento oppure attivare o disattivare la visualizzazione per elementi specifici.
+In modalità Disegno in gabbia, utilizzare il [**menu di visualizzazione Eseguente i baking**](baking-visualization-settings.md) nella **finestra della vista** per personalizzare la visualizzazione di ciascun elemento.
 
 >[!NOTE]
 >
-> La visualizzazione in rosso brillante delle intersezioni di poli elevati con la gabbia è un’anteprima approssimativa e non corrisponde esattamente ai risultati finali della esegue i baking. Nella maggior parte dei casi, la visualizzazione è abbastanza accurata, ma per trame a basso poli con poligoni lunghi e sottili, può essere imprecisa ed è preferibile utilizzare **Esegue i baking rapida** o **Auto-Rebake** per verificare il risultato finale.
+> La visualizzazione in rosso brillante delle intersezioni di poli elevati con la gabbia è un’anteprima approssimativa e non corrisponde esattamente ai risultati finali della esegue i baking. Nella maggior parte dei casi, la visualizzazione è abbastanza accurata, ma per le trame a basso poli con poligoni lunghi e sottili, può essere imprecisa. Per queste trame, è preferibile utilizzare **Esegue i baking rapida** o **Rinnova automatica** per verificare il risultato finale.
 
 ## Strumenti di pittura a gabbia
 
@@ -63,9 +77,11 @@ Quando colorate la gabbia, potete utilizzare molti degli strumenti e delle scelt
 
 ### Pennello
 
-L&#39;uso del **pennello** a piena **intensità**, **flusso** e **opacità** avrà un impatto enorme sulla superficie della gabbia. Si consiglia di impostare un valore **Intensità** molto basso e di utilizzare i parametri Flusso e Opacità per controllare l’intensità del pennello.
+L&#39;uso del **pennello** a piena **intensità**, **flusso** e **opacità** ha un impatto enorme sulla superficie della gabbia. Si consiglia di impostare un valore **Intensità** molto basso e di utilizzare i parametri Flusso e Opacità per controllare l’intensità del pennello.
 
-TODO: animazione/video che mostra la differenza nell’effetto intensità
+![](../assets/baking/cage-painting/brush-strength.gif)
+
+*In questo esempio, il primo tratto del pennello è troppo forte, anche con un valore Intensità di 0,05. Dopo aver ridotto l&#39;opacità di Intensità, Flusso e Tratto, abbiamo molto più controllo sull&#39;effetto.*
 
 ### Gomma
 
@@ -75,13 +91,13 @@ Lo strumento Gomma consente di rimuovere la pittura dalla gabbia, ripristinando 
 
 Nella **modalità di colorazione delle gabbie** **modalità**, lo **strumento di riempimento poligono** presenta una funzionalità aggiuntiva, mentre nella **finestra di visualizzazione** viene visualizzato un **cursore Intensità** quando si apportano modifiche che è possibile utilizzare per regolare il valore dell&#39;ultimo set di poligoni selezionati.
 
-Questo è particolarmente utile per eseguire regolazioni per elemento utilizzando la **Modalità di riempimento trama** in scene con più trame separate.
+Questa funzione è particolarmente utile per eseguire regolazioni per elemento utilizzando la **Modalità di riempimento trama** in scene con più trame separate.
 
 >[!NOTE]
 >
-> Questa funzione funziona ripetendo l&#39;ultima operazione (applicazione del riempimento poligonale) con un valore di intensità diverso. Di conseguenza, se si esegue un’operazione diversa o si cambiano gli strumenti, il cursore scompare.
+> Questa funzione consente di eseguire nuovamente l’ultima operazione (applicazione del riempimento poligonale) con un valore di intensità diverso. Di conseguenza, se si esegue un’operazione diversa o si cambiano gli strumenti, il cursore scompare.
 
-Spesso può essere utile applicare lo stesso valore **Riempimento poligonale** a più aree della trama. Per eseguire questa operazione:
+Spesso è utile applicare lo stesso valore dipinto a gabbia a più aree della trama. Per eseguire questa operazione:
 
 1. Seleziona il primo gruppo di poligoni.
 1. Utilizza il cursore **Intensità gabbia** per regolare l’intensità dell’effetto.
@@ -91,7 +107,7 @@ Spesso può essere utile applicare lo stesso valore **Riempimento poligonale** a
 
 Il video seguente mostra questo flusso di lavoro in azione, utilizzando lo **strumento Riempimento poligonale** **strumento** con **Riempimento trama** selezionato.
 
-TODO: VIDEO
+>[!VIDEO](https://video.tv.adobe.com/v/3504621?learn=on)
 
 >[!NOTE]
 >
