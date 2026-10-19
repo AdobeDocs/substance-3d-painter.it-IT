@@ -107,7 +107,7 @@ Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i d
 
 **DXR** richiede anche la seguente configurazione minima:
 
-* **Windows 10** versione 1809; per ulteriori informazioni, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
+* **Windows 10** versione 1809; per ulteriori informazioni, vedere [questa pagina](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing)
 * **GPU con architettura Pascal** (Nvidia GeForce 10XX)
 
 >[!TIP]
