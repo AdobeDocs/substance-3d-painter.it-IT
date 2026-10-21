@@ -241,45 +241,45 @@ Riepilogo: **Questo aggiornamento è una versione principale, aggiunge una nuova
 **Aggiunto:**
 
 * Eseguo i baking, pittura a gabbia
-* &amp;lbrack;Cage Painting&amp;rbrack; Creazione di un&#39;interfaccia utente di base per la Pittura della gabbia
-* &amp;lbrack;Cage Painting&amp;rbrack; Nuove opzioni di visualizzazione della gabbia
-* &amp;lbrack;Cage Painting&amp;rbrack; Strumento Selezione/Riempimento Modificabile
-* &amp;lbrack;Cage Painting&amp;rbrack; Mostra modalità Fusione nella barra degli strumenti
-* &amp;lbrack;Cage Painting&amp;brack; modifiche interfaccia utente del cursore HDR
-* &amp;lbrack;Cage Painting&amp;rbrack; shader di visualizzazione
-* &amp;lbrack;Cage Painting&amp;rbrack; Ripristina opzioni pila
+* &lbrack;Cage Painting&rbrack; Creazione di un&#39;interfaccia utente di base per la Pittura della gabbia
+* &lbrack;Cage Painting&rbrack; Nuove opzioni di visualizzazione della gabbia
+* &lbrack;Cage Painting&rbrack; Strumento Selezione/Riempimento Modificabile
+* &lbrack;Cage Painting&rbrack; Mostra modalità Fusione nella barra degli strumenti
+* &lbrack;Cage Painting&brack; modifiche interfaccia utente del cursore HDR
+* &lbrack;Cage Painting&rbrack; shader di visualizzazione
+* &lbrack;Cage Painting&rbrack; Ripristina opzioni pila
 * Miglioramenti dello strumento Riempimento poligono
-* &amp;lbrack;Polygon Fill&amp;brack; Aggiungi patch poligonale
-* &amp;lbrack;Polygon Fill&amp;brack; Aggiungi loop poligonale
-* &amp;lbrack;Polygon Fill&amp;rbrack; supporto Simmetria con loop/Patch
-* &amp;lbrack;Polygon Fill&amp;rbrack; Simmetria anteprima bordi
-* &amp;lbrack;Polygon Fill&amp;brack; Rimuovi triangoli con loop e loop parziali
-* &amp;lbrack;Polygon Fill&amp;rbrack; Wireframe visibile solo per il set di texture attivo
-* &amp;lbrack;Riempimento poligonale&amp;rbrack; evidenziazione dei bordi rossi su triangoli non selezionabili
-* &amp;lbrack;Riempimento poligonale; Non disabilitare le opzioni della modalità di riempimento
-* &amp;lbrack;Riempimento poligono&amp;rbrack; Consenti di impostare tutte le proprietà del canale con Riempimento poligono
-* &amp;blocca;Riempimento poligono&amp;nna; Riprendi tratto precedente funziona con Riempimento poligonale
-* &amp;lbrack;Riempimento poligonale; Mostra cursore non consentito su set di texture non attivi
-* &amp;blocco;Riempimento poligono&amp;rnco; Anteprima istantanea ALT
-* &amp;lbrack;Polygon Fill&amp;rbrack; Scelta rapida da tastiera per il passaggio temporaneo a Polyloop (MAIUSC+A)
-* &amp;lbrack;Riquadro di visualizzazione&amp;rbrack; Mostra set di texture/Porzione UV selezione evidenziata
-* &amp;lbrack;Viewport&amp;rbrack; Aggiungi il supporto per Trasparenza indipendente dall&#39;ordine nella finestra della vista in tempo reale
-* &amp;lbrack;Impostazioni di visualizzazione&amp;rbrack; riorganizza le impostazioni di visualizzazione in nuovi gruppi
-* &amp;lbrack;Strumento&amp;rbrack; Aggiungi il supporto per la fusione additiva con tratti pennello
-* &amp;lbrack;Strumento&amp;rbrack; Aggiungi supporto per fusione additiva con Riempimento poligonale
-* &amp;lbrack;USD&amp;rbrack; L&#39;USD esportato con mappa di opacità rende tutto trasparente in Arnold
-* &amp;lbrack;Nvidia&amp;rbrack; Aggiungi avviso sui driver Nvidia più recenti (da 616.56 a 617.14)
+* &lbrack;Polygon Fill&brack; Aggiungi patch poligonale
+* &lbrack;Polygon Fill&brack; Aggiungi loop poligonale
+* &lbrack;Polygon Fill&rbrack; supporto Simmetria con loop/Patch
+* &lbrack;Polygon Fill&rbrack; Simmetria anteprima bordi
+* &lbrack;Polygon Fill&brack; Rimuovi triangoli con loop e loop parziali
+* &lbrack;Polygon Fill&rbrack; Wireframe visibile solo per il set di texture attivo
+* &lbrack;Riempimento poligonale&rbrack; evidenziazione dei bordi rossi su triangoli non selezionabili
+* &lbrack;Riempimento poligonale; Non disabilitare le opzioni della modalità di riempimento
+* &lbrack;Riempimento poligono&rbrack; Consenti di impostare tutte le proprietà del canale con Riempimento poligono
+* &blocca;Riempimento poligono&nna; Riprendi tratto precedente funziona con Riempimento poligonale
+* &lbrack;Riempimento poligonale; Mostra cursore non consentito su set di texture non attivi
+* &blocco;Riempimento poligono&rnco; Anteprima istantanea ALT
+* &lbrack;Polygon Fill&rbrack; Scelta rapida da tastiera per il passaggio temporaneo a Polyloop (MAIUSC+A)
+* &lbrack;Riquadro di visualizzazione&rbrack; Mostra set di texture/Porzione UV selezione evidenziata
+* &lbrack;Viewport&rbrack; Aggiungi il supporto per Trasparenza indipendente dall&#39;ordine nella finestra della vista in tempo reale
+* &lbrack;Impostazioni di visualizzazione&rbrack; riorganizza le impostazioni di visualizzazione in nuovi gruppi
+* &lbrack;Strumento&rbrack; Aggiungi il supporto per la fusione additiva con tratti pennello
+* &lbrack;Strumento&rbrack; Aggiungi supporto per fusione additiva con Riempimento poligonale
+* &lbrack;USD&rbrack; L&#39;USD esportato con mappa di opacità rende tutto trasparente in Arnold
+* &lbrack;Nvidia&rbrack; Aggiungi avviso sui driver Nvidia più recenti (da 616.56 a 617.14)
 * Aggiungi nuovo input mappa motore &quot;mesh_uv_next&quot;
 * Aggiornare i baker alla versione 3.23.0
 * Aggiornamento del motore di Substance alla versione 9.6.1
 
 **Corretto:**
 
-* &amp;lbrack;Esegui i baking&amp;rbrack; Occlusione ambientale L&#39;opzione Ignora backface per nome trama non funziona
-* &amp;lbrack;Esegue i baking&amp;rbrack; &amp;lbrack;AMD&amp;rbrack; Dispositivo perso durante la esegue i baking con trame pesanti e ad alto polio
-* &amp;lbrack;Performance&amp;rbrack; Painter nasconde l&#39;utilizzo dell&#39;VRAM
-* &amp;lbrack;Viewport&amp;rbrack; texture mancanti all’apertura di progetti su schermi HDPI
-* &amp;lbrack;Strumento&amp;rbrack; Il metodo di fusione è disattivato quando si disegna in una maschera
+* &lbrack;Esegui i baking&rbrack; Occlusione ambientale L&#39;opzione Ignora backface per nome trama non funziona
+* &lbrack;Esegue i baking&rbrack; &lbrack;AMD&rbrack; Dispositivo perso durante la esegue i baking con trame pesanti e ad alto polio
+* &lbrack;Performance&rbrack; Painter nasconde l&#39;utilizzo dell&#39;VRAM
+* &lbrack;Viewport&rbrack; texture mancanti all’apertura di progetti su schermi HDPI
+* &lbrack;Strumento&rbrack; Il metodo di fusione è disattivato quando si disegna in una maschera
 * Cartelle temporanee non eliminate dopo l’esportazione in rete
-* &amp;lbrack;USD&amp;rbrack; La geometria USD esportata viene divisa lungo i bordi UV
-* &amp;lbrack;USD&amp;rbrack; Blocco durante il caricamento di USDz in formato non valido
+* &lbrack;USD&rbrack; La geometria USD esportata viene divisa lungo i bordi UV
+* &lbrack;USD&rbrack; Blocco durante il caricamento di USDz in formato non valido
