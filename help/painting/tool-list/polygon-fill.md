@@ -76,7 +76,7 @@ Queste impostazioni controllano il modo in cui il risultato del riempimento vien
 
 >[!NOTE]
 >
-> Lo strumento supporta gli stessi metodi di fusione disponibili nella Pila livelli. Per ulteriori informazioni, consulta la [pagina della documentazione sui metodi di fusione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+> Lo strumento supporta gli stessi metodi di fusione disponibili nella Pila livelli. Per ulteriori informazioni, consulta la [pagina della documentazione sui metodi di fusione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
 ### Materiale
 
@@ -100,5 +100,5 @@ Lo strumento Riempimento poligonale può essere utilizzato in modo efficace con 
 Lo strumento presenta alcune limitazioni:
 
 * **Il riempimento del loop poligonale** e il **riempimento parziale del loop poligonale** funzionano solo su quad, quindi i triangoli e gli n-goni non possono essere riempiti con queste modalità.
-* Anche il supporto per **simmetria radiale** è limitato e potrebbe non essere affidabile. Per usare simmetria preferisci usare invece la modalità speculare. Per ulteriori informazioni, vedere la [pagina della documentazione di simmetria](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry).
+* Anche il supporto per **simmetria radiale** è limitato e potrebbe non essere affidabile. Per usare simmetria preferisci usare invece la modalità speculare. Per ulteriori informazioni, vedere la [pagina della documentazione di simmetria](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/painting/symmetry/symmetry).
 * Lo strumento riempie la geometria solo dal **set di texture attivo**. Il wireframe viene visualizzato per tale set di texture e viene aggiornato quando cambia il set di texture attivo.
