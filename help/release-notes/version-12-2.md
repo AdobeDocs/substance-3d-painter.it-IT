@@ -2,9 +2,9 @@
 title: Versione 12.2
 description: Note sulla versione 12.2
 helpx_description: "Substance 3D Painter"
-source-git-commit: 4b341d73e5dcd79cdcf601f7f12f1ffb49337b5d
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 
@@ -94,7 +94,7 @@ Lo strumento **Riempimento poligonale** è stato rielaborato con una nuova inter
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sullo strumento **Riempimento poligonale**, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Per ulteriori informazioni sullo strumento **Riempimento poligonale**, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Nuovo dipinto a gabbia in modalità di Eseguita i baking
 
@@ -158,7 +158,7 @@ La nuova **modalità di pittura a gabbia** è uno scostamento della gabbia per p
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla esegue i baking, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/baking/baking).
+> Per ulteriori informazioni sulla esegue i baking, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
 
 ### Evidenziazione di un nuovo set di texture nella finestra della vista
 
@@ -228,10 +228,58 @@ In questa versione sono state aggiunte funzioni e miglioramenti aggiuntivi:
 
   È disponibile un nuovo input mappa motore `mesh_uv_neighbor` per i materiali e i filtri Substance. Funziona come una texture di avvezione UV per trovare l&#39;altro lato di una cucitura Isola UV. I suoi canali rosso e verde memorizzano l&#39;avversione UV utilizzata per raggiungere il pixel adiacente attraverso una giunzione UV.
 
-  Per ulteriori informazioni su queste texture di motori, vedere la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Per ulteriori informazioni su queste texture di motori, vedere la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Note sulla versione
 
 ### 12.2.0
 
-Disponibile a breve.
+Data di pubblicazione: **2026/10/21**
+
+Riepilogo: **Questo aggiornamento è una versione principale, aggiunge una nuova funzionalità di pittura in gabbia per la esegue i baking e apporta miglioramenti alla funzionalità di riempimento poligono. Per ulteriori dettagli, vedere le note sulla versione complete.**
+
+**Aggiunto:**
+
+* Eseguo i baking, pittura a gabbia
+* &amp;lbrack;Cage Painting&amp;rbrack; Creazione di un&#39;interfaccia utente di base per la Pittura della gabbia
+* &amp;lbrack;Cage Painting&amp;rbrack; Nuove opzioni di visualizzazione della gabbia
+* &amp;lbrack;Cage Painting&amp;rbrack; Strumento Selezione/Riempimento Modificabile
+* &amp;lbrack;Cage Painting&amp;rbrack; Mostra modalità Fusione nella barra degli strumenti
+* &amp;lbrack;Cage Painting&amp;brack; modifiche interfaccia utente del cursore HDR
+* &amp;lbrack;Cage Painting&amp;rbrack; shader di visualizzazione
+* &amp;lbrack;Cage Painting&amp;rbrack; Ripristina opzioni pila
+* Miglioramenti dello strumento Riempimento poligono
+* &amp;lbrack;Polygon Fill&amp;brack; Aggiungi patch poligonale
+* &amp;lbrack;Polygon Fill&amp;brack; Aggiungi loop poligonale
+* &amp;lbrack;Polygon Fill&amp;rbrack; supporto Simmetria con loop/Patch
+* &amp;lbrack;Polygon Fill&amp;rbrack; Simmetria anteprima bordi
+* &amp;lbrack;Polygon Fill&amp;brack; Rimuovi triangoli con loop e loop parziali
+* &amp;lbrack;Polygon Fill&amp;rbrack; Wireframe visibile solo per il set di texture attivo
+* &amp;lbrack;Riempimento poligonale&amp;rbrack; evidenziazione dei bordi rossi su triangoli non selezionabili
+* &amp;lbrack;Riempimento poligonale; Non disabilitare le opzioni della modalità di riempimento
+* &amp;lbrack;Riempimento poligono&amp;rbrack; Consenti di impostare tutte le proprietà del canale con Riempimento poligono
+* &amp;blocca;Riempimento poligono&amp;nna; Riprendi tratto precedente funziona con Riempimento poligonale
+* &amp;lbrack;Riempimento poligonale; Mostra cursore non consentito su set di texture non attivi
+* &amp;blocco;Riempimento poligono&amp;rnco; Anteprima istantanea ALT
+* &amp;lbrack;Polygon Fill&amp;rbrack; Scelta rapida da tastiera per il passaggio temporaneo a Polyloop (MAIUSC+A)
+* &amp;lbrack;Riquadro di visualizzazione&amp;rbrack; Mostra set di texture/Porzione UV selezione evidenziata
+* &amp;lbrack;Viewport&amp;rbrack; Aggiungi il supporto per Trasparenza indipendente dall&#39;ordine nella finestra della vista in tempo reale
+* &amp;lbrack;Impostazioni di visualizzazione&amp;rbrack; riorganizza le impostazioni di visualizzazione in nuovi gruppi
+* &amp;lbrack;Strumento&amp;rbrack; Aggiungi il supporto per la fusione additiva con tratti pennello
+* &amp;lbrack;Strumento&amp;rbrack; Aggiungi supporto per fusione additiva con Riempimento poligonale
+* &amp;lbrack;USD&amp;rbrack; L&#39;USD esportato con mappa di opacità rende tutto trasparente in Arnold
+* &amp;lbrack;Nvidia&amp;rbrack; Aggiungi avviso sui driver Nvidia più recenti (da 616.56 a 617.14)
+* Aggiungi nuovo input mappa motore &quot;mesh_uv_next&quot;
+* Aggiornare i baker alla versione 3.23.0
+* Aggiornamento del motore di Substance alla versione 9.6.1
+
+**Corretto:**
+
+* &amp;lbrack;Esegui i baking&amp;rbrack; Occlusione ambientale L&#39;opzione Ignora backface per nome trama non funziona
+* &amp;lbrack;Esegue i baking&amp;rbrack; &amp;lbrack;AMD&amp;rbrack; Dispositivo perso durante la esegue i baking con trame pesanti e ad alto polio
+* &amp;lbrack;Performance&amp;rbrack; Painter nasconde l&#39;utilizzo dell&#39;VRAM
+* &amp;lbrack;Viewport&amp;rbrack; texture mancanti all’apertura di progetti su schermi HDPI
+* &amp;lbrack;Strumento&amp;rbrack; Il metodo di fusione è disattivato quando si disegna in una maschera
+* Cartelle temporanee non eliminate dopo l’esportazione in rete
+* &amp;lbrack;USD&amp;rbrack; La geometria USD esportata viene divisa lungo i bordi UV
+* &amp;lbrack;USD&amp;rbrack; Blocco durante il caricamento di USDz in formato non valido
