@@ -94,7 +94,7 @@ Lo strumento **Riempimento poligonale** è stato rielaborato con una nuova inter
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sullo strumento **Riempimento poligonale**, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Per ulteriori informazioni sullo strumento **Riempimento poligonale**, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Nuovo dipinto a gabbia in modalità di Eseguita i baking
 
@@ -158,7 +158,7 @@ La nuova **modalità di pittura a gabbia** è uno scostamento della gabbia per p
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla esegue i baking, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
+> Per ulteriori informazioni sulla esegue i baking, consultate la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/baking/baking).
 
 ### Evidenziazione di un nuovo set di texture nella finestra della vista
 
@@ -228,7 +228,7 @@ In questa versione sono state aggiunte funzioni e miglioramenti aggiuntivi:
 
   È disponibile un nuovo input mappa motore `mesh_uv_neighbor` per i materiali e i filtri Substance. Funziona come una texture di avvezione UV per trovare l&#39;altro lato di una cucitura Isola UV. I suoi canali rosso e verde memorizzano l&#39;avversione UV utilizzata per raggiungere il pixel adiacente attraverso una giunzione UV.
 
-  Per ulteriori informazioni su queste texture di motori, vedere la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Per ulteriori informazioni su queste texture di motori, vedere la [pagina dedicata alla documentazione](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Note sulla versione
 
