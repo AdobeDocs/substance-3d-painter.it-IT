@@ -4,22 +4,20 @@ description: Esamina i problemi noti per Substance 3D Painter per ricevere infor
 title: Problemi noti
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '932'
 ht-degree: 0%
 ---
 
 # Problemi noti
 
-Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5 di Substance 3D Painter:
+Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.2.0 di Substance 3D Painter:
 
 * `[Baking]` AO errato su cubi semplici
 * L&#39;interpretazione del suffisso `[Baking]` corrispondente per nome è errata
 * Le cuciture Uv di `[Baking]` non vengono visualizzate dopo la reimportazione di mes
 * `[Baking]` artefatti di tipo griglia con alcune impostazioni
-* L&#39;Occlusione ambientale di `[Baking]` Ignora backface per nome trama non funziona
-* `[Baking]` `[AMD]` Dispositivo perso durante la esegue i baking con trame poly alte pesanti
 
 * `[Substance]` Diversi errori ortografici nelle risorse
 * `[Substance]` condizione di spazio vuoto interrotto per visibilità
@@ -33,10 +31,6 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 * `[Color Management]` Associazioni incompatibili con il generatore non utilizzate nella maschera
 * L&#39;output del filtro `[Color Management]` non viene considerato correttamente
 * Le conversioni di `[Color Management]` dello spazio cromatico HDR con ACE su Linux producono colori bloccati
-
-* `[USD]` Assegnazione usda errata in alcuni casi
-* `[USD]` La geometria USD esportata è scivolata lungo i bordi UV
-* `[USD]` Blocco durante il caricamento di USDz non validi
 
 * Le risorse `[Shelf]` ottengono l&#39;utilizzo errato se inserite in una cartella con un nome specifico
 * `[Shelf]` `[Substance]` Dati utente non considerati per la generazione della miniatura di shelf
@@ -52,6 +46,12 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 
 * Il progetto `[Single Channel View]` salvato nella visualizzazione colore di base appare più scuro dopo l&#39;aggiornamento della versione di Painter
 * Il progetto `[Single Channel View]` salvato nella visualizzazione colore di base appare più scuro dopo l&#39;aggiornamento della versione di Painter
+
+* `[Viewport]` Ritardo del cursore nella parte inferiore della finestra della vista della modalità di esegue i baking
+* `[Viewport]` Il trascinamento della selezione di riempimento poligono da una finestra all&#39;altra può causare ritardi nella finestra della vista
+
+* `[Cage Painting]` Fori della geometria della gabbia quando si dipinge su un&#39;Isola UV
+* `[Cage Painting]` problema di prestazioni nella finestra della vista in modalità di esegue i baking in Mac
 
 * `[gltf]`: impossibile aprire i file esportati tramite l&#39;Esportazione di Babilonia
 * `[Displacement]` difetto durante il disegno
@@ -89,12 +89,17 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 * L&#39;anteprima dello spazio per il mixaggio dei colori `[User Channels]` non è corretta
 * La selezione della geometria `[Mask]` è ancora attiva dopo il passaggio alla modalità di esegue i baking
 * `[Sonoma]` icone non visualizzate nei menu
+* `[USD]` Assegnazione usda errata in alcuni casi
 * `[Polygon Fill]` La modifica dello spazio colore del colore di base non aggiorna il selettore colore
 * `[UV Padding]` artefatti durante l&#39;aumento di texture da 4k a 8k all&#39;esportazione
-* `[Performances]` Painter nasconde l&#39;utilizzo dell&#39;VRAM
 * `[FBX]` problemi di scala
 * È possibile selezionare `[Texture set list]` Porzioni UV contemporaneamente a un set di texture
-* `[Viewport]` Ritardo del cursore nella parte inferiore della finestra della vista della modalità di esegue i baking
+* `[Paint Properties]` Il clic con il pulsante destro del mouse nella finestra Proprietà pittura non apre il menu popup predefinito
+* `[MACOS]` `[Subsurface Scattering]` Rumore di memoria con alcuni valori di Scala raggio SS
+* `[Mac]` Il filtro Mipmap da Texture nelle impostazioni di visualizzazione non ha alcun effetto
+* Il popup di salvataggio di `[Project]` viene visualizzato alla chiusura anche quando il progetto non è stato modificato
+* `[Library]` Painter può bloccarsi durante la generazione delle miniature delle mappe dell&#39;ambiente
+* `[Windows]` `[Nvidia]` La generazione di pennelli e anteprime di materiale può portare a un TDR.
 * Le risorse non quadrate vengono allungamento quando vengono utilizzate negli slot del canale del pennello
 * Impossibile decodificare la sostanza
 * Gli UV non perfettamente sovrapposti possono creare artefatti
@@ -113,6 +118,7 @@ Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.1.5
 * Le modifiche dei parametri del pennello dalla barra degli strumenti contestuale non vengono visualizzate nella cronologia
 * Impossibile rinominare o eliminare i predefiniti di esportazione se li hai già eliminati e ricreati in questa sessione
 * La mappatura dei canali in alcuni casi non funziona per l’anteprima dello strumento di proiezione
+* L’errore di corrispondenza trama non ignora gli altri criteri alti quando l’opzione Corrispondenza per nome e l’insieme di texture selezionato sono solo attivati
 
 ## Stabilità
 
