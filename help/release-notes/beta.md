@@ -21,4 +21,4 @@ Aggiunto:
 
 Fisso:
 
-* &amp;lbrack;Esegui i baking&amp;rbrack; problema di prestazioni nella finestra della vista della modalità di esegue i baking in Mac con il disegno con gabbia.
+* &lbrack;Esegui i baking&rbrack; problema di prestazioni nella finestra della vista della modalità di esegue i baking in Mac con il disegno con gabbia.
