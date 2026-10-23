@@ -4,10 +4,10 @@ description: Inizia a utilizzare Substance 3D Painter per creare texture diretta
 title: Substance 3D Painter
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 99552782763c4f8313c5f8e7aeeb3a860ecf943d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 9%
+ht-degree: 10%
 ---
 
 # Substance 3D Painter
@@ -20,7 +20,7 @@ Substance 3D Painter è un software per la pittura 3D che consente di eseguire t
 
 Questa documentazione è progettata per aiutarti a imparare a utilizzare questo software, dalle tecniche di base a quelle avanzate.
 
-Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle sul nostro [forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://helpx.adobe.com/it/substance-3d/unlisted/tutorials.html) per ulteriori informazioni su PBR.
+Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle sul nostro [forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) per ulteriori informazioni su PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 ### Contenuti
 
 * [Creazione di effetti personalizzati](content/creating-custom-effects/creating-custom-effects.md)
-* [Importazione delle risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importazione delle risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Funzionalità
 
@@ -104,7 +104,7 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 
 ### Scripting e sviluppo
 
-* [Script e plug-in](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Script e plug-in](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Supporto tecnico
 
@@ -116,7 +116,6 @@ Se hai domande a cui non hai risposto in questo manuale, non esitare a chiederle
 ### Note sulla versione
 
 * [Tutte le modifiche](release-notes/all-changes.md)
-* [Versione 11.1](release-notes/version-11-1.md)
-* [Versione 11.0](release-notes/version-11-0.md)
-* [Versione 10.1](release-notes/version-10-1.md)
-
+* [Versione 12.2](release-notes/version-12-2.md)
+* [Versione 12.1](release-notes/version-12-1.md)
+* [Versione 12.0](release-notes/version-12-0.md)
