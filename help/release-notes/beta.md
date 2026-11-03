@@ -19,13 +19,13 @@ Data di pubblicazione: **29 ottobre 2026**
 
 **Aggiunto**:
 
-* &amp;lbrack;Eseguite i baking&amp;rbrack; La visualizzazione dell&#39;errore Highpoly Matching utilizza Match-by-Name
+* &lbrack;Eseguite i baking&rbrack; La visualizzazione dell&#39;errore Highpoly Matching utilizza Match-by-Name
 
 **Risolto**:
 
-* &amp;lbrack;Python&amp;rbrack; Alcune funzioni deprecate generano un avviso ma non indicano chi sono
-* &amp;lbrack;Esegui i baking&amp;rbrack; La geometria della gabbia può presentare fori quando si disegna su un&#39;Isola UV
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Esegui i baking&amp;rbrack; Problema di prestazioni nella finestra della vista della modalità di esegue i baking con l&#39;uso del cage painting
+* &lbrack;Python&rbrack; Alcune funzioni deprecate generano un avviso ma non indicano chi sono
+* &lbrack;Esegui i baking&rbrack; La geometria della gabbia può presentare fori quando si disegna su un&#39;Isola UV
+* &lbrack;Mac&rbrack;&lbrack;Esegui i baking&rbrack; Problema di prestazioni nella finestra della vista della modalità di esegue i baking con l&#39;uso del cage painting
 
 ### **Build 1**
 
@@ -37,4 +37,4 @@ Data di pubblicazione: **21 ottobre 2026**
 
 **Risolto**:
 
-* &amp;lbrack;Esegui i baking&amp;rbrack; problema di prestazioni nella finestra della vista della modalità di esegue i baking in Mac con il disegno con gabbia.
+* &lbrack;Esegui i baking&rbrack; problema di prestazioni nella finestra della vista della modalità di esegue i baking in Mac con il disegno con gabbia.
