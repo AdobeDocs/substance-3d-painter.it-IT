@@ -1,7 +1,7 @@
 ---
 description: Scoprite la versione beta corrente di Substance 3D Painter, con le nuove funzioni e un registro delle modifiche completo.
 title: Versione beta
-source-git-commit: 1df909bd0658eac40b726b493e73758e64c01d16
+source-git-commit: d84430d131a0857e981006698faf536d59aa707b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -15,17 +15,17 @@ Questa versione beta di Substance 3D Painter aggiunge il supporto nativo per i s
 
 ### **Build 2**
 
-Data di pubblicazione: **29 ottobre 2026**
+Data di pubblicazione: **2 novembre 2026**
 
 **Aggiunto**:
 
-* &lbrack;Eseguite i baking&rbrack; La visualizzazione dell&#39;errore Highpoly Matching utilizza Match-by-Name
+* &amp;lbrack;Eseguite i baking&amp;rbrack; La visualizzazione dell&#39;errore Highpoly Matching utilizza Match-by-Name
 
 **Risolto**:
 
-* &lbrack;Python&rbrack; Alcune funzioni deprecate generano un avviso ma non indicano chi sono
-* &lbrack;Esegui i baking&rbrack; La geometria della gabbia può presentare fori quando si disegna su un&#39;Isola UV
-* &lbrack;Mac&rbrack;&lbrack;Esegui i baking&rbrack; Problema di prestazioni nella finestra della vista della modalità di esegue i baking con l&#39;uso del cage painting
+* &amp;lbrack;Python&amp;rbrack; Alcune funzioni deprecate generano un avviso ma non indicano chi sono
+* &amp;lbrack;Esegui i baking&amp;rbrack; La geometria della gabbia può presentare fori quando si disegna su un&#39;Isola UV
+* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Esegui i baking&amp;rbrack; Problema di prestazioni nella finestra della vista della modalità di esegue i baking con l&#39;uso del cage painting
 
 ### **Build 1**
 
@@ -37,4 +37,4 @@ Data di pubblicazione: **21 ottobre 2026**
 
 **Risolto**:
 
-* &lbrack;Esegui i baking&rbrack; problema di prestazioni nella finestra della vista della modalità di esegue i baking in Mac con il disegno con gabbia.
+* &amp;lbrack;Esegui i baking&amp;rbrack; problema di prestazioni nella finestra della vista della modalità di esegue i baking in Mac con il disegno con gabbia.
