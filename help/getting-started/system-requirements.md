@@ -4,9 +4,9 @@ description: Verifica i requisiti di sistema di Substance 3D Painter per verific
 title: Requisiti di sistema
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
+source-git-commit: 0937bc291815e86b7a33d804729dbef599748d13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '798'
 ht-degree: 1%
 ---
 
@@ -56,9 +56,8 @@ Per ottenere buone prestazioni durante l’utilizzo del flusso di lavoro Porzion
 Varie:
 
 * Molte app Substance dipendono da OpenSSL 1.1.1 per la compatibilità con RHEL8/9. Per i sistemi con versioni OpenSSL più recenti, il cliente dovrà fornirlo manualmente
-* Per lavorare in condizioni ottimali, consigliamo un monitor con una risoluzione verticale superiore a 1000 pixel e superiore a 1280 pixel.
-* L&#39;esportazione a **8K** (8192\*8192 pixel) richiede una GPU con **più di** 2 GB di VRam.
-* Solo le versioni 2019.x e successive sono state autenticate per essere eseguite su MacOS 10.15 (Catalina).
+* Per condizioni di lavoro ottimali, consigliamo un monitor con risoluzione verticale superiore a 1000 pixel e maggiore di 1280 pixel.
+* L&#39;esportazione a **8K** (8192\*8192 pixel) non è disponibile su GPU con **meno di** 2 GB di VRAM.
 * Per utilizzare il software tramite RDP (Desktop remoto), vedere la [pagina della documentazione](../pipeline-and-integration/configuration/remote-desktop.md) dedicata.
 * L&#39;Arresto anomalo sulla CPU Ryzen durante la esegue i baking può essere risolto aggiornando il BIOS.
 
