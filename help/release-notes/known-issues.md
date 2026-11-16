@@ -4,9 +4,9 @@ description: Esamina i problemi noti per Substance 3D Painter per ricevere infor
 title: Problemi noti
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
+source-git-commit: a03b6eb503f036d0ea991ebffe4996fde2f0ffb9
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 0%
 Questa pagina elenca tutti i problemi noti attivi presenti nella versione 12.2.0 di Substance 3D Painter:
 
 * `[Baking]` AO errato su cubi semplici
-* L&#39;interpretazione del suffisso `[Baking]` corrispondente per nome è errata
 * Le cuciture Uv di `[Baking]` non vengono visualizzate dopo la reimportazione di mes
 * `[Baking]` artefatti di tipo griglia con alcune impostazioni
 
