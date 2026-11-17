@@ -4,9 +4,9 @@ description: Scoprite come utilizzare gli input basati su trama negli effetti pe
 title: Input basato su trama
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 4432887b652896f77fc3c99010436ef44aeb8a3e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '279'
 ht-degree: 1%
 ---
 
@@ -28,3 +28,4 @@ L’input basato su trama è una texture fornita dal motore di Substance 3D Pain
 | *World Space Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Recuperate una texture contenente il vertice bi-tangente (bi-normale) nello spazio mondo. |
 | *Dimensione Textel (Scala Di Grigi)* | **mesh\_texel\_size** | **meshTexelSize** | Recuperate una texture contenente la dimensione del testo (differenza tra la densità dei pixel e la trama UV). |
 | *Maschera UV (scala di grigi)* | **trama\_uv\_mask** | **meshUVMask** | Recuperate una texture come maschera nera (esterna) e bianca (interna) delle Isole UV della trama. |
+| *Vicina UV (RGB)* | **mesh\_uv\_next** | **meshUVNighbor** | Recuperare una texture con due informazioni. L&#39;interno delle Isole UV memorizza le coordinate UV regolari. La parte esterna delle Isole UV memorizza le coordinate UV del pixel sull&#39;altro lato delle giunture UV. Questa texture può essere utilizzata per creare effetti uniformi. |
